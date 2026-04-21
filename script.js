@@ -258,7 +258,7 @@ const dictionaryData = [
 function playAudio(text, lang) {
   if (!text) return;
   // Xóa bớt các ký tự đặc biệt để Google đọc mượt hơn
-  const cleanText = text.replace(/【|】|（|）|\(|\)|<br>|：/g, " ");
+  const cleanText = text.replace(/[【】()（）:<br>]/g, " ");
   const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${lang}&client=tw-ob`;
   
   const audio = new Audio();
