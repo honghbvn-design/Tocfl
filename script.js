@@ -271,59 +271,59 @@ function playAudio(text, lang) {
 }
 
 // 3. HÀM HIỂN THỊ CHI TIẾT
+// 3. HÀM HIỂN THỊ CHI TIẾT
 function displayWords(data) {
   const container = document.getElementById('dictionary-container');
   if (!container) return;
   
   container.innerHTML = data.map(item => `
-    <div class="word-card" style="border:1px solid #ddd; padding:25px; margin:20px 0; border-radius:15px; background:#fff; box-shadow: 0 5px 15px rgba(0,0,0,0.08); font-family: 'Arial', sans-serif;">
-      
-      <span style="float:right; background:#3498db; color:white; padding:5px 12px; border-radius:20px; font-size:12px; font-weight:bold;">${item.level}</span>
-      
-      <h1 style="color:#e74c3c; margin:0 0 10px 0; display:flex; align-items:center;">
-        ${item.word}
-        <button onclick="playAudio('${item.word.split('/')[0]}', 'zh-TW')" style="margin-left:15px; cursor:pointer; background:none; border:none; font-size:24px;">🔊</button>
+    <div class="word-card">
+      <span class="badge">${item.level}</span>
+      <h1 class="word-head">
+        ${item.word} 
+        <button onclick="playAudio('${item.word.split('/')[0].trim()}', 'zh-TW')">🔊</button>
       </h1>
-
-      <p style="color:#2980b9; font-weight:bold; font-size:1.2em; margin:5px 0;">${item.pinyin}</p>
-      <p style="margin:5px 0;"><strong>Hán Việt:</strong> ${item.hanViet}</p>
+      <p class="pinyin">${item.pinyin}</p>
+      <p><strong>Hán Việt:</strong> ${item.hanViet}</p>
       
-      <div style="background:#fff5f5; padding:15px; border-radius:10px; margin:15px 0; border-left:5px solid #e74c3c;">
-        <p style="margin:0; line-height:1.6;">
-          <strong style="font-size:1.1em;">Giải thích (解釋):</strong> 
-          <button onclick="playAudio('${item.explanation}', 'zh-TW')" style="cursor:pointer; background:none; border:none; font-size:16px;">🔊</button>
-          <br>${item.explanation}
-        </p>
+      <div class="content-section" style="border-left: 5px solid #b22222;">
+        <span class="label">GIẢI THÍCH (解釋):</span>
+        <p>${item.explanation}</p>
       </div>
 
-      <div style="margin:15px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-        <div style="background:#f9f9f9; padding:10px; border-radius:8px;"><strong>Nghĩa đen:</strong> ${item.den}</div>
-        <div style="background:#f9f9f9; padding:10px; border-radius:8px;"><strong>Nghĩa bóng:</strong> ${item.bong}</div>
+      <div style="display: flex; gap: 10px; margin: 10px 0;">
+        <div class="content-section" style="flex:1;"><strong>Nghĩa đen:</strong> ${item.den}</div>
+        <div class="content-section" style="flex:1;"><strong>Nghĩa bóng:</strong> ${item.bong}</div>
       </div>
 
-      <div style="background:#f0f7ff; padding:15px; border-radius:10px; margin:15px 0;">
-        <p style="margin-bottom:10px; color:#2c3e50; font-weight:bold; font-size:1.1em;">Ví dụ (例子):</p>
+      <div class="content-section" style="background: #f0f7ff;">
+        <span class="label">VÍ DỤ (例子):</span>
         ${item.examples.map(ex => `
-          <div style="margin-bottom:15px; border-bottom:1px dashed #d0e0f0; padding-bottom:10px;">
-            <div style="font-size:1.2em; color:#333; display:flex; align-items:center; font-weight:500;">
-              ${ex.tc}
-              <button onclick="playAudio('${ex.tc}', 'zh-TW')" style="margin-left:10px; cursor:pointer; background:none; border:none; font-size:18px;">🔊</button>
-            </div>
-            <div style="color:#7f8c8d; font-size:0.95em; margin:3px 0;">${ex.py}</div>
-            <div style="color:#27ae60; font-weight:500;">${ex.vn}</div>
+          <div style="margin-bottom: 10px;">
+            <div class="example-zh">${ex.tc} <button onclick="playAudio('${ex.tc}', 'zh-TW')">🔊</button></div>
+            <div style="font-size: 0.9em; color: #666;">${ex.py}</div>
+            <div class="example-vi">${ex.vn}</div>
           </div>
         `).join('')}
       </div>
 
-      <p style="color:#d35400; font-weight:bold; font-size:1.1em; display:flex; align-items:center;">
-        💡 Thành ngữ / Tục ngữ:
-        <span style="margin-left:10px; color:#333; font-weight:normal;">${item.idiom}</span>
-        <button onclick="playAudio('${item.idiom.split('-')[0]}', 'zh-TW')" style="margin-left:8px; cursor:pointer; background:none; border:none; font-size:16px;">🔊</button>
-      </p>
-
+      <div class="content-section" style="border: none;">
+        <strong>💡 Thành ngữ:</strong> ${item.idiom}
+      </div>
     </div>
   `).join('');
 }
 
-// KHỞI CHẠY
+// 4. HÀM TÌM KIẾM
+function searchDict() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const filteredData = dictionaryData.filter(item => 
+        item.word.toLowerCase().includes(input) || 
+        item.hanViet.toLowerCase().includes(input) ||
+        item.pinyin.toLowerCase().includes(input)
+    );
+    displayWords(filteredData);
+}
+
+// KHỞI CHẠY LẦN ĐẦU
 displayWords(dictionaryData);
