@@ -254,20 +254,28 @@ const dictionaryData = [
   }
 ];
 
-// 2. HÀM ÂM THANH (SỬ DỤNG PHƯƠNG PHÁP MỚI ĐỂ TRÁNH BỊ CHẶN)
+// 2. HÀM ÂM THANH (DÙNG WEB SPEECH API - CỰC KỲ ỔN ĐỊNH)
 function playAudio(text, lang) {
   if (!text) return;
-  // Xóa bớt các ký tự đặc biệt để Google đọc mượt hơn
-  const cleanText = text.replace(/[【】()（）:<br>]/g, " ");
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${lang}&client=tw-ob`;
+
+  // Dừng mọi giọng nói đang phát dở để không bị chồng chéo
+  window.speechSynthesis.cancel();
+
+  // Làm sạch văn bản trước khi đọc
+  const cleanText = text.replace(/[【】()（）:<br>]/g, " ").trim();
   
-  const audio = new Audio();
-  audio.src = url;
-  audio.play().catch(err => {
-    console.log("Không thể phát âm thanh: ", err);
-    // Nếu bị chặn, thử mở trong tab mới như một giải pháp dự phòng
-    // window.open(url, '_blank'); 
-  });
+  const utterance = new SpeechSynthesisUtterance(cleanText);
+
+  // Thiết lập ngôn ngữ chuẩn
+  // Nếu lang là 'zh-TW' thì dùng giọng Trung, ngược lại dùng tiếng Việt
+  utterance.lang = lang; 
+
+  // Tốc độ đọc (0.8 là chậm rãi, phù hợp cho sinh viên học ngoại ngữ)
+  utterance.rate = 0.85; 
+  utterance.pitch = 1;
+
+  // Thực hiện lệnh đọc
+  window.speechSynthesis.speak(utterance);
 }
 
 // 3. HÀM HIỂN THỊ CHI TIẾT
