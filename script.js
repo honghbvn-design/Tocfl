@@ -225,7 +225,7 @@ function playAudio(text, lang) {
   const cleanText = text.replace(/[【】()（）:<br>]/g, " ").trim();
   const utterance = new SpeechSynthesisUtterance(cleanText);
   utterance.lang = lang;
-  utterance.rate = 0.85;
+  utterance.rate = 0.7;
   window.speechSynthesis.speak(utterance);
 }
 
