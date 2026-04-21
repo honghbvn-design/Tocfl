@@ -234,12 +234,22 @@ function displayWords(data) {
   const container = document.getElementById('dictionary-container');
   if (!container) return;
   
-  container.innerHTML = data.map(item => `
+  container.innerHTML = data.map(item => {
+    // Tách các từ nếu có dấu gạch chéo (ví dụ: "埋怨 / 抱怨")
+    const wordsArray = item.word.split('/');
+    
+    // Tạo HTML cho tiêu đề: mỗi từ đi kèm với 1 nút loa riêng
+    const wordHeaderHtml = wordsArray.map(w => {
+      const trimmedWord = w.trim();
+      return `${trimmedWord} <button onclick="playAudio('${trimmedWord}', 'zh-TW')" style="cursor:pointer; border:none; background:none; font-size:24px; vertical-align: middle;">🔊</button>`;
+    }).join(' <span style="color:#ccc; margin: 0 10px;">/</span> ');
+
+    return `
     <div class="word-card">
       <span class="badge">${item.level}</span>
-      <h1 class="word-head">
-        ${item.word} 
-        <button onclick="playAudio('${item.word.split('/')[0].trim()}', 'zh-TW')">🔊</button>
+      
+      <h1 class="word-head" style="color:#e74c3c; margin:0 0 10px 0;">
+        ${wordHeaderHtml}
       </h1>
       
       <div style="margin-bottom: 10px;">
@@ -263,7 +273,10 @@ function displayWords(data) {
         <span class="label">VÍ DỤ:</span>
         ${item.examples.map(ex => `
           <div style="margin-bottom: 10px;">
-            <div class="example-zh">${ex.tc} <button onclick="playAudio('${ex.tc}', 'zh-TW')">🔊</button></div>
+            <div class="example-zh">
+              ${ex.tc} 
+              <button onclick="playAudio('${ex.tc}', 'zh-TW')" style="cursor:pointer; border:none; background:none; font-size:18px;">🔊</button>
+            </div>
             <div style="font-size: 0.9em; color: #666;">${ex.py}</div>
             <div class="example-vi">${ex.vn}</div>
           </div>
@@ -274,7 +287,8 @@ function displayWords(data) {
         <strong>💡 Thành ngữ:</strong> ${item.idiom}
       </div>
     </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 // 4. HÀM TÌM KIẾM
