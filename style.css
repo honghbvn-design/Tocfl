@@ -22,3 +22,32 @@ body { background: #f0f2f5; font-family: 'Segoe UI', Arial, sans-serif; margin: 
 .label { font-size: 11px; color: #b22222; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 5px; }
 .example-zh { font-size: 18px; color: #2d3436; display: block; margin-top: 10px; font-weight: 500; }
 .example-vi { font-size: 15px; color: #636e72; font-style: italic; }
+.compound-tag {
+    background: #e74c3c;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.compound-tag:hover {
+    background: #c0392b;
+}
+.ex-phonetic {
+    font-size: 0.85em;
+    color: #2980b9;
+    margin: 2px 0;
+}
+.ex-ipa {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-left: 8px;
+}
+.audio-btn, .audio-btn-sm {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.audio-btn { font-size: 24px; vertical-align: middle; }
+.audio-btn-sm { font-size: 16px; }
