@@ -6014,15 +6014,52 @@ function displayWords(data) {
 }
 
 // ==========================================
-// 5. HÀM TÌM KIẾM
+// 5. HÀM TÌM KIẾM (ĐÃ NÂNG CẤP PINYIN KHÔNG DẤU)
 // ==========================================
+// Hàm hỗ trợ: Lọc bỏ toàn bộ dấu và ký tự đặc biệt của Pinyin
+function removeTones(str) {
+    if (!str) return "";
+    return str.normalize('NFD')                 // Tách dấu ra khỏi chữ
+              .replace(/[\u0300-\u036f]/g, '')  // Xóa các dấu thanh
+              .replace(/[ǚǜǘǖ]/g, 'u')         // Đưa chữ u có hai chấm về u thường
+              .replace(/ü/g, 'u')               // Đưa ü về u
+              .replace(/\s+/g, '');             // Xóa khoảng trắng (để gõ dính liền vẫn tìm được)
+}
+
 function searchDict() {
-    const input = document.getElementById('searchInput').value.toLowerCase();
-    const filteredData = dictionaryData.filter(item => 
-        item.word.toLowerCase().includes(input) || 
-        item.hanViet.toLowerCase().includes(input) ||
-        item.pinyin.toLowerCase().includes(input)
-    );
+    const rawInput = document.getElementById('searchInput').value.trim().toLowerCase();
+    
+    // Nếu ô tìm kiếm trống, hiển thị lại toàn bộ từ điển
+    if (!rawInput) {
+        displayWords(dictionaryData);
+        return;
+    }
+
+    // Input đã lọc sạch dấu và khoảng trắng để so sánh Pinyin
+    const cleanInput = removeTones(rawInput);
+
+    const filteredData = dictionaryData.filter(item => {
+        // 1. Tìm theo chữ Hán
+        if (item.word.toLowerCase().includes(rawInput)) return true;
+        
+        // 2. Tìm theo Hán Việt
+        if (item.hanViet && item.hanViet.toLowerCase().includes(rawInput)) return true;
+        
+        // 3. Tìm theo Pinyin (Có dấu, gõ chính xác)
+        if (item.pinyin && item.pinyin.toLowerCase().includes(rawInput)) return true;
+        
+        // 4. Tìm theo Pinyin (KHÔNG DẤU, VIẾT LIỀN - Tính năng mới)
+        if (item.pinyin) {
+            const cleanPinyin = removeTones(item.pinyin.toLowerCase());
+            if (cleanPinyin.includes(cleanInput)) return true;
+        }
+
+        // 5. Tìm theo Nghĩa Tiếng Việt (Explanation)
+        if (item.explanation && item.explanation.toLowerCase().includes(rawInput)) return true;
+
+        return false;
+    });
+
     displayWords(filteredData);
 }
 
