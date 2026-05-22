@@ -6065,3 +6065,349 @@ function searchDict() {
 
 // KHỞI CHẠY LẦN ĐẦU
 displayWords(dictionaryData);
+
+// ==========================================
+// 6. LUYỆN NÓI & BỘ CÂU HỎI TRẮC NGHIỆM (FONT TO - 3 CÂU HỎI)
+// ==========================================
+
+const dialogueData = [
+  {
+    title: "Hội thoại 1: Giao lưu và đón bạn mới",
+    lesson: "Bài 1",
+    level: "TOCFL Band A",
+    content: [
+      { sp: "林小姐", gender: "female", zh: "請問，你是王先生嗎？", py: "Qǐngwèn, nǐ shì Wáng xiānshēng ma?", vn: "Xin hỏi, anh là ông Vương phải không?" },
+      { sp: "王先生", gender: "male", zh: "是的。請問你貴姓？", py: "Shìde. Qǐngwèn nǐ guìxìng?", vn: "Vâng đúng vậy. Xin hỏi cô họ gì?" },
+      { sp: "林小姐", gender: "female", zh: "我姓林. 我來接你們。", py: "Wǒ xìng Lín. Wǒ lái jiē nǐmen.", vn: "Tôi họ Lâm. Tôi đến đón các anh." },
+      { sp: "王先生", gender: "male", zh: "謝謝！這是我朋友，李先生。", py: "Xièxie! Zhè shì wǒ péngyǒu, Lǐ xiānshēng.", vn: "Cảm ơn cô! Đây là bạn tôi, ông Lý." },
+      { sp: "李先生", gender: "male", zh: "林小姐，你好。我是美國人。", py: "Lín xiǎojiě, nǐ hǎo. Wǒ shì Měiguó rén.", vn: "Chào cô Lâm. Tôi là người Mỹ." },
+      { sp: "林小姐", gender: "female", zh: "你們好。歡迎你們來臺灣。", py: "Nǐmen hǎo. Huānyíng nǐmen lái Táiwān.", vn: "Chào các anh. Chào mừng các anh đến Đài Loan." }
+    ],
+    quizzes: [
+      {
+        question: { zh: "1. 誰來接王先生和李先生？", py: "Shéi lái jiē Wáng xiānshēng hàn Lǐ xiānshēng?", vn: "1. Ai là người đến đón ông Vương và ông Lý?" },
+        options: [
+          { zh: "林小姐 (Lín xiǎojiě)", vn: "Cô Lâm" },
+          { zh: "王小姐 (Wáng xiǎojiě)", vn: "Cô Vương" },
+          { zh: "李小姐 (Lǐ xiǎojiě)", vn: "Cô Lý" }
+        ],
+        correct: 0
+      },
+      {
+        question: { zh: "2. 李先生是哪國人？", py: "Lǐ xiānshēng shì nǎ guó rén?", vn: "2. Ông Lý là người nước nào?" },
+        options: [
+          { zh: "越南人 (Yuènán rén)", vn: "Người Việt Nam" },
+          { zh: "美國人 (Měiguó rén)", vn: "Người Mỹ" },
+          { zh: "日本人 (Rìběn rén)", vn: "Người Nhật Bản" }
+        ],
+        correct: 1
+      },
+      {
+        question: { zh: "3. 他們現在在哪裡？", py: "Tāmen xiànzài zài nǎlǐ?", vn: "3. Hiện tại họ đang ở đâu?" },
+        options: [
+          { zh: "美國 (Měiguó)", vn: "Mỹ" },
+          { zh: "越南 (Yuènán)", vn: "Việt Nam" },
+          { zh: "臺灣 (Táiwān)", vn: "Đài Loan" }
+        ],
+        correct: 2
+      }
+    ]
+  },
+  {
+    title: "Hội thoại 2: Mời đồ uống tại văn phòng",
+    lesson: "Bài 1",
+    level: "TOCFL Band A",
+    content: [
+      { sp: "王先生", gender: "male", zh: "林小姐，請喝茶。", py: "Lín xiǎojiě, qǐng hē chá.", vn: "Cô Lâm, mời uống trà." },
+      { sp: "林小姐", gender: "female", zh: "謝謝。這茶很好喝。請問是什麼茶？", py: "Xièxie. Zhè chá hěn hǎohē. Qǐngwèn shì shénme chá?", vn: "Cảm ơn anh. Trà này uống rất ngon. Xin hỏi là trà gì vậy?" },
+      { sp: "王先生", gender: "male", zh: "是臺灣烏龍茶。你喜歡嗎？", py: "Shì Táiwān wūlóngchá. Nǐ xǐhuān ma?", vn: "Là trà Ô Long Đài Loan. Cô có thích không?" },
+      { sp: "林小姐", gender: "female", zh: "我很喜歡。你是哪國人？美國人嗎？", py: "Wǒ hěn xǐhuān. Nǐ shì nǎ guó rén? Měiguó rén ma?", vn: "Tôi rất thích. Anh là người nước nào? Người Mỹ phải không?" },
+      { sp: "王先生", gender: "male", zh: "不是。我是日本人。你呢？你要喝咖啡嗎？", py: "Bú shì. Wǒ shì Rìběn rén. Nǐ ne? Nǐ yào hē kāfēi ma?", vn: "Không phải. Tôi là người Nhật Bản. Còn cô? Cô có muốn uống cà phê không?" },
+      { sp: "林小姐", gender: "female", zh: "謝謝，我不喝咖啡。我喜歡喝茶。", py: "Xièxie, wǒ bù hē kāfēi. Wǒ xǐhuān hē chá.", vn: "Cảm ơn, tôi không uống cà phê. Tôi thích uống trà." }
+    ],
+    quizzes: [
+      {
+        question: { zh: "1. 他們喝的是什麼茶？", py: "Tāmen hē de shì shénme chá?", vn: "1. Họ đang uống trà gì?" },
+        options: [
+          { zh: "烏龍茶 (Wūlóngchá)", vn: "Trà Ô Long" },
+          { zh: "綠茶 (Lǜchá)", vn: "Trà xanh" },
+          { zh: "奶茶 (Nǎichá)", vn: "Trà sữa" }
+        ],
+        correct: 0
+      },
+      {
+        question: { zh: "2. 王先生是哪國人？", py: "Wáng xiānshēng shì nǎ guó rén?", vn: "2. Ông Vương là người nước nào?" },
+        options: [
+          { zh: "美國人 (Měiguó rén)", vn: "Người Mỹ" },
+          { zh: "日本人 (Rìběn rén)", vn: "Người Nhật Bản" },
+          { zh: "臺灣人 (Táiwān rén)", vn: "Người Đài Loan" }
+        ],
+        correct: 1
+      },
+      {
+        question: { zh: "3. 林小姐喜歡喝什麼？", py: "Lín xiǎojiě xǐhuān hē shénme?", vn: "3. Cô Lâm thích uống cái gì?" },
+        options: [
+          { zh: "她喜歡喝咖啡 (Kāfēi)", vn: "Cô ấy thích uống cà phê" },
+          { zh: "她喜歡喝水 (Shuǐ)", vn: "Cô ấy thích uống nước" },
+          { zh: "她喜歡喝茶 (Chá)", vn: "Cô ấy thích uống trà" }
+        ],
+        correct: 2
+      }
+    ]
+  },
+  {
+    title: "Hội thoại 1: Xem ảnh gia đình",
+    lesson: "Bài 2",
+    level: "TOCFL Band A",
+    content: [
+      { sp: "安同", gender: "male", zh: "怡君，這是你家嗎？很漂亮的房子！", py: "Yíjūn, zhè shì nǐ jiā ma? Hěn piàoliàng de fángzi!", vn: "Di Quân, đây là nhà của bạn à? Ngôi nhà rất đẹp!" },
+      { sp: "怡君", gender: "female", zh: "是的，請進，請坐！你要不要喝茶？", py: "Shìde, qǐng jìn, qǐng zuò! Nǐ yào bú yào hē chá?", vn: "Đúng vậy, mời vào, mời ngồi! Bạn có muốn uống trà không?" },
+      { sp: "安同", gender: "male", zh: "好，謝謝。這張照片很好看，這是誰？", py: "Hǎo, xièxie. Zhè zhāng zhàopiàn hěn hǎokàn, zhè shì shéi?", vn: "Được, cảm ơn. Bức ảnh này rất đẹp, đây là ai vậy?" },
+      { sp: "怡君", gender: "female", zh: "這是我爸爸、媽媽。我們家人都很喜歡照相。", py: "Zhè shì wǒ bàba, māma. Wǒmen jiārén dōu hěn xǐhuān zhàoxiàng.", vn: "Đây là bố và mẹ tôi. Người nhà tôi đều rất thích chụp ảnh." },
+      { sp: "安同", gender: "male", zh: "這個人是你妹妹嗎？", py: "Zhège rén shì nǐ mèimei ma?", vn: "Người này là em gái của bạn phải không?" },
+      { sp: "怡君", gender: "female", zh: "不是，這是我姐姐。", py: "Bú shì, zhè shì wǒ jiějie.", vn: "Không phải, đây là chị gái tôi." }
+    ],
+    quizzes: [
+      {
+        question: { zh: "1. 這是誰的家？", py: "Zhè shì shéi de jiā?", vn: "1. Đây là nhà của ai?" },
+        options: [
+          { zh: "安同的家 (Āntóng de jiā)", vn: "Nhà của An Đồng" },
+          { zh: "怡君的家 (Yíjūn de jiā)", vn: "Nhà của Di Quân" },
+          { zh: "老師的家 (Lǎoshī de jiā)", vn: "Nhà của giáo viên" }
+        ],
+        correct: 1
+      },
+      {
+        question: { zh: "2. 照片裡的人是誰？", py: "Zhàopiàn lǐ de rén shì shéi?", vn: "2. Người trong bức ảnh là ai?" },
+        options: [
+          { zh: "怡君的妹妹 (Yíjūn de mèimei)", vn: "Em gái của Di Quân" },
+          { zh: "怡君的姐姐 (Yíjūn de jiějie)", vn: "Chị gái của Di Quân" },
+          { zh: "安同的姐姐 (Āntóng de jiějie)", vn: "Chị gái của An Đồng" }
+        ],
+        correct: 1
+      },
+      {
+        question: { zh: "3. 怡君的家人喜歡做什麼？", py: "Yíjūn de jiārén xǐhuān zuò shénme?", vn: "3. Gia đình của Di Quân thích làm gì?" },
+        options: [
+          { zh: "喝咖啡 (hē kāfēi)", vn: "Uống cà phê" },
+          { zh: "看書 (kànshū)", vn: "Đọc sách" },
+          { zh: "照相 (zhàoxiàng)", vn: "Chụp ảnh" }
+        ],
+        correct: 2
+      }
+    ]
+  },
+  {
+    title: "Hội thoại 2: 到朋友家玩 (Đến chơi nhà bạn)",
+    lesson: "Bài 2",
+    level: "TOCFL Band A",
+    content: [
+      { sp: "明華", gender: "male", zh: "田中，歡迎來我家！這是我媽媽。", py: "Tiánzhōng, huānyíng lái wǒ jiā! Zhè shì wǒ māma.", vn: "Điền Trung, hoan nghênh đến nhà tôi! Đây là mẹ tôi." },
+      { sp: "田中", gender: "male", zh: "伯母，您好。我叫田中誠一。", py: "Bómǔ, nín hǎo. Wǒ jiào Tiánzhōng Chéngyī.", vn: "Bác gái, chào bác. Cháu tên là Điền Trung Thành Nhất." },
+      { sp: "媽媽", gender: "female", zh: "誠一，你好，請坐。你家有幾個人？", py: "Chéngyī, nǐ hǎo, qǐng zuò. Nǐ jiā yǒu jǐ ge rén?", vn: "Thành Nhất, chào cháu, mời ngồi. Nhà cháu có mấy người?" },
+      { sp: "田中", gender: "male", zh: "我家有五個人。我有兩個妹妹。", py: "Wǒ jiā yǒu wǔ ge rén. Wǒ yǒu liǎng ge mèimei.", vn: "Nhà cháu có năm người. Cháu có hai em gái." },
+      { sp: "媽媽", gender: "female", zh: "你有沒有兄弟姐妹？有沒有哥哥？", py: "Nǐ yǒu méi yǒu xiōngdì jiěmèi? Yǒu méi yǒu gēge?", vn: "Cháu có anh chị em không? Có anh trai không?" },
+      { sp: "田中", gender: "male", zh: "沒有。伯母，您家有很多書！", py: "Méiyǒu. Bómǔ, nín jiā yǒu hěn duō shū!", vn: "Dạ không có. Bác gái, nhà bác có rất nhiều sách!" },
+      { sp: "明華", gender: "male", zh: "都是我哥哥的。他是老師，很喜歡看書。", py: "Dōu shì wǒ gēge de. Tā shì lǎoshī, hěn xǐhuān kànshū.", vn: "Đều là của anh trai tôi. Anh ấy là giáo viên, rất thích đọc sách." }
+    ],
+    quizzes: [
+      {
+        question: { zh: "1. 田中家有幾個人？", py: "Tiánzhōng jiā yǒu jǐ ge rén?", vn: "1. Nhà của Tanaka có mấy người?" },
+        options: [
+          { zh: "三個人 (sān ge rén)", vn: "Ba người" },
+          { zh: "五個人 (wǔ ge rén)", vn: "Năm người" },
+          { zh: "兩個人 (liǎng ge rén)", vn: "Hai người" }
+        ],
+        correct: 1
+      },
+      {
+        question: { zh: "2. 誰是老師？", py: "Shéi shì lǎoshī?", vn: "2. Ai là giáo viên?" },
+        options: [
+          { zh: "田中 (Tiánzhōng)", vn: "Điền Trung (Tanaka)" },
+          { zh: "明華的哥哥 (Mínghuá de gēge)", vn: "Anh trai của Minh Hoa" },
+          { zh: "明華的媽媽 (Mínghuá de māma)", vn: "Mẹ của Minh Hoa" }
+        ],
+        correct: 1
+      },
+      {
+        question: { zh: "3. 明華家有很多什麼？", py: "Mínghuá jiā yǒu hěn duō shénme?", vn: "3. Nhà Minh Hoa có nhiều cái gì?" },
+        options: [
+          { zh: "很多照片 (hěn duō zhàopiàn)", vn: "Rất nhiều ảnh" },
+          { zh: "很多茶 (hěn duō chá)", vn: "Rất nhiều trà" },
+          { zh: "很多書 (hěn duō shū)", vn: "Rất nhiều sách" }
+        ],
+        correct: 2
+      }
+    ]
+  }
+];
+// ------------------------------------------
+// HÀM ÂM THANH (DÙNG CHUNG)
+// ------------------------------------------
+function playDialogueAudio(text, gender, dialogueIndex) {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel(); 
+        let speed = 0.8;
+        if (dialogueIndex !== undefined) {
+            const speedSelect = document.getElementById(`speed-select-${dialogueIndex}`);
+            if (speedSelect) speed = parseFloat(speedSelect.value);
+        }
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'zh-TW';
+        utterance.rate = speed; 
+        utterance.pitch = gender === 'male' ? 0.8 : 1.3;
+        window.speechSynthesis.speak(utterance);
+    }
+}
+
+// ------------------------------------------
+// HIỂN THỊ HỘI THOẠI (FONT CHỮ TO)
+// ------------------------------------------
+function displayDialogues() {
+    const container = document.getElementById('dialogue-container');
+    container.innerHTML = dialogueData.map((group, dIdx) => `
+        <div class="dialogue-card" style="position: relative; padding: 30px; border-radius: 20px; background: white; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+            
+            <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 10px;">
+                <span style="background: #2980b9; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.lesson}</span>
+                <span style="background: #f39c12; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.level}</span>
+            </div>
+
+            <h2 style="color:#b22222; margin-top: 0; margin-bottom: 30px; border-bottom:3px solid #f8f9fa; padding-bottom:15px; font-size: 32px;">${group.title}</h2>
+            
+            <div style="margin-bottom: 30px;">
+                ${group.content.map(line => `
+                    <div class="chat-line" style="margin-bottom: 25px; display: flex; gap: 15px;">
+                        <div class="speaker-avatar" style="width: 45px; height: 45px; font-size: 20px; background: ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: bold;">
+                            ${line.sp.charAt(0)}
+                        </div>
+                        <div class="chat-content" style="background: #f8f9fa; padding: 15px 25px; border-radius: 20px; border-left: 5px solid ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; flex-grow: 1;">
+                            <div style="font-size: 26px; color: #2c3e50; font-weight: bold; display: flex; align-items: center; gap: 15px;">
+                                ${line.sp}: ${line.zh} 
+                                <button onclick="playDialogueAudio('${line.zh}', '${line.gender}', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:28px;">🔊</button>
+                            </div>
+                            <div style="color: #2980b9; font-size: 20px; margin: 8px 0; font-weight: 500;">${line.py}</div>
+                            <div style="color: #7f8c8d; font-size: 18px; font-style: italic;">${line.vn}</div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+            
+            <div style="display: flex; gap: 15px; margin-bottom: 40px; background: #fff5f5; padding: 20px; border-radius: 15px;">
+                <select id="speed-select-${dIdx}" style="padding: 12px; border-radius: 10px; border: 2px solid #e74c3c; font-weight: bold; font-size: 18px; cursor: pointer; outline: none;">
+                    <option value="0.4">🐢 Chậm</option>
+                    <option value="0.8" selected>🚶 Bình thường</option>
+                    <option value="1.2">🏃 Nhanh</option>
+                </select>
+                
+                <button id="play-btn-${dIdx}" onclick="toggleFullDialogue(${dIdx})" 
+                    style="flex: 1; padding: 12px; background: #e74c3c; color: white; border: none; border-radius: 12px; cursor: pointer; font-weight: bold; font-size: 20px; transition: 0.3s; box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);">
+                    ▶️ Nghe đọc toàn bộ hội thoại (Shadowing)
+                </button>
+            </div>
+
+            <div style="background: #f0f7ff; padding: 30px; border-radius: 20px; border: 2px dashed #3498db;">
+                <h3 style="margin-top: 0; color: #2980b9; font-size: 26px; display: flex; align-items: center; gap: 10px;">
+                    🎮 Thử tài hiểu bài (Quiz)
+                </h3>
+                
+                ${group.quizzes.map((q, qIdx) => `
+                    <div style="margin-top: 30px; padding-bottom: 20px; border-bottom: 1px solid #d6eaf8;">
+                        <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">
+                            ${q.question.zh}
+                            <button onclick="playDialogueAudio('${q.question.zh}', 'female', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:24px; vertical-align: middle;">🔊</button>
+                        </div>
+                        <div style="font-size: 19px; color: #3498db; margin: 5px 0;">${q.question.py}</div>
+                        <div style="font-size: 18px; color: #7f8c8d; margin-bottom: 15px; font-weight: bold;">${q.question.vn}</div>
+
+                        <div id="quiz-options-${dIdx}-${qIdx}" style="display: grid; grid-template-columns: 1fr; gap: 12px;">
+                            ${q.options.map((opt, optIdx) => `
+                                <button onclick="checkQuiz(${dIdx}, ${qIdx}, ${optIdx})" 
+                                    style="text-align: left; padding: 15px 20px; border: 2px solid #bdc3c7; border-radius: 12px; background: white; cursor: pointer; transition: 0.2s;">
+                                    <div style="font-size: 22px; font-weight: bold; color: #333;">${opt.zh}</div>
+                                    <div style="font-size: 17px; color: #7f8c8d; font-style: italic;">${opt.vn}</div>
+                                </button>
+                            `).join('')}
+                        </div>
+                        <p id="quiz-result-${dIdx}-${qIdx}" style="margin-top: 15px; font-size: 20px; font-weight: bold; display: none;"></p>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `).join('');
+}
+
+// Logic kiểm tra đáp án
+function checkQuiz(dIdx, qIdx, selected) {
+    const quiz = dialogueData[dIdx].quizzes[qIdx];
+    const resultText = document.getElementById(`quiz-result-${dIdx}-${qIdx}`);
+    const optionsContainer = document.getElementById(`quiz-options-${dIdx}-${qIdx}`);
+    const buttons = optionsContainer.getElementsByTagName('button');
+
+    resultText.style.display = "block";
+    if (selected === quiz.correct) {
+        resultText.style.color = "#27ae60";
+        resultText.innerHTML = "✅ Chính xác! (答對 rồi!)";
+        buttons[selected].style.background = "#d5f5e3";
+        buttons[selected].style.borderColor = "#27ae60";
+    } else {
+        resultText.style.color = "#e74c3c";
+        resultText.innerHTML = "❌ Sai rồi, hãy thử lại nhé! (再試一次)";
+        buttons[selected].style.background = "#fadbd8";
+        buttons[selected].style.borderColor = "#e74c3c";
+    }
+}
+
+// Logic Shadowing (Đọc toàn bộ)
+let isPlayingDialogue = false;
+async function toggleFullDialogue(index) {
+    const btn = document.getElementById(`play-btn-${index}`);
+    if (isPlayingDialogue) {
+        isPlayingDialogue = false;
+        window.speechSynthesis.cancel();
+        btn.innerHTML = "▶️ Nghe đọc toàn bộ hội thoại (Shadowing)";
+        btn.style.background = "#e74c3c";
+        return;
+    }
+    isPlayingDialogue = true;
+    btn.innerHTML = "⏹ Đang đọc... (Bấm để dừng)";
+    btn.style.background = "#95a5a6"; 
+    const content = dialogueData[index].content;
+    for (let line of content) {
+        if (!isPlayingDialogue) break; 
+        await new Promise(resolve => {
+            const speed = parseFloat(document.getElementById(`speed-select-${index}`).value);
+            const utterance = new SpeechSynthesisUtterance(line.zh);
+            utterance.lang = 'zh-TW';
+            utterance.rate = speed; 
+            utterance.pitch = line.gender === 'male' ? 0.8 : 1.3;
+            utterance.onend = () => setTimeout(resolve, 1800); // Nghỉ 1.8s để học sinh nhại lại
+            utterance.onerror = resolve; 
+            window.speechSynthesis.speak(utterance);
+        });
+    }
+    isPlayingDialogue = false;
+    btn.innerHTML = "▶️ Nghe đọc toàn bộ hội thoại (Shadowing)";
+    btn.style.background = "#e74c3c";
+}
+
+// Hàm switchTab (Từ điển - Hội thoại)
+function switchTab(tab) {
+    const dictArea = document.getElementById('dictionary-container');
+    const diagArea = document.getElementById('dialogue-container');
+    const searchArea = document.getElementById('search-section');
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    if (tab === 'dict') {
+        dictArea.style.display = 'block';
+        diagArea.style.display = 'none';
+        searchArea.style.display = 'flex'; 
+        document.getElementById('tab-dict').classList.add('active');
+    } else {
+        dictArea.style.display = 'none';
+        diagArea.style.display = 'block';
+        searchArea.style.display = 'none'; 
+        document.getElementById('tab-speak').classList.add('active');
+        displayDialogues(); 
+    }
+};
+
