@@ -1,26 +1,22 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maomi Dictionary - NUTN</title>
-    <link rel="stylesheet" href="style.css">
-</head><script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
-<body>
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 
-    <div class="app-container">
-        <div class="search-header">
-            <div class="school-tag">國立臺南大學 NUTN</div>
-            <h2>Maomi Chinese Dictionary</h2>
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好，..." onkeyup="searchDict()">
-                <button>🔍</button>
-            </div>
+<div class="app-container">
+    <div class="search-header">
+        <div class="school-tag">國立臺南大學 NUTN</div>
+        <h2>Maomi Chinese Dictionary</h2>
+        
+        <div class="tab-box" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
+            <button id="tab-dict" class="tab-btn active" onclick="switchTab('dict')">📖 Từ Điển</button>
+            <button id="tab-speak" class="tab-btn" onclick="switchTab('speak')">🗣️ Hội Thoại</button>
         </div>
 
-        <div id="dictionary-container" class="result-area"></div>
+        <div id="search-section" class="search-box">
+            <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好，..." onkeyup="searchDict()">
+            <button>🔍</button>
+        </div>
     </div>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <div id="dictionary-container" class="result-area"></div>
+    
+    <div id="dialogue-container" class="result-area" style="display: none;"></div>
+</div>
