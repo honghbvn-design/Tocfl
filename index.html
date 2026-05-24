@@ -1,41 +1,14 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maomi Dictionary - NUTN</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
-</head>
-<body>
-    <div class="app-container">
-        <div class="search-header">
-            <div class="school-tag">國立臺南大學 NUTN</div>
-            <h2>Maomi Chinese Dictionary</h2>
-            
-            <div class="modern-search-box" id="search-section-dict">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好..." onkeyup="searchDict()">
-            </div>
-            
-            <div class="modern-search-box" id="search-section-speak" style="display: none;">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="dialogueSearchInput" placeholder="Tìm hội thoại..." onkeyup="searchDialogue()">
-            </div>
-
-            <div class="modern-filters">
-                <button id="tab-dict" class="filter-btn active" onclick="switchTab('dict')">📖 Từ Điển</button>
-                <button id="tab-speak" class="filter-btn" onclick="switchTab('speak')">🗣️ Hội Thoại</button>
-                <span style="color:#ccc; padding:0 10px;">|</span>
-                <button class="filter-btn active" onclick="setSearchFilter('all', this)">All</button>
-                <button class="filter-btn" onclick="setSearchFilter('word', this)">Hán Tự</button>
-                <button class="filter-btn" onclick="setSearchFilter('pinyin', this)">Pinyin</button>
-            </div>
-        </div>
-
-        <div id="dictionary-container" class="result-area"></div>
-        <div id="dialogue-container" class="result-area" style="display: none;"></div>
+<div class="search-header">
+    <div class="school-tag">國立臺南大學 NUTN</div>
+    <h2>Maomi Chinese Dictionary</h2>
+    
+    <div class="tab-box">
+        <button id="tab-dict" class="tab-btn active" onclick="switchTab('dict')">📖 Từ Điển</button>
+        <button id="tab-speak" class="tab-btn" onclick="switchTab('speak')">🗣️ Hội Thoại</button>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
+
+    <div class="modern-search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Tìm kiếm từ vựng hoặc hội thoại..." onkeyup="handleSearch()">
+    </div>
+</div>
