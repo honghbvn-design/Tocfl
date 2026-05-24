@@ -6260,84 +6260,194 @@ function playDialogueAudio(text, gender, dialogueIndex) {
     }
 }
 
-// ------------------------------------------
-// HIỂN THỊ HỘI THOẠI (FONT CHỮ TO)
-// ------------------------------------------
-function displayDialogues() {
-    const container = document.getElementById('dialogue-container');
-    container.innerHTML = dialogueData.map((group, dIdx) => `
-        <div class="dialogue-card" style="position: relative; padding: 30px; border-radius: 20px; background: white; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-            
-            <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 10px;">
-                <span style="background: #2980b9; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.lesson}</span>
-                <span style="background: #f39c12; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.level}</span>
-            </div>
+// ==========================================
+// 6. KHU VỰC XỬ LÝ HỘI THOẠI (TÌM KIẾM, HIỂN THỊ, ÂM THANH, TRẮC NGHIỆM)
+// ==========================================
 
-            <h2 style="color:#b22222; margin-top: 0; margin-bottom: 30px; border-bottom:3px solid #f8f9fa; padding-bottom:15px; font-size: 32px;">${group.title}</h2>
-            
-            <div style="margin-bottom: 30px;">
-                ${group.content.map(line => `
-                    <div class="chat-line" style="margin-bottom: 25px; display: flex; gap: 15px;">
-                        <div class="speaker-avatar" style="width: 45px; height: 45px; font-size: 20px; background: ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: bold;">
-                            ${line.sp.charAt(0)}
-                        </div>
-                        <div class="chat-content" style="background: #f8f9fa; padding: 15px 25px; border-radius: 20px; border-left: 5px solid ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; flex-grow: 1;">
-                            <div style="font-size: 26px; color: #2c3e50; font-weight: bold; display: flex; align-items: center; gap: 15px;">
-                                ${line.sp}: ${line.zh} 
-                                <button onclick="playDialogueAudio('${line.zh}', '${line.gender}', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:28px;">🔊</button>
-                            </div>
-                            <div style="color: #2980b9; font-size: 20px; margin: 8px 0; font-weight: 500;">${line.py}</div>
-                            <div style="color: #7f8c8d; font-size: 18px; font-style: italic;">${line.vn}</div>
-                        </div>
-                    </div>
-                `).join('')}
-            </div>
-            
-            <div style="display: flex; gap: 15px; margin-bottom: 40px; background: #fff5f5; padding: 20px; border-radius: 15px;">
-                <select id="speed-select-${dIdx}" style="padding: 12px; border-radius: 10px; border: 2px solid #e74c3c; font-weight: bold; font-size: 18px; cursor: pointer; outline: none;">
-                    <option value="0.4">🐢 Chậm</option>
-                    <option value="0.8" selected>🚶 Bình thường</option>
-                    <option value="1.2">🏃 Nhanh</option>
-                </select>
-                
-                <button id="play-btn-${dIdx}" onclick="toggleFullDialogue(${dIdx})" 
-                    style="flex: 1; padding: 12px; background: #e74c3c; color: white; border: none; border-radius: 12px; cursor: pointer; font-weight: bold; font-size: 20px; transition: 0.3s; box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);">
-                    ▶️ Nghe đọc toàn bộ hội thoại (Shadowing)
-                </button>
-            </div>
-
-            <div style="background: #f0f7ff; padding: 30px; border-radius: 20px; border: 2px dashed #3498db;">
-                <h3 style="margin-top: 0; color: #2980b9; font-size: 26px; display: flex; align-items: center; gap: 10px;">
-                    🎮 Thử tài hiểu bài (Quiz)
-                </h3>
-                
-                ${group.quizzes.map((q, qIdx) => `
-                    <div style="margin-top: 30px; padding-bottom: 20px; border-bottom: 1px solid #d6eaf8;">
-                        <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">
-                            ${q.question.zh}
-                            <button onclick="playDialogueAudio('${q.question.zh}', 'female', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:24px; vertical-align: middle;">🔊</button>
-                        </div>
-                        <div style="font-size: 19px; color: #3498db; margin: 5px 0;">${q.question.py}</div>
-                        <div style="font-size: 18px; color: #7f8c8d; margin-bottom: 15px; font-weight: bold;">${q.question.vn}</div>
-
-                        <div id="quiz-options-${dIdx}-${qIdx}" style="display: grid; grid-template-columns: 1fr; gap: 12px;">
-                            ${q.options.map((opt, optIdx) => `
-                                <button onclick="checkQuiz(${dIdx}, ${qIdx}, ${optIdx})" 
-                                    style="text-align: left; padding: 15px 20px; border: 2px solid #bdc3c7; border-radius: 12px; background: white; cursor: pointer; transition: 0.2s;">
-                                    <div style="font-size: 22px; font-weight: bold; color: #333;">${opt.zh}</div>
-                                    <div style="font-size: 17px; color: #7f8c8d; font-style: italic;">${opt.vn}</div>
-                                </button>
-                            `).join('')}
-                        </div>
-                        <p id="quiz-result-${dIdx}-${qIdx}" style="margin-top: 15px; font-size: 20px; font-weight: bold; display: none;"></p>
-                    </div>
-                `).join('')}
-            </div>
-        </div>
-    `).join('');
+// --- HÀM LỌC TÌM KIẾM HỘI THOẠI ---
+function searchDialogue() {
+    const input = document.getElementById('dialogueSearchInput');
+    if(!input) return;
+    const searchTerm = input.value.trim().toLowerCase();
+    displayDialogues(searchTerm); 
 }
 
-// Logic kiểm tra đáp án
+// --- HÀM HIỂN THỊ HỘI THOẠI (TÍCH HỢP TÌM KIẾM & FONT TO) ---
+function displayDialogues(searchTerm = "") {
+    const container = document.getElementById('dialogue-container');
+    if (!container) return;
+
+    let htmlContent = "";
+    let hasResults = false;
+
+    dialogueData.forEach((group, dIdx) => {
+        let isMatch = false;
+
+        if (searchTerm === "") {
+            isMatch = true;
+        } else {
+            if (group.title.toLowerCase().includes(searchTerm) || group.lesson.toLowerCase().includes(searchTerm)) {
+                isMatch = true;
+            }
+            group.content.forEach(line => {
+                if (line.zh.includes(searchTerm) || line.py.toLowerCase().includes(searchTerm) || line.vn.toLowerCase().includes(searchTerm)) {
+                    isMatch = true;
+                }
+            });
+        }
+
+        if (isMatch) {
+            hasResults = true;
+            htmlContent += `
+                <div class="dialogue-card" style="position: relative; padding: 30px; border-radius: 20px; background: white; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                    <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 10px;">
+                        <span style="background: #2980b9; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.lesson}</span>
+                        <span style="background: #f39c12; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.level}</span>
+                    </div>
+
+                    <h2 style="color:#b22222; margin-top: 0; margin-bottom: 30px; border-bottom:3px solid #f8f9fa; padding-bottom:15px; font-size: 32px;">${group.title}</h2>
+                    
+                    <div style="margin-bottom: 30px;">
+                        ${group.content.map(line => `
+                            <div class="chat-line" style="margin-bottom: 25px; display: flex; gap: 15px;">
+                                <div class="speaker-avatar" style="width: 45px; height: 45px; font-size: 20px; background: ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: bold;">
+                                    ${line.sp.charAt(0)}
+                                </div>
+                                <div class="chat-content" style="background: #f8f9fa; padding: 15px 25px; border-radius: 20px; border-left: 5px solid ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; flex-grow: 1;">
+                                    <div style="font-size: 26px; color: #2c3e50; font-weight: bold; display: flex; align-items: center; gap: 15px;">
+                                        ${line.sp}: ${line.zh} 
+                                        <button onclick="playDialogueAudio('${line.zh}', '${line.gender}', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:28px;">🔊</button>
+                                    </div>
+                                    <div style="color: #2980b9; font-size: 20px; margin: 8px 0; font-weight: 500;">${line.py}</div>
+                                    <div style="color: #7f8c8d; font-size: 18px; font-style: italic;">${line.vn}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    
+                    <div style="display: flex; gap: 15px; margin-bottom: 40px; background: #fff5f5; padding: 20px; border-radius: 15px;">
+                        <select id="speed-select-${dIdx}" style="padding: 12px; border-radius: 10px; border: 2px solid #e74c3c; font-weight: bold; font-size: 18px; cursor: pointer; outline: none;">
+                            <option value="0.4">🐢 Chậm</option>
+                            <option value="0.8" selected>🚶 Bình thường</option>
+                            <option value="1.2">🏃 Nhanh</option>
+                        </select>
+                        
+                        <button id="play-btn-${dIdx}" onclick="toggleFullDialogue(${dIdx})" 
+                            style="flex: 1; padding: 12px; background: #e74c3c; color: white; border: none; border-radius: 12px; cursor: pointer; font-weight: bold; font-size: 20px; transition: 0.3s; box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);">
+                            ▶️ Nghe đọc toàn bộ hội thoại (Shadowing)
+                        </button>
+                    </div>
+
+                    ${group.quizzes ? `
+                    <div style="background: #f0f7ff; padding: 30px; border-radius: 20px; border: 2px dashed #3498db;">
+                        <h3 style="margin-top: 0; color: #2980b9; font-size: 26px; display: flex; align-items: center; gap: 10px;">
+                            🎮 Thử tài hiểu bài (Quiz)
+                        </h3>
+                        
+                        ${group.quizzes.map((q, qIdx) => `
+                            <div style="margin-top: 30px; padding-bottom: 20px; border-bottom: 1px solid #d6eaf8;">
+                                <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">
+                                    ${q.question.zh}
+                                    <button onclick="playDialogueAudio('${q.question.zh}', 'female', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:24px; vertical-align: middle;">🔊</button>
+                                </div>
+                                <div style="font-size: 19px; color: #3498db; margin: 5px 0;">${q.question.py}</div>
+                                <div style="font-size: 18px; color: #7f8c8d; margin-bottom: 15px; font-weight: bold;">${q.question.vn}</div>
+
+                                <div id="quiz-options-${dIdx}-${qIdx}" style="display: grid; grid-template-columns: 1fr; gap: 12px;">
+                                    ${q.options.map((opt, optIndex) => `
+                                        <button onclick="checkQuiz(${dIdx}, ${qIdx}, ${optIndex})" 
+                                            style="text-align: left; padding: 15px 20px; border: 2px solid #bdc3c7; border-radius: 12px; background: white; cursor: pointer; transition: 0.2s;">
+                                            <div style="font-size: 22px; font-weight: bold; color: #333;">${opt.zh}</div>
+                                            <div style="font-size: 17px; color: #7f8c8d; font-style: italic;">${opt.vn}</div>
+                                        </button>
+                                    `).join('')}
+                                </div>
+                                <p id="quiz-result-${dIdx}-${qIdx}" style="margin-top: 15px; font-size: 20px; font-weight: bold; display: none;"></p>
+                            </div>
+                        `).join('')}
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+    });
+
+    if (!hasResults) {
+        container.innerHTML = "<p style='text-align:center; padding:30px; font-size:1.2em; color: gray;'>Không tìm thấy đoạn hội thoại nào phù hợp.</p>";
+    } else {
+        container.innerHTML = htmlContent;
+    }
+}
+
+// --- HÀM TẢI TRƯỚC GIỌNG ĐỌC (Bắt buộc để trình duyệt nhận diện được nhiều giọng) ---
+window.speechSynthesis.onvoiceschanged = () => { 
+    window.speechSynthesis.getVoices(); 
+};
+
+// --- BỘ XỬ LÝ GIỌNG NAM/NỮ CỐ ĐỊNH (TÌM THEO TÊN ƯU TIÊN) ---
+function applySmartVoice(utterance, gender) {
+    const voices = window.speechSynthesis.getVoices();
+    // Lọc ra tất cả các giọng tiếng Trung có trong máy
+    const zhVoices = voices.filter(v => v.lang.includes('zh-TW') || v.lang.includes('zh-CN') || v.lang.includes('zh'));
+
+    if (zhVoices.length === 0) return; // Máy không có tiếng Trung thì bỏ qua
+
+    // 1. DANH SÁCH TÊN GIỌNG CHUẨN CỐ ĐỊNH (Windows, Mac, iOS, Android)
+    const femaleVIP = ['Yating', 'Hanhan', 'Ting-Ting', 'Mei-Jia', 'Xiaoxiao', 'Google 國語（臺灣）', 'female'];
+    const maleVIP = ['Zhiwei', 'Kangkang', 'Yunxi', 'male']; 
+
+    let selectedVoice = null;
+
+    if (gender === 'male') {
+        // Cố gắng tìm đích danh giọng Nam chuẩn
+        selectedVoice = zhVoices.find(v => maleVIP.some(name => v.name.includes(name)) || v.name.toLowerCase().includes('male'));
+        
+        if (selectedVoice) {
+            utterance.voice = selectedVoice;
+            utterance.pitch = 1.0; // Tìm được giọng chuẩn thì giữ nguyên cao độ tự nhiên
+        } else {
+            // Tình huống xấu nhất: Máy học sinh không cài giọng Nam -> Lấy tạm giọng mặc định bẻ trầm xuống
+            utterance.voice = zhVoices[0];
+            utterance.pitch = 0.5; 
+        }
+    } else {
+        // Cố gắng tìm đích danh giọng Nữ chuẩn
+        selectedVoice = zhVoices.find(v => femaleVIP.some(name => v.name.includes(name)) || v.name.toLowerCase().includes('female') || v.name.includes('Google'));
+                     
+        if (selectedVoice) {
+            utterance.voice = selectedVoice;
+            utterance.pitch = 1.0; 
+        } else {
+            // Tình huống xấu nhất: Không có giọng nữ xịn -> Lấy tạm giọng mặc định
+            utterance.voice = zhVoices[0];
+            utterance.pitch = 1.2; 
+        }
+    }
+}
+
+// --- HÀM PHÁT ÂM THANH CHO CÂU LẺ ---
+function playDialogueAudio(text, gender, dialogueIndex) {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel(); 
+        let speed = 0.8;
+        if (dialogueIndex !== undefined) {
+            const speedSelect = document.getElementById(`speed-select-${dialogueIndex}`);
+            if (speedSelect) speed = parseFloat(speedSelect.value);
+        }
+        const cleanText = text.replace(/[【】()（）:<br>]/g, " ").trim();
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        
+        utterance.lang = 'zh-TW';
+        utterance.rate = speed; 
+        
+        // Cấp phát giọng nam/nữ tự động
+        applySmartVoice(utterance, gender);
+
+        window.speechSynthesis.speak(utterance);
+    }
+}
+
+// --- HÀM KIỂM TRA ĐÁP ÁN TRẮC NGHIỆM ---
 function checkQuiz(dIdx, qIdx, selected) {
     const quiz = dialogueData[dIdx].quizzes[qIdx];
     const resultText = document.getElementById(`quiz-result-${dIdx}-${qIdx}`);
@@ -6358,10 +6468,12 @@ function checkQuiz(dIdx, qIdx, selected) {
     }
 }
 
-// Logic Shadowing (Đọc toàn bộ)
+// --- HÀM ĐỌC TOÀN BỘ HỘI THOẠI CÓ TẠM DỪNG (SHADOWING) ---
 let isPlayingDialogue = false;
 async function toggleFullDialogue(index) {
     const btn = document.getElementById(`play-btn-${index}`);
+    if (!btn) return;
+
     if (isPlayingDialogue) {
         isPlayingDialogue = false;
         window.speechSynthesis.cancel();
@@ -6369,45 +6481,84 @@ async function toggleFullDialogue(index) {
         btn.style.background = "#e74c3c";
         return;
     }
+    
     isPlayingDialogue = true;
     btn.innerHTML = "⏹ Đang đọc... (Bấm để dừng)";
     btn.style.background = "#95a5a6"; 
+    
     const content = dialogueData[index].content;
     for (let line of content) {
         if (!isPlayingDialogue) break; 
         await new Promise(resolve => {
-            const speed = parseFloat(document.getElementById(`speed-select-${index}`).value);
-            const utterance = new SpeechSynthesisUtterance(line.zh);
+            const speedSelect = document.getElementById(`speed-select-${index}`);
+            const speed = speedSelect ? parseFloat(speedSelect.value) : 0.8;
+            
+            const cleanText = line.zh.replace(/[【】()（）:<br>]/g, " ").trim();
+            const utterance = new SpeechSynthesisUtterance(cleanText);
+            
             utterance.lang = 'zh-TW';
             utterance.rate = speed; 
-            utterance.pitch = line.gender === 'male' ? 0.8 : 1.3;
-            utterance.onend = () => setTimeout(resolve, 1800); // Nghỉ 1.8s để học sinh nhại lại
+            
+            // Cấp phát giọng nam/nữ tự động
+            applySmartVoice(utterance, line.gender);
+
+            utterance.onend = () => setTimeout(resolve, 1800); 
             utterance.onerror = resolve; 
             window.speechSynthesis.speak(utterance);
         });
     }
+    
     isPlayingDialogue = false;
     btn.innerHTML = "▶️ Nghe đọc toàn bộ hội thoại (Shadowing)";
     btn.style.background = "#e74c3c";
 }
 
-// Hàm switchTab (Từ điển - Hội thoại)
+// --- HÀM ĐIỀU KHIỂN CHUYỂN TAB VÀ ĐẨY ẨN/HIỆN THANH TÌM KIẾM ĐỘC LẬP ---
 function switchTab(tab) {
     const dictArea = document.getElementById('dictionary-container');
     const diagArea = document.getElementById('dialogue-container');
-    const searchArea = document.getElementById('search-section');
+    const searchDictArea = document.getElementById('search-section-dict');
+    const searchSpeakArea = document.getElementById('search-section-speak');
+    
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+
     if (tab === 'dict') {
-        dictArea.style.display = 'block';
-        diagArea.style.display = 'none';
-        searchArea.style.display = 'flex'; 
+        if(dictArea) dictArea.style.display = 'block';
+        if(diagArea) diagArea.style.display = 'none';
+        if(searchDictArea) searchDictArea.style.display = 'flex';   
+        if(searchSpeakArea) searchSpeakArea.style.display = 'none'; 
         document.getElementById('tab-dict').classList.add('active');
     } else {
-        dictArea.style.display = 'none';
-        diagArea.style.display = 'block';
-        searchArea.style.display = 'none'; 
+        if(dictArea) dictArea.style.display = 'none';
+        if(diagArea) diagArea.style.display = 'block';
+        if(searchDictArea) searchDictArea.style.display = 'none';  
+        if(searchSpeakArea) searchSpeakArea.style.display = 'flex'; 
         document.getElementById('tab-speak').classList.add('active');
+        
+        // Luôn hiển thị lại toàn bộ hội thoại khi chuyển tab để tránh bị kẹt kết quả tìm kiếm cũ
+        if (document.getElementById('dialogueSearchInput')) {
+            document.getElementById('dialogueSearchInput').value = "";
+        }
         displayDialogues(); 
     }
-};
+}
 
+// --- HÀM CHUYỂN TRANG TỪ VỰNG -> HỘI THOẠI ---
+function jumpToDialogue(lessonName) {
+    switchTab('speak');
+    
+    // Đợi DOM chuyển trang xong mới cuộn xuống và đổi màu
+    setTimeout(() => {
+        const dialogueCards = document.querySelectorAll('.dialogue-card');
+        for (let card of dialogueCards) {
+            // Tìm đúng tên bài
+            if (card.innerHTML.includes(lessonName)) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                card.style.transition = "0.5s";
+                card.style.boxShadow = "0 0 25px #2ecc71";
+                setTimeout(() => { card.style.boxShadow = "0 10px 30px rgba(0,0,0,0.05)"; }, 1500);
+                break;
+            }
+        }
+    }, 150);
+}
