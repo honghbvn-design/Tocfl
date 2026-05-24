@@ -1,10 +1,22 @@
-body { background: #f0f2f5; font-family: sans-serif; font-size: 20px; margin: 0; }
-.app-container { width: 95%; max-width: 1000px; margin: 0 auto; background: white; min-height: 100vh; padding-bottom: 50px; }
-.search-header { background: #b22222; padding: 30px; color: white; text-align: center; }
-.modern-search-box { background: white; border-radius: 50px; display: flex; padding: 10px 20px; max-width: 700px; margin: 15px auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-.modern-search-box input { border: none; flex: 1; padding: 10px; outline: none; font-size: 18px; }
-.modern-filters { display: flex; justify-content: center; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
-.filter-btn { border: none; background: rgba(255,255,255,0.2); color: white; padding: 8px 15px; border-radius: 20px; cursor: pointer; }
+/* --- TỔNG THỂ --- */
+body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 20px; color: #333; }
+.app-container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 20px; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+/* --- HEADER & TÌM KIẾM --- */
+.search-header { background: #b22222; padding: 20px; color: white; text-align: center; border-radius: 15px; }
+.modern-search-box { background: white; border-radius: 50px; display: flex; padding: 10px 20px; max-width: 700px; margin: 15px auto; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.modern-search-box input { border: none; flex: 1; outline: none; font-size: 18px; padding: 5px; }
+
+/* --- KHAY ĐIỀU KHIỂN (Gộp chung nút) --- */
+.modern-filters { display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
+.filter-btn { border: none; background: rgba(255,255,255,0.2); color: white; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; }
 .filter-btn.active { background: white; color: #b22222; }
-.word-card { border: 1px solid #ddd; padding: 25px; margin: 20px 0; border-radius: 15px; }
-.dialogue-card { background: #f9f9f9; padding: 20px; border-radius: 15px; margin: 20px 0; }
+
+/* --- CÁC THẺ KẾT QUẢ --- */
+.result-area { margin-top: 20px; }
+.word-card, .dialogue-card { border: 1px solid #eee; padding: 20px; border-radius: 15px; margin-bottom: 20px; background: #fff; }
+
+/* --- GIỮ ĐÚNG BỐ CỤC --- */
+.chat-line { margin-bottom: 15px; display: flex; gap: 10px; }
+.speaker-avatar { width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
+.chat-content { background: #f8f9fa; padding: 10px 15px; border-radius: 10px; flex-grow: 1; }
