@@ -1,14 +1,34 @@
-<div class="search-header">
-    <div class="school-tag">國立臺南大學 NUTN</div>
-    <h2>Maomi Chinese Dictionary</h2>
-    
-    <div class="tab-box">
-        <button id="tab-dict" class="tab-btn active" onclick="switchTab('dict')">📖 Từ Điển</button>
-        <button id="tab-speak" class="tab-btn" onclick="switchTab('speak')">🗣️ Hội Thoại</button>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maomi Chinese Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="search-header">
+            <div class="school-tag">國立臺南大學 NUTN</div>
+            <h2>Maomi Chinese Dictionary</h2>
+            
+            <div class="tab-box">
+                <button id="tab-dict" class="tab-btn active" onclick="switchTab('dict')">📖 Từ Điển</button>
+                <button id="tab-speak" class="tab-btn" onclick="switchTab('speak')">🗣️ Hội Thoại</button>
+            </div>
+
+            <div class="modern-search-box">
+                <input type="text" id="searchInput" placeholder="Tìm kiếm từ vựng hoặc hội thoại..." onkeyup="handleSearch()">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+
+        <div id="dictionary-container" class="result-area"></div>
+        <div id="dialogue-container" class="result-area" style="display: none;"></div>
     </div>
 
-    <div class="modern-search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="Tìm kiếm từ vựng hoặc hội thoại..." onkeyup="handleSearch()">
-    </div>
-</div>
+    <script src="script.js"></script>
+</body>
+</html>
