@@ -1,22 +1,149 @@
-/* --- TỔNG THỂ --- */
-body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 20px; color: #333; }
-.app-container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 20px; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+:root { --nutn-red: #b22222; --text-dark: #2d3436; }
+body { background: #f0f2f5; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; display: flex; justify-content: center; }
 
-/* --- HEADER & TÌM KIẾM --- */
-.search-header { background: #b22222; padding: 20px; color: white; text-align: center; border-radius: 15px; }
-.modern-search-box { background: white; border-radius: 50px; display: flex; padding: 10px 20px; max-width: 700px; margin: 15px auto; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-.modern-search-box input { border: none; flex: 1; outline: none; font-size: 18px; padding: 5px; }
+.app-container { width: 100%; max-width: 500px; background: white; min-height: 100vh; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
 
-/* --- KHAY ĐIỀU KHIỂN (Gộp chung nút) --- */
-.modern-filters { display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
-.filter-btn { border: none; background: rgba(255,255,255,0.2); color: white; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; }
-.filter-btn.active { background: white; color: #b22222; }
+.search-header { background: var(--nutn-red); padding: 40px 20px; color: white; text-align: center; border-radius: 0 0 25px 25px; }
+.school-tag { font-size: 12px; opacity: 0.8; letter-spacing: 1px; }
+.search-box { background: white; border-radius: 30px; display: flex; padding: 5px 15px; margin-top: 20px; }
+.search-box input { border: none; flex: 1; padding: 12px; outline: none; font-size: 16px; border-radius: 30px; }
 
-/* --- CÁC THẺ KẾT QUẢ --- */
-.result-area { margin-top: 20px; }
-.word-card, .dialogue-card { border: 1px solid #eee; padding: 20px; border-radius: 15px; margin-bottom: 20px; background: #fff; }
+.result-area { padding: 25px; }
+.welcome-msg { text-align: center; color: #95a5a6; margin-top: 50px; font-style: italic; }
 
-/* --- GIỮ ĐÚNG BỐ CỤC --- */
-.chat-line { margin-bottom: 15px; display: flex; gap: 10px; }
-.speaker-avatar { width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
-.chat-content { background: #f8f9fa; padding: 10px 15px; border-radius: 10px; flex-grow: 1; }
+.word-card { animation: slideUp 0.4s ease; }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+.word-head { font-size: 45px; font-weight: bold; color: var(--text-dark); margin: 0; }
+.phonetic-info { font-size: 18px; color: #636e72; margin: 10px 0; }
+.badge { background: #ffeaa7; color: #d35400; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: bold; }
+
+.content-section { background: #f9f9f9; padding: 15px; border-radius: 12px; margin-top: 20px; border-left: 5px solid var(--nutn-red); }
+.label { font-size: 11px; color: #b22222; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 5px; }
+.example-zh { font-size: 18px; color: #2d3436; display: block; margin-top: 10px; font-weight: 500; }
+.example-vi { font-size: 15px; color: #636e72; font-style: italic; }
+.compound-tag {
+    background: #e74c3c;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.compound-tag:hover {
+    background: #c0392b;
+}
+.ex-phonetic {
+    font-size: 0.85em;
+    color: #2980b9;
+    margin: 2px 0;
+}
+.ex-ipa {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-left: 8px;
+}
+.audio-btn, .audio-btn-sm {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.audio-btn { font-size: 24px; vertical-align: middle; }
+.audio-btn-sm { font-size: 16px; }
+
+/* Khay điều khiển chung */
+.control-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap; /* Tự xuống dòng nếu màn hình quá nhỏ */
+}
+
+.tab-group, .filter-group {
+    display: flex;
+    gap: 5px;
+}
+
+.divider {
+    color: rgba(255,255,255,0.5);
+    font-weight: 200;
+    margin: 0 5px;
+}
+
+/* Đảm bảo nút không bị co cụm */
+.filter-btn {
+    white-space: nowrap;
+    padding: 8px 16px;
+};
+/* --- GIAO DIỆN TAB CHUYỂN ĐỔI --- */
+.tab-btn {
+    padding: 8px 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.tab-btn.active {
+    background: white;
+    color: #b22222; /* Trùng màu đỏ đô của header */
+}
+.tab-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.tab-btn.active:hover {
+    background: white;
+}
+
+/* --- GIAO DIỆN ĐOẠN HỘI THOẠI CHAT --- */
+.dialogue-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.chat-line {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.speaker-avatar {
+    background: #e74c3c;
+    color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.chat-content {
+    background: #f8f9fa;
+    padding: 12px 18px;
+    border-radius: 15px;
+    border-left: 4px solid #e74c3c;
+}
+.chat-zh { 
+    font-size: 1.3em; 
+    color: #2c3e50; 
+    font-weight: bold; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.chat-py { color: #2980b9; font-size: 0.95em; margin: 5px 0; }
+.chat-vn { color: #7f8c8d; font-size: 0.9em; font-style: italic; }
+.play-line-btn {
+    border: none; background: none; cursor: pointer; font-size: 20px; transition: 0.2s;
+}
+.play-line-btn:hover { transform: scale(1.2); }
