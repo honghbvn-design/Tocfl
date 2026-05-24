@@ -10,8 +10,17 @@
             <button id="tab-speak" class="tab-btn" onclick="switchTab('speak')">🗣️ Hội Thoại</button>
         </div>
 
-        <div id="search-section" class="search-box">
+      <div id="search-section-dict" class="search-box">
             <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好，..." onkeyup="searchDict()">
+            <button>🔍</button>
+        </div>
+
+        <div id="search-section-speak" class="search-box" style="display: none;">
+            <input type="text" id="dialogueSearchInput" placeholder="Tìm hội thoại: Bài 1, Mời đồ uống, Chào hỏi..." onkeyup="searchDialogue()">
+            <button>🔍</button>
+        </div>
+        <div id="dialogue-search-section" class="search-box" style="display: none;">
+            <input type="text" id="dialogueSearchInput" placeholder="Tìm hội thoại: Bài 1, Mời đồ uống, xin chào..." onkeyup="searchDialogue()">
             <button>🔍</button>
         </div>
     </div>
