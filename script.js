@@ -6111,9 +6111,26 @@ const dialogueData = [
         ],
         correct: 2
       }
-    ]
-  },
-  {
+    ],
+clozes: [
+            {
+                sentence: { zh: "請問，您 ____ 姓？", py: "Qǐngwèn, nín ____ xìng?", vn: "Xin hỏi, ngài ____ gì?" },
+                options: [{ zh: "叫 (jiào)", vn: "gọi là" }, { zh: "貴 (guì)", vn: "quý (họ)" }, { zh: "什麼 (shénme)", vn: "cái gì" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我 ____ 林，來接你們。", py: "Wǒ ____ Lín, lái jiē nǐmen.", vn: "Tôi ____ Lâm, đến đón các bạn." },
+                options: [{ zh: "叫 (jiào)", vn: "tên là" }, { zh: "是 (shì)", vn: "là" }, { zh: "姓 (xìng)", vn: "họ" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "歡迎你們 ____ 臺灣。", py: "Huānyíng nǐmen ____ Táiwān.", vn: "Chào mừng các bạn ____ Đài Loan." },
+                options: [{ zh: "來 (lái)", vn: "đến" }, { zh: "去 (qù)", vn: "đi" }, { zh: "在 (zài)", vn: "ở" }],
+                correct: 0
+            }
+        ]
+    },
+    {
     title: "Hội thoại 2: Mời đồ uống tại văn phòng",
     lesson: "Bài 1",
     level: "TOCFL Band A",
@@ -6153,9 +6170,26 @@ const dialogueData = [
         ],
         correct: 2
       }
-    ]
-  },
-  {
+    ],
+clozes: [
+            {
+                sentence: { zh: "妳 ____ 喝咖啡還是茶？", py: "Nǐ ____ hē kāfēi háishì chá?", vn: "Bạn ____ uống cà phê hay là trà?" },
+                options: [{ zh: "想 (xiǎng)", vn: "muốn" }, { zh: "吃 (chī)", vn: "ăn" }, { zh: "有 (yǒu)", vn: "có" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我比較喜歡 ____ 茶。", py: "Wǒ bǐjiào xǐhuān ____ chá.", vn: "Tôi tương đối thích ____ trà." },
+                options: [{ zh: "吃 (chī)", vn: "ăn" }, { zh: "喝 (hē)", vn: "uống" }, { zh: "買 (mǎi)", vn: "mua" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "這裡的珍珠奶茶很 ____ 喝。", py: "Zhèlǐ de zhēnzhū nǎichá hěn ____ hē.", vn: "Trà sữa trân châu ở đây rất ____ ." },
+                options: [{ zh: "貴 (guì)", vn: "đắt" }, { zh: "大 (dà)", vn: "to" }, { zh: "好 (hǎo)", vn: "ngon (uống)" }],
+                correct: 2
+            }
+        ]
+    },
+    {
     title: "Hội thoại 1: Xem ảnh gia đình",
     lesson: "Bài 2",
     level: "TOCFL Band A",
@@ -6195,9 +6229,26 @@ const dialogueData = [
         ],
         correct: 2
       }
-    ]
-  },
-  {
+    ],
+clozes: [
+            {
+                sentence: { zh: "這 ____ 我爸爸、媽媽。", py: "Zhè ____ wǒ bàba, māma.", vn: "Đây ____ bố, mẹ tôi." },
+                options: [{ zh: "有 (yǒu)", vn: "có" }, { zh: "是 (shì)", vn: "là" }, { zh: "叫 (jiào)", vn: "gọi là" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "你家有 ____ 個人？", py: "Nǐ jiā yǒu ____ ge rén?", vn: "Nhà bạn có ____ người?" },
+                options: [{ zh: "幾 (jǐ)", vn: "mấy" }, { zh: "多少 (duōshǎo)", vn: "bao nhiêu" }, { zh: "什麼 (shénme)", vn: "gì" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我家有四 ____ 人。", py: "Wǒ jiā yǒu sì ____ rén.", vn: "Nhà tôi có bốn ____ người." },
+                options: [{ zh: "口 (ge)", vn: "miếng/ngụm/hơi" }, { zh: "個 (ge)", vn: "người/cái" }, { zh: "張 (zhāng)", vn: "tờ/bức" }],
+                correct: 1
+            }
+        ]
+    },
+    {
     title: "Hội thoại 2: 到朋友家玩 (Đến chơi nhà bạn)",
     lesson: "Bài 2",
     level: "TOCFL Band A",
@@ -6238,27 +6289,131 @@ const dialogueData = [
         ],
         correct: 2
       }
-    ]
-  }
-];
-// ------------------------------------------
-// HÀM ÂM THANH (DÙNG CHUNG)
-// ------------------------------------------
-function playDialogueAudio(text, gender, dialogueIndex) {
-    if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel(); 
-        let speed = 0.8;
-        if (dialogueIndex !== undefined) {
-            const speedSelect = document.getElementById(`speed-select-${dialogueIndex}`);
-            if (speedSelect) speed = parseFloat(speedSelect.value);
-        }
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'zh-TW';
-        utterance.rate = speed; 
-        utterance.pitch = gender === 'male' ? 0.8 : 1.3;
-        window.speechSynthesis.speak(utterance);
+    ],
+clozes: [
+            {
+                sentence: { zh: "你哥哥工作 ____ 嗎？", py: "Nǐ gēge gōngzuò ____ ma?", vn: "Anh trai bạn công việc có ____ không?" },
+                options: [{ zh: "好 (hǎo)", vn: "tốt" }, { zh: "忙 (máng)", vn: "bận" }, { zh: "大 (dà)", vn: "lớn" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "他 ____ 英文老師。", py: "Tā ____ lǎoshī.", vn: "Anh ấy ____ thầy giáo." },
+                options: [{ zh: "是 (shì)", vn: "là" }, { zh: "做 (zuò)", vn: "làm" }, { zh: "有 (yǒu)", vn: "có" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "書， ____ 是明華哥哥的書。", py: "Shū ____ shì Míng huá gēgē de shū.", vn: "Cuốn sách ____ là sách của anh trai Minh Hoa." },
+                options: [{ zh: "都 (dōu)", vn: "đều" }, { zh: "很 (hěn)", vn: "rất" }, { zh: "不 (bù)", vn: "không" }],
+                correct: 0
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: Món ăn Đài Loan rất ngon",
+        lesson: "Bài 3",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "美英", zh: "東東，你喜歡臺灣菜嗎？", py: "Dōngdōng, nǐ xǐhuān Táiwāncài ma?", vn: "Đông Đông, bạn thích món ăn Đài Loan không?", gender: "female" },
+            { sp: "東東", zh: "很喜歡。臺灣菜很好吃。", py: "Hěn xǐhuān. Táiwāncài hěn hǎochī.", vn: "Rất thích. Món ăn Đài Loan rất ngon.", gender: "male" },
+            { sp: "美英", zh: "你吃過什麼臺灣菜？", py: "Nǐ chīguò shénme Táiwāncài?", vn: "Bạn đã từng ăn món ăn Đài Loan nào?", gender: "female" },
+            { sp: "東東", zh: "我吃過牛肉麵，還有小籠包。", py: "Wǒ chīguò niúròumiàn, hái yǒu xiǎolóngbāo.", vn: "Tôi đã từng ăn mì bò, và cả tiểu long bao nữa.", gender: "male" },
+            { sp: "美英", zh: "你覺得哪一種好吃？", py: "Nǐ juéde nǎ yì zhǒng hǎochī?", vn: "Bạn cảm thấy loại nào ngon hơn?", gender: "female" },
+            { sp: "東東", zh: "都很好吃！你呢？你喜歡吃什麼？", py: "Dōu hěn hǎochī! Nǐ ne? Nǐ xǐhuān chī shénme?", vn: "Đều rất ngon! Còn bạn? Bạn thích ăn gì?", gender: "male" },
+            { sp: "美英", zh: "我最喜歡吃臭豆腐。", py: "Wǒ zuì xǐhuān chī chòudòufu.", vn: "Tôi thích ăn đậu phụ thối nhất.", gender: "female" },
+            { sp: "東東", zh: "臭豆腐？那是什麼？", py: "Chòudòufu? Nà shì shénme?", vn: "Đậu phụ thối? Đó là cái gì?", gender: "male" },
+            { sp: "美英", zh: "是一種很有名的臺灣小吃，聞起來臭，吃起來香。", py: "Shì yì zhǒng hěn yǒumíng de Táiwān xiǎochī, wén qǐlai chòu, chī qǐlai xiāng.", vn: "Là một loại món ăn vặt Đài Loan rất nổi tiếng, ngửi thì thối, ăn vào thì thơm.", gender: "female" },
+            { sp: "東東", zh: "聽起來很有意思，下次我也想試試看。", py: "Tīng qǐlai hěn yǒuyìsi, xiàcì wǒ yě xiǎng shìshìkàn.", vn: "Nghe có vẻ rất thú vị, lần sau tôi cũng muốn ăn thử xem sao.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "東東，你喜歡臺灣菜 ____ ？", py: "Dōngdōng, nǐ xǐhuān Táiwāncài ____ ?", vn: "Đông Đông, bạn thích món ăn Đài Loan ____ ?" },
+                options: [{ zh: "嗎 (ma)", vn: "không (câu hỏi)" }, { zh: "呢 (ne)", vn: "còn/nhỉ" }, { zh: "吧 (ba)", vn: "chứ/nhé" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我吃過牛肉麵，____ 有小籠包。", py: "Wǒ chīguò niúròumiàn, ____ yǒu xiǎolóngbāo.", vn: "Tôi từng ăn mì bò, ____ có tiểu long bao." },
+                options: [{ zh: "都 (dōu)", vn: "đều" }, { zh: "最 (zuì)", vn: "nhất" }, { zh: "還 (hái)", vn: "còn" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "是一種很有名的臺灣 ____ 。", py: "Shì yì zhǒng hěn yǒumíng de Táiwān ____ .", vn: "Là một loại ____ Đài Loan rất nổi tiếng." },
+                options: [{ zh: "小吃 (xiǎochī)", vn: "món ăn vặt" }, { zh: "菜單 (càidān)", vn: "thực đơn" }, { zh: "飲料 (yǐnliào)", vn: "đồ uống" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "臭豆腐聞起來臭，吃 ____ 香。", py: "Chòudòufu wén qǐlai chòu, chī ____ xiāng.", vn: "Đậu phụ thối ngửi thì thối, ăn ____ thơm." },
+                options: [{ zh: "起來 (qǐlai)", vn: "lên/xu hướng" }, { zh: "出來 (chūlai)", vn: "ra" }, { zh: "進來 (jìnlái)", vn: "vào" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "美英最喜歡吃什麼臺灣小吃？", vn: "Mỹ Anh thích ăn món ăn vặt Đài Loan nào nhất?" },
+                options: [
+                    { zh: "牛肉麵", vn: "Mì bò" },
+                    { zh: "小籠包", vn: "Tiểu long bao" },
+                    { zh: "臭豆腐", vn: "Đậu phụ thối" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: Chào mừng quý khách! Xin hỏi đi mấy người?",
+        lesson: "Bài 3",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "店員", zh: "歡迎光臨！請問幾位？", py: "Huānyíng guānglín! Qǐngwèn jǐ wèi?", vn: "Chào mừng quý khách! Xin hỏi đi mấy người ạ?", gender: "female" },
+            { sp: "東東", zh: "兩位。", py: "Liǎng wèi.", vn: "Hai người.", gender: "male" },
+            { sp: "店員", zh: "這邊請。這是菜單，請問你們想點什麼？", py: "Zhèbiān qǐng. Zhè shì càidān, qǐngwèn nǐmen xiǎng diǎn shénme?", vn: "Mời đi lối này. Đây là thực đơn, xin hỏi các bạn muốn gọi món gì?", gender: "female" },
+            { sp: "美英", zh: "我要一碗牛肉麵。東東，你呢？", py: "Wǒ yào yì wǎn niúròumiàn. Dōngdōng, nǐ ne?", vn: "Tôi muốn một bát mì bò. Đông Đông, còn bạn?", gender: "female" },
+            { sp: "東東", zh: "我要一盤炒飯，還有一碗酸辣湯。", py: "Wǒ yào yì pán chǎofàn, hái yǒu yì wǎn suānlàtāng.", vn: "Tôi muốn một đĩa cơm chiên, và một bát canh chua cay.", gender: "male" },
+            { sp: "店員", zh: "要不要點小菜？", py: "Yào bú yào diǎn xiǎocài?", vn: "Có muốn gọi món ăn kèm (món phụ) không ạ?", gender: "female" },
+            { sp: "美英", zh: "好，要一盤燙青菜。", py: "Hǎo, yào yì pán tàngqīngcài.", vn: "Được, cho một đĩa rau cải luộc.", gender: "female" },
+            { sp: "店員", zh: "飲料呢？喝什麼？", py: "Yǐnliào ne? Hē shénme?", vn: "Còn đồ uống thì sao ạ? Uống gì?", gender: "female" },
+            { sp: "東東", zh: "兩杯冰紅茶，謝謝。", py: "Liǎng bēi bīng hóngchá, xièxie.", vn: "Hai ly hồng trà đá, cảm ơn.", gender: "male" },
+            { sp: "店員", zh: "好的，請稍等。", py: "Hǎode, qǐng shāoděng.", vn: "Được ạ, xin vui lòng đợi một chút.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "歡迎光臨！請問 ____ 位？", py: "Huānyíng guānglín! Qǐngwèn ____ wèi?", vn: "Chào mừng quý khách! Xin hỏi đi ____ người?" },
+                options: [{ zh: "幾 (jǐ)", vn: "mấy" }, { zh: "多少 (duōshǎo)", vn: "bao nhiêu" }, { zh: "什麼 (shénme)", vn: "gì" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "這是 ____ ，請問你們想點什麼？", py: "Zhè shì ____ , qǐngwèn nǐmen xiǎng diǎn shénme?", vn: "Đây là ____ , xin hỏi các bạn muốn gọi món gì?" },
+                options: [{ zh: "小吃 (xiǎochī)", vn: "món ăn vặt" }, { zh: "菜單 (càidān)", vn: "thực đơn" }, { zh: "飲料 (yǐnliào)", vn: "đồ uống" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我要一 ____ 牛肉麵。", py: "Wǒ yào yì ____ niúròumiàn.", vn: "Tôi muốn một ____ mì bò." },
+                options: [{ zh: "盤 (pán)", vn: "đĩa" }, { zh: "杯 (bēi)", vn: "ly/cốc" }, { zh: "碗 (wǎn)", vn: "bát/tô" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "我要一 ____ 炒飯。", py: "Wǒ yào yì ____ chǎofàn.", vn: "Tôi muốn một ____ cơm chiên." },
+                options: [{ zh: "盤 (pán)", vn: "đĩa" }, { zh: "碗 (wǎn)", vn: "bát" }, { zh: "杯 (bēi)", vn: "ly" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "兩 ____ 冰紅茶, 謝謝。", py: "Liǎng ____ bīng hóngchá, xièxie.", vn: "Hai ____ hồng trà đá, cảm ơn." },
+                options: [{ zh: "碗 (wǎn)", vn: "bát" }, { zh: "杯 (bēi)", vn: "ly/cốc" }, { zh: "盤 (pán)", vn: "đĩa" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "東東點了什麼飲料？", vn: "Đông Đông đã gọi đồ uống gì?" },
+                options: [
+                    { zh: "咖啡", vn: "Cà phê" },
+                    { zh: "珍珠奶茶", vn: "Trà sữa trân châu" },
+                    { zh: "冰紅茶", vn: "Hồng trà đá" }
+                ],
+                correct: 2
+            }
+        ]
     }
-}
+];
 
 // ==========================================
 // 6. KHU VỰC XỬ LÝ HỘI THOẠI (TÌM KIẾM, HIỂN THỊ, ÂM THANH, TRẮC NGHIỆM)
@@ -6272,7 +6427,99 @@ function searchDialogue() {
     displayDialogues(searchTerm); 
 }
 
-// --- HÀM HIỂN THỊ HỘI THOẠI (TÍCH HỢP TÌM KIẾM & FONT TO) ---
+// ========================================================
+// 1. HÀM PHỤ: XỬ LÝ GIAO DIỆN BÀI TẬP ĐỤC LỖ (AN TOÀN)
+// ========================================================
+function renderClozesHtml(group, dIdx) {
+    if (!group.clozes || group.clozes.length === 0) return "";
+
+    let html = `
+        <div class="cloze-section" style="background: #fffaf0; padding: 25px; border-radius: 20px; border: 2px solid #f39c12; margin-top: 30px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0; color: #d35400; font-size: 24px; display: flex; align-items: center; gap: 10px;">📝 Bài tập điền từ luyện vựng</h3>
+    `;
+
+    group.clozes.forEach((c, cIdx) => {
+        // Nhận diện dữ liệu an toàn để không bao giờ báo lỗi undefined
+        let zhText = (c.sentence && c.sentence.zh) ? c.sentence.zh : (c.sentence || "");
+        let pyText = (c.sentence && c.sentence.py) ? c.sentence.py : "";
+        let vnText = (c.sentence && c.sentence.vn) ? c.sentence.vn : "";
+
+        html += `
+            <div style="margin-top: 25px; padding-bottom: 15px; border-bottom: 1px dashed #f39c12;">
+                <div style="font-size: 22px; font-weight: bold; color: #2c3e50;">CÂU ${cIdx + 1}: ${zhText}</div>
+                <div style="font-size: 18px; color: #2980b9; margin: 5px 0;">${pyText}</div>
+                <div style="font-size: 16px; color: #7f8c8d; font-style: italic;">${vnText}</div>
+                <div id="cloze-options-${dIdx}-${cIdx}" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 15px;">
+        `;
+
+        c.options.forEach((opt, optIdx) => {
+            let optZh = (opt && opt.zh) ? opt.zh : (opt || "");
+            let optVn = (opt && opt.vn) ? opt.vn : "";
+
+            html += `
+                <button onclick="checkCloze(${dIdx}, ${cIdx}, ${optIdx})" 
+                    style="padding: 10px 20px; border: 2px solid #bdc3c7; border-radius: 12px; background: white; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 10px; font-family: inherit;">
+                    <strong style="font-size: 19px; color: #2c3e50;">${optZh}</strong>
+                    ${optVn ? `<span style="color: #bdc3c7;">➔</span><span style="font-size: 16px; color: #27ae60; font-weight: 500;">${optVn}</span>` : ""}
+                </button>
+            `;
+        });
+
+        html += `
+                </div>
+                <p id="cloze-result-${dIdx}-${cIdx}" style="margin-top: 12px; font-size: 18px; font-weight: bold; display: none;"></p>
+            </div>
+        `;
+    });
+
+    html += `</div>`;
+    return html;
+}
+
+// ========================================================
+// 2. HÀM PHỤ: XỬ LÝ QUIZ TRẮC NGHIỆM (AN TOÀN)
+// ========================================================
+function renderQuizzesHtml(group, dIdx) {
+    if (!group.quizzes || group.quizzes.length === 0) return "";
+
+    let html = `
+        <div style="background: #f0f7ff; padding: 25px; border-radius: 20px; border: 2px dashed #3498db; margin-top: 20px;">
+            <h3 style="margin-top: 0; color: #2980b9; font-size: 24px;">🎮 Trắc nghiệm nội dung bài học</h3>
+    `;
+
+    group.quizzes.forEach((q, qIdx) => {
+        let questionText = (typeof q.question === 'object' && q.question !== null) ? (q.question.zh || "") : (q.question || "");
+
+        html += `
+            <div style="margin-top: 20px; padding-bottom: 15px; border-bottom: 1px solid #d6eaf8;">
+                <div style="font-size: 22px; font-weight: bold; color:#2c3e50;">${questionText}</div>
+                <div id="quiz-options-${dIdx}-${qIdx}" style="display: grid; gap: 8px; margin-top: 10px;">
+        `;
+
+        q.options.forEach((opt, oIdx) => {
+            let optText = (typeof opt === 'object' && opt !== null) ? `${opt.zh || ""} (${opt.vn || ""})` : (opt || "");
+
+            html += `
+                <button onclick="checkQuiz(${dIdx}, ${qIdx}, ${oIdx})" style="text-align: left; padding: 12px 15px; border: 1px solid #ccc; border-radius: 10px; background: white; cursor: pointer; font-size: 18px; font-weight: 500; transition: 0.2s;">
+                    ${optText}
+                </button>
+            `;
+        });
+
+        html += `
+                </div>
+                <p id="quiz-result-${dIdx}-${qIdx}" style="margin-top: 10px; font-weight: bold; display: none; font-size: 18px;"></p>
+            </div>
+        `;
+    });
+
+    html += `</div>`;
+    return html;
+}
+
+// ========================================================
+// 3. HÀM CHÍNH: GỘP TẤT CẢ LÊN GIAO DIỆN (ĐÃ KHÔI PHỤC ÂM THANH & TOCFL)
+// ========================================================
 function displayDialogues(searchTerm = "") {
     const container = document.getElementById('dialogue-container');
     if (!container) return;
@@ -6282,100 +6529,86 @@ function displayDialogues(searchTerm = "") {
 
     dialogueData.forEach((group, dIdx) => {
         let isMatch = false;
-
-        if (searchTerm === "") {
-            isMatch = true;
-        } else {
-            if (group.title.toLowerCase().includes(searchTerm) || group.lesson.toLowerCase().includes(searchTerm)) {
-                isMatch = true;
-            }
+        if (searchTerm === "") isMatch = true;
+        else {
+            if (group.title.toLowerCase().includes(searchTerm) || group.lesson.toLowerCase().includes(searchTerm)) isMatch = true;
             group.content.forEach(line => {
-                if (line.zh.includes(searchTerm) || line.py.toLowerCase().includes(searchTerm) || line.vn.toLowerCase().includes(searchTerm)) {
-                    isMatch = true;
-                }
+                if (line.zh.includes(searchTerm) || line.py.toLowerCase().includes(searchTerm) || line.vn.toLowerCase().includes(searchTerm)) isMatch = true;
             });
         }
 
         if (isMatch) {
             hasResults = true;
+            
+            // Gọi 2 hàm phụ ở trên để ghép giao diện bài tập vào
+            const clozesHtml = renderClozesHtml(group, dIdx);
+            const quizzesHtml = renderQuizzesHtml(group, dIdx);
+
             htmlContent += `
-                <div class="dialogue-card" style="position: relative; padding: 30px; border-radius: 20px; background: white; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-                    <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 10px;">
-                        <span style="background: #2980b9; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.lesson}</span>
-                        <span style="background: #f39c12; color: white; padding: 6px 15px; border-radius: 25px; font-size: 14px; font-weight: bold;">${group.level}</span>
+                <div class="dialogue-card" style="padding: 30px; border-radius: 20px; background: white; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: left;">
+                    
+                    <div style="text-align: right; margin-bottom: 10px;">
+                        ${group.level ? `<span style="background: #e74c3c; color: white; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; margin-right: 8px;">${group.level}</span>` : ''}
+                        <span style="background: #2980b9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: bold;">${group.lesson}</span>
+                    </div>
+                    
+                    <h2 style="color:#b22222; margin-top: 0; font-size: 28px; border-bottom: 2px solid #eee; padding-bottom: 10px;">${group.title}</h2>
+                    
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; margin-bottom: 25px; display: flex; align-items: center; gap: 15px; flex-wrap: wrap; border: 1px solid #e0e0e0;">
+                        <button id="play-btn-${dIdx}" onclick="toggleFullDialogue(${dIdx})" style="background: #27ae60; color: white; border: none; padding: 8px 20px; border-radius: 8px; cursor: pointer; font-size: 16px; font-weight: bold; display: flex; align-items: center; gap: 8px; transition: 0.2s;">
+                            ▶ Đọc toàn bài
+                        </button>
+                        
+                        <div style="display: flex; align-items: center; gap: 8px; border-left: 2px solid #ddd; padding-left: 15px;">
+                            <span style="font-size: 15px; color: #555; font-weight: bold;">Tốc độ:</span>
+                            <button onclick="setSpeed(0.5)" style="border: 1px solid #bdc3c7; background: white; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 14px; transition: 0.2s;">🐢 Chậm</button>
+                            <button onclick="setSpeed(0.75)" style="border: 1px solid #bdc3c7; background: white; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 14px; transition: 0.2s;">🚶 Vừa</button>
+                            <button onclick="setSpeed(1.5)" style="border: 1px solid #bdc3c7; background: white; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 14px; transition: 0.2s;">🐇 Nhanh</button>
+                        </div>
                     </div>
 
-                    <h2 style="color:#b22222; margin-top: 0; margin-bottom: 30px; border-bottom:3px solid #f8f9fa; padding-bottom:15px; font-size: 32px;">${group.title}</h2>
-                    
                     <div style="margin-bottom: 30px;">
                         ${group.content.map(line => `
-                            <div class="chat-line" style="margin-bottom: 25px; display: flex; gap: 15px;">
-                                <div class="speaker-avatar" style="width: 45px; height: 45px; font-size: 20px; background: ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: bold;">
-                                    ${line.sp.charAt(0)}
-                                </div>
-                                <div class="chat-content" style="background: #f8f9fa; padding: 15px 25px; border-radius: 20px; border-left: 5px solid ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; flex-grow: 1;">
-                                    <div style="font-size: 26px; color: #2c3e50; font-weight: bold; display: flex; align-items: center; gap: 15px;">
-                                        ${line.sp}: ${line.zh} 
-                                        <button onclick="playDialogueAudio('${line.zh}', '${line.gender}', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:28px;">🔊</button>
-                                    </div>
-                                    <div style="color: #2980b9; font-size: 20px; margin: 8px 0; font-weight: 500;">${line.py}</div>
-                                    <div style="color: #7f8c8d; font-size: 18px; font-style: italic;">${line.vn}</div>
+                            <div class="chat-line" style="margin-bottom: 20px; display: flex; gap: 15px;">
+                                <div class="speaker-avatar" style="width: 40px; height: 40px; background: ${line.gender === 'male' ? '#3498db' : '#e74c3c'}; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: bold;">${line.sp.charAt(0)}</div>
+                                <div class="chat-content" style="background: #f8f9fa; padding: 12px 20px; border-radius: 15px; flex-grow: 1; border-left: 4px solid ${line.gender === 'male' ? '#3498db' : '#e74c3c'};">
+                                    <div style="font-size: 22px; font-weight: bold;">${line.sp}: ${line.zh} <button onclick="playDialogueAudio('${line.zh}', '${line.gender}', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:22px; vertical-align: middle;">🔊</button></div>
+                                    <div style="color: #2980b9; font-size: 17px; margin: 4px 0;">${line.py}</div>
+                                    <div style="color: #7f8c8d; font-size: 16px; font-style: italic;">${line.vn}</div>
                                 </div>
                             </div>
                         `).join('')}
                     </div>
-                    
-                    <div style="display: flex; gap: 15px; margin-bottom: 40px; background: #fff5f5; padding: 20px; border-radius: 15px;">
-                        <select id="speed-select-${dIdx}" style="padding: 12px; border-radius: 10px; border: 2px solid #e74c3c; font-weight: bold; font-size: 18px; cursor: pointer; outline: none;">
-                            <option value="0.4">🐢 Chậm</option>
-                            <option value="0.8" selected>🚶 Bình thường</option>
-                            <option value="1.2">🏃 Nhanh</option>
-                        </select>
-                        
-                        <button id="play-btn-${dIdx}" onclick="toggleFullDialogue(${dIdx})" 
-                            style="flex: 1; padding: 12px; background: #e74c3c; color: white; border: none; border-radius: 12px; cursor: pointer; font-weight: bold; font-size: 20px; transition: 0.3s; box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);">
-                            ▶️ Nghe đọc toàn bộ hội thoại (Shadowing)
-                        </button>
-                    </div>
 
-                    ${group.quizzes ? `
-                    <div style="background: #f0f7ff; padding: 30px; border-radius: 20px; border: 2px dashed #3498db;">
-                        <h3 style="margin-top: 0; color: #2980b9; font-size: 26px; display: flex; align-items: center; gap: 10px;">
-                            🎮 Thử tài hiểu bài (Quiz)
-                        </h3>
-                        
-                        ${group.quizzes.map((q, qIdx) => `
-                            <div style="margin-top: 30px; padding-bottom: 20px; border-bottom: 1px solid #d6eaf8;">
-                                <div style="font-size: 24px; font-weight: bold; color: #2c3e50;">
-                                    ${q.question.zh}
-                                    <button onclick="playDialogueAudio('${q.question.zh}', 'female', ${dIdx})" style="border:none; background:none; cursor:pointer; font-size:24px; vertical-align: middle;">🔊</button>
-                                </div>
-                                <div style="font-size: 19px; color: #3498db; margin: 5px 0;">${q.question.py}</div>
-                                <div style="font-size: 18px; color: #7f8c8d; margin-bottom: 15px; font-weight: bold;">${q.question.vn}</div>
-
-                                <div id="quiz-options-${dIdx}-${qIdx}" style="display: grid; grid-template-columns: 1fr; gap: 12px;">
-                                    ${q.options.map((opt, optIndex) => `
-                                        <button onclick="checkQuiz(${dIdx}, ${qIdx}, ${optIndex})" 
-                                            style="text-align: left; padding: 15px 20px; border: 2px solid #bdc3c7; border-radius: 12px; background: white; cursor: pointer; transition: 0.2s;">
-                                            <div style="font-size: 22px; font-weight: bold; color: #333;">${opt.zh}</div>
-                                            <div style="font-size: 17px; color: #7f8c8d; font-style: italic;">${opt.vn}</div>
-                                        </button>
-                                    `).join('')}
-                                </div>
-                                <p id="quiz-result-${dIdx}-${qIdx}" style="margin-top: 15px; font-size: 20px; font-weight: bold; display: none;"></p>
-                            </div>
-                        `).join('')}
-                    </div>
-                    ` : ''}
+                    ${clozesHtml}
+                    ${quizzesHtml}
                 </div>
             `;
         }
     });
+    container.innerHTML = htmlContent || "<p style='text-align:center; color:gray;'>Không tìm thấy đoạn hội thoại nào phù hợp.</p>";
+}
 
-    if (!hasResults) {
-        container.innerHTML = "<p style='text-align:center; padding:30px; font-size:1.2em; color: gray;'>Không tìm thấy đoạn hội thoại nào phù hợp.</p>";
+// --- HÀM KIỂM TRA ĐÁP ÁN ĐỤC LỖ (KHÔNG CẦN ÂM THANH) ---
+function checkCloze(dIdx, cIdx, selected) {
+    const cloze = dialogueData[dIdx].clozes[cIdx];
+    const resultText = document.getElementById(`cloze-result-${dIdx}-${cIdx}`);
+    const optionsContainer = document.getElementById(`cloze-options-${dIdx}-${cIdx}`);
+    const buttons = optionsContainer.getElementsByTagName('button');
+
+    if (!resultText || !buttons.length) return;
+
+    resultText.style.display = "block";
+    if (selected === cloze.correct) {
+        resultText.style.color = "#27ae60";
+        resultText.innerHTML = "✅ Chính xác! Bạn đã chọn đúng từ vựng.";
+        buttons[selected].style.background = "#d5f5e3";
+        buttons[selected].style.borderColor = "#27ae60";
     } else {
-        container.innerHTML = htmlContent;
+        resultText.style.color = "#e74c3c";
+        resultText.innerHTML = "❌ Chưa đúng rồi, hãy thử lại phương án khác nhé!";
+        buttons[selected].style.background = "#fadbd8";
+        buttons[selected].style.borderColor = "#e74c3c";
     }
 }
 
@@ -6425,28 +6658,6 @@ function applySmartVoice(utterance, gender) {
     }
 }
 
-// --- HÀM PHÁT ÂM THANH CHO CÂU LẺ ---
-function playDialogueAudio(text, gender, dialogueIndex) {
-    if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel(); 
-        let speed = 0.8;
-        if (dialogueIndex !== undefined) {
-            const speedSelect = document.getElementById(`speed-select-${dialogueIndex}`);
-            if (speedSelect) speed = parseFloat(speedSelect.value);
-        }
-        const cleanText = text.replace(/[【】()（）:<br>]/g, " ").trim();
-        const utterance = new SpeechSynthesisUtterance(cleanText);
-        
-        utterance.lang = 'zh-TW';
-        utterance.rate = speed; 
-        
-        // Cấp phát giọng nam/nữ tự động
-        applySmartVoice(utterance, gender);
-
-        window.speechSynthesis.speak(utterance);
-    }
-}
-
 // --- HÀM KIỂM TRA ĐÁP ÁN TRẮC NGHIỆM ---
 function checkQuiz(dIdx, qIdx, selected) {
     const quiz = dialogueData[dIdx].quizzes[qIdx];
@@ -6468,50 +6679,7 @@ function checkQuiz(dIdx, qIdx, selected) {
     }
 }
 
-// --- HÀM ĐỌC TOÀN BỘ HỘI THOẠI CÓ TẠM DỪNG (SHADOWING) ---
-let isPlayingDialogue = false;
-async function toggleFullDialogue(index) {
-    const btn = document.getElementById(`play-btn-${index}`);
-    if (!btn) return;
 
-    if (isPlayingDialogue) {
-        isPlayingDialogue = false;
-        window.speechSynthesis.cancel();
-        btn.innerHTML = "▶️ Nghe đọc toàn bộ hội thoại (Shadowing)";
-        btn.style.background = "#e74c3c";
-        return;
-    }
-    
-    isPlayingDialogue = true;
-    btn.innerHTML = "⏹ Đang đọc... (Bấm để dừng)";
-    btn.style.background = "#95a5a6"; 
-    
-    const content = dialogueData[index].content;
-    for (let line of content) {
-        if (!isPlayingDialogue) break; 
-        await new Promise(resolve => {
-            const speedSelect = document.getElementById(`speed-select-${index}`);
-            const speed = speedSelect ? parseFloat(speedSelect.value) : 0.8;
-            
-            const cleanText = line.zh.replace(/[【】()（）:<br>]/g, " ").trim();
-            const utterance = new SpeechSynthesisUtterance(cleanText);
-            
-            utterance.lang = 'zh-TW';
-            utterance.rate = speed; 
-            
-            // Cấp phát giọng nam/nữ tự động
-            applySmartVoice(utterance, line.gender);
-
-            utterance.onend = () => setTimeout(resolve, 1800); 
-            utterance.onerror = resolve; 
-            window.speechSynthesis.speak(utterance);
-        });
-    }
-    
-    isPlayingDialogue = false;
-    btn.innerHTML = "▶️ Nghe đọc toàn bộ hội thoại (Shadowing)";
-    btn.style.background = "#e74c3c";
-}
 
 // --- HÀM ĐIỀU KHIỂN CHUYỂN TAB VÀ ĐẨY ẨN/HIỆN THANH TÌM KIẾM ĐỘC LẬP ---
 function switchTab(tab) {
@@ -6561,4 +6729,100 @@ function jumpToDialogue(lessonName) {
             }
         }
     }, 150);
+}
+
+// ========================================================
+// BỘ ĐIỀU KHIỂN ÂM THANH VÀ TỐC ĐỘ CHUẨN (SHADOWING)
+// ========================================================
+let currentSpeed = 1.0; 
+let isPlayingDialogue = false;
+let currentDialogueQueue = [];
+
+// 1. Hàm thay đổi tốc độ
+function setSpeed(speed) {
+    currentSpeed = speed;
+    let speedText = speed === 0.75 ? "Vừa" : (speed > 1.0 ? "Nhanh" : "Chậm");
+    alert("Đã đổi tốc độ đọc thành: " + speedText + ". Hãy bấm nghe thử nhé!");
+}
+
+// 2. Hàm phát âm thanh từng câu (Nút loa lẻ)
+function playDialogueAudio(text, gender, dIdx) {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        isPlayingDialogue = false; 
+
+        // Xóa các ký tự thừa trước khi đọc
+        const cleanText = text.replace(/[【】()（）:<br>]/g, " ").trim();
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        
+        utterance.lang = 'zh-TW';
+        utterance.rate = currentSpeed; // Sử dụng tốc độ đã chọn
+        
+        // Gọi hàm applySmartVoice đã có trong file của bạn
+        if (typeof applySmartVoice === 'function') {
+            applySmartVoice(utterance, gender);
+        } else {
+            utterance.pitch = gender === 'male' ? 0.8 : 1.2;
+        }
+        
+        window.speechSynthesis.speak(utterance);
+    }
+}
+
+// 3. Hàm Đọc toàn bài (Play / Pause)
+function toggleFullDialogue(dIdx) {
+    const btn = document.getElementById(`play-btn-${dIdx}`);
+    
+    // Nếu đang đọc -> Dừng
+    if (isPlayingDialogue) {
+        window.speechSynthesis.cancel();
+        isPlayingDialogue = false;
+        if (btn) btn.innerHTML = "▶ Đọc toàn bài";
+        return;
+    }
+
+    // Bắt đầu đọc
+    isPlayingDialogue = true;
+    if (btn) btn.innerHTML = "⏹ Dừng đọc";
+    
+    // Lấy nội dung hội thoại
+    const group = dialogueData[dIdx];
+    currentDialogueQueue = [...group.content]; 
+    playNextInQueue(dIdx);
+}
+
+// 4. Hàm đọc nối tiếp từng câu cho chế độ "Đọc toàn bài"
+function playNextInQueue(dIdx) {
+    const btn = document.getElementById(`play-btn-${dIdx}`);
+
+    // Dừng hoặc hết bài
+    if (!isPlayingDialogue || currentDialogueQueue.length === 0) {
+        isPlayingDialogue = false;
+        if (btn) btn.innerHTML = "▶ Đọc toàn bài";
+        return;
+    }
+
+    const line = currentDialogueQueue.shift();
+    const cleanText = line.zh.replace(/[【】()（）:<br>]/g, " ").trim();
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    
+    utterance.lang = 'zh-TW';
+    utterance.rate = currentSpeed; // Sử dụng tốc độ đã chọn
+    
+    if (typeof applySmartVoice === 'function') {
+        applySmartVoice(utterance, line.gender);
+    } else {
+        utterance.pitch = line.gender === 'male' ? 0.8 : 1.2;
+    }
+    
+    // Khi đọc xong câu này, chờ 0.3s rồi đọc câu tiếp theo
+    utterance.onend = () => {
+        if (isPlayingDialogue) setTimeout(() => playNextInQueue(dIdx), 300);
+    };
+    
+    utterance.onerror = () => {
+        if (isPlayingDialogue) playNextInQueue(dIdx);
+    };
+
+    window.speechSynthesis.speak(utterance);
 }
