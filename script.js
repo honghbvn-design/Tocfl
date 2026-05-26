@@ -6243,7 +6243,7 @@ clozes: [
             },
             {
                 sentence: { zh: "我家有四 ____ 人。", py: "Wǒ jiā yǒu sì ____ rén.", vn: "Nhà tôi có bốn ____ người." },
-                options: [{ zh: "口 (ge)", vn: "miếng/ngụm/hơi" }, { zh: "個 (ge)", vn: "người/cái" }, { zh: "張 (zhāng)", vn: "tờ/bức" }],
+                options: [{ zh: "口 (kǒu)", vn: "miếng/ngụm/hơi" }, { zh: "個 (ge)", vn: "người/cái" }, { zh: "張 (zhāng)", vn: "tờ/bức" }],
                 correct: 1
             }
         ]
