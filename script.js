@@ -6072,7 +6072,7 @@ displayWords(dictionaryData);
 
 const dialogueData = [
   {
-    title: "Hội thoại 1: Giao lưu và đón bạn mới",
+    title: "Hội thoại 1: 歡迎你來台灣 Chào mừng bạn tới Đài Loan ",
     lesson: "Bài 1",
     level: "TOCFL Band A",
     content: [
@@ -6131,7 +6131,7 @@ clozes: [
         ]
     },
     {
-    title: "Hội thoại 2: Mời đồ uống tại văn phòng",
+    title: "Hội thoại 2: 請你喝茶 Mời bạn uống Trà ",
     lesson: "Bài 1",
     level: "TOCFL Band A",
     content: [
@@ -6190,7 +6190,7 @@ clozes: [
         ]
     },
     {
-    title: "Hội thoại 1: Xem ảnh gia đình",
+    title: "Hội thoại 1: 看照片 Xem ảnh ",
     lesson: "Bài 2",
     level: "TOCFL Band A",
     content: [
@@ -6249,7 +6249,7 @@ clozes: [
         ]
     },
     {
-    title: "Hội thoại 2: 到朋友家玩 (Đến chơi nhà bạn)",
+    title: "Hội thoại 2: 到朋友家玩 Đến chơi nhà bạn ",
     lesson: "Bài 2",
     level: "TOCFL Band A",
     content: [
@@ -6309,7 +6309,7 @@ clozes: [
         ]
     },
 {
-        title: "Hội thoại 1: Món ăn Đài Loan rất ngon",
+        title: "Hội thoại 1: 台灣的菜很好吃 Món ăn Đài Loan rất ngon",
         lesson: "Bài 3",
         level: "TOCFL Band A",
         content: [
@@ -6359,7 +6359,7 @@ clozes: [
         ]
     },
     {
-        title: "Hội thoại 2: Chào mừng quý khách! Xin hỏi đi mấy người?",
+        title: "Hội thoại 2: 歡迎光臨！ Chào mừng quý khách！",
         lesson: "Bài 3",
         level: "TOCFL Band A",
         content: [
@@ -6408,6 +6408,1526 @@ clozes: [
                     { zh: "咖啡", vn: "Cà phê" },
                     { zh: "珍珠奶茶", vn: "Trà sữa trân châu" },
                     { zh: "冰紅茶", vn: "Hồng trà đá" }
+                ],
+                correct: 2
+            }
+        ]
+    },{
+        title: "Hội thoại 1: 買東西 Mua đồ ăn ",
+        lesson: "Bài 4",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "老闆", zh: "請問你要買什麼？", py: "Qǐngwèn nǐ yào mǎi shénme?", vn: "Xin hỏi bạn muốn mua gì?", gender: "male" },
+            { sp: "明華", zh: "一杯熱咖啡。兩個包子。", py: "Yì bēi rè kāfēi. Liǎng ge bāozi.", vn: "Một ly cà phê nóng. Hai cái bánh bao.", gender: "male" },
+            { sp: "老闆", zh: "你要大杯、中杯還是小杯？", py: "Nǐ yào dàbēi, zhōngbēi háishì xiǎobēi?", vn: "Bạn muốn ly lớn, ly vừa hay ly nhỏ?", gender: "male" },
+            { sp: "明華", zh: "大杯。包子請幫我微波。", py: "Dàbēi. Bāozi qǐng bāng wǒ wéibō.", vn: "Ly lớn. Bánh bao xin hâm nóng giúp tôi.", gender: "male" },
+            { sp: "老闆", zh: "好的。請問外帶還是內用？", py: "Hǎode. Qǐngwèn wàidài háishì nèiyòng?", vn: "Được ạ. Xin hỏi mang đi hay dùng tại quán?", gender: "male" },
+            { sp: "明華", zh: "外帶，一共多少錢？", py: "Wàidài, yígòng duōshǎo qián?", vn: "Mang đi, tổng cộng bao nhiêu tiền?", gender: "male" },
+            { sp: "老闆", zh: "咖啡八十，包子四十，一共一百二十塊。", py: "Kāfēi bāshí, bāozi sìshí, yígòng yìbǎi èrshí kuài.", vn: "Cà phê 80, bánh bao 40, tổng cộng 120 tệ.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "你要大杯、中杯還是 ____ ？", py: "Nǐ yào dàbēi, zhōngbēi háishì ____ ?", vn: "Bạn muốn ly lớn, ly vừa hay ____ ?" },
+                options: [{ zh: "小杯 (xiǎobēi)", vn: "ly nhỏ" }, { zh: "熱茶 (rè chá)", vn: "trà nóng" }, { zh: "飲料 (yǐnliào)", vn: "đồ uống" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "包子請幫我 ____ 。", py: "Bāozi qǐng bāng wǒ ____ .", vn: "Bánh bao xin ____ giúp tôi." },
+                options: [{ zh: "打開 (dǎkāi)", vn: "mở ra" }, { zh: "微波 (wéibō)", vn: "hâm nóng" }, { zh: "外帶 (wàidài)", vn: "mang đi" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "請問 ____ 還是內用？", py: "Qǐngwèn ____ háishì nèiyòng?", vn: "Xin hỏi ____ hay dùng tại quán?" },
+                options: [{ zh: "外帶 (wàidài)", vn: "mang đi" }, { zh: "一共 (yígòng)", vn: "tổng cộng" }, { zh: "便宜 (piányí)", vn: "rẻ" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 明華買了什麼？", py: "Mínghuá mǎi le shénme?", vn: "1. Minh Hoa đã mua gì?" },
+                options: [
+                    { zh: "咖啡和包子", vn: "Cà phê và bánh bao" },
+                    { zh: "茶和包子", vn: "Trà và bánh bao" },
+                    { zh: "咖啡和麵包", vn: "Cà phê và bánh mì" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "2. 明華的咖啡是多大的？", py: "Mínghuá de kāfēi shì duō dà de?", vn: "2. Cà phê của Minh Hoa cỡ bao nhiêu?" },
+                options: [
+                    { zh: "小杯", vn: "Ly nhỏ" },
+                    { zh: "中杯", vn: "Ly vừa" },
+                    { zh: "大杯", vn: "Ly lớn" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "3. 明華一共要給老闆多少錢？", py: "Mínghuá yígòng yào gěi lǎobǎn duōshǎo qián?", vn: "3. Minh Hoa tổng cộng phải đưa ông chủ bao nhiêu tiền?" },
+                options: [
+                    { zh: "八十塊", vn: "80 tệ" },
+                    { zh: "一百二十塊", vn: "120 tệ" },
+                    { zh: "四十塊", vn: "40 tệ" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 買新的手機 Mua điện thoại di động mới",
+        lesson: "Bài 4",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "月美", zh: "我想買一支新手機。", py: "Wǒ xiǎng mǎi yì zhī xīn shǒujī.", vn: "Tôi muốn mua một chiếc điện thoại mới.", gender: "female" },
+            { sp: "明華", zh: "妳的手機很好。為什麼要買新的？", py: "Nǐ de shǒujī hěn hǎo. Wèishénme yào mǎi xīn de?", vn: "Điện thoại của bạn rất tốt. Tại sao lại muốn mua cái mới?", gender: "male" },
+            { sp: "月美", zh: "我這支手機太舊了，不好看。", py: "Wǒ zhè zhī shǒujī tài jiù le, bù hǎokàn.", vn: "Chiếc điện thoại này của tôi cũ quá rồi, không đẹp.", gender: "female" },
+            { sp: "明華", zh: "妳想買哪種手機？", py: "Nǐ xiǎng mǎi nǎ zhǒng shǒujī?", vn: "Bạn muốn mua loại điện thoại nào?", gender: "male" },
+            { sp: "月美", zh: "能照相也能上網。", py: "Néng zhàoxiàng yě néng shàngwǎng.", vn: "Có thể chụp ảnh cũng có thể lên mạng.", gender: "female" },
+            { sp: "明華", zh: "那種手機很好，我哥哥有一支。", py: "Nà zhǒng shǒujī hěn hǎo, wǒ gēge yǒu yì zhī.", vn: "Loại điện thoại đó rất tốt, anh trai tôi có một chiếc.", gender: "male" },
+            { sp: "月美", zh: "貴不貴？一支賣多少錢？", py: "Guì bù guì? Yì zhī mài duōshǎo qián?", vn: "Có đắt không? Một chiếc bán bao nhiêu tiền?", gender: "female" },
+            { sp: "明華", zh: "那種手機不便宜。一支要一萬五千多。", py: "Nà zhǒng shǒujī bù piányí. Yì zhī yào yí wàn wǔ qiān duō.", vn: "Loại điện thoại đó không rẻ. Một chiếc tốn (giá) hơn 1 vạn 5 ngàn tệ.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "我想買一 ____ 新手機。", py: "Wǒ xiǎng mǎi yì ____ xīn shǒujī.", vn: "Tôi muốn mua một ____ điện thoại mới." },
+                options: [{ zh: "張 (zhāng)", vn: "tờ/tấm" }, { zh: "支 (zhī)", vn: "chiếc/cây" }, { zh: "杯 (bēi)", vn: "ly/cốc" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我這支手機太 ____ 了，不好看。", py: "Wǒ zhè zhī shǒujī tài ____ le, bù hǎokàn.", vn: "Chiếc điện thoại này của tôi ____ quá rồi, không đẹp." },
+                options: [{ zh: "貴 (guì)", vn: "đắt" }, { zh: "新 (xīn)", vn: "mới" }, { zh: "舊 (jiù)", vn: "cũ" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "____ 照相也 ____ 上網。", py: "____ zhàoxiàng yě ____ shàngwǎng.", vn: "____ chụp ảnh cũng ____ lên mạng." },
+                options: [{ zh: "會 (huì)", vn: "biết (kỹ năng)" }, { zh: "能 (néng)", vn: "có thể (chức năng)" }, { zh: "想 (xiǎng)", vn: "muốn" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 月美為什麼要買新手機？", py: "Yuèměi wèishénme yào mǎi xīn shǒujī?", vn: "1. Tại sao Nguyệt Mỹ muốn mua điện thoại mới?" },
+                options: [
+                    { zh: "因為她的手機壞了", vn: "Vì điện thoại của cô ấy bị hỏng rồi" },
+                    { zh: "因為她的手機太舊了", vn: "Vì điện thoại của cô ấy quá cũ rồi" },
+                    { zh: "因為她沒有手機", vn: "Vì cô ấy không có điện thoại" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 月美想買的手機可以做什麼？", py: "Yuèměi xiǎng mǎi de shǒujī kěyǐ zuò shénme?", vn: "2. Chiếc điện thoại Nguyệt Mỹ muốn mua có thể làm gì?" },
+                options: [
+                    { zh: "照相和上網", vn: "Chụp ảnh và lên mạng" },
+                    { zh: "看電視", vn: "Xem tivi" },
+                    { zh: "聽音樂", vn: "Nghe nhạc" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 明華說那種手機多少錢？", py: "Mínghuá shuō nà zhǒng shǒujī duōshǎo qián?", vn: "3. Minh Hoa nói loại điện thoại đó giá bao nhiêu tiền?" },
+                options: [
+                    { zh: "五千多塊", vn: "Hơn 5 ngàn tệ" },
+                    { zh: "一萬多塊", vn: "Hơn 1 vạn tệ" },
+                    { zh: "一萬五千多", vn: "Hơn 1 vạn 5 ngàn tệ" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 臺灣的小吃 Đồ ăn vặt Đài Loan",
+        lesson: "Bài 5",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "月美", zh: "很多人都說臺灣有不少有名的小吃。", py: "Hěn duō rén dōu shuō Táiwān yǒu bù shǎo yǒumíng de xiǎochī.", vn: "Rất nhiều người đều nói Đài Loan có không ít đồ ăn vặt nổi tiếng.", gender: "female" },
+            { sp: "明華", zh: "是啊！牛肉麵、小籠包、臭豆腐...都很好吃。", py: "Shì a! Niúròumiàn, xiǎolóngbāo, chòudòufu... dōu hěn hǎochī.", vn: "Đúng vậy! Mì bò, tiểu long bao, đậu phụ thối... đều rất ngon.", gender: "male" },
+            { sp: "月美", zh: "你最喜歡吃什麼？", py: "Nǐ zuì xǐhuān chī shénme?", vn: "Bạn thích ăn gì nhất?", gender: "female" },
+            { sp: "明華", zh: "牛肉麵。牛肉好吃，湯也好喝。", py: "Niúròumiàn. Niúròu hǎochī, tāng yě hǎohē.", vn: "Mì bò. Thịt bò ngon, nước dùng (canh) cũng ngon.", gender: "male" },
+            { sp: "月美", zh: "這麼好吃，我很想吃。", py: "Zhème hǎochī, wǒ hěn xiǎng chī.", vn: "Ngon như vậy, tôi rất muốn ăn.", gender: "female" },
+            { sp: "明華", zh: "我知道一家有名的牛肉麵店，我們一起去吃，怎麼樣？", py: "Wǒ zhīdào yì jiā yǒumíng de niúròumiàn diàn, wǒmen yìqǐ qù chī, zěnmeyàng?", vn: "Tôi biết một quán mì bò rất nổi tiếng, chúng ta cùng đi ăn, thấy sao?", gender: "male" },
+            { sp: "月美", zh: "太好了！", py: "Tài hǎo le!", vn: "Tuyệt quá rồi!", gender: "female" },
+            { sp: "明華", zh: "我們明天去。一定要點大碗的。", py: "Wǒmen míngtiān qù. Yídìng yào diǎn dà wǎn de.", vn: "Ngày mai chúng ta đi. Nhất định phải gọi bát lớn nhé.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "很多人都說臺灣有不少有名的 ____ 。", py: "Hěn duō rén dōu shuō Táiwān yǒu bù shǎo yǒumíng de ____ .", vn: "Rất nhiều người đều nói Đài Loan có không ít ____ nổi tiếng." },
+                options: [{ zh: "小吃 (xiǎochī)", vn: "đồ ăn vặt" }, { zh: "餐廳 (cāntīng)", vn: "nhà hàng" }, { zh: "學校 (xuéxiào)", vn: "trường học" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我知道一 ____ 有名的牛肉麵店。", py: "Wǒ zhīdào yì ____ yǒumíng de niúròumiàn diàn.", vn: "Tôi biết một ____ quán mì bò rất nổi tiếng." },
+                options: [{ zh: "個 (ge)", vn: "cái/người" }, { zh: "家 (jiā)", vn: "nhà/quán" }, { zh: "支 (zhī)", vn: "chiếc/cây" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "一定要點大 ____ 的。", py: "Yídìng yào diǎn dà ____ de.", vn: "Nhất định phải gọi ____ lớn nhé." },
+                options: [{ zh: "杯 (bēi)", vn: "ly" }, { zh: "盤 (pán)", vn: "đĩa" }, { zh: "碗 (wǎn)", vn: "bát" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 明華最喜歡吃什麼？", py: "Mínghuá zuì xǐhuān chī shénme?", vn: "1. Minh Hoa thích ăn món gì nhất?" },
+                options: [
+                    { zh: "小籠包", vn: "Tiểu long bao" },
+                    { zh: "臭豆腐", vn: "Đậu phụ thối" },
+                    { zh: "牛肉麵", vn: "Mì bò" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 為什麼明華喜歡吃牛肉麵？", py: "Wèishénme Mínghuá xǐhuān chī niúròumiàn?", vn: "2. Tại sao Minh Hoa thích ăn mì bò?" },
+                options: [
+                    { zh: "因為牛肉好吃，湯也好喝", vn: "Vì thịt bò ngon, nước dùng cũng ngon" },
+                    { zh: "因為牛肉麵很便宜", vn: "Vì mì bò rất rẻ" },
+                    { zh: "因為他喜歡吃辣", vn: "Vì anh ấy thích ăn cay" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 明天他們要做什麼？", py: "Míngtiān tāmen yào zuò shénme?", vn: "3. Ngày mai họ sẽ làm gì?" },
+                options: [
+                    { zh: "去買小籠包", vn: "Đi mua tiểu long bao" },
+                    { zh: "去吃有名的牛肉麵", vn: "Đi ăn món mì bò nổi tiếng" },
+                    { zh: "在家自己做飯", vn: "Ở nhà tự nấu ăn" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 自己做飯 Tự nấu ăn",
+        lesson: "Bài 5",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "月美", zh: "昨天晚上那家餐廳的菜很好吃，可是有一點辣。", py: "Zuótiān wǎnshàng nà jiā cāntīng de cài hěn hǎochī, kěshì yǒu yìdiǎn là.", vn: "Món ăn ở nhà hàng tối qua rất ngon, nhưng có hơi cay một chút.", gender: "female" },
+            { sp: "安同", zh: "我也怕辣，所以我喜歡自己做飯。", py: "Wǒ yě pà là, suǒyǐ wǒ xǐhuān zìjǐ zuòfàn.", vn: "Tôi cũng sợ cay, cho nên tôi thích tự nấu ăn.", gender: "male" },
+            { sp: "月美", zh: "你做飯做得怎麼樣？", py: "Nǐ zuòfàn zuò de zěnmeyàng?", vn: "Bạn nấu ăn thế nào?", gender: "female" },
+            { sp: "安同", zh: "我做得不好。妳會做飯嗎？", py: "Wǒ zuò de bù hǎo. Nǐ huì zuòfàn ma?", vn: "Tôi nấu không tốt. Bạn có biết nấu ăn không?", gender: "male" },
+            { sp: "月美", zh: "會。我的甜點也做得不錯。", py: "Huì. Wǒ de tiándiǎn yě zuò de búcuò.", vn: "Biết. Đồ tráng miệng của tôi làm cũng không tồi.", gender: "female" },
+            { sp: "安同", zh: "我最喜歡吃甜點。妳可以教我嗎？", py: "Wǒ zuì xǐhuān chī tiándiǎn. Nǐ kěyǐ jiāo wǒ ma?", vn: "Tôi thích ăn đồ tráng miệng nhất. Bạn có thể dạy tôi không?", gender: "male" },
+            { sp: "月美", zh: "好的，這個週末，你到我家來。", py: "Hǎode, zhège zhōumò, nǐ dào wǒ jiā lái.", vn: "Được, cuối tuần này, bạn đến nhà tôi nhé.", gender: "female" },
+            { sp: "安同", zh: "好啊！謝謝妳。", py: "Hǎo a! Xièxie nǐ.", vn: "Được thôi! Cảm ơn bạn.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "昨天晚上那家餐廳的菜很好吃，可是有一點 ____ 。", py: "Zuótiān wǎnshàng nà jiā cāntīng de cài hěn hǎochī, kěshì yǒu yìdiǎn ____ .", vn: "Món ăn ở nhà hàng tối qua rất ngon, nhưng có hơi ____ một chút." },
+                options: [{ zh: "甜 (tián)", vn: "ngọt" }, { zh: "辣 (là)", vn: "cay" }, { zh: "貴 (guì)", vn: "đắt" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我也 ____ 辣，所以我喜歡自己做飯。", py: "Wǒ yě ____ là, suǒyǐ wǒ xǐhuān zìjǐ zuòfàn.", vn: "Tôi cũng ____ cay, cho nên tôi thích tự nấu ăn." },
+                options: [{ zh: "怕 (pà)", vn: "sợ" }, { zh: "愛 (ài)", vn: "yêu" }, { zh: "買 (mǎi)", vn: "mua" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我最喜歡吃甜點。妳可以 ____ 我嗎？", py: "Wǒ zuì xǐhuān chī tiándiǎn. Nǐ kěyǐ ____ wǒ ma?", vn: "Tôi thích ăn đồ tráng miệng nhất. Bạn có thể ____ tôi không?" },
+                options: [{ zh: "教 (jiāo)", vn: "dạy" }, { zh: "給 (gěi)", vn: "cho" }, { zh: "賣 (mài)", vn: "bán" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 昨天晚上的菜怎麼樣？", py: "Zuótiān wǎnshàng de cài zěnmeyàng?", vn: "1. Đồ ăn tối ngày hôm qua như thế nào?" },
+                options: [
+                    { zh: "不好吃", vn: "Không ngon" },
+                    { zh: "很好吃可是有一點辣", vn: "Rất ngon nhưng có hơi cay một chút" },
+                    { zh: "很便宜", vn: "Rất rẻ" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 月美做甜點做得怎麼樣？", py: "Yuèměi zuò tiándiǎn zuò de zěnmeyàng?", vn: "2. Nguyệt Mỹ làm đồ tráng miệng như thế nào?" },
+                options: [
+                    { zh: "做得不好", vn: "Làm không tốt" },
+                    { zh: "不會做", vn: "Không biết làm" },
+                    { zh: "做得不錯", vn: "Làm khá tốt (không tồi)" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "3. 這個週末安同要去做什麼？", py: "Zhège zhōumò Āntóng yào qù zuò shénme?", vn: "3. Cuối tuần này An Đồng sẽ đi làm gì?" },
+                options: [
+                    { zh: "到餐廳吃晚飯", vn: "Đến nhà hàng ăn tối" },
+                    { zh: "去買甜點", vn: "Đi mua đồ tráng miệng" },
+                    { zh: "到月美家學做甜點", vn: "Đến nhà Nguyệt Mỹ học làm đồ tráng miệng" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 怡君的學校在哪裡？ Trường của Di Quân ở đâu?",
+        lesson: "Bài 6",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "安同", zh: "聽說怡君的學校很漂亮。", py: "Tīngshuō Yíjūn de xuéxiào hěn piàoliang.", vn: "Nghe nói trường của Di Quân rất đẹp.", gender: "male" },
+            { sp: "如玉", zh: "他們學校在哪裡？遠不遠？", py: "Tāmen xuéxiào zài nǎlǐ? Yuǎn bù yuǎn?", vn: "Trường của họ ở đâu? Có xa không?", gender: "female" },
+            { sp: "安同", zh: "有一點遠。他們學校在花蓮的山上。", py: "Yǒu yìdiǎn yuǎn. Tāmen xuéxiào zài Huālián de shānshàng.", vn: "Hơi xa một chút. Trường của họ ở trên núi Hoa Liên.", gender: "male" },
+            { sp: "如玉", zh: "山上？那裡的風景一定很美。", py: "Shānshàng? Nàlǐ de fēngjǐng yídìng hěn měi.", vn: "Trên núi sao? Phong cảnh ở đó chắc chắn rất đẹp.", gender: "female" },
+            { sp: "安同", zh: "是的，他們學校前面有海，後面有山，那裡真的是一個很漂亮的地方。", py: "Shìde, tāmen xuéxiào qiánmiàn yǒu hǎi, hòumiàn yǒu shān, nàlǐ zhēnde shì yí gè hěn piàoliang de dìfāng.", vn: "Đúng vậy, phía trước trường họ có biển, phía sau có núi, đó thật sự là một nơi rất đẹp.", gender: "male" },
+            { sp: "如玉", zh: "我想去看看。我們這個週末一起去吧！", py: "Wǒ xiǎng qù kànkan. Wǒmen zhège zhōumò yìqǐ qù ba!", vn: "Tôi muốn đi xem thử. Cuối tuần này chúng ta cùng đi nhé!", gender: "female" },
+            { sp: "安同", zh: "好啊！我現在要去學校附近的咖啡店買咖啡。妳呢？", py: "Hǎo a! Wǒ xiànzài yào qù xuéxiào fùjìn de kāfēidiàn mǎi kāfēi. Nǐ ne?", vn: "Được thôi! Bây giờ tôi phải đến quán cà phê gần trường mua cà phê. Còn bạn?", gender: "male" },
+            { sp: "如玉", zh: "我去樓下找朋友，我們要一起去上課。", py: "Wǒ qù lóuxià zhǎo péngyǒu, wǒmen yào yìqǐ qù shàngkè.", vn: "Tôi xuống lầu tìm bạn, chúng tôi sẽ cùng nhau đi học.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "聽說怡君的學校很 ____ 。", py: "Tīngshuō Yíjūn de xuéxiào hěn ____ .", vn: "Nghe nói trường của Di Quân rất ____ ." },
+                options: [{ zh: "難看 (nánkàn)", vn: "xấu/khó coi" }, { zh: "漂亮 (piàoliang)", vn: "đẹp" }, { zh: "遠 (yuǎn)", vn: "xa" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "他們學校在花蓮的 ____ 。", py: "Tāmen xuéxiào zài Huālián de ____ .", vn: "Trường của họ ở ____ Hoa Liên." },
+                options: [{ zh: "山上 (shānshàng)", vn: "trên núi" }, { zh: "樓下 (lóuxià)", vn: "dưới lầu" }, { zh: "前面 (qiánmiàn)", vn: "phía trước" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我現在要去學校 ____ 的咖啡店。", py: "Wǒ xiànzài yào qù xuéxiào ____ de kāfēidiàn.", vn: "Bây giờ tôi phải đến quán cà phê ____ trường học." },
+                options: [{ zh: "裡面 (lǐmiàn)", vn: "bên trong" }, { zh: "後面 (hòumiàn)", vn: "phía sau" }, { zh: "附近 (fùjìn)", vn: "gần đây/lân cận" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 怡君的學校在哪裡？", py: "Yíjūn de xuéxiào zài nǎlǐ?", vn: "1. Trường của Di Quân ở đâu?" },
+                options: [
+                    { zh: "在臺北", vn: "Ở Đài Bắc" },
+                    { zh: "在花蓮的山上", vn: "Ở trên núi Hoa Liên" },
+                    { zh: "在海邊", vn: "Ở bờ biển" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 怡君學校的風景怎麼樣？", py: "Yíjūn xuéxiào de fēngjǐng zěnmeyàng?", vn: "2. Phong cảnh trường của Di Quân thế nào?" },
+                options: [
+                    { zh: "前面有海，後面有山，很漂亮", vn: "Phía trước có biển, phía sau có núi, rất đẹp" },
+                    { zh: "前面有山，後面有海，不漂亮", vn: "Phía trước có núi, phía sau có biển, không đẹp" },
+                    { zh: "只有海，沒有山", vn: "Chỉ có biển, không có núi" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 如玉現在要去哪裡？", py: "Rúyù xiànzài yào qù nǎlǐ?", vn: "3. Như Ngọc bây giờ muốn đi đâu?" },
+                options: [
+                    { zh: "去咖啡店買咖啡", vn: "Đến quán cà phê mua cà phê" },
+                    { zh: "去花蓮玩", vn: "Đi Hoa Liên chơi" },
+                    { zh: "去樓下找朋友", vn: "Đi xuống lầu tìm bạn" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 參觀學校 Tham quan trường học",
+        lesson: "Bài 6",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "怡君", zh: "歡迎你們來。", py: "Huānyíng nǐmen lái.", vn: "Hoan nghênh các bạn đến.", gender: "female" },
+            { sp: "安同", zh: "你們學校真遠！", py: "Nǐmen xuéxiào zhēn yuǎn!", vn: "Trường của các bạn xa thật!", gender: "male" },
+            { sp: "怡君", zh: "是啊，不是很近，有一點不方便。", py: "Shì a, bú shì hěn jìn, yǒu yìdiǎn bù fāngbiàn.", vn: "Đúng vậy, không gần lắm, hơi bất tiện một chút.", gender: "female" },
+            { sp: "如玉", zh: "這裡的學生在哪裡買東西？", py: "Zhèlǐ de xuéshēng zài nǎlǐ mǎi dōngxi?", vn: "Học sinh ở đây mua đồ ở đâu?", gender: "female" },
+            { sp: "怡君", zh: "在學校外面。學校裡面沒有商店。", py: "Zài xuéxiào wàimiàn. Xuéxiào lǐmiàn méiyǒu shāngdiàn.", vn: "Ở bên ngoài trường. Bên trong trường không có cửa hàng.", gender: "female" },
+            { sp: "安同", zh: "吃飯呢？學校裡面有沒有餐廳？", py: "Chīfàn ne? Xuéxiào lǐmiàn yǒu méiyǒu cāntīng?", vn: "Còn ăn cơm thì sao? Trong trường có nhà ăn không?", gender: "male" },
+            { sp: "怡君", zh: "有，餐廳在學生宿舍的一樓。", py: "Yǒu, cāntīng zài xuéshēng sùshè de yì lóu.", vn: "Có, nhà ăn nằm ở tầng một của ký túc xá sinh viên.", gender: "female" },
+            { sp: "安同", zh: "前面這棟大樓很漂亮。", py: "Qiánmiàn zhè dòng dàlóu hěn piàoliang.", vn: "Tòa nhà lớn phía trước này rất đẹp.", gender: "male" },
+            { sp: "怡君", zh: "這是圖書館，旁邊的那棟大樓是教室，圖書館後面有游泳池。", py: "Zhè shì túshūguǎn, pángbiān de nà dòng dàlóu shì jiàoshì, túshūguǎn hòumiàn yǒu yóuyǒngchí.", vn: "Đây là thư viện, tòa nhà bên cạnh đó là phòng học, phía sau thư viện có hồ bơi.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "學校 ____ 沒有商店。", py: "Xuéxiào ____ méiyǒu shāngdiàn.", vn: "____ trường không có cửa hàng." },
+                options: [{ zh: "裡面 (lǐmiàn)", vn: "bên trong" }, { zh: "外面 (wàimiàn)", vn: "bên ngoài" }, { zh: "上面 (shàngmiàn)", vn: "bên trên" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "餐廳在學生 ____ 的一樓。", py: "Cāntīng zài xuéshēng ____ de yì lóu.", vn: "Nhà ăn nằm ở tầng một của ____ sinh viên." },
+                options: [{ zh: "圖書館 (túshūguǎn)", vn: "thư viện" }, { zh: "宿舍 (sùshè)", vn: "ký túc xá" }, { zh: "教室 (jiàoshì)", vn: "phòng học" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "旁邊的那棟大樓是 ____ 。", py: "Pángbiān de nà dòng dàlóu shì ____ .", vn: "Tòa nhà bên cạnh đó là ____ ." },
+                options: [{ zh: "餐廳 (cāntīng)", vn: "nhà ăn" }, { zh: "商店 (shāngdiàn)", vn: "cửa hàng" }, { zh: "教室 (jiàoshì)", vn: "phòng học" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 怡君覺得她的學校怎麼樣？", py: "Yíjūn juéde tā de xuéxiào zěnmeyàng?", vn: "1. Di Quân cảm thấy trường của cô ấy như thế nào?" },
+                options: [
+                    { zh: "很近，很方便", vn: "Rất gần, rất thuận tiện" },
+                    { zh: "不是很近，有一點不方便", vn: "Không gần lắm, hơi bất tiện một chút" },
+                    { zh: "很遠，但是很方便", vn: "Rất xa, nhưng rất thuận tiện" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 這裡的學生在哪裡買東西？", py: "Zhèlǐ de xuéshēng zài nǎlǐ mǎi dōngxi?", vn: "2. Học sinh ở đây mua đồ ở đâu?" },
+                options: [
+                    { zh: "在學生宿舍買", vn: "Mua ở ký túc xá sinh viên" },
+                    { zh: "在學校裡面買", vn: "Mua ở bên trong trường" },
+                    { zh: "在學校外面買", vn: "Mua ở bên ngoài trường" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "3. 游泳池在哪裡？", py: "Yóuyǒngchí zài nǎlǐ?", vn: "3. Hồ bơi nằm ở đâu?" },
+                options: [
+                    { zh: "在圖書館後面", vn: "Ở phía sau thư viện" },
+                    { zh: "在教室裡面", vn: "Ở bên trong phòng học" },
+                    { zh: "在宿舍旁邊", vn: "Ở bên cạnh ký túc xá" }
+                ],
+                correct: 0
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 我們一起去 KTV Chúng ta cùng nhau đi KTV",
+        lesson: "Bài 7",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "安同", zh: "月美，妳要去哪裡？", py: "Yuèměi, nǐ yào qù nǎlǐ?", vn: "Nguyệt Mỹ, bạn muốn đi đâu?", gender: "male" },
+            { sp: "月美", zh: "去 KTV 唱歌。我和朋友九點二十分在大安 KTV 見面。", py: "Qù KTV chànggē. Wǒ hàn péngyǒu jiǔ diǎn èrshí fēn zài Dà'ān KTV jiànmiàn.", vn: "Đi KTV hát. Tôi và bạn hẹn gặp nhau lúc 9 giờ 20 phút ở KTV Đại An.", gender: "female" },
+            { sp: "安同", zh: "早上九點去 KTV？為什麼？", py: "Zǎoshàng jiǔ diǎn qù KTV? Wèishénme?", vn: "Sáng 9 giờ đi KTV á? Tại sao?", gender: "male" },
+            { sp: "月美", zh: "從早上七點到中午十二點，最便宜。要不要一起去？", py: "Cóng zǎoshàng qī diǎn dào zhōngwǔ shí'èr diǎn, zuì piányí. Yào bú yào yìqǐ qù?", vn: "Từ 7 giờ sáng đến 12 giờ trưa là rẻ nhất. Có muốn đi cùng không?", gender: "female" },
+            { sp: "安同", zh: "我想去，可是我得去銀行。下次吧！", py: "Wǒ xiǎng qù, kěshì wǒ děi qù yínháng. Xià cì ba!", vn: "Tôi muốn đi, nhưng tôi phải đi ngân hàng. Để lần sau đi!", gender: "male" },
+            { sp: "月美", zh: "好啊，下次你一定要來，我想聽你唱歌。", py: "Hǎo a, xià cì nǐ yídìng yào lái, wǒ xiǎng tīng nǐ chànggē.", vn: "Được thôi, lần sau bạn nhất định phải đến nhé, tôi muốn nghe bạn hát.", gender: "female" },
+            { sp: "安同", zh: "沒問題。對了，什麼時候有空一起吃飯？", py: "Méi wèntí. Duì le, shénme shíhòu yǒu kòng yìqǐ chīfàn?", vn: "Không vấn đề. À đúng rồi, khi nào rảnh cùng đi ăn cơm nhé?", gender: "male" },
+            { sp: "月美", zh: "後天我有空，你呢？", py: "Hòutiān wǒ yǒu kòng, nǐ ne?", vn: "Ngày mốt tôi rảnh, còn bạn?", gender: "female" },
+            { sp: "安同", zh: "我也有空，後天晚上七點怎麼樣？", py: "Wǒ yě yǒu kòng, hòutiān wǎnshàng qī diǎn zěnmeyàng?", vn: "Tôi cũng rảnh, 7 giờ tối ngày mốt thì sao?", gender: "male" },
+            { sp: "月美", zh: "好啊！再見。", py: "Hǎo a! Zàijiàn.", vn: "Được thôi! Tạm biệt.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "我和朋友九點二十分在大安KTV ____ 。", py: "Wǒ hàn péngyǒu jiǔ diǎn èrshí fēn zài Dà'ān KTV ____ .", vn: "Tôi và bạn lúc 9 giờ 20 phút ____ ở KTV Đại An." },
+                options: [{ zh: "見面 (jiànmiàn)", vn: "gặp mặt" }, { zh: "看見 (kànjiàn)", vn: "nhìn thấy" }, { zh: "結束 (jiéshù)", vn: "kết thúc" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "從早上七點 ____ 中午十二點，最便宜。", py: "Cóng zǎoshàng qī diǎn ____ zhōngwǔ shí'èr diǎn, zuì piányí.", vn: "Từ 7 giờ sáng ____ 12 giờ trưa, rẻ nhất." },
+                options: [{ zh: "到 (dào)", vn: "đến" }, { zh: "在 (zài)", vn: "ở" }, { zh: "去 (qù)", vn: "đi" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我想去，可是我 ____ 去銀行。", py: "Wǒ xiǎng qù, kěshì wǒ ____ qù yínháng.", vn: "Tôi muốn đi, nhưng tôi ____ đi ngân hàng." },
+                options: [{ zh: "想 (xiǎng)", vn: "muốn" }, { zh: "得 (děi)", vn: "phải/cần" }, { zh: "會 (huì)", vn: "biết" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 月美現在要去哪裡？", py: "Yuèměi xiànzài yào qù nǎlǐ?", vn: "1. Nguyệt Mỹ bây giờ muốn đi đâu?" },
+                options: [
+                    { zh: "去銀行", vn: "Đi ngân hàng" },
+                    { zh: "去上課", vn: "Đi lên lớp" },
+                    { zh: "去 KTV", vn: "Đi KTV" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 為什麼月美早上九點去 KTV？", py: "Wèishénme Yuèměi zǎoshàng jiǔ diǎn qù KTV?", vn: "2. Tại sao Nguyệt Mỹ sáng 9 giờ lại đi KTV?" },
+                options: [
+                    { zh: "因為那時候最便宜", vn: "Bởi vì lúc đó rẻ nhất" },
+                    { zh: "因為她只有那時候有空", vn: "Bởi vì cô ấy chỉ rảnh lúc đó" },
+                    { zh: "因為朋友在等她", vn: "Bởi vì bạn bè đang đợi cô ấy" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 他們什麼時候要一起吃飯？", py: "Tāmen shénme shíhòu yào yìqǐ chīfàn?", vn: "3. Bọn họ khi nào sẽ cùng nhau đi ăn cơm?" },
+                options: [
+                    { zh: "明天晚上", vn: "Tối ngày mai" },
+                    { zh: "後天晚上七點", vn: "7 giờ tối ngày mốt" },
+                    { zh: "今天中午", vn: "Trưa ngày hôm nay" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 上書法課 Học lớp thư pháp",
+        lesson: "Bài 7",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "安同", zh: "如玉，妳在吃飯啊？", py: "Rúyù, nǐ zài chīfàn a?", vn: "Như Ngọc, bạn đang ăn cơm à?", gender: "male" },
+            { sp: "如玉", zh: "是，吃午餐，等一下要上課。你呢？", py: "Shì, chī wǔcān, děng yíxià yào shàngkè. Nǐ ne?", vn: "Ừ, ăn bữa trưa, lát nữa phải lên lớp. Còn bạn?", gender: "female" },
+            { sp: "安同", zh: "我剛下課。對了，下午四點半學校有籃球比賽。妳想去看嗎？", py: "Wǒ gāng xiàkè. Duì le, xiàwǔ sì diǎn bàn xuéxiào yǒu lánqiú bǐsài. Nǐ xiǎng qù kàn ma?", vn: "Tôi vừa tan học. À đúng rồi, 4 giờ rưỡi chiều trường có trận đấu bóng rổ. Bạn muốn đi xem không?", gender: "male" },
+            { sp: "如玉", zh: "想啊。比賽幾點結束？", py: "Xiǎng a. Bǐsài jǐ diǎn jiéshù?", vn: "Muốn chứ. Trận đấu mấy giờ kết thúc?", gender: "female" },
+            { sp: "安同", zh: "六點半。妳晚上有事嗎？", py: "Liù diǎn bàn. Nǐ wǎnshàng yǒu shì ma?", vn: "6 giờ rưỡi. Buổi tối bạn có việc bận à?", gender: "male" },
+            { sp: "如玉", zh: "我最近很忙，每天晚上都上書法課。", py: "Wǒ zuìjìn hěn máng, měitiān wǎnshàng dōu shàng shūfǎ kè.", vn: "Dạo này tôi rất bận, tối nào cũng học lớp thư pháp.", gender: "female" },
+            { sp: "安同", zh: "學得怎麼樣？", py: "Xué de zěnmeyàng?", vn: "Học thế nào rồi?", gender: "male" },
+            { sp: "如玉", zh: "剛開始學，字寫得不好，可是我覺得很有意思。", py: "Gāng kāishǐ xué, zì xiě de bù hǎo, kěshì wǒ juéde hěn yǒu yìsi.", vn: "Vừa mới bắt đầu học, chữ viết chưa đẹp, nhưng tôi cảm thấy rất thú vị.", gender: "female" },
+            { sp: "安同", zh: "我有空可以去看看嗎？", py: "Wǒ yǒu kòng kěyǐ qù kànkan ma?", vn: "Lúc rảnh tôi có thể đến xem thử không?", gender: "male" },
+            { sp: "如玉", zh: "我得問問老師。", py: "Wǒ děi wènwen lǎoshī.", vn: "Tôi phải hỏi lại thầy giáo đã.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "下午四點半學校有籃球 ____ 。", py: "Xiàwǔ sì diǎn bàn xuéxiào yǒu lánqiú ____ .", vn: "4 giờ rưỡi chiều trường có ____ bóng rổ." },
+                options: [{ zh: "運動 (yùndòng)", vn: "vận động" }, { zh: "課 (kè)", vn: "tiết học" }, { zh: "比賽 (bǐsài)", vn: "trận đấu" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "妳晚上有 ____ 嗎？", py: "Nǐ wǎnshàng yǒu ____ ma?", vn: "Buổi tối bạn có ____ không?" },
+                options: [{ zh: "事 (shì)", vn: "việc/chuyện" }, { zh: "課 (kè)", vn: "lớp học" }, { zh: "時間 (shíjiān)", vn: "thời gian" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "字寫得不好，可是我覺得很有 ____ 。", py: "Zì xiě de bù hǎo, kěshì wǒ juéde hěn yǒu ____ .", vn: "Chữ viết chưa đẹp, nhưng tôi cảm thấy rất ____ ." },
+                options: [{ zh: "意思 (yìsi)", vn: "ý nghĩa/thú vị" }, { zh: "漂亮 (piàoliang)", vn: "xinh đẹp" }, { zh: "好玩 (hǎowán)", vn: "vui" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 籃球比賽什麼時候結束？", py: "Lánqiú bǐsài shénme shíhòu jiéshù?", vn: "1. Trận đấu bóng rổ khi nào kết thúc?" },
+                options: [
+                    { zh: "下午四點半", vn: "4 giờ rưỡi chiều" },
+                    { zh: "晚上六點半", vn: "6 giờ rưỡi tối" },
+                    { zh: "中午十二點", vn: "12 giờ trưa" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 關於如玉的書法課，下面哪一個是對的？", py: "Guānyú Rúyù de shūfǎ kè, xiàmiàn nǎ yí gè shì duì de?", vn: "2. Về lớp học thư pháp của Như Ngọc, câu nào dưới đây là đúng?" },
+                options: [
+                    { zh: "她寫得很好", vn: "Cô ấy viết rất đẹp" },
+                    { zh: "她每天早上上課", vn: "Cô ấy lên lớp vào mỗi buổi sáng" },
+                    { zh: "她覺得很有意思", vn: "Cô ấy cảm thấy rất thú vị" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "3. 安同想去看如玉上書法課，如玉怎麼說？", py: "Āntóng xiǎng qù kàn Rúyù shàng shūfǎ kè, Rúyù zěnme shuō?", vn: "3. An Đồng muốn đến xem Như Ngọc học thư pháp, Như Ngọc nói thế nào?" },
+                options: [
+                    { zh: "她說好啊", vn: "Cô ấy nói được thôi" },
+                    { zh: "她說不行", vn: "Cô ấy nói không được" },
+                    { zh: "她說得先問問老師", vn: "Cô ấy nói phải hỏi thầy giáo trước đã" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 怎麼去台南？ Đi Đài Nam bằng phương tiện gì?",
+        lesson: "Bài 8",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "這個週末，我想跟朋友去臺南玩。", py: "Zhège zhōumò, wǒ xiǎng gēn péngyǒu qù Táinán wán.", vn: "Cuối tuần này, tôi muốn cùng bạn bè đi Đài Nam chơi.", gender: "female" },
+            { sp: "明華", zh: "怎麼去？", py: "Zěnme qù?", vn: "Đi bằng cách nào?", gender: "male" },
+            { sp: "如玉", zh: "我想坐火車去。", py: "Wǒ xiǎng zuò huǒchē qù.", vn: "Tôi muốn đi bằng xe lửa.", gender: "female" },
+            { sp: "明華", zh: "火車太慢了，要四個多鐘頭，坐高鐵比較快。", py: "Huǒchē tài màn le, yào sì gè duō zhōngtóu, zuò gāotiě bǐjiào kuài.", vn: "Xe lửa chậm quá, mất hơn 4 tiếng đồng hồ, đi tàu cao tốc khá là nhanh.", gender: "male" },
+            { sp: "如玉", zh: "可是聽說高鐵車票非常貴。", py: "Kěshì tīngshuō gāotiě chēpiào fēicháng guì.", vn: "Nhưng nghe nói vé tàu cao tốc vô cùng đắt.", gender: "female" },
+            { sp: "明華", zh: "高鐵車票有一點貴，但是坐高鐵又快又舒服。", py: "Gāotiě chēpiào yǒu yìdiǎn guì, dànshì zuò gāotiě yòu kuài yòu shūfú.", vn: "Vé tàu cao tốc có hơi đắt một chút, nhưng mà đi tàu cao tốc vừa nhanh lại vừa thoải mái.", gender: "male" },
+            { sp: "如玉", zh: "我不知道在哪裡買票。", py: "Wǒ bù zhīdào zài nǎlǐ mǎi piào.", vn: "Tôi không biết mua vé ở đâu.", gender: "female" },
+            { sp: "明華", zh: "在高鐵站、網路上或是便利商店都可以。", py: "Zài gāotiě zhàn, wǎnglù shàng huòshì biànlì shāngdiàn dōu kěyǐ.", vn: "Ở ga tàu cao tốc, trên mạng hoặc là cửa hàng tiện lợi đều được.", gender: "male" },
+            { sp: "如玉", zh: "這麼方便！那我坐高鐵去，謝謝你。", py: "Zhème fāngbiàn! Nà wǒ zuò gāotiě qù, xièxie nǐ.", vn: "Tiện lợi thế á! Vậy tôi đi tàu cao tốc, cảm ơn bạn.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "火車太 ____ 了，要四個多鐘頭。", py: "Huǒchē tài ____ le, yào sì gè duō zhōngtóu.", vn: "Xe lửa ____ quá, mất hơn 4 tiếng đồng hồ." },
+                options: [{ zh: "快 (kuài)", vn: "nhanh" }, { zh: "慢 (màn)", vn: "chậm" }, { zh: "遠 (yuǎn)", vn: "xa" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "高鐵車票有一點貴，____ 坐高鐵又快又舒服。", py: "Gāotiě chēpiào yǒu yìdiǎn guì, ____ zuò gāotiě yòu kuài yòu shūfú.", vn: "Vé tàu cao tốc có hơi đắt một chút, ____ đi tàu cao tốc vừa nhanh vừa thoải mái." },
+                options: [{ zh: "因為 (yīnwèi)", vn: "bởi vì" }, { zh: "所以 (suǒyǐ)", vn: "cho nên" }, { zh: "但是 (dànshì)", vn: "nhưng mà" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "在高鐵站、網路上 ____ 便利商店都可以。", py: "Zài gāotiě zhàn, wǎnglù shàng ____ biànlì shāngdiàn dōu kěyǐ.", vn: "Ở ga tàu cao tốc, trên mạng ____ cửa hàng tiện lợi đều được." },
+                options: [{ zh: "還是 (háishì)", vn: "hay là (câu hỏi)" }, { zh: "或是 (huòshì)", vn: "hoặc là (câu trần thuật)" }, { zh: "可是 (kěshì)", vn: "nhưng mà" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 如玉這個週末想去哪裡？", py: "Rúyù zhège zhōumò xiǎng qù nǎlǐ?", vn: "1. Như Ngọc cuối tuần này muốn đi đâu?" },
+                options: [
+                    { zh: "去臺北 (Qù Táiběi)", vn: "Đi Đài Bắc" },
+                    { zh: "去花蓮 (Qù Huālián)", vn: "Đi Hoa Liên" },
+                    { zh: "去臺南 (Qù Táinán)", vn: "Đi Đài Nam" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 為什麼明華覺得坐高鐵比較好？", py: "Wèishénme Mínghuá juéde zuò gāotiě bǐjiào hǎo?", vn: "2. Tại sao Minh Hoa cảm thấy đi tàu cao tốc thì tốt hơn?" },
+                options: [
+                    { zh: "因為高鐵票很便宜", vn: "Bởi vì vé tàu cao tốc rất rẻ" },
+                    { zh: "因為坐高鐵又快又舒服", vn: "Bởi vì đi tàu cao tốc vừa nhanh vừa thoải mái" },
+                    { zh: "因為高鐵站很近", vn: "Bởi vì ga tàu cao tốc rất gần" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 關於買高鐵票，下面哪一個是對的？", py: "Guānyú mǎi gāotiě piào, xiàmiàn nǎ yí gè shì duì de?", vn: "3. Về việc mua vé tàu cao tốc, câu nào dưới đây là đúng?" },
+                options: [
+                    { zh: "只能在高鐵站買", vn: "Chỉ có thể mua ở ga tàu cao tốc" },
+                    { zh: "只能在網路上買", vn: "Chỉ có thể mua ở trên mạng" },
+                    { zh: "在高鐵站、網路或便利商店都可以買", vn: "Ở ga tàu, trên mạng hay cửa tiệm tiện lợi đều có thể mua" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 去參觀故宮博物院 Đi tham quan Bảo tàng Cố Cung",
+        lesson: "Bài 8",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "安同，明天我們沒課，你想去哪裡？", py: "Āntóng, míngtiān wǒmen méi kè, nǐ xiǎng qù nǎlǐ?", vn: "An Đồng, ngày mai chúng ta không có tiết học, bạn muốn đi đâu?", gender: "female" },
+            { sp: "安同", zh: "我要跟同學去參觀故宮博物院。", py: "Wǒ yào gēn tóngxué qù cānguān Gùgōng Bówùyuàn.", vn: "Tôi muốn cùng bạn học đi tham quan Bảo tàng Cố Cung.", gender: "male" },
+            { sp: "如玉", zh: "聽說那裡有很多中國古代的東西。", py: "Tīngshuō nàlǐ yǒu hěnduō Zhōngguó gǔdài de dōngxi.", vn: "Nghe nói ở đó có rất nhiều đồ vật Trung Quốc thời cổ đại.", gender: "female" },
+            { sp: "安同", zh: "是啊。妳要跟我們去看看嗎？", py: "Shì a. Nǐ yào gēn wǒmen qù kànkan ma?", vn: "Đúng vậy. Bạn có muốn đi xem thử cùng chúng tôi không?", gender: "male" },
+            { sp: "如玉", zh: "好。怎麼去？", py: "Hǎo. Zěnme qù?", vn: "Được. Đi bằng cách nào?", gender: "female" },
+            { sp: "安同", zh: "我同學騎機車載我。妳可以坐公共汽車去。", py: "Wǒ tóngxué qí jīchē zài wǒ. Nǐ kěyǐ zuò gōnggòng qìchē qù.", vn: "Bạn học đi xe máy chở tôi. Bạn có thể đi bằng xe buýt.", gender: "male" },
+            { sp: "如玉", zh: "我想坐捷運去。比較快。", py: "Wǒ xiǎng zuò jiéyùn qù. Bǐjiào kuài.", vn: "Tôi muốn đi tàu điện ngầm. Khá là nhanh.", gender: "female" },
+            { sp: "安同", zh: "不行，到故宮沒有捷運。妳要不要坐計程車去？", py: "Bù xíng, dào Gùgōng méiyǒu jiéyùn. Nǐ yào bú yào zuò jìchéngchē qù?", vn: "Không được, đến Cố Cung không có tàu điện ngầm. Bạn có muốn đi taxi không?", gender: "male" },
+            { sp: "如玉", zh: "太貴了！我坐公車。騎機車比坐公車快嗎？", py: "Tài guì le! Wǒ zuò gōngchē. Qí jīchē bǐ zuò gōngchē kuài ma?", vn: "Đắt quá! Tôi đi xe buýt. Đi xe máy có nhanh hơn đi xe buýt không?", gender: "female" },
+            { sp: "安同", zh: "差不多。", py: "Chàbùduō.", vn: "Cũng xấp xỉ/Tương đương nhau.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "我要跟同學去 ____ 故宮博物院。", py: "Wǒ yào gēn tóngxué qù ____ Gùgōng Bówùyuàn.", vn: "Tôi muốn cùng bạn học đi ____ Bảo tàng Cố Cung." },
+                options: [{ zh: "參觀 (cānguān)", vn: "tham quan" }, { zh: "參加 (cānjiā)", vn: "tham gia" }, { zh: "買 (mǎi)", vn: "mua" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "聽說那裡有很多中國 ____ 的東西。", py: "Tīngshuō nàlǐ yǒu hěnduō Zhōngguó ____ de dōngxi.", vn: "Nghe nói ở đó có rất nhiều đồ vật Trung Quốc ____ ." },
+                options: [{ zh: "現代 (xiàndài)", vn: "hiện đại" }, { zh: "古代 (gǔdài)", vn: "thời cổ đại" }, { zh: "新 (xīn)", vn: "mới" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "不行，到故宮沒有捷運。妳要不要坐 ____ 去？", py: "Bù xíng, dào Gùgōng méiyǒu jiéyùn. Nǐ yào bú yào zuò ____ qù?", vn: "Không được, đến Cố Cung không có tàu điện ngầm. Bạn có muốn đi ____ không?" },
+                options: [{ zh: "公共汽車 (gōnggòng qìchē)", vn: "xe buýt" }, { zh: "高鐵 (gāotiě)", vn: "tàu cao tốc" }, { zh: "計程車 (jìchéngchē)", vn: "xe taxi" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 安同明天要去哪裡？", py: "Āntóng míngtiān yào qù nǎlǐ?", vn: "1. An Đồng ngày mai muốn đi đâu?" },
+                options: [
+                    { zh: "去臺南玩", vn: "Đi Đài Nam chơi" },
+                    { zh: "去參觀故宮博物院", vn: "Đi tham quan Bảo tàng Cố Cung" },
+                    { zh: "去便利商店買東西", vn: "Đi cửa hàng tiện lợi mua đồ" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 安同怎麼去故宮？", py: "Āntóng zěnme qù Gùgōng?", vn: "2. An Đồng đi đến Cố Cung bằng cách nào?" },
+                options: [
+                    { zh: "坐捷運去", vn: "Đi tàu điện ngầm" },
+                    { zh: "同學騎機車載他", vn: "Bạn học đi xe máy chở anh ấy" },
+                    { zh: "坐計程車去", vn: "Đi xe taxi" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 如玉最後決定怎麼去故宮？", py: "Rúyù zuìhòu juédìng zěnme qù Gùgōng?", vn: "3. Như Ngọc cuối cùng quyết định đi đến Cố Cung bằng cách nào?" },
+                options: [
+                    { zh: "坐公車去", vn: "Đi bằng xe buýt" },
+                    { zh: "坐捷運去", vn: "Đi bằng tàu điện ngầm" },
+                    { zh: "坐計程車去", vn: "Đi bằng xe taxi" }
+                ],
+                correct: 0
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 放假的計劃 Kế hoạch kỳ nghỉ",
+        lesson: "Bài 9",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "安同", zh: "田中，下個星期我們放五天的假，你要回國嗎？", py: "Tiánzhōng, xià ge xīngqí wǒmen fàng wǔ tiān de jià, nǐ yào huíguó ma?", vn: "Điền Trung, tuần sau chúng ta được nghỉ 5 ngày, bạn có về nước không?", gender: "male" },
+            { sp: "田中", zh: "不，我打算在家看電視、影片學中文，你呢？", py: "Bù, wǒ dǎsuàn zài jiā kàn diànshì, yǐngpiàn xué Zhōngwén, nǐ ne?", vn: "Không, tôi dự định ở nhà xem tivi, video để học tiếng Trung. Còn bạn?", gender: "male" },
+            { sp: "安同", zh: "我想跟朋友去玩。", py: "Wǒ xiǎng gēn péngyǒu qù wán.", vn: "Tôi muốn đi chơi cùng bạn bè.", gender: "male" },
+            { sp: "田中", zh: "不錯啊。去什麼地方？", py: "Búcuò a. Qù shénme dìfāng?", vn: "Không tồi nha. Đi chỗ nào vậy?", gender: "male" },
+            { sp: "安同", zh: "臺東。聽說那裡的風景非常漂亮。", py: "Táidōng. Tīngshuō nàlǐ de fēngjǐng fēicháng piàoliang.", vn: "Đài Đông. Nghe nói phong cảnh ở đó vô cùng đẹp.", gender: "male" },
+            { sp: "田中", zh: "我也聽說。放假的時候，你常去旅行嗎？", py: "Wǒ yě tīngshuō. Fàngjià de shíhòu, nǐ cháng qù lǚxíng ma?", vn: "Tôi cũng nghe nói vậy. Lúc được nghỉ, bạn có thường đi du lịch không?", gender: "male" },
+            { sp: "安同", zh: "不一定。有時候在家寫功課，有時候出去玩。", py: "Bù yídìng. Yǒushíhòu zài jiā xiě gōngkè, yǒushíhòu chūqù wán.", vn: "Không chắc chắn. Có lúc ở nhà làm bài tập, có lúc đi ra ngoài chơi.", gender: "male" },
+            { sp: "田中", zh: "你們什麼時候去臺東？", py: "Nǐmen shénme shíhòu qù Táidōng?", vn: "Khi nào các bạn đi Đài Đông?", gender: "male" },
+            { sp: "安同", zh: "這個星期六下午去。", py: "Zhège xīngqíliù xiàwǔ qù.", vn: "Chiều thứ Bảy tuần này đi.", gender: "male" },
+            { sp: "田中", zh: "去玩多久？", py: "Qù wán duō jiǔ?", vn: "Đi chơi bao lâu?", gender: "male" },
+            { sp: "安同", zh: "大概玩四、五天。", py: "Dàgài wán sì, wǔ tiān.", vn: "Khoảng chừng 4, 5 ngày.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "下個星期我們 ____ 五天的假。", py: "Xià ge xīngqí wǒmen ____ wǔ tiān de jià.", vn: "Tuần sau chúng ta ____ kỳ nghỉ 5 ngày." },
+                options: [{ zh: "放 (fàng)", vn: "nghỉ (lễ)" }, { zh: "寫 (xiě)", vn: "viết" }, { zh: "去 (qù)", vn: "đi" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "我打算在家看電視、____ 學中文。", py: "Wǒ dǎsuàn zài jiā kàn diànshì, ____ xué Zhōngwén.", vn: "Tôi dự định ở nhà xem tivi, ____ để học tiếng Trung." },
+                options: [{ zh: "功課 (gōngkè)", vn: "bài tập" }, { zh: "風景 (fēngjǐng)", vn: "phong cảnh" }, { zh: "影片 (yǐngpiàn)", vn: "video/phim" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "____ 的時候，你常去旅行嗎？", py: "____ de shíhòu, nǐ cháng qù lǚxíng ma?", vn: "Lúc ____ , bạn có thường đi du lịch không?" },
+                options: [{ zh: "不一定 (bù yídìng)", vn: "chưa chắc" }, { zh: "放假 (fàngjià)", vn: "nghỉ lễ" }, { zh: "時候 (shíhòu)", vn: "thời gian" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 田中下個星期的放假打算做什麼？", py: "Tiánzhōng xià ge xīngqí de fàngjià dǎsuàn zuò shénme?", vn: "1. Điền Trung dự định làm gì vào kỳ nghỉ tuần sau?" },
+                options: [
+                    { zh: "回國", vn: "Về nước" },
+                    { zh: "跟朋友去臺東玩", vn: "Cùng bạn bè đi Đài Đông chơi" },
+                    { zh: "在家看電視、影片學中文", vn: "Ở nhà xem tivi, video học tiếng Trung" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 安同和朋友什麼時候去臺東？", py: "Āntóng hàn péngyǒu shénme shíhòu qù Táidōng?", vn: "2. An Đồng và bạn bè khi nào đi Đài Đông?" },
+                options: [
+                    { zh: "這個星期六下午", vn: "Chiều thứ Bảy tuần này" },
+                    { zh: "下個星期天", vn: "Chủ nhật tuần sau" },
+                    { zh: "今天下午", vn: "Chiều ngày hôm nay" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 放假的時候，安同常去旅行嗎？", py: "Fàngjià de shíhòu, Āntóng cháng qù lǚxíng ma?", vn: "3. Lúc được nghỉ, An Đồng có thường đi du lịch không?" },
+                options: [
+                    { zh: "他一定去旅行", vn: "Anh ấy nhất định đi du lịch" },
+                    { zh: "不一定，有時候寫功課，有時候出去玩", vn: "Không chắc, có lúc làm bài tập, có lúc ra ngoài chơi" },
+                    { zh: "他不常出去，只在家睡覺", vn: "Anh ấy không thường ra ngoài, chỉ ở nhà ngủ" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 你有什麼建議？ Bạn có gợi ý gì không?",
+        lesson: "Bài 9",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "田中", zh: "我女朋友九月三十號要來臺灣看我。", py: "Wǒ nǚ péngyǒu jiǔ yuè sānshí hào yào lái Táiwān kàn wǒ.", vn: "Bạn gái tôi sẽ đến Đài Loan thăm tôi vào ngày 30 tháng 9.", gender: "male" },
+            { sp: "明華", zh: "你想帶她去哪裡玩？", py: "Nǐ xiǎng dài tā qù nǎlǐ wán?", vn: "Bạn muốn dẫn cô ấy đi đâu chơi?", gender: "male" },
+            { sp: "田中", zh: "還不知道。你有什麼建議？", py: "Hái bù zhīdào. Nǐ yǒu shénme jiànyì?", vn: "Vẫn chưa biết. Bạn có gợi ý gì không?", gender: "male" },
+            { sp: "明華", zh: "臺灣的夜市很有名。你們應該去逛逛。", py: "Táiwān de yèshì hěn yǒumíng. Nǐmen yīnggāi qù guàngguang.", vn: "Chợ đêm của Đài Loan rất nổi tiếng. Các bạn nên đi dạo thử.", gender: "male" },
+            { sp: "田中", zh: "謝謝，還有什麼好玩的地方？", py: "Xièxie, háiyǒu shénme hǎowán de dìfāng?", vn: "Cảm ơn, còn có chỗ nào chơi vui nữa không?", gender: "male" },
+            { sp: "明華", zh: "臺灣的茶也很特別。臺北有很多茶館。", py: "Táiwān de chá yě hěn tèbié. Táiběi yǒu hěnduō cháguǎn.", vn: "Trà của Đài Loan cũng rất đặc biệt. Đài Bắc có rất nhiều quán trà.", gender: "male" },
+            { sp: "田中", zh: "到哪裡喝茶比較好？", py: "Dào nǎlǐ hē chá bǐjiào hǎo?", vn: "Đến đâu uống trà thì khá (tốt) hơn?", gender: "male" },
+            { sp: "明華", zh: "你們可以去貓空。那裡的風景很美。", py: "Nǐmen kěyǐ qù Māokōng. Nàlǐ de fēngjǐng hěn měi.", vn: "Các bạn có thể đến Miêu Không. Phong cảnh ở đó rất đẹp.", gender: "male" },
+            { sp: "田中", zh: "謝謝你。我決定帶她去貓空。你也一起去，好不好？", py: "Xièxie nǐ. Wǒ juédìng dài tā qù Māokōng. Nǐ yě yìqǐ qù, hǎo bù hǎo?", vn: "Cảm ơn bạn. Tôi quyết định sẽ dẫn cô ấy đến Miêu Không. Bạn cũng đi cùng nhé, được không?", gender: "male" },
+            { sp: "明華", zh: "要是那時候我有空，就跟你們一起去。", py: "Yàoshì nà shíhòu wǒ yǒu kòng, jiù gēn nǐmen yìqǐ qù.", vn: "Nếu như lúc đó tôi rảnh, thì sẽ đi cùng các bạn.", gender: "male" },
+            { sp: "田中", zh: "太好了！謝謝！", py: "Tài hǎo le! Xièxie!", vn: "Tuyệt quá! Cảm ơn!", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "還不知道。你有什麼 ____ ？", py: "Hái bù zhīdào. Nǐ yǒu shénme ____ ?", vn: "Vẫn chưa biết. Bạn có ____ gì không?" },
+                options: [{ zh: "建議 (jiànyì)", vn: "gợi ý/đề nghị" }, { zh: "決定 (juédìng)", vn: "quyết định" }, { zh: "覺得 (juéde)", vn: "cảm thấy" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "臺灣的夜市很有名。你們 ____ 去逛逛。", py: "Táiwān de yèshì hěn yǒumíng. Nǐmen ____ qù guàngguang.", vn: "Chợ đêm của Đài Loan rất nổi tiếng. Các bạn ____ đi dạo thử." },
+                options: [{ zh: "覺得 (juéde)", vn: "cảm thấy" }, { zh: "應該 (yīnggāi)", vn: "nên" }, { zh: "還是 (háishì)", vn: "hay là" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "____ 那時候我有空，就跟你們一起去。", py: "____ nà shíhòu wǒ yǒu kòng, jiù gēn nǐmen yìqǐ qù.", vn: "____ lúc đó tôi rảnh, thì sẽ đi cùng các bạn." },
+                options: [{ zh: "還是 (háishì)", vn: "hay là" }, { zh: "可是 (kěshì)", vn: "nhưng mà" }, { zh: "要是 (yàoshì)", vn: "nếu như" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 誰九月三十號要來臺灣？", py: "Shéi jiǔ yuè sānshí hào yào lái Táiwān?", vn: "1. Ai sẽ đến Đài Loan vào ngày 30 tháng 9?" },
+                options: [
+                    { zh: "明華的家人", vn: "Người nhà của Minh Hoa" },
+                    { zh: "田中的女朋友", vn: "Bạn gái của Điền Trung" },
+                    { zh: "田中的哥哥", vn: "Anh trai của Điền Trung" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 關於明華的建議，下面哪一個是對的？", py: "Guānyú Mínghuá de jiànyì, xiàmiàn nǎ yí gè shì duì de?", vn: "2. Về gợi ý của Minh Hoa, câu nào dưới đây là đúng?" },
+                options: [
+                    { zh: "他建議田中去臺東旅行", vn: "Anh ấy gợi ý Điền Trung đi Đài Đông du lịch" },
+                    { zh: "他建議田中去夜市逛逛和去貓空喝茶", vn: "Anh ấy gợi ý đi dạo chợ đêm và đến Miêu Không uống trà" },
+                    { zh: "他建議田中去圖書館看書", vn: "Anh ấy gợi ý Điền Trung đến thư viện đọc sách" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 明華會跟他們一起去貓空嗎？", py: "Mínghuá huì gēn tāmen yìqǐ qù Māokōng ma?", vn: "3. Minh Hoa có đi Miêu Không cùng họ không?" },
+                options: [
+                    { zh: "一定會去", vn: "Nhất định sẽ đi" },
+                    { zh: "他沒有空，不去", vn: "Anh ấy không rảnh, không đi" },
+                    { zh: "要是有空就去", vn: "Nếu như có thời gian rảnh thì đi" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 台灣的水果很好吃 Trái cây Đài Loan rất ngon",
+        lesson: "Bài 10",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "這個黃色的水果叫什麼？", py: "Zhège huángsè de shuǐguǒ jiào shénme?", vn: "Trái cây màu vàng này gọi là gì?", gender: "female" },
+            { sp: "月美", zh: "芒果。給妳一塊，吃吃看。", py: "Mángguǒ. Gěi nǐ yí kuài, chī chī kàn.", vn: "Xoài. Cho bạn một miếng, ăn thử xem.", gender: "female" },
+            { sp: "如玉", zh: "好，謝謝。香香的、甜甜的，很好吃。", py: "Hǎo, xièxie. Xiāng xiāng de, tián tián de, hěn hǎochī.", vn: "Được, cảm ơn. Thơm thơm, ngọt ngọt, rất ngon.", gender: "female" },
+            { sp: "月美", zh: "昨天明華給我們的那種水果，紅色的，叫什麼？", py: "Zuótiān Mínghuá gěi wǒmen de nà zhǒng shuǐguǒ, hóngsè de, jiào shénme?", vn: "Loại trái cây hôm qua Minh Hoa cho chúng ta, màu đỏ, gọi là gì?", gender: "female" },
+            { sp: "如玉", zh: "妳說的是西瓜吧？", py: "Nǐ shuō de shì xīguā ba?", vn: "Bạn nói là dưa hấu phải không?", gender: "female" },
+            { sp: "月美", zh: "對！對！對！臺灣有很多好吃的水果。", py: "Duì! Duì! Duì! Táiwān yǒu hěnduō hǎochī de shuǐguǒ.", vn: "Đúng! Đúng! Đúng! Đài Loan có rất nhiều trái cây ngon.", gender: "female" },
+            { sp: "如玉", zh: "我以前不喜歡吃水果，現在很喜歡了。", py: "Wǒ yǐqián bù xǐhuān chī shuǐguǒ, xiànzài hěn xǐhuān le.", vn: "Trước đây tôi không thích ăn trái cây, bây giờ rất thích rồi.", gender: "female" },
+            { sp: "月美", zh: "越南的水果也很好吃。", py: "Yuènán de shuǐguǒ yě hěn hǎochī.", vn: "Trái cây Việt Nam cũng rất ngon.", gender: "female" },
+            { sp: "如玉", zh: "要是有機會，我想吃吃看。", py: "Yàoshì yǒu jīhuì, wǒ xiǎng chī chī kàn.", vn: "Nếu như có cơ hội, tôi muốn ăn thử xem.", gender: "female" },
+            { sp: "月美", zh: "妳來越南，我一定請妳吃。", py: "Nǐ lái Yuènán, wǒ yídìng qǐng nǐ chī.", vn: "Bạn đến Việt Nam, tôi nhất định sẽ mời bạn ăn.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "這個 ____ 的水果叫什麼？", py: "Zhège ____ de shuǐguǒ jiào shénme?", vn: "Trái cây màu ____ này gọi là gì?" },
+                options: [{ zh: "紅色 (hóngsè)", vn: "màu đỏ" }, { zh: "黃色 (huángsè)", vn: "màu vàng" }, { zh: "藍色 (lánsè)", vn: "màu xanh lam" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "香香的、____ 的，很好吃。", py: "Xiāng xiāng de, ____ de, hěn hǎochī.", vn: "Thơm thơm, ____ , rất ngon." },
+                options: [{ zh: "甜甜 (tiántián)", vn: "ngọt ngọt" }, { zh: "辣辣 (lálà)", vn: "cay cay" }, { zh: "酸酸 (suānsuān)", vn: "chua chua" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "要是有 ____ ，我想吃吃看。", py: "Yàoshì yǒu ____ , wǒ xiǎng chī chī kàn.", vn: "Nếu như có ____ , tôi muốn ăn thử xem." },
+                options: [{ zh: "時候 (shíhòu)", vn: "thời gian" }, { zh: "空 (kòng)", vn: "rảnh rỗi" }, { zh: "機會 (jīhuì)", vn: "cơ hội" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 如玉覺得芒果怎麼樣？", py: "Rúyù juéde mángguǒ zěnmeyàng?", vn: "1. Như Ngọc thấy xoài như thế nào?" },
+                options: [
+                    { zh: "有一點酸", vn: "Có chút chua" },
+                    { zh: "香香的、甜甜的，很好吃", vn: "Thơm thơm, ngọt ngọt, rất ngon" },
+                    { zh: "不好吃", vn: "Không ngon" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 昨天明華給她們的水果是什麼？", py: "Zuótiān Mínghuá gěi tāmen de shuǐguǒ shì shénme?", vn: "2. Trái cây hôm qua Minh Hoa cho họ là gì?" },
+                options: [
+                    { zh: "芒果", vn: "Xoài" },
+                    { zh: "西瓜", vn: "Dưa hấu" },
+                    { zh: "香蕉", vn: "Chuối" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 月美說如果如玉去越南，她會做什麼？", py: "Yuèměi shuō rúguǒ Rúyù qù Yuènán, tā huì zuò shénme?", vn: "3. Nguyệt Mỹ nói nếu Như Ngọc đến VN, cô ấy sẽ làm gì?" },
+                options: [
+                    { zh: "請如玉吃越南的水果", vn: "Mời Như Ngọc ăn trái cây Việt Nam" },
+                    { zh: "帶如玉去買衣服", vn: "Dẫn Như Ngọc đi mua quần áo" },
+                    { zh: "跟如玉一起去圖書館", vn: "Cùng Như Ngọc đến thư viện" }
+                ],
+                correct: 0
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 去花蓮 Chuyến đi Hoa Liên",
+        lesson: "Bài 10",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "明華", zh: "你跟你女朋友上個月去花蓮玩，好玩嗎？", py: "Nǐ gēn nǐ nǚ péngyǒu shàng ge yuè qù Huālián wán, hǎowán ma?", vn: "Tháng trước bạn và bạn gái đi Hoa Liên chơi, có vui không?", gender: "male" },
+            { sp: "田中", zh: "很好玩。你看，這些是我拍的照片。", py: "Hěn hǎowán. Nǐ kàn, zhèxiē shì wǒ pāi de zhàopiàn.", vn: "Rất vui. Bạn xem, những cái này là ảnh tôi chụp.", gender: "male" },
+            { sp: "明華", zh: "你們笑得很開心！哪一個是你女朋友？", py: "Nǐmen xiào de hěn kāixīn! Nǎ yí gè shì nǐ nǚ péngyǒu?", vn: "Các bạn cười rất vui vẻ! Người nào là bạn gái bạn?", gender: "male" },
+            { sp: "田中", zh: "穿紅衣服的這個。穿黃衣服的是旅館老闆的太太。", py: "Chuān hóng yīfú de zhège. Chuān huáng yīfú de shì lǚguǎn lǎobǎn de tàitai.", vn: "Người mặc áo đỏ này. Người mặc áo vàng là vợ của ông chủ khách sạn.", gender: "male" },
+            { sp: "明華", zh: "她們兩個都很漂亮。這兩個男的是誰？", py: "Tāmen liǎng gè dōu hěn piàoliang. Zhè liǎng gè nán de shì shéi?", vn: "Hai cô ấy đều rất đẹp. Hai người nam này là ai?", gender: "male" },
+            { sp: "田中", zh: "矮的是旅館的老闆，高的是他弟弟。", py: "Ǎi de shì lǚguǎn de lǎobǎn, gāo de shì tā dìdi.", vn: "Người thấp là ông chủ khách sạn, người cao là em trai ông ấy.", gender: "male" },
+            { sp: "明華", zh: "那家旅館怎麼樣？", py: "Nà jiā lǚguǎn zěnmeyàng?", vn: "Khách sạn đó như thế nào?", gender: "male" },
+            { sp: "田中", zh: "很乾淨。從窗戶往外看，是藍色的大海。", py: "Hěn gānjìng. Cóng chuānghù wǎng wài kàn, shì lánsè de dàhǎi.", vn: "Rất sạch sẽ. Từ cửa sổ nhìn ra ngoài, là biển lớn màu xanh lam.", gender: "male" },
+            { sp: "明華", zh: "真不錯！那家旅館貴嗎？", py: "Zhēn búcuò! Nà jiā lǚguǎn guì ma?", vn: "Thật không tồi! Khách sạn đó có đắt không?", gender: "male" },
+            { sp: "田中", zh: "因為現在去玩的人比較少，所以旅館不太貴。", py: "Yīnwèi xiànzài qù wán de rén bǐjiào shǎo, suǒyǐ lǚguǎn bú tài guì.", vn: "Bởi vì hiện tại người đi chơi khá ít, cho nên khách sạn không đắt lắm.", gender: "male" },
+            { sp: "明華", zh: "下次我也想去住。", py: "Xià cì wǒ yě xiǎng qù zhù.", vn: "Lần sau tôi cũng muốn đi ở thử.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "哪一個是你 ____ ？", py: "Nǎ yí gè shì nǐ ____ ?", vn: "Người nào là ____ của bạn?" },
+                options: [{ zh: "女朋友 (nǚ péngyǒu)", vn: "bạn gái" }, { zh: "妹妹 (mèimei)", vn: "em gái" }, { zh: "太太 (tàitai)", vn: "vợ" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "____ 的是旅館的老闆，高的是他弟弟。", py: "____ de shì lǚguǎn de lǎobǎn, gāo de shì tā dìdi.", vn: "Người ____ là ông chủ khách sạn, người cao là em trai ông ấy." },
+                options: [{ zh: "遠 (yuǎn)", vn: "xa" }, { zh: "新 (xīn)", vn: "mới" }, { zh: "矮 (ǎi)", vn: "thấp/lùn" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "從窗戶 ____ 外看，是藍色的大海。", py: "Cóng chuānghù ____ wài kàn, shì lánsè de dàhǎi.", vn: "Từ cửa sổ nhìn ____ ra ngoài, là biển lớn màu xanh lam." },
+                options: [{ zh: "往 (wǎng)", vn: "hướng về" }, { zh: "去 (qù)", vn: "đi" }, { zh: "到 (dào)", vn: "đến" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 穿紅衣服的人是誰？", py: "Chuān hóng yīfú de rén shì shéi?", vn: "1. Người mặc áo đỏ là ai?" },
+                options: [
+                    { zh: "旅館老闆的太太", vn: "Vợ của ông chủ khách sạn" },
+                    { zh: "明華的女朋友", vn: "Bạn gái của Minh Hoa" },
+                    { zh: "田中的女朋友", vn: "Bạn gái của Điền Trung" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 旅館的老闆長什麼樣子？", py: "Lǚguǎn de lǎobǎn zhǎng shénme yàngzi?", vn: "2. Ông chủ khách sạn trông như thế nào?" },
+                options: [
+                    { zh: "他很高", vn: "Ông ấy rất cao" },
+                    { zh: "他比較矮", vn: "Ông ấy khá là thấp" },
+                    { zh: "他穿黃色的衣服", vn: "Ông ấy mặc áo màu vàng" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 為什麼那家旅館不太貴？", py: "Wèishénme nà jiā lǚguǎn bú tài guì?", vn: "3. Tại sao khách sạn đó không đắt lắm?" },
+                options: [
+                    { zh: "因為去玩的人比較少", vn: "Bởi vì người đi chơi khá ít" },
+                    { zh: "因為那家旅館很舊", vn: "Bởi vì khách sạn đó rất cũ" },
+                    { zh: "因為旅館不乾淨", vn: "Bởi vì khách sạn không sạch sẽ" }
+                ],
+                correct: 0
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 我來看房子 Tôi đến xem nhà",
+        lesson: "Bài 11",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "林先生，你好，我是白如玉，來看房子。", py: "Lín xiānshēng, nǐ hǎo, wǒ shì Bái Rúyù, lái kàn fángzi.", vn: "Chào ông Lâm, tôi là Bạch Như Ngọc, đến xem nhà.", gender: "female" },
+            { sp: "房東", zh: "白小姐，妳好，請進。", py: "Bái xiǎojiě, nǐ hǎo, qǐng jìn.", vn: "Chào cô Bạch, mời vào.", gender: "male" },
+            { sp: "房東", zh: "這裡是客廳，廚房在左邊，右邊有浴室。", py: "Zhèlǐ shì kètīng, chúfáng zài zuǒbiān, yòubiān yǒu yùshì.", vn: "Đây là phòng khách, nhà bếp ở bên trái, bên phải có phòng tắm.", gender: "male" },
+            { sp: "如玉", zh: "房子很不錯。", py: "Fángzi hěn búcuò.", vn: "Ngôi nhà rất tuyệt.", gender: "female" },
+            { sp: "房東", zh: "這裡很方便，附近有超市和捷運站，走路五分鐘就到了。", py: "Zhèlǐ hěn fāngbiàn, fùjìn yǒu chāoshì hàn jiéyùn zhàn, zǒulù wǔ fēnzhōng jiù dào le.", vn: "Ở đây rất tiện, gần đây có siêu thị và trạm tàu điện ngầm, đi bộ 5 phút là tới rồi.", gender: "male" },
+            { sp: "如玉", zh: "現在有人住嗎？", py: "Xiànzài yǒu rén zhù ma?", vn: "Bây giờ có người ở không?", gender: "female" },
+            { sp: "房東", zh: "有。還有兩間空房間，一間是套房，一間不是。", py: "Yǒu. Háiyǒu liǎng jiān kōng fángjiān, yì jiān shì tàofáng, yì jiān bú shì.", vn: "Có. Vẫn còn hai phòng trống, một phòng là phòng khép kín, một phòng thì không phải.", gender: "male" },
+            { sp: "如玉", zh: "我想看套房。房間裡面可以上網嗎？", py: "Wǒ xiǎng kàn tàofáng. Fángjiān lǐmiàn kěyǐ shàngwǎng ma?", vn: "Tôi muốn xem phòng khép kín. Bên trong phòng có thể lên mạng không?", gender: "female" },
+            { sp: "房東", zh: "可以。妳覺得這間房間怎麼樣？妳想租嗎？", py: "Kěyǐ. Nǐ juéde zhè jiān fángjiān zěnmeyàng? Nǐ xiǎng zū ma?", vn: "Có thể. Cô thấy căn phòng này thế nào? Cô có muốn thuê không?", gender: "male" },
+            { sp: "如玉", zh: "我回去想想，再打電話給你。", py: "Wǒ huíqù xiǎngxiang, zài dǎ diànhuà gěi nǐ.", vn: "Tôi về suy nghĩ đã, rồi sẽ gọi điện thoại cho ông.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "這裡是 ____ ，廚房在左邊，右邊有浴室。", py: "Zhèlǐ shì ____ , chúfáng zài zuǒbiān, yòubiān yǒu yùshì.", vn: "Đây là ____ , nhà bếp ở bên trái, bên phải có phòng tắm." },
+                options: [{ zh: "套房 (tàofáng)", vn: "phòng khép kín" }, { zh: "客廳 (kètīng)", vn: "phòng khách" }, { zh: "臥室 (wòshì)", vn: "phòng ngủ" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "附近有 ____ 和捷運站，走路五分鐘就到了。", py: "Fùjìn yǒu ____ hàn jiéyùn zhàn, zǒulù wǔ fēnzhōng jiù dào le.", vn: "Gần đây có ____ và trạm tàu điện ngầm, đi bộ 5 phút là tới rồi." },
+                options: [{ zh: "超市 (chāoshì)", vn: "siêu thị" }, { zh: "茶館 (cháguǎn)", vn: "quán trà" }, { zh: "圖書館 (túshūguǎn)", vn: "thư viện" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "還有兩間 ____ 房間，一間是套房，一間不是。", py: "Háiyǒu liǎng jiān ____ fángjiān, yì jiān shì tàofáng, yì jiān bú shì.", vn: "Vẫn còn hai phòng ____ , một phòng là phòng khép kín, một phòng thì không." },
+                options: [{ zh: "大 (dà)", vn: "lớn" }, { zh: "新 (xīn)", vn: "mới" }, { zh: "空 (kōng)", vn: "trống" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 關於這棟房子，下面哪一個是對的？", py: "Guānyú zhè dòng fángzi, xiàmiàn nǎ yí gè shì duì de?", vn: "1. Về ngôi nhà này, câu nào dưới đây là đúng?" },
+                options: [
+                    { zh: "走路五分鐘就到捷運站", vn: "Đi bộ 5 phút là đến trạm tàu điện ngầm" },
+                    { zh: "現在沒有人住", vn: "Bây giờ không có người ở" },
+                    { zh: "廚房在右邊", vn: "Nhà bếp ở bên phải" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "2. 如玉想看哪種房間？", py: "Rúyù xiǎng kàn nǎ zhǒng fángjiān?", vn: "2. Như Ngọc muốn xem loại phòng nào?" },
+                options: [
+                    { zh: "浴室", vn: "Phòng tắm" },
+                    { zh: "套房", vn: "Phòng khép kín (có toilet riêng)" },
+                    { zh: "客廳", vn: "Phòng khách" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 如玉最後決定租房子了嗎？", py: "Rúyù zuìhòu juédìng zū fángzi le ma?", vn: "3. Như Ngọc cuối cùng đã quyết định thuê nhà chưa?" },
+                options: [
+                    { zh: "她決定租了", vn: "Cô ấy quyết định thuê rồi" },
+                    { zh: "她還沒決定，要回去想想", vn: "Cô ấy chưa quyết định, muốn về suy nghĩ thêm" },
+                    { zh: "她覺得太貴，不租", vn: "Cô ấy thấy quá đắt, không thuê" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 我租房子了！ Tôi thuê nhà rồi！  ",
+        lesson: "Bài 11",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "喂，房東先生，你好，我是白如玉，你收到我的房租了嗎？", py: "Wéi, fángdōng xiānshēng, nǐ hǎo, wǒ shì Bái Rúyù, nǐ shōudào wǒ de fángzū le ma?", vn: "Alo, chào ông chủ nhà, tôi là Bạch Như Ngọc, ông đã nhận được tiền thuê nhà của tôi chưa?", gender: "female" },
+            { sp: "房東", zh: "我已經收到了，謝謝。妳習慣了嗎？", py: "Wǒ yǐjīng shōudào le, xièxie. Nǐ xíguàn le ma?", vn: "Tôi đã nhận được rồi, cảm ơn. Cô đã quen chưa?", gender: "male" },
+            { sp: "如玉", zh: "習慣了。可是，有一個問題，熱水器的水好像不熱。", py: "Xíguàn le. Kěshì, yǒu yí gè wèntí, rèshuǐqì de shuǐ hǎoxiàng bú rè.", vn: "Quen rồi. Nhưng mà, có một vấn đề, nước của bình nóng lạnh hình như không nóng.", gender: "female" },
+            { sp: "房東", zh: "今天我會去看看。妳什麼時候有空？晚上可以嗎？", py: "Jīntiān wǒ huì qù kànkan. Nǐ shénme shíhòu yǒu kòng? Wǎnshàng kěyǐ ma?", vn: "Hôm nay tôi sẽ qua xem thử. Khi nào cô rảnh? Buổi tối được không?", gender: "male" },
+            { sp: "如玉", zh: "不好意思，今天晚上我有事。", py: "Bù hǎoyìsi, jīntiān wǎnshàng wǒ yǒu shì.", vn: "Xin lỗi, tối nay tôi có việc bận rồi.", gender: "female" },
+            { sp: "房東", zh: "沒關係，明天下午呢？", py: "Méi guānxi, míngtiān xiàwǔ ne?", vn: "Không sao, chiều ngày mai thì sao?", gender: "male" },
+            { sp: "如玉", zh: "好，我在家等你。", py: "Hǎo, wǒ zài jiā děng nǐ.", vn: "Được, tôi ở nhà đợi ông.", gender: "female" },
+            { sp: "房東", zh: "那我明天下午兩點到。還有問題嗎？", py: "Nà wǒ míngtiān xiàwǔ liǎng diǎn dào. Háiyǒu wèntí ma?", vn: "Vậy chiều mai 2 giờ tôi đến. Còn vấn đề gì nữa không?", gender: "male" },
+            { sp: "如玉", zh: "我想買電視。請問可以幫我裝有線電視嗎？", py: "Wǒ xiǎng mǎi diànshì. Qǐngwèn kěyǐ bāng wǒ zhuāng yǒuxiàn diànshì ma?", vn: "Tôi muốn mua tivi. Xin hỏi có thể giúp tôi lắp truyền hình cáp không?", gender: "female" },
+            { sp: "房東", zh: "可以，不過妳得自己付錢。", py: "Kěyǐ, búguò nǐ děi zìjǐ fù qián.", vn: "Có thể, nhưng mà cô phải tự trả tiền.", gender: "male" },
+            { sp: "如玉", zh: "好的，謝謝你。", py: "Hǎode, xièxie nǐ.", vn: "Được ạ, cảm ơn ông.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "你收到我的 ____ 了嗎？", py: "Nǐ shōudào wǒ de ____ le ma?", vn: "Ông đã nhận được ____ của tôi chưa?" },
+                options: [{ zh: "包裹 (bāoguǒ)", vn: "bưu kiện" }, { zh: "房租 (fángzū)", vn: "tiền thuê nhà" }, { zh: "信 (xìn)", vn: "bức thư" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "有一個問題，____ 的水好像不熱。", py: "Yǒu yí gè wèntí, ____ de shuǐ hǎoxiàng bú rè.", vn: "Có một vấn đề, nước của ____ hình như không nóng." },
+                options: [{ zh: "熱水器 (rèshuǐqì)", vn: "bình nóng lạnh" }, { zh: "冷氣 (lěngqì)", vn: "máy lạnh" }, { zh: "浴室 (yùshì)", vn: "phòng tắm" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "請問可以幫我裝 ____ 嗎？", py: "Qǐngwèn kěyǐ bāng wǒ zhuāng ____ ma?", vn: "Xin hỏi có thể giúp tôi lắp ____ không?" },
+                options: [{ zh: "網路 (wǎnglù)", vn: "mạng internet" }, { zh: "有線電視 (yǒuxiàn diànshì)", vn: "truyền hình cáp" }, { zh: "電燈 (diàndēng)", vn: "bóng đèn" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 如玉打電話給房東做什麼？", py: "Rúyù dǎ diànhuà gěi fángdōng zuò shénme?", vn: "1. Như Ngọc gọi điện cho chủ nhà làm gì?" },
+                options: [
+                    { zh: "問他收到房租了嗎，還有告訴他熱水器的問題", vn: "Hỏi ông ấy nhận được tiền nhà chưa, và báo vấn đề bình nóng lạnh" },
+                    { zh: "告訴他她不想租了", vn: "Bảo với ông ấy rằng cô không muốn thuê nhà nữa" },
+                    { zh: "請他來喝咖啡", vn: "Mời ông ấy đến uống cà phê" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "2. 房東什麼時候要去如玉的家？", py: "Fángdōng shénme shíhòu yào qù Rúyù de jiā?", vn: "2. Chủ nhà khi nào sẽ đến nhà của Như Ngọc?" },
+                options: [
+                    { zh: "今天晚上", vn: "Tối hôm nay" },
+                    { zh: "明天早上", vn: "Sáng ngày mai" },
+                    { zh: "明天下午兩點", vn: "2 giờ chiều ngày mai" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "3. 關於裝有線電視，房東怎麼說？", py: "Guānyú zhuāng yǒuxiàn diànshì, fángdōng zěnme shuō?", vn: "3. Về việc lắp truyền hình cáp, chủ nhà nói thế nào?" },
+                options: [
+                    { zh: "可以裝，房東會付錢", vn: "Có thể lắp, chủ nhà sẽ trả tiền" },
+                    { zh: "可以裝，但是如玉得自己付錢", vn: "Có thể lắp, nhưng Như Ngọc phải tự trả tiền" },
+                    { zh: "不可以裝", vn: "Không được lắp" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 學中文計劃 Kế hoạch học tiếng Trung ",
+        lesson: "Bài 12",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "田中", zh: "安同，你計畫在臺灣學多久的中文？", py: "Āntóng, nǐ jìhuà zài Táiwān xué duō jiǔ de Zhōngwén?", vn: "An Đồng, bạn lên kế hoạch học tiếng Trung ở Đài Loan bao lâu?", gender: "male" },
+            { sp: "安同", zh: "五年。", py: "Wǔ nián.", vn: "Năm năm.", gender: "male" },
+            { sp: "田中", zh: "為什麼要這麼久的時間？", py: "Wèishénme yào zhème jiǔ de shíjiān?", vn: "Tại sao lại cần thời gian lâu như vậy?", gender: "male" },
+            { sp: "安同", zh: "我先在語言中心念一年，再念四年大學，所以需要五年。", py: "Wǒ xiān zài yǔyán zhōngxīn niàn yì nián, zài niàn sì nián dàxué, suǒyǐ xūyào wǔ nián.", vn: "Tôi học ở trung tâm ngôn ngữ 1 năm trước, sau đó học đại học 4 năm, cho nên cần 5 năm.", gender: "male" },
+            { sp: "田中", zh: "這得花不少錢！", py: "Zhè děi huā bù shǎo qián!", vn: "Chắc phải tốn không ít tiền đâu!", gender: "male" },
+            { sp: "安同", zh: "對，不過我有獎學金。要是成績不好，就沒獎學金了。你呢？", py: "Duì, búguò wǒ yǒu jiǎngxuéjīn. Yàoshì chéngjī bù hǎo, jiù méi jiǎngxuéjīn le. Nǐ ne?", vn: "Đúng vậy, nhưng mà tôi có học bổng. Nếu như thành tích không tốt, thì sẽ không có học bổng nữa. Còn bạn?", gender: "male" },
+            { sp: "田中", zh: "我的學費是公司替我付的。", py: "Wǒ de xuéfèi shì gōngsī tì wǒ fù de.", vn: "Học phí của tôi là do công ty trả thay cho tôi.", gender: "male" },
+            { sp: "安同", zh: "你打算學多久呢？", py: "Nǐ dǎsuàn xué duō jiǔ ne?", vn: "Bạn dự định học bao lâu?", gender: "male" },
+            { sp: "田中", zh: "大概兩年，是公司決定的。", py: "Dàgài liǎng nián, shì gōngsī juédìng de.", vn: "Khoảng chừng 2 năm, là do công ty quyết định.", gender: "male" },
+            { sp: "安同", zh: "希望我以後也可以到這麼好的公司上班。", py: "Xīwàng wǒ yǐhòu yě kěyǐ dào zhème hǎo de gōngsī shàngbān.", vn: "Hy vọng sau này tôi cũng có thể đến làm việc ở một công ty tốt như thế này.", gender: "male" },
+            { sp: "田中", zh: "我又要上班，又要念書，真的很累。", py: "Wǒ yòu yào shàngbān, yòu yào niànshū, zhēnde hěn lèi.", vn: "Tôi vừa phải đi làm, vừa phải đi học, thật sự rất mệt.", gender: "male" },
+            { sp: "安同", zh: "我們一起加油吧！", py: "Wǒmen yìqǐ jiāyóu ba!", vn: "Chúng ta cùng nhau cố gắng nhé!", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "你 ____ 在臺灣學多久的中文？", py: "Nǐ ____ zài Táiwān xué duō jiǔ de Zhōngwén?", vn: "Bạn ____ học tiếng Trung ở Đài Loan bao lâu?" },
+                options: [{ zh: "計畫 (jìhuà)", vn: "lên kế hoạch" }, { zh: "決定 (juédìng)", vn: "quyết định" }, { zh: "希望 (xīwàng)", vn: "hy vọng" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "要是成績不好，就沒 ____ 了。", py: "Yàoshì chéngjī bù hǎo, jiù méi ____ le.", vn: "Nếu như thành tích không tốt, thì sẽ không có ____ nữa." },
+                options: [{ zh: "學費 (xuéfèi)", vn: "học phí" }, { zh: "獎學金 (jiǎngxuéjīn)", vn: "học bổng" }, { zh: "時間 (shíjiān)", vn: "thời gian" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我的學費是公司 ____ 我付的。", py: "Wǒ de xuéfèi shì gōngsī ____ wǒ fù de.", vn: "Học phí của tôi là do công ty trả ____ cho tôi." },
+                options: [{ zh: "替 (tì)", vn: "thay/cho" }, { zh: "給 (gěi)", vn: "cho/đưa" }, { zh: "跟 (gēn)", vn: "cùng với" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 安同計畫在臺灣念幾年大學？", py: "Āntóng jìhuà zài Táiwān niàn jǐ nián dàxué?", vn: "1. An Đồng lên kế hoạch học đại học ở Đài Loan mấy năm?" },
+                options: [
+                    { zh: "一年", vn: "1 năm" },
+                    { zh: "四年", vn: "4 năm" },
+                    { zh: "五年", vn: "5 năm" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 誰替田中付學費？", py: "Shéi tì Tiánzhōng fù xuéfèi?", vn: "2. Ai trả học phí thay cho Điền Trung?" },
+                options: [
+                    { zh: "他的家人", vn: "Người nhà của anh ấy" },
+                    { zh: "他的朋友", vn: "Bạn bè của anh ấy" },
+                    { zh: "他的公司", vn: "Công ty của anh ấy" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "3. 田中覺得現在的生活怎麼樣？", py: "Tiánzhōng juéde xiànzài de shēnghuó zěnmeyàng?", vn: "3. Điền Trung cảm thấy cuộc sống hiện tại như thế nào?" },
+                options: [
+                    { zh: "很有意思", vn: "Rất thú vị" },
+                    { zh: "很累，因為又要上班又要念書", vn: "Rất mệt, vì vừa phải đi làm vừa phải đi học" },
+                    { zh: "很輕鬆", vn: "Rất nhẹ nhàng/thoải mái" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 工作  Công việc ",
+        lesson: "Bài 12",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "月美", zh: "田中，你是什麼時候來臺灣工作的？", py: "Tiánzhōng, nǐ shì shénme shíhòu lái Táiwān gōngzuò de?", vn: "Điền Trung, bạn đến Đài Loan làm việc từ khi nào vậy?", gender: "female" },
+            { sp: "田中", zh: "去年，我已經在臺灣工作一年了。", py: "Qùnián, wǒ yǐjīng zài Táiwān gōngzuò yì nián le.", vn: "Năm ngoái, tôi đã làm việc ở Đài Loan được 1 năm rồi.", gender: "male" },
+            { sp: "月美", zh: "為什麼你們公司要替你付學費？", py: "Wèishénme nǐmen gōngsī yào tì nǐ fù xuéfèi?", vn: "Tại sao công ty các bạn lại muốn trả học phí thay cho bạn?", gender: "female" },
+            { sp: "田中", zh: "因為我們公司跟臺灣人做生意。老闆希望我們都會說中文。", py: "Yīnwèi wǒmen gōngsī gēn Táiwān rén zuò shēngyì. Lǎobǎn xīwàng wǒmen dōu huì shuō Zhōngwén.", vn: "Bởi vì công ty chúng tôi làm ăn với người Đài Loan. Ông chủ hy vọng chúng tôi đều biết nói tiếng Trung.", gender: "male" },
+            { sp: "月美", zh: "我覺得你們公司真好。", py: "Wǒ juéde nǐmen gōngsī zhēn hǎo.", vn: "Tôi cảm thấy công ty các bạn thật tốt.", gender: "female" },
+            { sp: "田中", zh: "對了，妳回國以後，打算做什麼？", py: "Duì le, nǐ huíguó yǐhòu, dǎsuàn zuò shénme?", vn: "À đúng rồi, sau khi về nước, bạn dự định làm gì?", gender: "male" },
+            { sp: "月美", zh: "我回國以後，也想找個有機會說中文的工作。", py: "Wǒ huíguó yǐhòu, yě xiǎng zhǎo ge yǒu jīhuì shuō Zhōngwén de gōngzuò.", vn: "Sau khi về nước, tôi cũng muốn tìm một công việc có cơ hội nói tiếng Trung.", gender: "female" },
+            { sp: "田中", zh: "不錯，這樣的工作在你們國家好找嗎？", py: "Búcuò, zhèyàng de gōngzuò zài nǐmen guójiā hǎo zhǎo ma?", vn: "Không tồi, công việc như vậy ở quốc gia của các bạn có dễ tìm không?", gender: "male" },
+            { sp: "月美", zh: "不知道好不好找，我試試看。", py: "Bù zhīdào hǎo bù hǎo zhǎo, wǒ shìshì kàn.", vn: "Không biết có dễ tìm hay không, tôi sẽ thử xem sao.", gender: "female" },
+            { sp: "田中", zh: "要是難找呢？", py: "Yàoshì nán zhǎo ne?", vn: "Nếu như khó tìm thì sao?", gender: "male" },
+            { sp: "月美", zh: "那麼我再來臺灣學中文。", py: "Nàme wǒ zài lái Táiwān xué Zhōngwén.", vn: "Vậy thì tôi lại đến Đài Loan học tiếng Trung.", gender: "female" },
+            { sp: "田中", zh: "太好了！那我們就可以再見面了。", py: "Tài hǎo le! Nà wǒmen jiù kěyǐ zài jiànmiàn le.", vn: "Tuyệt quá! Vậy thì chúng ta lại có thể gặp mặt nhau rồi.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "去年，我 ____ 在臺灣工作一年了。", py: "Qùnián, wǒ ____ zài Táiwān gōngzuò yì nián le.", vn: "Năm ngoái, tôi ____ làm việc ở Đài Loan được 1 năm rồi." },
+                options: [{ zh: "已經 (yǐjīng)", vn: "đã...rồi" }, { zh: "大概 (dàgài)", vn: "khoảng chừng" }, { zh: "一定 (yídìng)", vn: "nhất định" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "因為我們公司跟臺灣人做 ____ 。", py: "Yīnwèi wǒmen gōngsī gēn Táiwān rén zuò ____ .", vn: "Bởi vì công ty chúng tôi làm ____ với người Đài Loan." },
+                options: [{ zh: "功課 (gōngkè)", vn: "bài tập" }, { zh: "工作 (gōngzuò)", vn: "công việc" }, { zh: "生意 (shēngyì)", vn: "làm ăn/kinh doanh" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "要是 ____ 找呢？", py: "Yàoshì ____ zhǎo ne?", vn: "Nếu như ____ tìm thì sao?" },
+                options: [{ zh: "難 (nán)", vn: "khó" }, { zh: "遠 (yuǎn)", vn: "xa" }, { zh: "慢 (màn)", vn: "chậm" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 田中是什麼時候來臺灣工作的？", py: "Tiánzhōng shì shénme shíhòu lái Táiwān gōngzuò de?", vn: "1. Điền Trung đến Đài Loan làm việc từ khi nào?" },
+                options: [
+                    { zh: "今年", vn: "Năm nay" },
+                    { zh: "去年", vn: "Năm ngoái" },
+                    { zh: "前年", vn: "Năm kia" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 為什麼田中的老闆要替他付學費？", py: "Wèishénme Tiánzhōng de lǎobǎn yào tì tā fù xuéfèi?", vn: "2. Tại sao ông chủ của Điền Trung lại muốn trả học phí thay cho anh ấy?" },
+                options: [
+                    { zh: "因為老闆是臺灣人", vn: "Bởi vì ông chủ là người Đài Loan" },
+                    { zh: "因為老闆希望他們都會說中文", vn: "Bởi vì ông chủ hy vọng họ đều biết nói tiếng Trung" },
+                    { zh: "因為田中沒有錢", vn: "Bởi vì Điền Trung không có tiền" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 月美回國以後想找什麼樣的工作？", py: "Yuèměi huíguó yǐhòu xiǎng zhǎo shénme yàng de gōngzuò?", vn: "3. Nguyệt Mỹ sau khi về nước muốn tìm công việc như thế nào?" },
+                options: [
+                    { zh: "在語言中心上課的工作", vn: "Công việc dạy học ở trung tâm ngôn ngữ" },
+                    { zh: "有機會說中文的工作", vn: "Công việc có cơ hội nói tiếng Trung" },
+                    { zh: "跟臺灣人做生意的工作", vn: "Công việc làm ăn với người Đài Loan" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 過生日 Tổ chức sinh nhật",
+        lesson: "Bài 13",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "怡君", zh: "喂，安同嗎？", py: "Wéi, Āntóng ma?", vn: "Alo, An Đồng phải không?", gender: "female" },
+            { sp: "安同", zh: "是，我就是。怡君，好久不見，聽說妳去花蓮？", py: "Shì, wǒ jiùshì. Yíjūn, hǎo jiǔ bú jiàn, tīngshuō nǐ qù Huālián?", vn: "Phải, là tôi đây. Di Quân, lâu rồi không gặp, nghe nói bạn đi Hoa Liên?", gender: "male" },
+            { sp: "怡君", zh: "我沒去花蓮，我剛從臺東回來。", py: "Wǒ méi qù Huālián, wǒ gāng cóng Táidōng huílái.", vn: "Tôi không đi Hoa Liên, tôi vừa từ Đài Đông về.", gender: "female" },
+            { sp: "安同", zh: "找我有什麼事？", py: "Zhǎo wǒ yǒu shénme shì?", vn: "Tìm tôi có việc gì không?", gender: "male" },
+            { sp: "怡君", zh: "明天是你的生日，對不對？", py: "Míngtiān shì nǐ de shēngrì, duì bú duì?", vn: "Ngày mai là sinh nhật của bạn, đúng không?", gender: "female" },
+            { sp: "安同", zh: "啊，我怎麼忘了！最近太忙了，謝謝妳還記得。", py: "A, wǒ zěnme wàng le! Zuìjìn tài máng le, xièxie nǐ hái jìdé.", vn: "A, sao tôi lại quên mất nhỉ! Dạo này bận quá, cảm ơn bạn vẫn còn nhớ.", gender: "male" },
+            { sp: "怡君", zh: "當然記得！語言交換的時候，你那麼熱心教我西班牙文。", py: "Dāngrán jìdé! Yǔyán jiāohuàn de shíhòu, nǐ nàme rèxīn jiāo wǒ Xībānyáwén.", vn: "Đương nhiên là nhớ chứ! Lúc trao đổi ngôn ngữ, bạn đã rất nhiệt tình dạy tôi tiếng Tây Ban Nha.", gender: "female" },
+            { sp: "安同", zh: "不必客氣，妳也一樣。", py: "Búbì kèqì, nǐ yě yíyàng.", vn: "Không cần khách sáo, bạn cũng vậy mà.", gender: "male" },
+            { sp: "怡君", zh: "明天我想請你吃晚飯，給你過生日。", py: "Míngtiān wǒ xiǎng qǐng nǐ chī wǎnfàn, gěi nǐ guò shēngrì.", vn: "Ngày mai tôi muốn mời bạn ăn tối, tổ chức sinh nhật cho bạn.", gender: "female" },
+            { sp: "安同", zh: "妳太客氣了！我們在哪裡見面呢？", py: "Nǐ tài kèqì le! Wǒmen zài nǎlǐ jiànmiàn ne?", vn: "Bạn khách sáo quá rồi! Chúng ta gặp nhau ở đâu nhỉ?", gender: "male" },
+            { sp: "怡君", zh: "明天我一下課，就去你們學校找你。", py: "Míngtiān wǒ yí xiàkè, jiù qù nǐmen xuéxiào zhǎo nǐ.", vn: "Ngày mai tôi vừa tan học, sẽ đến trường tìm bạn.", gender: "female" },
+            { sp: "安同", zh: "大概幾點？", py: "Dàgài jǐ diǎn?", vn: "Khoảng mấy giờ?", gender: "male" },
+            { sp: "怡君", zh: "五點左右。", py: "Wǔ diǎn zuǒyòu.", vn: "Khoảng 5 giờ.", gender: "female" },
+            { sp: "安同", zh: "好，我會在學校門口等妳。", py: "Hǎo, wǒ huì zài xuéxiào ménkǒu děng nǐ.", vn: "Được, tôi sẽ đợi bạn ở cổng trường.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "聽說妳去 ____ ？", py: "Tīngshuō nǐ qù ____ ?", vn: "Nghe nói bạn đi ____ ?" },
+                options: [{ zh: "花蓮 (Huālián)", vn: "Hoa Liên" }, { zh: "臺北 (Táiběi)", vn: "Đài Bắc" }, { zh: "臺南 (Táinán)", vn: "Đài Nam" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "語言 ____ 的時候，你那麼熱心教我。", py: "Yǔyán ____ de shíhòu, nǐ nàme rèxīn jiāo wǒ.", vn: "Lúc ____ ngôn ngữ, bạn nhiệt tình dạy tôi như vậy." },
+                options: [{ zh: "學習 (xuéxí)", vn: "học tập" }, { zh: "交換 (jiāohuàn)", vn: "trao đổi" }, { zh: "上課 (shàngkè)", vn: "lên lớp" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "明天我一 ____ ，就去你們學校找你。", py: "Míngtiān wǒ yí ____ , jiù qù nǐmen xuéxiào zhǎo nǐ.", vn: "Ngày mai tôi vừa ____ , thì sẽ đến trường tìm bạn." },
+                options: [{ zh: "下課 (xiàkè)", vn: "tan học" }, { zh: "上課 (shàngkè)", vn: "vào lớp" }, { zh: "回家 (huíjiā)", vn: "về nhà" }],
+                correct: 0
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 怡君剛從哪裡回來？", py: "Yíjūn gāng cóng nǎlǐ huílái?", vn: "1. Di Quân vừa từ đâu trở về?" },
+                options: [
+                    { zh: "花蓮", vn: "Hoa Liên" },
+                    { zh: "臺北", vn: "Đài Bắc" },
+                    { zh: "臺東", vn: "Đài Đông" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 以前安同教怡君什麼語言？", py: "Yǐqián Āntóng jiāo Yíjūn shénme yǔyán?", vn: "2. Trước đây An Đồng đã dạy Di Quân ngôn ngữ gì?" },
+                options: [
+                    { zh: "英文", vn: "Tiếng Anh" },
+                    { zh: "西班牙文", vn: "Tiếng Tây Ban Nha" },
+                    { zh: "中文", vn: "Tiếng Trung" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 他們明天大概幾點見面？", py: "Tāmen míngtiān dàgài jǐ diǎn jiànmiàn?", vn: "3. Ngày mai họ dự định gặp nhau lúc mấy giờ?" },
+                options: [
+                    { zh: "早上五點", vn: "5 giờ sáng" },
+                    { zh: "下午五點左右", vn: "Khoảng 5 giờ chiều" },
+                    { zh: "晚上九點", vn: "9 giờ tối" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 我們一起過生日 Chúng ta cùng nhau đón Sinh Nhật",
+        lesson: "Bài 13",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "安同", zh: "怡君，謝謝妳請我到這麼有名的餐廳吃飯。", py: "Yíjūn, xièxie nǐ qǐng wǒ dào zhème yǒumíng de cāntīng chīfàn.", vn: "Di Quân, cảm ơn bạn đã mời tôi đến nhà hàng nổi tiếng như vậy ăn cơm.", gender: "male" },
+            { sp: "怡君", zh: "哪裡，哪裡！這是我給你的禮物。", py: "Nǎlǐ, nǎlǐ! Zhè shì wǒ gěi nǐ de lǐwù.", vn: "Có gì đâu, có gì đâu! Đây là món quà tôi tặng bạn.", gender: "female" },
+            { sp: "安同", zh: "謝謝！真開心，今年有臺灣朋友給我過生日。", py: "Xièxie! Zhēn kāixīn, jīnnián yǒu Táiwān péngyǒu gěi wǒ guò shēngrì.", vn: "Cảm ơn nhé! Thật vui, năm nay có người bạn Đài Loan tổ chức sinh nhật cho tôi.", gender: "male" },
+            { sp: "怡君", zh: "你想吃什麼？有沒有不吃的東西？", py: "Nǐ xiǎng chī shénme? Yǒu méiyǒu bù chī de dōngxi?", vn: "Bạn muốn ăn gì? Có món gì không ăn được không?", gender: "female" },
+            { sp: "安同", zh: "我什麼都吃。", py: "Wǒ shénme dōu chī.", vn: "Tôi ăn gì cũng được.", gender: "male" },
+            { sp: "怡君", zh: "我已經訂了豬腳麵線和蛋。等一下你多吃一點。", py: "Wǒ yǐjīng dìng le zhūjiǎo miànxiàn hàn dàn. Děng yíxià nǐ duō chī yìdiǎn.", vn: "Tôi đã đặt mì xăm chân giò và trứng rồi. Lát nữa bạn ăn nhiều một chút nhé.", gender: "female" },
+            { sp: "安同", zh: "臺灣人過生日是不是都吃這些東西？", py: "Táiwān rén guò shēngrì shì bú shì dōu chī zhèxiē dōngxi?", vn: "Có phải người Đài Loan đón sinh nhật đều ăn những món này không?", gender: "male" },
+            { sp: "怡君", zh: "對啊！這是傳統，不過，現在大部分年輕人過生日不吃這些東西了。", py: "Duì a! Zhè shì chuántǒng, búguò, xiànzài dàbùfèn niánqīng rén guò shēngrì bù chī zhèxiē dōngxi le.", vn: "Đúng vậy! Đây là truyền thống, nhưng mà, hiện tại phần lớn người trẻ tuổi đón sinh nhật không ăn những món này nữa.", gender: "female" },
+            { sp: "安同", zh: "那麼，你們過生日吃什麼呢？", py: "Nàme, nǐmen guò shēngrì chī shénme ne?", vn: "Vậy thì, các bạn đón sinh nhật ăn món gì nhỉ?", gender: "male" },
+            { sp: "怡君", zh: "跟你們一樣，吃蛋糕。今天我也訂了一個生日蛋糕。", py: "Gēn nǐmen yíyàng, chī dàngāo. Jīntiān wǒ yě dìng le yí gè shēngrì dàngāo.", vn: "Giống như các bạn, ăn bánh kem. Hôm nay tôi cũng đã đặt một chiếc bánh kem sinh nhật.", gender: "female" },
+            { sp: "安同", zh: "妳對我真好。", py: "Nǐ duì wǒ zhēn hǎo.", vn: "Bạn đối xử với tôi thật tốt.", gender: "male" },
+            { sp: "怡君", zh: "安同，祝你生日快樂、萬事如意、心想事成。", py: "Āntóng, zhù nǐ shēngrì kuàilè, wàn shì rúyì, xīn xiǎng shì chéng.", vn: "An Đồng, chúc bạn sinh nhật vui vẻ, vạn sự như ý, tâm tưởng sự thành (muốn gì được nấy).", gender: "female" },
+            { sp: "安同", zh: "謝謝！謝謝！", py: "Xièxie! Xièxie!", vn: "Cảm ơn! Cảm ơn!", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "哪裡，哪裡！這是我給你的 ____ 。", py: "Nǎlǐ, nǎlǐ! Zhè shì wǒ gěi nǐ de ____ .", vn: "Có gì đâu, có gì đâu! Đây là ____ tôi tặng bạn." },
+                options: [{ zh: "東西 (dōngxi)", vn: "đồ vật" }, { zh: "蛋糕 (dàngāo)", vn: "bánh kem" }, { zh: "禮物 (lǐwù)", vn: "món quà" }],
+                correct: 2
+            },
+            {
+                sentence: { zh: "我已經 ____ 了豬腳麵線和蛋。", py: "Wǒ yǐjīng ____ le zhūjiǎo miànxiàn hàn dàn.", vn: "Tôi đã ____ mì xăm chân giò và trứng rồi." },
+                options: [{ zh: "訂 (dìng)", vn: "đặt (trước)" }, { zh: "做 (zuò)", vn: "làm" }, { zh: "買 (mǎi)", vn: "mua" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "現在大部分 ____ 人過生日不吃這些東西了。", py: "Xiànzài dàbùfèn ____ rén guò shēngrì bù chī zhèxiē dōngxi le.", vn: "Hiện tại phần lớn người ____ đón sinh nhật không ăn những món này nữa." },
+                options: [{ zh: "傳統 (chuántǒng)", vn: "truyền thống" }, { zh: "年輕 (niánqīng)", vn: "trẻ tuổi" }, { zh: "臺灣 (Táiwān)", vn: "Đài Loan" }],
+                correct: 1
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 怡君給安同準備了什麼？", py: "Yíjūn gěi Āntóng zhǔnbèi le shénme?", vn: "1. Di Quân đã chuẩn bị gì cho An Đồng?" },
+                options: [
+                    { zh: "只有一個生日蛋糕", vn: "Chỉ có một chiếc bánh kem sinh nhật" },
+                    { zh: "只有禮物", vn: "Chỉ có quà" },
+                    { zh: "禮物和生日蛋糕", vn: "Cả quà và bánh kem sinh nhật" }
+                ],
+                correct: 2
+            },
+            {
+                question: { zh: "2. 臺灣人傳統上過生日吃什麼？", py: "Táiwān rén chuántǒng shàng guò shēngrì chī shénme?", vn: "2. Theo truyền thống, người Đài Loan đón sinh nhật ăn món gì?" },
+                options: [
+                    { zh: "豬腳麵線和蛋", vn: "Mì chân giò và trứng" },
+                    { zh: "牛肉麵", vn: "Mì bò" },
+                    { zh: "生日蛋糕", vn: "Bánh kem sinh nhật" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 關於現在的臺灣年輕人，下面哪一個是對的？", py: "Guānyú xiànzài de Táiwān niánqīng rén, xiàmiàn nǎ yí gè shì duì de?", vn: "3. Về những người trẻ Đài Loan hiện nay, câu nào dưới đây là đúng?" },
+                options: [
+                    { zh: "他們過生日一定吃豬腳麵線", vn: "Họ đón sinh nhật nhất định sẽ ăn mì chân giò" },
+                    { zh: "他們過生日常吃蛋糕", vn: "Họ đón sinh nhật thường ăn bánh kem" },
+                    { zh: "他們不過生日", vn: "Họ không tổ chức sinh nhật" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 今天天氣怎麼樣？ Thời tiết hôm nay thế nào?",
+        lesson: "Bài 14",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "外面風那麼大，我覺得今天比昨天冷。臺灣會不會下雪？", py: "Wàimiàn fēng nàme dà, wǒ juéde jīntiān bǐ zuótiān lěng. Táiwān huì bú huì xiàxuě?", vn: "Bên ngoài gió lớn như vậy, tôi cảm thấy hôm nay lạnh hơn hôm qua. Đài Loan có tuyết rơi không?", gender: "female" },
+            { sp: "明華", zh: "很高的山會下雪。玉山常下雪。美國呢？開始下雪了吧？", py: "Hěn gāo de shān huì xiàxuě. Yùshān cháng xiàxuě. Měiguó ne? Kāishǐ xiàxuě le ba?", vn: "Núi rất cao sẽ có tuyết rơi. Núi Ngọc Sơn thường có tuyết. Còn Mỹ thì sao? Bắt đầu có tuyết rơi rồi chứ?", gender: "male" },
+            { sp: "如玉", zh: "還沒有。每年差不多十二月開始。下雪的時候，我常去山上滑雪。", py: "Hái méiyǒu. Měi nián chàbùduō shí'èr yuè kāishǐ. Xiàxuě de shíhòu, wǒ cháng qù shānshàng huáxuě.", vn: "Vẫn chưa. Mỗi năm khoảng chừng tháng 12 bắt đầu. Lúc tuyết rơi, tôi thường lên núi trượt tuyết.", gender: "female" },
+            { sp: "明華", zh: "我怕冷。我比較喜歡春天。", py: "Wǒ pà lěng. Wǒ bǐjiào xǐhuān chūntiān.", vn: "Tôi sợ lạnh. Tôi thích mùa xuân hơn.", gender: "male" },
+            { sp: "如玉", zh: "春天不錯，天氣很舒服。", py: "Chūntiān búcuò, tiānqì hěn shūfú.", vn: "Mùa xuân không tồi, thời tiết rất dễ chịu.", gender: "female" },
+            { sp: "明華", zh: "我去年五月在紐約玩了兩個星期。那個時候，天氣很好，風景也很漂亮，我玩得非常開心。", py: "Wǒ qùnián wǔ yuè zài Niǔyuē wán le liǎng ge xīngqí. Nàge shíhòu, tiānqì hěn hǎo, fēngjǐng yě hěn piàoliang, wǒ wán de fēicháng kāixīn.", vn: "Tháng 5 năm ngoái tôi đã chơi ở New York hai tuần. Lúc đó, thời tiết rất đẹp, phong cảnh cũng rất đẹp, tôi chơi vô cùng vui vẻ.", gender: "male" },
+            { sp: "如玉", zh: "我在臺灣住了半年多了。有一點想家。", py: "Wǒ zài Táiwān zhù le bàn nián duō le. Yǒu yìdiǎn xiǎng jiā.", vn: "Tôi đã sống ở Đài Loan hơn nửa năm rồi. Hơi nhớ nhà một chút.", gender: "female" },
+            { sp: "明華", zh: "新年快到了。想回去看父母嗎？", py: "Xīnnián kuài dào le. Xiǎng huíqù kàn fùmǔ ma?", vn: "Năm mới sắp đến rồi. Có muốn về thăm bố mẹ không?", gender: "male" },
+            { sp: "如玉", zh: "我打算十二月底回去。想跟我去美國玩嗎？", py: "Wǒ dǎsuàn shí'èr yuè dǐ huíqù. Xiǎng gēn wǒ qù Měiguó wán ma?", vn: "Tôi dự định cuối tháng 12 sẽ về. Có muốn cùng tôi sang Mỹ chơi không?", gender: "female" },
+            { sp: "明華", zh: "冬天太冷了。不過，我想明年秋天去看紅葉。對了，妳什麼時候回來？", py: "Dōngtiān tài lěng le. Búguò, wǒ xiǎng míngnián qiūtiān qù kàn hóngyè. Duì le, nǐ shénme shíhòu huílái?", vn: "Mùa đông lạnh quá. Nhưng mà, tôi muốn mùa thu năm sau đi ngắm lá đỏ. À đúng rồi, khi nào bạn quay lại?", gender: "male" },
+            { sp: "如玉", zh: "因為我們只放十天的假，所以一月五號回來。", py: "Yīnwèi wǒmen zhǐ fàng shí tiān de jià, suǒyǐ yí yuè wǔ hào huílái.", vn: "Bởi vì chúng tôi chỉ nghỉ lễ 10 ngày, cho nên ngày 5 tháng 1 sẽ quay lại.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "外面風那麼大，我覺得今天比昨天冷。臺灣會不會 ____ ？", py: "Wàimiàn fēng nàme dà, wǒ juéde jīntiān bǐ zuótiān lěng. Táiwān huì bú huì ____ ?", vn: "Bên ngoài gió lớn như vậy, tôi cảm thấy hôm nay lạnh hơn hôm qua. Đài Loan có ____ không?" },
+                options: [{ zh: "下雨 (xiàyǔ)", vn: "mưa" }, { zh: "下雪 (xiàxuě)", vn: "tuyết rơi" }, { zh: "颳風 (guāfēng)", vn: "nổi gió" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我去年五月在紐約玩了兩個 ____ 。", py: "Wǒ qùnián wǔ yuè zài Niǔyuē wán le liǎng ge ____ .", vn: "Tháng 5 năm ngoái tôi đã chơi ở New York hai ____ ." },
+                options: [{ zh: "星期 (xīngqí)", vn: "tuần" }, { zh: "月 (yuè)", vn: "tháng" }, { zh: "年 (nián)", vn: "năm" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "不過，我想明年 ____ 去看紅葉。", py: "Búguò, wǒ xiǎng míngnián ____ qù kàn hóngyè.", vn: "Nhưng mà, tôi muốn ____ năm sau đi ngắm lá đỏ." },
+                options: [{ zh: "春天 (chūntiān)", vn: "mùa xuân" }, { zh: "夏天 (xiàtiān)", vn: "mùa hè" }, { zh: "秋天 (qiūtiān)", vn: "mùa thu" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 如玉覺得今天的天氣怎麼樣？", py: "Rúyù juéde jīntiān de tiānqì zěnmeyàng?", vn: "1. Như Ngọc thấy thời tiết hôm nay thế nào?" },
+                options: [
+                    { zh: "比昨天熱", vn: "Nóng hơn hôm qua" },
+                    { zh: "比昨天冷", vn: "Lạnh hơn hôm qua" },
+                    { zh: "天氣很好", vn: "Thời tiết rất đẹp" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 明華最喜歡什麼季節？", py: "Mínghuá zuì xǐhuān shénme jìjié?", vn: "2. Minh Hoa thích mùa nào nhất?" },
+                options: [
+                    { zh: "春天", vn: "Mùa xuân" },
+                    { zh: "夏天", vn: "Mùa hè" },
+                    { zh: "冬天", vn: "Mùa đông" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 如玉打算什麼時候回美國？", py: "Rúyù dǎsuàn shénme shíhòu huí Měiguó?", vn: "3. Như Ngọc dự định khi nào về Mỹ?" },
+                options: [
+                    { zh: "一月五號", vn: "Ngày 5 tháng 1" },
+                    { zh: "十二月底", vn: "Cuối tháng 12" },
+                    { zh: "明年秋天", vn: "Mùa thu năm sau" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 颱風快要到了！ Cơn bão sắp đến!",
+        lesson: "Bài 14",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "明華", zh: "如玉，雨下得這麼大，妳怎麼沒帶傘呢？", py: "Rúyù, yǔ xià de zhème dà, nǐ zěnme méi dài sǎn ne?", vn: "Như Ngọc, mưa lớn thế này, sao bạn lại không mang ô nhỉ?", gender: "male" },
+            { sp: "如玉", zh: "我昨天帶了，可是今天忘了帶。", py: "Wǒ zuótiān dài le, kěshì jīntiān wàng le dài.", vn: "Hôm qua tôi có mang, nhưng hôm nay quên mang mất rồi.", gender: "female" },
+            { sp: "明華", zh: "颱風快要來了。", py: "Táifēng kuàiyào lái le.", vn: "Bão sắp đến rồi.", gender: "male" },
+            { sp: "如玉", zh: "我已經聽說了。", py: "Wǒ yǐjīng tīngshuō le.", vn: "Tôi đã nghe nói rồi.", gender: "female" },
+            { sp: "明華", zh: "這裡每年夏天都有颱風。颱風來的時候，風和雨都很大，做什麼都很不方便。", py: "Zhèlǐ měi nián xiàtiān dōu yǒu táifēng. Táifēng lái de shíhòu, fēng hàn yǔ dōu hěn dà, zuò shénme dōu hěn bù fāngbiàn.", vn: "Ở đây mỗi năm mùa hè đều có bão. Lúc bão đến, gió và mưa đều rất lớn, làm gì cũng rất bất tiện.", gender: "male" },
+            { sp: "如玉", zh: "是啊！哪裡都濕濕的。真討厭。", py: "Shì a! Nǎlǐ dōu shīshī de. Zhēn tǎoyàn.", vn: "Đúng vậy! Chỗ nào cũng ướt nhẹp. Thật đáng ghét.", gender: "female" },
+            { sp: "明華", zh: "電視新聞說，這次的颱風會比上次的更大，請大家多小心。", py: "Diànshì xīnwén shuō, zhè cì de táifēng huì bǐ shàng cì de gèng dà, qǐng dàjiā duō xiǎoxīn.", vn: "Tin tức tivi nói, cơn bão lần này sẽ lớn hơn lần trước, xin mọi người hãy cẩn thận.", gender: "male" },
+            { sp: "如玉", zh: "希望這次的沒有上次的那麼可怕。", py: "Xīwàng zhè cì de méiyǒu shàng cì de nàme kěpà.", vn: "Hy vọng lần này không đáng sợ như lần trước.", gender: "female" },
+            { sp: "明華", zh: "如玉，妳看！雨停了。", py: "Rúyù, nǐ kàn! Yǔ tíng le.", vn: "Như Ngọc, bạn nhìn xem! Mưa tạnh rồi.", gender: "male" },
+            { sp: "如玉", zh: "太好了！謝謝你的傘，再見。", py: "Tài hǎo le! Xièxie nǐ de sǎn, zàijiàn.", vn: "Tuyệt quá! Cảm ơn chiếc ô của bạn, tạm biệt.", gender: "female" },
+            { sp: "明華", zh: "不客氣。小心慢走。", py: "Bú kèqì. Xiǎoxīn màn zǒu.", vn: "Không có gì. Cẩn thận đi chậm thôi nhé.", gender: "male" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "雨下得這麼大，妳怎麼沒帶 ____ 呢？", py: "Yǔ xià de zhème dà, nǐ zěnme méi dài ____ ne?", vn: "Mưa lớn thế này, sao bạn lại không mang ____ nhỉ?" },
+                options: [{ zh: "傘 (sǎn)", vn: "ô/dù" }, { zh: "衣服 (yīfú)", vn: "quần áo" }, { zh: "錢 (qián)", vn: "tiền" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "這裡每年夏天都有 ____ 。", py: "Zhèlǐ měi nián xiàtiān dōu yǒu ____ .", vn: "Ở đây mỗi năm mùa hè đều có ____ ." },
+                options: [{ zh: "下雪 (xiàxuě)", vn: "tuyết rơi" }, { zh: "颱風 (táifēng)", vn: "bão" }, { zh: "地震 (dìzhèn)", vn: "động đất" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "電視 ____ 說，這次的颱風會比上次的更大。", py: "Diànshì ____ shuō, zhè cì de táifēng huì bǐ shàng cì de gèng dà.", vn: "____ tivi nói, cơn bão lần này sẽ lớn hơn lần trước." },
+                options: [{ zh: "影片 (yǐngpiàn)", vn: "video" }, { zh: "節目 (jiémù)", vn: "chương trình" }, { zh: "新聞 (xīnwén)", vn: "tin tức" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 為什麼如玉今天沒帶傘？", py: "Wèishénme Rúyù jīntiān méi dài sǎn?", vn: "1. Tại sao hôm nay Như Ngọc không mang ô?" },
+                options: [
+                    { zh: "因為她沒有傘", vn: "Bởi vì cô ấy không có ô" },
+                    { zh: "因為她忘了帶", vn: "Bởi vì cô ấy quên mang" },
+                    { zh: "因為她不怕雨", vn: "Bởi vì cô ấy không sợ mưa" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 臺灣什麼時候常有颱風？", py: "Táiwān shénme shíhòu cháng yǒu táifēng?", vn: "2. Đài Loan thường có bão vào lúc nào?" },
+                options: [
+                    { zh: "夏天", vn: "Mùa hè" },
+                    { zh: "秋天", vn: "Mùa thu" },
+                    { zh: "冬天", vn: "Mùa đông" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "3. 關於這次的颱風，電視新聞怎麼說？", py: "Guānyú zhè cì de táifēng, diànshì xīnwén zěnme shuō?", vn: "3. Về cơn bão lần này, tin tức tivi nói như thế nào?" },
+                options: [
+                    { zh: "這次的颱風沒有上次的大", vn: "Cơn bão lần này không lớn bằng lần trước" },
+                    { zh: "這次的颱風會比上次的更大", vn: "Cơn bão lần này sẽ lớn hơn lần trước" },
+                    { zh: "這次不會有颱風", vn: "Lần này sẽ không có bão" }
+                ],
+                correct: 1
+            }
+        ]
+    },
+{
+        title: "Hội thoại 1: 我生病了 Tôi bị bệnh rồi",
+        lesson: "Bài 15",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "醫生", zh: "白小姐，妳哪裡不舒服？", py: "Bái xiǎojiě, nǐ nǎlǐ bù shūfú?", vn: "Cô Bạch, cô thấy khó chịu ở đâu?", gender: "male" },
+            { sp: "如玉", zh: "我一直流鼻水，頭很痛，胃口很差。什麼東西都不想吃。", py: "Wǒ yìzhí liú bíshuǐ, tóu hěn tòng, wèikǒu hěn chà. Shénme dōngxi dōu bù xiǎng chī.", vn: "Tôi cứ chảy nước mũi suốt, đầu rất đau, ăn uống rất kém. Chẳng muốn ăn thứ gì cả.", gender: "female" },
+            { sp: "醫生", zh: "大概多久了？", py: "Dàgài duōjiǔ le?", vn: "Khoảng bao lâu rồi?", gender: "male" },
+            { sp: "如玉", zh: "已經四、五天了。", py: "Yǐjīng sì, wǔ tiān le.", vn: "Đã 4, 5 ngày rồi.", gender: "female" },
+            { sp: "醫生", zh: "我看看妳的喉嚨。喉嚨有一點發炎。", py: "Wǒ kànkan nǐ de hóulóng. Hóulóng yǒu yìdiǎn fāyán.", vn: "Để tôi xem cổ họng của cô. Cổ họng có hơi viêm một chút.", gender: "male" },
+            { sp: "如玉", zh: "請問我生的是什麼病？", py: "Qǐngwèn wǒ shēng de shì shénme bìng?", vn: "Xin hỏi tôi mắc bệnh gì vậy?", gender: "female" },
+            { sp: "醫生", zh: "妳有一點發燒，是感冒，不過沒有什麼關係。", py: "Nǐ yǒu yìdiǎn fāshāo, shì gǎnmào, búguò méiyǒu shénme guānxi.", vn: "Cô bị sốt nhẹ, là cảm cúm, nhưng không sao đâu.", gender: "male" },
+            { sp: "如玉", zh: "請問我得吃藥嗎？", py: "Qǐngwèn wǒ děi chī yào ma?", vn: "Xin hỏi tôi có phải uống thuốc không?", gender: "female" },
+            { sp: "醫生", zh: "要，妳到藥局去拿藥。", py: "Yào, nǐ dào yàojú qù ná yào.", vn: "Có, cô đến hiệu thuốc để lấy thuốc.", gender: "male" },
+            { sp: "如玉", zh: "好的。請問我的病什麼時候會好？", py: "Hǎode. Qǐngwèn wǒ de bìng shénme shíhòu huì hǎo?", vn: "Vâng ạ. Xin hỏi bệnh của tôi khi nào sẽ khỏi?", gender: "female" },
+            { sp: "醫生", zh: "回去把藥吃了，多喝水，多休息，早一點睡覺，很快就會好。", py: "Huíqù bǎ yào chī le, duō hē shuǐ, duō xiūxí, zǎo yìdiǎn shuìjiào, hěn kuài jiù huì hǎo.", vn: "Về nhà uống thuốc, uống nhiều nước, nghỉ ngơi nhiều, ngủ sớm một chút, sẽ rất nhanh khỏi thôi.", gender: "male" },
+            { sp: "如玉", zh: "好的，謝謝您。", py: "Hǎode, xièxie nín.", vn: "Vâng ạ, cảm ơn bác sĩ.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "白小姐，妳哪裡不 ____ ？", py: "Bái xiǎojiě, nǐ nǎlǐ bù ____ ?", vn: "Cô Bạch, cô thấy khó ____ ở đâu?" },
+                options: [{ zh: "喜歡 (xǐhuān)", vn: "thích" }, { zh: "舒服 (shūfú)", vn: "chịu (thoải mái)" }, { zh: "高興 (gāoxìng)", vn: "vui vẻ" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我一直流鼻水，頭很痛，____ 很差。", py: "Wǒ yìzhí liú bíshuǐ, tóu hěn tòng, ____ hěn chà.", vn: "Tôi cứ chảy nước mũi suốt, đầu rất đau, ____ rất kém." },
+                options: [{ zh: "胃口 (wèikǒu)", vn: "khẩu vị/ăn uống" }, { zh: "天氣 (tiānqì)", vn: "thời tiết" }, { zh: "衣服 (yīfú)", vn: "quần áo" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "妳到 ____ 去拿藥。", py: "Nǐ dào ____ qù ná yào.", vn: "Cô đến ____ để lấy thuốc." },
+                options: [{ zh: "餐廳 (cāntīng)", vn: "nhà hàng" }, { zh: "學校 (xuéxiào)", vn: "trường học" }, { zh: "藥局 (yàojú)", vn: "hiệu thuốc" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 如玉怎麼了？生了什麼病？", py: "Rúyù zěnme le? Shēng le shénme bìng?", vn: "1. Như Ngọc sao vậy? Mắc bệnh gì?" },
+                options: [
+                    { zh: "她有一點發燒，是感冒", vn: "Cô ấy bị sốt nhẹ, là cảm cúm" },
+                    { zh: "她肚子痛", vn: "Cô ấy bị đau bụng" },
+                    { zh: "她腳很痛", vn: "Chân cô ấy rất đau" }
+                ],
+                correct: 0
+            },
+            {
+                question: { zh: "2. 醫生說如玉的喉嚨怎麼樣？", py: "Yīshēng shuō Rúyù de hóulóng zěnmeyàng?", vn: "2. Bác sĩ nói cổ họng của Như Ngọc thế nào?" },
+                options: [
+                    { zh: "沒有發炎", vn: "Không bị viêm" },
+                    { zh: "有一點發炎", vn: "Hơi viêm một chút" },
+                    { zh: "很健康", vn: "Rất khỏe mạnh" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 醫生叫如玉回家以後做什麼？", py: "Yīshēng jiào Rúyù huíjiā yǐhòu zuò shénme?", vn: "3. Bác sĩ dặn Như Ngọc sau khi về nhà làm gì?" },
+                options: [
+                    { zh: "去運動", vn: "Đi vận động" },
+                    { zh: "看電視", vn: "Xem tivi" },
+                    { zh: "多喝水，多休息", vn: "Uống nhiều nước, nghỉ ngơi nhiều" }
+                ],
+                correct: 2
+            }
+        ]
+    },
+    {
+        title: "Hội thoại 2: 去看醫生 Đi khám bệnh",
+        lesson: "Bài 15",
+        level: "TOCFL Band A",
+        content: [
+            { sp: "如玉", zh: "你怎麼了？臉色這麼難看。", py: "Nǐ zěnme le? Liǎnsè zhème nánkàn.", vn: "Bạn sao vậy? Sắc mặt khó coi thế này.", gender: "female" },
+            { sp: "安同", zh: "昨天晚上肚子很不舒服，吃了東西就吐，還吐了好幾次。", py: "Zuótiān wǎnshàng dùzi hěn bù shūfú, chī le dōngxi jiù tù, hái tù le hǎo jǐ cì.", vn: "Tối qua bụng rất khó chịu, ăn đồ vào là nôn, còn nôn mấy lần liền.", gender: "male" },
+            { sp: "如玉", zh: "你這麼不舒服，我陪去看病，好不好？", py: "Nǐ zhème bù shūfú, wǒ péi nǐ qù kànbìng, hǎo bù hǎo?", vn: "Bạn khó chịu như vậy, tôi đưa bạn đi khám bệnh, được không?", gender: "female" },
+            { sp: "安同", zh: "不用了。我在臺灣沒有健康保險。", py: "Bú yòng le. Wǒ zài Táiwān méiyǒu jiànkāng bǎoxiǎn.", vn: "Không cần đâu. Tôi không có bảo hiểm y tế ở Đài Loan.", gender: "male" },
+            { sp: "如玉", zh: "那麼，我陪你去學校的健康中心。那裡的醫生很好，對學生也很客氣。", py: "Nàme, wǒ péi nǐ qù xuéxiào de jiànkāng zhōngxīn. Nàlǐ de yīshēng hěn hǎo, duì xuéshēng yě hěn kèqì.", vn: "Vậy thì, tôi đưa bạn đến trung tâm y tế của trường. Bác sĩ ở đó rất tốt, đối với học sinh cũng rất lịch sự.", gender: "female" },
+            { sp: "安同", zh: "謝謝妳。我想去藥局買藥就好了。", py: "Xièxie nǐ. Wǒ xiǎng qù yàojú mǎi yào jiù hǎo le.", vn: "Cảm ơn bạn. Tôi muốn đi hiệu thuốc mua thuốc là được rồi.", gender: "male" },
+            { sp: "如玉", zh: "你真的不去看病嗎？", py: "Nǐ zhēnde bú qù kànbìng ma?", vn: "Bạn thật sự không đi khám bệnh sao?", gender: "female" },
+            { sp: "安同", zh: "我想回家休息。請妳跟老師說，我生病了，不能上課。", py: "Wǒ xiǎng huíjiā xiūxí. Qǐng nǐ gēn lǎoshī shuō, wǒ shēngbìng le, bù néng shàngkè.", vn: "Tôi muốn về nhà nghỉ ngơi. Nhờ bạn nói với thầy giáo, tôi bị ốm rồi, không thể lên lớp.", gender: "male" },
+            { sp: "如玉", zh: "好。你自己要多小心。油的、冰的東西最好都別吃。", py: "Hǎo. Nǐ zìjǐ yào duō xiǎoxīn. Yóu de, bīng de dōngxi zuìhǎo dōu bié chī.", vn: "Được. Bạn tự mình phải cẩn thận nhiều nhé. Đồ nhiều dầu mỡ, đồ lạnh tốt nhất đều đừng ăn.", gender: "female" },
+            { sp: "安同", zh: "謝謝妳的關心。", py: "Xièxie nǐ de guānxīn.", vn: "Cảm ơn sự quan tâm của bạn.", gender: "male" },
+            { sp: "如玉", zh: "我來看你了。現在覺得怎麼樣？好一點了嗎？", py: "Wǒ lái kàn nǐ le. Xiànzài juéde zěnmeyàng? Hǎo yìdiǎn le ma?", vn: "(Sau khi tan học) Tôi đến thăm bạn rồi này. Bây giờ thấy thế nào rồi? Đỡ hơn chút nào chưa?", gender: "female" },
+            { sp: "安同", zh: "謝謝妳，好多了。我吃了一包藥以後，睡得比昨天好。", py: "Xièxie nǐ, hǎo duō le. Wǒ chī le yì bāo yào yǐhòu, shuì de bǐ zuótiān hǎo.", vn: "Cảm ơn bạn, đỡ nhiều rồi. Sau khi tôi uống một gói thuốc, ngủ ngon hơn hôm qua.", gender: "male" },
+            { sp: "如玉", zh: "不錯。你睡了幾個小時的覺以後，現在臉色比早上好得多了。", py: "Búcuò. Nǐ shuì le jǐ ge xiǎoshí de jiào yǐhòu, xiànzài liǎnsè bǐ zǎoshàng hǎo de duō le.", vn: "Rất tốt. Sau khi bạn ngủ được vài tiếng, bây giờ sắc mặt đã tốt hơn buổi sáng rất nhiều rồi.", gender: "female" }
+        ],
+        clozes: [
+            {
+                sentence: { zh: "昨天晚上 ____ 很不舒服，吃了東西就吐。", py: "Zuótiān wǎnshàng ____ hěn bù shūfú, chī le dōngxi jiù tù.", vn: "Tối qua ____ rất khó chịu, ăn đồ vào là nôn." },
+                options: [{ zh: "頭 (tóu)", vn: "đầu" }, { zh: "肚子 (dùzi)", vn: "bụng" }, { zh: "腳 (jiǎo)", vn: "chân" }],
+                correct: 1
+            },
+            {
+                sentence: { zh: "我在臺灣沒有健康 ____ 。", py: "Wǒ zài Táiwān méiyǒu jiànkāng ____ .", vn: "Tôi không có ____ y tế ở Đài Loan." },
+                options: [{ zh: "保險 (bǎoxiǎn)", vn: "bảo hiểm" }, { zh: "中心 (zhōngxīn)", vn: "trung tâm" }, { zh: "醫院 (yīyuàn)", vn: "bệnh viện" }],
+                correct: 0
+            },
+            {
+                sentence: { zh: "油的、冰的東西最好都 ____ 吃。", py: "Yóu de, bīng de dōngxi zuìhǎo dōu ____ chī.", vn: "Đồ nhiều dầu mỡ, đồ lạnh tốt nhất đều ____ ăn." },
+                options: [{ zh: "多 (duō)", vn: "nhiều" }, { zh: "沒 (méi)", vn: "chưa/không" }, { zh: "別 (bié)", vn: "đừng" }],
+                correct: 2
+            }
+        ],
+        quizzes: [
+            {
+                question: { zh: "1. 為什麼安同不想去看病？", py: "Wèishénme Āntóng bù xiǎng qù kànbìng?", vn: "1. Tại sao An Đồng không muốn đi khám bệnh?" },
+                options: [
+                    { zh: "因為他沒有時間", vn: "Bởi vì anh ấy không có thời gian" },
+                    { zh: "因為他在臺灣沒有健康保險", vn: "Bởi vì anh ấy không có bảo hiểm y tế ở Đài Loan" },
+                    { zh: "因為他不喜歡醫生", vn: "Bởi vì anh ấy không thích bác sĩ" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "2. 如玉請安同別吃什麼東西？", py: "Rúyù qǐng Āntóng bié chī shénme dōngxi?", vn: "2. Như Ngọc bảo An Đồng đừng ăn đồ gì?" },
+                options: [
+                    { zh: "甜的東西", vn: "Đồ ngọt" },
+                    { zh: "油的、冰的東西", vn: "Đồ nhiều dầu mỡ, đồ lạnh" },
+                    { zh: "辣的東西", vn: "Đồ cay" }
+                ],
+                correct: 1
+            },
+            {
+                question: { zh: "3. 安同吃藥以後覺得怎麼樣？", py: "Āntóng chī yào yǐhòu juéde zěnmeyàng?", vn: "3. An Đồng sau khi uống thuốc cảm thấy thế nào?" },
+                options: [
+                    { zh: "他吐了好幾次", vn: "Anh ấy nôn mấy lần liền" },
+                    { zh: "他覺得頭痛", vn: "Anh ấy cảm thấy đau đầu" },
+                    { zh: "他睡得比昨天好", vn: "Anh ấy ngủ ngon hơn hôm qua" }
                 ],
                 correct: 2
             }
