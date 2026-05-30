@@ -3040,7 +3040,7 @@ const dictionaryData = [
       { tc: "週末我喜歡在家做飯。", py: "Zhōumò wǒ xǐhuān zài jiā zuòfàn.", vn: "Cuối tuần tôi thích ở nhà nấu ăn." },
       { tc: "你會不會做飯？", py: "Nǐ huì bú huì zuòfàn?", vn: "Bạn có biết nấu ăn không?" }
     ],
-    idiom: "巧婦難為無米之炊 (Qiǎo fù nán wéi wú mǐ zhī chuī) - Vợ đảm khó nấu cơm không gạo.", level: "TOCFL A"
+    idiom: "巧婦難為無米之炊 (Qiǎo fù nán wéi wú mǐ zhī chuī) - Không có bột sao gột nên hồ.", level: "TOCFL A"
   },
   {
     word: "得", pinyin: "de", ipa: "tɤ", hanViet: "Đắc",
@@ -5766,6 +5766,3089 @@ const dictionaryData = [
       { tc: "這些衣服是誰的？", py: "Zhèxiē yīfú shì shéi de?", vn: "Những bộ quần áo này là của ai?" }
     ],
     idiom: "無 (Đại từ thông dụng).", level: "TOCFL A"
+  },
+// =========================================================================
+  // --- TỪ VỰNG BÀI 11 - GIÁO TRÌNH ĐƯƠNG ĐẠI 1 (BẢN CHUẨN CHỮ HÁN PHỒN THỂ) ---
+  // =========================================================================
+{
+    word: "租", pinyin: "zū", hanViet: "Tô",
+    image: "",
+    radical: "Bộ Hòa (禾) ghép với chữ Thả (且). Ý nghĩa gốc là nộp thuế bằng lúa gạo.",
+    explanation: "Động từ: Thuê, cho thuê (nhà cửa, xe cộ).",
+    compounds: [
+      { tc: "房租", py: "fángzū", vn: "tiền thuê nhà" },
+      { tc: "租房", py: "zūfáng", vn: "thuê nhà" },
+      { tc: "出租車", py: "chūzūchē", vn: "xe taxi" }
+    ],
+    examples: [
+      { tc: "我打算租一個房子。", py: "Wǒ dǎsuàn zū yí gè fángzi.", vn: "Tôi dự định thuê một căn nhà." },
+      { tc: "你要租套房還是普通房間？", py: "Nǐ yào zū tàofáng háishì pǔtōng fángjiān?", vn: "Bạn muốn thuê phòng khép kín hay phòng thường?" },
+      { tc: "這個房子一個月租多少錢？", py: "Zhè gè fángzi yí ge yuè zū duōshǎo qián?", vn: "Căn nhà này một tháng cho thuê bao nhiêu tiền?" }
+    ],
+    idiom: "無 (Từ vựng cơ bản).", level: "TOCFL A"
+  },
+  {
+    word: "房東", pinyin: "fángdōng", hanViet: "Phòng đông",
+    image: "",
+    radical: "房 (Bộ Hộ 戶), 東 (Bộ Mộc 木). Thời xưa chủ nhà thường ngồi ở hướng Đông để tiếp khách.",
+    explanation: "Danh từ: Chủ nhà (cho thuê).",
+    compounds: [
+      { tc: "東家", py: "dōngjiā", vn: "chủ nhân / ông chủ" },
+      { tc: "房客", py: "fángkè", vn: "khách thuê nhà" }
+    ],
+    examples: [
+      { tc: "房東先生很客氣，還請我喝茶。", py: "Fángdōng xiānshēng hěn kèqì, hái qǐng wǒ hē chá.", vn: "Ông chủ nhà rất lịch sự, còn mời tôi uống trà." },
+      { tc: "我得打電話給房東。", py: "Wǒ děi dǎ diànhuà gěi fángdōng.", vn: "Tôi phải gọi điện thoại cho chủ nhà." },
+      { tc: "房東說明天下午兩點到。", py: "Fángdōng shuō míngtiān xiàwǔ liǎng diǎn dào.", vn: "Chủ nhà nói chiều mai hai giờ đến." }
+    ],
+    idiom: "反客為主 (Fǎn kè wéi zhǔ) - Khách lấn quyền chủ.", level: "TOCFL A"
+  },
+  {
+    word: "客廳", pinyin: "kètīng", hanViet: "Khách sảnh",
+    image: "",
+    radical: "客 (Bộ Miên 宀), 廳 (Bộ Nghiễm 广 - mái nhà rộng).",
+    explanation: "Danh từ: Phòng khách.",
+    compounds: [
+      { tc: "飯廳", py: "fàntīng", vn: "phòng ăn" },
+      { tc: "大廳", py: "dàtīng", vn: "đại sảnh" }
+    ],
+    examples: [
+      { tc: "這棟房子的客廳又大又漂亮。", py: "Zhè dòng fángzi de kètīng yòu dà yòu piàoliang.", vn: "Phòng khách của căn nhà này vừa rộng vừa đẹp." },
+      { tc: "大家都在客廳看電視呢。", py: "Dàjiā dōu zài kètīng kàn diànshì ne.", vn: "Mọi người đều đang ngồi xem tivi ở phòng khách." },
+      { tc: "請進客廳坐一下。", py: "Qǐng jìn kètīng zuò yíxià.", vn: "Xin mời vào phòng khách ngồi nghỉ một lát." }
+    ],
+    idiom: "廣廈大廳 (Guǎng shà dà tīng) - Nhà cao cửa rộng.", level: "TOCFL A"
+  },
+  {
+    word: "廚房", pinyin: "chúfáng", hanViet: "Trù phòng",
+    image: "",
+    radical: "廚 (Bộ Nghiễm 广), 房 (Bộ Hộ 戶).",
+    explanation: "Danh từ: Nhà bếp, phòng bếp.",
+    compounds: [
+      { tc: "下廚", py: "xiàchú", vn: "vào bếp nấu ăn" },
+      { tc: "廚師", py: "chúshī", vn: "đầu bếp" }
+    ],
+    examples: [
+      { tc: "我媽媽在廚房做飯呢。", py: "Wǒ māma zài chúfáng zuòfàn ne.", vn: "Mẹ tôi đang nấu cơm ở trong bếp." },
+      { tc: "廚房在客廳的左邊。", py: "Chúfáng zài kètīng de zuǒbiān.", vn: "Nhà bếp ở bên trái phòng khách." },
+      { tc: "這家廚房很乾淨。", py: "Zhè jiā chúfáng hěn gānjìng.", vn: "Nhà bếp này rất sạch sẽ." }
+    ],
+    idiom: "巧婦難為無米之炊 (Qiǎo fù nán wéi wú mǐ zhī chuī) - Vợ đảm khó nấu cơm không gạo.", level: "TOCFL A"
+  },
+  {
+    word: "左邊", pinyin: "zuǒbiān", hanViet: "Tả biên",
+    image: "",
+    radical: "左 (Bộ Công 工), 邊 (Bộ Sước 辶).",
+    explanation: "Danh từ chỉ phương vị: Bên trái.",
+    compounds: [
+      { tc: "左手", py: "zuǒshǒu", vn: "tay trái" },
+      { tc: "左右", py: "zuǒyòu", vn: "khoảng chừng / xung quanh" }
+    ],
+    examples: [
+      { tc: "學校在銀行的左邊。", py: "Xuéxiào zài yínháng de zuǒbiān.", vn: "Trường học ở bên trái của ngân hàng." },
+      { tc: "請往左邊走。", py: "Qǐng wǎng zuǒbiān zǒu.", vn: "Hãy đi về bên trái." },
+      { tc: "左邊時圖書館，右邊是教室。", py: "Zuǒbiān shì túshūguǎn, yòubiān shì jiàoshì.", vn: "Bên trái là thư viện, bên phải là phòng học." }
+    ],
+    idiom: "左顧右盼 (Zuǒ gù yòu pàn) - Nhìn đông ngó tây / Nhìn trái ngó phải.", level: "TOCFL A"
+  },
+  {
+    word: "右邊", pinyin: "yòubiān", hanViet: "Hữu biên",
+    image: "",
+    radical: "右 (Bộ Khẩu 口), 邊 (Bộ Sước 辶).",
+    explanation: "Danh từ chỉ phương vị: Bên phải.",
+    compounds: [
+      { tc: "右手", py: "yòushǒu", vn: "tay phả" },
+      { tc: "左右", py: "zuǒyòu", vn: "khoảng chừng" }
+    ],
+    examples: [
+      { tc: "便利商店就在捷運站的右邊。", py: "Biànlì shāngdiàn jiù zài jiéyùn zhàn de yòubiān.", vn: "Cửa hàng tiện lợi nằm ngay ở bên phải trạm tàu điện ngầm." },
+      { tc: "右邊有一間套房浴室。", py: "Yòubiān yǒu yí jiān tàofáng yùshì.", vn: "Bên phải phòng khách có một phòng tắm khép kín." },
+      { tc: "寫字應該用右手。", py: "Xiě zì yīnggāi yòng yòushǒu.", vn: "Viết chữ thì nên dùng tay phải." }
+    ],
+    idiom: "左右逢源 (Zuǒ yòu féng yuán) - Gặp nguồn bên trái bên phải (Làm việc thuận lợi, suôn sẻ).", level: "TOCFL A"
+  },
+  {
+    word: "浴室", pinyin: "yùshì", hanViet: "Dục thất",
+    image: "",
+    radical: "浴 (Bộ Thủy 氵 liên quan đến nước), 室 (Bộ Miên 宀).",
+    explanation: "Danh từ: Phòng tắm, nhà tắm.",
+    compounds: [
+      { tc: "洗澡", py: "xǐzhǎo", vn: "tắm rửa" },
+      { tc: "教室", py: "jiàoshì", vn: "phòng học" }
+    ],
+    examples: [
+      { tc: "我想去浴室洗澡一下。", py: "Wǒ xiǎng qù yùshì xǐzhǎo yíxià.", vn: "Tôi muốn đi vào phòng tắm tắm rửa một chút." },
+      { tc: "這棟房子的浴室非常乾淨。", py: "Zhè dòng fángzi de yùshì fēicháng gānjìng.", vn: "Phòng tắm của căn hộ này vô cùng sạch sẽ." },
+      { tc: "浴室裡面有熱水器嗎？", py: "Yùshì lǐmiàn yǒu rèshuǐqì ma?", vn: "Trong phòng tắm có bình nóng lạnh không?" }
+    ],
+    idiom: "無 (Từ vựng thông dụng).", level: "TOCFL A"
+  },
+  {
+    word: "超市", pinyin: "chāoshì", hanViet: "Siêu thị",
+    image: "",
+    radical: "超 (Bộ Tẩu 走), 市 (Bộ Cân 巾). Viết tắt của 超級市場.",
+    explanation: "Danh từ: Siêu thị.",
+    compounds: [
+      { tc: "市場", py: "shìchǎng", vn: "chợ / thị trường" },
+      { tc: "夜市", py: "yèshì", vn: "chợ đêm" },
+      { tc: "超級", py: "chāojí", vn: "siêu cấp / cực kỳ" }
+    ],
+    examples: [
+      { tc: "我家附近有一家大超市，買東西很方便。", py: "Wǒ jiā fùjìn yǒu yì jiā dà chāoshì, mǎi dōngxi hěn fāngbiàn.", vn: "Nhà tôi gần đây có một cái siêu thị lớn, mua đồ rất tiện." },
+      { tc: "下午你想跟我去超市嗎？", py: "Xiàwǔ nǐ xiǎng gēn wǒ qù chāoshì ma?", vn: "Chiều nay bạn có muốn cùng tôi đi siêu thị không?" },
+      { tc: "超市的東西比市場貴一點。", py: "Chāoshì de dōngxi bǐ shìchǎng guì yìdiǎn.", vn: "Đồ ăn ở siêu thị đắt hơn ở chợ một chút." }
+    ],
+    idiom: "門庭若市 (Mén tíng ruò shì) - Người đến tấp nập như chợ phiên.", level: "TOCFL A"
+  },
+  {
+    word: "走路", pinyin: "zǒulù", hanViet: "Tẩu lộ",
+    image: "",
+    radical: "走 (Bộ Tẩu 走 - đi), 路 (Bộ Túc 足 - liên quan đến chân).",
+    explanation: "Động từ (ly hợp): Đi bộ, đi dạo bước.",
+    compounds: [
+      { tc: "馬路", py: "mǎlù", vn: "đường lớn / đường sá" },
+      { tc: "走路去", py: "zǒulù qù", vn: "đi bộ đi" }
+    ],
+    examples: [
+      { tc: "從學校走路到捷運站只需五分鐘。", py: "Cóng xuéxiào zǒulù dào jiéyùn zhàn zhǐ xū wǔ fēnzhōng.", vn: "Từ trường học đi bộ đến trạm tàu điện ngầm chỉ mất 5 phút." },
+      { tc: "我不想坐計程車，我比較喜歡走路。", py: "Wǒ bù xiǎng zuò jìchéngchē, wǒ bǐjiào xǐhuān zǒulù.", vn: "Tôi không muốn ngồi taxi, tôi thích đi bộ hơn." },
+      { tc: "走路對身體很好。", py: "Zǒulù duì shēntǐ hěn hǎo.", vn: "Đi bộ rất tốt cho cơ thể." }
+    ],
+    idiom: "走馬看花 (Zǒu mǎ kàn huā) - Cưỡi ngựa xem hoa.", level: "TOCFL A"
+  },
+  {
+    word: "分鐘", pinyin: "fênzhōng", hanViet: "Phân chung",
+    image: "",
+    radical: "分 (Bộ Đao 刀), 鐘 (Bộ Kim 金).",
+    explanation: "Lượng từ: Phút (thời lượng đồng hồ).",
+    compounds: [
+      { tc: "鐘頭", py: "zhōngtóu", vn: "tiếng đồng hồ" },
+      { tc: "十分鐘", py: "shí fēnzhōng", vn: "10 phút" }
+    ],
+    examples: [
+      { tc: "請等我十分鐘，我馬上來。", py: "Qǐng děng wǒ shí fēnzhōng, wǒ mǎshàng lái.", vn: "Xin hãy đợi tôi mười phút, tôi đến ngay lập tức." },
+      { tc: "籃球比賽還有兩分鐘就結束了。", py: "Lánqiú bǐsài hái yǒu liǎng fēnzhōng jiù jiéshù le.", vn: "Trận đấu bóng rổ còn 2 phút nữa là kết thúc." },
+      { tc: "每天走路三十分鐘很好。", py: "Měitiān zǒulù sānshí fēnzhōng hěn hǎo.", vn: "Mỗi ngày đi bộ 30 phút rất tốt." }
+    ],
+    idiom: "一分一秒 (Yì fēn yì miǎo) - Từng phút từng giây.", level: "TOCFL A"
+  },
+  {
+    word: "就", pinyin: "jiù", hanViet: "Tựu",
+    image: "",
+    radical: "Bộ Uông (尢). Biểu thị hành động diễn ra nhanh chóng hoặc nhấn mạnh.",
+    explanation: "Phó từ: Liền, ngay, chính là (chỉ sự việc diễn ra thuận lợi, nhanh chóng).",
+    compounds: [
+      { tc: "就是", py: "jiùshì", vn: "chính là / vâng đúng" },
+      { tc: "成就", py: "chéngjiù", vn: "thành tựu" }
+    ],
+    examples: [
+      { tc: "走路五分鐘就到了。", py: "Zǒulù wǔ fēnzhōng jiù dào le.", vn: "Đi bộ 5 phút là đến ngay rồi." },
+      { tc: "你有空就來找我玩吧。", py: "Nǐ yǒu kòng jiù lái zhǎo wǒ wán ba.", vn: "Bạn rảnh một cái là liền đến tìm tôi chơi nhé." },
+      { tc: "吃飯後我就去寫功課。", py: "Chīfàn hòu wǒ jiù qù xiě gōngkè.", vn: "Ăn cơm xong tôi liền đi viết bài tập luôn." }
+    ],
+    idiom: "一蹴而就 (Yí cù ér jiù) - Một bước thành công, dễ dàng đạt được.", level: "TOCFL A"
+  },
+  {
+    word: "到", pinyin: "dào", hanViet: "Đáo",
+    image: "",
+    radical: "Bộ Đao (刂). Biểu thị hành động đạt tới đích.",
+    explanation: "Động từ / Bổ ngữ: Đến, tới nơi.",
+    compounds: [
+      { tc: "到了", py: "dào le", vn: "đến rồi" },
+      { tc: "遲到", py: "chídào", vn: "đến muộn" },
+      { tc: "收到", py: "shōudào", vn: "nhận được" }
+    ],
+    examples: [
+      { tc: "我到火車站了。", py: "Wǒ dào huǒchē zhàn le.", vn: "Tôi đến ga tàu hỏa rồi." },
+      { tc: "從台北到台南要多久？", py: "Cóng Táiběi dào Táinán yào duō jiǔ?", vn: "Từ Đài Bắc đến Đài Nam tốn bao lâu?" },
+      { tc: "你收到我的房租了嗎？", py: "Nǐ shōudào wǒ de fángzū le ma?", vn: "Bạn nhận được tiền thuê nhà tôi gửi chưa?" }
+    ],
+    idiom: "面面俱到 (Miàn miàn jù dào) - Chu toàn mọi mặt, chu đáo.", level: "TOCFL A"
+  },
+  {
+    word: "間", pinyin: "jiān", hanViet: "Gian",
+    image: "",
+    radical: "Bộ Môn (門) bên ngoài, chữ Nhật (日) bên trong. Ánh mặt trời lọt qua khe cửa.",
+    explanation: "Lượng từ: Căn, gian, phòng (dùng cho phòng ốc, nhà cửa, trường học).",
+    compounds: [
+      { tc: "房間", py: "fángjiān", vn: "căn phòng" },
+      { tc: "中間", py: "zhōngjiān", vn: "ở giữa" },
+      { tc: "時間", py: "shíjiān", vn: "thời gian" }
+    ],
+    examples: [
+      { tc: "這棟房子還有兩間空房間。", py: "Zhè dòng fángzi hái yǒu liǎng jiān kōng fángjiān.", vn: "Căn nhà này vẫn còn hai phòng trống." },
+      { tc: "我想租一間套房。", py: "Wǒ xiǎng zū yì jiān tàofáng.", vn: "Tôi muốn thuê một căn phòng khép kín." },
+      { tc: "學校有多少間教室？", py: "Xuéxiào yǒu jǐ jiān jiàoshì?", vn: "Trường học có bao nhiêu căn phòng học?" }
+    ],
+    idiom: "親密無間 (Qīn mì wú jiān) - Thân mật không khoảng cách, khăng khít.", level: "TOCFL A"
+  },
+  {
+    word: "空", pinyin: "kōng", hanViet: "Không",
+    image: "",
+    radical: "Bộ Huyệt (穴 - cái hang trống rỗng) che trên chữ Công (工).",
+    explanation: "Tính từ: Trống, trống rỗng, không có người.",
+    compounds: [
+      { tc: "空房間", py: "kōng fángjiān", vn: "phòng trống" },
+      { tc: "有空", py: "yǒu kòng", vn: "rảnh rỗi (đọc thanh 4)" },
+      { tc: "天空", py: "tiānkōng", vn: "bầu trời" }
+    ],
+    examples: [
+      { tc: "有空房間嗎？我想看房。", py: "Y修 kōng fángjiān ma? Wǒ xiǎng kàn fáng.", vn: "Có phòng trống nào không? Tôi muốn xem nhà." },
+      { tc: "這個杯子是空的，沒有水。", py: "Zhège bēizi shì kōng de, méiyǒu shuǐ.", vn: "Cái cốc này trống rỗng, không có nước." },
+      { tc: "這個週末你有空去玩嗎？", py: "Zhège zhōumò nǐ yǒu kòng qù wán ma?", vn: "Cuối tuần này bạn có rảnh đi chơi không?" }
+    ],
+    idiom: "空空如也 (Kōng kōng rú yě) - Trống rỗng hoàn toàn, chẳng có gì.", level: "TOCFL A"
+  },
+  {
+    word: "房間", pinyin: "fángjiān", hanViet: "Phòng gian",
+    image: "",
+    radical: "房 (Bộ Hộ 戶), 間 (Bộ Môn 門).",
+    explanation: "Danh từ: Căn phòng, phòng.",
+    compounds: [
+      { tc: "套房", py: "tàofáng", vn: "phòng khép kín" },
+      { tc: "找房間", py: "zhǎo fángjiān", vn: "tìm phòng" }
+    ],
+    examples: [
+      { tc: "這間房間很乾淨，很舒服。", py: "Zhè jiān fángjiān hěn gānjìng, hěn shūfú.", vn: "Căn phòng này rất sạch sẽ và dễ chịu." },
+      { tc: "房間裡面可以上網嗎？", py: "Fángjiān lǐmiàn kěyǐ shàngwǎng ma?", vn: "Bên trong phòng có thể lên mạng được không?" },
+      { tc: "我想換一間比較大的房間。", py: "Wǒ xiǎng huàn yì jiān bǐjiào dà de fángjiān.", vn: "Tôi muốn đổi một căn phòng lớn hơn." }
+    ],
+    idiom: "無 (Từ vựng căn bản).", level: "TOCFL A"
+  },
+  {
+    word: "套房", pinyin: "tàofáng", hanViet: "Sáo phòng",
+    image: "",
+    radical: "套 (Bộ Đại 大 che trên bộ Trường 長), 房 (Bộ Hộ 戶).",
+    explanation: "Danh từ: Phòng khép kín (căn phòng có nhà vệ sinh/phòng tắm riêng tư bên trong).",
+    compounds: [
+      { tc: "一套衣服", py: "yí tào yīfú", vn: "một bộ quần áo" },
+      { tc: "雅房", py: "yǎfáng", vn: "phòng thường (dùng chung toilet)" }
+    ],
+    examples: [
+      { tc: "在台灣，學生很喜歡租套房。", py: "Zài Táiwān, xuéshēng hěn xǐhuān zū tàofáng.", vn: "Ở Đại Loan, sinh viên rất thích thuê phòng khép kín." },
+      { tc: "租套房比雅房貴一點。", py: "Zū tàofáng bǐ yǎfáng guì yìdiǎn.", vn: "Thuê phòng khép kín đắt hơn phòng thường một chút." },
+      { tc: "這間套房的窗戶很大。", py: "Zhè jiān tàofáng de chuānghù hěn dà.", vn: "Căn phòng khép kín này có cửa sổ rất to." }
+    ],
+    idiom: "無.", level: "TOCFL A"
+  },
+  {
+    word: "回去", pinyin: "huíqù", hanViet: "Hồi khứ",
+    image: "",
+    radical: "回 (Bộ Vi 囗), 去 (Bộ Tư 厶). Hành động đi ngược hướng rời xa người nói.",
+    explanation: "Động từ: Trở về, đi về.",
+    compounds: [
+      { tc: "回家", py: "huíjiā", vn: "về nhà" },
+      { tc: "回來", py: "huílái", vn: "trở lại đây" }
+    ],
+    examples: [
+      { tc: "我回去想想，再打電話給你。", py: "Wǒ huíqù xiǎng xiǎng, zài dǎ diànhuà gěi nǐ.", vn: "Tôi về suy nghĩ xong rồi mới gọi điện thoại cho ông." },
+      { tc: "太晚了，我們快回去吧。", py: "Tài wǎn le, wǒmen kuài huíqù ba.", vn: "Muộn quá rồi, chúng ta mau đi về nhà thôi." },
+      { tc: "下個月你打算什麼時候回去呢？", py: "Xià ge yuè nǐ dǎsuàn shénme shíhòu huíqù ne?", vn: "Tháng sau bạn dự định khi nào đi về nước?" }
+    ],
+    idiom: "滿載而歸 (Mǎn zài ér guī) - Chở đầy thành quả trở về.", level: "TOCFL A"
+  },
+  {
+    word: "想", pinyin: "xiǎng", hanViet: "Tưởng",
+    image: "",
+    radical: "Bộ Tương (相) chỉ âm che trên bộ Tâm (心) chỉ ý nghĩa suy nghĩ từ lòng.",
+    explanation: "Động từ năng nguyện: Muốn, nghĩ, nhớ.",
+    compounds: [
+      { tc: "想法", py: "xiǎngfǎ", vn: "cách nghĩ / ý kiến" },
+      { tc: "想家", py: "xiǎngjiā", vn: "nhớ nhà" },
+      { tc: "想想", py: "編xiǎngxiǎng", vn: "suy nghĩ xem" }
+    ],
+    examples: [
+      { tc: "我想租學校附近的套房。", py: "Wǒ xiǎng zū xuéxiào fùjìn de tàofáng.", vn: "Tôi muốn thuê phòng khép kín gần trường học." },
+      { tc: "我在台灣住半年了，有一點想家。", py: "Wǒ zài Táiwān zhù bàn nián le, yǒu yìdiǎn xiǎngjiā.", vn: "Tôi ở Đài Loan nửa năm rồi, hơi nhớ nhà một chút." },
+      { tc: "請讓我想想怎麼走。", py: "Qǐng ràng wǒ xiǎng xiǎng zěnme zǒu.", vn: "Hãy để tôi nghĩ thử xem đường đi thế nào." }
+    ],
+    idiom: "朝思暮想 (Zhāo sī mù xiǎng) - Đêm ngày mong nhớ, ngày nhớ đêm mong.", level: "TOCFL A"
+  },
+  {
+    word: "再", pinyin: "zài", hanViet: "Tái",
+    image: "",
+    radical: "Bộ Quynh (冂). Biểu thị hành động lặp lại ở tương lai hoặc thứ tự.",
+    explanation: "Phó từ: Rồi mới, lại, sau đó (thực hiện hành động tiếp theo sau khi xong việc trước).",
+    compounds: [
+      { tc: "再見", py: "zàijiàn", vn: "tạm biệt (gặp lại sau)" },
+      { tc: "再接再厲", py: "zàijī zàilì", vn: "tiếp tục cố gắng" }
+    ],
+    examples: [
+      { tc: "我回去想想，再打電話給你。", py: "Wǒ huíqù xiǎng xiǎng, zài dǎ diànhuà gěi nǐ.", vn: "Tôi về suy nghĩ xong rồi mới gọi điện thoại cho ông." },
+      { tc: "吃飯後我們再去看電影吧。", py: "Chīfàn hòu wǒmen zài qù kàn diànyǐng ba.", vn: "Ăn cơm xong rồi chúng ta mới đi xem phim nhé." },
+      { tc: "請你再說一次，慢一點。", py: "Qǐng nǐ zài shuō yí cì, màn yìdiǎn.", vn: "Xin hãy nói lại một lần nữa thật chậm." }
+    ],
+    idiom: "再接再厲 (Zài jiē zài lì) - Tiếp tục cố gắng bền bỉ, không ngừng nghỉ.", level: "TOCFL A"
+  },
+  {
+    word: "電話", pinyin: "diànhuà", hanViet: "Điện thoại",
+    image: "",
+    radical: "電 (Bộ Vũ 雨), 話 (Bộ Ngôn 言). Lời nói truyền đi bằng dòng điện.",
+    explanation: "Danh từ: Điện thoại, cuộc gọi.",
+    compounds: [
+      { tc: "打電話", py: "dǎ diànhuà", vn: "gọi điện thoại" },
+      { tc: "接電話", py: "jiē diànhuà", vn: "nghe điện thoại" },
+      { tc: "電話號碼", py: "diànhuà hàomǎ", vn: "số điện thoại" }
+    ],
+    examples: [
+      { tc: "房東的電話號碼是多少？", py: "Fángdōng de diànhuà hàomǎ神器 shì duōshǎo?", vn: "Số điện thoại của ông chủ nhà là bao nhiêu?" },
+      { tc: "請你接一下電話。", py: "Qǐng nǐ jiē yíxià diànhuà.", vn: "Xin vui lòng nghe điện thoại một lát giúp tôi." },
+      { tc: "有急事就給我打電話。", py: "Yǒu jíshì jiù gěi wǒ dǎ diànhuà.", vn: "Có việc gấp gì thì hãy gọi điện thoại cho tôi." }
+    ],
+    idiom: "無 (Từ vựng thiết yếu đời sống).", level: "TOCFL A"
+  },
+  {
+    word: "給", pinyin: "gěi", hanViet: "Cấp",
+    image: "",
+    radical: "Bộ Mịch (糸). Mang ý nghĩa ban phát, đưa cho.",
+    explanation: "Giới từ / Động từ: Cho, đưa cho (ai đó), cho ai.",
+    compounds: [
+      { tc: "給你", py: "gěi nǐ", vn: "cho bạn" },
+      { tc: "交給", py: "jiāogěi", vn: "giao cho" }
+    ],
+    examples: [
+      { tc: "我馬上打電話給你。", py: "Wǒ mǎshàng dǎ diànhuà gěi nǐ.", vn: "Tôi sẽ gọi điện thoại cho bạn ngay." },
+      { tc: "請幫我把菜單給王先生。", py: "Qǐng bāng wǒ bǎ càidān gěi Wáng xiānshēng.", vn: "Xin hãy đưa thực đơn này cho ông Vương." },
+      { tc: "父母每個個月都給我錢。", py: "Fùmǔ měi ge yuè dōu gěi wǒ qián.", vn: "Bố mẹ tháng nào cũng gửi tiền cho tôi." }
+    ],
+    idiom: "自給自足 (Zì jǐ zì zú) - Tự cung tự cấp, tự lực cánh sinh.", level: "TOCFL A"
+  },
+  {
+    word: "打電話", pinyin: "dǎ diànhuà", hanViet: "Đả điện thoại",
+    image: "",
+    radical: "打 (Bộ Thủ 扌), 電 (Bộ Vũ 雨), 話 (Bộ Ngôn 言).",
+    explanation: "Cụm động từ: Gọi điện thoại, quay số gọi đi.",
+    compounds: [
+      { tc: "打電話去", py: "dǎ diànhuà qù", vn: "gọi điện đi" },
+      { tc: "接電話", py: "jiē diànhuà", vn: "nhận cuộc gọi" }
+    ],
+    examples: [
+      { tc: "我一回家就給媽媽打電話。", py: "Wǒ yī huíjiā jiù gěi māma dǎ diànhuà.", vn: "Tôi vừa về nhà liền gọi điện thoại cho mẹ." },
+      { tc: "你想給房東打電話問問嗎？", py: "Nǐ xiǎng gěi fángdōng dǎ diànhuà wènwen ma?", vn: "Bạn có muốn gọi điện thoại cho chủ nhà hỏi thử không?" },
+      { tc: "上課的時候不能打電話。", py: "Shàngkè de shíhòu bùnéng dǎ diànhuà.", vn: "Trong giờ học nghiêm cấm gọi điện thoại giải trí." }
+    ],
+    idiom: "無 (Cụm từ thông dụng khẩu ngữ).", level: "TOCFL A"
+  },
+  {
+    word: "喂", pinyin: "wéi / wèi", hanViet: "Úy",
+    image: "",
+    radical: "Bộ Khẩu (口) biểu thị âm thanh phát ra từ miệng.",
+    explanation: "Trợ từ ngữ khí: Alo! (dùng khi bắt đầu nghe máy điện thoại).",
+    compounds: [
+      { tc: "喂你好", py: "wéi nǐ hǎo", vn: "alo xin chào" }
+    ],
+    examples: [
+      { tc: "喂，請問林先生在嗎？", py: "Wéi, qǐngwèn Lín xiānshēng zài ma?", vn: "Alo, xin hỏi ông Lâm có ở đây không ạ?" },
+      { tc: "喂，我在聽，你有事嗎？", py: "Wéi, wǒ zài tīng, nǐ yǒu shì ma?", vn: "Alo, tôi nghe đây, bạn có chuyện gì bận không?" },
+      { tc: "喂，網路不好，聽不清楚。", py: "Wéi, wǎnglù bù hǎo, tīng bù qīngchǔ.", vn: "Alo, tín hiệu mạng kém quá, nghe không rõ." }
+    ],
+    idiom: "無 (Từ ngữ khí gọi điện thoại).", level: "TOCFL A"
+  },
+  {
+    word: "房租", pinyin: "fángzū", hanViet: "Phòng tô",
+    image: "",
+    radical: "房 (Bộ Hộ 戶), 租 (Bộ Hòa 禾).",
+    explanation: "Danh từ: Tiền thuê nhà.",
+    compounds: [
+      { tc: "付房租", py: "fù fángzū", vn: "trả tiền thuê nhà" },
+      { tc: "收房租", py: "shōu fángzū", vn: "thu tiền thuê nhà" }
+    ],
+    examples: [
+      { tc: "你付這個月的房租了嗎？", py: "Nǐ fù zhège yuè de fángzū le ma?", vn: "Bạn đã đóng tiền thuê nhà tháng này chưa vậy?" },
+      { tc: "台北的房租比台南貴很多。", py: "Táiběi de fángzū bǐ Táinán guì hěnduō.", vn: "Tiền thuê nhà ở Đài Bắc đắt hơn Đài Nam rất nhiều." },
+      { tc: "房東讓我今天交房租。", py: "Fángdōng ràng wǒ jīntiān jiāo fángzū.", vn: "Chủ nhà bảo tôi hôm nay phải nộp tiền thuê nhà." }
+    ],
+    idiom: "無 (Từ vựng đời sống thuê nhà).", level: "TOCFL A"
+  },
+  {
+    word: "已經", pinyin: "yǐjīng", hanViet: "Dĩ kinh",
+    image: "",
+    radical: "以 (Bộ Nhân 亻 ẩn nét), 經 (Bộ Mịch 糸 - sợi chỉ/trải qua).",
+    explanation: "Phó từ: Đã... rồi (biểu thị hành động trạng thái đã hoàn thành xong).",
+    compounds: [
+      { tc: "經過", py: "jīngguò", vn: "trải qua / đi ngang qua" },
+      { tc: "經常", py: "jīngcháng", vn: "thường xuyên" }
+    ],
+    examples: [
+      { tc: "我已經收到你的房租了。", py: "Wǒ yǐjīng shōudào nǐ de fángzū le.", vn: "Tôi đã nhận được tiền thuê nhà bạn chuyển khoản rồi." },
+      { tc: "現在已經晚上十點了，快睡吧。", py: "Xiànzài yǐjīng wǎnshàng shí diǎn le, kuài shuì ba.", vn: "Bây giờ đã mười giờ tối rồi, mau ngủ đi thôi." },
+      { tc: "哥哥已經在台灣學了一年中文了。", py: "Gēge yǐjīng zài Táiwān xué le yì nián Zhōngwén le.", vn: "Anh trai đã học tiếng Trung được một năm ở Đài Loan rồi." }
+    ],
+    idiom: "經驗豐富 (Jīngyàn fēngfù) - Kinh nghiệm phong phú.", level: "TOCFL A"
+  },
+  {
+    word: "習慣", pinyin: "xíguàn", hanViet: "Tập quán",
+    image: "",
+    radical: "習 (Bộ Vũ 羽 - đôi cánh lặp lại nhiều lần), 慣 (Bộ Tâm 忄 - thói quen in sâu vào tâm trí).",
+    explanation: "Động từ / Danh từ: Quen, thói quen, thích nghi (với môi trường, cuộc sống).",
+    compounds: [
+      { tc: "好習慣", py: "hǎo xíguàn", vn: "thói quen tốt" },
+      { tc: "不習慣", py: "bù xíguàn", vn: "không quen / chưa thích nghi" }
+    ],
+    examples: [
+      { tc: "你來台灣住習慣了嗎？", py: "Nǐ lái Táiwān zhù xíguàn le ma?", vn: "Bạn đến Đài Loan sống đã quen chưa?" },
+      { tc: "我已經習慣自己做飯了。", py: "Wǒ yǐjīng xíguàn zìjǐ zuòfàn le.", vn: "Tôi đã quen với việc tự mình nấu cơm ăn mỗi ngày." },
+      { tc: "早起學中文是很好的習慣。", py: "Zǎoqǐ xué Zhōngwén shì hěn hǎo de xíguàn.", vn: "Dậy sớm học tiếng Trung là một thói quen rất tốt." }
+    ],
+    idiom: "習以為常 (Xí yǐ wéi cháng) - Làm nhiều thành quen, coi là việc bình thường.", level: "TOCFL A"
+  },
+  {
+    word: "問題", pinyin: "wèntí", hanViet: "Vấn đề",
+    image: "",
+    radical: "問 (Bộ Khẩu 口 nằm trong bộ Môn 門), 題 (Bộ Hiệt 頁 - trang giấy/đầu đề).",
+    explanation: "Danh từ: Câu hỏi, vấn đề, trục trặc khuyết điểm.",
+    compounds: [
+      { tc: "沒問題", py: "méi wèntí", vn: "không có vấn đề gì / được thôi" },
+      { tc: "問問題", py: "wèn wèntí", vn: "hỏi câu hỏi" },
+      { tc: "有問題", py: "yǒu wèntí", vn: "có trục trặc / có câu hỏi" }
+    ],
+    examples: [
+      { tc: "老師，我有一個問題想問。", py: "Lǎobān, wǒ yǒu yí ge wèntí xiǎng wèn.", vn: "Thưa thầy, em có một câu hỏi muốn hỏi ạ." },
+      { tc: "這間房間的熱水器有問題。", py: "Zhè jiān fángjiān de rèshuǐqì yǒu wèntí.", vn: "Thiết bị bình nóng lạnh của căn phòng này có chút trục trặc." },
+      { tc: "幫你買咖啡嗎？沒問題！", py: "Bāng nǐ mǎi kāfēi ma? Méi wèntí!", vn: "Giúp bạn mua ly cà phê mang đi à? Không thành vấn đề!" }
+    ],
+    idiom: "不恥下問 (Bù chǐ xià wèn) - Không ngại học hỏi kẻ dưới.", level: "TOCFL A"
+  },
+  {
+    word: "熱水器", pinyin: "rèshuǐqì", hanViet: "Nhiệt thủy khí",
+    image: "",
+    radical: "熱 (Bộ Hỏa 灬), 水 (Bộ Thủy 水), 器 (Bộ Khẩu 口 bao quanh nét chỉ dụng cụ máy móc).",
+    explanation: "Danh từ: Bình nóng lạnh, máy nước nóng.",
+    compounds: [
+      { tc: "電器", py: "diànqì", vn: "đồ điện máy" },
+      { tc: "熱水", py: "rèshuǐ", vn: "nước nóng" },
+      { tc: "冷水", py: "lěngshuǐ", vn: "nước lạnh" }
+    ],
+    examples: [
+      { tc: "浴室的熱水器水好像不熱。", py: "Yùshì de rèshuǐqì shuǐ hǎoxiàng bù rè.", vn: "Bình nóng lạnh trong nhà tắm đột nhiên nước bị không nóng." },
+      { tc: "房東說明天來修熱水器。", py: "Fángdōng shuō míngtiān lái xiū rèshuǐqì.", vn: "Chủ nhà nói chiều mai sẽ đến sửa bình nóng lạnh." },
+      { tc: "冬天洗澡一定要開熱水器。", py: "Dōngtiān xǐzhǎo yídìng yào kāi rèshuǐqì.", vn: "Mùa đông tắm rửa bắt buộc phải bật bình nóng lạnh." }
+    ],
+    idiom: "無 (Danh từ thiết bị gia dụng).", level: "TOCFL A"
+  },
+  {
+    word: "好像", pinyin: "hǎoxiàng", hanViet: "Hảo tượng",
+    image: "",
+    radical: "好 (Bộ Nữ 女), 像 (Bộ Nhân 亻 - hình dáng con người giống nhau).",
+    explanation: "Phó từ: Hình như, có vẻ như, giống như.",
+    compounds: [
+      { tc: "畫像", py: "huàxiàng", vn: "bức chân dung" },
+      { tc: "相像", py: "xiāngxiàng", vn: "tương đồng / giống nhau" }
+    ],
+    examples: [
+      { tc: "熱水器的水好像不熱。", py: "Rèshuǐqì de shuǐ hǎoxiàng bú rè.", vn: "Nước của bình nóng lạnh hình như không đủ độ nóng." },
+      { tc: "天黑了，好像快 pessimistic 了。", py: "Tiān hēi le, hǎoxiàng kuàiyào xiàyǔ le.", vn: "Trời âm u quá, hình như sắp sửa mưa lớn rồi." },
+      { tc: "前面那個人好像是我的老師。", py: "Qiánmiàn nàgè rén hǎoxiàng shì wǒ de lǎoshī.", vn: "Người đứng ở đằng trước kia hình như là thầy giáo của tôi." }
+    ],
+    idiom: "杯弓蛇影 (Bēi gōng shé yǐng) - Thần hồn nát thần tính.", level: "TOCFL A"
+  },
+  {
+    word: "會", pinyin: "huì", hanViet: "Hội",
+    image: "",
+    radical: "Bộ Viết (曰) nằm dưới mái che tụ họp.",
+    explanation: "Động từ năng nguyện: Sẽ (biểu thị khả năng một việc chắc chắn xảy ra trong tương lai).",
+    compounds: [
+      { tc: "不會", py: "búhuì", vn: "sẽ không / không biết" },
+      { tc: "開會", py: "kāihuì", vn: "họp hành" }
+    ],
+    examples: [
+      { tc: "我今天忙，明天下午我會去看看。", py: "Wǒ jīntiān máng, míngtiān xiàwǔ wǒ huì qù kànkan.", vn: "Hôm nay tôi bận việc bận, chiều mai tôi sẽ qua xem nhà." },
+      { tc: "別擔心，明天天氣一定會好的。", py: "Bié dānxīn, míngtiān tiānqì yídìng huì hǎo de.", vn: "Đừng lo lắng, ngày mai nhất định thời tiết sẽ tốt lên." },
+      { tc: "努力的學生成績一定會進步。", py: "Nǔlì de xuéshēng chéngjī yídìng huì jìnbù.", vn: "Học sinh chăm chỉ thì thành tích nhất định sẽ tiến bộ thôi." }
+    ],
+    idiom: "心領神會 (Xīn lǐng shén huì) - Thấu hiểu sâu sắc, tâm đầu ý hợp.", level: "TOCFL A"
+  },
+  {
+    word: "等", pinyin: "děng", hanViet: "Đẳng",
+    image: "",
+    radical: "Bộ Trúc (竹) che trên chữ Tự (寺). Ý nghĩa gốc là các thẻ tre sắp xếp theo thứ bậc.",
+    explanation: "Động từ: Chờ, đợi, chờ đợi.",
+    compounds: [
+      { tc: "等一下", py: "děng yíxià", vn: "đợi một lát" },
+      { tc: "等等", py: "děngděng", vn: "vân vân / đợi đã" }
+    ],
+    examples: [
+      { tc: "你就在房間裡吧，我在家等你。", py: "Nǐ jiù zài fángjiān lǐ ba, wǒ zài jiā děng nǐ.", vn: "Bạn cứ ở trong phòng nhé, tôi ở nhà đợi bạn qua." },
+      { tc: "請等我一下，我去買兩杯冰紅茶", py: "Qǐng děng wǒ yíxià, wǒ qù mǎi liǎng bēi bīng hóngchá.", vn: "Xin hãy đợi tôi một lát, tôi đi mua hai ly hồng trà đá." },
+      { tc: "公車快來了，不用等太久。", py: "Gōngchē kuài lái le, búyòng děng tài jiǔ.", vn: "Xe buýt sắp đến rồi, không cần đứng đợi lâu nữa đâu." }
+    ],
+    idiom: "等不及 (Děng bù jí) - Nôn nóng, sốt ruột không đợi nổi.", level: "TOCFL A"
+  },
+  {
+    word: "那", pinyin: "nà", hanViet: "Na",
+    image: "",
+    radical: "Bộ Ấp (阝) nằm bên phải.",
+    explanation: "Liên từ biểu thị chuyển ý: Vậy thì, thế thì, trong trường hợp đó.",
+    compounds: [
+      { tc: "那麼", py: "nàme", vn: "vậy thì / như thế" },
+      { tc: "那裡", py: "nàlǐ", vn: "ở kia / chỗ ấy" }
+    ],
+    examples: [
+      { tc: "明天下午你有空？那我明天下午兩點到。", py: "Míngtiān xiàwǔ nǐ yǒu kòng? Nà wǒ míngtiān xiàwǔ liǎng diǎn dào.", vn: "Chiều mai bạn rảnh à? Vậy thì chiều mai hai giờ tôi đến." },
+      { tc: "如果套房太貴，那我租雅房。", py: "Rúguǒ tàofáng tài guì, nà wǒ zù yǎfáng.", vn: "Nếu phòng khép kín đắt quá, vậy thì tôi thuê phòng thường." },
+      { tc: "你不喝咖啡嗎？那請你喝這杯烏龍茶。", py: "Nǐ bù hē kāfēi ma? Nà qǐng nǐ hē zhè bēi wūlóngchá.", vn: "Bạn không uống cà phê à? Vậy thì mời bạn uống cốc trà Ô Long này." }
+    ],
+    idiom: "無 (Từ kết nối ngữ cảnh khẩu ngữ).", level: "TOCFL A"
+  },
+  {
+    word: "裝", pinyin: "zhuāng", hanViet: "Trang",
+    image: "",
+    radical: "Bộ Y (衣 - quần áo) nằm ở dưới cùng. Nghĩa gốc là phục trang, sửa soạn.",
+    explanation: "Động từ: Lắp đặt, cài đặt, trang trí (thiết bị đồ đạc).",
+    compounds: [
+      { tc: "服裝", py: "fúzhuāng", vn: "trang phục" },
+      { tc: "裝網路", py: "zhuāng wǎnglù", vn: "lắp mạng" }
+    ],
+    examples: [
+      { tc: "我想買電視，可以幫我裝有線電視嗎？", py: "Wǒ xiǎng mǎi diànshì, kěyǐ bāng wǒ zhuāng yǒuxiàn diànshì ma?", vn: "Tôi muốn mua cái tivi mới, có thể giúp tôi lắp đặt truyền hình cáp không?" },
+      { tc: "這間教室剛裝了新冷氣。", py: "Zhè jiān jiàoshì gāng zhuāng le xīn lěngqì.", vn: "Căn phòng học này vừa mới lắp đặt điều hòa mới." },
+      { tc: "他幫我把中文詞典裝在手機裡", py: "Tā bāng wǒ bǎ Zhōngwén cídiǎn zhuāng zài shǒujī lǐ.", vn: "Anh ấy giúp tôi cài đặt phần mềm từ điển tiếng Trung vào điện thoại." }
+    ],
+    idiom: "裝模作樣 (Zhuāng mú zuò yàng) - Làm bộ làm tịch, giả vờ giả vịt.", level: "TOCFL A"
+  },
+  {
+    word: "不過", pinyin: "búguò", hanViet: "Bất quá",
+    image: "",
+    radical: "不 (Bộ Nhất 一), 過 (Bộ Sước 辶).",
+    explanation: "Liên từ biểu thị chuyển tiếp : Tuy nhiên, nhưng mà, có điều (mức độ nhẹ hơn 可是 và 但是).",
+    compounds: [
+      { tc: "不過...罷了", py: "búguò... bàle", vn: "chẳng qua... mà thôi" }
+    ],
+    examples: [
+      { tc: "可以裝，不過妳得自己付錢。", py: "Kěyǐ zhuāng, búguò nǐ děi zìjǐ fù qián.", vn: "Tôi có thể giúp bạn lắp truyền hình cáp, tuy nhiên bạn phải tự trả tiền." },
+      { tc: "那家餐廳的菜好吃，不過比較貴。", py: "Nà jiā cāntīng de cài hǎochī, búguò bǐjiào guì.", vn: "Món ăn ở nhà hàng này ngon thật, có điều giá hơi đắt một chút." },
+      { tc: "我想跟你去台南，不過這個週末我沒空。", py: "Wǒ xiǎng gēn nǐ qù Táinán, búguò zhège zhōumò wǒ méi kòng.", vn: "Tôi muốn đi du lịch Đài Nam cùng bạn, tuy nhiên tuần này tôi không rảnh." }
+    ],
+    idiom: "再好不過 (Zài hǎo bú guò) - Không gì có thể tốt hơn thế, tuyệt vời nhất.", level: "TOCFL A"
+  },
+  {
+    word: "付", pinyin: "fù", hanViet: "Phó",
+    image: "",
+    radical: "Bộ Nhân (亻) kết hợp với chữ Thốn (寸). Dùng tay trao đồ cho người khác.",
+    explanation: "Động từ: Trả tiền, thanh toán chi phí.",
+    compounds: [
+      { tc: "付錢", py: "fù qián", vn: "trả tiền" },
+      { tc: "付房租", py: "fù fángzū", vn: "đóng tiền nhà" }
+    ],
+    examples: [
+      { tc: "妳得自己付錢。", py: "Nǐ děi zìjǐ fù qián.", vn: "Chi phí lắp đặt tivi này bắt buộc bạn phải tự mình trả tiền." },
+      { tc: "買東西可以用手機付錢。", py: "Mǎi dōngxi kěyǐ yòng shǒujī fù qián.", vn: "Đến cửa hàng tiện lợi mua đồ ăn có thể dùng điện thoại để thanh toán." },
+      { tc: "我每個個月都去銀行付房租。", py: "Wǒ měi ge yuè dōu qù yínháng fù fángzū.", vn: "Mỗi tháng ngày mộc năm tôi đều đi ngân hàng đóng tiền thuê nhà." }
+    ],
+    idiom: "名副其實 (Míng fù qí shí) - Danh xứng với thực. *Chữ Phó đồng âm.", level: "TOCFL A"
+  },
+  {
+    word: "收到", pinyin: "shōudào", hanViet: "Thu đáo",
+    image: "",
+    radical: "收 (Bộ Phộc ？), 到 (Bộ Đao 刂).",
+    explanation: "Cụm động từ: Nhận được, đã nhận thu về (tiền bạc, thư từ, bưu kiện).",
+    compounds: [
+      { tc: "收到房租", py: "shōudào fángzū", vn: "nhận được tiền nhà" },
+      { tc: "收穫", py: "shōuhuò", vn: "thu hoạch / gặt hái" }
+    ],
+    examples: [
+      { tc: "房東先生，你收到我的房租了嗎？", py: "Fángdōng xiānshēng, nǐ shōudào wǒ de fángzū le ma?", vn: "Alo ông chủ nhà ơi, ông đã nhận được tiền thuê nhà của tôi chưa?" },
+      { tc: "包裹寄去三天了，你收到了嗎？", py: "Bāoguǒ jì qù sān tiān le, nǐ shōudào le ma?", vn: "Tôi gửi bưu kiện đi ba ngày rồi, bạn đã nhận được chưa?" },
+      { tc: "你的手機訊息我已經收到了。", py: "Nǐ de shǒujī xùnxī wǒ yǐjīng shōudào le.", vn: "Tin nhắn điện thoại của bạn gửi tôi đã nhận được rồi nhé." }
+    ],
+    idiom: "無 (Cụm động từ thông dụng đời sống).", level: "TOCFL A"
+  },
+  {
+    word: "不好意思", pinyin: "bùhǎo yìsi", hanViet: "Bất hảo ý tứ",
+    image: "",
+    radical: "不 (Bộ Nhất 一), 好 (Bộ Nữ 女), 意 (Bộ Tâm 心), 思 (Bộ Tâm 心).",
+    explanation: "Cụm từ ngữ khí: Xin lỗi, ngại quá, làm phiền quá (dùng lịch sự khi từ chối hoặc gây bất tiện nhỏ).",
+    compounds: [
+      { tc: "沒意思", py: "méi yìsi", vn: "vô vị / chán ngắt" },
+      { tc: "有意思", py: "yǒu yìsi", vn: "thú vị / hay ho" }
+    ],
+    examples: [
+      { tc: "不好意思，今天晚上我有事。", py: "Bùhǎoyìsi, jīntiān wǎnshàng wǒ yǒu shì.", vn: "Xin lỗi ngại quá, tối hôm nay tôi bận có việc mất rồi, không đi KTV được." },
+      { tc: "不好意思，我遲到了十分鐘。", py: "Bùhǎoyìsi, wǒ chídào le shí fēnzhōng.", vn: "Ngại quá, tôi đến muộn mất mười phút rồi." },
+      { tc: "不好意思，請問捷運站怎麼走？", py: "Bùhǎoyìsi, qǐngwèn jiéyùn zhàn zěnme zǒu?", vn: "Xin lỗi làm phiền một chút, trạm tàu điện ngầm đi đường nào vậy ạ?" }
+    ],
+    idiom: " 無 ", level: "TOCFL A"
+  },
+  {
+    word: "沒關係", pinyin: "mèi guānxi", hanViet: "Một quan hệ",
+    image: "",
+    radical: "沒 (Bộ Thủy 氵), 關 (Bộ Môn 門), 係 (Bộ Nhân 亻).",
+    explanation: "Cụm từ xã giao: Không có chi, không sao đâu, không ảnh hưởng gì (đáp lại lời xin lỗi hoặc trấn an).",
+    compounds: [
+      { tc: "有關", py: "yǒuguān", vn: "có liên quan" },
+      { tc: "關心", py: "guānxīn", vn: "quan tâm" }
+    ],
+    examples: [
+      { tc: "沒關係，明天下午呢？", py: "Méi guānxi, míngtiān xiàwǔ ne?", vn: "Không sao, chiều ngày mai thì sao?" },
+      { tc: "沒關係，我給你這杯烏龍茶。", py: "Méi guānxi, wǒ gěi nǐ zhè bēi wūlóngchá.", vn: "Không sao đâu, tôi đưa bạn cốc trà Ô Long này." },
+      { tc: "字寫得不好也沒關係，努力學就會好。", py: "Zì xiě de bù hǎo yě méi guānxi, nǔlì xué jiù huì hǎo.", vn: "Chữ viết chưa được đẹp lắm cũng không sao, chăm học là sẽ tiến bộ." }
+    ],
+    idiom: "毫無關係 (Háo wú guānxi) - Hoàn toàn không liên can.", level: "TOCFL A"
+  },
+  {
+    word: "有線電視", pinyin: "yǒuxiàn diànshì", hanViet: "Hữu tuyến điện thị",
+    image: "",
+    radical: "有 (Bộ Nguyệt 月), 線 (Bộ Mịch 糸), 電 (Bộ Vũ 雨), 視 (Bộ Kiến 見). Truyền hình đi qua dây cáp.",
+    explanation: "Danh từ: Truyền hình cáp (Cáp tivi).",
+    compounds: [
+      { tc: "電視機", py: "diànshìjī", vn: "cái tivi" },
+      { tc: "網路線", py: "wǎnglù xiàn", vn: "dây mạng internet" }
+    ],
+    examples: [
+      { tc: "請問可以幫我裝有線電視嗎？", py: "Qǐngwèn kěyǐ bāng wǒ zhuāng yǒuxiàn diànshì ma?", vn: "Tôi muốn nhờ chủ nhà giúp tôi lắp đặt truyền hình cáp xem tivi." },
+      { tc: "現在年輕人很少看有線電視。", py: "Xiànzài niánqīng rén hěn shǎo kàn yǒuxiàn diànshì.", vn: "Hiện tại người trẻ tuổi rất ít khi xem truyền hình cáp, họ toàn lên mạng." },
+      { tc: "有線電視的錢每個月要多少？", py: "Yǒuxiàn diànshì de qián měi ge yuè yào duōshǎo?", vn: "Tiền truyền hình cáp mỗi tháng tốn bao nhiêu tiền?" }
+    ],
+    idiom: "無 (Danh từ thuật ngữ đời sống).", level: "TOCFL A"
+  },
+// =========================================================================
+  // --- TỪ VỰNG BÀI 12 - GIÁO TRÌNH ĐƯƠNG ĐẠI 1 (BẢN CHUẨN KIỂM TRA KỸ) ---
+  // =========================================================================
+{
+    word: "計畫", pinyin: "jìhuà", hanViet: "Kế hoạch",
+    image: "",
+    radical: "計 (Bộ Ngôn 言), 畫 (Bộ Duật 聿).",
+    explanation: "Động từ / Danh từ: Lên kế hoạch, dự định, kế hoạch.",
+    compounds: [
+      { tc: "設計", py: "shèjì", vn: "thiết kế" },
+      { tc: "畫畫", py: "huàhuà", vn: "vẽ tranh" }
+    ],
+    examples: [
+      { tc: "明華計畫明年去美國看紅葉。", py: "Mínghuá jìhuà míngnián qù Měiguó kàn hóngyè.", vn: "Minh Hoa lên kế hoạch năm sau đi Mỹ ngắm lá đỏ." },
+      { tc: "你計畫在臺灣學多久的中文？", py: "Nǐ jìhuà zài Táiwān xué duō jiǔ de Zhōngwén?", vn: "Bạn lên kế hoạch học tiếng Trung ở Đài Loan bao lâu?" },
+      { tc: "這是一個很好的計畫。", py: "Zhè shì yí ge hěn hǎo de jìhuà.", vn: "Đây là một kế hoạch rất tốt." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "年", pinyin: "nián", hanViet: "Niên",
+    image: "",
+    radical: "Bộ Can (干). Hình ảnh người mang bông lúa gặt hái sau một chu kỳ thời gian.",
+    explanation: "Lượng từ / Danh từ: Năm.",
+    compounds: [
+      { tc: "今年", py: "jīnnián", vn: "năm nay" },
+      { tc: "去年", py: "qùnián", vn: "năm ngoái" },
+      { tc: "明年", py: "míngnián", vn: "năm sau" }
+    ],
+    examples: [
+      { tc: "安同計畫在臺灣學五年中文。", py: "An tóng jìhuà zài Táiwān xué wǔ nián Zhōngwén.", vn: "An Đồng lên kế hoạch học tiếng Trung 5 năm ở Đài Loan." },
+      { tc: "我已經在臺灣工作一年了。", py: "Wǒ yǐjīng zài Táiwān gōngzuò yì nián le.", vn: "Tôi đã làm việc ở Đài Loan được một năm rồi." },
+      { tc: "他打算在語言中心念一年。", py: "Tā dǎsuàn zài yǔyán zhōngxīn niàn yì nián.", vn: "Anh ấy dự định học ở trung tâm ngôn ngữ một năm." }
+    ],
+    idiom: "日積月累 (Rì jī ước lěi) - Tích lũy theo năm tháng.", level: "TOCFL A"
+  },
+  {
+    word: "久", pinyin: "jiǔ", hanViet: "Cửu",
+    image: "",
+    radical: "Bộ Phiệt (丿). Biểu thị khoảng thời gian dài lâu.",
+    explanation: "Tính từ: Lâu, thời gian dài.",
+    compounds: [
+      { tc: "很久", py: "hěn jiǔ", vn: "rất lâu" },
+      { tc: "不久", py: "bù jiǔ", vn: "không lâu" },
+      { tc: "好久不見", py: "hǎo jiǔ bú jiàn", vn: "lâu rồi không gặp" }
+    ],
+    examples: [
+      { tc: "為什麼要這麼久的時間？", py: "Wèishénme yào zhème jiǔ de shíjiān?", vn: "Tại sao lại cần thời gian lâu như thế?" },
+      { tc: "這家店賣烏龍茶賣很久了.", py: "Zhè jiā diàn mài wūlóngchá mài hěn jiǔ le.", vn: "Cửa hàng này bán trà Ô Long được rất lâu rồi." },
+      { tc: "你看這本書看了多久了?", py: "Nǐ kàn zhè běn shū kàn le duō jiǔ le?", vn: "Bạn đọc cuốn sách này bao lâu rồi?" }
+    ],
+    idiom: "天長地久 (Tiān cháng dì jiǔ) - Trường tồn cùng trời đất.", level: "TOCFL A"
+  },
+  {
+    word: "時間", pinyin: "shíjiān", hanViet: "Thời gian",
+    image: "",
+    radical: "時 (Bộ Nhật 日), 間 (Bộ Môn 門).",
+    explanation: "Danh từ: Thời gian, khoảng thời gian.",
+    compounds: [
+      { tc: "時候", py: "shíhòu", vn: "lúc / khi" },
+      { tc: "中間", py: "zhōngjiān", vn: "ở giữa" }
+    ],
+    examples: [
+      { tc: "我沒有那麼多的時間寫功課。", py: "Wǒ méiyǒu nàme duō de shíjiān xiě gōngkè.", vn: "Tôi không có nhiều thời gian như vậy để làm bài tập." },
+      { tc: "上課的時間不能看手機。", py: "Shàngkè de shíhòu bùnéng kàn shǒujī.", vn: "Thời gian lên lớp không được xem điện thoại." },
+      { tc: "我們約哪一個時間見面比較好？", py: "Wǒmen yuē nǎ yí ge shíjiān jiànmiàn bǐjiào hǎo?", vn: "Chúng ta hẹn gặp nhau vào khoảng thời gian nào thì tốt hơn?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "先", pinyin: "xiān", hanViet: "Tiên",
+    image: "",
+    radical: "Bộ Nhi (儿). Ý nghĩa bước đi trước người khác.",
+    explanation: "Phó từ: Trước, trước tiên.",
+    compounds: [
+      { tc: "先生", py: "xiānshēng", vn: "ông / ngài / chồng" },
+      { tc: "首先", py: "shǒuxiān", vn: "đầu tiên" }
+    ],
+    examples: [
+      { tc: "我先在語言中心念一年，再念大學。", py: "Wǒ xiān zài yǔyán zhōngxīn niàn yì nián, zài niàn dàxué.", vn: "Tôi học ở trung tâm ngôn ngữ trước một năm, rồi mới học đại học." },
+      { tc: "請問，誰先說？", py: "Qǐngwèn, shéi xiān shuō?", vn: "Xin hỏi, ai nói trước?" },
+      { tc: "我們先看菜單再點菜吧。", py: "Wǒmen xiān kàn càidān zài diǎncài ba.", vn: "Chúng ta xem thực đơn trước rồi hãy gọi món nhé." }
+    ],
+    idiom: "捷足先登 (Jié zú xiān dēng) - Nhanh chân đến trước.", level: "TOCFL A"
+  },
+  {
+    word: "念", pinyin: "niàn", hanViet: "Niệm",
+    image: "",
+    radical: "Bộ Tâm (心) nằm dưới chữ Kim (今). Nghĩa gốc là ghi nhớ, đọc thành tiếng.",
+    explanation: "Động từ: Học, đọc, nghiên cứu, học tập.",
+    compounds: [
+      { tc: "念書", py: "niànshū", vn: "học bài / đọc sách" },
+      { tc: "紀念", py: "jìniàn", vn: "kỷ niệm" }
+    ],
+    examples: [
+      { tc: "我哥哥在美國念大學。", py: "Wǒ gēge zài Měiguó niàn dàxué.", vn: "Anh trai tôi học đại học ở Mỹ." },
+      { tc: "他一邊上班，一邊念書，真的很累。", py: "Tā yìbiān shàngbān, yìbiān niànshū, zhēnde hěn lèi.", vn: "Anh ấy vừa đi làm vừa đi học, thật sự rất mệt." },
+      { tc: "請你念慢一點，好嗎？", py: "Qǐng nǐ niàn màn yìdiǎn, hǎo ma?", vn: "Xin bạn hãy đọc chậm lại một chút, được không?" }
+    ],
+    idiom: "念念不忘 (Niàn niàn bú wàng) - Hồi tưởng mãi không quên.", level: "TOCFL A"
+  },
+  {
+    word: "大學", pinyin: "dàxué", hanViet: "Đại học",
+    image: "",
+    radical: "大 (Bộ Đại 大), 學 (Bộ Tử 子).",
+    explanation: "Danh từ: Trường đại học.",
+    compounds: [
+      { tc: "大學生", py: "dàxuéshēng", vn: "sinh viên đại học" },
+      { tc: "台灣大學", py: "Táiwān Dàxué", vn: "Đại học Đài Loan" },
+      { tc: "學校", py: "xuéxiào", vn: "trường học" }
+    ],
+    examples: [
+      { tc: "我是國立臺南大學的學生。", py: "Wǒ shì Guólì Táinán Dàxué de xuéshēng.", vn: "Tôi là sinh viên của Đại học Quốc gia Đài Nam." },
+      { tc: "他想念四年大學。", py: "Tā xiǎng niàn sì nián dàxué.", vn: "Anh ấy muốn học đại học bốn năm." },
+      { tc: "學校附近有很多大學生餐廳。", py: "Xuéxiào fùjìn yǒu hěnduō dàxuéshēng cāntīng.", vn: "Gần trường học có rất nhiều nhà ăn dành cho sinh viên đại học." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "需要", pinyin: "xūyào", hanViet: "Nhu yếu",
+    image: "",
+    radical: "需 (Bộ Vũ 雨), 要 (Bộ Á 襾).",
+    explanation: "Động từ / Danh từ: Cần, nhu cầu, cần phải.",
+    compounds: [
+      { tc: "重要", py: "zhòngyào", vn: "quan trọng" },
+      { tc: "不要", py: "búyào", vn: "không muốn / đừng" }
+    ],
+    examples: [
+      { tc: "我需要一筆學費去念書。", py: "Wǒ xūyào yì bǐ xuéfèi qù niànshū.", vn: "Tôi cần một khoản học phí để đi học." },
+      { tc: "去臺灣學中文需要五年。", py: "Qù Táiwān xué Zhōngwén xūyào wǔ nián.", vn: "Đến Đài Loan học tiếng Trung cần năm năm." },
+      { tc: "你現在需要幫忙吗？", py: "Nǐ xiànzài xūyào bāngmáng ma?", vn: "Bây giờ bạn có cần giúp đỡ không?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "花", pinyin: "huā", hanViet: "Hoa",
+    image: "",
+    radical: "Bộ Thảo (艹). Nghĩa gốc là bông hoa, nghĩa phái sinh là tiêu tốn.",
+    explanation: "Động từ: Tiêu (tiền), tốn (thời gian).",
+    compounds: [
+      { tc: "花錢", py: "huāqián", vn: "tiêu tiền" },
+      { tc: "花時間", py: "huā shíjiān", vn: "tốn thời gian" },
+      { tc: "花茶", py: "huāchá", vn: "trà hoa" }
+    ],
+    examples: [
+      { tc: "去臺灣學中文得花不少錢！", py: "Qù Táiwān xué Zhōngwén děi huā bù shǎo qián!", vn: "Đến Đài Loan học tiếng Trung phải tốn không ít tiền!" },
+      { tc: "他花了很多時間寫功課。", py: "Tā huā le hěnduō shíjiān xiě gōngkè.", vn: "Cậu ấy đã tốn rất nhiều thời gian để làm bài tập." },
+      { tc: "買這支新手機花了我兩萬塊。", py: "Mǎi zhè zhī xīn shǒujī huā le wǒ liǎng wàn kuài.", vn: "Mua chiếc điện thoại mới này tiêu tốn của tôi hai vạn tệ." }
+    ],
+    idiom: "花天酒地 (Huā tiān jiǔ dì) - Ăn chơi sa đọa, rượu chè bê tha.", level: "TOCFL A"
+  },
+  {
+    word: "獎學金", pinyin: "jiǎngxuéjīn", hanViet: "Tưởng học kim",
+    image: "",
+    radical: "獎 (Bộ Đại 大), 學 (Bộ Tử 子), 金 (Bộ Kim 金).",
+    explanation: "Danh từ: Học bổng.",
+    compounds: [
+      { tc: "學費", py: "xuéfèi", vn: "học phí" },
+      { tc: "黃金", py: "huángjīn", vn: "vàng" }
+    ],
+    examples: [
+      { tc: "要是成績不好，就沒有獎學金了。", py: "Yàoshì chéngjī bù hǎo, jiù méiyǒu jiǎngxuéjīn le.", vn: "Nếu như thành tích không tốt, thì không có học bổng nữa." },
+      { tc: "他是個努力的學生，拿到了獎學金。", py: "Tā shì ge nǔlì de xuéshēng, nádào le jiǎngxuéjīn.", vn: "Cậu ấy là một học sinh chăm chỉ, đã nhận được học bổng." },
+      { tc: "這筆獎學金很有用。", py: "Zhè bǐ jiǎngxuéjīn hěn yǒuyòng.", vn: "Khoản tiền học bổng này rất hữu ích." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "成績", pinyin: "chéngjī", hanViet: "Thành tích",
+    image: "",
+    radical: "成 (Bộ Qua 戈), 績 (Bộ Mịch 糸).",
+    explanation: "Danh từ: Thành tích, điểm số kết quả học tập.",
+    compounds: [
+      { tc: "成功", py: "chénggōng", vn: "thành công" },
+      { tc: "業績", py: "yèjī", vn: "thành tích kinh doanh" }
+    ],
+    examples: [
+      { tc: "哥哥的大學成績很好。", py: "Gēge de dàxué chéngjī hěn hǎo.", vn: "Thành tích đại học của anh trai rất tốt." },
+      { tc: "你想拿到獎學金，成績就得好。", py: "Nǐ xiǎng nádào jiǎngxuéjīn, chéngjī jiù děi hǎo.", vn: "Bạn muốn nhận học bổng, điểm số thành tích phải tốt." },
+      { tc: "這次的中文考試，他的成績很不錯。", py: "Zhè cì de Zhōngwén kǎoshì, tā de chéngjī hěn búcùò.", vn: "Kỳ thi tiếng Trung lần này, thành tích của cậu ấy khá tốt." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "學費", pinyin: "xuéfèi", hanViet: "Học phí",
+    image: "",
+    radical: "學 (Bộ Tử 子), 費 (Bộ Bối 貝 - liên quan tiền bạc).",
+    explanation: "Danh từ: Học phí.",
+    compounds: [
+      { tc: "免費", py: "miǎnfèi", vn: "miễn phí" },
+      { tc: "花費", py: "huāfèi", vn: "chi phí tiêu tốn" }
+    ],
+    examples: [
+      { tc: "我的學費是公司替我付的。", py: "Wǒ de xuéfèi shì gōngsī tì wǒ fù de.", vn: "Học phí của tôi là do công ty trả thay cho tôi." },
+      { tc: "台灣大學的學費貴不貴？", py: "Táiwān Dàxué de xuéfèi guì bú guì?", vn: "Học phí của Đại học Đài Loan có đắt không?" },
+      { tc: "他每個月都在為學費生氣。", py: "Tā měi ge yuè dōu zài wèi xuéfèi shēngqì.", vn: "Tháng nào cậu ấy cũng lo nghĩ đau đầu vì học phí." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "公司", pinyin: "gōngsī", hanViet: "Công ty",
+    image: "",
+    radical: "公 (Bộ Bát 八), 司 (Bộ Khẩu 口).",
+    explanation: "Danh từ: Công ty.",
+    compounds: [
+      { tc: "老闆", py: "lǎobǎn", vn: "ông chủ" },
+      { tc: "司機", py: "sījī", vn: "tài xế" }
+    ],
+    examples: [
+      { tc: "他的哥哥是一家大公司的老闆。", py: "Tā de gēge shì yì jiā dà gōngsī de lǎobǎn.", vn: "Anh trai của cậu ấy là ông chủ của một công ty lớn." },
+      { tc: "這家公司在學校對面。", py: "Zhè jiā gōngsī zài xuéxiào duìmiàn.", vn: "Công ty này nằm ở đối diện trường học." },
+      { tc: "我以後也想到這麼好的公司上班。", py: "Wǒ yǐhòu yě xiǎng dào zhème hǎo de gōngsī shàngbān.", vn: "Sau này tôi cũng muốn đến làm việc ở một công ty tốt như thế này." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "替", pinyin: "tì", hanViet: "Thế",
+    image: "",
+    radical: "Bộ Viết (曰) nằm dưới hai chữ Phu (夫).",
+    explanation: "Giới từ: Thay cho, hộ, giúp (ai đó làm việc gì).",
+    compounds: [
+      { tc: "代替", py: "dàitì", vn: "thay thế" },
+      { tc: "輪替", py: "lúntì", vn: "thay phiên" }
+    ],
+    examples: [
+      { tc: "我的學費是公司替我付的。", py: "Wǒ de xuéfèi shì gōngsī tì wǒ fù de.", vn: "Học phí của tôi là do công ty trả hộ tôi." },
+      { tc: "請你替我跟老師請假。", py: "Qǐng nǐ tì wǒ gên lǎoshī qǐngjià.", vn: "Xin hãy giúp tôi xin nghỉ phép với thầy giáo." },
+      { tc: "你能替我買一杯熱咖啡嗎？", py: "Nǐ néng tì wǒ mǎi yì bēi rè kāfēi ma?", vn: "Bạn có thể mua hộ tôi một ly cà phê nóng không?" }
+    ],
+    idiom: "冒名頂替 (Mào míng dǐng tì) - Mạo danh thay thế, đóng giả người khác.", level: "TOCFL A"
+  },
+  {
+    word: "希望", pinyin: "xīwàng", hanViet: "Hy vọng",
+    image: "",
+    radical: "希 (Bộ Cân 巾), 望 (Bộ Nguyệt 月).",
+    explanation: "Động từ / Danh từ: Hy vọng, mong muốn.",
+    compounds: [
+      { tc: "看望", py: "kànwàng", vn: "thăm hỏi" },
+      { tc: "失望", py: "shīwàng", vn: "thất vọng" }
+    ],
+    examples: [
+      { tc: "希望我以後也可以到這家公司上班。", py: "Xīwàng wǒ yǐhòu yě kěyǐ dào zhè jiā gōngsī shàngbān.", vn: "Hy vọng sau này tôi cũng có thể đến công ty này làm việc." },
+      { tc: "老闆希望我們都會說中文。", py: "Lǎobǎn xīwàng wǒmen dōu huì shuō Zhōngwén.", vn: "Ông chủ hy vọng chúng tôi đều biết nói tiếng Trung." },
+      { tc: "每個人都有自己的希望。", py: "Měi ge rén dōu yǒu zìjǐ de xīwàng.", vn: "Mỗi người đều có hy vọng của riêng mình." }
+    ],
+    idiom: "喜出望外 (Xǐ chū wàng wài) - Vui mừng quá đỗi, vượt ngoài mong đợi.", level: "TOCFL A"
+  },
+  {
+    word: "以後", pinyin: "yǐhòu", hanViet: "Dĩ hậu",
+    image: "",
+    radical: "以 (Bộ Nhân 亻 ẩn), 後 (Bộ Xích 彳).",
+    explanation: "Danh từ chỉ thời gian: Sau này, tương lai, sau khi.",
+    compounds: [
+      { tc: "以前", py: "yǐqián", vn: "trước đây" },
+      { tc: "後面", py: "hòumiàn", vn: "phía sau" }
+    ],
+    examples: [
+      { tc: "下課以後，我想去買新手機。", py: "Xiàkè yǐhòu, wǒ xiǎng qù mǎi xīn shǒujī.", vn: "Sau khi tan học, tôi muốn đi mua điện thoại mới." },
+      { tc: "我回國以後，也想找個說中文的工作。", py: "Wǒ huíguó yǐhòu, yě xiǎng zhǎo ge shuō Zhōngwén de gōngzuò.", vn: "Sau khi về nước, tôi cũng muốn tìm một công việc nói tiếng Trung." },
+      { tc: "希望你以後常來我家玩。", py: "Xīwàng nǐ yǐhòu cháng lái wǒ jiā wán.", vn: "Hy vọng sau này bạn thường đến nhà tôi chơi." }
+    ],
+    idiom: "不計前後 (Bú jì qián hòu) - Không so đo trước sau.", level: "TOCFL A"
+  },
+  {
+    word: "到", pinyin: "dào", hanViet: "Đáo",
+    image: "",
+    radical: "Bộ Đao (刂).",
+    explanation: "Động từ: Đến, đi đến, tới.",
+    compounds: [
+      { tc: "到了", py: "dào le", vn: "đến rồi" },
+      { tc: "收到", py: "shōudào", vn: "nhận được" }
+    ],
+    examples: [
+      { tc: "我下個月要到日本去旅行。", py: "Wǒ xià ge yuè yào dào Rìběn qù lǚxíng.", vn: "Tháng sau tôi phải đi Nhật Bản du lịch." },
+      { tc: "你想不想到我們公司來上班？", py: "Nǐ xiǎng bù xiǎng dào wǒmen gōngsī lái shàngbān?", vn: "Bạn có muốn đến công ty chúng tôi làm việc không?" },
+      { tc: "從圖書館到大樓很近。", py: "Cóng túshūguǎn dào dàlóu hěn jìn.", vn: "Từ thư viện đến tòa nhà rất gần." }
+    ],
+    idiom: "面面俱到 (Miàn miàn jù dào) - Chu toàn, chu đáo mọi mặt.", level: "TOCFL A"
+  },
+  {
+    word: "上班", pinyin: "shàngbān", hanViet: "Thượng ban",
+    image: "",
+    radical: "上 (Bộ Nhất 一), 班 (Bộ Ngọc 王/玉).",
+    explanation: "Động từ (ly hợp): Đi làm, làm việc.",
+    compounds: [
+      { tc: "下班", py: "xiàbān", vn: "tan làm" },
+      { tc: "班級", py: "bānjí", vn: "lớp học / ban cấp" }
+    ],
+    examples: [
+      { tc: "他每天早上八點去公司上班。", py: "Tā měitiān zǎoshàng bā diǎn qù gōngsī shàngbān.", vn: "Anh ấy đi làm ở công ty lúc 8 giờ mỗi sáng." },
+      { tc: "他在那棟大樓裡上班。", py: "Tā zài nà dòng dàlóu lǐ shàngbān.", vn: "Anh ấy làm việc ở trong tòa nhà kia." },
+      { tc: "我又要上班，又要念書，真的很累。", py: "Wǒ yòu yào shàngbān, yòu yào niànshū, zhēnde hěn lèi.", vn: "Tôi vừa phải đi làm, vừa phải đi học, thật sự rất mệt." }
+    ],
+    idiom: "按部就班 (Àn bù jiù bān) - Theo khuôn phép, tuần tự tiến hành.", level: "TOCFL A"
+  },
+  {
+    word: "念書", pinyin: "niànshū", hanViet: "Niệm thư",
+    image: "",
+    radical: "念 (Bộ Tâm 心), 書 (Bộ Viết 曰).",
+    explanation: "Động từ (ly hợp): Học tập, đọc sách, học bài.",
+    compounds: [
+      { tc: "看書", py: "kànshū", vn: "đọc sách" },
+      { tc: "買書", py: "mǎi shū", vn: "mua sách" }
+    ],
+    examples: [
+      { tc: "我哥哥在美國念書。", py: "Wǒ gēge zài Měiguó niànshū.", vn: "Anh trai tôi đang học tập ở Mỹ." },
+      { tc: "週末我喜歡在圖書館念書。", py: "Zhōumò wǒ xǐhuān zài túshūguǎn niànshū.", vn: "Cuối tuần tôi thích học bài ở thư viện." },
+      { tc: "念書是一件很重要的事情。", py: "Niànshū shì yí jiàn hěn zhòngyào de shìqíng.", vn: "Học tập là một việc rất quan trọng." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "累", pinyin: "lèi", hanViet: "Lụy",
+    image: "",
+    radical: "Bộ Mộc (木) nằm dưới bộ Điền (田). Ý nghĩa cày ruộng vất vả mệt nhọc.",
+    explanation: "Tính từ: Mệt, mệt mỏi.",
+    compounds: [
+      { tc: "勞累", py: "láolèi", vn: "mệt nhọc lao lực" },
+      { tc: "很累", py: "hěn lèi", vn: "rất mệt" }
+    ],
+    examples: [
+      { tc: "今天上網寫功課寫得很累。", py: "Jīntiān shàngwǎng xiě gōngkè xiě de hěn lèi.", vn: "Hôm nay lên mạng làm bài tập mệt lắm." },
+      { tc: "我覺得有一點累，想回家休息。", py: "Wǒ juéde yǒu yìdiǎn lèi, xiǎng huíjiā xiūxí.", vn: "Tôi cảm thấy hơi mệt, muốn về nhà nghỉ ngơi." },
+      { tc: "每天又要上班又要念書，真的很累。", py: "Měitiān yòu yào shàngbān yòu yào niànshū, zhēnde hěn lèi.", vn: "Mỗi ngày vừa phải đi làm vừa phải đi học, thật sự rất mệt." }
+    ],
+    idiom: "長年累月 (Cháng nián lěi yuè) - Năm dài tháng rộng, tích lũy lâu ngày.", level: "TOCFL A"
+  },
+  {
+    word: "語言中心", pinyin: "yǔyán zhōngxīn", hanViet: "Ngôn ngữ trung tâm",
+    image: "",
+    radical: "語 (Bộ Ngôn 言), 言 (Bộ Ngôn 言), 中 (Bộ Cổn 丨), 心 (Bộ Tâm 心).",
+    explanation: "Danh từ: Trung tâm ngôn ngữ (Nơi học tiếng Trung cho người nước ngoài).",
+    compounds: [
+      { tc: "中文", py: "Zhōngwén", vn: "tiếng Trung" },
+      { tc: "中心", py: "zhōngxīn", vn: "trung tâm / cốt lõi" }
+    ],
+    examples: [
+      { tc: "我先在語言中心念一年，再念大學。", py: "Wǒ xiān zài yǔyán zhōngxīn niàn yì nián, zài niàn dàxué.", vn: "Tôi học ở trung tâm ngôn ngữ trước một năm, rồi mới học đại học." },
+      { tc: "這家學校的語言中心很大。", py: "Zhè jiā xuéxiào de yǔyán zhōngxīn hěn dà.", vn: "Trung tâm ngôn ngữ của ngôi trường này rất lớn." },
+      { tc: "很多越南學生在語言中心學中文。", py: "Hěnduō Yuènán xuéshēng zài yǔyán zhōngxīn xué Zhōngwén.", vn: "Rất nhiều học sinh Việt Nam đang học tiếng Trung tại trung tâm ngôn ngữ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "加油", pinyin: "jiāyóu", hanViet: "Gia du",
+    image: "",
+    radical: "加 (Bộ Lực 力), 油 (Bộ Thủy 氵). Thêm dầu vào lửa / xe để tăng sức mạnh.",
+    explanation: "Động từ: Cố gắng lên, nỗ lực lên, đổ xăng.",
+    compounds: [
+      { tc: "參加", py: "cānjiā", vn: "tham gia" },
+      { tc: "機油", py: "jīyóu", vn: "dầu máy / nhớt" }
+    ],
+    examples: [
+      { tc: "學中文不容易，我們一起加油吧！", py: "Xué Zhōngwén bù róngyì, wǒmen yìqǐ jiāyóu ba!", vn: "Học tiếng Trung không dễ dàng, chúng ta cùng nhau cố gắng nhé!" },
+      { tc: "明天有籃球比賽，請給我們加油.", py: "Míngtiān yǒu lánqiú bǐsài, qǐng gěi wǒmen jiāyóu.", vn: "Ngày mai có trận đấu bóng rổ, xin hãy cổ vũ cố lên cho chúng tôi." },
+      { tc: "我的機車沒油了，得去加油。", py: "Wǒ de jīchē méi yóu le, děi qù jiāyóu.", vn: "Xe máy của tôi hết xăng rồi, phải đi đổ xăng." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "工作", pinyin: "gōngzuò", hanViet: "Công tác",
+    image: "",
+    radical: "工 (Bộ Công 工), 作 (Bộ Nhân 亻).",
+    explanation: "Danh từ / Động từ: Công việc, làm việc, đi làm.",
+    compounds: [
+      { tc: "找工作", py: "zhǎo gōngzuò", vn: "tìm công việc" },
+      { tc: "做工作", py: "zuò gōngzuò", vn: "làm việc" }
+    ],
+    examples: [
+      { tc: "他哥哥在台灣工作。", py: "Tā gēge zài Táiwān gōngzuò.", vn: "Anh trai cậu ấy đang làm việc ở Đài Loan." },
+      { tc: "我已經在台灣工作一年了。", py: "Wǒ yǐjīng zài Táiwān gōngzuò yì nián le.", vn: "Tôi đã làm việc ở Đài Loan được một năm rồi." },
+      { tc: "我回國以後，想找個說中文的工作。", py: "Wǒ huíguó yǐhòu, xiǎng zhǎo ge shuō Zhōngwén de gōngzuò.", vn: "Sau khi về nước, tôi muốn tìm một công việc nói tiếng Trung." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "去年", pinyin: "qùnián", hanViet: "Khứ niên",
+    image: "",
+    radical: "去 (Bộ Tư 厶), 年 (Bộ Can hyper). Năm cũ đã trôi qua.",
+    explanation: "Danh từ chỉ thời gian: Năm ngoái, năm trước.",
+    compounds: [
+      { tc: "今年", py: "jīnnián", vn: "năm nay" },
+      { tc: "明年", py: "míngnián", vn: "năm sau" }
+    ],
+    examples: [
+      { tc: "我去年五月在紐約玩了兩個星期。", py: "Wǒ qùnián wǔ yuè zài Niǔyuē wán le liǎng ge xīngqí.", vn: "Tháng 5 năm ngoái tôi đã đi chơi ở New York hai tuần." },
+      { tc: "這棟房子是去年買的。", py: "Zhè dòng fángzi shì qùnián mǎi de.", vn: "Căn nhà này là mua từ năm ngoái." },
+      { tc: "他去年來到台灣學中文。", py: "Tā qùnián láidào Táiwān xué Zhōngwén.", vn: "Anh ấy đến Đài Loan học tiếng Trung vào năm ngoái." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "做", pinyin: "zuò", hanViet: "Tác",
+    image: "",
+    radical: "Bộ Nhân (亻) kết hợp với chữ Cổ (古) và Phộc (攵).",
+    explanation: "Động từ: Làm, thực hiện hành động.",
+    compounds: [
+      { tc: "做飯", py: "zuòfàn", vn: "nấu ăn" },
+      { tc: "做生意", py: "zuò shēngyì", vn: "làm ăn kinh doanh" },
+      { tc: "做工作", py: "zuò gōngzuò", vn: "làm việc" }
+    ],
+    examples: [
+      { tc: "你週末打算做什麼？", py: "Zhōumò wǐ dǎsuàn zuò shénme?", vn: "Cuối tuần bạn dự định làm gì?" },
+      { tc: "我們公司跟台灣人做生意。", py: "Wǒmen gōngsī gēn Táiwān rén zuò shēngyì.", vn: "Công ty chúng tôi làm ăn buôn bán với người Đài Loan." },
+      { tc: "這件事我不知道怎麼做。", py: "Zhè jiàn shì wǒ bù zhīdào zěnme zuò.", vn: "Chuyện này tôi không biết làm thế nào." }
+    ],
+    idiom: "做賊心虛 (Zuò zéi xīn xū) - Có tật giật mình, làm tặc tâm hư.", level: "TOCFL A"
+  },
+  {
+    word: "生意", pinyin: "shēngyì", hanViet: "Sinh ý",
+    image: "",
+    radical: "生 (Bộ Sinh 生), 意 (Bộ Tâm 心).",
+    explanation: "Danh từ: Việc làm ăn, buôn bán, kinh doanh.",
+    compounds: [
+      { tc: "做生意", py: "zuò shēngyì", vn: "làm ăn buôn bán" },
+      { tc: "意思", py: "yìsi", vn: "ý nghĩa / sự thú vị" }
+    ],
+    examples: [
+      { tc: "因為我們公司跟台灣人做生意。", py: "Yīnwèi wǒmen gōngsī gēn Táiwān rén zuò shēngyì.", vn: "Bởi vì công ty chúng tôi làm ăn kinh doanh với người Đài Loan." },
+      { tc: "他的爸爸在夜市做生意，賣包子。", py: "Tā de bàba zài yèshì zuò shēngyì, mài bāozi.", vn: "Bố của cậu ấy buôn bán ở chợ đêm, bán bánh bao." },
+      { tc: "這家店的生意非常有名，每天都有很多人。", py: "Zhè jiā diàn de shēngyì fēicháng hǎo, měitiān dōu yǒu hěnduō rén.", vn: "Việc làm ăn kinh doanh của cửa hàng này rất tốt, ngày nào cũng đông khách." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "好", pinyin: "hǎo", hanViet: "Hảo",
+    image: "",
+    radical: "Bộ Nữ (女) kết hợp với bộ Tử (子).",
+    explanation: "Tính từ đóng vai trò bổ ngữ: Dễ (làm gì đó) - Trái nghĩa với 難 (nán).",
+    compounds: [
+      { tc: "好找", py: "hǎozhǎo", vn: "dễ tìm" },
+      { tc: "好吃", py: "hǎochī", vn: "dễ ăn / ngon" },
+      { tc: "好看", py: "hǎokàn", vn: "dễ nhìn / đẹp / hay" }
+    ],
+    examples: [
+      { tc: "這樣的工作在你們國家好找嗎？", py: "Zhèyàng de gōngzuò zài nǐmen guójiā hǎo zhǎo ma?", vn: "Công việc như thế này ở quốc gia của bạn có dễ tìm không?" },
+      { tc: "台灣的捷運非常方便，高鐵站很好找。", py: "Táiwān de jiéyùn fēicháng fāngbiàn, gāotiě zhàn hěn hǎozhǎo.", vn: "Tàu điện ngầm ở Đài Loan rất tiện lợi, ga tàu cao tốc rất dễ tìm." },
+      { tc: "這本中文書字很大，很好看。", py: "Zhè běn Zhōngwén shū zì hěn dà, hěn hǎokàn.", vn: "Cuốn sách tiếng Trung này chữ to, rất dễ đọc." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "找", pinyin: "zhǎo", hanViet: "Trảo",
+    image: "",
+    radical: "Bộ Thủ (扌). Dùng hành động của tay để tìm kiếm.",
+    explanation: "Động từ: Tìm, tìm kiếm, đi gặp.",
+    compounds: [
+      { tc: "找工作", py: "zhǎo gōngzuò", vn: "tìm công việc" },
+      { tc: "找朋友", py: "zhǎo péngyǒu", vn: "tìm bạn / đi gặp bạn" },
+      { tc: "好找", py: "hǎozhǎo", vn: "dễ tìm" }
+    ],
+    examples: [
+      { tc: "我回國以後，也想找個有機會說中文的工作。", py: "Wǒ huíguó yǐhòu, yě xiǎng zhǎo ge yǒu jīhuì shuō Zhōngwén de gōngzuò.", vn: "Sau khi về nước, tôi cũng muốn tìm một công việc có cơ hội nói tiếng Trung." },
+      { tc: "不知道好不好找，我試試看。", py: "Bù zhīdào hǎo bù hǎo zhǎo, wǒ shìshì kàn.", vn: "Không biết có dễ tìm hay không, tôi sẽ thử xem sao." },
+      { tc: "你在找什麼房間？", py: "Nǐ zài zhǎo shénme fángjiān?", vn: "Bạn đang tìm căn phòng như thế nào?" }
+    ],
+    idiom: "找麻煩 (Zhǎo máfán) - Kiếm chuyện phiền phức, gây sự.", level: "TOCFL A"
+  },
+  {
+    word: "這樣", pinyin: "zhèyàng", hanViet: "Giá dạng",
+    image: "",
+    radical: "這 (Bộ Sước 辶), 樣 (Bộ Mộc 木).",
+    explanation: "Danh từ chỉ thị: Như thế này, loại này, kiểu này.",
+    compounds: [
+      { tc: "那樣", py: "nàyàng", vn: "như thế kia" },
+      { tc: "樣子", py: "yàngzi", vn: "hình dáng" }
+    ],
+    examples: [
+      { tc: "這樣的工作在你們國家好找嗎？", py: "Zhèyàng de gōngzuò zài nǐmen guójiā hǎo zhǎo ma?", vn: "Công việc kiểu như thế này ở đất nước các bạn có dễ tìm không?" },
+      { tc: "這杯烏龍茶這樣好喝！", py: "Zhè bēi wūlóngchá zhèyàng hǎohē!", vn: "Ly trà Ô Long này ngon như thế này cơ à!" },
+      { tc: "要是不能上網，這樣的手機我不買。", py: "Y&agrave;osh&igrave; b&ugrave;n&eacute;ng sh&agrave;ngwǎng, zh&egrave;y&agrave;ng de shǒujī wǒ b&ugrave; mǎi.", vn: "Nếu không lên được mạng, chiếc điện thoại kiểu này tôi không mua." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "國家", pinyin: "guójiā", hanViet: "Quốc gia",
+    image: "",
+    radical: "國 (Bộ Vi 囗), 家 (Bộ Miên 宀).",
+    explanation: "Danh từ: Quốc gia, đất nước.",
+    compounds: [
+      { tc: "外國人", py: "wàiguórén", vn: "người nước ngoài" },
+      { tc: "家裡人", py: "jiālǐrén", vn: "người trong nhà" }
+    ],
+    examples: [
+      { tc: "你是哪一個國家的人？", py: "Nǐ shì nǎ yí ge guójiā de rén?", vn: "Bạn là người của đất nước nào?" },
+      { tc: "越南是一個很漂亮的國家。", py: "Yuènán shì yí ge hěn piàoliang de guójiā.", vn: "Việt Nam là một đất nước rất đẹp." },
+      { tc: "這樣的工作在你們國家好找嗎？", py: "Zhèyàng de gōngzuò zài nǐmen guójiā hǎo zhǎo ma?", vn: "Công việc như thế này ở quốc gia của các bạn có dễ tìm không?" }
+    ],
+    idiom: "國泰民安 (Guó tài mín ān) - Đất nước thanh bình, quốc thái dân an.", level: "TOCFL A"
+  },
+  {
+    word: "試", pinyin: "shì", hanViet: "Thí",
+    image: "",
+    radical: "Bộ Ngôn (言) kết hợp với chữ Thức (式). Nghĩa gốc là dùng lời nói để kiểm tra.",
+    explanation: "Động từ: Thử, kiểm tra làm thử.",
+    compounds: [
+      { tc: "試試看", py: "shìshìkàn", vn: "thử xem sao" },
+      { tc: "考試", py: "kǎoshì", vn: "kỳ thi / thi cử" }
+    ],
+    examples: [
+      { tc: "不知道好不好找，我試一試。", py: "Bù zhīdào hǎo bù hǎo zhǎo, wǒ shì yí shì.", vn: "Không biết dễ tìm không, tôi thử xem sao." },
+      { tc: "這件衣服很漂亮，你想試嗎？", py: "Zhè jiàn yīfú hěn piàoliang, nǐ xiǎng shì ma?", vn: "Bộ quần áo này đẹp quá, bạn muốn thử không?" },
+      { tc: "明天學校有中文考試，大家多努力。", py: "Míngtiān xuéxiào yǒu Zhōngwén kǎoshì, dàjiā duō nǔlì.", vn: "Mai trường có kỳ thi tiếng Trung, mọi người cố gắng lên." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "難", pinyin: "nán", hanViet: "Nan",
+    image: "",
+    radical: "Bộ Truy (隹 - con chim đuôi ngắn).",
+    explanation: "Tính từ / Bổ ngữ đóng vai trò: Khó (làm việc gì đó) - Trái nghĩa với 好 (hǎo).",
+    compounds: [
+      { tc: "難找", py: "nánzhǎo", vn: "khó tìm" },
+      { tc: "難學", py: "nánxué", vn: "khó học" },
+      { tc: "難看", py: "nánkàn", vn: "khó nhìn / xấu xí" }
+    ],
+    examples: [
+      { tc: "要是工作很難找呢？", py: "Yàoshì gōngzuò hěn nán zhǎo ne?", vn: "Nếu như công việc rất khó tìm thì sao?" },
+      { tc: "我覺得中文寫字有一點難。", py: "Wǒ juéde Zhōngwén xiězì yǒu yìdiǎn nán.", vn: "Tôi thấy viết chữ tiếng Trung có hơi khó một chút." },
+      { tc: "生病的時候, 臉色很難看。", py: "Shēngbìng de shíhòu, liǎnsè hěn nánkàn.", vn: "Lúc bị ốm, sắc mặt trông rất khó coi." }
+    ],
+    idiom: "難計其數 (Nán jì qí shù) - Nhiều không đếm xuể, khó lòng tính hết.", level: "TOCFL A"
+  },
+  {
+    word: "那麼", pinyin: "nàme", hanViet: "Na ma",
+    image: "",
+    radical: "那 (Bộ Ấp 阝), 麼 (Bộ Ma 麻).",
+    explanation: "Liên từ chuyển ý: Vậy thì, thế thì (Mở đầu một quyết định dựa vào ý trước).",
+    compounds: [
+      { tc: "這麼", py: "zhème", vn: "như thế này" },
+      { tc: "什麼", py: "shénme", vn: "cái gì" }
+    ],
+    examples: [
+      { tc: "那麼我再來臺灣學中文。", py: "Nàme wǒ zài lái Táiwān xué Zhōngwén.", vn: "Vậy thì tôi lại đến Đài Loan học tiếng Trung." },
+      { tc: "要是你不去學校，那麼我也不去。", py: "Yàoshì nǐ bú qù xuéxiào, nàme wǒ yě bú qù.", vn: "Nếu như bạn không đến trường, vậy thì tôi cũng không đi." },
+      { tc: "那麼，明天晚上七點在火車站見面。", py: "Nàme, míngtiān wǎnshàng qī diǎn zài huǒchē zhàn jiànmiàn.", vn: "Thế thì, 7 giờ tối mai hẹn gặp nhau ở ga xe lửa nhé." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "再", pinyin: "zài", hanViet: "Tái",
+    image: "",
+    radical: "Bộ Quynh (冂).",
+    explanation: "Phó từ: Lại, thêm một lần nữa (Biểu thị hành động lặp lại trong tương lai).",
+    compounds: [
+      { tc: "再見", py: "zàijiàn", vn: "tạm biệt" },
+      { tc: "再生", py: "zàishēng", vn: "tái sinh" }
+    ],
+    examples: [
+      { tc: "那麼我再來臺灣學中文。", py: "Nàme wǒ zài lái Táiwān xué Zhōngwén.", vn: "Vậy thì tôi lại đến Đài Loan học tiếng Trung thêm lần nữa." },
+      { tc: "那我們就可以再見面了。", py: "Nà wǒmen jiù kěyǐ zài jiànmiàn le.", vn: "Vậy thì chúng ta lại có thể gặp mặt nhau rồi." },
+      { tc: "請你再喝一杯熱茶吧。", py: "Qǐng nǐ zài hē yì bēi rè chá ba.", vn: "Xin mời bạn uống thêm một ly trà nóng nữa đi." }
+    ],
+    idiom: "再接再厲 (Zài jiē zài lì) - Cố gắng không ngừng, tiếp tục nỗ lực.", level: "TOCFL A"
+  },
+  {
+    word: "試試看", pinyin: "shìshìkàn", hanViet: "Thí thí khán",
+    image: "",
+    radical: "試 (Bộ Ngôn 言), 看 (Bộ Mục 目). Cấu trúc lặp động từ + khan để thử nghiệm.",
+    explanation: "Cụm cụm động từ khẩu ngữ: Làm thử xem sao, ăn thử xem sao, thử xem thế nào.",
+    compounds: [
+      { tc: "看看", py: "kànkan", vn: "xem thử" },
+      { tc: "吃吃看", py: "chīchīkàn", vn: "ăn thử xem" }
+    ],
+    examples: [
+      { tc: "不知道好不好找，我試試看。", py: "Bù zhīdào hǎo bù hǎo zhǎo, wǒ shìshìkàn.", vn: "Không biết có dễ tìm hay không, tôi làm thử xem sao." },
+      { tc: "這個黃色的芒果很甜，你吃吃看。", py: "Zhège huángsè de mángguǒ hěn tián, nǐ chīchīkàn.", vn: "Quả xoài màu vàng này ngọt lắm, bạn ăn thử xem." },
+      { tc: "聽說這部影片很有意思，我也想試試看。", py: "Tīngshuō zhè bù yǐngpiàn hěn yǒu yìsi, wǒ yě xiǎng shìshìkàn.", vn: "Nghe nói video này hay lắm, tôi cũng muốn xem thử xem sao." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+// =========================================================================
+  // --- TỪ VỰNG BÀI 13 - GIÁO TRÌNH ĐƯƠNG ĐẠI 1 (BẢN CHUẨN ĐỒNG BỘ) ---
+  // =========================================================================
+  {
+    word: "生日", pinyin: "shēngrì", hanViet: "Sinh nhật",
+    image: "",
+    radical: "生 (Bộ Sinh 生), 日 (Bộ Nhật 日).",
+    explanation: "Danh từ: Ngày sinh nhật.",
+    compounds: [
+      { tc: "生日蛋糕", py: "shēngrì dàngāo", vn: "bánh kem sinh nhật" },
+      { tc: "出生", py: "chūshēng", vn: "sinh ra" }
+    ],
+    examples: [
+      { tc: "明天是明華的生日。", py: "Míngtiān shì Mínghuá de skēngrì.", vn: "Ngày mai là sinh nhật của Minh Hoa." },
+      { tc: "你的生日是幾月幾號？", py: "Nǐ de shēngrì shì jǐ yuè jǐ hào?", vn: "Sinh nhật của bạn là ngày mấy tháng mấy?" },
+      { tc: "我想買一份禮物送給他當生日禮物。", py: "Wǒ xiǎng mǎi yí fèn lǐwù sòng gěi tā dāng shēngrì lǐwù.", vn: "Tôi muốn mua một món quà để tặng anh ấy làm quà sinh nhật." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "快樂", pinyin: "kuàilè", hanViet: "Khoái lạc",
+    image: "",
+    radical: "快 (Bộ Tâm 忄), 樂 (Bộ Mộc 木).",
+    explanation: "Tính từ: Vui vẻ, hạnh phúc.",
+    compounds: [
+      { tc: "很快", py: "hěn kuài", vn: "rất nhanh" },
+      { tc: "音樂", py: "yīnyuè", vn: "âm nhạc" }
+    ],
+    examples: [
+      { tc: "祝你生日快樂、萬事如意。", py: "Zhù nǐ shēngrì kuàilè, wànshì rúyì.", vn: "Chúc bạn sinh nhật vui vẻ, vạn sự như ý." },
+      { tc: "他們每天在一起玩得很快樂。", py: "Tāmen měitiān zài yìqǐ wán de hěn kuàilè.", vn: "Mỗi ngày họ ở bên nhau chơi đùa rất vui vẻ." },
+      { tc: "新年快樂！祝你身體健康。", py: "Xīnnián kuàilè! Zhù nǐ shēntǐ jiànkāng.", vn: "Chúc mừng năm mới! Chúc bạn sức khỏe dồi dào." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "回來", pinyin: "huílái", hanViet: "Hồi lai",
+    image: "",
+    radical: "回 (Bộ Vi 囗), 來 (Bộ Mộc 木). Hành động di chuyển hướng về phía người nói.",
+    explanation: "Động từ: Trở về, quay về đây.",
+    compounds: [
+      { tc: "回家", py: "huíjiā", vn: "về nhà" },
+      { tc: "回去", py: "huíqù", vn: "đi về (rời xa người nói)" }
+    ],
+    examples: [
+      { tc: "怡君剛 từ 臺東回來。", py: "Yíjūn gāng cóng Táidōng huílái.", vn: "Di Quân vừa mới từ Đài Đông trở về." },
+      { tc: "你什麼時候從學校回來？", py: "Nǐ shénme shíhòu cóng xuéxiào huílái?", vn: "Khi nào bạn đi học ở trường về?" },
+      { tc: "媽媽，我回來了！", py: "Māma, wǒ huílái le!", vn: "Mẹ ơi, con về rồi này!" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "啊", pinyin: "a", hanViet: "A",
+    image: "",
+    radical: "Bộ Khẩu (口).",
+    explanation: "Trợ từ ngữ khí: Biểu thị sự nhận ra, thấu hiểu hoặc cảm thán.",
+    compounds: [
+      { tc: "好啊", py: "hǎo a", vn: "được thôi / ok" },
+      { tc: "對啊", py: "duì a", vn: "đúng vậy chứ" }
+    ],
+    examples: [
+      { tc: "啊，我怎麼忘了！最近太忙了。", py: "A, wǒ zěnme wàng le! Zuìjìn tài máng le.", vn: "A, sao tôi lại quên mất nhỉ! Dạo này bận quá." },
+      { tc: "這杯茶真好喝啊！", py: "Zhè bēi chá zhēn hǎohē a!", vn: "Ly trà này uống ngon thật đấy!" },
+      { tc: "好啊！我們明天下午去那家餐廳吃飯。", py: "Hǎo a! Wǒmen míngtiān xiàwǔ qù nà jiā cāntīng chīfàn.", vn: "Được thôi! Chiều mai chúng ta đến nhà hàng đó ăn cơm." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "怎麼", pinyin: "zěnme", hanViet: "Chẩm ma",
+    image: "",
+    radical: "怎 (Bộ Tâm 心), 麼 (Bộ Ma 麻).",
+    explanation: "Đại từ nghi vấn: Sao lại, làm sao, thế nào (biểu thị sự ngạc nhiên hoặc hỏi nguyên nhân, cách thức).",
+    compounds: [
+      { tc: "怎麼樣", py: "zěnmeyàng", vn: "như thế nào" },
+      { tc: "怎麼辦", py: "zěnmebàn", vn: "làm sao đây" }
+    ],
+    examples: [
+      { tc: "明天是你的生日，我怎麼忘了！", py: "Míngtiān shì nǐ de shēngrì, wǒ zěnme wàng le!", vn: "Ngày mai là sinh nhật bạn, sao tôi lại quên mất nhỉ!" },
+      { tc: "你今天怎麼沒去學校上課呢？", py: "Nǐ jīntiān zěnme méi qù xuéxiào shàngkè ne?", vn: "Hôm nay sao bạn lại không đến trường học vậy?" },
+      { tc: "請問, 去故宮博物院怎麼走？", py: "Qǐngwèn, qù Gùgōng Bówùyuàn zěnme zǒu?", vn: "Xin hỏi, đi đến Bảo tàng Cố Cung đi thế nào?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "忘", pinyin: "wàng", hanViet: "Vong",
+    image: "",
+    radical: "Bộ Tâm (心) nằm dưới chữ Vong (亡). Tâm trí mất đi tức là quên.",
+    explanation: "Động từ: Quên, không nhớ.",
+    compounds: [
+      { tc: "忘了", py: "wàngle", vn: "quên rồi" },
+      { tc: "忘記", py: "wàngjì", vn: "quên mất" }
+    ],
+    examples: [
+      { tc: "對不起，我忘了帶妳的書了。", py: "Duìbùqǐ, wǒ wàng le dài nǐ de shū le.", vn: "Xin lỗi, tôi quên mang cuốn sách của bạn rồi." },
+      { tc: "這麼重要的事，你怎麼忘了？", py: "Zhème zhòngyào de shì, nǐ zěnme wàng le?", vn: "Việc quan trọng như thế này, sao bạn lại quên được?" },
+      { tc: "我不會忘記你幫過我的事。", py: "Wǒ bú huì wàngjì nǐ bāng guò wǒ de shì.", vn: "Tôi sẽ không quên những việc bạn đã giúp đỡ tôi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "記得", pinyin: "jìde", hanViet: "Ký đắc",
+    image: "",
+    radical: "記 (Bộ Ngôn 言), 得 (Bộ Xích 彳).",
+    explanation: "Động từ: Nhớ, còn nhớ.",
+    compounds: [
+      { tc: "忘記", py: "wàngjì", vn: "quên mất" },
+      { tc: "覺得", py: "juéde", vn: "cảm thấy" }
+    ],
+    examples: [
+      { tc: "謝謝妳還記得我的生日。", py: "Xièxie nǐ hái jìdé wǒ de shēngrì.", vn: "Cảm ơn bạn vẫn còn nhớ sinh nhật của tôi." },
+      { tc: "我不記得他的電話號碼是多少了。", py: "Wǒ bù jìdé tā de diànhuà hàomǎ shì duōshǎo le.", vn: "Tôi không nhớ số điện thoại của anh ấy là bao nhiêu nữa." },
+      { tc: "明天去銀行，你記得帶錢包。", py: "Míngtiān qù yínháng, nǐ jìdé dài qiánbāo.", vn: "Ngày mai đi ngân hàng, bạn nhớ mang theo ví tiền." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "當然", pinyin: "dāngrán", hanViet: "Đương nhiên",
+    image: "",
+    radical: "當 (Bộ Điền 田), 然 (Bộ Hỏa 灬).",
+    explanation: "Phó từ: Đương nhiên, dĩ nhiên, tất nhiên.",
+    compounds: [
+      { tc: "當時", py: "dāngshí", vn: "lúc đó / đương thời" },
+      { tc: "然後", py: "ránhòu", vn: "sau đó" }
+    ],
+    examples: [
+      { tc: "我當然記得！你是 my 好朋友。", py: "Wǒ dāngrán jìdé! Nǐ shì wǒ de hǎo péngyǒu.", vn: "Tôi đương nhiên nhớ chứ! Bạn là bạn tốt của tôi mà." },
+      { tc: "你請我吃小籠包，我當然去。", py: "Nǐ qǐng wǒ chī xiǎolóngbāo, wǒ dāngrán qù.", vn: "Bạn mời tôi ăn tiểu long bao, tôi đương nhiên sẽ đi." },
+      { tc: "學中文當然要多寫字、多說話。", py: "Xué Zhōngwén dāngrán yào duō xiězì, duō shuōhuà.", vn: "Học tiếng Trung dĩ nhiên phải viết chữ nhiều, nói chuyện nhiều." }
+    ],
+    idiom: "理所當然 (Lǐ suǒ dāng rán) - Lẽ dĩ nhiên, hiển nhiên." , level: "TOCFL A"
+  },
+  {
+    word: "語言", pinyin: "yǔyán", hanViet: "Ngôn ngữ",
+    image: "",
+    radical: "語 (Bộ Ngôn 言), 言 (Bộ Ngôn 言). Cả hai bộ thủ đều liên quan đến lời nói.",
+    explanation: "Danh từ: Ngôn ngữ, tiếng.",
+    compounds: [
+      { tc: "語言中心", py: "yǔyán zhōngxīn", vn: "trung tâm ngôn ngữ" },
+      { tc: "漢語", py: "Hànyǔ", vn: "Hán ngữ / tiếng Trung" }
+    ],
+    examples: [
+      { tc: "學語言非常有意思。", py: "Xué yǔyán fēicháng yǒu yìsi.", vn: "Học ngôn ngữ vô cùng thú vị." },
+      { tc: "你會說幾種語言？", py: "Nǐ huì shuō jǐ zhǒng yǔyán?", vn: "Bạn biết nói mấy loại ngôn ngữ?" },
+      { tc: "我想去那家學校的語言中心看看。", py: "Wǒ xiǎng qù nà jiā xuéxiào de yǔyán zhōngxīn kànkan.", vn: "Tôi muốn đến trung tâm ngôn ngữ của ngôi trường đó xem thử." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "交換", pinyin: "jiāohuàn", hanViet: "Giao hoán",
+    image: "",
+    radical: "交 (Bộ Đầu 亠), 換 (Bộ Thủ 扌). Dùng hành động tay để hoán đổi.",
+    explanation: "Động từ: Trao đổi, đổi cho nhau.",
+    compounds: [
+      { tc: "交通", py: "jiāotōng", vn: "giao thông" },
+      { tc: "換手機", py: "huàn shǒujī", vn: "đổi điện thoại" }
+    ],
+    examples: [
+      { tc: "我們在語言交換的時候認識的。", py: "Wǒmen zài yǔyán jiāohuàn de shíhòu rènshí de.", vn: "Chúng tôi quen nhau vào lúc trao đổi ngôn ngữ." },
+      { tc: "我想跟你交換這本書，好不好？", py: "Wǒ xiǎng gēn nǐ jiāohuàn zhè běn shū, hǎo bù hǎo?", vn: "Tôi muốn trao đổi cuốn sách này với bạn, được không?" },
+      { tc: "跟外國朋友交換參觀的經驗不錯。", py: "Gēn wàiguó péngyǒu jiāohuàn cānguān de jīngyàn búcùò.", vn: "Trao đổi kinh nghiệm tham quan với người bạn nước ngoài rất tốt." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "那麼", pinyin: "nàme", hanViet: "Na ma",
+    image: "",
+    radical: "那 (Bộ Ấp 阝), 麼 (Bộ Ma 麻).",
+    explanation: "Phó từ: Như thế, đến mức như vậy (dùng trước tính từ biểu thị mức độ cao).",
+    compounds: [
+      { tc: "這麼", py: "zhème", vn: "như thế này" },
+      { tc: "什麼", py: "shénme", vn: "cái gì" }
+    ],
+    examples: [
+      { tc: "你那me熱心教我西班牙文，謝謝你。", py: "Nǐ nàme rèxīn jiāo wǒ Xībānyáwén, xièxie nǐ.", vn: "Bạn nhiệt tình dạy tôi tiếng Tây Ban Nha như thế, cảm ơn bạn." },
+      { tc: "那家餐廳的牛肉麵那麼貴，我不想去吃。", py: "Nà jiā cāntīng de niúròumiàn nàme guì, wǒ bù xiǎng qù chī.", vn: "Mì bò của nhà hàng đó đắt như thế, tôi không muốn đi ăn." },
+      { tc: "他的新房子那麼漂亮！", py: "Tā de xīn fángzi nàme piàoliang!", vn: "Căn nhà mới của anh ấy đẹp đến mức như vậy cơ à!" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "熱心", pinyin: "rèxīn", hanViet: "Nhiệt tâm",
+    image: "",
+    radical: "熱 (Bộ Hỏa 灬), 心 (Bộ Tâm 心). Tấm lòng nóng bỏng, sốt sắng giúp đỡ.",
+    explanation: "Tính từ: Nhiệt tình, sốt sắng, tận tâm.",
+    compounds: [
+      { tc: "熱水器", py: "rèshuǐqì", vn: "bình nóng lạnh" },
+      { tc: "開心", py: "kāixīn", vn: "vui vẻ" }
+    ],
+    examples: [
+      { tc: "安同是個很熱心的人，常幫同學。", py: "Āntóng shì ge hěn rèxīn de rén, cháng bāng tóngxué.", vn: "An Đồng là một người rất nhiệt tình, thường giúp đỡ bạn học." },
+      { tc: "這家店的老闆對客人非常熱心。", py: "Zhè jiā diàn de lǎobǎn duì kèrén fēicháng rèxīn.", vn: "Ông chủ của cửa hàng này vô cùng nhiệt tình với khách hàng." },
+      { tc: "謝謝你們熱心教我學中文.", py: "Xièxie nǐmen rèxīn jiāo wǒ xué Zhōngwén.", vn: "Cảm ơn các bạn đã nhiệt tình dạy tôi học tiếng Trung." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "西班牙文", pinyin: "Xībānyá wén", hanViet: "Tây Ban Nha văn",
+    image: "",
+    radical: "西 (Bộ Á 襾), 班 (Bộ Ngọc 王/玉), 牙 (Bộ Nha 牙), 文 (Bộ Văn 文).",
+    explanation: "Danh từ: Tiếng Tây Ban Nha.",
+    compounds: [
+      { tc: "西班牙", py: "Xībānyá", vn: "nước Tây Ban Nha" },
+      { tc: "中文", py: "Zhōngwén", vn: "tiếng Trung" }
+    ],
+    examples: [
+      { tc: "安同在學校教我西班牙文。", py: "Āntóng zài xuéxiào jiāo wǒ Xībānyá wén.", vn: "An Đồng dạy tôi tiếng Tây Ban Nha ở trường." },
+      { tc: "我覺得西班牙文挺難學的。", py: "Wǒ juéde Xībānyá wén tǐng nán xué de.", vn: "Tôi cảm thấy tiếng Tây Ban Nha khá là khó học." },
+      { tc: "你想學西班牙文還是學英文？", py: "Nǐ xiǎng xué Xībānyá wén háishì xué Yīngwén?", vn: "Bạn muốn học tiếng Tây Ban Nha hay học tiếng Anh?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "一樣", pinyin: "yíyàng", hanViet: "Nhất dạng",
+    image: "",
+    radical: "一 (Bộ Nhất 一), 樣 (Bộ Mộc 木).",
+    explanation: "Tính từ: Giống nhau, như nhau.",
+    compounds: [
+      { tc: "這個樣子", py: "zhège yàngzi", vn: "hình dáng kiểu này" },
+      { tc: "不一樣", py: "bù yíyàng", vn: "không giống nhau" }
+    ],
+    examples: [
+      { tc: "我和我的朋友一樣喜歡運動。", py: "Wǒ hàn wǒ de péngyǒu yíyàng xǐhuān yùndòng.", vn: "Tôi và bạn của tôi đều thích thể thao giống như nhau." },
+      { tc: "這兩支手機的價錢有一點不一樣。", py: "Zhè liǎng zhī shǒujī de jiàqián yǒu yìdiǎn bù yíyàng.", vn: "Giá tiền của hai chiếc điện thoại này có hơi không giống nhau một chút." },
+      { tc: "他的手機跟妳的一樣嗎？", py: "Tā de shǒujī gēn nǐ de yíyàng ma?", vn: "Điện thoại của anh ấy có giống của bạn không?" }
+    ],
+    idiom: "一模一樣 (Yì mú yí yàng) - Giống nhau y khuôn, đúc cùng một khuôn.", level: "TOCFL A"
+  },
+  {
+    word: "過", pinyin: "guò", hanViet: "Quá",
+    image: "",
+    radical: "Bộ Sước (辶). Ý nghĩa bước qua, trải qua.",
+    explanation: "Động từ: Đón, trải qua, tổ chức (ngày lễ, sinh nhật).",
+    compounds: [
+      { tc: "過去", py: "guòqù", vn: "quá khứ / đi qua" },
+      { tc: "過年", py: "guònián", vn: "đón Tết" },
+      { tc: "不過", py: "búguò", vn: "nhưng mà / tuy nhiên" }
+    ],
+    examples: [
+      { tc: "明天我想請你吃晚飯，給你過生日。", py: "Míngtiān wǒ xiǎng qǐng nǐ chī wǎnfàn, gěi nǐ guò shēngrì.", vn: "Ngày mai tôi muốn mời bạn ăn tối để đón sinh nhật cho bạn." },
+      { tc: "臺灣人過生日有吃豬腳麵線的傳統。", py: "Táiwān rén guò shēngrì yǒu chī zhūjiǎo miànxiàn de chuántǒng.", vn: "Người Đài Loan đón sinh nhật có truyền thống ăn mì chân giò." },
+      { tc: "你在臺灣過得怎麼樣？習慣了嗎？", py: "Nǐ zài Táiwān guò de zěnmeyàng? Xíguàn le ma?", vn: "Bạn sống ở Đài Loan thế nào? Đã quen chưa?" }
+    ],
+    idiom: "過 mút cẩn thận - Quá thận trọng (過分小心).", level: "TOCFL A"
+  },
+  {
+    word: "左右", pinyin: "zuǒyòu", hanViet: "Tả hữu",
+    image: "",
+    radical: "左 (Bộ Công 工), 右 (Bộ Khẩu 口). Bên trái bên phải ghép lại.",
+    explanation: "Danh từ phụ thuộc: Khoảng chừng, xấp xỉ (đứng sau cụm số lượng, thời gian).",
+    compounds: [
+      { tc: "左邊", py: "zuǒbiān", vn: "bên trái" },
+      { tc: "右邊", py: "yòubiān", vn: "bên phải" }
+    ],
+    examples: [
+      { tc: "明天下午五點左右，我到學校找你。", py: "Míngtiān xiàwǔ wǔ diǎn zuǒyòu, wǒ dào xuéxiào zhǎo nǐ.", vn: "Khoảng 5 giờ chiều mai, tôi đến trường tìm bạn." },
+      { tc: "這支新手機要一萬五千塊左右。", py: "Zhè zhī shǒujī yào yí wàn wǔ qiān kuài zuǒyòu.", vn: "Chiếc điện thoại mới này tốn khoảng chừng 1 vạn 5 ngàn tệ." },
+      { tc: "從台北到台南坐高鐵要兩個鐘頭左右。", py: "Cóng Táiběi dào Táinán zuò gāotiě yào liǎng ge zhōngtóu zuòyòu.", vn: "Từ Đài Bắc đến Đài Nam đi tàu cao tốc mất khoảng chừng hai tiếng." }
+    ],
+    idiom: "左右為難 (Zuǒ yòu wéi nán) - Tiến thoái lưỡng nan, bên nào cũng khó.", level: "TOCFL A"
+  },
+  {
+    word: "門口", pinyin: "ménkǒu", hanViet: "Môn khẩu",
+    image: "",
+    radical: "門 (Bộ Môn 門), 口 (Bộ Khẩu 口). Cửa ra vào.",
+    explanation: "Danh từ: Cổng, lối ra vào.",
+    compounds: [
+      { tc: "開門", py: "kāimén", vn: "mở cửa" },
+      { tc: "口語", py: "kǒuyǔ", vn: "khẩu ngữ / văn nói" }
+    ],
+    examples: [
+      { tc: "好，明天我會在學校門口等妳。", py: "Hǎo, míngtiān wǒ huì zài xuéxiào ménkǒu děng nǐ.", vn: "Được, ngày mai tôi sẽ đợi bạn ở cổng trường." },
+      { tc: "我們在服裝店的門口見面吧。", py: "Wǒmen zài fúzhuāngdiàn de ménkǒu jiànmiàn ba.", vn: "Chúng ta gặp nhau ở lối ra vào của cửa hàng quần áo nhé." },
+      { tc: "這家便利商店門口可以停機車。", py: "Zhè jiā biànlì shāngdiàn ménkǒu kěyǐ tíng jīchē.", vn: "Cổng cửa hàng tiện lợi này có thể đỗ xe máy." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "西班牙", pinyin: "Xībānyá", hanViet: "Tây Ban Nha",
+    image: "",
+    radical: "西 (Bộ Á 襾), 班 (Bộ Ngọc 王/玉), 牙 (Bộ Nha 牙). Từ mượn tên quốc gia.",
+    explanation: "Danh từ riêng: Nước Tây Ban Nha.",
+    compounds: [
+      { tc: "西班牙人", py: "Xībānyá rén", vn: "người Tây Ban Nha" },
+      { tc: "西班牙文", py: "Xībānyá wén", vn: "tiếng Tây Ban Nha" }
+    ],
+    examples: [
+      { tc: "他是從西班牙來臺灣學中文的學生。", py: "Tā shì cóng Xībānyá lái Táiwān xué Zhōngwén de xuéshēng.", vn: "Anh ấy là học sinh từ Tây Ban Nha đến Đài Loan học tiếng Trung." },
+      { tc: "我很想去西班牙旅行。", py: "Wǒ hěn xiǎng qù Xībānyá lǚxíng.", vn: "Tôi rất muốn đi du lịch Tây Ban Nha." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "生日快樂", pinyin: "shēngrì kuàilè", hanViet: "Sinh nhật khoái lạc",
+    image: "",
+    radical: "Ghép từ cụm từ 生日 và 快樂。",
+    explanation: "Cụm từ cố định: Chúc mừng sinh nhật.",
+    compounds: [
+      { tc: "過生日", py: "guò shēngrì", vn: "đón sinh nhật" },
+      { tc: "快樂", py: "kuàilè", vn: "vui vẻ" }
+    ],
+    examples: [
+      { tc: "安同，祝你生日快樂！", py: "Āntóng, zhù nǐ shēngrì kuàilè!", vn: "An Đồng, chúc bạn sinh nhật vui vẻ!" },
+      { tc: "拍照的時候，大家一起說生日快樂。", py: "Pāizhào de shíhòu, dàjiā yìqǐ shuō shēngrì kuàilè.", vn: "Lúc chụp ảnh, mọi người cùng nhau nói chúc mừng sinh nhật." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "我就是", pinyin: "wǒ jiùshì", hanViet: "Ngã tựu thị",
+    image: "",
+    radical: "我 (Bộ Qua 戈), 就 (Bộ Uông 尢), 是 (Bộ Nhật 日).",
+    explanation: "Cụm từ cố định: Tôi chính là... (dùng trả lời khi gọi điện thoại khẳng định mình là người được tìm).",
+    compounds: [
+      { tc: "就是", py: "jiùshì", vn: "chính là / vâng đúng" },
+      { tc: "我自己", py: "wǒ zìjǐ", vn: "chính bản thân tôi" }
+    ],
+    examples: [
+      { tc: "A: 喂，請問安同在嗎 ？ B: 是，我就是。", py: "A: Wéi, qǐngwèn Āntóng zài ma? B: Shì, wǒ jiùshì.", vn: "A: Alo, xin hỏi An Đồng có máy không? B: Vâng, tôi chính là An Đồng đây." },
+      { tc: "A: 請問您是林房東嗎？ B: 是的，我就是。", py: "A: Qǐngwèn nín shì Lín fángdōng ma? B: Shìde, wǒ jiùshì.", vn: "A: Xin hỏi ngài có phải chủ nhà họ Lâm không? B: Vâng, tôi chính là ông ấy đây." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "好久不見", pinyin: "hǎojiǔ bújiàn", hanViet: "Hảo cửu bất kiến",
+    image: "",
+    radical: "好 (Bộ Nữ 女), 久 (Bộ Phiệt 丿), 不 (Bộ Nhất 一), 見 (Bộ Kiến 見).",
+    explanation: "Cụm từ cố định: Đã lâu không gặp.",
+    compounds: [
+      { tc: "很久", py: "hěn jiǔ", vn: "rất lâu" },
+      { tc: "見面", py: "jiànmiàn", vn: "gặp mặt" }
+    ],
+    examples: [
+      { tc: "怡君，好久不見，聽說妳去花蓮了？", py: "Yíjūn, hǎo jiǔ bú jiàn, tīngshuō nǐ qù Huālián le?", vn: "Di Quân, đã lâu không gặp, nghe nói bạn đi Hoa Liên rồi à?" },
+      { tc: "老同學，好久不見！妳最近忙不忙？", py: "Lǎo tóngxué, hǎo jiǔ bú jiàn! Nǐ zuìjìn máng bù máng?", vn: "Bạn học cũ ơi, đã lâu không gặp! Dạo này bạn bận không?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "不必客氣", pinyin: "búbì kèqì", hanViet: "Bất tất khách khí",
+    image: "",
+    radical: "不 (Bộ Nhất 一), 必 (Bộ Tâm 心), 客 (Bộ Miên 宀), 氣 (Bộ Khí 气).",
+    explanation: "Cụm từ cố định: Không cần khách sáo (dùng lịch sự để trả lời câu cảm ơn).",
+    compounds: [
+      { tc: "不必", py: "búbì", vn: "không cần" },
+      { tc: "客氣", py: "kèqì", vn: "khách khí / lịch sự" }
+    ],
+    examples: [
+      { tc: "A: 謝謝你教我中文。 B: 不必客氣，妳也一樣。", py: "A: Xièxie nǐ jiāo wǒ Zhōngwén. B: Búbì kèqì, nǐ yě yíyàng.", vn: "A: Cảm ơn bạn đã dạy tôi học tiếng Trung. B: Không cần khách sáo, bạn cũng vậy mà." },
+      { tc: "都是好朋友，不必客氣！", py: "Dōu shì hǎo péngyǒu, búbì kèqì!", vn: "Đều là bạn tốt cả, không cần khách sáo đâu!" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "太客氣", pinyin: "tài kèqì", hanViet: "Thái khách khí",
+    image: "",
+    radical: "太 (Bộ Đại 大), 客 (Bộ Miên 宀), 氣 (Bộ Khí 气).",
+    explanation: "Cụm từ cố định: Khách sáo quá, lịch sự quá.",
+    compounds: [
+      { tc: "不客氣", py: "búkèqì", vn: "không có chi" },
+      { tc: "太貴了", py: "tài guì le", vn: "đắt quá" }
+    ],
+    examples: [
+      { tc: "明天我想請你吃晚飯。——妳太客氣了！", py: "Míngtiān wǒ xiǎng qǐng nǐ chī wǎnfàn. ——Nǐ tài kèqì le!", vn: "Ngày mai tôi muốn mời bạn ăn tối. ——Bạn khách sáo quá rồi!" },
+      { tc: "這家商店的老闆太客氣了，還送我們水果。", py: "Zhè jiā shāngdiàn de lǎobǎn tài kèqì le, hái sòng wǒmen shuǐguǒ.", vn: "Ông chủ của cửa hàng này lịch sự quá, còn tặng trái cây cho chúng tôi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "禮物", pinyin: "lǐwù", hanViet: "Lễ vật",
+    image: "",
+    radical: "禮 (Bộ Thị 示), 物 (Bộ Ngưu 牛).",
+    explanation: "Danh từ: Món quà, quà tặng.",
+    compounds: [
+      { tc: "送禮物", py: "sòng lǐwù", vn: "tặng quà" },
+      { tc: "動物", py: "dòngwù", vn: "động vật" }
+    ],
+    examples: [
+      { tc: "哪裡，哪裡！這是我給你的禮物。", py: "Nǎlǐ, nǎlǐ! Zhè shì wǒ gěi nǐ de lǐwù.", vn: "Có gì đâu, có gì đâu! Đây là món quà tôi tặng bạn." },
+      { tc: "這是一份很特別的大學畢業禮物。", py: "Zhè shì yí fèn hěn tèbié de dàxué bìyè lǐwù.", vn: "Đây là một món quà tốt nghiệp đại học rất đặc biệt." },
+      { tc: "過年的時候，在台灣需要送禮物嗎？", py: "Guònián de shíhòu, zài Táiwān xūyào sòng lǐwù ma?", vn: "Lúc ăn Tết, ở Đài Loan có cần tặng quà không?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "今年", pinyin: "jīnnián", hanViet: "Kim niên",
+    image: "",
+    radical: "今 (Bộ Nhân 人), 年 (Bộ Can 干).",
+    explanation: "Danh từ chỉ thời gian: Năm nay.",
+    compounds: [
+      { tc: "今天", py: "jīntiān", vn: "hôm nay" },
+      { tc: "明年", py: "míngnián", vn: "năm sau" },
+      { tc: "去年", py: "qùnián", vn: "năm ngoái" }
+    ],
+    examples: [
+      { tc: "真開心，今年有臺灣朋友給我過生日。", py: "Zhēn kāixīn, jīnnián yǒu Táiwān péngyǒu gěi wǒ guò shēngrì.", vn: "Thật vui, năm nay có người bạn Đài Loan tổ chức sinh nhật cho tôi." },
+      { tc: "我妹妹今年十八歲，打算來台灣學中文。", py: "Wǒ mèimei jīnnián shíbā suì, dǎsuàn lái Táiwān xué Zhōngwén.", vn: "Em gái tôi năm nay 18 tuổi, dự định sang Đài Loan học tiếng Trung." },
+      { tc: "今年去花蓮觀光旅行的人比較少。", py: "Jīnnián qù Huālián guānguāng lǚxíng de rén bǐjiào shǎo.", vn: "Năm nay người đi du lịch ngắm cảnh ở Hoa Liên khá ít." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "訂", pinyin: "dìng", hanViet: "Đính",
+    image: "",
+    radical: "Bộ Ngôn (言) kết hợp với chữ Đinh (丁) chỉ âm.",
+    explanation: "Động từ: Đặt trước, đặt mua trước (phòng ốc, bàn ăn, vé, bánh kem).",
+    compounds: [
+      { tc: "訂房", py: "dìngfáng", vn: "đặt phòng" },
+      { tc: "訂單", py: "dìngdān", vn: "đơn đặt hàng" }
+    ],
+    examples: [
+      { tc: "我已經訂了豬腳麵線和蛋。", py: "Wǒ yǐjīng dìng le zhūjiǎo miànxiàn hàn dàn.", vn: "Tôi đã đặt mì chân giò và trứng trước rồi." },
+            { tc: "今天我也訂了一個生日蛋糕。", py: "Jīntiān wǒ yě dìng le yí gè shēngrì dàngāo.", vn: "Hôm nay tôi cũng đã đặt một chiếc bánh kem sinh nhật." },
+      { tc: "去花蓮玩以前, 記得先訂旅館的房間。", py: "Qù Huālián wán yǐqián, jìdé xiān dìng lǚguǎn de fángjiān.", vn: "Trước khi đi Hoa Liên chơi, nhớ đặt phòng khách sạn trước." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "了", pinyin: "le", hanViet: "Liễu",
+    image: "",
+    radical: "Bộ Quyết (亅).",
+    explanation: "Trợ từ động thái: Đặt sau động từ biểu thị hành động đã hoàn thành.",
+    compounds: [
+      { tc: "買了", py: "mǎi le", vn: "mua rồi" },
+      { tc: "收到了", py: "shōudào le", vn: "nhận được rồi" }
+    ],
+    examples: [
+      { tc: "我已經訂了有名的餐廳，我們一起去吧。", py: "Wǒ yǐjīng dìng le yǒumíng de cāntīng, wǒmen yìqǐ qù ba.", vn: "Tôi đã đặt nhà hàng nổi tiếng rồi, chúng ta cùng đi nhé." },
+      { tc: "他去買了一個大西瓜回來。", py: "Tā qù mǎi le yí gè dà xīguā huílái.", vn: "Anh ấy đã đi mua một quả dưa hấu lớn mang về." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "豬腳", pinyin: "zhūjiǎo", hanViet: "Trư cước",
+    image: "",
+    radical: "豬 (Bộ Khuyển 犭), 腳 (Bộ Nhục 月). Thịt chân giò heo.",
+    explanation: "Danh từ: Giò heo, móng giò lợn.",
+    compounds: [
+      { tc: "豬肉", py: "zhūròu", vn: "thịt lợn" },
+      { tc: "腳踏車", py: "jiǎotàchē", vn: "xe đạp" }
+    ],
+    examples: [
+      { tc: "我不喜歡吃太油的豬腳。", py: "Wǒ bù xǐhuān chī tài yóu de zhūjiǎo.", vn: "Tôi không thích ăn móng giò heo quá nhiều dầu mỡ." },
+      { tc: "這家店賣的滷豬腳非常有名。", py: "Zhè jiā diàn mài de lǔ zhūjiǎo fēicháng yǒumíng.", vn: "Món giò heo kho của cửa hàng này vô cùng nổi tiếng." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "麵線", pinyin: "miànxiàn", hanViet: "Miến tuyến",
+    image: "",
+    radical: "麵 (Bộ Mạch 麥), 線 (Bộ Mịch 糸). Sợi mì mảnh làm bằng bột.",
+    explanation: "Danh từ: Mì sợi nhỏ, bún sợi mảnh.",
+    compounds: [
+      { tc: "牛肉麵", py: "niúròumiàn", vn: "mì bò" },
+      { tc: "有線電視", py: "yǒuxiàn diànshì", vn: "truyền hình cáp" }
+    ],
+    examples: [
+      { tc: "這家餐廳的豬腳麵線很好吃。", py: "Zhè jiā cāntīng de zhūjiǎo miànxiàn hěn hǎochī.", vn: "Món mì chân giò của nhà hàng này rất ngon." },
+      { tc: "臺灣人過生日喜歡吃麵線，希望壽命很長。", py: "Táiwān rén guò shēngrì xǐhuān chī miànxiàn, xīwàng shòumìng hěn cháng.", vn: "Người Đài Loan đón sinh nhật thích ăn mì sợi nhỏ, hy vọng tuổi thọ thật dài." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "蛋", pinyin: "dàn", hanViet: "Đản",
+    image: "",
+    radical: "Bộ Trùng (虫). Nghĩa gốc là trứng chim, trứng động vật.",
+    explanation: "Danh từ: Trứng.",
+    compounds: [
+      { tc: "雞蛋", py: "jīdàn", vn: "trứng gà" },
+      { tc: "蛋糕", py: "dàngāo", vn: "bánh kem / bánh ngọt" }
+    ],
+    examples: [
+      { tc: "我訂了豬腳麵線和兩個蛋。", py: "Wǒ dìng le zhūjiǎo miànxiàn hàn liǎng gè dàn.", vn: "Tôi đã đặt mì chân giò và hai quả trứng." },
+      { tc: "多吃雞蛋對身體很有幫助。", py: "Duō chī jīdàn duì shēntǐ hěn yǒu bāngzhù.", vn: "Ăn nhiều trứng gà rất có ích cho cơ thể." },
+      { tc: "你想吃水煮蛋還是茶葉蛋？", py: "Nǐ xiǎng chī shuǐzhǔdàn háishì cháyèdàn?", vn: "Bạn muốn ăn trứng luộc hay trứng kho trà?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "一點", pinyin: "yìdiǎn", hanViet: "Nhất điểm",
+    image: "",
+    radical: "一 (Bộ Nhất 一), 點 (Bộ Hắc 黑).",
+    explanation: "Lượng từ: Một chút, một ít (thường dùng sau động từ làm bổ ngữ số lượng).",
+    compounds: [
+      { tc: "有一點", py: "yǒu yìdiǎn", vn: "hơi hơi (đi với tính từ)" },
+      { tc: "幾點", py: "jǐ diǎn", vn: "mấy giờ" }
+    ],
+    examples: [
+      { tc: "等一下請你多吃一點。", py: "Děng yíxià qǐng nǐ duō chī yìdiǎn.", vn: "Lát nữa xin hãy ăn nhiều thêm một chút nhé." },
+      { tc: "這杯咖啡太熱了，我想加一點冰水。", py: "Zhè bēi kāfēi tài rè le, wǒ xiǎng jiā yìdiǎn bīng shuǐ.", vn: "Ly cà phê này nóng quá, tôi muốn thêm một ít nước đá." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "傳統", pinyin: "chuántǒng", hanViet: "Truyền thống",
+    image: "",
+    radical: "傳 (Bộ Nhân 亻), 統 (Bộ Mịch 糸).",
+    explanation: "Danh từ / Tính từ: Truyền thống, phong tục tập quán.",
+    compounds: [
+      { tc: "傳真", py: "chuánzhēn", vn: "bản fax / truyền chân" },
+      { tc: "系統", py: "xìtǒng", vn: "hệ thống" }
+    ],
+    examples: [
+      { tc: "對啊！這是過生日的傳統。", py: "Duì a! Zhè shì guò shēngrì de chuántǒng.", vn: "Đúng thế! Đây là truyền thống đón sinh nhật." },
+      { tc: "我們應該多了解中國古代的傳統文化。", py: "Wǒmen yīnggāi duō liǎojiě Zhōngguó gǔdài de chuántǒng wénhuà.", vn: "Chúng ta nên tìm hiểu nhiều hơn về văn hóa truyền thống Trung Quốc thời cổ đại." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "年輕", pinyin: "niánqīng", hanViet: "Niên khinh",
+    image: "",
+    radical: "年 (Bộ Can 干), 輕 (Bộ Xa 車). Nghĩa gốc là tuổi đời còn ít, nhẹ gánh.",
+    explanation: "Tính từ: Trẻ tuổi, thanh xuân.",
+    compounds: [
+      { tc: "新年", py: "xīnnián", vn: "năm mới" },
+      { tc: "輕便", py: "qīngbiàn", vn: "nhẹ nhàng tiện lợi" }
+    ],
+    examples: [
+      { tc: "現在大部分年輕人過生日不吃豬腳了。", py: "Xiànzài dàbùfèn niánqīng rén guò shēngrì bù chī zhūjiǎo le.", vn: "Hiện tại phần lớn người trẻ tuổi đón sinh nhật không ăn chân giò nữa rồi." },
+      { tc: "那家服裝店賣的衣服，年輕人都很喜歡。", py: "Nà jiā fúzhuāngdiàn mài de yīfú, niánqīng rén dōu hěn xǐhuān.", vn: "Quần áo của cửa hàng quần áo đó bán, người trẻ tuổi đều rất thích." }
+    ],
+    idiom: "年輕氣盛 (Niánqīng qì shèng) - Tuổi trẻ bồng bột, khí huyết hừng hực.", level: "TOCFL A"
+  },
+  {
+    word: "蛋糕", pinyin: "dàngāo", hanViet: "Đản cao",
+    image: "",
+    radical: "蛋 (Bộ Trùng 虫), 糕 (Bộ Mễ 米 - các loại bánh làm từ gạo bột).",
+    explanation: "Danh từ: Bánh kem, bánh ngọt ga-tô.",
+    compounds: [
+      { tc: "生日蛋糕", py: "shēngrì dàngāo", vn: "bánh kem sinh nhật" },
+      { tc: "糕點", py: "gāodiǎn", vn: "bánh ngọt điểm tâm" }
+    ],
+    examples: [
+      { tc: "我們過生日跟你們一樣吃蛋糕。", py: "Wǒmen guò shēngrì gēn nǐmen yíyàng chī dàngāo.", vn: "Chúng tôi đón sinh nhật cũng ăn bánh kem giống như các bạn." },
+      { tc: "這塊生日蛋糕又香又甜，非常好吃。", py: "Zhè kuài shēngrì dàngāo yòu xiāng yòu tián, fēicháng hǎochī.", vn: "Miếng bánh kem sinh nhật này vừa thơm vừa ngọt, vô cùng ngon." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "對", pinyin: "duì", hanViet: "Đối",
+    image: "",
+    radical: "Bộ Thốn (寸).",
+    explanation: "Giới từ: Đối với, cho (hướng hành động cảm xúc đến đối tượng).",
+    compounds: [
+      { tc: "對不對", py: "duì bú duì", vn: "đúng không" },
+      { tc: "對面", py: "duìmiàn", vn: "đối diện" }
+    ],
+    examples: [
+      { tc: "妳對我真好，謝謝妳請我吃飯。", py: "Nǐ duì wǒ zhên hǎo, xièxie nǐ qǐng wǒ chīfàn.", vn: "Bạn đối với tôi tốt quá, cảm ơn bạn đã mời tôi ăn cơm." },
+      { tc: "學校的醫生對學生都很客氣。", py: "Xuéxiào de yīshēng duì xuéshēng dōu hěn kèqì.", vn: "Bác sĩ của nhà trường đối với sinh viên đều rất lịch sự." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "祝", pinyin: "zhù", hanViet: "Chúc",
+    image: "",
+    radical: "Bộ Thị (示 - liên quan đến chúc tụng, thần linh) ghép với chữ Huynh (兄).",
+    explanation: "Động từ: Chúc, cầu chúc (bày tỏ lời cầu mong tốt đẹp đến người khác).",
+    compounds: [
+      { tc: "祝福", py: "zhùfú", vn: "chúc phúc" },
+      { tc: "慶祝", py: "qìngzhù", vn: "chúc mừng / ăn mừng" }
+    ],
+    examples: [
+      { tc: "祝你生日快樂、萬事如意、心想事成。", py: "Zhù nǐ shēngrì kuàilè, wànshì rúyì, xīnxǐang shìchéng.", vn: "Chúc bạn sinh nhật vui vẻ, vạn sự như ý, tâm tưởng sự thành." },
+      { tc: "祝大家新年快樂，考試順利！", py: "Zhù dàjiā xīnnián kuàilè, kǎoshì shùnlì!", vn: "Chúc mọi người năm mới vui vẻ, thi cử thuận lợi!" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "哪裡，哪裡", pinyin: "Nǎlǐ, nǎlǐ", hanViet: "Nạ lý, nạ lý",
+    image: "",
+    radical: "Lặp lại cụm từ 哪裡 (Bộ Khẩu 口).",
+    explanation: "Cụm từ xã giao cố định: Đâu có, đâu có! (Cách nói khiêm tốn của người Hoa để đáp lại lời khen ngợi của người khác).",
+    compounds: [
+      { tc: "去哪裡", py: "qù nǎlǐ", vn: "đi đâu" }
+    ],
+    examples: [
+      { tc: "A: 你的中文說得真好！ B: 哪裡，哪裡！", py: "A: Nǐ de Zhōngwén shuō de zhēn hǎo! B: Nǎlǐ, nǎlǐ!", vn: "A: Tiếng Trung của bạn nói hay thật đấy! B: Đâu có, đâu có! (Khen ngợi quá lời rồi)." },
+      { tc: "A: 謝謝妳送我這麼漂亮的禮物。 B: 哪裡，哪裡！", py: "A: Xièxie nǐ sòng wǒ zhème piàoliang de lǐwù. B: Nǎlǐ, nǎlǐ!", vn: "A: Cảm ơn bạn đã tặng tôi món quà đẹp như thế này. B: Có gì đâu, có gì đâu!" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "大部分", pinyin: "dà bùfèn", hanViet: "Đại bộ phận",
+    image: "",
+    radical: "大 (Bộ Đại 大), 部 (Bộ Ấp 阝), 分 (Bộ Đao 刀).",
+    explanation: "Danh từ / Tính từ số lượng: Đại bộ phận, phần lớn, hầu hết.",
+    compounds: [
+      { tc: "大家", py: "dàjiā", vn: "mọi người" },
+      { tc: "部分", py: "bùfèn", vn: "bộ phận / phần" }
+    ],
+    examples: [
+      { tc: "現在大部份年輕人過生日吃蛋糕了。", py: "Xiànzài dà bùfèn niánqīng rén guò shēngrì chī dàngāo le.", vn: "Hiện tại phần lớn người trẻ tuổi đón sinh nhật ăn bánh kem rồi." },
+      { tc: "我們班的大部分學生都是越南人。", py: "Wǒmen bān de dà bùfèn xuéshēng dōu shì Yuènán rén.", vn: "Phần lớn học sinh lớp chúng tôi đều là người Việt Nam." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "萬事如意", pinyin: "wànshì rúyì", hanViet: "Vạn sự như ý",
+    image: "",
+    radical: "萬 (Bộ Nhu 禸), 事 (Bộ Quyết 亅), 如 (Bộ Nữ 女), 意 (Bộ Tâm 心).",
+    explanation: "Thành ngữ / Lời chúc chúc tụng cố định: Vạn sự như ý, mọi việc đều thuận theo mong muốn.",
+    compounds: [
+      { tc: "重要事", py: "zhòngyàoshì", vn: "việc quan trọng" },
+      { tc: "意思", py: "yìsi", vn: "ý nghĩa" }
+    ],
+    examples: [
+      { tc: "祝你生日快樂、萬事如意。", py: "Zhù nǐ shēngrì kuàilè, wànshì rúyì.", vn: "Chúc bạn sinh nhật vui vẻ, vạn sự như ý." },
+      { tc: "過年的時候，臺灣人常說萬事如意。", py: "Guònián de shíhòu, Táiwān rén cháng shuō wànshì rúyì.", vn: "Lúc ăn Tết, người Đài Loan thường nói câu vạn sự như ý." }
+    ],
+    idiom: "萬事如意", level: "TOCFL A"
+  },
+  {
+    word: "心想事成", pinyin: "xīnxiǎng shìchéng", hanViet: "Tâm tưởng sự thành",
+    image: "",
+    radical: "心 (Bộ Tâm 心), 想 (Bộ Tâm 心), 事 (Bộ Quyết 亅), 成 (Bộ Qua 戈).",
+    explanation: "Thành ngữ / Lời chúc chúc tụng cố định: Tâm tưởng sự thành, ước muốn trở thành hiện thực.",
+    compounds: [
+      { tc: "想法", py: "xiǎngfǎ", vn: "cách nghĩ" },
+      { tc: "成功", py: "chénggōng", vn: "thành công" }
+    ],
+    examples: [
+      { tc: "祝你新年快樂、心想事成。", py: "Zhù nǐ xīnnián kuàilè, xīnxiǎng shìchéng.", vn: "Chúc bạn năm mới vui vẻ, muốn gì được nấy." },
+      { tc: "生日許願的時候, 希望可以心想事成。", py: "Shēngrì xǔyuàn de shíhòu, xīwàng kěyǐ xīnxiǎng shìchéng.", vn: "Lúc ước nguyện ngày sinh nhật, hy vọng có thể tâm tưởng sự thành." }
+    ],
+    idiom: "心想事成", level: "TOCFL A"
+  },
+// =========================================================================
+  // --- TỪ VỰNG BÀI 14 - GIÁO TRÌNH ĐƯƠNG ĐẠI 1 (BẢN CHUẨN ĐỒNG BỘ 100%) ---
+  // =========================================================================
+  {
+    word: "天氣", pinyin: "tiānqì", hanViet: "Thiên khí",
+    image: "",
+    radical: "天 (Bộ Đại 大), 氣 (Bộ Khí 气).",
+    explanation: "Danh từ: Thời tiết.",
+    compounds: [
+      { tc: "好天氣", py: "hǎo tiānqì", vn: "thời tiết tốt" },
+      { tc: "氣溫", py: "qìwēn", vn: "nhiệt độ không khí" }
+    ],
+    examples: [
+      { tc: "今天天氣很舒服。", py: "Jīntiān tiānqì hěn shūfú.", vn: "Thời tiết hôm nay rất dễ chịu." },
+      { tc: "紐約五月的時候天氣很好。", py: "Niǔyuē wǔ yuè de shíhòu tiānqì hěn hǎo.", vn: "Thời tiết ở New York vào tháng Năm rất đẹp." },
+      { tc: "明天的天氣怎麼樣？", py: "Míngtiān de tiānqì zěnmeyàng?", vn: "Thời tiết ngày mai thế nào?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "冷", pinyin: "lěng", hanViet: "Lãnh",
+    image: "",
+    radical: "Bộ Băng (冫) liên quan đến sự lạnh giá, băng tuyết.",
+    explanation: "Tính từ: Lạnh.",
+    compounds: [
+      { tc: "很冷", py: "hěn lěng", vn: "rất lạnh" },
+      { tc: "怕冷", py: "pà lěng", vn: "sợ lạnh" },
+      { tc: "冷水", py: "lěngshuǐ", vn: "nước lạnh" }
+    ],
+    examples: [
+      { tc: "我覺得今天比昨天冷。", py: "Wǒ juéde jīntiān bǐ zuótiān lěng.", vn: "Tôi cảm thấy hôm nay lạnh hơn hôm qua." },
+      { tc: "冬天太冷了，我不想去美國玩。", py: "Dōngtiān tài lěng le, wǒ bù xiǎng qù Měiguó wán.", vn: "Mùa đông lạnh quá, tôi không muốn đi Mỹ chơi." },
+      { tc: "因爲他怕冷，所以比較喜歡春天。", py: "Yīnwèi tā pà lěng, suǒyǐ bǐjiào xǐhuān chūntiān.", vn: "Bởi vì anh ấy sợ lạnh nên thích mùa xuân hơn." }
+    ],
+    idiom: "冷言冷語 (Lěng yán lěng yǔ) - Lời ra tiếng vào lạnh lùng, mỉa mai.", level: "TOCFL A"
+  },
+  {
+    word: "風", pinyin: "fēng", hanViet: "Phong",
+    image: "",
+    radical: "Bộ Phong (風).",
+    explanation: "Danh từ: Gió.",
+    compounds: [
+      { tc: "颳風", py: "guāfēng", vn: "nổi gió / gió thổi" },
+      { tc: "颱風", py: "táifēng", vn: "bão" },
+      { tc: "風景", py: "fēngjǐng", vn: "phong cảnh" }
+    ],
+    examples: [
+      { tc: "外面風那麼大，快進來吧。", py: "Wàimiàn fēng nàme dà, kuài jìnlái ba.", vn: "Bên ngoài gió lớn như thế, mau vào nhà đi." },
+      { tc: "颱風來的時候，風和雨都很大。", py: "Táifēng lái de shíhòu, fēng hàn yǔ dōu hěn dà.", vn: "Lúc bão đến, gió và mưa đều rất lớn." },
+      { tc: "這裡前面的風很大，坐車要小心。", py: "Zhèlǐ qiánmiàn de fēng hěn dà, zuòchē yào xiǎoxīn.", vn: "Phía trước ở đây gió rất lớn, đi xe phải cẩn thận." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "滑雪", pinyin: "huáxuě", hanViet: "Hoạt tuyết",
+    image: "",
+    radical: "滑 (Bộ Thủy 氵), 雪 (Bộ Vũ 雨).",
+    explanation: "Động từ (ly hợp): Trượt tuyết.",
+    compounds: [
+      { tc: "下雪", py: "xiàxuě", vn: "tuyết rơi" },
+      { tc: "滑板", py: "huábǎn", vn: "ván trượt" }
+    ],
+    examples: [
+      { tc: "下雪的時候，我常去山上滑雪。", py: "Xiàxuě de shíhòu, wǒ cháng qù shānshàng huáxuě.", vn: "Lúc tuyết rơi, tôi thường lên núi trượt tuyết." },
+      { tc: "臺灣的大山很少可以滑雪。", py: "Táiwān de dàshān hěn shǎo kěyǐ huáxuě.", vn: "Núi lớn ở Đài Loan rất hiếm khi có thể trượt tuyết." },
+      { tc: "你想不想跟我一起去日本滑雪？", py: "Nǐ xiǎng bù xiǎng gēn wǒ yìqǐ qù Rìběn huáxuě?", vn: "Bạn có muốn cùng tôi đi Nhật Bản trượt tuyết không?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "春天", pinyin: "chūntiān", hanViet: "Xuân thiên",
+    image: "",
+    radical: "春 (Bộ Nhật 日), 天 (Bộ Đại 大).",
+    explanation: "Danh từ: Mùa xuân.",
+    compounds: [
+      { tc: "春季", py: "chūnjì", vn: "mùa xuân (văn viết)" },
+      { tc: "春假", py: "chūnjià", vn: "kỳ nghỉ xuân" }
+    ],
+    examples: [
+      { tc: "春天不錯，天氣很舒服。", py: "Chūntiān búcùò, tiānqì hěn shūfú.", vn: "Mùa xuân không tồi, thời tiết rất dễ chịu." },
+      { tc: "我怕冷，我比較喜歡春天。", py: "Wǒ pà lěng, wǒ bǐjiào xǐhuān chūntiān.", vn: "Tôi sợ lạnh, tôi thích mùa xuân hơn." },
+      { tc: "這座山春天的風景非常漂亮。", py: "Zhè zuò shān chūntiān de fēngjǐng fēicháng piàoliang.", vn: "Phong cảnh mùa xuân của ngọn núi này vô cùng đẹp." }
+    ],
+    idiom: "春風滿面 (Chūnfēng mǎnmiàn) - Mặt mày rạng rỡ, vui tươi như gió xuân.", level: "TOCFL A"
+  },
+  {
+    word: "想", pinyin: "xiǎng", hanViet: "Tưởng",
+    image: "",
+    radical: "Bộ Tương (相) che trên bộ Tâm (心).",
+    explanation: "Động từ: Nhớ, nhớ nhung (ai đó hoặc quê hương).",
+    compounds: [
+      { tc: "想家", py: "xiǎngjiā", vn: "nhớ nhà" },
+      { tc: "思念", py: "sīniàn", vn: "nhớ nhung" }
+    ],
+    examples: [
+      { tc: "我在臺灣住了半年多了，有一點想家。", py: "Wǒ zài Táiwān zhù le bàn nián duō le, yǒu yìdiǎn xiǎngjiā.", vn: "Tôi sống ở Đài Loan hơn nửa năm rồi, hơi nhớ nhà một chút." },
+      { tc: "快過年了，我很想我的父母。", py: "Kuài guònián le, wǒ hěn xiǎng wǒ de fùmǔ.", vn: "Sắp Tết rồi, tôi rất nhớ bố mẹ của tôi." },
+      { tc: "他出國很久了，非常想念國家。", py: "Tā chūguó hěn jiǔ le, fēicháng xiǎngniàn guójiā.", vn: "Anh ấy xuất ngoại lâu rồi, rất nhớ đất nước." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "新年", pinyin: "xīnnián", hanViet: "Tân niên",
+    image: "",
+    radical: "新 (Bộ Cân 斤), 年 (Bộ Can 干).",
+    explanation: "Danh từ: Năm mới, Tết.",
+    compounds: [
+      { tc: "新年快樂", py: "xīnnián kuàilè", vn: "chúc mừng năm mới" },
+      { tc: "過新年", py: "guò xīnnián", vn: "đón năm mới" }
+    ],
+    examples: [
+      { tc: "新年快到了，妳想回去看父母嗎？", py: "Xīnnián kuài dào le, nǐ xiǎng huíqù kàn fùmǔ ma?", vn: "Năm mới sắp đến rồi, bạn có muốn về thăm bố mẹ không?" },
+      { tc: "新年的時候，臺灣有很多好看的節目。", py: "Xīnnián de shíhòu, Táiwān yǒu hěnduō hǎokàn de jiémù.", vn: "Vào dịp năm mới, Đài Loan có rất nhiều chương trình hay." },
+      { tc: "祝大家新年快樂，萬事如意！", py: "Zhù dàjiā xīnnián kuàilè, wànshì rúyì!", vn: "Chúc mọi người năm mới vui vẻ, vạn sự như ý!" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "快", pinyin: "kuài", hanViet: "Khoái",
+    image: "",
+    radical: "Bộ Tâm (心/忄) chỉ tâm trạng hăm hở, ghép với chữ Quái (夬).",
+    explanation: "Phó từ: Sắp, sắp sửa (thường đi kèm với 到 hoặc 了).",
+    compounds: [
+      { tc: "很快", py: "hěn kuài", vn: "rất nhanh" },
+      { tc: "快要", py: "kuàiyào", vn: "sắp sửa" }
+    ],
+    examples: [
+      { tc: "新年快到了，火車站的人很多。", py: "Xīnnián kuài dào le, huǒchē zhàn de rén hěnduō.", vn: "Năm mới sắp đến rồi, người ở ga tàu hỏa rất đông." },
+      { tc: "颱風快要來了，請大家多小心。", py: "Táifēng kuàiyào lái le, qǐng dàjiā duō xiǎoxīn.", vn: "Bão sắp sửa đến rồi, xin mọi người hãy cẩn thận nhiều hơn." },
+      { tc: "公共汽車快來了，我們再等一下。", py: "Gōnggòng qìchē kuài lái le, wǒmen zài děng yíxià.", vn: "Xe buýt sắp đến rồi, chúng ta đợi thêm một lát." }
+    ],
+    idiom: "快人快語 (Kuàirén kuàiyǔ) - Người thẳng thắn nói năng bộc trực.", level: "TOCFL A"
+  },
+  {
+    word: "父母", pinyin: "fùmǔ", hanViet: "Phụ mẫu",
+    image: "",
+    radical: "父 (Bộ Phụ 父), 母 (Bộ Mẫu 母).",
+    explanation: "Danh từ: Bố mẹ, phụ mẫu.",
+    compounds: [
+      { tc: "父母親", py: "fùmǔqīn", vn: "cha mẹ" },
+      { tc: "母親節", py: "mǔqīnjié", vn: "ngày của Mẹ" }
+    ],
+    examples: [
+      { tc: "我想十二月底回美國看父母。", py: "Wǒ xiǎng shí'èr yuè dǐ huí Měiguó kàn fùmǔ.", vn: "Tôi muốn cuối tháng Mười hai về Mỹ thăm bố mẹ." },
+      { tc: "他的父母都在高鐵站工作。", py: "Tā de fùmǔ dōu zài gāotiě zhàn gōngzuò.", vn: "Bố mẹ của cậu ấy đều làm việc ở ga tàu cao tốc." },
+      { tc: "我們應該多聽父母的話。", py: "Wǒmen yīnggāi duō tīng fùmǔ de huà.", vn: "Chúng ta nên lắng nghe lời bố mẹ nhiều hơn." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "冬天", pinyin: "dôngtiān", hanViet: "Đông thiên",
+    image: "",
+    radical: "冬 (Bộ Truy 夂), 天 (Bộ Đại 大).",
+    explanation: "Danh từ: Mùa đông.",
+    compounds: [
+      { tc: "冬季", py: "dōngjì", vn: "mùa đông (văn viết)" },
+      { tc: "冬至", py: "dōngzhì", vn: "tiết đông chí" }
+    ],
+    examples: [
+      { tc: "冬天太冷了，不適合去山上玩。", py: "Dōngtiān tài lěng le, bú shìhé qù shānshàng wán.", vn: "Mùa đông lạnh quá, không thích hợp lên núi chơi." },
+      { tc: "這座大山冬天常下雪。", py: "Zhè zuò dàshān dōngtiān cháng xiàxuě.", vn: "Ngọn núi lớn này mùa đông thường có tuyết rơi." },
+      { tc: "因爲冬天很冷，所以他喜歡喝熱茶。", py: "Yīnwèi dōngtiān hěn lěng, suǒyǐ tā xǐhuān hē rè chá.", vn: "Bởi vì mùa đông rất lạnh nên anh ấy thích uống trà nóng." }
+    ],
+    idiom: "冬暖夏涼 - Đông ấm hạ mát (Dōng nuǎn xià liáng)。", level: "TOCFL A"
+  },
+  {
+    word: "明年", pinyin: "míngnián", hanViet: "Minh niên",
+    image: "",
+    radical: "明 (Bộ Nhật 日), 年 (Bộ Can 干).",
+    explanation: "Danh từ chỉ thời gian: Năm sau, sang năm.",
+    compounds: [
+      { tc: "今年", py: "jīnnián", vn: "năm nay" },
+      { tc: "去年", py: "qùnián", vn: "năm ngoái" }
+    ],
+    examples: [
+      { tc: "我想明年秋天去美國看紅葉。", py: "Wǒ xiǎng míngnián qiūtiān qù Měiguó kàn hóngyè.", vn: "Tôi muốn mùa thu sang năm sang Mỹ ngắm lá đỏ." },
+      { tc: "他計畫明年到國立臺南大學念書。", py: "Tā jìhuà míngnián dào Guólì Táinán Dàxué niànshū.", vn: "Anh ấy lên kế hoạch năm sau đến Đại học Quốc gia Đài Nam học tập." },
+      { tc: "這家大公司明年打算做新的生意。", py: "Zhè jiā dà gōngsī míngnián dǎsuàn zuò xīn de shēngyì.", vn: "Công ty lớn này sang năm dự định làm ăn kinh doanh mới." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "秋天", pinyin: "qiūtiān", hanViet: "Thu thiên",
+    image: "",
+    radical: "秋 (Bộ Hòa 禾 ghép với bộ Hỏa 火 - lúa chín vàng như lửa), 天 (Bộ Đại 大).",
+    explanation: "Danh từ: Mùa thu.",
+    compounds: [
+      { tc: "秋季", py: "qiūjì", vn: "mùa thu (văn viết)" },
+      { tc: "中秋節", py: "Zhōngqiūjié", vn: "Tết Trung thu" }
+    ],
+    examples: [
+      { tc: "秋天的時候，天氣不冷也不熱。", py: "Qiūtiān de shíhòu, tiānqì bù lěng yě bú rè.", vn: "Vào mùa thu, thời tiết không lạnh cũng không nóng." },
+      { tc: "我很喜歡去日本看秋天的風景。", py: "Wǒ hěn xǐhuān qù Rìběn kàn qiūtiān de fēngjǐng.", vn: "Tôi rất thích đi Nhật Bản ngắm phong cảnh mùa thu." },
+      { tc: "明年秋天你想去哪裡旅行？", py: "Míngnián qiūtiān nǐ xiǎng qù nǎlǐ lǚxíng?", vn: "Mùa thu năm sau bạn muốn đi du lịch ở đâu?" }
+    ],
+    idiom: "秋高氣爽 (Qiūgāo qìshuǎng) - Trời thu cao trong xanh, khí hậu mát mẻ.", level: "TOCFL A"
+  },
+  {
+    word: "紅葉", pinyin: "hóngyè", hanViet: "Hồng diệp",
+    image: "",
+    radical: "紅 (Bộ Mịch 糸), 葉 (Bộ Thảo 艹).",
+    explanation: "Danh từ: Lá đỏ (thường là lá phong vào mùa thu).",
+    compounds: [
+      { tc: "紅顏色", py: "hóng yánsè", vn: "màu đỏ" },
+      { tc: "綠葉", py: "lùyè", vn: "lá xanh" }
+    ],
+    examples: [
+      { tc: "秋天的紅葉非常漂亮。", py: "Qiūtiān de hóngyè fēicháng piàoliang.", vn: "Lá đỏ mùa thu đẹp vô cùng." },
+      { tc: "很多人秋天去日本看紅葉。", py: "Hěnduō rén qiūtiān qù Rìběn kàn hóngyè.", vn: "Rất nhiều người đi Nhật Bản ngắm lá đỏ vào mùa thu." },
+      { tc: "穿紅衣服的這個是田中的女朋友。", py: "Chuān hóng yīfú de zhège shì Tiánzhōng de nǚ péngyǒu.", vn: "Người mặc quần áo đỏ này chính là bạn gái của Điền Trung." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "只", pinyin: "zhǐ", hanViet: "Chỉ",
+    image: "",
+    radical: "Bộ Khẩu (口) che trên nét chữ Bát. Mang ý nghĩa giới hạn.",
+    explanation: "Phó từ: Chỉ, duy chỉ có.",
+    compounds: [
+      { tc: "只有", py: "zhǐyǒu", vn: "chỉ có" },
+      { tc: "只要", py: "zhǐyào", vn: "chỉ cần" }
+    ],
+    examples: [
+      { tc: "我們只放十天的假，所以要快點回來。", py: "Wǒmen zhǐ fàng shí tiān de jià, suõyǐ yào kuài diǎn huílái.", vn: "Chúng tôi chỉ được nghỉ mười ngày nên phải quay về sớm." },
+      { tc: "這家店只賣冰紅茶，不賣咖啡。", py: "Zhè jiā diàn zhǐ mài bīng hóngchá, bú mài kāfēi.", vn: "Cửa hàng này chỉ bán hồng trà đá, không bán cà phê." },
+      { tc: "到故宮博物院走路只需五分鐘。", py: "Dào Gùgōng Bówùyuàn zǒulù zhǐ xū wǔ fēnzhōng.", vn: "Đến Bảo tàng Cố Cung đi bộ chỉ mất năm phút." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "玉山", pinyin: "Yùshān", hanViet: "Ngọc Sơn",
+    image: "",
+    radical: "玉 (Bộ Ngọc 玉), 山 (Bộ Sơn 山).",
+    explanation: "Danh từ riêng: Núi Ngọc Sơn (ngọn núi cao nhất Đài Loan).",
+    compounds: [
+      { tc: "爬山", py: "páshān", vn: "leo núi" },
+      { tc: "玉石", py: "yùshí", vn: "đá ngọc" }
+    ],
+    examples: [
+      { tc: "玉山是臺灣最高的大山。", py: "Yùshān shì Táiwān zuìgāo de dàshān.", vn: "Ngọc Sơn là ngọn núi lớn cao nhất Đài Loan." },
+      { tc: "臺灣的玉山冬天常下雪。", py: "Táiwān de Yùshān dōngtiān cháng xiàxuě.", vn: "Núi Ngọc Sơn ở Đài Loan mùa đông thường có tuyết rơi." },
+      { tc: "聽說玉山那裡的風景美得像畫一樣。", py: "Tīngshuō Yùshān nàlǐ de fēngjǐng měi de xiàng huà yíyàng.", vn: "Nghe nói phong cảnh ở Ngọc Sơn đẹp giống như một bức tranh vậy." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "紐約", pinyin: "Niǔyuē", hanViet: "Nữu Ước",
+    image: "",
+    radical: "紐 (Bộ Mịch 糸), 約 (Bộ Mịch 糸). Từ mượn dịch âm quốc tế.",
+    explanation: "Danh từ riêng: Thành phố New York (Mỹ).",
+    compounds: [
+      { tc: "約會", py: "yuēhuì", vn: "hẹn hò / cuộc hẹn" }
+    ],
+    examples: [
+      { tc: "我去年五月在紐約玩了兩個星期。", py: "Wǒ qùnián wǔ yuè zài Niǔyuē wán le liǎng ge xīngqí.", vn: "Tháng Năm năm ngoái tôi đã đi chơi ở New York hai tuần." },
+      { tc: "紐約是一家非常有名的大城市。", py: "Niǔyuē shì yì jiā fēicháng yǒumíng de dà chéngshì.", vn: "New York là một thành phố lớn vô cùng nổi tiếng." },
+      { tc: "他想去紐約的大學念書。", py: "Tā xiǎng qù Niǔyuē de dàxué niànshū.", vn: "Anh ấy muốn đi học đại học ở New York." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "下雪", pinyin: "xiàxuě", hanViet: "Hạ tuyết",
+    image: "",
+    radical: "下 (Bộ Nhất 一), 雪 (Bộ Vũ 雨 - liên quan đến thời tiết khí tượng).",
+    explanation: "Động từ (ly hợp): Tuyết rơi.",
+    compounds: [
+      { tc: "下雨", py: "xiàyǔ", vn: "mưa rơi" },
+      { tc: "雪人", py: "xuěrén", vn: "người tuyết" }
+    ],
+    examples: [
+      { tc: "很高的山會下雪，玉山常下雪。", py: "Hěn gāo de shān huì xiàxuě, Yùshān cháng xiàxuě.", vn: "Núi rất cao sẽ có tuyết rơi, Ngọc Sơn thường xuyên có tuyết." },
+      { tc: "美國的冬天什麼時候開始下雪？", py: "Měiguó de dōngtiān shénme shíhòu kāishǐ xiàxuě?", vn: "Mùa đông ở Mỹ khi nào bắt đầu có tuyết rơi?" },
+      { tc: "一看到下雪，外國學生都很高興。", py: "Yí kàndào xiàxuě, wàiguó xuéshēng dōu hěn gāoxìng.", vn: "Vừa nhìn thấy tuyết rơi, học sinh nước ngoài đều rất vui vẻ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "十二月底", pinyin: "shí'èryuè dǐ", hanViet: "Thập nhị nguyệt để",
+    image: "",
+    radical: "十 (Bộ Thập 十), 二 (Bộ Nhị 二), 月 (Bộ Nguyệt 月), 底 (Bộ Nghiễm 广 - phần dưới đáy).",
+    explanation: "Danh từ thời gian: Cuối tháng Mười hai.",
+    compounds: [
+      { tc: "月底", py: "yuèdǐ", vn: "cuối tháng" },
+      { tc: "年底", py: "niándǐ", vn: "cuối năm" }
+    ],
+    examples: [
+      { tc: "我打算十二月底回美國看父母。", py: "Wǒ dǎsuàn shí'èr yuè dǐ huí Měiguó kàn fùmǔ.", vn: "Tôi dự định cuối tháng Mười hai về Mỹ thăm bố mẹ." },
+      { tc: "十二月底的時候，天氣已經非常冷了。", py: "Shí'èr yuè dǐ de shíhòu, tiānqì yǐjīng fēicháng lěng le.", vn: "Vào thời điểm cuối tháng Mười hai, thời tiết đã rất lạnh rồi." },
+      { tc: "這筆學費一定要在十二月底以前付。", py: "Zhè bǐ xuéfèi yídìng yào zài shí'èr yuè dǐ yǐqián fù.", vn: "Khoản học phí này nhất định phải trả trước cuối tháng Mười hai." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "雨", pinyin: "yǔ", hanViet: "Vũ",
+    image: "",
+    radical: "Bộ Vũ (雨) hình ảnh hạt mưa rơi từ trên trời xuống.",
+    explanation: "Danh từ: Mưa.",
+    compounds: [
+      { tc: "下雨", py: "xiàyǔ", vn: "mưa rơi" },
+      { tc: "雨衣", py: "yǔyī", vn: "áo mưa" },
+      { tc: "雨傘", py: "yǔsǎn", vn: "ô che mưa" }
+    ],
+    examples: [
+      { tc: "雨下得這麼大，妳怎麼沒帶傘呢？", py: "Yǔ xià de zhème dà, nǐ zěnme méi dài sǎn ne?", vn: "Mưa rơi lớn như thế này, sao bạn lại không mang ô nhỉ?" },
+      { tc: "你看！雨停了，我們出去玩吧。", py: "Nǐ kàn! Yǔ tíng le, wǒmen chūqù wán ba.", vn: "Bạn nhìn xem! Mưa tạnh rồi, chúng ta ra ngoài chơi thôi." },
+      { tc: "颱風來的時候, 風和雨都很大。", py: "Táifēng lái de shíhòu, fēng hàn yǔ dōu hěn dà.", vn: "Lúc bão đến, gió và mưa đều rất lớn." }
+    ],
+    idiom: "風調雨順 (Fēngtiáo yǔshùn) - Mưa thuận gió hòa.", level: "TOCFL A"
+  },
+  {
+    word: "傘", pinyin: "sǎn", hanViet: "Tản",
+    image: "",
+    radical: "Bộ Nhân (人) che trên cấu trúc xương ô hình chữ Thập.",
+    explanation: "Danh từ: Ô, dù.",
+    compounds: [
+      { tc: "雨傘", py: "yǔsǎn", vn: "ô che mưa" },
+      { tc: "帶傘", py: "dài sǎn", vn: "mang ô" }
+    ],
+    examples: [
+      { tc: "我昨天帶傘了，可是今天忘了帶。", py: "Wǒ zuótiān dài sǎn le, kěshì jīntiān wàng le dài.", vn: "Hôm qua tôi có mang ô, nhưng hôm nay quên mang mất rồi." },
+      { tc: "太好了！謝謝你的傘，再見。", py: "Tài hǎo le! Xièxie nǐ de sǎn, zàijiàn.", vn: "Tuyệt quá! Cảm ơn chiếc ô của bạn, tạm biệt." },
+      { tc: "雨下得那麼大，快去買一把傘吧。", py: "Yǔ xià de nàme dà, kuài qù mǎi yì bǎ sǎn ba.", vn: "Mưa rơi lớn như thế, mau đi mua một chiếc ô đi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "颱風", pinyin: "táifēng", hanViet: "Đài phong",
+    image: "",
+    radical: "颱 (Bộ Phong 風), 風 (Bộ Phong 風).",
+    explanation: "Danh từ: Bão, bão nhiệt đới.",
+    compounds: [
+      { tc: "颱風天", py: "táifēngtiān", vn: "ngày bão" },
+      { tc: "颳風", py: "guāfēng", vn: "gió thổi" }
+    ],
+    examples: [
+      { tc: "這裡每年夏天都有颱風。", py: "Zhèlǐ měi nián xiàtiān dōu yǒu táifēng.", vn: "Ở đây mỗi năm mùa hè đều có bão." },
+      { tc: "電視新聞說，這次的颱風會比上次的更大。", py: "Diànshì xīnwén shuō, zhè cì de táifēng huì bǐ shàng cì de gèng dà.", vn: "Tin tức tivi nói, cơn bão lần này sẽ lớn hơn lần trước." },
+      { tc: "希望這次的颱風沒有上次的那麼可怕。", py: "Xīwàng zhè cì de táifēng méiyǒu shàng cì de nàme kěpà.", vn: "Hy vọng cơn bão lần này không đáng sợ như lần trước." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "要", pinyin: "yào", hanViet: "Yếu",
+    image: "",
+    radical: "Bộ Á (襾) che trên bộ Nữ (女).",
+    explanation: "Động từ năng nguyện: Sẽ, sắp (biểu thị xu hướng hành động sắp xảy ra).",
+    compounds: [
+      { tc: "快要", py: "kuàiyào", vn: "sắp sửa" },
+      { tc: "不要", py: "búyào", vn: "đừng / không muốn" }
+    ],
+    examples: [
+      { tc: "颱風快要來了，出門要多小心。", py: "Táifēng kuàiyào lái le, chūmén yào duō xiǎoxīn.", vn: "Bão sắp sửa đến rồi, ra ngoài phải cẩn thận nhiều." },
+      { tc: "新年快要到了，你想回去看父母嗎？", py: "Xīnnián kuàiyào dào le, nǐ xiǎng huíqù kàn fùmǔ ma?", vn: "Năm mới sắp đến rồi, bạn có muốn về thăm bố mẹ không?" },
+      { tc: "雨快要停了，我們再等兩分鐘吧。", py: "Yǔ kuàiyào tíng le, wǒmen zài děng liǎng fēnzhōng ba.", vn: "Mưa sắp tạnh rồi, chúng ta đợi thêm hai phút nữa đi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "夏天", pinyin: "xiàtiān", hanViet: "Hạ thiên",
+    image: "",
+    radical: "夏 (Bộ Tuī 夂), 天 (Bộ Đại 大).",
+    explanation: "Danh từ: Mùa hè.",
+    compounds: [
+      { tc: "夏季", py: "xiàjì", vn: "mùa hè (văn viết)" },
+      { tc: "夏令營", py: "xiàlìngyíng", vn: "trại hè" }
+    ],
+    examples: [
+      { tc: "臺灣的夏天常有颱風。", py: "Táiwān de xiàtiān cháng yǒu táifēng.", vn: "Mùa hè ở Đài Loan thường xuyên có bão." },
+      { tc: "夏天來的時候，天氣非常熱。", py: "Xiàtiān lái de shíhòu, tiānqì fēicháng rè.", vn: "Khi mùa hè đến, thời tiết vô cùng nóng." },
+      { tc: "這家店夏天賣很多冰紅茶。", py: "Zhè jiā diàn xiàtiān mài hěnduō bīng hóngchá.", vn: "Cửa hàng này mùa hè bán rất nhiều hồng trà đá." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "濕", pinyin: "shī", hanViet: "Thấp",
+    image: "",
+    radical: "Bộ Thủy (氵) biểu thị trạng thái ẩm ướt liên quan đến nước.",
+    explanation: "Tính từ: Ướt, ẩm ướt.",
+    compounds: [
+      { tc: "濕濕 de", py: "shīshī de", vn: "ướt nhẹp / ẩm ẩm" },
+      { tc: "潮濕", py: "cháoshī", vn: "ẩm thấp" }
+    ],
+    examples: [
+      { tc: "下雨的時候，哪裡都濕濕的。", py: "Xiàyǔ de shíhòu, nǎlǐ dōu shīshī de.", vn: "Lúc trời mưa, chỗ nào cũng ướt nhẹp." },
+      { tc: "衣服還沒乾，濕濕的，不能穿。", py: "Yīfú hái méi gān, shīshī de, bùnéng chuān.", vn: "Quần áo vẫn chưa khô, còn ướt nhẹp, không mặc được." },
+      { tc: "外面的路都是濕的，開車要多小心。", py: "Wàimiàn de lù dōu shì shī de, kāichē yào duō xiǎoxīn.", vn: "Đường sá bên ngoài đều ướt cả, lái xe phải cẩn thận nhiều." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "討厭", pinyin: "tǎoyàn", hanViet: "Thảo yếm",
+    image: "",
+    radical: "討 (Bộ Ngôn 言), 厭 (Bộ Hán 厂).",
+    explanation: "Tính từ / Động từ: Đáng ghét, ghét, không thích.",
+    compounds: [
+      { tc: "討好", py: "tǎohǎo", vn: "nịnh bợ / lấy lòng" }
+    ],
+    examples: [
+      { tc: "下雨天哪裡都濕濕的，真討厭。", py: "Xiàyǔtiān nǎlǐ dōu shīshī de, zhēn tǎoyàn.", vn: "Ngày mưa chỗ nào cũng ướt nhẹp, thật đáng ghét." },
+      { tc: "我最討厭一邊吃東西一邊看手機的人。", py: "Wǒ zuì tǎoyàn yìbiān chī dōngxi yìbiān kàn shǒujī de rén.", vn: "Tôi ghét nhất những người vừa ăn đồ ăn vừa xem điện thoại." },
+      { tc: "他不喜歡冬天，因爲他很討厭冷的天氣。", py: "Tā bù xǐhuān dōngtiān, yīnwèi tā hěn tǎoyàn lěng de tiānqì.", vn: "Anh ấy không thích mùa đông, bởi vì anh ấy rất ghét thời tiết lạnh." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "新聞", pinyin: "xīnwén", hanViet: "Tân văn",
+    image: "",
+    radical: "新 (Bộ Cân 斤), 聞 (Bộ Môn 門 bên ngoài, bộ Nhĩ 耳 bên trong - nghe ngóng cửa tai).",
+    explanation: "Danh từ: Tin tức, thời sự.",
+    compounds: [
+      { tc: "電視新聞", py: "diànshì xīnwén", vn: "tin tức truyền hình" },
+      { tc: "新聞記者", py: "xīnwén jìzhě", vn: "phóng viên nhà báo" }
+    ],
+    examples: [
+      { tc: "電視新聞說，這次的颱風會比上次的更大。", py: "Diànshì xīnwén shuō, zhè cì de táifēng huì bǐ shàng cì de gèng dà.", vn: "Tin tức tivi nói, cơn bão lần này sẽ lớn hơn lần trước." },
+      { tc: "爺爺每天早上都坐在客廳看新聞。", py: "Yéye měitiān zǎoshàng dōu zuò zài kètīng kàn xīnwén.", vn: "Ông nội mỗi sáng đều ngồi ở phòng khách xem tin tức." },
+      { tc: "這是一件非常有名的國際新聞。", py: "Zhè shì yí jiàn fēicháng yǒumíng de guójì xīnwén.", vn: "Đây là một tin tức quốc tế vô cùng nổi tiếng." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "更", pinyin: "gèng", hanViet: "Cánh",
+    image: "",
+    radical: "Bộ Viết (曰).",
+    explanation: "Phó từ: Càng, gợn hơn (dùng trong câu so sánh tăng tiến).",
+    compounds: [
+      { tc: "更好", py: "gèng hǎo", vn: "tốt hơn nữa / càng tốt" },
+      { tc: "更多", py: "gèng duō", vn: "nhiều hơn nữa" }
+    ],
+    examples: [
+      { tc: "這次的颱風會比上次的更大，請大家多小心。", py: "Zhè cì de táifēng huì bǐ shàng cì de gèng dà, qǐng dàjiā duō xiǎoxīn.", vn: "Cơn bão lần này sẽ càng lớn hơn lần trước, xin mọi người hãy cẩn thận nhiều hơn." },
+      { tc: "有了網路，找這樣的工作就更方便了。", py: "Yǒu le wǎnglù, zhǎo zhèyàng de gōngzuò jiù gèng fāngbiàn le.", vn: "Có mạng internet rồi, tìm công việc kiểu như thế này lại càng thuận tiện hơn." },
+      { tc: "這隻新手機比我那隻更好看。", py: "Zhè zhī xīn shǒujī bǐ wǒ nà zhī gèng hǎokàn.", vn: "Chiếc điện thoại mới này trông càng đẹp hơn chiếc kia của tôi." }
+    ],
+    idiom: "更上層樓 (Gèng shàng céng lóu) - Lên cao một tầng lầu nữa (Cố gắng tiến bộ hơn).", level: "TOCFL A"
+  },
+  {
+    word: "大家", pinyin: "dàjiā", hanViet: "Đại gia",
+    image: "",
+    radical: "大 (Bộ Đại 大), 家 (Bộ Miên 宀).",
+    explanation: "Danh từ: Mọi người, cả nhà.",
+    compounds: [
+      { tc: "大家好", py: "dàjiā hǎo", vn: "chào mọi người" }
+    ],
+    examples: [
+      { tc: "颱風快來了，請大家多小心。", py: "Táifēng kuài lái le, qǐng dàjiā duō xiǎoxīn.", vn: "Bão sắp đến rồi, xin mọi người hãy cẩn thận nhiều." },
+      { tc: "祝大家生日快樂、萬事如意！", py: "Zhù dàjiā xīnnián kuàilè, wànshì rúyì!", vn: "Chúc mọi người năm mới vui vẻ, vạn sự như ý!" },
+      { tc: "今天晚上，大家想不想一起去吃臺灣菜？", py: "Jīntiān wǎnshàng, dàjiā xiǎng bù xiǎng yìqǐ qù chī Táiwāncài?", vn: "Tối hôm nay mọi người có muốn cùng nhau đi ăn món ăn Đài Loan không?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "小心", pinyin: "xiǎoxīn", hanViet: "Tiểu tâm",
+    image: "",
+    radical: "小 (Bộ Tiểu 小), 心 (Bộ Tâm 心). Giữ tâm trí chú ý từ chi tiết nhỏ.",
+    explanation: "Tính từ / Động từ: Cẩn thận, chú ý cẩn trọng.",
+    compounds: [
+      { tc: "不小心", py: "bù xiǎoxīn", vn: "không cẩn thận / sơ ý" },
+      { tc: "心意", py: "xīnyì", vn: "tấm lòng" }
+    ],
+    examples: [
+      { tc: "外面雨下得很大，開車要多小心。", py: "Wàimiàn yǔ xià de hěn dà, kāichē yào duō xiǎoxīn.", vn: "Bên ngoài mưa rơi rất lớn, lái xe phải cẩn thận nhiều." },
+      { tc: "路上有很多公共汽車，走路請小心。", py: "Lùshàng yǒu hěnduō gōnggòng qìchē, zǒulù qǐng xiǎoxīn.", vn: "Trên đường có rất nhiều xe buýt, đi bộ xin hãy cẩn thận." },
+      { tc: "他不小心把那碗酸辣湯給打翻了。", py: "Tā bù xiǎoxīn bǎ nà wǎn suānlàtāng gěi dǎfān le.", vn: "Anh ấy không cẩn thận đã làm đổ mất bát canh chua cay kia rồi." }
+    ],
+    idiom: "小心翼翼 (Xiǎoxīn yìyì) - Cực kỳ cẩn trọng, dè dặt từng tí một.", level: "TOCFL A"
+  },
+  {
+    word: "可怕", pinyin: "kěpà", hanViet: "Khả phá",
+    image: "",
+    radical: "可 (Bộ Khẩu 口), 怕 (Bộ Tâm 忄). Đáng để lo sợ.",
+    explanation: "Tính từ: Đáng sợ, khủng khiếp.",
+    compounds: [
+      { tc: "害怕", py: "hàipà", vn: "lo sợ / sợ hãi" },
+      { tc: "可愛", py: "kě'ài", vn: "đáng yêu" }
+    ],
+    examples: [
+      { tc: "希望這次的颱風沒有上次的那麼可怕。", py: "Xīwàng zhè cì de táifēng méiyǒu shàng cì de nàme kěpà.", vn: "Hy vọng cơn bão lần này không đáng sợ như lần trước." },
+      { tc: "生病發燒是一件很可怕的事情。", py: "Shēngbìng fāshāo shì yí jiàn hěn kěpà de shìqíng.", vn: "Bị ốm phát sốt là một việc rất đáng sợ." },
+      { tc: "聽說那座大山冬天的風非常可怕。", py: "Tīngshuō nà zuò dàshān dōngtiān de fēng fēicháng kěpà.", vn: "Nghe nói gió mùa đông của ngọn núi lớn đó vô cùng đáng sợ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "停", pinyin: "tíng", hanViet: "Đình",
+    image: "",
+    radical: "Bộ Nhân (人/亻) kết hợp với chữ Đình (亭).",
+    explanation: "Động từ: Ngừng, tạnh, dừng lại (hành động, thời tiết).",
+    compounds: [
+      { tc: "停車場", py: "tíngchēchǎng", vn: "bãi đỗ xe" },
+      { tc: "停電", py: "tíngdiàn", vn: "mất điện" }
+    ],
+    examples: [
+      { tc: "如玉，妳看！雨停了。", py: "Rúyù, nǐ kàn! Yǔ tíng le.", vn: "Như Ngọc, bạn nhìn xem! Mưa tạnh rồi." },
+      { tc: "風停了以後，天氣變得很舒服。", py: "Fēng tíng le yǐhòu, tiānqì biàn de hěn shūfú.", vn: "Sau khi gió ngừng, thời tiết trở nên rất dễ chịu." },
+      { tc: "請幫我把機車停在旅館門口 。", py: "Qǐng bāng wǒ bǎ jīchē tíng zài lǚguǎn ménkǒu.", vn: "Xin hãy giúp tôi đỗ xe máy ở cổng khách sạn." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "下雨", pinyin: "xiàyǔ", hanViet: "Hạ vũ",
+    image: "",
+    radical: "下 (Bộ Nhất 一), 雨 (Bộ Vũ 雨).",
+    explanation: "Động từ (ly hợp): Mưa, trời mưa.",
+    compounds: [
+      { tc: "下大雨", py: "xià dàyǔ", vn: "mưa lớn" },
+      { tc: "雨衣", py: "yǔyī", vn: "áo mưa" }
+    ],
+    examples: [
+      { tc: "外面下雨了，妳怎麼沒帶傘呢？", py: "Wàimiàn xiàyǔ le, nǐ zěnme méi dài sǎn ne?", vn: "Bên ngoài trời mưa rồi, sao bạn lại không mang ô nhỉ?" },
+      { tc: "臺灣的夏天常常下大雨。", py: "Táiwān de xiàtiān chángcháng xià dàyǔ.", vn: "Mùa hè ở Đài Loan thường xuyên mưa lớn." },
+      { tc: "下雨天出門做什麼都很不方便。", py: "Xiàyǔtiān chūmén zuò shénme dōu hěn bù fāngbiàn.", vn: "Ngày mưa ra ngoài làm việc gì cũng rất bất tiện." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "這次", pinyin: "zhè cì", hanViet: "Giá thứ",
+    image: "",
+    radical: "這 (Bộ Sước 辶), 次 (Bộ Khiếm 欠). Lượt này.",
+    explanation: "Danh từ chỉ số lượng: Lần này.",
+    compounds: [
+      { tc: "上次", py: "shàng cì", vn: "lần trước" },
+      { tc: "下次", py: "xià cì", vn: "lần sau" }
+    ],
+    examples: [
+      { tc: "希望這次的颱風沒有上次的那麼可怕。", py: "Xīwàng zhè cì de táifēng méiyǒu shàng cì de nàme kěpà.", vn: "Hy vọng cơn bão lần này không đáng sợ như lần trước." },
+      { tc: "這次的中文考試，安同的成績很好。", py: "Zhè cì de Zhōngwén kǎoshì, Āntóng de chéngjī hěn hǎo.", vn: "Kỳ thi tiếng Trung lần này, thành tích của An Đồng rất tốt." },
+      { tc: "謝謝你這次陪我到故宮博物院參觀。", py: "Xièxie nǐ zhè cì péi wǒ dào Gùgōng Bówùyuàn cānguān.", vn: "Cảm ơn bạn lần này đã đi cùng tôi đến Bảo tàng Cố Cung tham quan." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "上次", pinyin: "shàng cì", hanViet: "Thượng thứ",
+    image: "",
+    radical: "上 (Bộ Nhất 一), 次 (Bộ Khiếm 欠). Lượt trước.",
+    explanation: "Danh từ chỉ số lượng: Lần trước.",
+    compounds: [
+      { tc: "這次", py: "zhè cì", vn: "lần này" },
+      { tc: "下次", py: "xià cì", vn: "lần sau" }
+    ],
+    examples: [
+      { tc: "電視新聞說，這次的颱風會比上次的更大。", py: "Diànshì xīnwén shuō, zhè cì de táifēng huì bǐ shàng cì de gèng dà.", vn: "Tin tức tivi nói, cơn bão lần này sẽ lớn hơn lần trước." },
+      { tc: "上次去花蓮玩的時候，那家旅館很不乾淨。", py: "Shàng cì qù Huālián wán de shíhòu, nà jiā lǚguǎn hěn bù gānjìng.", vn: "Lần trước lúc đi Hoa Liên chơi, khách sạn đó rất không sạch sẽ." },
+      { tc: "你上次買的那隻新手機要多少錢？", py: "Nǐ shàng cì mǎi de nà zhī xīn shǒujī yào duōshǎo qián?", vn: "Chiếc điện thoại mới bạn mua lần trước giá bao nhiêu tiền?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "慢走", pinyin: "màn zǒu", hanViet: "Mạn tẩu",
+    image: "",
+    radical: "慢 (Bộ Tâm 忄), 走 (Bộ Tẩu 走). Đi thong thả.",
+    explanation: "Cụm từ giao tiếp cố định: Đi thong thả, đi cẩn thận nhé (Lời tiễn khách lịch sự của người Hoa).",
+    compounds: [
+      { tc: "走路", py: "zǒulù", vn: "đi bộ" },
+      { tc: "慢點", py: "màn diǎn", vn: "chậm một chút" }
+    ],
+    examples: [
+      { tc: "不客氣。小心慢走，再見。", py: "Bú kèqì. Xiǎoxīn màn zǒu, zàijiàn.", vn: "Không có gì. Cẩn thận đi thong thả nhé, tạm biệt." },
+      { tc: "林先生，謝謝您今天來，您慢走。", py: "Lín xiānshēng, xièxie nín jīntiān lái, nín màn zǒu.", vn: "Ông Lâm, cảm ơn ông hôm nay đã đến, ông đi thong thả ạ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+// =========================================================================
+  // --- TỪ VỰNG BÀI 15 - GIÁO TRÌNH ĐƯƠNG ĐẠI 1 (BẢN CHUẨN SẠCH LỖI 100%) ---
+  // =========================================================================
+  {
+    word: "醫生", pinyin: "yīshēng", hanViet: "Y sinh",
+    image: "",
+    radical: "醫 (Bộ Dậu 酉), 生 (Bộ Sinh 生).",
+    explanation: "Danh từ: Bác sĩ, thầy thuốc.",
+    compounds: [
+      { tc: "醫院", py: "yīyuàn", vn: "bệnh viện" },
+      { tc: "中醫", py: "zhōngyī", vn: "đông y / thầy thuốc đông y" }
+    ],
+    examples: [
+      { tc: "那裡的醫生很好，對學生也很客氣。", py: "Nàlǐ de yīshēng hěn hǎo, duì xuéshēng yě hěn kèqì.", vn: "Bác sĩ ở đó rất tốt, đối với học sinh cũng rất lịch sự." },
+      { tc: "醫生看了一下我的喉嚨，說我感冒了。", py: "Yīshēng kàn le yíxià wǒ de hóulóng, shuō wǒ gǎnmào le.", vn: "Bác sĩ xem qua cổ họng của tôi một chút rồi nói tôi bị cảm cúm rồi." },
+      { tc: "生病的時候應該聽醫生的話，多休息。", py: "Shēngbìng de shíhòu yīnggāi tīng yīshēng de huà, duō xiūxí.", vn: "Lúc bị ốm nên nghe lời bác sĩ, nghỉ ngơi nhiều vào." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "一直", pinyin: "yìzhí", hanViet: "Nhất trực",
+    image: "",
+    radical: "一 (Bộ Nhất 一), 直 (Bộ Mục 目).",
+    explanation: "Phó từ: Luôn luôn, liên tục, suốt (biểu thị hành động, trạng thái diễn ra không ngừng nghỉ).",
+    compounds: [
+      { tc: "直接", py: "zhíjiē", vn: "trực tiếp" },
+      { tc: "直走", py: "zhízǒu", vn: "đi thẳng" }
+    ],
+    examples: [
+      { tc: "我一直流鼻水，頭很痛，胃口很差。", py: "Wǒ yìzhí liú bíshuǐ, tóu hěn tòng, wèikǒu hěn chà.", vn: "Tôi cứ chảy nước mũi suốt, đầu rất đau, ăn uống rất kém." },
+      { tc: "從今天早上到現在，雨一直下個不停。", py: "Cóng jīntiān zǎoshàng dào xiànzài, yǔ yìzhí xià gè bù tíng.", vn: "Từ sáng nay đến bây giờ, mưa cứ rơi liên tục không ngừng." },
+      { tc: "這條馬路一直走五分鐘就到捷運站了。", py: "Zhè tiáo mǎlù yìzhí zǒu wǔ fēnzhōng jiù dào jiéyùn zhàn le.", vn: "Con đường lớn này cứ đi thẳng năm phút là đến trạm tàu điện ngầm rồi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "流", pinyin: "liu", hanViet: "Lưu",
+    image: "",
+    radical: "Bộ Thủy (氵) liên quan đến sự chuyển động của chất lỏng.",
+    explanation: "Động từ: Chảy, lưu thông.",
+    compounds: [
+      { tc: "流鼻水", py: "liú bíshuǐ", vn: "chảy nước mũi" },
+      { tc: "流汗", py: "liúhàn", vn: "chảy mồ hôi / ra mồ hôi" }
+    ],
+    examples: [
+      { tc: "感冒的時候常流鼻水，真不舒服。", py: "Gǎnmào de shíhòu cháng liú bíshuǐ, zhēn bù shūfú.", vn: "Lúc bị cảm cúm thường xuyên chảy nước mũi, thật không dễ chịu chút nào." },
+      { tc: "天氣太熱了，走路去學校流了許多汗。", py: "Tiānqì tài rè le, zǒulù qù xuéxiào liú le xǔduō hàn.", vn: "Thời tiết nóng quá, đi bộ đến trường ra bao nhiêu là mồ hôi." },
+      { tc: "你看，那條河的水一直往外流。", py: "Nǐ kàn, nà tiáo hé de shuǐ yìzhí wǎng wài liú.", vn: "Bạn nhìn xem, nước của con sông kia cứ chảy liên tục ra ngoài." }
+    ],
+    idiom: "流連忘返 (Liúlián wàngfǎn) - Bị cuốn hút đến mức lưu luyến quên cả lối về.", level: "TOCFL A"
+  },
+  {
+    word: "鼻水", pinyin: "bíshuǐ", hanViet: "Tị thủy",
+    image: "",
+    radical: "鼻 (Bộ Tị 鼻 - cái mũi), 水 (Bộ Thủy 水).",
+    explanation: "Danh từ: Nước mũi, dịch mũi.",
+    compounds: [
+      { tc: "鼻子", py: "bízi", vn: "cái mũi" },
+      { tc: "流鼻水", py: "liú bíshuǐ", vn: "chảy nước mũi" }
+    ],
+    examples: [
+      { tc: "她因爲感冒，流了四、五天的鼻水了。", py: "Tā yīnwèi gǎnmào, liú le sì, wǔ tiān de bíshuǐ le.", vn: "Cô ấy vì bị cảm cúm nên đã chảy nước mũi bốn, năm ngày rồi." },
+      { tc: "天氣冷的時候，很多人容易流鼻水。", py: "Tiānqì lěng de shíhòu, hěnduō rén róngyì liú bíshuǐ.", vn: "Lúc thời tiết lạnh, rất nhiều người dễ bị chảy nước mũi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "頭", pinyin: "tóu", hanViet: "Đầu",
+    image: "",
+    radical: "Bộ Hiệt (頁) liên quan đến đầu, trang giấy.",
+    explanation: "Danh từ: Cái đầu, phần đầu.",
+    compounds: [
+      { tc: "頭痛", py: "tóutòng", vn: "đau đầu" },
+      { tc: "鐘頭", py: "zhōngtóu", vn: "tiếng đồng hồ" },
+      { tc: "頭髮", py: "tóufǎ", vn: "tóc" }
+    ],
+    examples: [
+      { tc: "我今天身體不舒服，頭很痛。", py: "Wǒ jīntiān shēntǐ bù shūfú, tóu hěn tòng.", vn: "Hôm nay cơ thể tôi khó chịu, đầu rất đau." },
+      { tc: "上網寫功課寫了四個多鐘頭，頭都大 了。", py: "Shàngwǎng xiě gōngkè xiě le sì gè duō zhōngtóu, tóu dōu dà le.", vn: "Lên mạng làm bài tập hơn bốn tiếng đồng hồ, đầu muốn to ra luôn rồi." }
+    ],
+    idiom: "無。", level: "TOCFL A"
+  },
+  {
+    word: "痛", pinyin: "tòng", hanViet: "Thống",
+    image: "",
+    radical: "Bộ Nạch (疒) liên quan đến bệnh tật, đau đớn.",
+    explanation: "Tính từ / Động từ: Đau, đau đớn.",
+    compounds: [
+      { tc: "頭痛", py: "tóutòng", vn: "đau đầu" },
+      { tc: "肚子痛", py: "dùzitòng", vn: "đau bụng" },
+      { tc: "喉嚨痛", py: "hóulóngtòng", vn: "đau cổ họng" }
+    ],
+    examples: [
+      { tc: "昨天晚上我肚子很痛，吐了好幾次。", py: "Zuótiān wǎnshàng wǒ dùzi hěn tòng, tù le hǎo jǐ cì.", vn: "Tối hôm qua bụng tôi rất đau, nôn mấy lần liền." },
+      { tc: "吃冰的東西吃太多，現在牙齒很痛。", py: "Chī bīng de dōngxi chī tài duō, xiànzài yáchǐ hěn tòng.", vn: "Ăn đồ lạnh nhiều quá, bây giờ răng đau buốt rồi." }
+    ],
+    idiom: "痛改前非 (Tònggǎi qiánfēi) - Đau đớn sửa chữa lỗi lầm trước đây.", level: "TOCFL A"
+  },
+  {
+    word: "胃口", pinyin: "wèikǒu", hanViet: "Vị khẩu",
+    image: "",
+    radical: "胃 (Bộ Nhục 月), 口 (Bộ Khẩu 口). Sự thèm ăn của dạ dày và miệng.",
+    explanation: "Danh từ: Khẩu vị, sự thèm ăn, cảm giác muốn ăn.",
+    compounds: [
+      { tc: "胃口好", py: "wèikǒu hǎo", vn: "ăn uống ngon miệng" },
+      { tc: "胃口差", py: "wèikǒu chà", vn: "ăn uống kém / chán ăn" }
+    ],
+    examples: [
+      { tc: "我一直在生病，所以胃口很差，什麼都不想吃。", py: "Wǒ yìzhí zài shēngbìng, suǒyǐ wèikǒu hěn chà, shénme dōu bù xiǎng chī.", vn: "Tôi cứ bị ốm suốt nên ăn uống rất kém, chẳng muốn ăn cái gì." },
+      { tc: "今天天氣很舒服，我的胃口很好，吃了很多小籠包。", py: "Jīntiān tiānqì hěn shūfú, wǒ de wèikǒu hěn hǎo, chī le hěnduō xiǎoxóngbāo.", vn: "Hôm nay thời tiết dễ chịu, khẩu vị của tôi rất tốt, đã ăn rất nhiều tiểu long bao." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "差", pinyin: "chà", hanViet: "Sai",
+    image: "",
+    radical: "Bộ Công (工).",
+    explanation: "Tính từ: Kém, tồi, tồi tệ, không tốt.",
+    compounds: [
+      { tc: "差不多", py: "chàbùduō", vn: "xấp xỉ / gần giống nhau" },
+      { tc: "成績差", py: "chéngjī chà", vn: "thành tích kém" }
+    ],
+    examples: [
+      { tc: "生病的時候，他的臉色和胃口都很差。", py: "Shēngbìng de shíhòu, tā de liǎnsè hàn wèikǒu dōu hěn chà.", vn: "Lúc bị ốm, sắc mặt và khẩu vị ăn uống của anh ấy đều rất tệ." },
+      { tc: "要是你不努力念書，考試成績就會很差。", py: "Yàoshì nǐ bù nǔlì niànshū, kǎoshì chéngjī jiù huì hěn chà.", vn: "Nếu như bạn không chăm chỉ học hành thì thành tích thi cử sẽ rất kém." },
+      { tc: "這兩隻新手機的功能差不多。", py: "Zhè liǎng zhī xīn shǒujī de gōngnéng chàbùduō.", vn: "Chức năng của hai chiếc điện thoại mới này xấp xỉ như nhau." }
+    ],
+    idiom: "千差萬別 (Qiān chā wàn bié) - Muôn hình muôn vẻ, khác biệt trời vực.", level: "TOCFL A"
+  },
+  {
+    word: "喉嚨", pinyin: "hóulóng", hanViet: "Hầu lung",
+    image: "",
+    radical: "喉 (Bộ Khẩu 口), 嚨 (Bộ Khẩu 口). Cả hai chữ đều có bộ Khẩu chỉ bộ phận ở miệng họng.",
+    explanation: "Danh từ: Cổ họng, họng.",
+    compounds: [
+      { tc: "喉嚨痛", py: "hóulóngtòng", vn: "đau cổ họng" },
+      { tc: "喉嚨發炎", py: "hóulóng fāyán", vn: "viêm họng" }
+    ],
+    examples: [
+      { tc: "醫生看看我的喉嚨，說喉嚨有一點發炎。", py: "Yīshēng kànkan wǒ de hóulóng, shuō hóulóng yǒu yìdiǎn fāyán.", vn: "Bác sĩ xem cổ họng của tôi rồi nói cổ họng hơi viêm một chút." },
+      { tc: "感冒以後，我不但流鼻水，喉嚨也很痛。", py: "Gǎnmào yǐhòu, wǒ búdàn liú bíshuǐ, hóulóng yě hěn tòng.", vn: "Sau khi bị cảm, tôi không những chảy nước mũi mà cổ họng cũng rất đau." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "發炎", pinyin: "fāyán", hanViet: "Phát viêm",
+    image: "",
+    radical: "發 (Bộ Bát 癶), 炎 (Gồm hai chữ Hỏa 火 chồng lên nhau biểu thị sự nóng sốt, sưng tấy).",
+    explanation: "Động từ (ly hợp): Viêm, bị sưng viêm.",
+    compounds: [
+      { tc: "喉嚨發炎", py: "hóulóng fāyán", vn: "viêm họng" },
+      { tc: "發燒", py: "fāshāo", vn: "phát sốt" }
+    ],
+    examples: [
+      { tc: "因爲她的喉嚨發炎了，所以說話很難聽。", py: "Yīnwèi tā de hóulóng fāyán le, suǒyǐ shuōhuà hěn nántīng.", vn: "Bởi vì cổ họng của cô ấy bị viêm rồi nên giọng nói rất khó nghe." },
+      { tc: "醫生說喉嚨有一點發炎，吃一包藥就好了。", py: "Yīshēng shuō hóulóng yǒu yìdiǎn fāyán, chī yì bāo yào jiù hǎo le.", vn: "Bác sĩ nói cổ họng hơi viêm một chút, uống một gói thuốc là khỏi thôi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "生病", pinyin: "shēngbìng", hanViet: "Sinh bệnh",
+    image: "",
+    radical: "生 (Bộ Sinh 生), 病 (Bộ Nạch 疒).",
+    explanation: "Động từ (ly hợp): Bị ốm, đổ bệnh, sinh bệnh.",
+    compounds: [
+      { tc: "看病", py: "kànbìng", vn: "khám bệnh / đi gặp bác sĩ" },
+      { tc: "病人", py: "bìngrén", vn: "người bệnh / bệnh nhân" }
+    ],
+    examples: [
+      { tc: "請問我生的是什麼病？嚴重嗎？", py: "Qǐngwèn wǒ shēng de  shì shénme bìng? Yánzhòng ma?", vn: "Xin hỏi tôi mắc phải bệnh gì vậy? Có nghiêm trọng không?" },
+      { tc: "請妳跟老師說，我生病了，明天不能上課。", py: "Qǐng nǐ gēn lǎoshī shuō, wǒ shēngbìng le, míngtiān bùnéng shàngkè.", vn: "Nhờ bạn nói với thầy giáo, tôi bị ốm rồi, ngày mai không thể lên lớp." },
+      { tc: "他住在臺灣的時候很少生病。", py: "Tā zhù zài Táiwān de shíhòu hěn shǎo shēngbìng.", vn: "Anh ấy lúc sống ở Đài Loan rất hiếm khi bị ốm." }
+    ],
+    idiom: "💡 Tục ngữ: 病 từ khẩu nhập - Bệnh từ miệng mà vào (病從口入)。", level: "TOCFL A"
+  },
+  {
+    word: "發燒", pinyin: "fāshāo", hanViet: "Phát thiêu",
+    image: "",
+    radical: "發 (Bộ Bát 癶), 燒 (Bộ Hỏa 火 liên quan đến đốt nóng, nhiệt độ cao).",
+    explanation: "Động từ (ly hợp): Phát sốt, bị sốt.",
+    compounds: [
+      { tc: "燒水", py: "shāoshuǐ", vn: "đun nước" },
+      { tc: "感冒發燒", py: "gǎnmào fāshāo", vn: "cảm cúm phát sốt" }
+    ],
+    examples: [
+      { tc: "妳有一點發燒，是感冒，不過沒有關係。", py: "Nǐ yǒu yìdiǎn fāshāo, shì gǎnmào, búguò méiyǒu guānxi.", vn: "Cô bị sốt nhẹ, là cảm cúm, nhưng không sao đâu." },
+      { tc: "昨天晚上他肚子痛，今天早上又發燒了。", py: "Zuótiān wǎnshàng tā dùzitòng, jīntiān zǎoshàng yòu fāshāo le.", vn: "Tối hôm qua cậu ấy đau bụng, sáng nay lại bị sốt rồi." },
+      { tc: "要是小孩子發燒了，一定要快點去看醫生。", py: "Yàoshì xiǎoháizi fāshāo le, yídìng yào kuài diǎn qù kàn yīshēng.", vn: "Nếu như trẻ nhỏ bị sốt, nhất định phải nhanh chóng đi gặp bác sĩ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "感冒", pinyin: "gǎnmào", hanViet: "Cảm mạo",
+    image: "",
+    radical: "感 (Bộ Tâm 心), 冒 (Bộ Mịch 冂).",
+    explanation: "Động từ / Danh từ: Cảm cúm, bị cảm.",
+    compounds: [
+      { tc: "流感", py: "liúgǎn", vn: "cúm mùa / cúm truyền nhiễm" },
+      { tc: "嚴重感冒", py: "yánzhòng gǎnmào", vn: "cảm cúm nặng" }
+    ],
+    examples: [
+      { tc: "因為外面風很大，他沒穿衣服就出門，所以感冒了。", py: "Yīnwèi wcommand fēng hěn dà, tā méi chuān yīfú jiù chūmén, suǒyǐ gǎnmào le.", vn: "Bởi vì bên ngoài gió rất lớn, anh ấy không mặc thêm áo đã ra ngoài nên bị cảm rồi." },
+      { tc: "妳有一點發燒，是感冒，多喝水就好了。", py: "Nǐ yǒu yìdiǎn fāshāo, shì gǎnmào, duō hē shuǐ jiù hǎo le.", vn: "Cô bị sốt nhẹ, là cảm cúm, uống nhiều nước là khỏe thôi." },
+      { tc: "這幾天很多同學都感冒了，不能來上課。", py: "Zhè jǐ tiān hěnduō tóngxué dōu gǎnmào le, bùnéng lái shàngkè.", vn: "Mấy ngày nay rất nhiều bạn học đều bị cảm cúm, không thể đến lớp học." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "藥", pinyin: "yào", hanViet: "Dược",
+    image: "",
+    radical: "Bộ Thảo (艹) liên quan đến cây cỏ, vì thảo dược ngày xưa làm từ cây cỏ.",
+    explanation: "Danh từ: Thuốc, dược phẩm.",
+    compounds: [
+      { tc: "吃藥", py: "chīyào", vn: "uống thuốc" },
+      { tc: "藥局", py: "yàojú", vn: "hiệu thuốc / nhà thuốc" },
+      { tc: "中藥", py: "zhōngyào", vn: "thuốc đông y" }
+    ],
+    examples: [
+      { tc: "請問我得吃藥嗎？一天吃幾次？", py: "Qǐngwèn wǒ děi chī yào ma? Yìtiān chī jǐ cì?", vn: "Xin hỏi tôi có phải uống thuốc không? Một ngày uống mấy lần?" },
+      { tc: "回去把藥吃了，早一點睡覺，很快就會好。", py: "Huíqù bǎ yào chī le, zǎo yìdiǎn shuìjiào, hěn kuài jiù huì hǎo.", vn: "Về nhà uống thuốc đi, ngủ sớm một chút thì sẽ rất nhanh khỏi thôi." },
+      { tc: "我吃了一包藥以後，睡得比昨天好多了。", py: "Wǒ chī le yì bāo yào yǐhòu, shuì de bǐ zuótiān hǎo duō le.", vn: "Sau khi tôi uống một gói thuốc, ngủ ngon hơn hôm qua nhiều rồi." }
+    ],
+    idiom: "💡 Tục ngữ: Thuốc đắng dã tật - 良藥苦口 (Liángyào kǔkǒu)。", level: "TOCFL A"
+  },
+  {
+    word: "藥局", pinyin: "yàojú", hanViet: "Dược cục",
+    image: "",
+    radical: "藥 (Bộ Thảo 艹), 局 (Bộ Sĩ 尸).",
+    explanation: "Danh từ: Hiệu thuốc, nhà thuốc Tây.",
+    compounds: [
+      { tc: "藥房", py: "yàofáng", vn: "tiệm thuốc" },
+      { tc: "郵局", py: "yóujú", vn: "bưu điện" }
+    ],
+    examples: [
+      { tc: "要吃藥的話，妳到學校對面的藥局去拿藥。", py: "Yào chī yào de huà, nǐ dào xuéxiào duìmiàn de yàojú qù ná yào.", vn: "Nếu cần uống thuốc, cô đến hiệu thuốc đối diện trường để lấy thuốc nhé." },
+      { tc: "謝謝妳，我想去藥局買藥就好了，不用看醫生。", py: "Xièxie nǐ, wǒ xiǎng qù yàojú mǎi yào jiù hǎo le, búyòng kàn yīshēng.", vn: "Cảm ơn bạn, tôi muốn đi hiệu thuốc mua thuốc là được rồi, không cần khám bác sĩ đâu." },
+      { tc: "這家藥局賣的藥比較便宜。", py: "Zhè jiā yàojú mài de yào bǐjiào piányí.", vn: "Thuốc bán ở hiệu thuốc này tương đối rẻ hơn." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "拿", pinyin: "ná", hanViet: "Nã",
+    image: "",
+    radical: "Bộ Thủ (手) nằm ở dưới chữ Hợp (合). Dùng tay tụ lại để cầm nắm đồ vật.",
+    explanation: "Động từ: Cầm, nắm, lấy, nhận (đồ vật, thuốc men).",
+    compounds: [
+      { tc: "拿藥", py: "náyào", vn: "lấy thuốc / bốc thuốc" },
+      { tc: "拿筆", py: "nábǐ", vn: "cầm bút" }
+    ],
+    examples: [
+      { tc: "請你幫我拿那把雨傘過來，外面下大雨了。", py: "Qǐng nǐ bāng wǒ bǎ nà bǎ yǔsǎn guòlái, wàimiàn xià dàyǔ le.", vn: "Xin hãy cầm giúp tôi chiếc ô kia lại đây, bên ngoài mưa lớn rồi." },
+      { tc: "醫生開了菜單, 叫我到一樓去拿藥。", py: "Yīshēng kāi le càidān, jiào wǒ dào yì lóu qù ná yào.", vn: "Bác sĩ kê đơn rồi bảo tôi xuống tầng một lấy thuốc." },
+      { tc: "哪一個人在拿水果給如玉吃？", py: "Nǎ yí gè rén zài ná shuǐguǒ gěi Rúyù chī?", vn: "Ai đang lấy trái cây cho Như Ngọc ăn thế?" }
+    ],
+    idiom: "十拿九穩 (Shí ná jiǔ wěn) - Mười phần chắc chín, chắc chắn thành công.", level: "TOCFL A"
+  },
+  {
+    word: "把", pinyin: "bǎ", hanViet: "Bả",
+    image: "",
+    radical: "Bộ Thủ (扌) kết hợp với chữ Ba (巴).",
+    explanation: "Trợ từ / Giới từ: Chữ 'bả' trong câu chữ 把 (đưa tân ngữ lên trước động từ để biểu thị sự xử lý, tác động).",
+    compounds: [
+      { tc: "一把傘", py: "yì bǎ sǎn", vn: "một chiếc ô (lượng từ)" },
+      { tc: "把握", py: "bǎwò", vn: "nắm bắt / sự chắc chắn" }
+    ],
+    examples: [
+      { tc: "回去把藥吃了，病很快就會好。", py: "Huíqù bǎ yào chī le, bìng hěn kuài jiù huì hǎo.", vn: "Về nhà uống thuốc đi (xử lý số thuốc đó), bệnh sẽ rất nhanh khỏi." },
+      { tc: "請你幫我把這碗酸辣湯拿到客廳去。", py: "Qǐng nǐ bāng wǒ bǎ zhè wǎn suānlàtāng nádào kètīng qù.", vn: "Nhờ bạn cầm giúp tôi bát canh chua cay này vào phòng khách với." },
+      { tc: "他不小心把新手機弄壞了。", py: "Tā bù xiǎoxīn bǎ xīn shǒujī nònghuài le.", vn: "Anh ấy không cẩn thận làm hỏng chiếc điện thoại mới rồi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "水", pinyin: "shuǐ", hanViet: "Thủy",
+    image: "",
+    radical: "Bộ Thủy (水). Hình ảnh dòng nước chảy.",
+    explanation: "Danh từ: Nước.",
+    compounds: [
+      { tc: "喝水", py: "hēshuǐ", vn: "uống nước" },
+      { tc: "熱水器", py: "rèshuǐqì", vn: "bình nóng lạnh" },
+      { tc: "流鼻水", py: "liú bíshuǐ", vn: "chảy nước mũi" }
+    ],
+    examples: [
+      { tc: "醫生說感冒要多喝水、多休息。", py: "Yīshēng shuō gǎnmào yào duō hē shuǐ, duō xiūxí.", vn: "Bác sĩ nói cảm cúm thì phải uống nhiều nước, nghỉ ngơi nhiều." },
+      { tc: "浴室的熱水器水好像很不熱。", py: "Yùshì de rèshuǐqì shuǐ hǎoxiàng hěn bú rè.", vn: "Nước từ bình nóng lạnh trong nhà tắm hình như không nóng chút nào." },
+      { tc: "我想買兩杯冰水，天氣太熱了。", py: "Wǒ xiǎng mǎi liǎng bēi bīngshuǐ, tiānqì tài rè le.", vn: "Tôi muốn mua hai ly nước đá, thời tiết nóng quá." }
+    ],
+    idiom: "水落石出 (Shuǐ luò shí chū) - Nước rút đá lộ (Sự thật phơi bày rõ ràng).", level: "TOCFL A"
+  },
+  {
+    word: "休息", pinyin: "xiūxí", hanViet: "Hưu tức",
+    image: "",
+    radical: "休 (Người 亻 tựa vào gốc cây 木 để nghỉ), 息 (Bộ Tâm 心 dưới chữ Tự 自 - tự điều hòa hơi thở từ tâm).",
+    explanation: "Động từ: Nghỉ ngơi.",
+    compounds: [
+      { tc: "休息時間", py: "xiūxí shíjiān", vn: "thời gian nghỉ ngơi" },
+      { tc: "退休", py: "tuìxiū", vn: "nghỉ hưu" }
+    ],
+    examples: [
+      { tc: "我覺得身體很累，想回家休息。", py: "Wǒ juéde shēntǐ hěn lèi, xiǎng huíjiā xiūxí.", vn: "Tôi cảm thấy cơ thể rất mệt, muốn về nhà nghỉ ngơi." },
+      { tc: "你睡了幾個小時的覺，應該休息夠了。", py: "Nǐ shuì le jǐ gè xiǎoshí de jiào, yīnggāi xiūxí gòu le.", vn: "Bạn đã ngủ được vài tiếng đồng hồ rồi, chắc là nghỉ ngơi đủ rồi." },
+      { tc: "下課以後, 我們在教室休息十分鐘。", py: "Xiàkè yǐhòu, wǒmen zài jiàoshì xiūxí shí fēnzhōng.", vn: "Sau khi tan học, chúng tôi nghỉ ngơi mười phút ở phòng học." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "睡覺", pinyin: "shuìjiào", hanViet: "Thụy giác",
+    image: "",
+    radical: "睡 (Bộ Mục 目 liên quan đến mắt nhắm lại), 覺 (Bộ Kiến 見 - nhìn thấy / cảm giác).",
+    explanation: "Động từ (ly hợp): Ngủ, đi ngủ.",
+    compounds: [
+      { tc: "覺得", py: "juéde", vn: "cảm thấy" },
+      { tc: "睡好", py: "shuì hǎo", vn: "ngủ ngon" }
+    ],
+    examples: [
+      { tc: "醫生叫我回去把藥吃了，早一點睡覺。", py: "Yīshēng jiào wǒ huíqù bǎ yào chī le, zǎo yìdiǎn shuìjiào.", vn: "Bác sĩ bảo tôi về nhà uống thuốc, ngủ sớm một chút." },
+      { tc: "我昨天晚上肚子不舒服，沒睡好。", py: "Wǒ zuótiān wǎnshàng dùzi bù shūfú, méi shuì hǎo.", vn: "Tối hôm qua bụng tôi khó chịu nên không ngủ ngon." },
+      { tc: "上課的時候不能在教室裡面睡覺。", py: "Shàngkè de shíhòu bùnéng zài jiàoshì lǐmiàn shuìjiào.", vn: "Lúc lên lớp không được ngủ ở trong phòng học." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "早一點", pinyin: "zǎo yìdiǎn", hanViet: "Tảo nhất điểm",
+    image: "",
+    radical: "早 (Bộ Nhật 日), 一 (Bộ Nhất 一), 點 (Bộ Hắc 黑).",
+    explanation: "Cụm từ phó từ: Sớm một chút, sớm hơn một chút.",
+    compounds: [
+      { tc: "早起", py: "zǎoqǐ", vn: "dậy sớm" },
+      { tc: "有一點", py: "yǒu yìdiǎn", vn: "hơi hơi" }
+    ],
+    examples: [
+      { tc: "你生病了，今天晚上最好早一點睡覺。", py: "Nǐ shēngbìng le, jīntiān wǎnshàng zuìhǎo zǎo yìdiǎn shuìjiào.", vn: "Bạn bị ốm rồi, tối nay tốt nhất nên đi ngủ sớm một chút." },
+      { tc: "明天有籃球比賽，你想早一點去學校嗎？", py: "Míngtiān yǒu lánqiú bǐsài, nǐ xiǎng zǎo yìdiǎn qù xuéxiào ma?", vn: "Ngày mai có trận đấu bóng rổ, bạn muốn đến trường sớm hơn một chút không?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "臉色", pinyin: "liǎnsè", hanViet: "Liễm sắc",
+    image: "",
+    radical: "臉 (Bộ Nhục 月 chỉ bộ phận cơ thể), 色 (Bộ Sắc 色 - màu sắc).",
+    explanation: "Danh từ: Sắc mặt, nét mặt, vẻ mặt (thể hiện trạng thái sức khỏe hoặc cảm xúc).",
+    compounds: [
+      { tc: "洗臉", py: "xǐliǎn", vn: "rửa mặt" },
+      { tc: "紅顏色", py: "hóng yánsè", vn: "màu đỏ" }
+    ],
+    examples: [
+      { tc: "你怎麼了？臉色這麼難看。", py: "Nǐ zěnme le? Liǎnsè zhème nánkàn.", vn: "Bạn sao thế? Sắc mặt trông khó coi như vậy." },
+      { tc: "你睡了幾個小時的覺以後，現在臉色好多了。", py: "Nǐ shuì le jǐ gè xiǎoshí de jiào yǐhòu, xiànzài liǎnsè hǎo duō le.", vn: "Sau khi bạn ngủ được vài tiếng đồng hồ, bây giờ sắc mặt đã tốt hơn nhiều rồi." },
+      { tc: "看見好朋友來找他，他的臉色很高興。", py: "Kànjiàn hǎo péngyǒu lái zhǎo tā, tā de liǎnsè hěn gāoxìng.", vn: "Nhìn thấy bạn tốt đến tìm, nét mặt anh ấy rất vui vẻ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "難看", pinyin: "nánkàn", hanViet: "Nan khán",
+    image: "",
+    radical: "難 (Bộ Truy 隹), 看 (Bộ Mục 目).",
+    explanation: "Tính từ: Khó coi, xấu xí, tồi tệ (trạng thái sắc mặt hoặc vẻ ngoài).",
+    compounds: [
+      { tc: "好看", py: "hǎokàn", vn: "đẹp / hay / dễ nhìn" },
+      { tc: "難學", py: "nánxué", vn: "khó học" }
+    ],
+    examples: [
+      { tc: "生病的時候, 大家的臉色都很難看。", py: "Shēngbìng de shíhòu, dàjiā de liǎnsè dōu hěn nánkàn.", vn: "Lúc bị ốm, sắc mặt của mọi người trông đều rất khó coi." },
+      { tc: "我這支舊手機太舊了，不好看，真難看。", py: "Wǒ zhè zhī jiù shǒujī tài jiù le, bù hǎokàn, zhēn nánkàn.", vn: "Chiếc điện thoại cũ này của tôi cũ quá rồi, không đẹp, thật khó coi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "肚子", pinyin: "dùzi", hanViet: "Đố tử",
+    image: "",
+    radical: "肚 (Bộ Nhục 月 chỉ bộ phận cơ thể), 子 (Bộ Tử 子).",
+    explanation: "Danh từ: Bụng, dạ dày.",
+    compounds: [
+      { tc: "肚子痛", py: "dùzitòng", vn: "đau bụng" },
+      { tc: "肚子餓", py: "dùzi è", vn: "đói bụng" }
+    ],
+    examples: [
+      { tc: "昨天晚上我肚子很不舒服，吃了東西就吐。", py: "Zuótiān wǎnshàng wǒ dùzi hěn bù shūfú, chī le dōngxi jiù tù.", vn: "Tối hôm qua bụng tôi rất khó chịu, ăn đồ vào là nôn." },
+      { tc: "因爲肚子餓，所以他去大超市買了兩個包子。", py: "Yīnwèi dùzi è, suǒyǐ tā qù dà chāoshì mǎi le liǎng gè bāozi.", vn: "Bởi vì đói bụng nên anh ấy đã đến siêu thị lớn mua hai chiếc bánh bao." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "吐", pinyin: "tù", hanViet: "Thổ",
+    image: "",
+    radical: "Bộ Khẩu (口) kết hợp với chữ Thổ (土). Nghĩa gốc là nôn, mửa, nhổ vật ra từ miệng.",
+    explanation: "Động từ: Nôn, mửa, ói.",
+    compounds: [
+      { tc: "嘔吐", py: "ǒutù", vn: "nôn mửa (văn viết)" }
+    ],
+    examples: [
+      { tc: "他生病很不舒服，昨天晚上吐了好幾次。", py: "Tā shēngbìng hěn bù shūfú, zuótiān wǎnshàng tù le hǎo jǐ cì.", vn: "Anh ấy bị ốm khó chịu lắm, tối hôm qua đã nôn mấy lần liền." },
+      { tc: "吃了油的、不乾淨的東西，很容易吐。", py: "Chī le yóu de, bù gānjìng de dōngxi, hěn róngyì tù.", vn: "Ăn phải đồ nhiều dầu mỡ hoặc không sạch sẽ thì rất dễ bị nôn." }
+    ],
+    idiom: "吐故納新 (Tù gù nà xīn) - Thải cũ nạp mới, loại bỏ cái cũ tiếp thu cái mới.", level: "TOCFL A"
+  },
+  {
+    word: "幾", pinyin: "jǐ", hanViet: "Kỷ",
+    image: "",
+    radical: "Bộ Yêu (幺).",
+    explanation: "Đại từ số lượng chỉ ước chừng: Mấy, vài, một vài (thường đi với lượng từ biểu thị số lượng ít dưới 10).",
+    compounds: [
+      { tc: "幾次", py: "jǐ cì", vn: "mấy lần" },
+      { tc: "幾個人", py: "jǐ gè rén", vn: "mấy người / vài người" },
+      { tc: "幾點", py: "jǐ diǎn", vn: "mấy giờ" }
+    ],
+    examples: [
+      { tc: "安同昨天晚上肚子痛，還吐了好幾次。", py: "Āntóng zuótiān wǎnshàng dùzitòng, hái tù le hǎo jǐ cì.", vn: "An Đồng tối hôm qua đau bụng, còn nôn mấy lần liền." },
+      { tc: "這幾天很多外國學生都感冒了。", py: "Zhè jǐ tiān hěnduō wàiguó xuéshēng dōu gǎnmào le.", vn: "Mấy ngày nay rất nhiều học sinh nước ngoài đều bị cảm cúm rồi." },
+      { tc: "你睡了幾個小時的覺，現在好一點了嗎？", py: "Nǐ shuì le jǐ gè xiǎoshí de jiào, xiànzài hǎo yìdiǎn le ma?", vn: "Bạn đã ngủ được vài tiếng đồng hồ rồi, bây giờ đã đỡ hơn chút nào chưa?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "次", pinyin: "cì", hanViet: "Thứ",
+    image: "",
+    radical: "Bộ Khiếm (欠) kết hợp với hai nét bên trái.",
+    explanation: "Lượng từ hành động: Lần, lượt (biểu thị số lần xuất hiện hoặc thực hiện hành động).",
+    compounds: [
+      { tc: "這次", py: "zhè cì", vn: "lần này" },
+      { tc: "上次", py: "shàng cì", vn: "lần trước" },
+      { tc: "下次", py: "xià cì", vn: "lần sau" }
+    ],
+    examples: [
+      { tc: "這包藥一天要吃三次，飯後吃。", py: "Zhè bāo yào yìtiān yào chī sān cì, fànhòu chī.", vn: "Gói thuốc này một ngày phải uống ba lần, uống sau bữa ăn." },
+      { tc: "去年的時候, 我到紐約去玩過一次。", py: "Qùnián de shíhòu, wǒ dào Niǔyuē qù wán guò yí cì.", vn: "Hồi năm ngoái, tôi đã từng đi New York chơi một lần." }
+    ],
+    idiom: "屢次三番 (Lǚ cì sān fān) - Năm lần bảy lượt, lặp đi lặp lại nhiều lần.", level: "TOCFL A"
+  },
+  {
+    word: "陪", pinyin: "péi", hanViet: "Bồi",
+    image: "",
+    radical: "Bộ Ấp (阝) nằm bên trái.",
+    explanation: "Động từ: Đi cùng, hộ tống, đồng hành, đi đôi cùng (ai đó).",
+    compounds: [
+      { tc: "陪伴", py: "péibàn", vn: "đồng hành / ở bên cạnh" }
+    ],
+    examples: [
+      { tc: "你這麼不舒服，我陪你去醫院看病，好不好？", py: "Nǐ zhème bù shūfú, wǒ péi nǐ qù yīyuàn kànbìng, hǎo bù hǎo?", vn: "Bạn khó chịu như thế này, tôi đưa bạn đến bệnh viện khám bệnh nhé, được không?" },
+      { tc: "下午你想不想陪我到大超市去買東西？", py: "Hexwǔ nǐ xiǎng bù xiǎng péi wǒ dào dà chāoshì qù mǎi dōngxi?", vn: "Chiều nay bạn có muốn đi cùng tôi đến siêu thị lớn mua đồ không?" },
+      { tc: "謝謝妳下課以後來宿舍陪我。", py: "Xièxie nǐ xiàkè yǐhòu lái sùshè péi wǒ.", vn: "Cảm ơn bạn sau khi tan học đã đến ký túc xá ở bên cạnh tôi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "看病", pinyin: "kànbìng", hanViet: "Khán bệnh",
+    image: "",
+    radical: "看 (Bộ Mục 目), 病 (Bộ Nạch 疒).",
+    explanation: "Động từ (ly hợp): Khám bệnh, đi gặp bác sĩ, đi chữa bệnh.",
+    compounds: [
+      { tc: "看醫生", py: "kàn yīshēng", vn: "đi khám bác sĩ" },
+      { tc: "生病", py: "shēngbìng", vn: "bị ốm" }
+    ],
+    examples: [
+      { tc: "你生病了，我陪你去學校的健康中心看病吧。", py: "Nǐ shēngbìng le, wǒ péi nǐ qù xuéxiào de jiànkāng zhōngxīn kànbìng ba.", vn: "Bạn bị ốm rồi, tôi đưa bạn đến trung tâm y tế của trường khám bệnh đi." },
+      { tc: "在臺灣看病如果沒有健康保險，會花很多錢。", py: "Zài Táiwān kànbìng rúguǒ méiyǒu jiànkāng bǎoxiǎn, huì huā hěnduō qián.", vn: "Ở Đài Loan đi khám bệnh nếu không có bảo hiểm y tế thì sẽ tốn rất nhiều tiền." },
+      { tc: "他不喜歡看病，只想去藥局買藥。", py: "Tā bù xǐhuān kànbìng, zhǐ xiǎng qù yàojú mǎi yào.", vn: "Anh ấy không thích đi khám bệnh, chỉ muốn ra hiệu thuốc mua thuốc thôi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "健康", pinyin: "jiànkāng", hanViet: "Kiện khang",
+    image: "",
+    radical: "健 (Bộ Nhân 彳), 康 (Bộ Giao 广). Thể chất tráng kiện và an khang.",
+    explanation: "Danh từ / Tính từ: Sức khỏe, khỏe mạnh, lành mạnh.",
+    compounds: [
+      { tc: "健康保險", py: "jiànkāng bǎoxiǎn", vn: "bảo hiểm y tế" },
+      { tc: "健康中心", py: "jiànkāng zhōngxīn", vn: "trung tâm y tế / trạm y tế trường học" },
+      { tc: "身體健康", py: "shēntǐ jiànkāng", vn: "sức khỏe cơ thể tốt" }
+    ],
+    examples: [
+      { tc: "祝你生日快樂，身體健康！", py: "Zhù nǐ shēngrì kuàilè, shēntǐ jiànkāng!", vn: "Chúc bạn sinh nhật vui vẻ, sức khỏe dồi dào!" },
+      { tc: "多喝水、多運動，身體才會健康。", py: "Duō hē shuǐ, duō yùndòng, shēntǐ cái huì jiànkāng.", vn: "Uống nhiều nước, vận động nhiều thì cơ thể mới khỏe mạnh được." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "保險", pinyin: "bǎoxiǎn", hanViet: "Bảo hiểm",
+    image: "",
+    radical: "保 (Bộ Nhân 亻), 險 (Bộ Ấp 阝 liên quan đến hiểm trở, nguy cơ). Góp tiền để bảo vệ trước rủi ro.",
+    explanation: "Danh từ / Tính từ: Bảo hiểm, chắc chắn an toàn.",
+    compounds: [
+      { tc: "健康保險", py: "jiànkāng bǎoxiǎn", vn: "bảo hiểm sức khỏe / bảo hiểm y tế" },
+      { tc: "保證", py: "bǎozhèng", vn: "bảo đảm" }
+    ],
+    examples: [
+      { tc: "不用了。我在臺灣沒有健康保險。", py: "Bú yòng le. Wǒ zài Táiwān méiyǒu jiànkāng bǎoxiǎn.", vn: "Không cần đâu. Tôi không có bảo hiểm y tế ở Đài Loan." },
+      { tc: "外國學生到臺灣念大學，一定要買保險。", py: "Wàiguó xuéshēng dào Táiwān niàn dàxué, yídìng yào mǎi bǎoxiǎn.", vn: "Học sinh nước ngoài đến Đài Loan học đại học nhất định phải mua bảo hiểm." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "跟", pinyin: "gên / gēn", hanViet: "Cân",
+    image: "",
+    radical: "Bộ Túc (足) liên quan đến gót chân, đi theo sau.",
+    explanation: "Giới từ: Với, cùng với, cho (hướng hành động đến đối tượng trao đổi).",
+    compounds: [
+      { tc: "跟朋友", py: "gēn péngyǒu", vn: "cùng với bạn bè" },
+      { tc: "跟老師說", py: "gēn lǎoshī shuō", vn: "nói với thầy giáo / thưa với thầy" }
+    ],
+    examples: [
+      { tc: "請妳跟老師說，我明天不能去學校上課。", py: "Qǐng nǐ gēn lǎoshī shuō, wǒ míngtiān bùnéng qù xuéxiào shàngkè.", vn: "Nhờ bạn nói với thầy giáo là ngày mai tôi không thể đến trường lên lớp được." },
+      { tc: "我想跟同學一起去那家有名 de 餐廳吃晚飯。", py: "Wǒ xiǎng gēn tóngxué yìqǐ qù nà jiā yǒumíng de cāntīng chī wǎnfàn.", vn: "Tôi muốn cùng bạn học đến nhà hàng nổi tiếng đó ăn tối." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "油", pinyin: "yóu", hanViet: "Du",
+    image: "",
+    radical: "Bộ Thủy (氵) kết hợp với chữ Do (由). Chất lỏng trơn mỡ.",
+    explanation: "Tính từ / Danh từ: Nhiều dầu mỡ, béo ngậy, dầu ăn.",
+    compounds: [
+      { tc: "加油", py: "jiāyóu", vn: "cố lên / đổ xăng" },
+      { tc: "油的 東西", py: "yóu de dōngxi", vn: "đồ ăn nhiều dầu mỡ" }
+    ],
+    examples: [
+      { tc: "生病肚子不舒服的時候，油的東西最好都別吃。", py: "Shēngbìng dùzi bù shūfú de shíhòu, yóu de dōngxi zuìhǎo dōu bié chī.", vn: "Lúc bị ốm bụng khó chịu, đồ ăn nhiều dầu mỡ tốt nhất đều đừng ăn." },
+      { tc: "這家店賣的豬腳太油了，我不喜歡吃。", py: "Zhè jiā diàn mài de zhūjiǎo tài yóu le, wǒ bù xǐhuān chī.", vn: "Móng giò heo của cửa hàng này bán nhiều dầu mỡ quá, tôi không thích ăn." }
+    ],
+    idiom: "油腔滑調 (Yóu qiāng huá diào) - Giọng điệu trơn tru, láu lỉnh không thành thật.", level: "TOCFL A"
+  },
+  {
+    word: "冰", pinyin: "bǐng / bīng", hanViet: "Băng",
+    image: "",
+    radical: "Bộ Băng (冫) biểu thị sự đông đá, lạnh buốt.",
+    explanation: "Tính từ / Danh từ: Lạnh, đá, đông đá, đá lạnh.",
+    compounds: [
+      { tc: "冰紅茶", py: "bīng hóngchá", vn: "hồng trà đá" },
+      { tc: "冰水", py: "bīngshuǐ", vn: "nước đá" },
+      { tc: "冰的東西", py: "bīng de dōngxi", vn: "đồ ăn lạnh / thức uống đá" }
+    ],
+    examples: [
+      { tc: "肚子痛的時候，油的、冰的東西最好都別吃。", py: "Dùzitòng de shíhòu, yóu de, bīng de dōngxi zuìhǎo dōu bié chī.", vn: "Lúc bị đau bụng, đồ nhiều dầu mỡ và đồ lạnh tốt nhất đều đừng ăn." },
+      { tc: "夏天我很喜歡喝兩杯冰紅茶。", py: "Xiàtiān wǒ hěn xǐhuān hē liǎng bēi bīng hóngchá.", vn: "Mùa hè tôi rất thích uống hai ly hồng trà đá." }
+    ],
+    idiom: "冰山一角 (Bīngshān yìjiǎo) - Phần nổi của tảng băng chìm (Một góc nhỏ của vấn đề lớn).", level: "TOCFL A"
+  },
+  {
+    word: "別", pinyin: "bié", hanViet: "Biệt",
+    image: "",
+    radical: "Bộ Đao (刂).",
+    explanation: "Phó từ biểu thị sự cấm đoán, khuyên ngăn: Đừng, chớ (dùng trong câu cầu khiến, mệnh lệnh).",
+    compounds: [
+      { tc: "別吃", py: "biéchī", vn: "đừng ăn" },
+      { tc: "別去", py: "biéqù", vn: "đừng đi" },
+      { tc: "別人", py: "biérén", vn: "người khác" }
+    ],
+    examples: [
+      { tc: "你感冒發燒了，油的、冰的東西最好都別吃。", py: "Nǐ gǎnmào fāshāo le, yóu de, bīng de dōngxi zuìhǎo dōu bié chī.", vn: "Bạn bị cảm sốt rồi, đồ nhiều dầu mỡ và đồ lạnh tốt nhất đều đừng ăn." },
+      { tc: "明天有籃球比賽，你晚上別看手機看太久。", py: "Míngtiān yǒu lánqiú bǐsài, nǐ wǎnshàng bié kàn shǒujī kàn tài jiǔ.", vn: "Ngày mai có trận đấu bóng rổ, buổi tối bạn đừng xem điện thoại quá lâu." },
+      { tc: "別擔心，大山那裡的風景一d定很美。", py: "Bié dānxīn, dàshān nàlǐ de fēngjǐng yídìng hěn měi.", vn: "Đừng lo lắng, phong cảnh trên ngọn núi lớn đó chắc chắn rất đẹp." }
+    ],
+    idiom: "別具一格 (Bié jù yì gé) - Có một phong cách độc đáo riêng biệt.", level: "TOCFL A"
+  },
+  {
+    word: "關心", pinyin: "guānxīn", hanViet: "Quan tâm",
+    image: "",
+    radical: "關 (Bộ Môn 門), 心 (Bộ Tâm 心). Đặt tâm trí vào mối bận tâm.",
+    explanation: "Động từ / Danh từ: Quan tâm, hỏi han, lo lắng chăm sóc cho ai.",
+    compounds: [
+      { tc: "沒關係", py: "méiguānxi", vn: "không sao đâu" },
+      { tc: "心意", py: "xīnyì", vn: "tấm lòng" }
+    ],
+    examples: [
+      { tc: "生病的時候，非常謝謝妳的關心。", py: "Shēngbìng de shíhòu, fēicháng xièxie nǐ de guānxīn.", vn: "Lúc bị ốm, vô cùng cảm ơn sự quan tâm của bạn." },
+      { tc: "父母每個月都打電話來關心我的大學生活。", py: "Fùmǔ měi ge yuè dōu dǎ diànhuà lái guānxīn wǒ de dàxué shēnghuó.", vn: "Bố mẹ tháng nào cũng gọi điện thoại đến để hỏi han cuộc sống đại học của tôi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "包", pinyin: "bāo", hanViet: "Bao",
+    image: "",
+    radical: "Bộ Bao (勹) hình ảnh bọc gói đồ vật.",
+    explanation: "Lượng từ: Gói, túi, bao (dùng cho thuốc gói, bưu kiện gói nhỏ).",
+    compounds: [
+      { tc: "一包藥", py: "yì bāo yào", vn: "một gói thuốc" },
+      { tc: "麵包", py: "miànbāo", vn: "bánh mì" },
+      { tc: "包子", py: "bāozi", vn: "bánh bao" }
+    ],
+    examples: [
+      { tc: "我吃了一包藥以後，睡得比昨天好多了。", py: "Wǒ chī le yì bāo yào yǐhòu, shuì de bǐ zuótiān hǎo duō le.", vn: "Sau khi tôi uống một gói thuốc, ngủ đã ngon hơn hôm qua rất nhiều rồi." },
+      { tc: "請幫我把這兩包藥放到房間裡面去。", py: "Qǐng bāng wǒ bǎ zhè liǎng bāo yào fàngdào fángjiān lǐmiàn qù.", vn: "Nhờ bạn cất giúp tôi hai gói thuốc này vào trong phòng với." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "睡", pinyin: "shuì", hanViet: "Thụy",
+    image: "",
+    radical: "Bộ Mục (目). Động tác nhắm mắt khi nghỉ ngơi.",
+    explanation: "Động từ: Ngủ.",
+    compounds: [
+      { tc: "睡覺", py: "shuìjiào", vn: "ngủ / đi ngủ" },
+      { tc: "睡著", py: "shuìzháo", vn: "ngủ thiếp đi / ngủ say" }
+    ],
+    examples: [
+      { tc: "你睡了幾個小時的覺，現在臉色比早上好多了。", py: "Nǐ shuì le jǐ gè xiǎoshí de jiào yǐhòu, xiànzài liǎnsè bǐ zǎoshàng hǎo duō le.", vn: "Bạn đã ngủ được vài tiếng đồng hồ rồi, bây giờ sắc mặt tốt hơn buổi sáng nhiều lắm." },
+      { tc: "因爲頭很痛，所以他吃藥以後就去睡了。", py: "Yīnwèi tóu hěn tòng, suǒyǐ tā chīyào yǐhòu jiù qù shuì le.", vn: "Bởi vì đầu rất đau nên sau khi uống thuốc xong là anh ấy đi ngủ luôn." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "小時", pinyin: "xiǎoshí", hanViet: "Tiểu thời",
+    image: "",
+    radical: "小 (Bộ Tiểu 小), 時 (Bộ Nhật 日).",
+    explanation: "Danh từ chỉ lượng thời gian: Tiếng đồng hồ, giờ đồng hồ (đồng nghĩa với 鐘頭 zhōngtóu).",
+    compounds: [
+      { tc: "時候", py: "shíhòu", vn: "lúc / khi" },
+      { tc: "時間", py: "shíjiān", vn: "thời gian" }
+    ],
+    examples: [
+      { tc: "你睡了幾個小時的覺了？", py: "Nǐ shuì le jǐ gè xiǎoshí de jiào le?", vn: "Bạn đã ngủ được mấy tiếng đồng hồ rồi?" },
+      { tc: "從台北到台南坐高鐵需要兩個小時左右。", py: "Cóng Táiběi dào Táinán zuò gāotiě xūyào liǎng gè xiǎoshí zuòyòu.", vn: "Từ Đài Bắc đến Đài Nam đi tàu cao tốc mất khoảng chừng hai tiếng đồng hồ." },
+      { tc: "每天讀書三個小時，考試成績一定會進步。", py: "Měitiān dúshū sān gè xiǎoshí, kǎoshì chéngjī yídìng huì jìnbù.", vn: "Mỗi ngày đọc sách ba tiếng đồng hồ, thành tích thi cử chắc chắn sẽ tiến bộ." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "怎麼了", pinyin: "zěnme le", hanViet: "Chẩm ma liễu",
+    image: "",
+    radical: "Cụm từ cố định ghép từ 怎麼 và 了。",
+    explanation: "Cụm từ giao tiếp cố định: Sao thế? Có chuyện gì vậy? Làm sao vậy? (Dùng hỏi thăm khi thấy người khác có dấu hiệu bất thường, mệt mỏi hoặc có chuyện xảy ra).",
+    compounds: [
+      { tc: "怎麼辦", py: "zěnmebàn", vn: "làm sao đây" }
+    ],
+    examples: [
+      { tc: "你怎麼了？臉色這麼難看，是不是生病了？", py: "Nǐ zěnme le? Liǎnsè zhème nánkàn, shì bú shì shēngbìng le?", vn: "Bạn sao thế? Sắc mặt khó coi như vậy, có phải bị ốm rồi không?" },
+      { tc: "喂，大年，你怎麼了？爲什麼一直在哭呢？", py: "Wéi, Dànián, nǐ zěnme le? Wèishénme yìzhí zài kū ne?", vn: "Alo, Đại Niên, bạn sao thế? Tại sao cứ khóc suốt thế?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "不用了", pinyin: "búyòng le", hanViet: "Bất dụng liễu",
+    image: "",
+    radical: "不 (Bộ Nhất 一), 用 (Bộ Dụng 用), 了 (Bộ Quyết 亅).",
+    explanation: "Cụm từ giao tiếp cố định: Không cần đâu ạ, thôi khỏi cần (Lời từ chối lịch sự khi người khác đưa ra lời đề nghị giúp đỡ hoặc mời mọc).",
+    compounds: [
+      { tc: "不用客氣", py: "búyòng kèqì", vn: "không cần khách sáo" }
+    ],
+    examples: [
+      { tc: "A: 我陪你去醫院看病，好不好？ B: 不用了。我在臺灣沒有健康保險。", py: "A: Wǒ péi nǐ qù yīyuàn kànbìng, hǎo bù hǎo? B: Búyòng le. Wǒ zài Táiwān méiyǒu jiànkāng bǎoxiǎn.", vn: "A: Tôi đưa bạn đến bệnh viện khám bệnh nhé, được không? B: Không cần đâu. Tôi không có bảo hiểm y tế ở Đài Loan." },
+      { tc: "A: 你想再喝一杯冰紅茶嗎？ B: 不用了，謝謝妳，我已經飽了。", py: "A: Nǐ xiǎng zài hē yì bēi bīng hóngchá ma? B: Búyòng le, xièxie nǐ, wǒ yǐjīng bǎo le.", vn: "A: Bạn muốn uống thêm một ly hồng trà đá nữa không? B: Thôi không cần đâu, cảm ơn bạn, tôi no rồi." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "健康中心", pinyin: "jiànkāng zhōngxīn", hanViet: "Kiện khang trung tâm",
+    image: "",
+    radical: "健 (Bộ Nhân 彳), 康 (Bộ Giao 广), 中 (Bộ Cổn 丨), 心 (Bộ Tâm 心).",
+    explanation: "Danh từ: Trung tâm y tế, trạm y tế cơ sở (thường nằm trong khuôn viên trường học để sơ cứu, chăm sóc sức khỏe sinh viên).",
+    compounds: [
+      { tc: "健康保險", py: "jiànkāng bǎoxiǎn", vn: "bảo hiểm y tế" },
+      { tc: "語言中心", py: "yǔyán zhōngxīn", vn: "trung tâm ngôn ngữ" }
+    ],
+    examples: [
+      { tc: "那麽，我陪你去學校的健康中心。那裡的醫生很好。", py: "Nàme, wǒ péi nǐ qù xuéxiào de jiànkāng zhōngxīn. Nàlǐ de yīshēng hěn hǎo.", vn: "Vậy thì, tôi đưa bạn đến trung tâm y tế của trường. Bác sĩ ở đó tốt lắm." },
+      { tc: "要是身體有一點不舒服，可以先去學校的健康中心看醫生。", py: "Yàoshì shēntǐ yǒu yìdiǎn bù shūfú, kěyǐ xiān qù xuéxiào de jiànkāng zhōngxīn kàn yīshēng.", vn: "Nếu như cơ thể hơi khó chịu một chút, có thể đến trung tâm y tế của trường khám bác sĩ trước." }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "回家", pinyin: "huí jiā", hanViet: "Hồi gia",
+    image: "",
+    radical: "回 (Bộ Vi 囗), 家 (Bộ Miên 宀).",
+    explanation: "Động từ (ly hợp): Về nhà.",
+    compounds: [
+      { tc: "回去", py: "huíqù", vn: "đi về" },
+      { tc: "大家", py: "dàjiā", vn: "mọi người" }
+    ],
+    examples: [
+      { tc: "我想回家休息。請妳跟老師說我生病了。", py: "Wǒ xiǎng huíjiā xiūxí. Qǐng nǐ gēn lǎoshī shuō wǒ shēngbìng le.", vn: "Tôi muốn về nhà nghỉ ngơi. Nhờ bạn thưa với thầy giáo là tôi bị ốm rồi." },
+      { tc: "下課以後，大部份的學生都馬上回家了。", py: "Xiàkè yǐhòu, dàbùfèn de xuéshēng dōu mǎshàng huíjiā le.", vn: "Sau khi tan học, phần lớn học sinh đều lập tức về nhà luôn rồi." },
+      { tc: "你什麼時候要開車回家看父母呢？", py: "Nǐ shénme shíhòu yào kāichē huíjiā kàn fùmǔ ne?", vn: "Khi nào bạn mới lái xe về nhà thăm bố mẹ thế?" }
+    ],
+    idiom: "無", level: "TOCFL A"
+  },
+  {
+    word: "最好", pinyin: "zuìhǎo", hanViet: "Tối hảo",
+    image: "",
+    radical: "最 (Bộ Viết 曰), 好 (Bộ Nữ 女). Mức độ tốt nhất.",
+    explanation: "Phó từ đưa ra lời khuyên mạnh mẽ: Tốt nhất là, nên làm việc gì đó thì tốt nhất.",
+    compounds: [
+      { tc: "最喜歡", py: "zuì xǐhuān", vn: "thích nhất" },
+      { tc: "好找", py: "hǎozhǎo", vn: "dễ tìm" }
+    ],
+    examples: [
+      { tc: "生病肚子痛的時候，油的、冰的東西最好都別吃。", py: "Shēngbìng dùzitòng de shíhòu, yóu de, bīng de dōngxi zuìhǎo dōu bié chī.", vn: "Lúc bị ốm đau bụng, đồ nhiều dầu mỡ và đồ lạnh tốt nhất đều đừng ăn." },
+      { tc: "明天有籃球比賽，你今天晚上最好早一點睡覺。", py: "Míngtiān yǒu lánqiú bǐsài, nǐ jīntiān wǎnshàng zuìhǎo zǎo yìdiǎn shuìjiào.", vn: "Ngày mai có trận đấu bóng rổ, tối nay tốt nhất bạn nên đi ngủ sớm một chút." },
+      { tc: "去花蓮觀光以前，最好先在網路上訂好旅館房間。", py: "Qù Huālián guānguāng yǐqián, zuìhǎo xiān zài wǎnglù shàng dìng hǎo lǚguǎn fángjiān.", vn: "Trước khi đi du lịch ngắm cảnh ở Hoa Liên, tốt nhất nên đặt trước phòng khách sạn trên mạng." }
+    ],
+    idiom: "無", level: "TOCFL A"
   }
 ];
 
