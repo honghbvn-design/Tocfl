@@ -8709,7 +8709,7 @@ const dictionaryData = [
     examples: [
       { tc: "你感冒發燒了，油的、冰的東西最好都別吃。", py: "Nǐ gǎnmào fāshāo le, yóu de, bīng de dōngxi zuìhǎo dōu bié chī.", vn: "Bạn bị cảm sốt rồi, đồ nhiều dầu mỡ và đồ lạnh tốt nhất đều đừng ăn." },
       { tc: "明天有籃球比賽，你晚上別看手機看太久。", py: "Míngtiān yǒu lánqiú bǐsài, nǐ wǎnshàng bié kàn shǒujī kàn tài jiǔ.", vn: "Ngày mai có trận đấu bóng rổ, buổi tối bạn đừng xem điện thoại quá lâu." },
-      { tc: "別擔心，大山那裡的風景一d定很美。", py: "Bié dānxīn, dàshān nàlǐ de fēngjǐng yídìng hěn měi.", vn: "Đừng lo lắng, phong cảnh trên ngọn núi lớn đó chắc chắn rất đẹp." }
+      { tc: "別擔心，大山那裡的風景一定很美。", py: "Bié dānxīn, dàshān nàlǐ de fēngjǐng yídìng hěn měi.", vn: "Đừng lo lắng, phong cảnh trên ngọn núi lớn đó chắc chắn rất đẹp." }
     ],
     idiom: "別具一格 (Bié jù yì gé) - Có một phong cách độc đáo riêng biệt.", level: "TOCFL A"
   },
