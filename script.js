@@ -118,7 +118,7 @@ const dictionaryData = [
       { tc: "請問，台灣大學在哪裡？", py: "Qǐngwèn, Táiwān Dàxué zài nǎlǐ?", vn: "Xin hỏi, Đại học Đài Loan ở đâu?" },
       { tc: "請問您貴姓？", py: "Qǐngwèn nín guìxìng?", vn: "Xin hỏi ngài họ gì?" }
     ],
-    idiom: "不恥下問 (Bù chǐ xià wèn) - Không ngại học hỏi kẻ dưới.", level: "TOCFL A"
+    idiom: "", level: "TOCFL A"
   },
   {
     word: "你", pinyin: "nǐ", ipa: "ni²¹⁴", hanViet: "Nhĩ",
@@ -11428,4 +11428,83 @@ function playNextInQueue(dIdx) {
     };
 
     window.speechSynthesis.speak(utterance);
+}
+// ==========================================
+// HỆ THỐNG THEO DÕI NGƯỜI DÙNG CHO LUẬN VĂN
+// ==========================================
+
+// 1. Cấu hình Firebase (Mã thật đã lấy từ dự án)
+const firebaseConfig = {
+  apiKey: "AIzaSyCKBlXF7L1_Yb4cboTTw4FixhdWAQ7Ave8",
+  authDomain: "maomi-cidian-tocfl.firebaseapp.com",
+  projectId: "maomi-cidian-tocfl",
+  storageBucket: "maomi-cidian-tocfl.firebasestorage.app",
+  messagingSenderId: "528249034731",
+  appId: "1:528249034731:web:6842b0b323cf45c2c9abae",
+  measurementId: "G-WP708V4CN8"
+};
+
+// 2. Khởi tạo Firebase
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.firestore();
+
+// Biến lưu trữ thông tin học sinh đang học
+let currentStudent = null;
+
+// 3. Lắng nghe trạng thái đăng nhập
+auth.onAuthStateChanged((user) => {
+    if (user) {
+        // Đã đăng nhập
+        currentStudent = user.email;
+        document.getElementById("login-section").style.display = "none";
+        document.getElementById("main-dictionary-app").style.display = "block";
+        
+        // Ghi nhận hành vi: "Vừa mới truy cập trang web"
+        trackUserAction("Login", "Học sinh vừa truy cập vào hệ thống");
+    } else {
+        // Chưa đăng nhập
+        currentStudent = null;
+        document.getElementById("login-section").style.display = "block";
+        document.getElementById("main-dictionary-app").style.display = "none";
+    }
+});
+
+// 4. Hàm xử lý nút Đăng nhập
+function loginStudent() {
+    const email = document.getElementById("email-input").value;
+    const password = document.getElementById("password-input").value;
+    
+    auth.signInWithEmailAndPassword(email, password)
+        .catch((error) => {
+            document.getElementById("login-error").innerText = "Tài khoản hoặc mật khẩu không đúng!";
+            console.error("Lỗi đăng nhập:", error);
+        });
+}
+
+// 5. Hàm xử lý nút Đăng xuất
+function logoutStudent() {
+    auth.signOut();
+}
+
+// ==========================================
+// TÍNH NĂNG GHI NHẬN HÀNH VI (TRACKING)
+// ==========================================
+
+// Hàm cốt lõi để đẩy dữ liệu lên cơ sở dữ liệu Firebase
+function trackUserAction(actionType, actionDetails) {
+    if (!currentStudent) return; // Không lưu nếu chưa đăng nhập
+    
+    db.collection("StudentActivity_TOCFL").add({
+        studentId: currentStudent,        // Biết là học sinh nào
+        actionType: actionType,           // Loại hành vi (Đăng nhập, Tra từ, Làm bài Quiz...)
+        details: actionDetails,           // Chi tiết hành vi
+        timestamp: firebase.firestore.FieldValue.serverTimestamp() // Thời gian chính xác đến từng giây
+    })
+    .then(() => {
+        console.log("Đã ghi nhận dữ liệu luận văn thành công!");
+    })
+    .catch((error) => {
+        console.error("Lỗi khi ghi nhận dữ liệu: ", error);
+    });
 }
