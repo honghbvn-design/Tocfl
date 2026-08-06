@@ -8,7 +8,16 @@
     <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 </head>
 <body>
-    <div class="app-container">
+<!-- KHU VỰC ĐĂNG NHẬP DÀNH CHO SINH VIÊN -->
+    <div id="login-section" style="text-align: center; padding-top: 100px; font-family: Arial, sans-serif;">
+        <h2 style="color: #d84b6b;">🎓 Maomi Cidian - Maomi Chinese Dictionary</h2>
+        <p>Vui lòng đăng nhập để lưu tiến độ ôn luyện TOCFL của bạn.</p>
+        <input type="text" id="email-input" placeholder="Tài khoản học sinh (Email)..." style="padding: 10px; width: 250px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;"><br>
+        <input type="password" id="password-input" placeholder="Mật khẩu..." style="padding: 10px; width: 250px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;"><br>
+        <button onclick="loginStudent()" style="padding: 10px 20px; background-color: #d84b6b; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Đăng Nhập</button>
+        <p id="login-error" style="color: red; margin-top: 10px;"></p>
+    </div>
+    <div id="main-dictionary-app" class="app-container" style="display: none;">
         <div class="search-header">
             <div class="school-tag">國立臺南大學 NUTN</div>
             <h2>Maomi Chinese Dictionary</h2>
@@ -32,6 +41,13 @@
         <div id="dictionary-container" class="result-area"></div>
         <div id="dialogue-container" class="result-area" style="display: none;"></div>
     </div>
+<!-- Tải thư viện Firebase cốt lõi -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<!-- Tải thư viện Xác thực (Đăng nhập) -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<!-- Tải thư viện Cơ sở dữ liệu (Lưu điểm số, hành vi) -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
