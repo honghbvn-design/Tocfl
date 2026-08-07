@@ -11485,8 +11485,22 @@ function loginStudent() {
 
 // 5. Hàm xử lý nút Đăng xuất
 function logoutStudent() {
-    auth.signOut();
+    // Bắt buộc ghi nhận thời gian Đăng xuất vào Firestore trước khi thoát
+    trackUserAction("Logout", "Học sinh chủ động bấm nút đăng xuất");
+    
+    // Đợi 0.5 giây để dữ liệu kịp đẩy lên máy chủ rồi mới thoát tài khoản
+    setTimeout(() => {
+        auth.signOut();
+    }, 500);
 }
+
+// 6. BẮT SỰ KIỆN: Tự động ghi nhận khi học sinh tắt trình duyệt (Bấm dấu X)
+window.addEventListener("beforeunload", function() {
+    if (currentStudent) {
+        // Ghi lại mốc thời gian học sinh đóng tab làm thời gian kết thúc phiên học
+        trackUserAction("CloseTab", "Học sinh tắt tab hoặc đóng trình duyệt");
+    }
+});
 
 // ==========================================
 // TÍNH NĂNG GHI NHẬN HÀNH VI (TRACKING)
