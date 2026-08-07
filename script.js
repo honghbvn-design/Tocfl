@@ -11540,3 +11540,8 @@ function trackUserAction(actionType, actionDetails) {
         console.error("Lỗi khi ghi nhận dữ liệu: ", error);
     });
 }
+
+// Hợp nhất dữ liệu A2 vào danh sách A1 hiện tại
+if (typeof dataA2 !== 'undefined') {
+    dictionaryData.push(...dataA2);
+}
