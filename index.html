@@ -19,9 +19,12 @@
     </div>
     <div id="main-dictionary-app" class="app-container" style="display: none;">
         <div class="search-header">
-            <div class="school-tag">國立臺南大學 NUTN</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <div class="school-tag" style="margin: 0;">國立臺南大學 NUTN</div>
+                <button onclick="logoutStudent()" style="background-color: #666; color: white; border: none; padding: 5px 15px; border-radius: 5px; cursor: pointer; font-size: 14px;">Đăng xuất 👋</button>
+            </div>
             <h2>Maomi Chinese Dictionary</h2>
-            
+
             <div class="modern-search-box" id="search-section-dict">
                 <span class="search-icon">🔍</span>
                 <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好..." onkeyup="searchDict()">
