@@ -11429,13 +11429,14 @@ function playNextInQueue(dIdx) {
 
     window.speechSynthesis.speak(utterance);
 }
+
 // ==========================================
 // HỆ THỐNG THEO DÕI NGƯỜI DÙNG CHO LUẬN VĂN
 // ==========================================
 
 // 1. Cấu hình Firebase (Mã thật đã lấy từ dự án)
 const firebaseConfig = {
-  apiKey: "AIzaSyCKBlXF7L1_Yb4cboTTw4FixhdWAQ7Ave8",
+  apiKey: "AIzaSyCKBIXF7L1_Yb4cboTTw4FixhdWAQ7Ave8",
   authDomain: "maomi-cidian-tocfl.firebaseapp.com",
   projectId: "maomi-cidian-tocfl",
   storageBucket: "maomi-cidian-tocfl.firebasestorage.app",
