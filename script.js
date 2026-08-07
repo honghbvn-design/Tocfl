@@ -9110,6 +9110,12 @@ function removeTones(str) {
 }
 
 function searchDict() {
+if (event.key === 'Enter') {
+        let keyword = document.getElementById("searchInput").value;
+        if (keyword.trim() !== "") {
+            trackUserAction("Search", "Tra từ vựng: " + keyword);
+        }
+    }
     const rawInput = document.getElementById('searchInput').value.trim().toLowerCase();
     
     // Nếu ô tìm kiếm trống, hiển thị lại toàn bộ từ điển
@@ -11024,6 +11030,12 @@ clozes: [
 
 // --- HÀM LỌC TÌM KIẾM HỘI THOẠI ---
 function searchDialogue() {
+if (event.key === 'Enter') {
+        let keyword = document.getElementById("dialogueSearchInput").value;
+        if (keyword.trim() !== "") {
+            trackUserAction("Search", "Tra hội thoại: " + keyword);
+        }
+    }
     const input = document.getElementById('dialogueSearchInput');
     if(!input) return;
     const searchTerm = input.value.trim().toLowerCase();
@@ -11286,6 +11298,11 @@ function checkQuiz(dIdx, qIdx, selected) {
 
 // --- HÀM ĐIỀU KHIỂN CHUYỂN TAB VÀ ĐẨY ẨN/HIỆN THANH TÌM KIẾM ĐỘC LẬP ---
 function switchTab(tab) {
+if (tab === 'dict') {
+        trackUserAction("SwitchTab", "Chuyển sang tab Từ Điển");
+    } else if (tab === 'speak') {
+        trackUserAction("SwitchTab", "Chuyển sang tab Hội Thoại");
+    }
     const dictArea = document.getElementById('dictionary-container');
     const diagArea = document.getElementById('dialogue-container');
     const searchDictArea = document.getElementById('search-section-dict');
