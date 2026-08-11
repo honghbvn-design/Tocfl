@@ -190,7 +190,7 @@ const dataA2 = [
     ],
     idiom: "去超商取貨 (Qù chāoshāng qǔ huò) - Ra cửa hàng lấy hàng. Ngữ cảnh: Văn hóa mua sắm online tại Đài Loan! Sinh viên rất ít khi nhận hàng tại nhà mà thường chọn giao đến cửa hàng tiện lợi (7-11, FamilyMart...). Vì vậy câu nói '我要去超商取貨' (Tôi phải ra cửa hàng lấy đồ) là câu cửa miệng mà ai cũng dùng.",
     level: "TOCFL A2"
-  }，
+  },
 {
     word: "應該", pinyin: "yīnggāi", hanViet: "Ưng cai",
     image: "",
