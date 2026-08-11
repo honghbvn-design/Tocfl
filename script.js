@@ -9148,18 +9148,30 @@ if (event.key === 'Enter') {
 
         return false;
     });
-filteredData.sort((a, b) => {
-        // Ưu tiên 1: Khớp chính xác 100% chữ Hán
-        if (a.word === rawInput) return -1;
-        if (b.word === rawInput) return 1;
+// === THUẬT TOÁN SẮP XẾP ƯU TIÊN (HỆ CHẤM ĐIỂM) ===
+    filteredData.sort((a, b) => {
+        const getScore = (item) => {
+            // Đưa về chữ thường để so sánh an toàn tuyệt đối
+            const word = item.word.toLowerCase();
+            const input = rawInput.toLowerCase();
+            
+            if (word === input) return 3; // Ưu tiên 1: Giống hệt 100%
+            if (word.startsWith(input)) return 2; // Ưu tiên 2: Bắt đầu bằng từ khóa
+            return 1; // Ưu tiên 3: Các trường hợp còn lại
+        };
+
+        const scoreA = getScore(a);
+        const scoreB = getScore(b);
+
+        // Xếp theo điểm: Điểm cao (3) đẩy lên đầu, điểm thấp (1) đẩy xuống cuối
+        if (scoreA !== scoreB) {
+            return scoreB - scoreA;
+        }
         
-        // Ưu tiên 2: Bắt đầu bằng chữ Hán đó (Ví dụ gõ "下" thì "下雨" ưu tiên hơn "停下")
-        if (a.word.startsWith(rawInput) && !b.word.startsWith(rawInput)) return -1;
-        if (!a.word.startsWith(rawInput) && b.word.startsWith(rawInput)) return 1;
-        
-        // Ưu tiên 3: Từ ngắn xếp trước, từ dài xếp sau
+        // Nếu bằng điểm nhau (ví dụ cùng được 2 điểm), từ nào ngắn hơn xếp trước
         return a.word.length - b.word.length;
     });
+    // ==================================================
 
     displayWords(filteredData);
 }
