@@ -502,7 +502,7 @@ const dataA2 = [
     idiom: "背包客 (Bēibāokè) - Khách du lịch bụi, Tây ba lô. Ngữ cảnh: Ở Đài Loan, những bạn trẻ tự khoác ba lô đi du lịch vòng quanh đảo (環島) thường tự gọi mình là các '背包客' để thể hiện tinh thần trải nghiệm tự do.",
     level: "TOCFL A2"
   },
- {
+  {
     word: "正好", pinyin: "zhènghǎo", hanViet: "Chính hảo",
     image: "",
     radical: "正 (Bộ Chỉ 止), 好 (Bộ Nữ 女)",
