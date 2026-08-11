@@ -9148,6 +9148,18 @@ if (event.key === 'Enter') {
 
         return false;
     });
+filteredData.sort((a, b) => {
+        // Ưu tiên 1: Khớp chính xác 100% chữ Hán
+        if (a.word === rawInput) return -1;
+        if (b.word === rawInput) return 1;
+        
+        // Ưu tiên 2: Bắt đầu bằng chữ Hán đó (Ví dụ gõ "下" thì "下雨" ưu tiên hơn "停下")
+        if (a.word.startsWith(rawInput) && !b.word.startsWith(rawInput)) return -1;
+        if (!a.word.startsWith(rawInput) && b.word.startsWith(rawInput)) return 1;
+        
+        // Ưu tiên 3: Từ ngắn xếp trước, từ dài xếp sau
+        return a.word.length - b.word.length;
+    });
 
     displayWords(filteredData);
 }
@@ -9163,7 +9175,7 @@ const dialogueData = [
   {
     title: "Hội thoại 1: 歡迎你來台灣 Chào mừng bạn tới Đài Loan ",
     lesson: "Bài 1",
-    level: "TOCFL A1",
+    level: "TOCFL Band A",
     content: [
       { sp: "林小姐", gender: "female", zh: "請問，你是王先生嗎？", py: "Qǐngwèn, nǐ shì Wáng xiānshēng ma?", vn: "Xin hỏi, anh là ông Vương phải không?" },
       { sp: "王先生", gender: "male", zh: "是的。請問你貴姓？", py: "Shìde. Qǐngwèn nǐ guìxìng?", vn: "Vâng đúng vậy. Xin hỏi cô họ gì?" },
@@ -9222,7 +9234,7 @@ clozes: [
     {
     title: "Hội thoại 2: 請你喝茶 Mời bạn uống Trà ",
     lesson: "Bài 1",
-    level: "TOCFL A1",
+    level: "TOCFL Band A",
     content: [
       { sp: "王先生", gender: "male", zh: "林小姐，請喝茶。", py: "Lín xiǎojiě, qǐng hē chá.", vn: "Cô Lâm, mời uống trà." },
       { sp: "林小姐", gender: "female", zh: "謝謝。這茶很好喝。請問是什麼茶？", py: "Xièxie. Zhè chá hěn hǎohē. Qǐngwèn shì shénme chá?", vn: "Cảm ơn anh. Trà này uống rất ngon. Xin hỏi là trà gì vậy?" },
@@ -9281,7 +9293,7 @@ clozes: [
     {
     title: "Hội thoại 1: 看照片 Xem ảnh ",
     lesson: "Bài 2",
-    level: "TOCFL A1",
+    level: "TOCFL Band A",
     content: [
       { sp: "安同", gender: "male", zh: "怡君，這是你家嗎？很漂亮的房子！", py: "Yíjūn, zhè shì nǐ jiā ma? Hěn piàoliàng de fángzi!", vn: "Di Quân, đây là nhà của bạn à? Ngôi nhà rất đẹp!" },
       { sp: "怡君", gender: "female", zh: "是的，請進，請坐！你要不要喝茶？", py: "Shìde, qǐng jìn, qǐng zuò! Nǐ yào bú yào hē chá?", vn: "Đúng vậy, mời vào, mời ngồi! Bạn có muốn uống trà không?" },
@@ -9340,7 +9352,7 @@ clozes: [
     {
     title: "Hội thoại 2: 到朋友家玩 Đến chơi nhà bạn ",
     lesson: "Bài 2",
-    level: "TOCFL A1",
+    level: "TOCFL Band A",
     content: [
       { sp: "明華", gender: "male", zh: "田中，歡迎來我家！這是我媽媽。", py: "Tiánzhōng, huānyíng lái wǒ jiā! Zhè shì wǒ māma.", vn: "Điền Trung, hoan nghênh đến nhà tôi! Đây là mẹ tôi." },
       { sp: "田中", gender: "male", zh: "伯母，您好。我叫田中誠一。", py: "Bómǔ, nín hǎo. Wǒ jiào Tiánzhōng Chéngyī.", vn: "Bác gái, chào bác. Cháu tên là Điền Trung Thành Nhất." },
@@ -9400,7 +9412,7 @@ clozes: [
 {
         title: "Hội thoại 1: 台灣的菜很好吃 Món ăn Đài Loan rất ngon",
         lesson: "Bài 3",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "美英", zh: "東東，你喜歡臺灣菜嗎？", py: "Dōngdōng, nǐ xǐhuān Táiwāncài ma?", vn: "Đông Đông, bạn thích món ăn Đài Loan không?", gender: "female" },
             { sp: "東東", zh: "很喜歡。臺灣菜很好吃。", py: "Hěn xǐhuān. Táiwāncài hěn hǎochī.", vn: "Rất thích. Món ăn Đài Loan rất ngon.", gender: "male" },
@@ -9450,7 +9462,7 @@ clozes: [
     {
         title: "Hội thoại 2: 歡迎光臨！ Chào mừng quý khách！",
         lesson: "Bài 3",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "店員", zh: "歡迎光臨！請問幾位？", py: "Huānyíng guānglín! Qǐngwèn jǐ wèi?", vn: "Chào mừng quý khách! Xin hỏi đi mấy người ạ?", gender: "female" },
             { sp: "東東", zh: "兩位。", py: "Liǎng wèi.", vn: "Hai người.", gender: "male" },
@@ -9504,7 +9516,7 @@ clozes: [
     },{
         title: "Hội thoại 1: 買東西 Mua đồ ăn ",
         lesson: "Bài 4",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "老闆", zh: "請問你要買什麼？", py: "Qǐngwèn nǐ yào mǎi shénme?", vn: "Xin hỏi bạn muốn mua gì?", gender: "male" },
             { sp: "明華", zh: "一杯熱咖啡。兩個包子。", py: "Yì bēi rè kāfēi. Liǎng ge bāozi.", vn: "Một ly cà phê nóng. Hai cái bánh bao.", gender: "male" },
@@ -9564,7 +9576,7 @@ clozes: [
     {
         title: "Hội thoại 2: 買新的手機 Mua điện thoại di động mới",
         lesson: "Bài 4",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "月美", zh: "我想買一支新手機。", py: "Wǒ xiǎng mǎi yì zhī xīn shǒujī.", vn: "Tôi muốn mua một chiếc điện thoại mới.", gender: "female" },
             { sp: "明華", zh: "妳的手機很好。為什麼要買新的？", py: "Nǐ de shǒujī hěn hǎo. Wèishénme yào mǎi xīn de?", vn: "Điện thoại của bạn rất tốt. Tại sao lại muốn mua cái mới?", gender: "male" },
@@ -9625,7 +9637,7 @@ clozes: [
 {
         title: "Hội thoại 1: 臺灣的小吃 Đồ ăn vặt Đài Loan",
         lesson: "Bài 5",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "月美", zh: "很多人都說臺灣有不少有名的小吃。", py: "Hěn duō rén dōu shuō Táiwān yǒu bù shǎo yǒumíng de xiǎochī.", vn: "Rất nhiều người đều nói Đài Loan có không ít đồ ăn vặt nổi tiếng.", gender: "female" },
             { sp: "明華", zh: "是啊！牛肉麵、小籠包、臭豆腐...都很好吃。", py: "Shì a! Niúròumiàn, xiǎolóngbāo, chòudòufu... dōu hěn hǎochī.", vn: "Đúng vậy! Mì bò, tiểu long bao, đậu phụ thối... đều rất ngon.", gender: "male" },
@@ -9686,7 +9698,7 @@ clozes: [
     {
         title: "Hội thoại 2: 自己做飯 Tự nấu ăn",
         lesson: "Bài 5",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "月美", zh: "昨天晚上那家餐廳的菜很好吃，可是有一點辣。", py: "Zuótiān wǎnshàng nà jiā cāntīng de cài hěn hǎochī, kěshì yǒu yìdiǎn là.", vn: "Món ăn ở nhà hàng tối qua rất ngon, nhưng có hơi cay một chút.", gender: "female" },
             { sp: "安同", zh: "我也怕辣，所以我喜歡自己做飯。", py: "Wǒ yě pà là, suǒyǐ wǒ xǐhuān zìjǐ zuòfàn.", vn: "Tôi cũng sợ cay, cho nên tôi thích tự nấu ăn.", gender: "male" },
@@ -9747,7 +9759,7 @@ clozes: [
 {
         title: "Hội thoại 1: 怡君的學校在哪裡？ Trường của Di Quân ở đâu?",
         lesson: "Bài 6",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "安同", zh: "聽說怡君的學校很漂亮。", py: "Tīngshuō Yíjūn de xuéxiào hěn piàoliang.", vn: "Nghe nói trường của Di Quân rất đẹp.", gender: "male" },
             { sp: "如玉", zh: "他們學校在哪裡？遠不遠？", py: "Tāmen xuéxiào zài nǎlǐ? Yuǎn bù yuǎn?", vn: "Trường của họ ở đâu? Có xa không?", gender: "female" },
@@ -9808,7 +9820,7 @@ clozes: [
     {
         title: "Hội thoại 2: 參觀學校 Tham quan trường học",
         lesson: "Bài 6",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "怡君", zh: "歡迎你們來。", py: "Huānyíng nǐmen lái.", vn: "Hoan nghênh các bạn đến.", gender: "female" },
             { sp: "安同", zh: "你們學校真遠！", py: "Nǐmen xuéxiào zhēn yuǎn!", vn: "Trường của các bạn xa thật!", gender: "male" },
@@ -9870,7 +9882,7 @@ clozes: [
 {
         title: "Hội thoại 1: 我們一起去 KTV Chúng ta cùng nhau đi KTV",
         lesson: "Bài 7",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "安同", zh: "月美，妳要去哪裡？", py: "Yuèměi, nǐ yào qù nǎlǐ?", vn: "Nguyệt Mỹ, bạn muốn đi đâu?", gender: "male" },
             { sp: "月美", zh: "去 KTV 唱歌。我和朋友九點二十分在大安 KTV 見面。", py: "Qù KTV chànggē. Wǒ hàn péngyǒu jiǔ diǎn èrshí fēn zài Dà'ān KTV jiànmiàn.", vn: "Đi KTV hát. Tôi và bạn hẹn gặp nhau lúc 9 giờ 20 phút ở KTV Đại An.", gender: "female" },
@@ -9933,7 +9945,7 @@ clozes: [
     {
         title: "Hội thoại 2: 上書法課 Học lớp thư pháp",
         lesson: "Bài 7",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "安同", zh: "如玉，妳在吃飯啊？", py: "Rúyù, nǐ zài chīfàn a?", vn: "Như Ngọc, bạn đang ăn cơm à?", gender: "male" },
             { sp: "如玉", zh: "是，吃午餐，等一下要上課。你呢？", py: "Shì, chī wǔcān, děng yíxià yào shàngkè. Nǐ ne?", vn: "Ừ, ăn bữa trưa, lát nữa phải lên lớp. Còn bạn?", gender: "female" },
@@ -9996,7 +10008,7 @@ clozes: [
 {
         title: "Hội thoại 1: 怎麼去台南？ Đi Đài Nam bằng phương tiện gì?",
         lesson: "Bài 8",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "這個週末，我想跟朋友去臺南玩。", py: "Zhège zhōumò, wǒ xiǎng gēn péngyǒu qù Táinán wán.", vn: "Cuối tuần này, tôi muốn cùng bạn bè đi Đài Nam chơi.", gender: "female" },
             { sp: "明華", zh: "怎麼去？", py: "Zěnme qù?", vn: "Đi bằng cách nào?", gender: "male" },
@@ -10058,7 +10070,7 @@ clozes: [
     {
         title: "Hội thoại 2: 去參觀故宮博物院 Đi tham quan Bảo tàng Cố Cung",
         lesson: "Bài 8",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "安同，明天我們沒課，你想去哪裡？", py: "Āntóng, míngtiān wǒmen méi kè, nǐ xiǎng qù nǎlǐ?", vn: "An Đồng, ngày mai chúng ta không có tiết học, bạn muốn đi đâu?", gender: "female" },
             { sp: "安同", zh: "我要跟同學去參觀故宮博物院。", py: "Wǒ yào gēn tóngxué qù cānguān Gùgōng Bówùyuàn.", vn: "Tôi muốn cùng bạn học đi tham quan Bảo tàng Cố Cung.", gender: "male" },
@@ -10121,7 +10133,7 @@ clozes: [
 {
         title: "Hội thoại 1: 放假的計劃 Kế hoạch kỳ nghỉ",
         lesson: "Bài 9",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "安同", zh: "田中，下個星期我們放五天的假，你要回國嗎？", py: "Tiánzhōng, xià ge xīngqí wǒmen fàng wǔ tiān de jià, nǐ yào huíguó ma?", vn: "Điền Trung, tuần sau chúng ta được nghỉ 5 ngày, bạn có về nước không?", gender: "male" },
             { sp: "田中", zh: "不，我打算在家看電視、影片學中文，你呢？", py: "Bù, wǒ dǎsuàn zài jiā kàn diànshì, yǐngpiàn xué Zhōngwén, nǐ ne?", vn: "Không, tôi dự định ở nhà xem tivi, video để học tiếng Trung. Còn bạn?", gender: "male" },
@@ -10185,7 +10197,7 @@ clozes: [
     {
         title: "Hội thoại 2: 你有什麼建議？ Bạn có gợi ý gì không?",
         lesson: "Bài 9",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "田中", zh: "我女朋友九月三十號要來臺灣看我。", py: "Wǒ nǚ péngyǒu jiǔ yuè sānshí hào yào lái Táiwān kàn wǒ.", vn: "Bạn gái tôi sẽ đến Đài Loan thăm tôi vào ngày 30 tháng 9.", gender: "male" },
             { sp: "明華", zh: "你想帶她去哪裡玩？", py: "Nǐ xiǎng dài tā qù nǎlǐ wán?", vn: "Bạn muốn dẫn cô ấy đi đâu chơi?", gender: "male" },
@@ -10249,7 +10261,7 @@ clozes: [
 {
         title: "Hội thoại 1: 台灣的水果很好吃 Trái cây Đài Loan rất ngon",
         lesson: "Bài 10",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "這個黃色的水果叫什麼？", py: "Zhège huángsè de shuǐguǒ jiào shénme?", vn: "Trái cây màu vàng này gọi là gì?", gender: "female" },
             { sp: "月美", zh: "芒果。給妳一塊，吃吃看。", py: "Mángguǒ. Gěi nǐ yí kuài, chī chī kàn.", vn: "Xoài. Cho bạn một miếng, ăn thử xem.", gender: "female" },
@@ -10312,7 +10324,7 @@ clozes: [
     {
         title: "Hội thoại 2: 去花蓮 Chuyến đi Hoa Liên",
         lesson: "Bài 10",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "明華", zh: "你跟你女朋友上個月去花蓮玩，好玩嗎？", py: "Nǐ gēn nǐ nǚ péngyǒu shàng ge yuè qù Huālián wán, hǎowán ma?", vn: "Tháng trước bạn và bạn gái đi Hoa Liên chơi, có vui không?", gender: "male" },
             { sp: "田中", zh: "很好玩。你看，這些是我拍的照片。", py: "Hěn hǎowán. Nǐ kàn, zhèxiē shì wǒ pāi de zhàopiàn.", vn: "Rất vui. Bạn xem, những cái này là ảnh tôi chụp.", gender: "male" },
@@ -10376,7 +10388,7 @@ clozes: [
 {
         title: "Hội thoại 1: 我來看房子 Tôi đến xem nhà",
         lesson: "Bài 11",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "林先生，你好，我是白如玉，來看房子。", py: "Lín xiānshēng, nǐ hǎo, wǒ shì Bái Rúyù, lái kàn fángzi.", vn: "Chào ông Lâm, tôi là Bạch Như Ngọc, đến xem nhà.", gender: "female" },
             { sp: "房東", zh: "白小姐，妳好，請進。", py: "Bái xiǎojiě, nǐ hǎo, qǐng jìn.", vn: "Chào cô Bạch, mời vào.", gender: "male" },
@@ -10439,7 +10451,7 @@ clozes: [
     {
         title: "Hội thoại 2: 我租房子了！ Tôi thuê nhà rồi！  ",
         lesson: "Bài 11",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "喂，房東先生，你好，我是白如玉，你收到我的房租了嗎？", py: "Wéi, fángdōng xiānshēng, nǐ hǎo, wǒ shì Bái Rúyù, nǐ shōudào wǒ de fángzū le ma?", vn: "Alo, chào ông chủ nhà, tôi là Bạch Như Ngọc, ông đã nhận được tiền thuê nhà của tôi chưa?", gender: "female" },
             { sp: "房東", zh: "我已經收到了，謝謝。妳習慣了嗎？", py: "Wǒ yǐjīng shōudào le, xièxie. Nǐ xíguàn le ma?", vn: "Tôi đã nhận được rồi, cảm ơn. Cô đã quen chưa?", gender: "male" },
@@ -10503,7 +10515,7 @@ clozes: [
 {
         title: "Hội thoại 1: 學中文計劃 Kế hoạch học tiếng Trung ",
         lesson: "Bài 12",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "田中", zh: "安同，你計畫在臺灣學多久的中文？", py: "Āntóng, nǐ jìhuà zài Táiwān xué duō jiǔ de Zhōngwén?", vn: "An Đồng, bạn lên kế hoạch học tiếng Trung ở Đài Loan bao lâu?", gender: "male" },
             { sp: "安同", zh: "五年。", py: "Wǔ nián.", vn: "Năm năm.", gender: "male" },
@@ -10568,7 +10580,7 @@ clozes: [
     {
         title: "Hội thoại 2: 工作  Công việc ",
         lesson: "Bài 12",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "月美", zh: "田中，你是什麼時候來臺灣工作的？", py: "Tiánzhōng, nǐ shì shénme shíhòu lái Táiwān gōngzuò de?", vn: "Điền Trung, bạn đến Đài Loan làm việc từ khi nào vậy?", gender: "female" },
             { sp: "田中", zh: "去年，我已經在臺灣工作一年了。", py: "Qùnián, wǒ yǐjīng zài Táiwān gōngzuò yì nián le.", vn: "Năm ngoái, tôi đã làm việc ở Đài Loan được 1 năm rồi.", gender: "male" },
@@ -10633,7 +10645,7 @@ clozes: [
 {
         title: "Hội thoại 1: 過生日 Tổ chức sinh nhật",
         lesson: "Bài 13",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "怡君", zh: "喂，安同嗎？", py: "Wéi, Āntóng ma?", vn: "Alo, An Đồng phải không?", gender: "female" },
             { sp: "安同", zh: "是，我就是。怡君，好久不見，聽說妳去花蓮？", py: "Shì, wǒ jiùshì. Yíjūn, hǎo jiǔ bú jiàn, tīngshuō nǐ qù Huālián?", vn: "Phải, là tôi đây. Di Quân, lâu rồi không gặp, nghe nói bạn đi Hoa Liên?", gender: "male" },
@@ -10700,7 +10712,7 @@ clozes: [
     {
         title: "Hội thoại 2: 我們一起過生日 Chúng ta cùng nhau đón Sinh Nhật",
         lesson: "Bài 13",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "安同", zh: "怡君，謝謝妳請我到這麼有名的餐廳吃飯。", py: "Yíjūn, xièxie nǐ qǐng wǒ dào zhème yǒumíng de cāntīng chīfàn.", vn: "Di Quân, cảm ơn bạn đã mời tôi đến nhà hàng nổi tiếng như vậy ăn cơm.", gender: "male" },
             { sp: "怡君", zh: "哪裡，哪裡！這是我給你的禮物。", py: "Nǎlǐ, nǎlǐ! Zhè shì wǒ gěi nǐ de lǐwù.", vn: "Có gì đâu, có gì đâu! Đây là món quà tôi tặng bạn.", gender: "female" },
@@ -10766,7 +10778,7 @@ clozes: [
 {
         title: "Hội thoại 1: 今天天氣怎麼樣？ Thời tiết hôm nay thế nào?",
         lesson: "Bài 14",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "外面風那麼大，我覺得今天比昨天冷。臺灣會不會下雪？", py: "Wàimiàn fēng nàme dà, wǒ juéde jīntiān bǐ zuótiān lěng. Táiwān huì bú huì xiàxuě?", vn: "Bên ngoài gió lớn như vậy, tôi cảm thấy hôm nay lạnh hơn hôm qua. Đài Loan có tuyết rơi không?", gender: "female" },
             { sp: "明華", zh: "很高的山會下雪。玉山常下雪。美國呢？開始下雪了吧？", py: "Hěn gāo de shān huì xiàxuě. Yùshān cháng xiàxuě. Měiguó ne? Kāishǐ xiàxuě le ba?", vn: "Núi rất cao sẽ có tuyết rơi. Núi Ngọc Sơn thường có tuyết. Còn Mỹ thì sao? Bắt đầu có tuyết rơi rồi chứ?", gender: "male" },
@@ -10830,7 +10842,7 @@ clozes: [
     {
         title: "Hội thoại 2: 颱風快要到了！ Cơn bão sắp đến!",
         lesson: "Bài 14",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "明華", zh: "如玉，雨下得這麼大，妳怎麼沒帶傘呢？", py: "Rúyù, yǔ xià de zhème dà, nǐ zěnme méi dài sǎn ne?", vn: "Như Ngọc, mưa lớn thế này, sao bạn lại không mang ô nhỉ?", gender: "male" },
             { sp: "如玉", zh: "我昨天帶了，可是今天忘了帶。", py: "Wǒ zuótiān dài le, kěshì jīntiān wàng le dài.", vn: "Hôm qua tôi có mang, nhưng hôm nay quên mang mất rồi.", gender: "female" },
@@ -10894,7 +10906,7 @@ clozes: [
 {
         title: "Hội thoại 1: 我生病了 Tôi bị bệnh rồi",
         lesson: "Bài 15",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "醫生", zh: "白小姐，妳哪裡不舒服？", py: "Bái xiǎojiě, nǐ nǎlǐ bù shūfú?", vn: "Cô Bạch, cô thấy khó chịu ở đâu?", gender: "male" },
             { sp: "如玉", zh: "我一直流鼻水，頭很痛，胃口很差。什麼東西都不想吃。", py: "Wǒ yìzhí liú bíshuǐ, tóu hěn tòng, wèikǒu hěn chà. Shénme dōngxi dōu bù xiǎng chī.", vn: "Tôi cứ chảy nước mũi suốt, đầu rất đau, ăn uống rất kém. Chẳng muốn ăn thứ gì cả.", gender: "female" },
@@ -10959,7 +10971,7 @@ clozes: [
     {
         title: "Hội thoại 2: 去看醫生 Đi khám bệnh",
         lesson: "Bài 15",
-        level: "TOCFL A1",
+        level: "TOCFL Band A",
         content: [
             { sp: "如玉", zh: "你怎麼了？臉色這麼難看。", py: "Nǐ zěnme le? Liǎnsè zhème nánkàn.", vn: "Bạn sao vậy? Sắc mặt khó coi thế này.", gender: "female" },
             { sp: "安同", zh: "昨天晚上肚子很不舒服，吃了東西就吐，還吐了好幾次。", py: "Zuótiān wǎnshàng dùzi hěn bù shūfú, chī le dōngxi jiù tù, hái tù le hǎo jǐ cì.", vn: "Tối qua bụng rất khó chịu, ăn đồ vào là nôn, còn nôn mấy lần liền.", gender: "male" },
