@@ -7214,7 +7214,7 @@ const dictionaryData = [
       { tc: "臺灣人過生日有吃豬腳麵線的傳統。", py: "Táiwān rén guò shēngrì yǒu chī zhūjiǎo miànxiàn de chuántǒng.", vn: "Người Đài Loan đón sinh nhật có truyền thống ăn mì chân giò." },
       { tc: "你在臺灣過得怎麼樣？習慣了嗎？", py: "Nǐ zài Táiwān guò de zěnmeyàng? Xíguàn le ma?", vn: "Bạn sống ở Đài Loan thế nào? Đã quen chưa?" }
     ],
-    idiom: "過 mút cẩn thận - Quá thận trọng (過分小心).", level: "TOCFL A1"
+    idiom: "過分小心 (Guòfèn xiǎoxīn) - Quá thận trọng .", level: "TOCFL A1"
   },
   {
     word: "左右", pinyin: "zuǒyòu", hanViet: "Tả hữu",
@@ -9175,6 +9175,12 @@ if (event.key === 'Enter') {
 
     displayWords(filteredData);
 }
+
+// === GỘP DỮ LIỆU A2 VÀO TỪ ĐIỂN CHÍNH ===
+if (typeof dataA2 !== 'undefined') {
+    dictionaryData.push(...dataA2);
+}
+// =========================================
 
 // KHỞI CHẠY LẦN ĐẦU
 displayWords(dictionaryData);
@@ -11563,9 +11569,4 @@ function trackUserAction(actionType, actionDetails) {
     .catch((error) => {
         console.error("Lỗi khi ghi nhận dữ liệu: ", error);
     });
-}
-
-// Hợp nhất dữ liệu A2 vào danh sách A1 hiện tại
-if (typeof dataA2 !== 'undefined') {
-    dictionaryData.push(...dataA2);
 }
