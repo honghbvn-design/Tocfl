@@ -2781,4 +2781,288 @@ const dataA2 = [
     idiom: "萬萬沒想到 (Wànwàn méi xiǎngdào) - Vạn lần không ngờ tới.<br>🔸 Ví dụ: 我萬萬沒想到他會騙我。 Wǒ wànwàn méi xiǎngdào tā huì piàn wǒ. - Tôi vạn lần không ngờ tới việc anh ta sẽ lừa tôi.", 
     level: "TOCFL A2"
   },
+  {
+    word: "喜酒", pinyin: "xǐjiǔ", hanViet: "Hỷ tửu",
+    image: "",
+    radical: "喜 (Bộ Khẩu 口) + 酒 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Rượu (酒) uống trong ngày vui (喜) là rượu mừng cưới.",
+    explanation: "Danh từ: Tiệc cưới, cỗ cưới, rượu mừng.",
+    compounds: [
+      { tc: "吃喜酒", py: "chī xǐjiǔ", vn: "đi ăn cỗ cưới" },
+      { tc: "喝喜酒", py: "hē xǐjiǔ", vn: "uống rượu mừng" }
+    ],
+    examples: [
+      { tc: "週末我要去吃朋友的喜酒。", py: "Zhōumò wǒ yào qù chī péngyǒu de xǐjiǔ.", vn: "Cuối tuần tôi phải đi ăn cỗ cưới của bạn." },
+      { tc: "他們下個月要辦喜酒。", py: "Tāmen xià ge yuè yào bàn xǐjiǔ.", vn: "Tháng sau họ sẽ tổ chức tiệc cưới." },
+      { tc: "這杯喜酒我一定要喝。", py: "Zhè bēi xǐjiǔ wǒ yídìng yào hē.", vn: "Ly rượu mừng này tôi nhất định phải uống." }
+    ],
+    idiom: "喝喜酒 (Hē xǐjiǔ) - Đi ăn cưới / Uống rượu mừng.<br>🔸 Ví dụ: 請問你們什麼時候請我們喝喜酒？ Qǐngwèn nǐmen shénme shíhòu qǐng wǒmen hē xǐjiǔ? - Xin hỏi khi nào các bạn mới mời chúng tôi uống rượu mừng đây?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "恭喜", pinyin: "gōngxǐ", hanViet: "Cung hỷ",
+    image: "",
+    radical: "恭 (Bộ Tâm 㣺) + 喜 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Dùng tấm lòng (Tâm) và lời nói (Khẩu) để chúc mừng niềm vui (Hỷ) của người khác.",
+    explanation: "Động từ: Chúc mừng.",
+    compounds: [
+      { tc: "恭喜發財", py: "gōngxǐ fācái", vn: "cung hỷ phát tài" }
+    ],
+    examples: [
+      { tc: "恭喜你考上大學！", py: "Gōngxǐ nǐ kǎo shàng dàxué!", vn: "Chúc mừng bạn thi đỗ đại học!" },
+      { tc: "聽到這個好消息，大家都來恭喜他。", py: "Tīng dào zhège hǎo xiāoxī, dàjiā dōu lái gōngxǐ tā.", vn: "Nghe được tin tốt này, mọi người đều đến chúc mừng anh ấy." },
+      { tc: "恭喜你們結婚！", py: "Gōngxǐ nǐmen jiéhūn!", vn: "Chúc mừng các bạn kết hôn!" }
+    ],
+    idiom: "恭喜恭喜 (Gōngxǐ gōngxǐ) - Chúc mừng chúc mừng.<br>🔸 Ví dụ: 恭喜恭喜，祝你們永遠幸福！ Gōngxǐ gōngxǐ, zhù nǐmen yǒngyuǎn xìngfú! - Chúc mừng chúc mừng, chúc các bạn mãi mãi hạnh phúc!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "新娘", pinyin: "xīnniáng", hanViet: "Tân nương",
+    image: "",
+    radical: "新 (Bộ Cân 斤) + 娘 (Bộ Nữ 女)<br>💡 Mẹo nhớ: Người con gái (女 - 娘) mặc đồ mới (新) trong ngày cưới chính là cô dâu.",
+    explanation: "Danh từ: Cô dâu.",
+    compounds: [
+      { tc: "伴娘", py: "bànniáng", vn: "phù dâu" },
+      { tc: "新娘子", py: "xīnniángzi", vn: "cô dâu" }
+    ],
+    examples: [
+      { tc: "今天的新娘非常漂亮。", py: "Jīntiān de xīnniáng fēicháng piàoliang.", vn: "Cô dâu hôm nay vô cùng xinh đẹp." },
+      { tc: "新娘穿著白色的禮服。", py: "Xīnniáng chuānzhe báisè de lǐfú.", vn: "Cô dâu mặc chiếc váy cưới màu trắng." },
+      { tc: "大家都搶著跟新娘拍照。", py: "Dàjiā dōu qiǎngzhe gēn xīnniáng pāizhào.", vn: "Mọi người đều tranh nhau chụp ảnh với cô dâu." }
+    ],
+    idiom: "最美的新娘 (Zuì měi de xīnniáng) - Cô dâu xinh đẹp nhất.<br>🔸 Ví dụ: 你一定是今天最美的新娘。 Nǐ yídìng shì jīntiān zuì měi de xīnniáng. - Bạn chắc chắn là cô dâu xinh đẹp nhất hôm nay.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "參加", pinyin: "cānjiā", hanViet: "Tham gia",
+    image: "",
+    radical: "參 (Bộ Tư 厶) + 加 (Bộ Lực 力)<br>💡 Mẹo nhớ: Góp thêm sức lực (力 - 加) để cùng tham dự (參) vào một hoạt động chung.",
+    explanation: "Động từ: Tham gia, tham dự.",
+    compounds: [
+      { tc: "參加考試", py: "cānjiā kǎoshì", vn: "tham gia kỳ thi" },
+      { tc: "參加活動", py: "cānjiā huódòng", vn: "tham gia hoạt động" }
+    ],
+    examples: [
+      { tc: "我明天要參加朋友的婚禮。", py: "Wǒ míngtiān yào cānjiā péngyǒu de hūnlǐ.", vn: "Ngày mai tôi phải tham gia hôn lễ của bạn." },
+      { tc: "你想參加哪個社團？", py: "Nǐ xiǎng cānjiā nǎge shètuán?", vn: "Bạn muốn tham gia câu lạc bộ nào?" },
+      { tc: "他因為生病，不能參加這次的比賽。", py: "Tā yīnwèi shēngbìng, bùnéng cānjiā zhè cì de bǐsài.", vn: "Anh ấy vì bị ốm nên không thể tham gia cuộc thi lần này." }
+    ],
+    idiom: "報名參加 (Bàomíng cānjiā) - Đăng ký tham gia.<br>🔸 Ví dụ: 請問要在哪裡報名參加這個活動？ Qǐngwèn yào zài nǎlǐ bàomíng cānjiā zhège huódòng? - Xin hỏi phải đăng ký tham gia hoạt động này ở đâu?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "婚禮", pinyin: "hūnlǐ", hanViet: "Hôn lễ",
+    image: "",
+    radical: "婚 (Bộ Nữ 女) + 禮 (Bộ Thị 示)<br>💡 Mẹo nhớ: Buổi lễ (禮) kết hôn của người con gái (女 - 婚).",
+    explanation: "Danh từ: Hôn lễ, đám cưới.",
+    compounds: [
+      { tc: "舉行婚禮", py: "jǔxíng hūnlǐ", vn: "tổ chức đám cưới" }
+    ],
+    examples: [
+      { tc: "他們的婚禮很浪漫。", py: "Tāmen de hūnlǐ hěn làngmàn.", vn: "Hôn lễ của họ rất lãng mạn." },
+      { tc: "婚禮將在明天上午舉行。", py: "Hūnlǐ jiāng zài míngtiān shàngwǔ jǔxíng.", vn: "Lễ cưới sẽ được tổ chức vào sáng ngày mai." },
+      { tc: "謝謝大家來參加我們的婚禮。", py: "Xièxiè dàjiā lái cānjiā wǒmen de hūnlǐ.", vn: "Cảm ơn mọi người đã đến tham dự đám cưới của chúng tôi." }
+    ],
+    idiom: "世紀婚禮 (Shìjì hūnlǐ) - Đám cưới thế kỷ.<br>🔸 Ví dụ: 這對明星舉辦了一場世紀婚禮。 Zhè duì míngxīng jǔbàn le yì chǎng shìjì hūnlǐ. - Cặp đôi minh tinh này đã tổ chức một đám cưới thế kỷ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "西裝", pinyin: "xīzhuāng", hanViet: "Tây trang",
+    image: "",
+    radical: "西 (Bộ Á 襾) + 裝 (Bộ Y 衣)<br>💡 Mẹo nhớ: Trang phục (裝 - Y) có nguồn gốc từ phương Tây (西).",
+    explanation: "Danh từ: Áo vest, âu phục.",
+    compounds: [
+      { tc: "穿西裝", py: "chuān xīzhuāng", vn: "mặc vest" },
+      { tc: "一套西裝", py: "yí tào xīzhuāng", vn: "một bộ vest" }
+    ],
+    examples: [
+      { tc: "新郎穿著黑色的西裝。", py: "Xīnláng chuānzhe hēisè de xīzhuāng.", vn: "Chú rể mặc bộ vest màu đen." },
+      { tc: "上班時，他總是穿西裝。", py: "Shàngbān shí, tā zǒngshì chuān xīzhuāng.", vn: "Lúc đi làm, anh ấy luôn mặc vest." },
+      { tc: "為了參加面談，他買了一套新西裝。", py: "Wèile cānjiā miàntán, tā mǎi le yí tào xīn xīzhuāng.", vn: "Để tham gia phỏng vấn, anh ấy đã mua một bộ vest mới." }
+    ],
+    idiom: "西裝筆挺 (Xīzhuāng bǐtǐng) - Ăn mặc vest chỉnh tề / Vest phẳng phiu.<br>🔸 Ví dụ: 他今天西裝筆挺，看起來很帥。 Tā jīntiān xīzhuāng bǐtǐng, kàn qǐlái hěn shuài. - Hôm nay anh ấy mặc vest rất chỉnh tề, trông rất đẹp trai.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "正式", pinyin: "zhèngshì", hanViet: "Chính thức",
+    image: "",
+    radical: "正 (Bộ Chỉ 止) + 式 (Bộ Dặc 弋)<br>💡 Mẹo nhớ: Kiểu cách, hình thức (式) ngay ngắn, chuẩn mực (正).",
+    explanation: "Tính từ: Chính thức, trang trọng.",
+    compounds: [
+      { tc: "正式服裝", py: "zhèngshì fúzhuāng", vn: "trang phục trang trọng" },
+      { tc: "非正式", py: "fēi zhèngshì", vn: "không chính thức" }
+    ],
+    examples: [
+      { tc: "這是一個正式的場合，請穿禮服。", py: "Zhè shì yí ge zhèngshì de chǎnghé, qǐng chuān lǐfú.", vn: "Đây là một dịp trang trọng, vui lòng mặc lễ phục." },
+      { tc: "他今天正式成為我們公司的員工。", py: "Tā jīntiān zhèngshì chéngwéi wǒmen gōngsī de yuángōng.", vn: "Anh ấy hôm nay chính thức trở thành nhân viên của công ty chúng tôi." },
+      { tc: "麻煩你寫一封正式的電子郵件。", py: "Máfan nǐ xiě yì fēng zhèngshì de diànzǐ yóujiàn.", vn: "Phiền bạn viết một email chính thức." }
+    ],
+    idiom: "正式場合 (Zhèngshì chǎnghé) - Dịp trang trọng / Hoàn cảnh chính thức.<br>🔸 Ví dụ: 在正式場合，我們要注意說話的態度。 Zài zhèngshì chǎnghé, wǒmen yào zhùyì shuōhuà de tàidù. - Trong những dịp trang trọng, chúng ta phải chú ý thái độ nói chuyện.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "客人", pinyin: "kèrén", hanViet: "Khách nhân",
+    image: "",
+    radical: "客 (Bộ Miên 宀) + 人 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Người (人) đến chơi và ở lại dưới mái nhà (宀) của mình chính là khách.",
+    explanation: "Danh từ: Khách, khách mời, khách hàng.",
+    compounds: [
+      { tc: "請客", py: "qǐngkè", vn: "mời khách" },
+      { tc: "客氣", py: "kèqì", vn: "khách sáo" }
+    ],
+    examples: [
+      { tc: "婚禮上來了很多客人。", py: "Hūnlǐ shàng lái le hěn duō kèrén.", vn: "Hôn lễ có rất nhiều khách đến." },
+      { tc: "媽媽正在準備晚餐給客人吃。", py: "Māma zhèngzài zhǔnbèi wǎncān gěi kèrén chī.", vn: "Mẹ đang chuẩn bị bữa tối cho khách ăn." },
+      { tc: "這家餐廳的客人總是很多。", py: "Zhè jiā cāntīng de kèrén zǒngshì hěn duō.", vn: "Khách của nhà hàng này lúc nào cũng rất đông." }
+    ],
+    idiom: "招待客人 (Zhāodài kèrén) - Tiếp đãi khách.<br>🔸 Ví dụ: 主人正在熱情地招待客人。 Zhǔrén zhèngzài rèqíng de zhāodài kèrén. - Chủ nhà đang nhiệt tình tiếp đãi khách.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "手", pinyin: "shǒu", hanViet: "Thủ",
+    image: "",
+    radical: "手 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng hình dáng bàn tay có 5 ngón đang xòe ra.",
+    explanation: "Danh từ: Bàn tay.",
+    compounds: [
+      { tc: "洗手", py: "xǐshǒu", vn: "rửa tay" },
+      { tc: "手機", py: "shǒujī", vn: "điện thoại di động" }
+    ],
+    examples: [
+      { tc: "飯前請記得洗手。", py: "Fàn qián qǐng jìdé xǐshǒu.", vn: "Trước khi ăn xin nhớ rửa tay." },
+      { tc: "天氣太冷了，我的手很冰。", py: "Tiānqì tài lěng le, wǒ de shǒu hěn bīng.", vn: "Thời tiết lạnh quá, tay tôi rất buốt." },
+      { tc: "他手裡拿著一束花。", py: "Tā shǒu lǐ názhe yí shù huā.", vn: "Trong tay anh ấy đang cầm một bó hoa." }
+    ],
+    idiom: "牽手 (Qiānshǒu) - Nắm tay.<br>🔸 Ví dụ: 新郎和新娘牽手走進來。 Xīnláng hé xīnniáng qiānshǒu zǒu jìnlái. - Chú rể và cô dâu nắm tay nhau bước vào.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "照相機", pinyin: "zhàoxiàngjī", hanViet: "Chiếu tướng cơ",
+    image: "",
+    radical: "照 (Bộ Hỏa 灬) + 相 (Bộ Mục 目) + 機 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Cỗ máy (機) dùng ánh sáng (照 - Hỏa) để bắt lại hình dáng, diện mạo (相).",
+    explanation: "Danh từ: Máy ảnh.",
+    compounds: [
+      { tc: "照相", py: "zhàoxiàng", vn: "chụp ảnh" },
+      { tc: "相機", py: "xiàngjī", vn: "máy ảnh (viết tắt)" }
+    ],
+    examples: [
+      { tc: "我買了一台新的照相機。", py: "Wǒ mǎi le yì tái xīn de zhàoxiàngjī.", vn: "Tôi đã mua một chiếc máy ảnh mới." },
+      { tc: "他的照相機非常貴。", py: "Tā de zhàoxiàngjī fēicháng guì.", vn: "Máy ảnh của anh ấy vô cùng đắt." },
+      { tc: "請問可以用你的照相機幫我們拍照嗎？", py: "Qǐngwèn kěyǐ yòng nǐ de zhàoxiàngjī bāng wǒmen pāizhào ma?", vn: "Xin hỏi có thể dùng máy ảnh của bạn chụp hình giúp chúng tôi không?" }
+    ],
+    idiom: "數位相機 (Shùwèi xiàngjī) - Máy ảnh kỹ thuật số.<br>🔸 Ví dụ: 現在大家都用手機拍照，很少用數位相機了。 Xiànzài dàjiā dōu yòng shǒujī pāizhào, hěn shǎo yòng shùwèi xiàngjī le. - Bây giờ mọi người đều dùng điện thoại chụp hình, rất ít dùng máy ảnh kỹ thuật số nữa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "新郎", pinyin: "xīnláng", hanViet: "Tân lang",
+    image: "",
+    radical: "新 (Bộ Cân 斤) + 郎 (Bộ Ấp 阝)<br>💡 Mẹo nhớ: Chữ Lang (郎) dùng để gọi người thanh niên. Chàng trai mới (新) cưới vợ là chú rể.",
+    explanation: "Danh từ: Chú rể.",
+    compounds: [
+      { tc: "伴郎", py: "bànláng", vn: "phù rể" },
+      { tc: "新郎官", py: "xīnlángguān", vn: "chú rể" }
+    ],
+    examples: [
+      { tc: "新郎和新娘看起來很幸福。", py: "Xīnláng hé xīnniáng kàn qǐlái hěn xìngfú.", vn: "Chú rể và cô dâu trông rất hạnh phúc." },
+      { tc: "新郎正在門口歡迎客人。", py: "Xīnláng zhèngzài ménkǒu huānyíng kèrén.", vn: "Chú rể đang đứng ở cửa hoan nghênh khách mời." },
+      { tc: "大家都在等新郎說話。", py: "Dàjiā dōu zài děng xīnláng shuōhuà.", vn: "Mọi người đều đang đợi chú rể phát biểu." }
+    ],
+    idiom: "英俊的新郎 (Yīngjùn de xīnláng) - Chú rể tuấn tú.<br>🔸 Ví dụ: 今天的新郎真英俊！ Jīntiān de xīnláng zhēn yīngjùn! - Chú rể hôm nay thật tuấn tú!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "站", pinyin: "zhàn", hanViet: "Trạm",
+    image: "",
+    radical: "站 (Bộ Lập 立)<br>💡 Mẹo nhớ: Chữ Lập (立 - đứng) kết hợp chữ Chiêm (占). Đứng yên một chỗ chính là trạm xe hoặc hành động đứng.",
+    explanation: "Động từ / Danh từ: Đứng / Trạm, bến xe.",
+    compounds: [
+      { tc: "站起來", py: "zhàn qǐlái", vn: "đứng lên" },
+      { tc: "車站", py: "chēzhàn", vn: "bến xe" }
+    ],
+    examples: [
+      { tc: "大家都站起來歡迎新娘。", py: "Dàjiā dōu zhàn qǐlái huānyíng xīnniáng.", vn: "Mọi người đều đứng lên để hoan nghênh cô dâu." },
+      { tc: "我在公車上站了一個小時。", py: "Wǒ zài gōngchē shàng zhàn le yí ge xiǎoshí.", vn: "Tôi đã đứng trên xe buýt cả một tiếng đồng hồ." },
+      { tc: "請大家站好，我們要拍合照了。", py: "Qǐng dàjiā zhàn hǎo, wǒmen yào pāi hézhào le.", vn: "Mời mọi người đứng ngay ngắn, chúng ta sắp chụp ảnh tập thể rồi." }
+    ],
+    idiom: "站著說話不腰疼 (Zhànzhe shuōhuà bù yāoténg) - Đứng nói chuyện không đau lưng (Chỉ việc người ngoài nói thì dễ, làm mới khó).<br>🔸 Ví dụ: 你這是站著說話不腰疼，自己來做做看！ Nǐ zhè shì zhànzhe shuōhuà bù yāoténg, zìjǐ lái zuò zuò kàn! - Cậu đúng là đứng nói chuyện không đau lưng, tự mình làm thử xem!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "白", pinyin: "bái", hanViet: "Bạch",
+    image: "",
+    radical: "白 (Bộ Bạch 白)<br>💡 Mẹo nhớ: Hình ảnh tia sáng mặt trời (日) đầu tiên ló rạng mang theo màu trắng sáng.",
+    explanation: "Tính từ: Màu trắng.",
+    compounds: [
+      { tc: "白色", py: "báisè", vn: "màu trắng" },
+      { tc: "明白", py: "míngbái", vn: "sáng tỏ, hiểu rõ" }
+    ],
+    examples: [
+      { tc: "新娘穿著白色的禮服。", py: "Xīnniáng chuānzhe báisè de lǐfú.", vn: "Cô dâu mặc lễ phục màu trắng." },
+      { tc: "我最喜歡的顏色是白色。", py: "Wǒ zuì xǐhuān de yánsè shì báisè.", vn: "Màu sắc tôi thích nhất là màu trắng." },
+      { tc: "外面下了大雪，到處都是白的。", py: "Wàimiàn xià le dàxuě, dàochù dōu shì bái de.", vn: "Bên ngoài tuyết rơi lớn, đâu đâu cũng trắng xóa." }
+    ],
+    idiom: "白頭偕老 (Báitóu xiélǎo) - Răng long đầu bạc / Sống với nhau đến bạc đầu.<br>🔸 Ví dụ: 祝新郎新娘白頭偕老。 Zhù xīnláng xīnniáng báitóu xiélǎo. - Chúc chú rể cô dâu sống với nhau đến răng long đầu bạc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "帥", pinyin: "shuài", hanViet: "Soái",
+    image: "",
+    radical: "帥 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Người mang khăn (巾) chỉ huy quân đội thường có phong thái oai phong, bảnh bao (soái ca).",
+    explanation: "Tính từ: Đẹp trai, bảnh bao.",
+    compounds: [
+      { tc: "帥哥", py: "shuàigē", vn: "soái ca, anh đẹp trai" }
+    ],
+    examples: [
+      { tc: "穿上西裝後，他看起來很帥。", py: "Chuān shàng xīzhuāng hòu, tā kàn qǐlái hěn shuài.", vn: "Sau khi mặc vest vào, anh ấy trông rất đẹp trai." },
+      { tc: "那個男明星真的很帥。", py: "Nàge nán míngxīng zhēn de hěn shuài.", vn: "Nam ngôi sao đó thật sự rất đẹp trai." },
+      { tc: "她男朋友又高又帥。", py: "Tā nánpéngyǒu yòu gāo yòu shuài.", vn: "Bạn trai của cô ấy vừa cao vừa đẹp trai." }
+    ],
+    idiom: "帥哥 (Shuàigē) - Anh đẹp trai / Soái ca (Cách gọi xưng hô thân mật phổ biến ở Đài Loan).<br>🔸 Ví dụ: 帥哥，請問這份餐點多少錢？ Shuàigē, qǐngwèn zhè fèn cāndiǎn duōshǎo qián? - Anh đẹp trai ơi, xin hỏi phần ăn này bao nhiêu tiền?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "禮服", pinyin: "lǐfú", hanViet: "Lễ phục",
+    image: "",
+    radical: "禮 (Bộ Thị 示) + 服 (Bộ Nguyệt 月)<br>💡 Mẹo nhớ: Trang phục (服) mặc trong những dịp lễ (禮) nghi quan trọng.",
+    explanation: "Danh từ: Lễ phục, trang phục dạ hội (thường chỉ váy cưới, váy dự tiệc của nữ).",
+    compounds: [
+      { tc: "婚紗禮服", py: "hūnshā lǐfú", vn: "váy cưới" }
+    ],
+    examples: [
+      { tc: "為了參加舞會，她買了一件新禮服。", py: "Wèile cānjiā wǔhuì, tā mǎi le yí jiàn xīn lǐfú.", vn: "Để tham gia tiệc khiêu vũ, cô ấy đã mua một bộ lễ phục mới." },
+      { tc: "新娘的禮服非常漂亮。", py: "Xīnniáng de lǐfú fēicháng piàoliang.", vn: "Lễ phục của cô dâu vô cùng xinh đẹp." },
+      { tc: "這件禮服穿在你身上很適合。", py: "Zhè jiàn lǐfú chuān zài nǐ shēnshàng hěn shìhé.", vn: "Bộ lễ phục này mặc trên người bạn rất phù hợp." }
+    ],
+    idiom: "晚禮服 (Wǎnlǐfú) - Đầm dạ hội.<br>🔸 Ví dụ: 她穿著一件紅色的晚禮服參加派對。 Tā chuānzhe yí jiàn hóngsè de wǎnlǐfú cānjiā pàiduì. - Cô ấy mặc một chiếc đầm dạ hội màu đỏ tham gia bữa tiệc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "座位", pinyin: "zuòwèi", hanViet: "Tọa vị",
+    image: "",
+    radical: "座 (Bộ Nghiễm 广) + 位 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Chỗ (位) để hai người (人人) ngồi (土) dưới mái hiên (广).",
+    explanation: "Danh từ: Chỗ ngồi, ghế ngồi.",
+    compounds: [
+      { tc: "讓座", py: "ràngzuò", vn: "nhường ghế" },
+      { tc: "找座位", py: "zhǎo zuòwèi", vn: "tìm chỗ ngồi" }
+    ],
+    examples: [
+      { tc: "婚禮上，每位客人都有自己的座位。", py: "Hūnlǐ shàng, měi wèi kèrén dōu yǒu zìjǐ de zuòwèi.", vn: "Trong hôn lễ, mỗi vị khách đều có chỗ ngồi của riêng mình." },
+      { tc: "請問這裡有座位嗎？", py: "Qǐngwèn zhèlǐ yǒu zuòwèi ma?", vn: "Xin hỏi ở đây có chỗ ngồi không?" },
+      { tc: "捷運上沒有座位了，我們只能站著。", py: "Jiéyùn shàng méiyǒu zuòwèi le, wǒmen zhǐnéng zhànzhe.", vn: "Trên tàu điện ngầm không còn chỗ ngồi nữa, chúng ta chỉ đành đứng thôi." }
+    ],
+    idiom: "對號入座 (Duìhào rùzuò) - Ngồi đúng số ghế / Tự vơ vào mình.<br>🔸 Ví dụ: 我只是隨便說說，你不要對號入座。 Wǒ zhǐshì suíbiàn shuōshuō, nǐ búyào duìhào rùzuò. - Tôi chỉ nói bâng quơ thôi, bạn đừng tự vơ vào mình.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "看起來", pinyin: "kàn qǐlái", hanViet: "Khán khởi lai",
+    image: "",
+    radical: "看 (Bộ Mục 目) + 起 (Bộ Tẩu 走) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Dùng mắt (看) để quan sát và đưa ra nhận xét về vẻ bề ngoài. (Tương tự cấu trúc của 聽起來).",
+    explanation: "Cụm động từ: Nhìn có vẻ, trông có vẻ.",
+    compounds: [
+      { tc: "聽起來", py: "tīng qǐlái", vn: "nghe có vẻ" }
+    ],
+    examples: [
+      { tc: "這道菜看起來很好吃。", py: "Zhè dào cài kàn qǐlái hěn hǎochī.", vn: "Món ăn này trông có vẻ rất ngon." },
+      { tc: "他今天看起來很高興。", py: "Tā jīntiān kàn qǐlái hěn gāoxìng.", vn: "Hôm nay anh ấy trông có vẻ rất vui." },
+      { tc: "這件衣服看起來很貴。", py: "Zhè jiàn yīfú kàn qǐlái hěn guì.", vn: "Chiếc áo này nhìn có vẻ rất đắt tiền." }
+    ],
+    idiom: "看起來不錯 (Kàn qǐlái búcuò) - Trông có vẻ ngon / Trông có vẻ ổn đấy.<br>🔸 Ví dụ: 這家餐廳的環境看起來不錯。 Zhè jiā cāntīng de huánjìng kàn qǐlái búcuò. - Môi trường của nhà hàng này trông có vẻ ổn đấy.", 
+    level: "TOCFL A2"
+  },
   ];
