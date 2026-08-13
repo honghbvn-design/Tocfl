@@ -2299,4 +2299,238 @@ const dataA2 = [
     idiom: "向您請教 (Xiàng nín qǐngjiào) - Xin thỉnh giáo ngài.<br>🔸 Ví dụ: 我有一件事想向您請教。 Wǒ yǒu yí jiàn shì xiǎng xiàng nín qǐngjiào. - Tôi có một việc muốn xin thỉnh giáo ngài.", 
     level: "TOCFL A2"
   },
+  {
+    word: "打工", pinyin: "dǎgōng", hanViet: "Đả công",
+    image: "",
+    radical: "打 (Bộ Thủ 扌) + 工 (Bộ Công 工)<br>💡 Mẹo nhớ: Dùng tay (扌) để làm việc, lao động (工). Cụm từ này chuyên dùng để chỉ việc đi làm thêm, làm part-time ngoài giờ học.",
+    explanation: "Động từ ly hợp: Đi làm thêm.",
+    compounds: [
+      { tc: "打工賺錢", py: "dǎgōng zhuànqián", vn: "làm thêm kiếm tiền" }
+    ],
+    examples: [
+      { tc: "我下課後要去便利商店打工。", py: "Wǒ xiàkè hòu yào qù biànlì shāngdiàn dǎgōng.", vn: "Sau khi tan học tôi phải đến cửa hàng tiện lợi làm thêm." },
+      { tc: "很多大學生都有打工的經驗。", py: "Hěn duō dàxuéshēng dōu yǒu dǎgōng de jīngyàn.", vn: "Rất nhiều sinh viên đại học đều có kinh nghiệm đi làm thêm." },
+      { tc: "打工可以幫我付一點生活費。", py: "Dǎgōng kěyǐ bāng wǒ fù yìdiǎn shēnghuófèi.", vn: "Đi làm thêm có thể giúp tôi chi trả một ít phí sinh hoạt." }
+    ],
+    idiom: "打工族 (Dǎgōng zú) - Người đi làm thêm / Dân làm thuê.<br>🔸 Ví dụ: 他現在是一個快樂的打工族。 Tā xiànzài shì yí ge kuàilè de dǎgōng zú. - Anh ấy bây giờ là một người đi làm thêm vui vẻ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "主任", pinyin: "zhǔrèn", hanViet: "Chủ nhiệm",
+    image: "",
+    radical: "主 (Bộ Chủ 丶) + 任 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Người (亻) làm chủ (主), gánh vác trách nhiệm (任) quản lý một phòng ban hoặc một khoa.",
+    explanation: "Danh từ: Chủ nhiệm, trưởng phòng, trưởng khoa.",
+    compounds: [
+      { tc: "系主任", py: "xì zhǔrèn", vn: "trưởng khoa" },
+      { tc: "班主任", py: "bānzhǔrèn", vn: "giáo viên chủ nhiệm" }
+    ],
+    examples: [
+      { tc: "我們系的主任非常嚴格。", py: "Wǒmen xì de zhǔrèn fēicháng yángé.", vn: "Trưởng khoa của chúng tôi vô cùng nghiêm khắc." },
+      { tc: "主任明天要去台北開會。", py: "Zhǔrèn míngtiān yào qù Táiběi kāihuì.", vn: "Chủ nhiệm ngày mai phải đi Đài Bắc họp." },
+      { tc: "這份文件需要主任簽名。", py: "Zhè fèn wénjiàn xūyào zhǔrèn qiānmíng.", vn: "Tài liệu này cần có chữ ký của chủ nhiệm." }
+    ],
+    idiom: "主任辦公室 (Zhǔrèn bàngōngshì) - Văn phòng chủ nhiệm.<br>🔸 Ví dụ: 請問主任辦公室在哪裡？ Qǐngwèn zhǔrèn bàngōngshì zài nǎlǐ? - Xin hỏi văn phòng chủ nhiệm nằm ở đâu?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "介紹", pinyin: "jièshào", hanViet: "Giới thiệu",
+    image: "",
+    radical: "介 (Bộ Nhân 人) + 紹 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Đứng ở giữa (介) làm cầu nối kết nối những sợi tơ (糸) duyên phận giữa mọi người với nhau.",
+    explanation: "Động từ: Giới thiệu.",
+    compounds: [
+      { tc: "自我介紹", py: "zìwǒ jièshào", vn: "tự giới thiệu bản thân" }
+    ],
+    examples: [
+      { tc: "我想給你介紹一個新朋友。", py: "Wǒ xiǎng gěi nǐ jièshào yí ge xīn péngyǒu.", vn: "Tôi muốn giới thiệu cho bạn một người bạn mới." },
+      { tc: "這本書介紹了台灣的歷史。", py: "Zhè běn shū jièshào le Táiwān de lìshǐ.", vn: "Quyển sách này đã giới thiệu về lịch sử của Đài Loan." },
+      { tc: "請你向大家介紹一下自己。", py: "Qǐng nǐ xiàng dàjiā jièshào yíxià zìjǐ.", vn: "Mời bạn giới thiệu một chút về bản thân với mọi người." }
+    ],
+    idiom: "介紹工作 (Jièshào gōngzuò) - Giới thiệu việc làm.<br>🔸 Ví dụ: 朋友幫我介紹了一份好工作。 Péngyǒu bāng wǒ jièshào le yí fèn hǎo gōngzuò. - Bạn bè đã giúp tôi giới thiệu một công việc tốt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "歲", pinyin: "suì", hanViet: "Tuế",
+    image: "",
+    radical: "歲 (Bộ Chỉ 止)<br>💡 Mẹo nhớ: Chữ 歲 biểu thị thời gian một năm trôi qua. Bước chân (止) đi qua bao nhiêu năm thì con người tăng thêm bấy nhiêu tuổi.",
+    explanation: "Lượng từ: Tuổi (dùng để nói về tuổi tác).",
+    compounds: [
+      { tc: "幾歲", py: "jǐ suì", vn: "mấy tuổi" },
+      { tc: "周歲", py: "zhōusuì", vn: "tuổi tròn" }
+    ],
+    examples: [
+      { tc: "請問你今年幾歲？", py: "Qǐngwèn nǐ jīnnián jǐ suì?", vn: "Xin hỏi năm nay bạn bao nhiêu tuổi?" },
+      { tc: "我的弟弟今年剛滿十歲。", py: "Wǒ de dìdi jīnnián gāng mǎn shí suì.", vn: "Em trai tôi năm nay vừa tròn mười tuổi." },
+      { tc: "這是一部適合五歲小孩看的電影。", py: "Zhè shì yí bù shìhé wǔ suì xiǎohái kàn de diànyǐng.", vn: "Đây là một bộ phim thích hợp cho trẻ em năm tuổi xem." }
+    ],
+    idiom: "歲歲平安 (Suìsuì píng'ān) - Năm nào cũng bình an.<br>🔸 Ví dụ: 過年時大家都會祝彼此歲歲平安。 Guònián shí dàjiā dōu huì zhù bǐcǐ suìsuì píng'ān. - Lúc đón năm mới mọi người đều sẽ chúc nhau năm nào cũng bình an.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "語言學", pinyin: "yǔyánxué", hanViet: "Ngữ ngôn học",
+    image: "",
+    radical: "語 (Bộ Ngôn 言) + 言 (Bộ Ngôn) + 學 (Bộ Tử 子)<br>💡 Mẹo nhớ: Bộ môn học thuật (學) chuyên nghiên cứu về lời nói, ngôn ngữ (語言) của con người.",
+    explanation: "Danh từ: Ngôn ngữ học.",
+    compounds: [
+      { tc: "語言", py: "yǔyán", vn: "ngôn ngữ" },
+      { tc: "語言學家", py: "yǔyánxué jiā", vn: "nhà ngôn ngữ học" }
+    ],
+    examples: [
+      { tc: "他在大學主修語言學。", py: "Tā zài dàxué zhǔxiū yǔyánxué.", vn: "Anh ấy học chuyên ngành ngôn ngữ học ở đại học." },
+      { tc: "語言學是一門非常有趣的學問。", py: "Yǔyánxué shì yì mén fēicháng yǒuqù de xuéwèn.", vn: "Ngôn ngữ học là một lĩnh vực học vấn vô cùng thú vị." },
+      { tc: "我們明天有一堂語言學的課。", py: "Wǒmen míngtiān yǒu yì táng yǔyánxué de kè.", vn: "Ngày mai chúng tôi có một tiết học ngôn ngữ học." }
+    ],
+    idiom: "語言學教授 (Yǔyánxué jiàoshòu) - Giáo sư ngôn ngữ học.<br>🔸 Ví dụ: 我們的語言學教授非常有名。 Wǒmen de yǔyánxué jiàoshòu fēicháng yǒumíng. - Giáo sư ngôn ngữ học của chúng tôi vô cùng nổi tiếng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "經驗", pinyin: "jīngyàn", hanViet: "Kinh nghiệm",
+    image: "",
+    radical: "經 (Bộ Mịch 糸) + 驗 (Bộ Mã 馬)<br>💡 Mẹo nhớ: Những điều đã trải qua (經) và được kiểm chứng (驗) qua thời gian sẽ trở thành kinh nghiệm.",
+    explanation: "Danh từ: Kinh nghiệm.",
+    compounds: [
+      { tc: "工作經驗", py: "gōngzuò jīngyàn", vn: "kinh nghiệm làm việc" },
+      { tc: "有經驗", py: "yǒu jīngyàn", vn: "có kinh nghiệm" }
+    ],
+    examples: [
+      { tc: "他是一位很有經驗的老師。", py: "Tā shì yí wèi hěn yǒu jīngyàn de lǎoshī.", vn: "Anh ấy là một giáo viên rất có kinh nghiệm." },
+      { tc: "找這份工作需要兩年的經驗。", py: "Zhǎo zhè fèn gōngzuò xūyào liǎng nián de jīngyàn.", vn: "Tìm công việc này cần có hai năm kinh nghiệm." },
+      { tc: "這對我來說是一次難忘的經驗。", py: "Zhè duì wǒ lái shuō shì yí cì nánwàng de jīngyàn.", vn: "Đối với tôi mà nói đây là một trải nghiệm khó quên." }
+    ],
+    idiom: "經驗豐富 (Jīngyàn fēngfù) - Giàu kinh nghiệm.<br>🔸 Ví dụ: 他在這個領域經驗豐富。 Tā zài zhège lǐngyù jīngyàn fēngfù. - Anh ấy rất giàu kinh nghiệm trong lĩnh vực này.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "談", pinyin: "tán", hanViet: "Đàm",
+    image: "",
+    radical: "談 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Chữ 言 (lời nói) kết hợp với chữ 炎 (ngọn lửa). Lời nói tuôn ra sôi nổi, nhiệt tình như ngọn lửa chính là hành động bàn bạc, thảo luận.",
+    explanation: "Động từ: Bàn bạc, nói chuyện, thảo luận.",
+    compounds: [
+      { tc: "談話", py: "tánhuà", vn: "trò chuyện" },
+      { tc: "談生意", py: "tán shēngyì", vn: "bàn chuyện làm ăn" }
+    ],
+    examples: [
+      { tc: "我們坐下來談一談吧。", py: "Wǒmen zuò xiàlái tán yì tán ba.", vn: "Chúng ta ngồi xuống bàn bạc một chút đi." },
+      { tc: "老闆想跟你談工作的事。", py: "Lǎobǎn xiǎng gēn nǐ tán gōngzuò de shì.", vn: "Sếp muốn nói chuyện công việc với bạn." },
+      { tc: "他們正在談未來的計畫。", py: "Tāmen zhèngzài tán wèilái de jìhuà.", vn: "Họ đang thảo luận về kế hoạch tương lai." }
+    ],
+    idiom: "談戀愛 (Tán liàn'ài) - Yêu đương / Hẹn hò.<br>🔸 Ví dụ: 上大學後，他開始談戀愛了。 Shàng dàxué hòu, tā kāishǐ tán liàn'ài le. - Sau khi lên đại học, anh ấy bắt đầu yêu đương rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "當", pinyin: "dāng", hanViet: "Đương",
+    image: "",
+    radical: "當 (Bộ Điền 田)<br>💡 Mẹo nhớ: Giữ một vai trò, chức vụ nào đó để gánh vác công việc.",
+    explanation: "Động từ: Làm (nghề nghiệp), đảm nhiệm.",
+    compounds: [
+      { tc: "當老師", py: "dāng lǎoshī", vn: "làm giáo viên" },
+      { tc: "當兵", py: "dāng bīng", vn: "đi lính" }
+    ],
+    examples: [
+      { tc: "我長大後想當一名醫生。", py: "Wǒ zhǎngdà hòu xiǎng dāng yì míng yīshēng.", vn: "Sau khi lớn lên tôi muốn làm một bác sĩ." },
+      { tc: "他在大學裡當助教。", py: "Tā zài dàxué lǐ dāng zhùjiào.", vn: "Anh ấy làm trợ giảng trong trường đại học." },
+      { tc: "當學生其實也不輕鬆。", py: "Dāng xuéshēng qíshí yě bù qīngsōng.", vn: "Làm học sinh thực ra cũng không hề nhẹ nhàng." }
+    ],
+    idiom: "當作 (Dàngzuò) - Coi như là.<br>🔸 Ví dụ: 請把這裡當作自己的家。 Qǐng bǎ zhèlǐ dàngzuò zìjǐ de jiā. - Xin hãy coi nơi này như nhà của chính mình.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "助教", pinyin: "zhùjiào", hanViet: "Trợ giáo",
+    image: "",
+    radical: "助 (Bộ Lực 力) + 教 (Bộ Phộc 攵)<br>💡 Mẹo nhớ: Người bỏ công sức (力) ra để phụ giúp cho việc giảng dạy (教).",
+    explanation: "Danh từ: Trợ giảng (Teaching Assistant).",
+    compounds: [
+      { tc: "助理", py: "zhùlǐ", vn: "trợ lý" }
+    ],
+    examples: [
+      { tc: "我們的中文助教很溫柔。", py: "Wǒmen de Zhōngwén zhùjiào hěn wēnróu.", vn: "Trợ giảng tiếng Trung của chúng tôi rất dịu dàng." },
+      { tc: "如果有不懂的問題，可以問助教。", py: "Rúguǒ yǒu bù dǒng de wèntí, kěyǐ wèn zhùjiào.", vn: "Nếu có vấn đề không hiểu, có thể hỏi trợ giảng." },
+      { tc: "他下課後要去幫助教做事。", py: "Tā xiàkè hòu yào qù bāng zhùjiào zuòshì.", vn: "Sau khi tan học anh ấy phải đi phụ việc cho trợ giảng." }
+    ],
+    idiom: "助教辦公室 (Zhùjiào bàngōngshì) - Văn phòng trợ giảng.<br>🔸 Ví dụ: 請把期末作業交到助教辦公室。 Qǐng bǎ qīmò zuòyè jiāo dào zhùjiào bàngōngshì. - Vui lòng nộp bài tập cuối kỳ đến văn phòng trợ giảng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "上午", pinyin: "shàngwǔ", hanViet: "Thượng ngọ",
+    image: "",
+    radical: "上 (Bộ Nhất 一) + 午 (Bộ Thập 十)<br>💡 Mẹo nhớ: Khoảng thời gian nằm ở nửa trên (上) của mốc 12 giờ trưa (午).",
+    explanation: "Danh từ: Buổi sáng (thường từ 8h đến 12h trưa).",
+    compounds: [
+      { tc: "下午", py: "xiàwǔ", vn: "buổi chiều" },
+      { tc: "中午", py: "zhōngwǔ", vn: "buổi trưa" }
+    ],
+    examples: [
+      { tc: "我今天上午有兩堂課。", py: "Wǒ jīntiān shàngwǔ yǒu liǎng táng kè.", vn: "Sáng hôm nay tôi có hai tiết học." },
+      { tc: "他今天上午沒來學校。", py: "Tā jīntiān shàngwǔ méi lái xuéxiào.", vn: "Sáng nay anh ấy không đến trường." },
+      { tc: "圖書館上午八點開門。", py: "Túshūguǎn shàngwǔ bā diǎn kāimén.", vn: "Thư viện mở cửa lúc 8 giờ sáng." }
+    ],
+    idiom: "整個上午 (Zhěngge shàngwǔ) - Cả một buổi sáng.<br>🔸 Ví dụ: 他整個上午都在房間裡睡覺。 Tā zhěngge shàngwǔ dōu zài fángjiān lǐ shuìjiào. - Anh ấy ngủ trong phòng cả một buổi sáng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "除了", pinyin: "chúle", hanViet: "Trừ liễu",
+    image: "",
+    radical: "除 (Bộ Phụ 阝) + 了 (Bộ Quyết 亅)<br>💡 Mẹo nhớ: Gạt bỏ, loại trừ (除) một đối tượng nào đó ra khỏi tổng thể.",
+    explanation: "Giới từ: Ngoài ... ra, ngoại trừ.",
+    compounds: [
+      { tc: "除外", py: "chúwài", vn: "ngoại trừ" }
+    ],
+    examples: [
+      { tc: "除了星期日，我每天都去打工。", py: "Chúle xīngqírì, wǒ měitiān dōu qù dǎgōng.", vn: "Ngoài Chủ nhật ra, ngày nào tôi cũng đi làm thêm." },
+      { tc: "除了他，大家都同意了。", py: "Chúle tā, dàjiā dōu tóngyì le.", vn: "Ngoại trừ anh ấy, mọi người đều đồng ý rồi." },
+      { tc: "除了英文，我也會說一點法文。", py: "Chúle Yīngwén, wǒ yě huì shuō yìdiǎn Fǎwén.", vn: "Ngoài tiếng Anh, tôi cũng biết nói một chút tiếng Pháp." }
+    ],
+    idiom: "除了...以外 (Chúle... yǐwài) - Ngoại trừ ... ra (Cấu trúc ngữ pháp rất phổ biến).<br>🔸 Ví dụ: 除了吃麵以外，我也想吃水餃。 Chúle chī miàn yǐwài, wǒ yě xiǎng chī shuǐjiǎo. - Ngoài việc ăn mì ra, tôi cũng muốn ăn sủi cảo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "年級", pinyin: "niánjí", hanViet: "Niên cấp",
+    image: "",
+    radical: "年 (Bộ Can 干) + 級 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Thứ bậc, cấp độ (級) học tập được tính theo từng năm (年).",
+    explanation: "Danh từ: Khối lớp, năm thứ (đại học).",
+    compounds: [
+      { tc: "一年級", py: "yì niánjí", vn: "năm nhất / lớp một" },
+      { tc: "高級", py: "gāojí", vn: "cao cấp" }
+    ],
+    examples: [
+      { tc: "請問你是幾年級的學生？", py: "Qǐngwèn nǐ shì jǐ niánjí de xuéshēng?", vn: "Xin hỏi bạn là học sinh năm mấy?" },
+      { tc: "我現在是大學三年級。", py: "Wǒ xiànzài shì dàxué sān niánjí.", vn: "Tôi hiện đang là sinh viên năm ba đại học." },
+      { tc: "一年級的課比較簡單。", py: "Yì niánjí de kè bǐjiào jiǎndān.", vn: "Bài học của sinh viên năm nhất khá là đơn giản." }
+    ],
+    idiom: "低年級 (Dī niánjí) - Lớp nhỏ / Khóa dưới.<br>🔸 Ví dụ: 這個活動是為低年級學生舉辦的。 Zhège huódòng shì wèi dī niánjí xuéshēng jǔbàn de. - Hoạt động này được tổ chức dành cho học sinh khóa dưới.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "暑假", pinyin: "shǔjià", hanViet: "Thử giả",
+    image: "",
+    radical: "暑 (Bộ Nhật 日) + 假 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Căn nhà có mặt trời (日) chiếu sáng chói chang là mùa nóng (暑). Con người (亻) được nghỉ ngơi (假) vào mùa nóng chính là kỳ nghỉ hè.",
+    explanation: "Danh từ: Kỳ nghỉ hè.",
+    compounds: [
+      { tc: "寒假", py: "hánjià", vn: "kỳ nghỉ đông" },
+      { tc: "請假", py: "qǐngjià", vn: "xin nghỉ phép" }
+    ],
+    examples: [
+      { tc: "太棒了，暑假快到了！", py: "Tài bàng le, shǔjià kuài dào le!", vn: "Tuyệt quá, kỳ nghỉ hè sắp đến rồi!" },
+      { tc: "暑假時我想回國看家人。", py: "Shǔjià shí wǒ xiǎng huí guó kàn jiārén.", vn: "Vào kỳ nghỉ hè tôi muốn về nước thăm người nhà." },
+      { tc: "你今年的暑假有什麼計畫？", py: "Nǐ jīnnián de shǔjià yǒu shénme jìhuà?", vn: "Kỳ nghỉ hè năm nay bạn có kế hoạch gì không?" }
+    ],
+    idiom: "放暑假 (Fàng shǔjià) - Bắt đầu nghỉ hè.<br>🔸 Ví dụ: 台灣的大學通常在六月底放暑假。 Táiwān de dàxué tōngcháng zài liù yuè dǐ fàng shǔjià. - Các trường đại học ở Đài Loan thường bắt đầu nghỉ hè vào cuối tháng 6.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "請教", pinyin: "qǐngjiào", hanViet: "Thỉnh giáo",
+    image: "",
+    radical: "請 (Bộ Ngôn 言) + 教 (Bộ Phộc 攵)<br>💡 Mẹo nhớ: Dùng lời nói (言) chân thành để xin người khác chỉ dạy (教) cho mình.",
+    explanation: "Động từ: Xin thỉnh giáo, xin chỉ giáo (cách hỏi lịch sự, tôn trọng).",
+    compounds: [
+      { tc: "請客", py: "qǐngkè", vn: "mời khách" },
+      { tc: "教書", py: "jiāoshū", vn: "dạy học" }
+    ],
+    examples: [
+      { tc: "老師，我想請教您一個問題。", py: "Lǎoshī, wǒ xiǎng qǐngjiào nín yí ge wèntí.", vn: "Thưa thầy, em muốn xin thỉnh giáo thầy một vấn đề." },
+      { tc: "不懂的地方要多請教別人。", py: "Bù dǒng de dìfāng yào duō qǐngjiào biérén.", vn: "Những chỗ không hiểu thì phải thỉnh giáo người khác nhiều hơn." },
+      { tc: "我可以請教一下你的名字嗎？", py: "Wǒ kěyǐ qǐngjiào yíxià nǐ de míngzi ma?", vn: "Tôi có thể xin thỉnh giáo tên của bạn một chút được không?" }
+    ],
+    idiom: "向您請教 (Xiàng nín qǐngjiào) - Xin thỉnh giáo ngài.<br>🔸 Ví dụ: 我有一件事想向您請教。 Wǒ yǒu yí jiàn shì xiǎng xiàng nín qǐngjiào. - Tôi có một việc muốn xin thỉnh giáo ngài.", 
+    level: "TOCFL A2"
+  },
   ];
