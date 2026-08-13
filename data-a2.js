@@ -1005,5 +1005,5 @@ const dataA2 = [
     ],
     idiom: "慢慢來，別急 (Mànman lái, bié jí) - Cứ từ từ, đừng vội.<br>🔸 Ví dụ: 沒關係，慢慢來，別急！(Méiguānxì, mànman lái, bié jí! - Không sao đâu, cứ từ từ, đừng vội!)", 
     level: "TOCFL A2"
-  }
+  },
 ];
