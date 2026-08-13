@@ -3065,4 +3065,448 @@ const dataA2 = [
     idiom: "看起來不錯 (Kàn qǐlái búcuò) - Trông có vẻ ngon / Trông có vẻ ổn đấy.<br>🔸 Ví dụ: 這家餐廳的環境看起來不錯。 Zhè jiā cāntīng de huánjìng kàn qǐlái búcuò. - Môi trường của nhà hàng này trông có vẻ ổn đấy.", 
     level: "TOCFL A2"
   },
+  {
+    word: "結婚", pinyin: "jiéhūn", hanViet: "Kết hôn",
+    image: "",
+    radical: "結 (Bộ Mịch 糸) + 婚 (Bộ Nữ 女)<br>💡 Mẹo nhớ: Sợi tơ (糸) hồng buộc chặt duyên phận của người con gái (女) trong ngày cưới.",
+    explanation: "Động từ ly hợp: Kết hôn, cưới.",
+    compounds: [
+      { tc: "結過婚", py: "jié guò hūn", vn: "đã từng kết hôn" },
+      { tc: "離婚", py: "líhūn", vn: "ly hôn" }
+    ],
+    examples: [
+      { tc: "他們下個月就要結婚了。", py: "Tāmen xià ge yuè jiù yào jiéhūn le.", vn: "Tháng sau họ sắp kết hôn rồi." },
+      { tc: "你打算什麼時候結婚？", py: "Nǐ dǎsuàn shénme shíhòu jiéhūn?", vn: "Bạn dự định khi nào thì kết hôn?" },
+      { tc: "結婚是一件人生大事。", py: "Jiéhūn shì yí jiàn rénshēng dàshì.", vn: "Kết hôn là một chuyện đại sự của đời người." }
+    ],
+    idiom: "結婚紀念日 (Jiéhūn jìniànrì) - Kỷ niệm ngày cưới.<br>🔸 Ví dụ: 明天是他們的結婚紀念日。 Míngtiān shì tāmen de jiéhūn jìniànrì. - Ngày mai là kỷ niệm ngày cưới của họ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "日子", pinyin: "rìzi", hanViet: "Nhật tử",
+    image: "",
+    radical: "日 (Bộ Nhật 日) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Mặt trời (日) mọc rồi lặn tạo thành những ngày tháng trôi qua.",
+    explanation: "Danh từ: Ngày, ngày tháng, thời gian.",
+    compounds: [
+      { tc: "過日子", py: "guò rìzi", vn: "sống qua ngày" },
+      { tc: "好日子", py: "hǎo rìzi", vn: "ngày tốt lành" }
+    ],
+    examples: [
+      { tc: "結婚的日子選好了嗎？", py: "Jiéhūn de rìzi xuǎn hǎo le ma?", vn: "Đã chọn xong ngày kết hôn chưa?" },
+      { tc: "最近的日子過得真快。", py: "Zuìjìn de rìzi guò de zhēn kuài.", vn: "Ngày tháng dạo này trôi qua thật nhanh." },
+      { tc: "今天是一個特別的日子。", py: "Jīntiān shì yí ge tèbié de rìzi.", vn: "Hôm nay là một ngày đặc biệt." }
+    ],
+    idiom: "看日子 (Kàn rìzi) - Xem ngày (chọn ngày hoàng đạo).<br>🔸 Ví dụ: 台灣人結婚前都會先看日子。 Táiwān rén jiéhūn qián dōu huì xiān kàn rìzi. - Người Đài Loan trước khi kết hôn đều sẽ xem ngày trước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "親戚", pinyin: "qīnqī", hanViet: "Thân thích",
+    image: "",
+    radical: "親 (Bộ Kiến 見) + 戚 (Bộ Qua 戈)<br>💡 Mẹo nhớ: Những người thường xuyên gặp mặt (見) và có quan hệ ruột thịt với nhau.",
+    explanation: "Danh từ: Họ hàng, người thân.",
+    compounds: [
+      { tc: "親人", py: "qīnrén", vn: "người thân" },
+      { tc: "遠房親戚", py: "yuǎnfáng qīnqī", vn: "họ hàng xa" }
+    ],
+    examples: [
+      { tc: "過年時，我們都會去拜訪親戚。", py: "Guònián shí, wǒmen dōu huì qù bàifǎng qīnqī.", vn: "Lúc đón năm mới, chúng tôi đều sẽ đi thăm hỏi họ hàng." },
+      { tc: "婚禮上來了很多親戚朋友。", py: "Hūnlǐ shàng lái le hěn duō qīnqī péngyǒu.", vn: "Hôn lễ có rất nhiều họ hàng bạn bè đến dự." },
+      { tc: "他在台灣沒有親戚。", py: "Tā zài Táiwān méiyǒu qīnqī.", vn: "Anh ấy không có họ hàng ở Đài Loan." }
+    ],
+    idiom: "走親戚 (Zǒu qīnqī) - Đi thăm họ hàng.<br>🔸 Ví dụ: 過年最忙的就是到處走親戚。 Guònián zuì máng de jiùshì dàochù zǒu qīnqī. - Lúc đón Tết bận nhất chính là đi thăm họ hàng khắp nơi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "熱鬧", pinyin: "rènào", hanViet: "Nhiệt náo",
+    image: "",
+    radical: "熱 (Bộ Hỏa 灬) + 鬧 (Bộ Đấu 鬥)<br>💡 Mẹo nhớ: Bầu không khí nóng hổi (熱) và ồn ào như đang tranh đấu (鬧) ở ngoài chợ.",
+    explanation: "Tính từ: Náo nhiệt, nhộn nhịp, đông vui.",
+    compounds: [
+      { tc: "很熱鬧", py: "hěn rènào", vn: "rất náo nhiệt" }
+    ],
+    examples: [
+      { tc: "夜市裡人很多，非常熱鬧。", py: "Yèshì lǐ rén hěn duō, fēicháng rènào.", vn: "Trong chợ đêm có rất đông người, vô cùng náo nhiệt." },
+      { tc: "我喜歡熱鬧的地方。", py: "Wǒ xǐhuān rènào de dìfāng.", vn: "Tôi thích những nơi nhộn nhịp." },
+      { tc: "過年的時候家裡總是特別熱鬧。", py: "Guònián de shíhòu jiālǐ zǒngshì tèbié rènào.", vn: "Lúc đón Tết trong nhà lúc nào cũng đặc biệt náo nhiệt." }
+    ],
+    idiom: "湊熱鬧 (Còu rènào) - Góp vui / Tụ tập xem náo nhiệt.<br>🔸 Ví dụ: 那邊發生了什麼事？我們去湊熱鬧吧！ Nàbiān fāshēng le shénme shì? Wǒmen qù còu rènào ba! - Bên kia xảy ra chuyện gì vậy? Chúng ta qua xem náo nhiệt đi!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "慶祝", pinyin: "qìngzhù", hanViet: "Khánh chúc",
+    image: "",
+    radical: "慶 (Bộ Tâm 心) + 祝 (Bộ Thị 示)<br>💡 Mẹo nhớ: Dùng cái tâm (心) vui vẻ để cầu nguyện (示) và chúc mừng cho những điều tốt đẹp.",
+    explanation: "Động từ: Ăn mừng, kỷ niệm.",
+    compounds: [
+      { tc: "慶祝生日", py: "qìngzhù shēngrì", vn: "ăn mừng sinh nhật" },
+      { tc: "慶生", py: "qìngshēng", vn: "mừng sinh nhật (viết tắt)" }
+    ],
+    examples: [
+      { tc: "我們今晚去餐廳慶祝你的生日吧。", py: "Wǒmen jīnwǎn qù cāntīng qìngzhù nǐ de shēngrì ba.", vn: "Tối nay chúng ta ra nhà hàng ăn mừng sinh nhật bạn nhé." },
+      { tc: "為了慶祝考上大學，爸爸送我一支手機。", py: "Wèile qìngzhù kǎo shàng dàxué, bàba sòng wǒ yì zhī shǒujī.", vn: "Để ăn mừng thi đỗ đại học, bố đã tặng tôi một chiếc điện thoại." },
+      { tc: "新年是大家一起慶祝的節日。", py: "Xīnnián shì dàjiā yìqǐ qìngzhù de jiérì.", vn: "Năm mới là ngày lễ để mọi người cùng nhau ăn mừng." }
+    ],
+    idiom: "開趴慶祝 (Kāi pā qìngzhù) - Mở tiệc ăn mừng.<br>🔸 Ví dụ: 考試結束了，我們開趴慶祝吧！ Kǎoshì jiéshù le, wǒmen kāi pā qìngzhù ba! - Thi xong rồi, chúng ta mở tiệc ăn mừng thôi!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "件", pinyin: "jiàn", hanViet: "Kiện",
+    image: "",
+    radical: "件 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Bộ Nhân (người) đứng cạnh chữ Ngưu (trâu). Người nông dân đếm từng con trâu, từng kiện hàng.",
+    explanation: "Lượng từ: Chiếc, cái, kiện (dùng cho quần áo, hành lý hoặc sự việc).",
+    compounds: [
+      { tc: "一件衣服", py: "yí jiàn yīfú", vn: "một chiếc áo" },
+      { tc: "一件事情", py: "yí jiàn shìqíng", vn: "một sự việc" }
+    ],
+    examples: [
+      { tc: "這件衣服很適合你。", py: "Zhè jiàn yīfú hěn shìhé nǐ.", vn: "Chiếc áo này rất hợp với bạn." },
+      { tc: "我有一件重要的事要告訴你。", py: "Wǒ yǒu yí jiàn zhòngyào de shì yào gàosù nǐ.", vn: "Tôi có một việc quan trọng muốn nói với bạn." },
+      { tc: "請幫我把這件行李拿上去。", py: "Qǐng bāng wǒ bǎ zhè jiàn xínglǐ ná shàngqù.", vn: "Vui lòng giúp tôi mang kiện hành lý này lên trên." }
+    ],
+    idiom: "條件 (Tiáojiàn) - Điều kiện.<br>🔸 Ví dụ: 找這份工作的條件是什麼？ Zhǎo zhè fèn gōngzuò de tiáojiàn shì shénme? - Điều kiện để tìm công việc này là gì?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "喜事", pinyin: "xǐshì", hanViet: "Hỷ sự",
+    image: "",
+    radical: "喜 (Bộ Khẩu 口) + 事 (Bộ Quyết 亅)<br>💡 Mẹo nhớ: Sự việc (事) mang lại niềm vui (喜) tiếng cười.",
+    explanation: "Danh từ: Việc hỷ, chuyện vui (thường ám chỉ đám cưới hoặc sinh con).",
+    compounds: [
+      { tc: "辦喜事", py: "bàn xǐshì", vn: "tổ chức việc hỷ" }
+    ],
+    examples: [
+      { tc: "聽說你們家最近有喜事。", py: "Tīngshuō nǐmen jiā zuìjìn yǒu xǐshì.", vn: "Nghe nói nhà các bạn dạo này có chuyện vui." },
+      { tc: "結婚是一件大喜事。", py: "Jiéhūn shì yí jiàn dà xǐshì.", vn: "Kết hôn là một chuyện vui lớn." },
+      { tc: "恭喜你們家辦喜事！", py: "Gōngxǐ nǐmen jiā bàn xǐshì!", vn: "Chúc mừng gia đình bạn tổ chức việc hỷ!" }
+    ],
+    idiom: "喜事連連 (Xǐshì liánlián) - Chuyện vui liên tiếp.<br>🔸 Ví dụ: 祝你們家今年喜事連連！ Zhù nǐmen jiā jīnnián xǐshì liánlián! - Chúc gia đình các bạn năm nay có chuyện vui liên tiếp!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "請客", pinyin: "qǐngkè", hanViet: "Thỉnh khách",
+    image: "",
+    radical: "請 (Bộ Ngôn 言) + 客 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Dùng lời nói (言) mời khách (客) đến nhà thiết đãi ăn uống.",
+    explanation: "Động từ ly hợp: Mời khách, đãi khách (trả tiền cho bữa ăn).",
+    compounds: [
+      { tc: "我請客", py: "wǒ qǐngkè", vn: "tôi mời / tôi bao" }
+    ],
+    examples: [
+      { tc: "今天是我生日，我請客！", py: "Jīntiān shì wǒ shēngrì, wǒ qǐngkè!", vn: "Hôm nay là sinh nhật tôi, tôi mời!" },
+      { tc: "他發薪水了，說要請客。", py: "Tā fā xīnshuǐ le, shuō yào qǐngkè.", vn: "Anh ấy lĩnh lương rồi, nói là sẽ thiết đãi." },
+      { tc: "下次換我請客。", py: "Xià cì huàn wǒ qǐngkè.", vn: "Lần tới đổi lại là tôi mời nhé." }
+    ],
+    idiom: "讓您破費了 (Ràng nín pòfèi le) - Để ngài tốn kém rồi (Câu nói lịch sự khi được người khác mời khách).<br>🔸 Ví dụ: 謝謝你請客，讓您破費了！ Xièxiè nǐ qǐngkè, ràng nín pòfèi le! - Cảm ơn bạn đã mời, để bạn phải tốn kém rồi!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "紅包", pinyin: "hóngbāo", hanViet: "Hồng bao",
+    image: "",
+    radical: "紅 (Bộ Mịch 糸) + 包 (Bộ Bao 勹)<br>💡 Mẹo nhớ: Cái túi (包) màu đỏ (紅) dùng để đựng tiền mừng.",
+    explanation: "Danh từ: Phong bao lì xì, tiền mừng.",
+    compounds: [
+      { tc: "包紅包", py: "bāo hóngbāo", vn: "mừng tuổi / bỏ phong bì" },
+      { tc: "發紅包", py: "fā hóngbāo", vn: "phát lì xì" }
+    ],
+    examples: [
+      { tc: "過年時，長輩會給小孩紅包。", py: "Guònián shí, zhǎngbèi huì gěi xiǎohái hóngbāo.", vn: "Lúc đón Tết, người lớn sẽ cho trẻ em phong bao lì xì." },
+      { tc: "去參加婚禮要包紅包。", py: "Qù cānjiā hūnlǐ yào bāo hóngbāo.", vn: "Đi dự đám cưới phải có phong bì mừng." },
+      { tc: "我收到了一個很大的紅包。", py: "Wǒ shōudào le yí ge hěn dà de hóngbāo.", vn: "Tôi đã nhận được một phong bao lì xì rất lớn." }
+    ],
+    idiom: "收紅包 (Shōu hóngbāo) - Nhận tiền lì xì / (Từ lóng) Nhận hối lộ.<br>🔸 Ví dụ: 小時候最開心的事就是收紅包。 Xiǎoshíhòu zuì kāixīn de shì jiùshì shōu hóngbāo. - Hồi nhỏ chuyện vui nhất chính là được nhận tiền lì xì.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "送", pinyin: "sòng", hanViet: "Tống",
+    image: "",
+    radical: "送 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Di chuyển (辶) mang một vật gì đó đến tay người khác hoặc đi cùng ai đó để tiễn họ.",
+    explanation: "Động từ: Tặng, cho, tiễn.",
+    compounds: [
+      { tc: "送禮物", py: "sòng lǐwù", vn: "tặng quà" },
+      { tc: "送行", py: "sòngxíng", vn: "tiễn đưa" }
+    ],
+    examples: [
+      { tc: "這是我送給你的生日禮物。", py: "Zhè shì wǒ sòng gěi nǐ de shēngrì lǐwù.", vn: "Đây là món quà sinh nhật tôi tặng cho bạn." },
+      { tc: "太晚了，我送你回家吧。", py: "Tài wǎn le, wǒ sòng nǐ huí jiā ba.", vn: "Muộn quá rồi, tôi đưa bạn về nhà nhé." },
+      { tc: "明天我要去機場送朋友。", py: "Míngtiān wǒ yào qù jīchǎng sòng péngyǒu.", vn: "Ngày mai tôi phải ra sân bay tiễn bạn." }
+    ],
+    idiom: "買一送一 (Mǎi yī sòng yī) - Mua một tặng một.<br>🔸 Ví dụ: 這家店的咖啡現在買一送一。 Zhè jiā diàn de kāfēi xiànzài mǎi yī sòng yī. - Cà phê của quán này hiện đang mua một tặng một.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "新人", pinyin: "xīnrén", hanViet: "Tân nhân",
+    image: "",
+    radical: "新 (Bộ Cân 斤) + 人 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Cặp đôi mới (新) bước vào cuộc sống hôn nhân.",
+    explanation: "Danh từ: Cặp đôi mới cưới (cô dâu chú rể) / Người mới (nhân viên mới).",
+    compounds: [
+      { tc: "祝福新人", py: "zhùfú xīnrén", vn: "chúc phúc cho cặp đôi" }
+    ],
+    examples: [
+      { tc: "請大家舉杯，為新人祝福！", py: "Qǐng dàjiā jǔ bēi, wèi xīnrén zhùfú!", vn: "Mời mọi người nâng ly, chúc phúc cho cặp đôi mới cưới!" },
+      { tc: "新人牽著手走進教堂。", py: "Xīnrén qiānzhe shǒu zǒu jìn jiàotáng.", vn: "Cặp đôi mới cưới nắm tay nhau bước vào nhà thờ." },
+      { tc: "他是公司剛來的新人。", py: "Tā shì gōngsī gāng lái de xīnrén.", vn: "Anh ấy là nhân viên mới vừa đến công ty." }
+    ],
+    idiom: "新人敬酒 (Xīnrén jìngjiǔ) - Cặp đôi đi chúc rượu.<br>🔸 Ví dụ: 新人等一下會來每一桌敬酒。 Xīnrén děng yíxià huì lái měi yì zhuō jìngjiǔ. - Cặp đôi mới cưới lát nữa sẽ đến từng bàn để chúc rượu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "喜宴", pinyin: "xǐyàn", hanViet: "Hỷ yến",
+    image: "",
+    radical: "喜 (Bộ Khẩu 口) + 宴 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Bữa tiệc (宴) ăn mừng chuyện vui (喜) dưới mái hiên nhà.",
+    explanation: "Danh từ: Tiệc cưới, cỗ cưới.",
+    compounds: [
+      { tc: "辦喜宴", py: "bàn xǐyàn", vn: "tổ chức tiệc cưới" }
+    ],
+    examples: [
+      { tc: "他們的喜宴辦在一家大飯店。", py: "Tāmen de xǐyàn bàn zài yì jiā dà fàndiàn.", vn: "Tiệc cưới của họ được tổ chức ở một nhà hàng lớn." },
+      { tc: "喜宴上的菜非常好吃。", py: "Xǐyàn shàng de cài fēicháng hǎochī.", vn: "Thức ăn trong tiệc cưới vô cùng ngon." },
+      { tc: "吃完喜宴後，大家一起拍照。", py: "Chī wán xǐyàn hòu, dàjiā yìqǐ pāizhào.", vn: "Sau khi ăn xong tiệc cưới, mọi người cùng nhau chụp ảnh." }
+    ],
+    idiom: "婚禮喜宴 (Hūnlǐ xǐyàn) - Lễ cưới và tiệc mừng.<br>🔸 Ví dụ: 感謝大家抽空參加我們的婚禮喜宴。 Gǎnxiè dàjiā chōukòng cānjiā wǒmen de hūnlǐ xǐyàn. - Cảm ơn mọi người đã dành thời gian tham gia lễ cưới và tiệc mừng của chúng tôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "敬酒", pinyin: "jìngjiǔ", hanViet: "Kính tửu",
+    image: "",
+    radical: "敬 (Bộ Phộc 攵) + 酒 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Mang rượu (酒) đi chúc tụng để bày tỏ sự tôn kính (敬).",
+    explanation: "Động từ ly hợp: Kính rượu, chúc rượu.",
+    compounds: [
+      { tc: "敬你一杯", py: "jìng nǐ yì bēi", vn: "kính bạn một ly" }
+    ],
+    examples: [
+      { tc: "新人正在向客人敬酒。", py: "Xīnrén zhèngzài xiàng kèrén jìngjiǔ.", vn: "Cặp đôi mới cưới đang đi kính rượu khách mời." },
+      { tc: "我敬你一杯，祝你生日快樂！", py: "Wǒ jìng nǐ yì bēi, zhù nǐ shēngrì kuàilè!", vn: "Tôi kính bạn một ly, chúc bạn sinh nhật vui vẻ!" },
+      { tc: "他不喝酒，所以用水代酒敬大家。", py: "Tā bù hējiǔ, suǒyǐ yòng shuǐ dài jiǔ jìng dàjiā.", vn: "Anh ấy không uống rượu, nên dùng nước thay rượu để kính mọi người." }
+    ],
+    idiom: "逐桌敬酒 (Zhúzhuō jìngjiǔ) - Kính rượu từng bàn (Văn hóa tiệc cưới ở Đài Loan).<br>🔸 Ví dụ: 喜宴吃到一半，新人會逐桌敬酒。 Xǐyàn chī dào yíbàn, xīnrén huì zhúzhuō jìngjiǔ. - Tiệc cưới ăn được một nửa, cặp đôi sẽ đi kính rượu từng bàn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "大人", pinyin: "dàrén", hanViet: "Đại nhân",
+    image: "",
+    radical: "大 (Bộ Đại 大) + 人 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Con người (人) khi đã phát triển to lớn (大) thì trở thành người trưởng thành.",
+    explanation: "Danh từ: Người lớn.",
+    compounds: [
+      { tc: "小孩", py: "xiǎohái", vn: "trẻ em" }
+    ],
+    examples: [
+      { tc: "這是大人喝的茶，小孩不能喝。", py: "Zhè shì dàrén hē de chá, xiǎohái bùnéng hē.", vn: "Đây là trà người lớn uống, trẻ em không được uống." },
+      { tc: "大人的世界很複雜。", py: "Dàrén de shìjiè hěn fùzá.", vn: "Thế giới của người lớn rất phức tạp." },
+      { tc: "你已經是大人了，要學會照顧自己。", py: "Nǐ yǐjīng shì dàrén le, yào xuéhuì zhàogù zìjǐ.", vn: "Bạn đã là người lớn rồi, phải học cách tự chăm sóc bản thân." }
+    ],
+    idiom: "大人有大量 (Dàrén yǒu dàliàng) - Người lớn có tấm lòng bao dung (Xin được tha thứ).<br>🔸 Ví dụ: 這次是我不對，請您大人有大量，原諒我吧。 Zhè cì shì wǒ bú duì, qǐng nín dàrén yǒu dàliàng, yuánliàng wǒ ba. - Lần này là tôi sai, xin ngài rộng lượng tha thứ cho tôi nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "小孩", pinyin: "xiǎohái", hanViet: "Tiểu hài",
+    image: "",
+    radical: "小 (Bộ Tiểu 小) + 孩 (Bộ Tử 子)<br>💡 Mẹo nhớ: Những đứa trẻ (子 - 孩) còn nhỏ tuổi (小).",
+    explanation: "Danh từ: Trẻ em, trẻ con, con cái.",
+    compounds: [
+      { tc: "小孩子", py: "xiǎoháizi", vn: "bọn trẻ con" },
+      { tc: "生小孩", py: "shēng xiǎohái", vn: "sinh con" }
+    ],
+    examples: [
+      { tc: "這個公園裡有很多小孩在玩。", py: "Zhège gōngyuán lǐ yǒu hěn duō xiǎohái zài wán.", vn: "Trong công viên này có rất nhiều trẻ em đang chơi đùa." },
+      { tc: "他們結婚三年了，還沒有小孩。", py: "Tāmen jiéhūn sān nián le, hái méiyǒu xiǎohái.", vn: "Họ kết hôn ba năm rồi, vẫn chưa có con." },
+      { tc: "小孩子通常很喜歡吃糖。", py: "Xiǎoháizi tōngcháng hěn xǐhuān chī táng.", vn: "Trẻ con thông thường rất thích ăn kẹo." }
+    ],
+    idiom: "騙小孩 (Piàn xiǎohái) - Lừa trẻ con (Chỉ những lời nói dối vụng về).<br>🔸 Ví dụ: 你這句話只能騙小孩，我不相信。 Nǐ zhè jù huà zhǐ néng piàn xiǎohái, wǒ bù xiāngxìn. - Câu này của bạn chỉ lừa được trẻ con thôi, tôi không tin đâu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "不得了", pinyin: "bùdéliǎo", hanViet: "Bất đắc liễu",
+    image: "",
+    radical: "不 (Bộ Nhất 一) + 得 (Bộ Xích 彳) + 了 (Bộ Quyết 亅)<br>💡 Mẹo nhớ: Sự việc nghiêm trọng đến mức không (不) thể giải quyết xong (了). Trong khẩu ngữ thường dùng để biểu thị mức độ cực kỳ cao (như 'chết đi được').",
+    explanation: "Tính từ: Cực kỳ, vô cùng, hết sức / Nguy to rồi.",
+    compounds: [
+      { tc: "高興得不得了", py: "gāoxìng de bùdéliǎo", vn: "vui mừng khôn xiết" },
+      { tc: "熱得不得了", py: "rè de bùdéliǎo", vn: "nóng chết đi được" }
+    ],
+    examples: [
+      { tc: "外面的天氣熱得不得了。", py: "Wàimiàn de tiānqì rè de bùdéliǎo.", vn: "Thời tiết bên ngoài nóng chết đi được." },
+      { tc: "聽到這個消息，他生氣得不得了。", py: "Tīng dào zhège xiāoxī, tā shēngqì de bùdéliǎo.", vn: "Nghe được tin này, anh ấy tức giận vô cùng." },
+      { tc: "真不得了！他居然考了第一名。", py: "Zhēn bùdéliǎo! Tā jūrán kǎo le dì yī míng.", vn: "Giỏi thật đấy! Anh ấy lại thi được hạng nhất." }
+    ],
+    idiom: "痛得不得了 (Tèng de bùdéliǎo) - Đau muốn chết.<br>🔸 Ví dụ: 我的肚子痛得不得了，必須去醫院。 Wǒ de dùzi tèng de bùdéliǎo, bìxū qù yīyuàn. - Bụng của tôi đau muốn chết, bắt buộc phải đi bệnh viện.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "另外", pinyin: "lìngwài", hanViet: "Lĩnh ngoại",
+    image: "",
+    radical: "另 (Bộ Khẩu 口) + 外 (Bộ Tịch 夕)<br>💡 Mẹo nhớ: Một thứ khác (另) nằm ở bên ngoài (外) dự tính ban đầu.",
+    explanation: "Đại từ / Phó từ: Ngoài ra, khác, một cái khác.",
+    compounds: [
+      { tc: "另外一個", py: "lìngwài yí ge", vn: "một cái khác" }
+    ],
+    examples: [
+      { tc: "我只要這杯咖啡，另外的都不要。", py: "Wǒ zhǐyào zhè bēi kāfēi, lìngwài de dōu búyào.", vn: "Tôi chỉ cần ly cà phê này, những cái khác đều không cần." },
+      { tc: "這件衣服太小了，請給我另外一件。", py: "Zhè jiàn yīfú tài xiǎo le, qǐng gěi wǒ lìngwài yí jiàn.", vn: "Chiếc áo này nhỏ quá, vui lòng cho tôi một chiếc khác." },
+      { tc: "我買了水果，另外還買了蛋糕。", py: "Wǒ mǎi le shuǐguǒ, lìngwài hái mǎi le dàngāo.", vn: "Tôi đã mua trái cây, ngoài ra còn mua thêm bánh kem." }
+    ],
+    idiom: "另外算 (Lìngwài suàn) - Tính riêng / Trả tiền riêng.<br>🔸 Ví dụ: 飲料的錢要另外算。 Yǐnliào de qián yào lìngwài suàn. - Tiền đồ uống phải tính riêng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "糖", pinyin: "táng", hanViet: "Đường",
+    image: "",
+    radical: "糖 (Bộ Mễ 米)<br>💡 Mẹo nhớ: Đường và kẹo thường được làm từ tinh bột, lúa gạo (米 - Mễ).",
+    explanation: "Danh từ: Kẹo, đường (gia vị).",
+    compounds: [
+      { tc: "吃糖", py: "chī táng", vn: "ăn kẹo" },
+      { tc: "喜糖", py: "xǐtáng", vn: "kẹo cưới" }
+    ],
+    examples: [
+      { tc: "這杯咖啡沒加糖，很苦。", py: "Zhè bēi kāfēi méi jiā táng, hěn kǔ.", vn: "Ly cà phê này không thêm đường, rất đắng." },
+      { tc: "婚禮結束後，新人會發喜糖。", py: "Hūnlǐ jiéshù hòu, xīnrén huì fā xǐtáng.", vn: "Sau khi hôn lễ kết thúc, cặp đôi sẽ phát kẹo cưới." },
+      { tc: "小孩子吃太多糖對牙齒不好。", py: "Xiǎoháizi chī tài duō táng duì yáchǐ bù hǎo.", vn: "Trẻ con ăn quá nhiều kẹo không tốt cho răng." }
+    ],
+    idiom: "棒棒糖 (Bàngbàngtáng) - Kẹo mút.<br>🔸 Ví dụ: 弟弟吵著要買棒棒糖。 Dìdi chǎozhe yào mǎi bàngbàngtáng. - Em trai đang ồn ào đòi mua kẹo mút.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "離開", pinyin: "líkāi", hanViet: "Ly khai",
+    image: "",
+    radical: "離 (Bộ Chuy 隹) + 開 (Bộ Môn 門)<br>💡 Mẹo nhớ: Con chim (隹) mở cửa (門) bay đi, tượng trưng cho sự rời đi, chia xa.",
+    explanation: "Động từ: Rời khỏi, rời đi.",
+    compounds: [
+      { tc: "離不開", py: "lí bù kāi", vn: "không thể rời xa" }
+    ],
+    examples: [
+      { tc: "他明天就要離開台灣了。", py: "Tā míngtiān jiù yào líkāi Táiwān le.", vn: "Ngày mai anh ấy sẽ rời khỏi Đài Loan rồi." },
+      { tc: "請不要離開你的座位。", py: "Qǐng búyào líkāi nǐ de zuòwèi.", vn: "Vui lòng đừng rời khỏi chỗ ngồi của bạn." },
+      { tc: "客人吃完喜宴後，慢慢離開了。", py: "Kèrén chī wán xǐyàn hòu, mànman líkāi le.", vn: "Khách mời sau khi ăn xong tiệc cưới, đã từ từ rời đi." }
+    ],
+    idiom: "離開家鄉 (Líkāi jiāxiāng) - Rời xa quê hương.<br>🔸 Ví dụ: 為了工作，他必須離開家鄉。 Wèile gōngzuò, tā bìxū líkāi jiāxiāng. - Vì công việc, anh ấy bắt buộc phải rời xa quê hương.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "句", pinyin: "jù", hanViet: "Cú",
+    image: "",
+    radical: "句 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Cấu tạo gồm bộ Bao (勹) ôm lấy bộ Khẩu (口). Mỗi lời nói (Khẩu) được gom gọn lại thành một câu.",
+    explanation: "Lượng từ: Câu (dùng cho lời nói, câu văn).",
+    compounds: [
+      { tc: "一句話", py: "yí jù huà", vn: "một câu nói" },
+      { tc: "句子", py: "jùzi", vn: "câu văn" }
+    ],
+    examples: [
+      { tc: "這句話是什麼意思？", py: "Zhè jù huà shì shénme yìsī?", vn: "Câu nói này có ý nghĩa gì?" },
+      { tc: "請你再說一句。", py: "Qǐng nǐ zài shuō yí jù.", vn: "Xin bạn hãy nói lại một câu nữa." },
+      { tc: "這個句子有三個生詞。", py: "Zhège jùzi yǒu sān ge shēngcí.", vn: "Câu văn này có ba từ mới." }
+    ],
+    idiom: "換句話說 (Huàn jù huà shuō) - Nói cách khác.<br>🔸 Ví dụ: 換句話說，我們沒有錢了。 Huàn jù huà shuō, wǒmen méiyǒu qián le. - Nói một cách khác thì, chúng ta hết tiền rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "祝福", pinyin: "zhùfú", hanViet: "Chúc phúc",
+    image: "",
+    radical: "祝 (Bộ Thị 示) + 福 (Bộ Thị 示)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Thị (示) liên quan đến việc cúng tế, cầu nguyện thần linh ban phước lành.",
+    explanation: "Động từ / Danh từ: Chúc phúc, lời chúc.",
+    compounds: [
+      { tc: "獻上祝福", py: "xiànshàng zhùfú", vn: "dâng lên lời chúc phúc" }
+    ],
+    examples: [
+      { tc: "我們一起為新人祝福吧！", py: "Wǒmen yìqǐ wèi xīnrén zhùfú ba!", vn: "Chúng ta cùng nhau chúc phúc cho cặp đôi mới cưới nào!" },
+      { tc: "謝謝大家的祝福。", py: "Xièxiè dàjiā de zhùfú.", vn: "Cảm ơn những lời chúc của mọi người." },
+      { tc: "祝你們永遠幸福，這是我最大的祝福。", py: "Zhù nǐmen yǒngyuǎn xìngfú, zhè shì wǒ zuì dà de zhùfú.", vn: "Chúc các bạn mãi mãi hạnh phúc, đây là lời chúc lớn nhất của tôi." }
+    ],
+    idiom: "滿滿的祝福 (Mǎnmǎn de zhùfú) - Những lời chúc đong đầy.<br>🔸 Ví dụ: 帶著大家滿滿的祝福，他們結婚了。 Dàizhe dàjiā mǎnmǎn de zhùfú, tāmen jiéhūn le. - Mang theo những lời chúc đong đầy của mọi người, họ đã kết hôn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "話", pinyin: "huà", hanViet: "Thoại",
+    image: "",
+    radical: "話 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Bộ Ngôn (言) là lời nói, kết hợp với chữ Thiệt (舌) là cái lưỡi. Lời nói được phát ra từ lưỡi.",
+    explanation: "Danh từ: Lời nói.",
+    compounds: [
+      { tc: "說話", py: "shuōhuà", vn: "nói chuyện" },
+      { tc: "聽話", py: "tīnghuà", vn: "nghe lời" }
+    ],
+    examples: [
+      { tc: "請大家聽我說一句話。", py: "Qǐng dàjiā tīng wǒ shuō yí jù huà.", vn: "Xin mọi người nghe tôi nói một lời." },
+      { tc: "你說的話很有道理。", py: "Nǐ shuō de huà hěn yǒu dàolǐ.", vn: "Lời bạn nói rất có đạo lý." },
+      { tc: "這個小孩很聽話。", py: "Zhège xiǎohái hěn tīnghuà.", vn: "Đứa trẻ này rất vâng lời." }
+    ],
+    idiom: "說實話 (Shuō shíhuà) - Nói thật lòng.<br>🔸 Ví dụ: 說實話，我不太喜歡這個地方。 Shuō shíhuà, wǒ bú tài xǐhuān zhège dìfāng. - Nói thật lòng thì, tôi không thích nơi này lắm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "一會兒", pinyin: "yìhuǐr", hanViet: "Nhất hội nhi",
+    image: "",
+    radical: "一 (Bộ Nhất 一) + 會 (Bộ Viết 曰) + 兒 (Bộ Nhân 儿)<br>💡 Mẹo nhớ: Biểu thị một khoảnh khắc tụ tập (會) ngắn ngủi. (Âm 'r' uốn lưỡi là đặc trưng của giọng Bắc Kinh).",
+    explanation: "Danh từ chỉ thời gian: Một lát, chốc lát.",
+    compounds: [
+      { tc: "等一會兒", py: "děng yìhuǐr", vn: "đợi một lát" }
+    ],
+    examples: [
+      { tc: "請等一會兒，他馬上就來。", py: "Qǐng děng yìhuǐr, tā mǎshàng jiù lái.", vn: "Xin đợi một lát, anh ấy tới ngay đây." },
+      { tc: "我出去一會兒，馬上回來。", py: "Wǒ chūqù yìhuǐr, mǎshàng huílái.", vn: "Tôi ra ngoài một lát, sẽ quay lại ngay." },
+      { tc: "他才看了一會兒書就睡著了。", py: "Tā cái kàn le yìhuǐr shū jiù shuìzháo le.", vn: "Anh ấy mới đọc sách được một lát đã ngủ thiếp đi rồi." }
+    ],
+    idiom: "過一會兒 (Guò yìhuǐr) - Một lát sau.<br>🔸 Ví dụ: 過一會兒我們再出發吧。 Guò yìhuǐr wǒmen zài chūfā ba. - Một lát sau chúng ta hẵng xuất phát nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "有說有笑", pinyin: "yǒushuō yǒuxiào", hanViet: "Hữu thuyết hữu tiếu",
+    image: "",
+    radical: "有 (Có), 說 (Nói), 笑 (Cười)<br>💡 Mẹo nhớ: Cấu trúc 有... 有... (Có... có...) dùng để liệt kê các hành động diễn ra cùng lúc.",
+    explanation: "Cụm từ: Nói nói cười cười, vui vẻ trò chuyện.",
+    compounds: [
+      { tc: "開懷大笑", py: "kāihuái dàxiào", vn: "cười rạng rỡ" }
+    ],
+    examples: [
+      { tc: "大家在飯桌上有說有笑。", py: "Dàjiā zài fànzhuō shàng yǒushuō yǒuxiào.", vn: "Mọi người nói nói cười cười trên bàn ăn." },
+      { tc: "看到他們有說有笑，我也覺得很高興。", py: "Kàndào tāmen yǒushuō yǒuxiào, wǒ yě juéde hěn gāoxìng.", vn: "Nhìn thấy họ vui vẻ trò chuyện, tôi cũng cảm thấy rất vui." },
+      { tc: "孩子們在公園裡有說有笑地玩著。", py: "Háizimen zài gōngyuán lǐ yǒushuō yǒuxiào de wánzhe.", vn: "Bọn trẻ đang chơi đùa nói cười vui vẻ trong công viên." }
+    ],
+    idiom: "有說有笑 (Yǒushuō yǒuxiào) - Vui vẻ trò chuyện.<br>🔸 Ví dụ: 他們兩個人一路上有說有笑。 Tāmen liǎng ge rén yílù shàng yǒushuō yǒuxiào. - Hai người họ trên suốt dọc đường nói nói cười cười.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "有吃有喝", pinyin: "yǒuchī yǒuhē", hanViet: "Hữu cất hữu hát",
+    image: "",
+    radical: "有 (Có), 吃 (Ăn), 喝 (Uống)<br>💡 Mẹo nhớ: Cấu trúc liệt kê sự sung túc, no đủ trong một bữa tiệc hoặc chuyến đi.",
+    explanation: "Cụm từ: Có ăn có uống.",
+    compounds: [
+      { tc: "吃喝玩樂", py: "chī hē wán lè", vn: "ăn uống vui chơi" }
+    ],
+    examples: [
+      { tc: "婚禮上大家有吃有喝，非常開心。", py: "Hūnlǐ shàng dàjiā yǒuchī yǒuhē, fēicháng kāixīn.", vn: "Trong đám cưới mọi người có ăn có uống, vô cùng vui vẻ." },
+      { tc: "這次旅行不僅風景美，還有吃有喝。", py: "Zhè cì lǚxíng bùjǐn fēngjǐng měi, hái yǒuchī yǒuhē.", vn: "Chuyến du lịch lần này không chỉ phong cảnh đẹp, mà còn có ăn có uống." },
+      { tc: "只要有吃有喝，他就滿足了。", py: "Zhǐyào yǒuchī yǒuhē, tā jiù mǎnzú le.", vn: "Chỉ cần có ăn có uống, anh ấy đã thỏa mãn rồi." }
+    ],
+    idiom: "大吃大喝 (Dà chī dà hē) - Ăn uống linh đình / Ăn uống thả phanh.<br>🔸 Ví dụ: 週末他們去夜市大吃大喝了一頓。 Zhōumò tāmen qù yèshì dà chī dà hē le yí dùn. - Cuối tuần họ ra chợ đêm ăn uống thả phanh một bữa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "百年好合", pinyin: "bǎinián hǎohé", hanViet: "Bách niên hảo hợp",
+    image: "",
+    radical: "百 (Trăm), 年 (Năm), 好 (Tốt), 合 (Hợp)<br>💡 Mẹo nhớ: Lời chúc vô cùng kinh điển trong đám cưới người Hoa, mong cặp đôi trăm năm hòa hợp.",
+    explanation: "Cụm từ / Lời chúc: Trăm năm hạnh phúc, răng long đầu bạc.",
+    compounds: [
+      { tc: "白頭偕老", py: "báitóu xiélǎo", vn: "răng long đầu bạc" }
+    ],
+    examples: [
+      { tc: "祝新郎新娘百年好合！", py: "Zhù xīnláng xīnniáng bǎinián hǎohé!", vn: "Chúc chú rể cô dâu trăm năm hạnh phúc!" },
+      { tc: "紅包上寫著百年好合四個字。", py: "Hóngbāo shàng xiězhe bǎinián hǎohé sì ge zì.", vn: "Trên phong bao lì xì có viết bốn chữ trăm năm hạnh phúc." },
+      { tc: "大家都敬酒祝他們百年好合。", py: "Dàjiā dōu jìngjiǔ zhù tāmen bǎinián hǎohé.", vn: "Mọi người đều kính rượu chúc họ răng long đầu bạc." }
+    ],
+    idiom: "祝你們百年好合 (Zhù nǐmen bǎinián hǎohé) - Chúc các bạn trăm năm hạnh phúc.<br>🔸 Ví dụ: 恭喜結婚，祝你們百年好合！ Gōngxǐ jiéhūn, zhù nǐmen bǎinián hǎohé! - Chúc mừng kết hôn, chúc các bạn trăm năm hạnh phúc!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "早生貴子", pinyin: "zǎoshēng guìzǐ", hanViet: "Tảo sinh quý tử",
+    image: "",
+    radical: "早 (Sớm), 生 (Sinh), 貴 (Quý), 子 (Tử)<br>💡 Mẹo nhớ: Lời chúc kinh điển dặn dò cặp đôi mới cưới sớm sinh được đứa con ngoan ngoãn, quý giá.",
+    explanation: "Cụm từ / Lời chúc: Sớm sinh quý tử.",
+    compounds: [
+      { tc: "生小孩", py: "shēng xiǎohái", vn: "sinh con" }
+    ],
+    examples: [
+      { tc: "長輩們都祝新人早生貴子。", py: "Zhǎngbèimen dōu zhù xīnrén zǎoshēng guìzǐ.", vn: "Các bậc trưởng bối đều chúc cặp đôi mới cưới sớm sinh quý tử." },
+      { tc: "結婚後，大家最常說的祝賀語就是早生貴子。", py: "Jiéhūn hòu, dàjiā zuì cháng shuō de zhùhèyǔ jiùshì zǎoshēng guìzǐ.", vn: "Sau khi kết hôn, câu chúc mừng mọi người hay nói nhất chính là sớm sinh quý tử." },
+      { tc: "祝你們百年好合，早生貴子！", py: "Zhù nǐmen bǎinián hǎohé, zǎoshēng guìzǐ!", vn: "Chúc các bạn trăm năm hạnh phúc, sớm sinh quý tử!" }
+    ],
+    idiom: "早生貴子 (Zǎoshēng guìzǐ) - Sớm sinh quý tử.<br>🔸 Ví dụ: 爺爺奶奶一直盼望他們早生貴子。 Yéye nǎinai yìzhí pànwàng tāmen zǎoshēng guìzǐ. - Ông bà nội luôn mong ngóng họ sớm sinh quý tử.", 
+    level: "TOCFL A2"
+  },
   ];
