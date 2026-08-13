@@ -650,7 +650,360 @@ const dataA2 = [
     examples: [
       { tc: "這家麵店的牛肉麵很好吃。", py: "Zhè jiā miàndiàn de niúròumiàn hěn hǎochī.", vn: "Mì bò của quán mì này rất ngon." }
     ],
-    idiom: "吃麵 (Chī miàn) - Đi ăn mì.<br>🔸 Ví dụ: 中午我們隨便找一家麵店吃麵吧。(Zhōngwǔ wǒmen suíbiàn zhǎo yì jiā miàndiàn chī miàn ba. - Buổi trưa chúng ta cứ tìm đại một tiệm nào đó ăn mì đi.)",
+    idiom: "吃麵 (Chī miàn) - Đi ăn mì.<br>🔸 Ví dụ: 中午我們隨便找一家麵店吃麵吧。(Zhōngwǔ wǒmen suíbiàn zhǎo yì jiā miàndiàn chī miàn ba). - Buổi trưa chúng ta cứ tìm đại một tiệm nào đó ăn mì đi.)",
+    level: "TOCFL A2"
+  }，
+{
+    word: "還是", pinyin: "háishì", hanViet: "Hoàn thị",
+    image: "",
+    radical: "還 (Bộ Xước 辶) + 是 (Bộ Nhật 日)<br>💡 Mẹo nhớ: Bộ Xước (辶 - di chuyển) và chữ thị (是 - đúng). Sau một hồi đi lại suy nghĩ để tìm lựa chọn đúng đắn nhất, cuối cùng quyết định 'hay là' chọn cái này.",
+    explanation: "Phó từ: Hay là, vẫn là (đưa ra sự lựa chọn tốt hơn sau khi cân nhắc, hoặc khuyên bảo).",
+    compounds: [
+      { tc: "還是不要", py: "háishì búyào", vn: "vẫn là không nên" }
+    ],
+    examples: [
+      { tc: "天氣太冷了，我們還是吃火鍋吧。", py: "Tiānqì tài lěng le, wǒmen háishì chī huǒguō ba.", vn: "Thời tiết lạnh quá, chúng ta hay là đi ăn lẩu đi." },
+      { tc: "我不知道該喝茶還是喝咖啡。", py: "Wǒ bù zhīdào gāi hē chá háishì hē kāfēi.", vn: "Tôi không biết nên uống trà hay là uống cà phê." },
+      { tc: "太晚了，你還是明天再去吧。", py: "Tài wǎn le, nǐ háishì míngtiān zài qù ba.", vn: "Muộn quá rồi, bạn vẫn là để ngày mai hẵng đi nhé." }
+    ],
+    idiom: "還是老樣子 (Háishì lǎo yàngzi) - Vẫn y như cũ / Không có gì thay đổi.<br>🔸 Ví dụ: 這麼多年不見，你還是老樣子！(Zhème duō nián bú jiàn, nǐ háishì lǎo yàngzi! - Bao nhiêu năm không gặp, bạn vẫn y như xưa!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "早", pinyin: "zǎo", hanViet: "Tảo",
+    image: "",
+    radical: "早 (Bộ Nhật 日)<br>💡 Mẹo nhớ: Chữ Nhật (mặt trời) mọc trên chữ Thập (như hình cây cỏ). Mặt trời vừa nhô lên khỏi ngọn cây chính là buổi sáng sớm.",
+    explanation: "Tính từ / Câu chào: Sớm, chào buổi sáng.",
+    compounds: [
+      { tc: "早上", py: "zǎoshàng", vn: "buổi sáng" },
+      { tc: "提早", py: "tízǎo", vn: "làm gì đó sớm hơn" }
+    ],
+    examples: [
+      { tc: "老師，早！", py: "Lǎoshī, zǎo!", vn: "Em chào thầy/cô buổi sáng!" },
+      { tc: "你今天怎麼這麼早來？", py: "Nǐ jīntiān zěnme zhème zǎo lái?", vn: "Sao hôm nay bạn đến sớm thế?" },
+      { tc: "時間還早，我們再聊一下吧。", py: "Shíjiān hái zǎo, wǒmen zài liáo yíxià ba.", vn: "Thời gian vẫn còn sớm, chúng ta nói chuyện thêm chút đi." }
+    ],
+    idiom: "早安 (Zǎo ān) - Chào buổi sáng (Cách chào đầy đủ).<br>🔸 Ví dụ: 大家早安，今天天氣真好！(Dàjiā zǎo ān, jīntiān tiānqì zhēn hǎo! - Chào buổi sáng mọi người, hôm nay thời tiết thật đẹp!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "約", pinyin: "yuē", hanViet: "Ước",
+    image: "",
+    radical: "約 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Bộ Mịch (sợi tơ) và chữ Thược (cái muôi). Sợi tơ buộc chặt lời hứa với nhau, tức là hẹn ước.",
+    explanation: "Động từ: Hẹn, rủ (ai đó làm gì vào thời gian cụ thể).",
+    compounds: [
+      { tc: "約會", py: "yuēhuì", vn: "hẹn hò" },
+      { tc: "預約", py: "yùyuē", vn: "đặt lịch trước" }
+    ],
+    examples: [
+      { tc: "我今天晚上約了朋友吃飯。", py: "Wǒ jīntiān wǎnshàng yuē le péngyǒu chīfàn.", vn: "Tối nay tôi đã hẹn bạn đi ăn cơm." },
+      { tc: "我們約下午三點在圖書館見面。", py: "Wǒmen yuē xiàwǔ sān diǎn zài túshūguǎn jiànmiàn.", vn: "Chúng ta hẹn 3 giờ chiều gặp nhau ở thư viện nhé." },
+      { tc: "他約我週末一起去看電影。", py: "Tā yuē wǒ zhōumò yìqǐ qù kàn diànyǐng.", vn: "Anh ấy rủ tôi cuối tuần cùng đi xem phim." }
+    ],
+    idiom: "爽約 (Shuǎngyuē) - Lỡ hẹn, cho leo cây.<br>🔸 Ví dụ: 他昨天又爽約了，我真的很生氣。(Tā zuótiān yòu shuǎngyuē le, wǒ zhēn de hěn shēngqì. - Hôm qua anh ta lại cho tôi leo cây, tôi thực sự rất tức giận.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "對面", pinyin: "duìmiàn", hanViet: "Đối diện",
+    image: "",
+    radical: "對 (Bộ Thốn 寸) + 面 (Bộ Diện 面)<br>💡 Mẹo nhớ: Chữ 面 là khuôn mặt. 對面 là hai khuôn mặt quay lại nhìn thẳng vào nhau, tức là đối diện.",
+    explanation: "Danh từ: Đối diện, phía bên kia.",
+    compounds: [
+      { tc: "裡面", py: "lǐmiàn", vn: "bên trong" },
+      { tc: "外面", py: "wàimiàn", vn: "bên ngoài" }
+    ],
+    examples: [
+      { tc: "我家就在學校對面。", py: "Wǒ jiā jiù zài xuéxiào duìmiàn.", vn: "Nhà tôi nằm ở ngay đối diện trường học." },
+      { tc: "對面的餐廳很好吃。", py: "Duìmiàn de cāntīng hěn hǎochī.", vn: "Nhà hàng ở đối diện ăn rất ngon." },
+      { tc: "請你坐在我對面。", py: "Qǐng nǐ zuò zài wǒ duìmiàn.", vn: "Xin bạn hãy ngồi đối diện tôi." }
+    ],
+    idiom: "就在對面 (Jiù zài duìmiàn) - Ở ngay đối diện thôi.<br>🔸 Ví dụ: 郵局在哪裡？就在對面而已。(Yóujú zài nǎlǐ? Jiù zài duìmiàn éryǐ. - Bưu điện ở đâu? Ở ngay đối diện thôi.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "直接", pinyin: "zhíjiē", hanViet: "Trực tiếp",
+    image: "",
+    radical: "直 (Bộ Mục 目) + 接 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Mắt (目) nhìn thẳng (直), tay (手) đón lấy (接). Hành động đi thẳng vào vấn đề, không vòng vèo qua trung gian.",
+    explanation: "Phó từ: Trực tiếp, đi thẳng.",
+    compounds: [
+      { tc: "筆直", py: "bǐzhí", vn: "thẳng tắp" },
+      { tc: "接電話", py: "jiē diànhuà", vn: "nghe điện thoại" }
+    ],
+    examples: [
+      { tc: "下課後，我直接回家。", py: "Xiàkè hòu, wǒ zhíjiē huí jiā.", vn: "Sau khi tan học, tôi đi thẳng về nhà." },
+      { tc: "你有問題就直接問老師。", py: "Nǐ yǒu wèntí jiù zhíjiē wèn lǎoshī.", vn: "Bạn có vấn đề gì thì cứ trực tiếp hỏi giáo viên." },
+      { tc: "我們不要換車了，直接坐計程車吧。", py: "Wǒmen búyào huàn chē le, zhíjiē zuò jìchéngchē ba.", vn: "Chúng ta đừng chuyển xe nữa, đi thẳng bằng taxi luôn đi." }
+    ],
+    idiom: "直接說吧 (Zhíjiē shuō ba) - Nói thẳng đi / Cứ nói thẳng ra.<br>🔸 Ví dụ: 別拐彎抹角了，直接說吧！(Bié guǎiwānmòjiǎo le, zhíjiē shuō ba! - Đừng vòng vo tam quốc nữa, nói thẳng đi!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "不必", pinyin: "búbì", hanViet: "Bất tất",
+    image: "",
+    radical: "不 (Bộ Nhất 一) + 必 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Chữ Tâm (trái tim) bị một nét xiên cắt ngang (必 - ắt phải). 不必 là không cần thiết phải bận tâm làm gì.",
+    explanation: "Trợ động từ: Không cần, không nhất thiết phải.",
+    compounds: [
+      { tc: "必須", py: "bìxū", vn: "bắt buộc phải" },
+      { tc: "必修", py: "bìxiū", vn: "môn học bắt buộc" }
+    ],
+    examples: [
+      { tc: "明天放假，我不必去學校。", py: "Míngtiān fàngjià, wǒ búbì qù xuéxiào.", vn: "Ngày mai được nghỉ, tôi không cần đến trường." },
+      { tc: "這點小事，你不必客氣。", py: "Zhè diǎn xiǎoshì, nǐ búbì kèqì.", vn: "Chút chuyện nhỏ này, bạn không cần phải khách sáo." },
+      { tc: "距離很近，你不必開車去。", py: "Jùlí hěn jìn, nǐ búbì kāichē qù.", vn: "Khoảng cách rất gần, bạn không nhất thiết phải lái xe đi." }
+    ],
+    idiom: "不必了 (Búbì le) - Không cần đâu (Dùng để từ chối một cách lịch sự).<br>🔸 Ví dụ: A: 需要我幫你買飲料嗎？ B: 不必了，謝謝。(A: Xūyào wǒ bāng nǐ mǎi yǐnliào ma? B: Búbì le, xièxiè. - A: Cần tôi mua nước giúp không? B: Không cần đâu, cảm ơn.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "換", pinyin: "huàn", hanViet: "Hoán",
+    image: "",
+    radical: "換 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Dùng tay (手) để đưa cái này và nhận lại cái khác (奐 - hoán), tức là trao đổi.",
+    explanation: "Động từ: Đổi, thay, chuyển (xe, tuyến đường).",
+    compounds: [
+      { tc: "換錢", py: "huànqián", vn: "đổi tiền" },
+      { tc: "交換", py: "jiāohuàn", vn: "trao đổi" }
+    ],
+    examples: [
+      { tc: "到了台北車站，我們得換捷運。", py: "Dào le Táiběi chēzhàn, wǒmen děi huàn jiéyùn.", vn: "Đến Ga Đài Bắc, chúng ta phải chuyển sang đi tàu điện ngầm." },
+      { tc: "我想去銀行換錢。", py: "Wǒ xiǎng qù yínháng huànqián.", vn: "Tôi muốn ra ngân hàng đổi tiền." },
+      { tc: "這件衣服太小了，我想換大一點的。", py: "Zhè jiàn yīfú tài xiǎo le, wǒ xiǎng huàn dà yìdiǎn de.", vn: "Chiếc áo này nhỏ quá, tôi muốn đổi cái lớn hơn một chút." }
+    ],
+    idiom: "換車 (Huàn chē) - Đổi xe, chuyển tuyến.<br>🔸 Ví dụ: 請問去台北101要在哪裡換車？(Qǐngwèn qù Táiběi 101 yào zài nǎlǐ huàn chē? - Xin hỏi đến Đài Bắc 101 phải chuyển xe ở đâu?)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "車站", pinyin: "chēzhàn", hanViet: "Xa trạm",
+    image: "",
+    radical: "車 (Bộ Xa 車) + 站 (Bộ Lập 立)<br>💡 Mẹo nhớ: Nơi mà các loại xe cộ (車) đứng (立) lại để đón khách chính là nhà ga, bến xe.",
+    explanation: "Danh từ: Bến xe, nhà ga.",
+    compounds: [
+      { tc: "火車站", py: "huǒchēzhàn", vn: "ga xe lửa" },
+      { tc: "公車站", py: "gōngchēzhàn", vn: "trạm xe buýt" }
+    ],
+    examples: [
+      { tc: "我現在在車站等你。", py: "Wǒ xiànzài zài chēzhàn děng nǐ.", vn: "Tôi hiện đang đợi bạn ở bến xe." },
+      { tc: "火車站離這裡遠不遠？", py: "Huǒchēzhàn lí zhèlǐ yuǎn bù yuǎn?", vn: "Ga xe lửa cách đây có xa không?" },
+      { tc: "捷運車站裡不能吃東西。", py: "Jiéyùn chēzhàn lǐ bùnéng chī dōngxī.", vn: "Trong trạm tàu điện ngầm không được ăn uống." }
+    ],
+    idiom: "下一站 (Xià yí zhàn) - Trạm tiếp theo.<br>🔸 Ví dụ: 下一站是台北車站，要換車的旅客請準備下車。(Xià yí zhàn shì Táiběi chēzhàn, yào huàn chē de lǚkè qǐng zhǔnbèi xiàchē. - Trạm tiếp theo là Ga Đài Bắc, hành khách cần chuyển tuyến vui lòng chuẩn bị xuống xe.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "麻煩", pinyin: "máfan", hanViet: "Ma phiền",
+    image: "",
+    radical: "麻 (Bộ Ma 麻) + 煩 (Bộ Hỏa 火)<br>💡 Mẹo nhớ: Đầu óc rối rắm như mớ gai tơ (麻) bị lửa (火) đốt (煩). Chỉ sự rắc rối, phiền phức.",
+    explanation: "Tính từ / Động từ: Phiền phức, làm phiền.",
+    compounds: [
+      { tc: "很麻煩", py: "hěn máfan", vn: "rất phiền phức" },
+      { tc: "找麻煩", py: "zhǎo máfan", vn: "kiếm chuyện" }
+    ],
+    examples: [
+      { tc: "這個手續真的太麻煩了。", py: "Zhège shǒuxù zhēn de tài máfan le.", vn: "Thủ tục này thực sự quá phiền phức rồi." },
+      { tc: "麻煩你幫我開一下門，謝謝。", py: "Máfan nǐ bāng wǒ kāi yíxià mén, xièxiè.", vn: "Phiền bạn mở cửa giúp tôi một chút, cảm ơn." },
+      { tc: "我不想給別人添麻煩。", py: "Wǒ bù xiǎng gěi biérén tiān máfan.", vn: "Tôi không muốn chuốc thêm phiền phức cho người khác." }
+    ],
+    idiom: "麻煩你了 (Máfan nǐ le) - Làm phiền bạn rồi (Câu cửa miệng lịch sự khi nhờ vả).<br>🔸 Ví dụ: 麻煩你幫我拿一下包包，謝謝！(Máfan nǐ bāng wǒ ná yíxià bāobāo, xièxiè! - Phiền bạn cầm giúp tôi cái túi, cảm ơn!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "趕快", pinyin: "gǎnkuài", hanViet: "Cản khoái",
+    image: "",
+    radical: "趕 (Bộ Tẩu 走) + 快 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Chân phải chạy nhanh (走 - 趕) và tâm trạng (心) phải gấp rút (快).",
+    explanation: "Phó từ: Mau lên, nhanh lên (thể hiện sự khẩn trương).",
+    compounds: [
+      { tc: "趕時間", py: "gǎn shíjiān", vn: "đang vội (chạy đua với thời gian)" },
+      { tc: "很快", py: "hěn kuài", vn: "rất nhanh" }
+    ],
+    examples: [
+      { tc: "已經八點了，趕快起床！", py: "Yǐjīng bā diǎn le, gǎnkuài qǐchuáng!", vn: "Đã 8 giờ rồi, mau thức dậy thôi!" },
+      { tc: "電影要開始了，我們趕快進去吧。", py: "Diànyǐng yào kāishǐ le, wǒmen gǎnkuài jìnqù ba.", vn: "Phim sắp bắt đầu rồi, chúng ta mau vào trong thôi." },
+      { tc: "天黑了，你趕快回家。", py: "Tiān hēi le, nǐ gǎnkuài huí jiā.", vn: "Trời tối rồi, bạn mau về nhà đi." }
+    ],
+    idiom: "趕快去 (Gǎnkuài qù) - Mau đi đi.<br>🔸 Ví dụ: 老師在找你，你趕快去辦公室吧！(Lǎoshī zài zhǎo nǐ, nǐ gǎnkuài qù bàngōngshì ba! - Thầy giáo đang tìm cậu, cậu mau đến văn phòng đi!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "走", pinyin: "zǒu", hanViet: "Tẩu",
+    image: "",
+    radical: "走 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Hình ảnh một người đang sải bước vung tay vung chân chạy đi.",
+    explanation: "Động từ: Rời đi, tạm biệt (Trong ngữ cảnh bài này nhấn mạnh việc rời đi).",
+    compounds: [
+      { tc: "走路", py: "zǒulù", vn: "đi bộ" },
+      { tc: "走開", py: "zǒukāi", vn: "tránh ra" }
+    ],
+    examples: [
+      { tc: "時間不早了，我先走了。", py: "Shíjiān bù zǎo le, wǒ xiān zǒu le.", vn: "Thời gian không còn sớm nữa, tôi đi trước đây." },
+      { tc: "他剛走，你晚了一步。", py: "Tā gāng zǒu, nǐ wǎn le yí bù.", vn: "Anh ấy vừa đi khỏi, bạn chậm mất một bước rồi." },
+      { tc: "我們走吧，別在這裡等了。", py: "Wǒmen zǒu ba, bié zài zhèlǐ děng le.", vn: "Chúng ta đi thôi, đừng đợi ở đây nữa." }
+    ],
+    idiom: "我先走了 (Wǒ xiān zǒu le) - Tôi đi trước đây (Câu chào tạm biệt cực kỳ thông dụng).<br>🔸 Ví dụ: 很高興跟你聊天，但我還有事，我先走了！(Hěn gāoxìng gēn nǐ liáotiān, dàn wǒ hái yǒu shì, wǒ xiān zǒu le! - Rất vui được nói chuyện với bạn, nhưng tôi có việc rồi, tôi đi trước đây!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "班次", pinyin: "bāncì", hanViet: "Ban thứ",
+    image: "",
+    radical: "班 (Bộ Ngọc 玉) + 次 (Bộ Khiếm 欠)<br>💡 Mẹo nhớ: Chữ 班 có hai bộ Ngọc và chữ Đao ở giữa (chia ngọc). Ý chỉ sự phân chia theo lượt, theo ca. 次 là số lần.",
+    explanation: "Danh từ: Lịch trình, chuyến (xe, tàu, máy bay).",
+    compounds: [
+      { tc: "班機", py: "bānjī", vn: "chuyến bay" },
+      { tc: "上班", py: "shàngbān", vn: "đi làm" }
+    ],
+    examples: [
+      { tc: "週末高鐵的班次很多。", py: "Zhōumò gāotiě de bāncì hěn duō.", vn: "Cuối tuần tàu cao tốc có rất nhiều chuyến." },
+      { tc: "這是今天最後一個班次。", py: "Zhè shì jīntiān zuìhòu yí ge bāncì.", vn: "Đây là chuyến xe cuối cùng của ngày hôm nay." },
+      { tc: "請問下一班次是什麼時候？", py: "Qǐngwèn xià yì bāncì shì shénme shíhòu?", vn: "Xin hỏi chuyến tiếp theo là khi nào?" }
+    ],
+    idiom: "查班次 (Chá bāncì) - Tra cứu lịch tàu xe.<br>🔸 Ví dụ: 出發前，記得先上網查班次。(Chūfā qián, jìdé xiān shàngwǎng chá bāncì. - Trước khi xuất phát, nhớ lên mạng tra lịch tàu xe trước nhé.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "禮拜", pinyin: "lǐbài", hanViet: "Lễ bái",
+    image: "",
+    radical: "禮 (Bộ Thị 示) + 拜 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Chữ Lễ (禮) liên quan đến tế tự (示), chữ Bái (拜) là dùng tay (手) vái lạy. Ban đầu chỉ ngày đi lễ nhà thờ (Chủ nhật), sau dùng để chỉ tuần lễ.",
+    explanation: "Danh từ: Tuần, thứ (trong tuần). Đồng nghĩa với 星期.",
+    compounds: [
+      { tc: "下個禮拜", py: "xià ge lǐbài", vn: "tuần sau" },
+      { tc: "禮拜天", py: "lǐbàitiān", vn: "Chủ nhật" }
+    ],
+    examples: [
+      { tc: "我們下個禮拜要考試。", py: "Wǒmen xià ge lǐbài yào kǎoshì.", vn: "Tuần sau chúng ta phải thi rồi." },
+      { tc: "你這個禮拜六有空嗎？", py: "Nǐ zhège lǐbài liù yǒu kòng ma?", vn: "Thứ Bảy tuần này bạn có rảnh không?" },
+      { tc: "這是他這個禮拜第三次遲到。", py: "Zhè shì tā zhège lǐbài dì sān cì chídào.", vn: "Đây là lần thứ ba anh ấy đi trễ trong tuần này." }
+    ],
+    idiom: "禮拜幾 (Lǐbài jǐ) - Thứ mấy?<br>🔸 Ví dụ: 請問今天禮拜幾？(Qǐngwèn jīntiān lǐbài jǐ? - Xin hỏi hôm nay là thứ mấy?)" , 
+    level: "TOCFL A2"
+  },
+  {
+    word: "見", pinyin: "jiàn", hanViet: "Kiến",
+    image: "",
+    radical: "見 (Bộ Kiến 見)<br>💡 Mẹo nhớ: Chữ 目 (Mắt) mọc thêm hai chân, chỉ hành động đi lại để nhìn ngắm, gặp gỡ nhau.",
+    explanation: "Động từ: Nhìn thấy, gặp.",
+    compounds: [
+      { tc: "見面", py: "jiànmiàn", vn: "gặp mặt" },
+      { tc: "看見", py: "kànjiàn", vn: "nhìn thấy" }
+    ],
+    examples: [
+      { tc: "我們明天下午見。", py: "Wǒmen míngtiān xiàwǔ jiàn.", vn: "Chúng ta chiều mai gặp nhé." },
+      { tc: "很久沒見到你了，最近好嗎？", py: "Hěn jiǔ méi jiàndào nǐ le, zuìjìn hǎo ma?", vn: "Đã lâu không gặp bạn rồi, dạo này bạn khỏe không?" },
+      { tc: "我昨天在夜市見到你的朋友。", py: "Wǒ zuótiān zài yèshì jiàndào nǐ de péngyǒu.", vn: "Hôm qua tôi gặp bạn của bạn ở chợ đêm." }
+    ],
+    idiom: "明天見 (Míngtiān jiàn) - Ngày mai gặp.<br>🔸 Ví dụ: 今天的課就上到這裡，大家明天見！(Jīntiān de kè jiù shàng dào zhèlǐ, dàjiā míngtiān jiàn! - Bài học hôm nay đến đây thôi, hẹn gặp lại mọi người vào ngày mai!)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "電腦展", pinyin: "diànnǎo zhǎn", hanViet: "Điện não triển",
+    image: "",
+    radical: "電 (Bộ Vũ 雨) + 腦 (Bộ Nhục 肉) + 展 (Bộ Thi 尸)<br>💡 Mẹo nhớ: 電腦 (bộ não chạy bằng điện = máy tính). 展 (triển lãm). Cụm từ chỉ buổi trưng bày các sản phẩm công nghệ.",
+    explanation: "Danh từ: Triển lãm máy tính.",
+    compounds: [
+      { tc: "展覽", py: "zhǎnlǎn", vn: "triển lãm" },
+      { tc: "看展", py: "kàn zhǎn", vn: "đi xem triển lãm" }
+    ],
+    examples: [
+      { tc: "週末世貿有電腦展，我們去看看吧。", py: "Zhōumò Shìmào yǒu diànnǎo zhǎn, wǒmen qù kànkàn ba.", vn: "Cuối tuần ở Thế Mậu có triển lãm máy tính, chúng ta đi xem thử đi." },
+      { tc: "每年台北都會舉辦大型電腦展。", py: "Měinián Táiběi dōu huì jǔbàn dàxíng diànnǎo zhǎn.", vn: "Mỗi năm Đài Bắc đều tổ chức triển lãm máy tính quy mô lớn." },
+      { tc: "我在電腦展買了一台便宜的筆記本。", py: "Wǒ zài diànnǎo zhǎn mǎi le yì tái piányí de bǐjìběn.", vn: "Tôi đã mua một chiếc máy tính xách tay giá rẻ ở triển lãm máy tính." }
+    ],
+    idiom: "逛電腦展 (Guàng diànnǎo zhǎn) - Dạo triển lãm máy tính.<br>🔸 Ví dụ: 我週末跟朋友去逛電腦展了。(Wǒ zhōumò gēn péngyǒu qù guàng diànnǎo zhǎn le. - Cuối tuần tôi đã đi dạo triển lãm máy tính với bạn bè.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "世貿展覽館", pinyin: "Shìmào Zhǎnlǎn Guǎn", hanViet: "Thế Mậu Triển Lãm Quán",
+    image: "",
+    radical: "世 (Thế) + 貿 (Bộ Bối 貝) + 展 (Thi) + 覽 (Kiến) + 館 (Bộ Thực 食)<br>💡 Mẹo nhớ: 世貿 là viết tắt của 世界貿易 (Thương mại thế giới). 展覽館 là nhà triển lãm.",
+    explanation: "Danh từ riêng: Trung tâm Triển lãm Thương mại Thế giới (Thường ám chỉ tòa nhà biểu tượng ở Đài Bắc).",
+    compounds: [
+      { tc: "世貿一館", py: "Shìmào yī guǎn", vn: "nhà triển lãm số 1" }
+    ],
+    examples: [
+      { tc: "很多大型活動都在世貿展覽館舉辦。", py: "Hěn duō dàxíng huódòng dōu zài Shìmào Zhǎnlǎn Guǎn jǔbàn.", vn: "Rất nhiều sự kiện lớn đều được tổ chức tại Trung tâm Triển lãm Thế Mậu." },
+      { tc: "從這裡坐捷運可以直達世貿展覽館。", py: "Cóng zhèlǐ zuò jiéyùn kěyǐ zhídá Shìmào Zhǎnlǎn Guǎn.", vn: "Từ đây ngồi tàu điện ngầm có thể đi thẳng đến Trung tâm Triển lãm Thế Mậu." },
+      { tc: "明天世貿展覽館有書展。", py: "Míngtiān Shìmào Zhǎnlǎn Guǎn yǒu shūzhǎn.", vn: "Ngày mai ở Trung tâm Triển lãm Thế Mậu có hội chợ sách." }
+    ],
+    idiom: "去世貿 (Qù Shìmào) - Đến tòa nhà Thế Mậu.<br>🔸 Ví dụ: 下午我要去世貿開會。(Xiàwǔ wǒ yào qù Shìmào kāihuì. - Chiều nay tôi phải đến tòa Thế Mậu họp.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "展覽館", pinyin: "zhǎnlǎn guǎn", hanViet: "Triển lãm quán",
+    image: "",
+    radical: "展 (Bộ Thi 尸) + 覽 (Bộ Kiến 見) + 館 (Bộ Thực 食)<br>💡 Mẹo nhớ: 館 (Quán) thường là một tòa nhà lớn. 展覽 (Triển lãm) là bày ra cho mọi người xem (見).",
+    explanation: "Danh từ: Phòng triển lãm, khu triển lãm.",
+    compounds: [
+      { tc: "美術館", py: "měishùguǎn", vn: "bảo tàng mỹ thuật" },
+      { tc: "博物館", py: "bówùguǎn", vn: "viện bảo tàng" }
+    ],
+    examples: [
+      { tc: "這個展覽館很大，可以逛一整天。", py: "Zhège zhǎnlǎn guǎn hěn dà, kěyǐ guàng yì zhěng tiān.", vn: "Khu triển lãm này rất lớn, có thể đi dạo cả ngày." },
+      { tc: "展覽館裡不能拍照。", py: "Zhǎnlǎn guǎn lǐ bùnéng pāizhào.", vn: "Bên trong khu triển lãm không được chụp ảnh." },
+      { tc: "請在展覽館的入口等我。", py: "Qǐng zài zhǎnlǎn guǎn de rùkǒu děng wǒ.", vn: "Vui lòng đợi tôi ở lối vào khu triển lãm." }
+    ],
+    idiom: "參觀展覽 (Cānguān zhǎnlǎn) - Tham quan triển lãm.<br>🔸 Ví dụ: 我們學校安排我們去參觀展覽。(Wǒmen xuéxiào ānpái wǒmen qù cānguān zhǎnlǎn. - Trường học sắp xếp cho chúng tôi đi tham quan triển lãm.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "台北101", pinyin: "Táiběi 101", hanViet: "Đài Bắc 101",
+    image: "",
+    radical: "台 (Bộ Khẩu 口) + 北 (Bộ Tủy 匕)<br>💡 Mẹo nhớ: Tòa tháp biểu tượng của Đài Bắc, từng là tòa nhà cao nhất thế giới (từ 2004-2010), có 101 tầng.",
+    explanation: "Danh từ riêng: Tháp Đài Bắc 101.",
+    compounds: [
+      { tc: "101大樓", py: "101 dàlóu", vn: "tòa nhà 101" }
+    ],
+    examples: [
+      { tc: "台北101是台灣最高的建築物。", py: "Táiběi 101 shì Táiwān zuìgāo de jiànzhúwù.", vn: "Đài Bắc 101 là công trình kiến trúc cao nhất Đài Loan." },
+      { tc: "跨年的時候，台北101會放煙火。", py: "Kuànián de shíhòu, Táiběi 101 huì fàng yānhuǒ.", vn: "Vào dịp giao thừa, tháp Đài Bắc 101 sẽ bắn pháo hoa." },
+      { tc: "從台北101往下看，風景很美。", py: "Cóng Táiběi 101 wǎng xià kàn, fēngjǐng hěn měi.", vn: "Từ tòa 101 nhìn xuống, phong cảnh rất đẹp." }
+    ],
+    idiom: "101煙火 (101 yānhuǒ) - Pháo hoa 101 (Đặc sản dịp giao thừa).<br>🔸 Ví dụ: 你今年要去看台北101的跨年煙火嗎？(Nǐ jīnnián yào qù kàn Táiběi 101 de kuànián yānhuǒ ma? - Năm nay bạn có đi xem pháo hoa giao thừa ở tháp 101 không?)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "台北", pinyin: "Táiběi", hanViet: "Đài Bắc",
+    image: "",
+    radical: "台 (Bộ Khẩu 口) + 北 (Bộ Tủy 匕)<br>💡 Mẹo nhớ: Thành phố thủ phủ sầm uất nằm ở phía Bắc (北) của Đài (台) Loan.",
+    explanation: "Danh từ riêng: Thành phố Đài Bắc.",
+    compounds: [
+      { tc: "台北人", py: "Táiběi rén", vn: "người Đài Bắc" },
+      { tc: "台北車站", py: "Táiběi chēzhàn", vn: "Ga Đài Bắc" }
+    ],
+    examples: [
+      { tc: "台北的捷運非常方便。", py: "Táiběi de jiéyùn fēicháng fāngbiàn.", vn: "Tàu điện ngầm ở Đài Bắc vô cùng tiện lợi." },
+      { tc: "他在台北住了五年了。", py: "Tā zài Táiběi zhù le wǔ nián le.", vn: "Anh ấy đã sống ở Đài Bắc được 5 năm rồi." },
+      { tc: "我下個月要去台北玩。", py: "Wǒ xià ge yuè yào qù Táiběi wán.", vn: "Tháng sau tôi sẽ đi Đài Bắc chơi." }
+    ],
+    idiom: "北漂 (Běi piāo) - Trôi dạt lên Đài Bắc (Chỉ người từ miền Nam lên Đài Bắc lập nghiệp).<br>🔸 Ví dụ: 他大學畢業後就成了一名北漂青年。(Tā dàxué bìyè hòu jiù chéng le yì míng běi piāo qīngnián. - Sau khi tốt nghiệp đại học, anh ấy trở thành một thanh niên lên Đài Bắc lập nghiệp.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "2號線", pinyin: "èr hào xiàn", hanViet: "Nhị hiệu tuyến",
+    image: "",
+    radical: "號 (Bộ Hổ 虍) + 線 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: 線 là sợi dây/tuyến đường. 2號線 là tuyến số 2 (Thường là Tuyến Đỏ - Tamsui-Xinyi Line trong hệ thống tàu điện ngầm Đài Bắc).",
+    explanation: "Cụm từ: Tuyến số 2 (Tàu điện ngầm MRT).",
+    compounds: [
+      { tc: "捷運紅線", py: "jiéyùn hóng xiàn", vn: "tuyến MRT đỏ" }
+    ],
+    examples: [
+      { tc: "去台北101要搭捷運2號線。", py: "Qù Táiběi 101 yào dā jiéyùn èr hào xiàn.", vn: "Đến Đài Bắc 101 phải đi tàu điện ngầm tuyến số 2." },
+      { tc: "2號線的乘客總是很多。", py: "Èr hào xiàn de chéngkè zǒngshì hěn duō.", vn: "Hành khách của tuyến số 2 lúc nào cũng rất đông." },
+      { tc: "我們在2號線的車站見面。", py: "Wǒmen zài èr hào xiàn de chēzhàn jiànmiàn.", vn: "Chúng ta gặp nhau ở ga tàu của tuyến số 2 nhé." }
+    ],
+    idiom: "搭紅線 (Dā hóng xiàn) - Đi tuyến Đỏ (Người Đài Loan thường gọi tên tuyến MRT theo màu sắc thay vì số).<br>🔸 Ví dụ: 記得搭紅線，到世貿站下車。(Jìdé dā hóng xiàn, dào Shìmào zhàn xiàchē. - Nhớ đi tuyến đỏ, đến trạm Thế Mậu thì xuống xe.)", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "別急", pinyin: "bié jí", hanViet: "Biệt cấp",
+    image: "",
+    radical: "別 (Bộ Đao 刀) + 急 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Đừng (別) để trong lòng (心) cảm thấy gấp gáp (急).",
+    explanation: "Cụm từ: Đừng vội, không cần gấp, cứ từ từ.",
+    compounds: [
+      { tc: "著急", py: "zhāojí", vn: "sốt ruột, lo lắng" },
+      { tc: "很急", py: "hěn jí", vn: "rất gấp" }
+    ],
+    examples: [
+      { tc: "時間還很多，你別急。", py: "Shíjiān hái hěn duō, nǐ bié jí.", vn: "Thời gian vẫn còn nhiều, bạn đừng vội." },
+      { tc: "別急，我馬上就到了。", py: "Bié jí, wǒ mǎshàng jiù dào le.", vn: "Đừng vội, tôi sắp đến nơi rồi." },
+      { tc: "遇到問題別急，慢慢解決。", py: "Yùdào wèntí bié jí, mànman jiějué.", vn: "Gặp vấn đề thì đừng gấp, cứ từ từ giải quyết." }
+    ],
+    idiom: "慢慢來，別急 (Mànman lái, bié jí) - Cứ từ từ, đừng vội.<br>🔸 Ví dụ: 沒關係，慢慢來，別急！(Méiguānxì, mànman lái, bié jí! - Không sao đâu, cứ từ từ, đừng vội!)", 
     level: "TOCFL A2"
   }
 ];
