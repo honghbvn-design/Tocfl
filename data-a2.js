@@ -1006,3 +1006,426 @@ const dataA2 = [
     idiom: "慢慢來，別急 (Mànman lái, bié jí) - Cứ từ từ, đừng vội.<br>🔸 Ví dụ: 沒關係，慢慢來，別急！ Méiguānxì, mànman lái, bié jí! - Không sao đâu, cứ từ từ, đừng vội!", 
     level: "TOCFL A2"
   },
+{
+    word: "飛機", pinyin: "fēijī", hanViet: "Phi cơ",
+    image: "",
+    radical: "飛 (Bộ Phi 飛) + 機 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Cỗ máy (機) làm bằng gỗ (木) có thể bay (飛) trên trời.",
+    explanation: "Danh từ: Máy bay.",
+    compounds: [
+      { tc: "坐飛機", py: "zuò fēijī", vn: "ngồi máy bay" },
+      { tc: "飛機場", py: "fēijīchǎng", vn: "sân bay" }
+    ],
+    examples: [
+      { tc: "我明天要搭飛機去日本。", py: "Wǒ míngtiān yào dā fēijī qù Rìběn.", vn: "Ngày mai tôi sẽ đi máy bay sang Nhật Bản." },
+      { tc: "從台灣坐飛機到法國要很久。", py: "Cóng Táiwān zuò fēijī dào Fǎguó yào hěn jiǔ.", vn: "Từ Đài Loan ngồi máy bay đến Pháp mất rất lâu." },
+      { tc: "飛機快要起飛了。", py: "Fēijī kuàiyào qǐfēi le.", vn: "Máy bay sắp cất cánh rồi." }
+    ],
+    idiom: "趕飛機 (Gǎn fēijī) - Chạy vội đi bắt máy bay.<br>🔸 Ví dụ: 沒時間了，我要趕飛機！ Méi shíjiān le, wǒ yào gǎn fēijī! - Hết thời gian rồi, tôi phải đi bắt máy bay!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "轉機", pinyin: "zhuǎn jī", hanViet: "Chuyển cơ",
+    image: "",
+    radical: "轉 (Bộ Xa 車) + 機 (Bộ Mộc 木)<br>💡 Mẹo nhớ: 轉 có nghĩa là chuyển đổi (như bánh xe 車 xoay vòng). 轉機 là đổi sang một chiếc máy bay (機) khác.",
+    explanation: "Động từ ly hợp: Quá cảnh, chuyển chuyến bay.",
+    compounds: [
+      { tc: "轉車", py: "zhuǎn chē", vn: "chuyển xe" }
+    ],
+    examples: [
+      { tc: "飛往歐洲通常需要轉機。", py: "Fēiwǎng Ōuzhōu tōngcháng xūyào zhuǎn jī.", vn: "Bay sang châu Âu thông thường đều cần quá cảnh." },
+      { tc: "我們要在香港轉機。", py: "Wǒmen yào zài Xiānggǎng zhuǎn jī.", vn: "Chúng ta phải chuyển chuyến bay ở Hồng Kông." },
+      { tc: "轉機的時間大約是兩個小時。", py: "Zhuǎn jī de shíjiān dàyuē shì liǎng ge xiǎoshí.", vn: "Thời gian quá cảnh khoảng chừng 2 tiếng đồng hồ." }
+    ],
+    idiom: "直飛還是轉機 (Zhí fēi háishì zhuǎn jī) - Bay thẳng hay quá cảnh.<br>🔸 Ví dụ: 請問這班機是直飛還是轉機？ Qǐngwèn zhè bānjī shì zhí fēi háishì zhuǎn jī? - Xin hỏi chuyến bay này là bay thẳng hay quá cảnh?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "機場", pinyin: "jīchǎng", hanViet: "Cơ trường",
+    image: "",
+    radical: "機 (Bộ Mộc 木) + 場 (Bộ Thổ 土)<br>💡 Mẹo nhớ: 場 (trường) là một khu đất (土) rộng. Bãi đất rộng dành cho máy bay (機) đỗ là sân bay.",
+    explanation: "Danh từ: Sân bay.",
+    compounds: [
+      { tc: "桃園機場", py: "Táoyuán jīchǎng", vn: "Sân bay Đào Viên" },
+      { tc: "去機場", py: "qù jīchǎng", vn: "đi sân bay" }
+    ],
+    examples: [
+      { tc: "桃園機場在桃園，不在台北。", py: "Táoyuán jīchǎng zài Táoyuán, bú zài Táiběi.", vn: "Sân bay Đào Viên ở Đào Viên, không phải ở Đài Bắc." },
+      { tc: "我們現在出發去機場。", py: "Wǒmen xiànzài chūfā qù jīchǎng.", vn: "Bây giờ chúng ta xuất phát đi sân bay." },
+      { tc: "機場裡有很多人。", py: "Jīchǎng lǐ yǒu hěn duō rén.", vn: "Trong sân bay có rất đông người." }
+    ],
+    idiom: "去機場接機 (Qù jīchǎng jiējī) - Ra sân bay đón người.<br>🔸 Ví dụ: 我明天要去機場接朋友。 Wǒ míngtiān yào qù jīchǎng jiē péngyǒu. - Ngày mai tôi phải ra sân bay đón bạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "巴士", pinyin: "bāshì", hanViet: "Ba sĩ",
+    image: "",
+    radical: "巴 (Bộ Kỷ 己) + 士 (Bộ 士)<br>💡 Mẹo nhớ: Đây là từ mượn âm trực tiếp từ chữ 'Bus' trong tiếng Anh.",
+    explanation: "Danh từ: Xe buýt (thường chỉ xe đường dài hoặc xe du lịch lớn).",
+    compounds: [
+      { tc: "巴士站", py: "bāshì zhàn", vn: "bến xe buýt" },
+      { tc: "遊覽車", py: "yóulǎn chē", vn: "xe khách du lịch" }
+    ],
+    examples: [
+      { tc: "我們可以坐巴士去台中。", py: "Wǒmen kěyǐ zuò bāshì qù Táizhōng.", vn: "Chúng ta có thể ngồi xe buýt đi Đài Trung." },
+      { tc: "從機場有直達市區的巴士。", py: "Cóng jīchǎng yǒu zhídá shìqū de bāshì.", vn: "Từ sân bay có xe buýt chạy thẳng đến trung tâm thành phố." },
+      { tc: "這輛巴士很舒服。", py: "Zhè liàng bāshì hěn shūfú.", vn: "Chiếc xe buýt này rất thoải mái." }
+    ],
+    idiom: "搭巴士 (Dā bāshì) - Bắt xe buýt.<br>🔸 Ví dụ: 我們搭巴士去海邊玩吧。 Wǒmen dā bāshì qù hǎibiān wán ba. - Chúng ta bắt xe buýt ra bờ biển chơi đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "市區", pinyin: "shìqū", hanViet: "Thị khu",
+    image: "",
+    radical: "市 (Bộ Cân 巾) + 區 (Bộ Hệ 匸)<br>💡 Mẹo nhớ: Khu vực (區) tập trung nhiều chợ búa (市), tức là trung tâm thành phố nhộn nhịp.",
+    explanation: "Danh từ: Khu trung tâm thành phố, nội thành.",
+    compounds: [
+      { tc: "郊區", py: "jiāoqū", vn: "vùng ngoại ô" },
+      { tc: "市中心", py: "shì zhōngxīn", vn: "trung tâm thành phố" }
+    ],
+    examples: [
+      { tc: "市區的交通很方便。", py: "Shìqū de jiāotōng hěn fāngbiàn.", vn: "Giao thông ở khu vực trung tâm rất tiện lợi." },
+      { tc: "我住在台北市區。", py: "Wǒ zhù zài Táiběi shìqū.", vn: "Tôi sống ở nội thành Đài Bắc." },
+      { tc: "週末市區到處都是人。", py: "Zhōumò shìqū dàochù dōu shì rén.", vn: "Cuối tuần trung tâm thành phố đâu đâu cũng là người." }
+    ],
+    idiom: "逛市區 (Guàng shìqū) - Dạo quanh khu trung tâm.<br>🔸 Ví dụ: 下午我們去逛市區，買點東西。 Xiàwǔ wǒmen qù guàng shìqū, mǎi diǎn dōngxī. - Chiều nay chúng ta đi dạo trung tâm thành phố, mua chút đồ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "下", pinyin: "xià", hanViet: "Hạ",
+    image: "",
+    radical: "下 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Dấu gạch chéo nằm dưới nét gạch ngang (一), chỉ hành động đi xuống phía dưới.",
+    explanation: "Động từ: Xuống (xe, tàu, máy bay).",
+    compounds: [
+      { tc: "下車", py: "xiàchē", vn: "xuống xe" },
+      { tc: "下船", py: "xiàchuán", vn: "xuống tàu" }
+    ],
+    examples: [
+      { tc: "請問要在哪裡下車？", py: "Qǐngwèn yào zài nǎlǐ xiàchē?", vn: "Xin hỏi phải xuống xe ở đâu?" },
+      { tc: "到台北車站請下。", py: "Dào Táiběi chēzhàn qǐng xià.", vn: "Đến Ga Đài Bắc xin vui lòng xuống xe." },
+      { tc: "請等車子停了再下。", py: "Qǐng děng chēzi tíng le zài xià.", vn: "Xin đợi xe dừng hẳn rồi mới xuống." }
+    ],
+    idiom: "下一站下車 (Xià yí zhàn xiàchē) - Trạm tới xuống xe.<br>🔸 Ví dụ: 準備一下，我們下一站下車。 Zhǔnbèi yíxià, wǒmen xià yí zhàn xiàchē. - Chuẩn bị chút nhé, trạm tới chúng ta xuống xe.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "交通", pinyin: "jiāotōng", hanViet: "Giao thông",
+    image: "",
+    radical: "交 (Bộ Đầu 亠) + 通 (Bộ Xước 辶)<br>💡 Mẹo nhớ: 交 là đan chéo, giao nhau. 通 có bộ Xước (辶 - di chuyển) là thông suốt. Di chuyển đan xen nhưng vẫn thông suốt là giao thông.",
+    explanation: "Danh từ: Giao thông.",
+    compounds: [
+      { tc: "交通工具", py: "jiāotōng gōngjù", vn: "phương tiện giao thông" },
+      { tc: "交通堵塞", py: "jiāotōng dǔsè", vn: "tắc đường" }
+    ],
+    examples: [
+      { tc: "台北的交通很便利。", py: "Táiběi de jiāotōng hěn biànlì.", vn: "Giao thông ở Đài Bắc rất tiện lợi." },
+      { tc: "這裡的交通有點複雜。", py: "Zhèlǐ de jiāotōng yǒudiǎn fùzá.", vn: "Giao thông ở đây có hơi phức tạp." },
+      { tc: "上下班時間交通總是很擠。", py: "Shàngxiàbān shíjiān jiāotōng zǒngshì hěn jǐ.", vn: "Giờ đi làm và tan tầm giao thông lúc nào cũng đông đúc." }
+    ],
+    idiom: "交通工具 (Jiāotōng gōngjù) - Phương tiện giao thông.<br>🔸 Ví dụ: 捷運是台北人最常用的交通工具。 Jiéyùn shì Táiběi rén zuì chángyòng de jiāotōng gōngjù. - Tàu điện ngầm là phương tiện giao thông người Đài Bắc hay dùng nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "便利", pinyin: "biànlì", hanViet: "Tiện lợi",
+    image: "",
+    radical: "便 (Bộ Nhân 人) + 利 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Con người (人) làm mọi việc trôi chảy, thuận tiện (便) và mang lại ích lợi (利).",
+    explanation: "Tính từ: Tiện lợi, thuận tiện.",
+    compounds: [
+      { tc: "便利商店", py: "biànlì shāngdiàn", vn: "cửa hàng tiện lợi" },
+      { tc: "方便", py: "fāngbiàn", vn: "thuận tiện" }
+    ],
+    examples: [
+      { tc: "台灣有非常多便利商店。", py: "Táiwān yǒu fēicháng duō biànlì shāngdiàn.", vn: "Đài Loan có cực kỳ nhiều cửa hàng tiện lợi." },
+      { tc: "悠遊卡讓生活更便利了。", py: "Yōuyóukǎ ràng shēnghuó gèng biànlì le.", vn: "Thẻ EasyCard giúp cuộc sống trở nên tiện lợi hơn." },
+      { tc: "住在這裡真的很便利。", py: "Zhù zài zhèlǐ zhēn de hěn biànlì.", vn: "Sống ở đây thực sự rất thuận tiện." }
+    ],
+    idiom: "交通便利 (Jiāotōng biànlì) - Giao thông thuận tiện.<br>🔸 Ví dụ: 我想找一個交通便利的房子。 Wǒ xiǎng zhǎo yí ge jiāotōng biànlì de fángzi. - Tôi muốn tìm một căn nhà có giao thông thuận tiện.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "到處", pinyin: "dàochù", hanViet: "Đáo xứ",
+    image: "",
+    radical: "到 (Bộ Đao 刀) + 處 (Bộ Hô 虍)<br>💡 Mẹo nhớ: Đến (到) mọi nơi, mọi chốn (處).",
+    explanation: "Phó từ: Khắp nơi, mọi nơi.",
+    compounds: [
+      { tc: "處處", py: "chùchù", vn: "nơi nơi" },
+      { tc: "到處走走", py: "dàochù zǒuzǒu", vn: "đi dạo loanh quanh" }
+    ],
+    examples: [
+      { tc: "春天到了，到處都是花。", py: "Chūntiān dào le, dàochù dōu shì huā.", vn: "Mùa xuân đến rồi, khắp nơi đều là hoa." },
+      { tc: "在台灣，到處都可以買到珍珠奶茶。", py: "Zài Táiwān, dàochù dōu kěyǐ mǎi dào zhēnzhū nǎichá.", vn: "Ở Đài Loan, khắp nơi đều có thể mua được trà sữa trân châu." },
+      { tc: "放假時，我喜歡到處去玩。", py: "Fàngjià shí, wǒ xǐhuān dàochù qù wán.", vn: "Lúc nghỉ lễ, tôi thích đi chơi khắp nơi." }
+    ],
+    idiom: "到處逛逛 (Dàochù guàngguàng) - Đi dạo loanh quanh khắp nơi.<br>🔸 Ví dụ: 週末我喜歡在市區到處逛逛。 Zhōumò wǒ xǐhuān zài shìqū dàochù guàngguàng. - Cuối tuần tôi thích đi dạo loanh quanh khắp khu trung tâm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "路線", pinyin: "lùxiàn", hanViet: "Lộ tuyến",
+    image: "",
+    radical: "路 (Bộ Túc 足) + 線 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Đường đi (路) trải dài ra như những sợi dây (線 - tuyến).",
+    explanation: "Danh từ: Tuyến đường, lộ trình.",
+    compounds: [
+      { tc: "公車路線", py: "gōngchē lùxiàn", vn: "tuyến xe buýt" },
+      { tc: "捷運路線", py: "jiéyùn lùxiàn", vn: "tuyến tàu điện ngầm" }
+    ],
+    examples: [
+      { tc: "這條路線會經過我家。", py: "Zhè tiáo lùxiàn huì jīngguò wǒ jiā.", vn: "Tuyến đường này sẽ đi qua nhà tôi." },
+      { tc: "請問這班公車的路線是什麼？", py: "Qǐngwèn zhè bān gōngchē de lùxiàn shì shénme?", vn: "Xin hỏi lộ trình của chuyến xe buýt này là gì?" },
+      { tc: "捷運路線圖看起來有點複雜。", py: "Jiéyùn lùxiàn tú kàn qǐlái yǒudiǎn fùzá.", vn: "Bản đồ tuyến đường tàu điện ngầm trông hơi phức tạp." }
+    ],
+    idiom: "規劃路線 (Guīhuà lùxiàn) - Lên kế hoạch lộ trình.<br>🔸 Ví dụ: 出發前，我們要先規劃路線。 Chūfā qián, wǒmen yào xiān guīhuà lùxiàn. - Trước khi xuất phát, chúng ta phải lên kế hoạch lộ trình trước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "複雜", pinyin: "fùzá", hanViet: "Phức tạp",
+    image: "",
+    radical: "複 (Bộ Y 衣) + 雜 (Bộ Chuy 隹)<br>💡 Mẹo nhớ: Quần áo (衣) chồng chéo nhiều lớp (複), giống như các loài chim (隹) tụ tập lộn xộn (雜).",
+    explanation: "Tính từ: Phức tạp, rắc rối.",
+    compounds: [
+      { tc: "簡單", py: "jiǎndān", vn: "đơn giản" },
+      { tc: "複雜化", py: "fùzá huà", vn: "phức tạp hóa" }
+    ],
+    examples: [
+      { tc: "這件事情很複雜。", py: "Zhè jiàn shìqíng hěn fùzá.", vn: "Sự việc này rất phức tạp." },
+      { tc: "台北車站的路線很複雜，容易迷路。", py: "Táiběi chēzhàn de lùxiàn hěn fùzá, róngyì mílù.", vn: "Lộ trình ở Ga Đài Bắc rất phức tạp, dễ bị lạc đường." },
+      { tc: "中文字寫起來很複雜。", py: "Zhōngwén zì xiě qǐlái hěn fùzá.", vn: "Chữ tiếng Trung viết ra rất phức tạp." }
+    ],
+    idiom: "太複雜了 (Tài fùzá le) - Phức tạp quá.<br>🔸 Ví dụ: 這個問題太複雜了，我不懂。 Zhège wèntí tài fùzá le, wǒ bù dǒng. - Vấn đề này phức tạp quá, tôi không hiểu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "輕鬆", pinyin: "qīngsōng", hanViet: "Khinh tùng",
+    image: "",
+    radical: "輕 (Bộ Xa 車) + 鬆 (Bộ Bưu 髟)<br>💡 Mẹo nhớ: Xe (車) chở đồ nhẹ (輕), tóc (髟) xõa bung ra tự do thoải mái (鬆). Thể hiện sự nhẹ nhõm, thư giãn.",
+    explanation: "Tính từ: Thoải mái, nhẹ nhõm, thư giãn.",
+    compounds: [
+      { tc: "放鬆", py: "fàngsōng", vn: "thư giãn" },
+      { tc: "輕鬆一下", py: "qīngsōng yíxià", vn: "thư giãn một chút" }
+    ],
+    examples: [
+      { tc: "考完試後，覺得很輕鬆。", py: "Kǎo wán shì hòu, juéde hěn qīngsōng.", vn: "Thi xong rồi, cảm thấy rất nhẹ nhõm." },
+      { tc: "這份工作比較輕鬆。", py: "Zhè fèn gōngzuò bǐjiào qīngsōng.", vn: "Công việc này khá là thoải mái." },
+      { tc: "聽音樂能讓人心情輕鬆。", py: "Tīng yīnyuè néng ràng rén xīnqíng qīngsōng.", vn: "Nghe nhạc có thể giúp tâm trạng con người thư giãn." }
+    ],
+    idiom: "輕輕鬆鬆 (Qīngqīng sōngsōng) - Dễ như trở bàn tay / Cực kỳ thoải mái.<br>🔸 Ví dụ: 他輕輕鬆鬆就考了一百分。 Tā qīngqīng sōngsōng jiù kǎo le yìbǎi fēn. - Anh ấy dễ dàng thi được 100 điểm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "東部", pinyin: "dōngbù", hanViet: "Đông bộ",
+    image: "",
+    radical: "東 (Bộ Mộc 木) + 部 (Bộ Ấp 邑)<br>💡 Mẹo nhớ: Vùng đất (邑) nằm ở phía Đông (東). Ở Đài Loan, 東部 thường chỉ các khu vực như Hoa Liên, Đài Đông.",
+    explanation: "Danh từ: Khu vực phía Đông, miền Đông.",
+    compounds: [
+      { tc: "西部", py: "xībù", vn: "miền Tây" },
+      { tc: "南部", py: "nánbù", vn: "miền Nam" }
+    ],
+    examples: [
+      { tc: "台灣東部的風景非常漂亮。", py: "Táiwān dōngbù de fēngjǐng fēicháng piàoliang.", vn: "Phong cảnh miền Đông Đài Loan vô cùng xinh đẹp." },
+      { tc: "他下個月要去東部旅行。", py: "Tā xià ge yuè yào qù dōngbù lǚxíng.", vn: "Tháng sau anh ấy sẽ đi miền Đông du lịch." },
+      { tc: "東部的交通比較不方便。", py: "Dōngbù de jiāotōng bǐjiào bù fāngbiàn.", vn: "Giao thông ở miền Đông tương đối không tiện lợi." }
+    ],
+    idiom: "台灣東部 (Táiwān dōngbù) - Miền Đông Đài Loan.<br>🔸 Ví dụ: 我最喜歡去台灣東部看海。 Wǒ zuì xǐhuān qù Táiwān dōngbù kàn hǎi. - Tôi thích nhất là đi miền Đông Đài Loan ngắm biển.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "海邊", pinyin: "hǎibiān", hanViet: "Hải biên",
+    image: "",
+    radical: "海 (Bộ Thủy 水) + 邊 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Đi dạo (辶) dọc theo ranh giới (邊) của vùng nước mênh mông (海 - biển).",
+    explanation: "Danh từ: Bờ biển, bãi biển.",
+    compounds: [
+      { tc: "去海邊", py: "qù hǎibiān", vn: "đi biển" },
+      { tc: "海灘", py: "hǎitān", vn: "bãi biển" }
+    ],
+    examples: [
+      { tc: "夏天的時候，我喜歡去海邊游泳。", py: "Xiàtiān de shíhòu, wǒ xǐhuān qù hǎibiān yóuyǒng.", vn: "Vào mùa hè, tôi thích đi biển bơi lội." },
+      { tc: "我們週末去海邊散步吧。", py: "Wǒmen zhōumò qù hǎibiān sànbù ba.", vn: "Cuối tuần chúng ta ra bờ biển đi dạo đi." },
+      { tc: "海邊的風很大。", py: "Hǎibiān de fēng hěn dà.", vn: "Gió ở bờ biển rất lớn." }
+    ],
+    idiom: "去海邊玩 (Qù hǎibiān wán) - Đi biển chơi.<br>🔸 Ví dụ: 天氣這麼熱，我們去海邊玩水吧！ Tiānqì zhème rè, wǒmen qù hǎibiān wán shuǐ ba! - Trời nóng thế này, chúng ta ra biển nghịch nước đi!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "島", pinyin: "dǎo", hanViet: "Đảo",
+    image: "",
+    radical: "島 (Bộ Sơn 山)<br>💡 Mẹo nhớ: Một ngọn núi (山) nhô lên giữa biển, có chim (鳥) bay lượn xung quanh chính là hòn đảo.",
+    explanation: "Danh từ: Đảo, hòn đảo.",
+    compounds: [
+      { tc: "台灣島", py: "Táiwān dǎo", vn: "đảo Đài Loan" },
+      { tc: "離島", py: "lídǎo", vn: "hòn đảo ngoài khơi" }
+    ],
+    examples: [
+      { tc: "台灣是一個美麗的島。", py: "Táiwān shì yí ge měilì de dǎo.", vn: "Đài Loan là một hòn đảo xinh đẹp." },
+      { tc: "那個島上住著很多漁民。", py: "Nàge dǎo shàng zhùzhe hěn duō yúmín.", vn: "Trên hòn đảo đó có rất nhiều ngư dân sinh sống." },
+      { tc: "我們坐船去那個小島。", py: "Wǒmen zuò chuán qù nàge xiǎo dǎo.", vn: "Chúng tôi ngồi thuyền ra hòn đảo nhỏ đó." }
+    ],
+    idiom: "離島旅遊 (Lídǎo lǚyóu) - Du lịch các đảo ngoài khơi.<br>🔸 Ví dụ: 綠島和澎湖都是台灣有名的離島。 Lùdǎo hé Pénghú dōu shì Táiwān yǒumíng de lídǎo. - Lục Đảo và Bành Hồ đều là những hòn đảo ngoài khơi nổi tiếng của Đài Loan.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "搭", pinyin: "dā", hanViet: "Đáp",
+    image: "",
+    radical: "搭 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Dùng tay (手) đưa ra để bắt xe, bắt tàu.",
+    explanation: "Động từ: Bắt, đi, ngồi (xe, tàu, máy bay, thang máy). *Lưu ý: Ở Đài Loan thường hay dùng từ 搭 thay thế cho 坐.*",
+    compounds: [
+      { tc: "搭車", py: "dā chē", vn: "bắt xe" },
+      { tc: "搭捷運", py: "dā jiéyùn", vn: "đi tàu điện ngầm" }
+    ],
+    examples: [
+      { tc: "我每天搭捷運去上學。", py: "Wǒ měitiān dā jiéyùn qù shàngxué.", vn: "Mỗi ngày tôi đều bắt tàu điện ngầm đi học." },
+      { tc: "你要搭公車還是搭計程車？", py: "Nǐ yào dā gōngchē háishì dā jìchéngchē?", vn: "Bạn muốn bắt xe buýt hay bắt taxi?" },
+      { tc: "搭飛機很省時間。", py: "Dā fēijī hěn shěng shíjiān.", vn: "Đi máy bay rất tiết kiệm thời gian." }
+    ],
+    idiom: "搭便車 (Dā biànchē) - Đi nhờ xe / Quá giang.<br>🔸 Ví dụ: 請問我可以搭你的便車回家嗎？ Qǐngwèn wǒ kěyǐ dā nǐ de biànchē huí jiā ma? - Xin hỏi tôi có thể đi nhờ xe bạn về nhà được không?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "船", pinyin: "chuán", hanViet: "Thuyền",
+    image: "",
+    radical: "船 (Bộ Chu 舟)<br>💡 Mẹo nhớ: Chữ 舟 (chu) chỉ chiếc thuyền nhỏ. 船 là thuyền chở nhiều người (八口 - 8 người).",
+    explanation: "Danh từ: Thuyền, tàu thủy, phà.",
+    compounds: [
+      { tc: "坐船", py: "zuò chuán", vn: "đi thuyền" },
+      { tc: "搭船", py: "dā chuán", vn: "ngồi tàu" }
+    ],
+    examples: [
+      { tc: "去綠島必須搭船。", py: "Qù Lùdǎo bìxū dā chuán.", vn: "Đi Lục Đảo bắt buộc phải đi thuyền." },
+      { tc: "這艘船很大。", py: "Zhè sōu chuán hěn dà.", vn: "Chiếc tàu này rất lớn." },
+      { tc: "坐船的時候我會頭暈。", py: "Zuò chuán de shíhòu wǒ huì tóuyūn.", vn: "Lúc đi tàu tôi hay bị chóng mặt." }
+    ],
+    idiom: "暈船 (Yūn chuán) - Say sóng / (Nghĩa lóng) Rơi vào lưới tình quá nhanh.<br>🔸 Ví dụ: 我每次坐船都會暈船。 Wǒ měicì zuò chuán dōu huì yūn chuán. - Lần nào đi thuyền tôi cũng bị say sóng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "地", pinyin: "de", hanViet: "Địa",
+    image: "",
+    radical: "地 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Trợ từ kết nối giữa Tính từ và Động từ, có chức năng biến tính từ thành trạng từ, tương tự như đuôi 'ly' trong tiếng Anh (vd: slowly).",
+    explanation: "Trợ từ: Một cách (đứng sau tính từ để bổ nghĩa cho động từ đi theo sau).",
+    compounds: [
+      { tc: "慢慢地", py: "mànman de", vn: "một cách chầm chậm" },
+      { tc: "快樂地", py: "kuàilè de", vn: "một cách vui vẻ" }
+    ],
+    examples: [
+      { tc: "他慢慢地走過來。", py: "Tā mànman de zǒu guòlái.", vn: "Anh ấy chầm chậm bước tới." },
+      { tc: "學生們認真地聽老師說話。", py: "Xuéshēngmen rènzhēn de tīng lǎoshī shuōhuà.", vn: "Học sinh chăm chỉ lắng nghe giáo viên giảng bài." },
+      { tc: "請你好好地休息。", py: "Qǐng nǐ hǎohǎo de xiūxí.", vn: "Xin bạn hãy nghỉ ngơi cho thật tốt." }
+    ],
+    idiom: "慢慢地來 (Mànman de lái) - Cứ làm từ từ.<br>🔸 Ví dụ: 這件事情不急，你慢慢地做。 Zhè jiàn shìqíng bù jí, nǐ mànman de zuò. - Việc này không gấp, bạn cứ làm từ từ thôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "美美", pinyin: "Měiměi", hanViet: "Mỹ Mỹ",
+    image: "",
+    radical: "美 (Bộ Dương 羊)<br>💡 Mẹo nhớ: Con cừu (羊) to lớn (大) thì được coi là đẹp (美). Đây là tên riêng của một cô gái.",
+    explanation: "Danh từ riêng: Mỹ Mỹ (Tên một nhân vật nữ trong giáo trình).",
+    compounds: [
+      { tc: "美麗", py: "měilì", vn: "xinh đẹp" }
+    ],
+    examples: [
+      { tc: "美美是我的好朋友。", py: "Měiměi shì wǒ de hǎo péngyǒu.", vn: "Mỹ Mỹ là người bạn tốt của tôi." },
+      { tc: "美美今天穿得很漂亮。", py: "Měiměi jīntiān chuān de hěn piàoliang.", vn: "Hôm nay Mỹ Mỹ mặc đồ rất đẹp." },
+      { tc: "美美喜歡去海邊玩。", py: "Měiměi xǐhuān qù hǎibiān wán.", vn: "Mỹ Mỹ thích đi biển chơi." }
+    ],
+    idiom: "打扮得美美的 (Dǎbàn de měiměi de) - Ăn mặc đẹp đẽ / Chải chuốt xinh xắn (Cụm lóng thường ngày).<br>🔸 Ví dụ: 週末出門當然要打扮得美美的！ Zhōumò chūmén dāngrán yào dǎbàn de měiměi de! - Cuối tuần ra đường đương nhiên phải ăn mặc đẹp đẽ rồi!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "法國", pinyin: "Fǎguó", hanViet: "Pháp Quốc",
+    image: "",
+    radical: "法 (Bộ Thủy 水) + 國 (Bộ Vi 囗)<br>💡 Mẹo nhớ: Đất nước (國) Pháp. Chữ 法 (Pháp) thường gặp trong luật pháp, phương pháp.",
+    explanation: "Danh từ riêng: Nước Pháp.",
+    compounds: [
+      { tc: "法文", py: "Fǎwén", vn: "tiếng Pháp" },
+      { tc: "法國人", py: "Fǎguó rén", vn: "người Pháp" }
+    ],
+    examples: [
+      { tc: "我很想去法國旅行。", py: "Wǒ hěn xiǎng qù Fǎguó lǚxíng.", vn: "Tôi rất muốn đến Pháp đi du lịch." },
+      { tc: "法國的麵包很好吃。", py: "Fǎguó de miànbāo hěn hǎochī.", vn: "Bánh mì của nước Pháp ăn rất ngon." },
+      { tc: "他的法文說得很好。", py: "Tā de Fǎwén shuō de hěn hǎo.", vn: "Anh ấy nói tiếng Pháp rất giỏi." }
+    ],
+    idiom: "法式浪漫 (Fǎshì làngmàn) - Sự lãng mạn kiểu Pháp.<br>🔸 Ví dụ: 大家都說法國是一個浪漫的國家。 Dàjiā dōu shuō Fǎguó shì yí ge làngmàn de guójiā. - Mọi người đều nói nước Pháp là một quốc gia lãng mạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "歐洲", pinyin: "Ōuzhōu", hanViet: "Âu Châu",
+    image: "",
+    radical: "歐 (Bộ Khiếm 欠) + 洲 (Bộ Thủy 水)<br>💡 Mẹo nhớ: Châu lục (洲) được bao bọc bởi nước (水) và có tên là Âu (歐).",
+    explanation: "Danh từ riêng: Châu Âu.",
+    compounds: [
+      { tc: "歐洲人", py: "Ōuzhōu rén", vn: "người châu Âu" },
+      { tc: "去歐洲", py: "qù Ōuzhōu", vn: "đi châu Âu" }
+    ],
+    examples: [
+      { tc: "飛機飛到歐洲需要十幾個小時。", py: "Fēijī fēi dào Ōuzhōu xūyào shí jǐ ge xiǎoshí.", vn: "Máy bay bay sang châu Âu cần hơn mười tiếng đồng hồ." },
+      { tc: "歐洲有很多古老的建築。", py: "Ōuzhōu yǒu hěn duō gǔlǎo de jiànzhú.", vn: "Châu Âu có rất nhiều kiến trúc cổ kính." },
+      { tc: "今年夏天我們全家要去歐洲玩。", py: "Jīnnián xiàtiān wǒmen quánjiā yào qù Ōuzhōu wán.", vn: "Mùa hè năm nay cả nhà chúng tôi sẽ đi châu Âu chơi." }
+    ],
+    idiom: "歐洲旅行 (Ōuzhōu lǚxíng) - Du lịch châu Âu.<br>🔸 Ví dụ: 去歐洲旅行要花很多錢。 Qù Ōuzhōu lǚxíng yào huā hěn duō qián. - Đi du lịch châu Âu phải tiêu tốn rất nhiều tiền.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "悠遊卡", pinyin: "yōuyóukǎ", hanViet: "Du Du Tạp",
+    image: "",
+    radical: "悠 (Bộ Tâm 心), 遊 (Bộ Xước 辶), 卡 (Bộ Bốc 卜)<br>💡 Mẹo nhớ: Thẻ (卡) dùng để đi lại, dạo chơi (遊) một cách thảnh thơi, ung dung (悠). Đây là chiếc thẻ giao thông công cộng cực kỳ quyền lực ở Đài Loan.",
+    explanation: "Danh từ riêng: Thẻ EasyCard (Thẻ thanh toán thông minh dùng cho tàu điện, xe buýt, cửa hàng tiện lợi tại Đài Loan).",
+    compounds: [
+      { tc: "嗶悠遊卡", py: "bī yōuyóukǎ", vn: "quẹt thẻ EasyCard" },
+      { tc: "儲值悠遊卡", py: "chúzhí yōuyóukǎ", vn: "nạp tiền thẻ EasyCard" }
+    ],
+    examples: [
+      { tc: "在台北搭捷運，用悠遊卡很方便。", py: "Zài Táiběi dā jiéyùn, yòng yōuyóukǎ hěn fāngbiàn.", vn: "Ở Đài Bắc đi tàu điện ngầm, dùng thẻ EasyCard rất tiện lợi." },
+      { tc: "我的悠遊卡沒錢了，要去超商儲值。", py: "Wǒ de yōuyóukǎ méi qián le, yào qù chāoshāng chúzhí.", vn: "Thẻ EasyCard của tôi hết tiền rồi, phải ra cửa hàng tiện lợi nạp thêm." },
+      { tc: "悠遊卡也可以用來買飲料。", py: "Yōuyóukǎ yě kěyǐ yòng lái mǎi yǐnliào.", vn: "Thẻ EasyCard cũng có thể dùng để mua nước." }
+    ],
+    idiom: "刷悠遊卡 (Shuā yōuyóukǎ) - Quẹt thẻ EasyCard.<br>🔸 Ví dụ: 上車請記得刷悠遊卡。 Shàng chē qǐng jìdé shuā yōuyóukǎ. - Lên xe xin nhớ quẹt thẻ EasyCard nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "綠島", pinyin: "Lùdǎo", hanViet: "Lục Đảo",
+    image: "",
+    radical: "綠 (Bộ Mịch 糸) + 島 (Bộ Sơn 山)<br>💡 Mẹo nhớ: Hòn đảo (島) phủ đầy cây cối màu xanh lục (綠). Lục Đảo là một hòn đảo du lịch nổi tiếng nằm ở phía đông nam Đài Loan.",
+    explanation: "Danh từ riêng: Lục Đảo (Green Island).",
+    compounds: [
+      { tc: "綠島燈塔", py: "Lùdǎo dēngtǎ", vn: "Hải đăng Lục Đảo" },
+      { tc: "去綠島", py: "qù Lùdǎo", vn: "đi Lục Đảo" }
+    ],
+    examples: [
+      { tc: "綠島的海底風景非常美。", py: "Lùdǎo de hǎidǐ fēngjǐng fēicháng měi.", vn: "Phong cảnh dưới đáy biển của Lục Đảo cực kỳ đẹp." },
+      { tc: "去綠島可以搭船或搭飛機。", py: "Qù Lùdǎo kěyǐ dā chuán huò dā fēijī.", vn: "Đi Lục Đảo có thể ngồi thuyền hoặc đi máy bay." },
+      { tc: "我們夏天要去綠島浮潛。", py: "Wǒmen xiàtiān yào qù Lùdǎo fúqiǎn.", vn: "Mùa hè này chúng tôi sẽ đi lặn ống thở ở Lục Đảo." }
+    ],
+    idiom: "綠島浮潛 (Lùdǎo fúqiǎn) - Lặn ống thở ở Lục Đảo.<br>🔸 Ví dụ: 綠島是台灣非常有名的浮潛勝地。 Lùdǎo shì Táiwān fēicháng yǒumíng de fúqiǎn shèngdì. - Lục Đảo là địa điểm lặn biển vô cùng nổi tiếng của Đài Loan.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "東南邊", pinyin: "dōngnán biān", hanViet: "Đông Nam Biên",
+    image: "",
+    radical: "東 (Đông), 南 (Nam), 邊 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Khu vực ranh giới (邊) nằm giữa hướng Đông (東) và hướng Nam (南).",
+    explanation: "Danh từ: Phía đông nam.",
+    compounds: [
+      { tc: "西南邊", py: "xīnán biān", vn: "phía tây nam" },
+      { tc: "東北邊", py: "dōngběi biān", vn: "phía đông bắc" }
+    ],
+    examples: [
+      { tc: "綠島在台灣的東南邊。", py: "Lùdǎo zài Táiwān de dōngnán biān.", vn: "Lục Đảo nằm ở phía đông nam của Đài Loan." },
+      { tc: "我的學校在火車站的東南邊。", py: "Wǒ de xuéxiào zài huǒchēzhàn de dōngnán biān.", vn: "Trường tôi nằm ở phía đông nam của ga xe lửa." },
+      { tc: "那家咖啡廳在公園的東南邊。", py: "Nà jiā kāfēitīng zài gōngyuán de dōngnán biān.", vn: "Quán cà phê đó nằm ở hướng đông nam của công viên." }
+    ],
+    idiom: "往東南走 (Wǎng dōngnán zǒu) - Đi về hướng đông nam.<br>🔸 Ví dụ: 順著這條路往東南走就到了。 Shùnzhe zhè tiáo lù wǎng dōngnán zǒu jiù dào le. - Đi dọc theo con đường này về hướng đông nam là tới.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "好好地", pinyin: "hǎohǎo de", hanViet: "Hảo hảo địa",
+    image: "",
+    radical: "好 (Bộ Nữ 女) + 地 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Làm một việc gì đó thật tốt (好好) một cách (地) trọn vẹn.",
+    explanation: "Trạng từ: Đàng hoàng, tử tế, cho thật tốt (thường đặt trước động từ để khuyên bảo).",
+    compounds: [
+      { tc: "好好休息", py: "hǎohǎo xiūxí", vn: "nghỉ ngơi cho tốt" },
+      { tc: "好好準備", py: "hǎohǎo zhǔnbèi", vn: "chuẩn bị thật tử tế" }
+    ],
+    examples: [
+      { tc: "週末我要好好地休息。", py: "Zhōumò wǒ yào hǎohǎo de xiūxí.", vn: "Cuối tuần tôi sẽ nghỉ ngơi cho thật tốt." },
+      { tc: "明天有考試，你今晚要好好地看書。", py: "Míngtiān yǒu kǎoshì, nǐ jīn wǎn yào hǎohǎo de kànshū.", vn: "Ngày mai có bài thi, tối nay bạn phải chăm chỉ đọc sách nhé." },
+      { tc: "我們坐下來好好地談一談。", py: "Wǒmen zuò xiàlái hǎohǎo de tán yì tán.", vn: "Chúng ta ngồi xuống nói chuyện một cách tử tế nào." }
+    ],
+    idiom: "好好照顧自己 (Hǎohǎo zhàogù zìjǐ) - Chăm sóc bản thân cho tốt nhé (Câu dặn dò quen thuộc).<br>🔸 Ví dụ: 你一個人在國外，要好好照顧自己。 Nǐ yí ge rén zài guówài, yào hǎohǎo zhàogù zìjǐ. - Con ở nước ngoài một mình, phải chăm sóc bản thân cho thật tốt nhé.", 
+    level: "TOCFL A2"
+  }
