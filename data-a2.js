@@ -1090,23 +1090,7 @@ const dataA2 = [
     idiom: "逛市區 (Guàng shìqū) - Dạo quanh khu trung tâm.<br>🔸 Ví dụ: 下午我們去逛市區，買點東西。 Xiàwǔ wǒmen qù guàng shìqū, mǎi diǎn dōngxī. - Chiều nay chúng ta đi dạo trung tâm thành phố, mua chút đồ.", 
     level: "TOCFL A2"
   },
-  {
-    word: "下", pinyin: "xià", hanViet: "Hạ",
-    image: "",
-    radical: "下 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Dấu gạch chéo nằm dưới nét gạch ngang (一), chỉ hành động đi xuống phía dưới.",
-    explanation: "Động từ: Xuống (xe, tàu, máy bay).",
-    compounds: [
-      { tc: "下車", py: "xiàchē", vn: "xuống xe" },
-      { tc: "下船", py: "xiàchuán", vn: "xuống tàu" }
-    ],
-    examples: [
-      { tc: "請問要在哪裡下車？", py: "Qǐngwèn yào zài nǎlǐ xiàchē?", vn: "Xin hỏi phải xuống xe ở đâu?" },
-      { tc: "到台北車站請下。", py: "Dào Táiběi chēzhàn qǐng xià.", vn: "Đến Ga Đài Bắc xin vui lòng xuống xe." },
-      { tc: "請等車子停了再下。", py: "Qǐng děng chēzi tíng le zài xià.", vn: "Xin đợi xe dừng hẳn rồi mới xuống." }
-    ],
-    idiom: "下一站下車 (Xià yí zhàn xiàchē) - Trạm tới xuống xe.<br>🔸 Ví dụ: 準備一下，我們下一站下車。 Zhǔnbèi yíxià, wǒmen xià yí zhàn xiàchē. - Chuẩn bị chút nhé, trạm tới chúng ta xuống xe.", 
-    level: "TOCFL A2"
-  },
+ 
   {
     word: "交通", pinyin: "jiāotōng", hanViet: "Giao thông",
     image: "",
