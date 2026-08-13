@@ -1428,4 +1428,5 @@ const dataA2 = [
     ],
     idiom: "好好照顧自己 (Hǎohǎo zhàogù zìjǐ) - Chăm sóc bản thân cho tốt nhé (Câu dặn dò quen thuộc).<br>🔸 Ví dụ: 你一個人在國外，要好好照顧自己。 Nǐ yí ge rén zài guówài, yào hǎohǎo zhàogù zìjǐ. - Con ở nước ngoài một mình, phải chăm sóc bản thân cho thật tốt nhé.", 
     level: "TOCFL A2"
-  }
+  },
+  ];
