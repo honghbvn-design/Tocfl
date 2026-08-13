@@ -1780,4 +1780,289 @@ const dataA2 = [
     idiom: "我想起來了 (Wǒ xiǎng qǐlái le) - Tôi nhớ ra rồi.<br>🔸 Ví dụ: 噢，我想起來了，錢包在背包裡！ Òu, wǒ xiǎng qǐlái le, qiánbāo zài bēibāo lǐ! - Ồ, tôi nhớ ra rồi, ví tiền ở trong ba lô!", 
     level: "TOCFL A2"
   },
+  {
+    word: "選", pinyin: "xuǎn", hanViet: "Tuyển",
+    image: "",
+    radical: "選 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Chữ Chọn (選) có bộ Xước (辶 - di chuyển). Quá trình chọn lựa giống như việc bạn phải bước đi quan sát khắp nơi để tìm ra thứ ưng ý nhất.",
+    explanation: "Động từ: Chọn, lựa chọn.",
+    compounds: [
+      { tc: "選擇", py: "xuǎnzé", vn: "lựa chọn" },
+      { tc: "選手", py: "xuǎnshǒu", vn: "tuyển thủ" }
+    ],
+    examples: [
+      { tc: "你要選哪一個？", py: "Nǐ yào xuǎn nǎ yí ge?", vn: "Bạn muốn chọn cái nào?" },
+      { tc: "我選了紅色的衣服。", py: "Wǒ xuǎn le hóngsè de yīfú.", vn: "Tôi đã chọn chiếc áo màu đỏ." },
+      { tc: "這門課很難，你確定要選嗎？", py: "Zhè mén kè hěn nán, nǐ quèdìng yào xuǎn ma?", vn: "Môn học này rất khó, bạn chắc chắn muốn chọn không?" }
+    ],
+    idiom: "隨便選 (Suíbiàn xuǎn) - Chọn đại đi / Chọn bừa đi.<br>🔸 Ví dụ: 這麼多好吃的，你隨便選吧！ Zhème duō hǎochī de, nǐ suíbiàn xuǎn ba! - Nhiều đồ ăn ngon thế này, bạn chọn đại đi!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "作業", pinyin: "zuòyè", hanViet: "Tác nghiệp",
+    image: "",
+    radical: "作 (Bộ Nhân 亻) + 業 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Con người (亻) phải làm việc (作), tạo ra sự nghiệp (業). Đối với học sinh thì bài tập chính là công việc.",
+    explanation: "Danh từ: Bài tập về nhà.",
+    compounds: [
+      { tc: "寫作業", py: "xiě zuòyè", vn: "viết bài tập" },
+      { tc: "交作業", py: "jiāo zuòyè", vn: "nộp bài tập" }
+    ],
+    examples: [
+      { tc: "我今天的作業很多。", py: "Wǒ jīntiān de zuòyè hěn duō.", vn: "Bài tập hôm nay của tôi rất nhiều." },
+      { tc: "你寫完作業了嗎？", py: "Nǐ xiě wán zuòyè le ma?", vn: "Bạn đã làm xong bài tập chưa?" },
+      { tc: "老師每天都給我們功課和作業。", py: "Lǎoshī měitiān dōu gěi wǒmen gōngkè hé zuòyè.", vn: "Giáo viên mỗi ngày đều giao cho chúng tôi bài tập về nhà." }
+    ],
+    idiom: "趕作業 (Gǎn zuòyè) - Chạy deadline bài tập.<br>🔸 Ví dụ: 週末我都在家趕作業。 Zhōumò wǒ dōu zài jiā gǎn zuòyè. - Cuối tuần tôi toàn ở nhà chạy deadline bài tập.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "練習", pinyin: "liànxí", hanViet: "Luyện tập",
+    image: "",
+    radical: "練 (Bộ Mịch 糸) + 習 (Bộ Vũ 羽)<br>💡 Mẹo nhớ: Sợi tơ (糸) phải dệt đi dệt lại mới thành vải, chim non phải đập cánh (羽) nhiều lần mới biết bay. Cả hai đều chỉ sự rèn luyện.",
+    explanation: "Động từ / Danh từ: Luyện tập, bài tập thực hành.",
+    compounds: [
+      { tc: "練習題", py: "liànxítí", vn: "bài tập thực hành" },
+      { tc: "練習寫字", py: "liànxí xiězì", vn: "luyện viết chữ" }
+    ],
+    examples: [
+      { tc: "我每天都會練習說中文。", py: "Wǒ měitiān dōu huì liànxí shuō Zhōngwén.", vn: "Tôi mỗi ngày đều luyện nói tiếng Trung." },
+      { tc: "只有多練習，才能進步。", py: "Zhǐyǒu duō liànxí, cái néng jìnbù.", vn: "Chỉ có luyện tập nhiều mới có thể tiến bộ." },
+      { tc: "請大家完成課本後面的練習。", py: "Qǐng dàjiā wánchéng kèběn hòumiàn de liànxí.", vn: "Mời các em hoàn thành bài tập thực hành phía sau sách giáo khoa." }
+    ],
+    idiom: "勤加練習 (Qín jiā liànxí) - Chăm chỉ luyện tập.<br>🔸 Ví dụ: 只要勤加練習，你一定會成功。 Zhǐyào qín jiā liànxí, nǐ yídìng huì chénggōng. - Chỉ cần chăm chỉ luyện tập, bạn nhất định sẽ thành công.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "半夜", pinyin: "bànyè", hanViet: "Bán dạ",
+    image: "",
+    radical: "半 (Bộ Thập 十) + 夜 (Bộ Tịch 夕)<br>💡 Mẹo nhớ: Chia đôi (半) khoảng thời gian buổi tối (夕) chính là nửa đêm.",
+    explanation: "Danh từ: Nửa đêm.",
+    compounds: [
+      { tc: "三更半夜", py: "sān gēng bànyè", vn: "nửa đêm nửa hôm" }
+    ],
+    examples: [
+      { tc: "他常常半夜才睡覺。", py: "Tā chángcháng bànyè cái shuìjiào.", vn: "Anh ấy thường nửa đêm mới ngủ." },
+      { tc: "昨天半夜突然下大雨。", py: "Zuótiān bànyè túrán xià dàyǔ.", vn: "Nửa đêm hôm qua đột nhiên mưa to." },
+      { tc: "半夜不要太大聲說話。", py: "Bànyè búyào tài dàshēng shuōhuà.", vn: "Nửa đêm đừng nói chuyện quá lớn tiếng." }
+    ],
+    idiom: "半夜三更 (Bànyè sān gēng) - Nửa đêm nửa hôm (Chỉ lúc khuya khoắt).<br>🔸 Ví dụ: 半夜三更的，是誰在敲門？ Bànyè sān gēng de, shì shuí zài qiāomén? - Nửa đêm nửa hôm, ai đang gõ cửa vậy?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "高興", pinyin: "gāoxìng", hanViet: "Cao hứng",
+    image: "",
+    radical: "高 (Bộ Cao 高) + 興 (Bộ Bát 八)<br>💡 Mẹo nhớ: Cảm xúc (興) dâng lên rất cao (高), biểu thị sự hân hoan, mừng rỡ.",
+    explanation: "Tính từ: Vui vẻ, vui mừng.",
+    compounds: [
+      { tc: "很高興", py: "hěn gāoxìng", vn: "rất vui" },
+      { tc: "不高興", py: "bù gāoxìng", vn: "không vui, giận" }
+    ],
+    examples: [
+      { tc: "認識你，我很高興。", py: "Rènshí nǐ, wǒ hěn gāoxìng.", vn: "Rất vui được làm quen với bạn." },
+      { tc: "聽到這個消息，大家都覺得很高興。", py: "Tīng dào zhège xiāoxī, dàjiā dōu juéde hěn gāoxìng.", vn: "Nghe thấy tin này, mọi người đều cảm thấy rất vui." },
+      { tc: "今天是我生日，我特別高興。", py: "Jīntiān shì wǒ shēngrì, wǒ tèbié gāoxìng.", vn: "Hôm nay là sinh nhật tôi, tôi đặc biệt vui mừng." }
+    ],
+    idiom: "高興得不得了 (Gāoxìng de bùdéle) - Vui mừng khôn xiết.<br>🔸 Ví dụ: 知道自己考上了，他高興得不得了。 Zhīdào zìjǐ kǎo shàng le, tā gāoxìng de bùdéle. - Biết mình thi đỗ, anh ấy vui mừng khôn xiết.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "平常", pinyin: "píngcháng", hanViet: "Bình thường",
+    image: "",
+    radical: "平 (Bộ Can 干) + 常 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Mọi thứ diễn ra bằng phẳng (平), giống như thói quen thường xuyên (常).",
+    explanation: "Phó từ / Tính từ: Thường ngày, bình thường.",
+    compounds: [
+      { tc: "平常心", py: "píngchángxīn", vn: "tâm thái bình thường" },
+      { tc: "照常", py: "zhàocháng", vn: "như thường lệ" }
+    ],
+    examples: [
+      { tc: "我平常八點起床。", py: "Wǒ píngcháng bā diǎn qǐchuáng.", vn: "Thường ngày tôi thức dậy lúc 8 giờ." },
+      { tc: "他平常不喝咖啡。", py: "Tā píngcháng bù hē kāfēi.", vn: "Bình thường anh ấy không uống cà phê." },
+      { tc: "這只是一件平常的事。", py: "Zhè zhǐshì yí jiàn píngcháng de shì.", vn: "Đây chỉ là một chuyện bình thường." }
+    ],
+    idiom: "像平常一樣 (Xiàng píngcháng yíyàng) - Giống như bình thường.<br>🔸 Ví dụ: 你不要緊張，表現得像平常一樣就好。 Nǐ búyào jǐnzhāng, biǎoxiàn de xiàng píngcháng yíyàng jiù hǎo. - Bạn đừng căng thẳng, cứ thể hiện giống như bình thường là được.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "爬山", pinyin: "páshān", hanViet: "Ba sơn",
+    image: "",
+    radical: "爬 (Bộ Trảo 爪) + 山 (Bộ Sơn 山)<br>💡 Mẹo nhớ: Bộ Trảo (爪) là móng vuốt. Dùng tay chân bám chặt (爬) để leo lên ngọn núi (山).",
+    explanation: "Động từ ly hợp: Leo núi.",
+    compounds: [
+      { tc: "去爬山", py: "qù páshān", vn: "đi leo núi" }
+    ],
+    examples: [
+      { tc: "週末我喜歡和朋友去爬山。", py: "Zhōumò wǒ xǐhuān hé péngyǒu qù páshān.", vn: "Cuối tuần tôi thích cùng bạn bè đi leo núi." },
+      { tc: "爬山對身體很好。", py: "Páshān duì shēntǐ hěn hǎo.", vn: "Leo núi rất tốt cho sức khỏe." },
+      { tc: "爬山雖然很累，但是風景很美。", py: "Páshān suīrán hěn lèi, dànshì fēngjǐng hěn měi.", vn: "Leo núi tuy rất mệt, nhưng phong cảnh rất đẹp." }
+    ],
+    idiom: "爬山涉水 (Pá shān shè shuǐ) - Trèo đèo lội suối.<br>🔸 Ví dụ: 為了找到這家店，我們真是爬山涉水啊。 Wèile zhǎodào zhè jiā diàn, wǒmen zhēnshi pá shān shè shuǐ a. - Để tìm được quán này, chúng tôi đúng là phải trèo đèo lội suối đấy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "認識", pinyin: "rènshì", hanViet: "Nhận thức",
+    image: "",
+    radical: "認 (Bộ Ngôn 言) + 識 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Ngôn (言) là lời nói. Phải giao tiếp, nói chuyện với nhau thì mới có thể làm quen, biết mặt.",
+    explanation: "Động từ: Quen biết, nhận biết, làm quen.",
+    compounds: [
+      { tc: "不認識", py: "bú rènshì", vn: "không quen biết" },
+      { tc: "認識字", py: "rènshì zì", vn: "biết chữ" }
+    ],
+    examples: [
+      { tc: "你認識那個外國人嗎？", py: "Nǐ rènshí nàge wàiguó rén ma?", vn: "Bạn có quen người nước ngoài đó không?" },
+      { tc: "我們是在大學認識的。", py: "Wǒmen shì zài dàxué rènshí de.", vn: "Chúng tôi quen nhau ở trường đại học." },
+      { tc: "很高興認識你。", py: "Hěn gāoxìng rènshí nǐ.", vn: "Rất vui được làm quen với bạn." }
+    ],
+    idiom: "重新認識 (Chóngxīn rènshì) - Nhận thức lại / Nhìn nhận lại.<br>🔸 Ví dụ: 這件事情讓我重新認識了他。 Zhè jiàn shìqíng ràng wǒ chóngxīn rènshí le tā. - Sự việc này khiến tôi nhìn nhận lại về anh ấy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聊天", pinyin: "liáotiān", hanViet: "Liêu thiên",
+    image: "",
+    radical: "聊 (Bộ Nhĩ 耳) + 天 (Bộ Đại 大)<br>💡 Mẹo nhớ: Dùng tai (耳) để lắng nghe và nói chuyện về đủ thứ trên trời (天) dưới biển.",
+    explanation: "Động từ ly hợp: Nói chuyện phiếm, tán gẫu.",
+    compounds: [
+      { tc: "聊天室", py: "liáotiānshì", vn: "phòng chat" },
+      { tc: "聊聊天", py: "liáo liáotiān", vn: "nói chuyện một chút" }
+    ],
+    examples: [
+      { tc: "我們坐下來聊天吧。", py: "Wǒmen zuò xiàlái liáotiān ba.", vn: "Chúng ta ngồi xuống nói chuyện phiếm đi." },
+      { tc: "我喜歡上網跟朋友聊天。", py: "Wǒ xǐhuān shàngwǎng gēn péngyǒu liáotiān.", vn: "Tôi thích lên mạng tán gẫu với bạn bè." },
+      { tc: "他們聊了一整個下午的天。", py: "Tāmen liáo le yì zhěng ge xiàwǔ de tiān.", vn: "Họ đã tán gẫu cả một buổi chiều." }
+    ],
+    idiom: "閒聊天 (Xián liáotiān) - Trò chuyện rảnh rỗi.<br>🔸 Ví dụ: 我們只是在閒聊天，沒談工作。 Wǒmen zhǐshì zài xián liáotiān, méi tán gōngzuò. - Chúng tôi chỉ đang trò chuyện phiếm thôi, không bàn công việc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "文化", pinyin: "wénhuà", hanViet: "Văn hóa",
+    image: "",
+    radical: "文 (Bộ Văn 文) + 化 (Bộ Tủy 匕)<br>💡 Mẹo nhớ: Sự thay đổi, cảm hóa (化) của con người thông qua chữ viết, văn học (文) tạo nên văn hóa.",
+    explanation: "Danh từ: Văn hóa.",
+    compounds: [
+      { tc: "傳統文化", py: "chuántǒng wénhuà", vn: "văn hóa truyền thống" },
+      { tc: "文化差異", py: "wénhuà chāyì", vn: "khác biệt văn hóa" }
+    ],
+    examples: [
+      { tc: "我對台灣文化很有興趣。", py: "Wǒ duì Táiwān wénhuà hěn yǒu xìngqù.", vn: "Tôi rất có hứng thú với văn hóa Đài Loan." },
+      { tc: "學語言也是學文化。", py: "Xué yǔyán yě shì xué wénhuà.", vn: "Học ngôn ngữ cũng là học văn hóa." },
+      { tc: "每個國家都有自己的文化。", py: "Měi ge guójiā dōu yǒu zìjǐ de wénhuà.", vn: "Mỗi quốc gia đều có văn hóa của riêng mình." }
+    ],
+    idiom: "文化交流 (Wénhuà jiāoliú) - Giao lưu văn hóa.<br>🔸 Ví dụ: 學校經常舉辦文化交流活動。 Xuéxiào jīngcháng jǔbàn wénhuà jiāoliú huódòng. - Trường học thường xuyên tổ chức các hoạt động giao lưu văn hóa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "廣告", pinyin: "guǎnggào", hanViet: "Quảng cáo",
+    image: "",
+    radical: "廣 (Bộ Nghiễm 广) + 告 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Dùng miệng (口) thông báo (告) cho mọi người ở khắp những nơi rộng lớn (廣) biết đến sản phẩm.",
+    explanation: "Danh từ: Quảng cáo.",
+    compounds: [
+      { tc: "拍廣告", py: "pāi guǎnggào", vn: "quay quảng cáo" },
+      { tc: "看廣告", py: "kàn guǎnggào", vn: "xem quảng cáo" }
+    ],
+    examples: [
+      { tc: "電視上有很多廣告。", py: "Diànshì shàng yǒu hěn duō guǎnggào.", vn: "Trên tivi có rất nhiều quảng cáo." },
+      { tc: "這個廣告很有趣。", py: "Zhège guǎnggào hěn yǒuqù.", vn: "Quảng cáo này rất thú vị." },
+      { tc: "他是一家廣告公司的老闆。", py: "Tā shì yì jiā guǎnggào gōngsī de lǎobǎn.", vn: "Anh ấy là ông chủ của một công ty quảng cáo." }
+    ],
+    idiom: "打廣告 (Dǎ guǎnggào) - Chạy quảng cáo / PR.<br>🔸 Ví dụ: 為了賣新產品，他們到處打廣告。 Wèile mài xīn chǎnpǐn, tāmen dàochù dǎ guǎnggào. - Để bán sản phẩm mới, họ chạy quảng cáo ở khắp mọi nơi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "位", pinyin: "wèi", hanViet: "Vị",
+    image: "",
+    radical: "位 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Chữ Lập (立 - đứng) và bộ Nhân (亻 - người). Vị trí đứng của con người, dùng để chỉ số lượng người một cách tôn trọng.",
+    explanation: "Lượng từ: Vị (dùng cho người, mang sắc thái lịch sự, tôn trọng).",
+    compounds: [
+      { tc: "各位", py: "gèwèi", vn: "các vị, mọi người" },
+      { tc: "哪位", py: "nǎ wèi", vn: "vị nào" }
+    ],
+    examples: [
+      { tc: "請問您是哪位？", py: "Qǐngwèn nín shì nǎ wèi?", vn: "Xin hỏi ngài là vị nào?" },
+      { tc: "這裡有兩位老師。", py: "Zhèlǐ yǒu liǎng wèi lǎoshī.", vn: "Ở đây có hai vị giáo viên." },
+      { tc: "各位旅客，請準備下車。", py: "Gèwèi lǚkè, qǐng zhǔnbèi xiàchē.", vn: "Thưa các vị hành khách, xin chuẩn bị xuống xe." }
+    ],
+    idiom: "第一位 (Dì yī wèi) - Vị trí đầu tiên / Người quan trọng nhất.<br>🔸 Ví dụ: 在我心裡，家人永遠排在第一位。 Zài wǒ xīnlǐ, jiārén yǒngyuǎn pái zài dì yī wèi. - Trong lòng tôi, gia đình mãi mãi xếp ở vị trí đầu tiên.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "了解", pinyin: "liǎojiě", hanViet: "Liễu giải",
+    image: "",
+    radical: "了 (Bộ Quyết 亅) + 解 (Bộ Giác 角)<br>💡 Mẹo nhớ: Phân tích, mổ xẻ (解) vấn đề cho đến khi kết thúc, rõ ràng (了).",
+    explanation: "Động từ: Hiểu rõ, tìm hiểu.",
+    compounds: [
+      { tc: "不了解", py: "bù liǎojiě", vn: "không hiểu" },
+      { tc: "互相了解", py: "hùxiāng liǎojiě", vn: "hiểu lẫn nhau" }
+    ],
+    examples: [
+      { tc: "我不了解這個問題。", py: "Wǒ bù liǎojiě zhège wèntí.", vn: "Tôi không hiểu vấn đề này." },
+      { tc: "我想了解台灣的文化。", py: "Wǒ xiǎng liǎojiě Táiwān de wénhuà.", vn: "Tôi muốn tìm hiểu văn hóa của Đài Loan." },
+      { tc: "他很了解我的個性。", py: "Tā hěn liǎojiě wǒ de gèxìng.", vn: "Anh ấy rất hiểu tính cách của tôi." }
+    ],
+    idiom: "深入了解 (Shēnrù liǎojiě) - Tìm hiểu sâu.<br>🔸 Ví dụ: 我們需要對這個市場進行深入了解。 Wǒmen xūyào duì zhège shìchǎng jìnxíng shēnrù liǎojiě. - Chúng ta cần tiến hành tìm hiểu sâu về thị trường này.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "生活", pinyin: "shēnghuó", hanViet: "Sinh hoạt",
+    image: "",
+    radical: "生 (Bộ Sinh 生) + 活 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Nơi nào có sự sống (生) và có nước uống (Thủy 氵) thì nơi đó có sinh hoạt của con người.",
+    explanation: "Danh từ / Động từ: Cuộc sống, sinh hoạt.",
+    compounds: [
+      { tc: "大學生活", py: "dàxué shēnghuó", vn: "cuộc sống đại học" },
+      { tc: "生活費", py: "shēnghuófèi", vn: "phí sinh hoạt" }
+    ],
+    examples: [
+      { tc: "台灣的生活很方便。", py: "Táiwān de shēnghuó hěn fāngbiàn.", vn: "Cuộc sống ở Đài Loan rất tiện lợi." },
+      { tc: "我很喜歡這裡的生活。", py: "Wǒ hěn xǐhuān zhèlǐ de shēnghuó.", vn: "Tôi rất thích cuộc sống ở đây." },
+      { tc: "他們過著幸福的生活。", py: "Tāmen guòzhe xìngfú de shēnghuó.", vn: "Họ đang trải qua một cuộc sống hạnh phúc." }
+    ],
+    idiom: "體驗生活 (Tǐyàn shēnghuó) - Trải nghiệm cuộc sống.<br>🔸 Ví dụ: 他去鄉下是為了體驗生活。 Tā qù xiāngxià shì wèile tǐyàn shēnghuó. - Anh ấy về quê là để trải nghiệm cuộc sống.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "陽明山", pinyin: "Yángmíng Shān", hanViet: "Dương Minh Sơn",
+    image: "",
+    radical: "陽 (Bộ Phụ 阝) + 明 (Bộ Nhật 日) + 山 (Bộ Sơn 山)<br>💡 Mẹo nhớ: Ngọn núi (山) rực rỡ ánh sáng (明) mặt trời (陽).",
+    explanation: "Danh từ riêng: Núi Dương Minh (Khu công viên quốc gia nổi tiếng ở Đài Bắc).",
+    compounds: [
+      { tc: "去陽明山", py: "qù Yángmíng Shān", vn: "đi núi Dương Minh" }
+    ],
+    examples: [
+      { tc: "週末我們去陽明山看夜景吧。", py: "Zhōumò wǒmen qù Yángmíng Shān kàn yèjǐng ba.", vn: "Cuối tuần chúng ta đi núi Dương Minh ngắm cảnh đêm nhé." },
+      { tc: "陽明山的花季很美。", py: "Yángmíng Shān de huājì hěn měi.", vn: "Mùa hoa ở núi Dương Minh rất đẹp." },
+      { tc: "從台北市區到陽明山很近。", py: "Cóng Táiběi shìqū dào Yángmíng Shān hěn jìn.", vn: "Từ trung tâm Đài Bắc đến núi Dương Minh rất gần." }
+    ],
+    idiom: "陽明山夜景 (Yángmíng Shān yèjǐng) - Cảnh đêm Dương Minh Sơn (Điểm hẹn hò nổi tiếng).<br>🔸 Ví dụ: 情人節，他們一起去看陽明山夜景。 Qíngrénjié, tāmen yìqǐ qù kàn Yángmíng Shān yèjǐng. - Ngày Lễ tình nhân, họ cùng nhau đi ngắm cảnh đêm Dương Minh Sơn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "外國人", pinyin: "wàiguó rén", hanViet: "Ngoại quốc nhân",
+    image: "",
+    radical: "外 (Bộ Tịch 夕) + 國 (Bộ Vi 囗) + 人 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Người (人) đến từ đất nước (國) ở bên ngoài (外).",
+    explanation: "Cụm từ: Người nước ngoài.",
+    compounds: [
+      { tc: "外國朋友", py: "wàiguó péngyǒu", vn: "bạn người nước ngoài" }
+    ],
+    examples: [
+      { tc: "他是一個外國人，可是中文說得很好。", py: "Tā shì yí ge wàiguó rén, kěshì Zhōngwén shuō de hěn hǎo.", vn: "Anh ấy là người nước ngoài, nhưng nói tiếng Trung rất giỏi." },
+      { tc: "這裡有很多外國人。", py: "Zhèlǐ yǒu hěn duō wàiguó rén.", vn: "Ở đây có rất nhiều người nước ngoài." },
+      { tc: "台灣人對外國人很友善。", py: "Táiwān rén duì wàiguó rén hěn yǒushàn.", vn: "Người Đài Loan rất thân thiện với người nước ngoài." }
+    ],
+    idiom: "結交外國朋友 (Jiéjiāo wàiguó péngyǒu) - Kết bạn với người nước ngoài.<br>🔸 Ví dụ: 透過語言交換，我結交了很多外國朋友。 Tòuguò yǔyán jiāohuàn, wǒ jiéjiāo le hěn duō wàiguó péngyǒu. - Thông qua trao đổi ngôn ngữ, tôi đã kết giao được rất nhiều bạn nước ngoài.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "一些", pinyin: "yìxiē", hanViet: "Nhất ta",
+    image: "",
+    radical: "一 (Bộ Nhất 一) + 些 (Bộ Nhị 二)<br>💡 Mẹo nhớ: Chỉ số lượng nhỏ không đếm chính xác, thường đứng trước danh từ.",
+    explanation: "Cụm từ: Một vài, một ít, một số.",
+    compounds: [
+      { tc: "有些", py: "yǒuxiē", vn: "có một vài" },
+      { tc: "這些", py: "zhèxiē", vn: "những cái này" }
+    ],
+    examples: [
+      { tc: "我買了一些水果。", py: "Wǒ mǎi le yìxiē shuǐguǒ.", vn: "Tôi đã mua một ít trái cây." },
+      { tc: "請給我一些時間。", py: "Qǐng gěi wǒ yìxiē shíjiān.", vn: "Xin hãy cho tôi một chút thời gian." },
+      { tc: "桌上有一些書。", py: "Zhuō shàng yǒu yìxiē shū.", vn: "Trên bàn có một vài quyển sách." }
+    ],
+    idiom: "一些小事 (Yìxiē xiǎoshì) - Một vài chuyện vặt vãnh.<br>🔸 Ví dụ: 別為了這一些小事生氣。 Bié wèile zhè yìxiē xiǎoshì shēngqì. - Đừng vì một vài chuyện nhỏ nhặt này mà tức giận.", 
+    level: "TOCFL A2"
+  },
   ];
