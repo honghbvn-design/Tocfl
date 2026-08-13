@@ -666,7 +666,7 @@ const dataA2 = [
       { tc: "我不知道該喝茶還是喝咖啡。", py: "Wǒ bù zhīdào gāi hē chá háishì hē kāfēi.", vn: "Tôi không biết nên uống trà hay là uống cà phê." },
       { tc: "太晚了，你還是明天再去吧。", py: "Tài wǎn le, nǐ háishì míngtiān zài qù ba.", vn: "Muộn quá rồi, bạn vẫn là để ngày mai hẵng đi nhé." }
     ],
-    idiom: "還是老樣子 (Háishì lǎo yàngzi) - Vẫn y như cũ / Không có gì thay đổi.<br>🔸 Ví dụ: 這麼多年不見，你還是老樣子！(Zhème duō nián bú jiàn, nǐ háishì lǎo yàngzi! - Bao nhiêu năm không gặp, bạn vẫn y như xưa!)", 
+    idiom: "還是老樣子 (Háishì lǎo yàngzi) - Vẫn y như cũ / Không có gì thay đổi.<br>🔸 Ví dụ: 這麼多年不見，你還是老樣子！ Zhème duō nián bú jiàn, nǐ háishì lǎo yàngzi! - Bao nhiêu năm không gặp, bạn vẫn y như xưa!", 
     level: "TOCFL A2"
   },
   {
@@ -683,7 +683,7 @@ const dataA2 = [
       { tc: "你今天怎麼這麼早來？", py: "Nǐ jīntiān zěnme zhème zǎo lái?", vn: "Sao hôm nay bạn đến sớm thế?" },
       { tc: "時間還早，我們再聊一下吧。", py: "Shíjiān hái zǎo, wǒmen zài liáo yíxià ba.", vn: "Thời gian vẫn còn sớm, chúng ta nói chuyện thêm chút đi." }
     ],
-    idiom: "早安 (Zǎo ān) - Chào buổi sáng (Cách chào đầy đủ).<br>🔸 Ví dụ: 大家早安，今天天氣真好！(Dàjiā zǎo ān, jīntiān tiānqì zhēn hǎo! - Chào buổi sáng mọi người, hôm nay thời tiết thật đẹp!)", 
+    idiom: "早安 (Zǎo ān) - Chào buổi sáng (Cách chào đầy đủ).<br>🔸 Ví dụ: 大家早安，今天天氣真好！ Dàjiā zǎo ān, jīntiān tiānqì zhēn hǎo! - Chào buổi sáng mọi người, hôm nay thời tiết thật đẹp!", 
     level: "TOCFL A2"
   },
   {
@@ -700,7 +700,7 @@ const dataA2 = [
       { tc: "我們約下午三點在圖書館見面。", py: "Wǒmen yuē xiàwǔ sān diǎn zài túshūguǎn jiànmiàn.", vn: "Chúng ta hẹn 3 giờ chiều gặp nhau ở thư viện nhé." },
       { tc: "他約我週末一起去看電影。", py: "Tā yuē wǒ zhōumò yìqǐ qù kàn diànyǐng.", vn: "Anh ấy rủ tôi cuối tuần cùng đi xem phim." }
     ],
-    idiom: "爽約 (Shuǎngyuē) - Lỡ hẹn, cho leo cây.<br>🔸 Ví dụ: 他昨天又爽約了，我真的很生氣。(Tā zuótiān yòu shuǎngyuē le, wǒ zhēn de hěn shēngqì. - Hôm qua anh ta lại cho tôi leo cây, tôi thực sự rất tức giận.)", 
+    idiom: "爽約 (Shuǎngyuē) - Lỡ hẹn, cho leo cây.<br>🔸 Ví dụ: 他昨天又爽約了，我真的很生氣。 Tā zuótiān yòu shuǎngyuē le, wǒ zhēn de hěn shēngqì. - Hôm qua anh ta lại cho tôi leo cây, tôi thực sự rất tức giận.", 
     level: "TOCFL A2"
   },
   {
@@ -717,7 +717,7 @@ const dataA2 = [
       { tc: "對面的餐廳很好吃。", py: "Duìmiàn de cāntīng hěn hǎochī.", vn: "Nhà hàng ở đối diện ăn rất ngon." },
       { tc: "請你坐在我對面。", py: "Qǐng nǐ zuò zài wǒ duìmiàn.", vn: "Xin bạn hãy ngồi đối diện tôi." }
     ],
-    idiom: "就在對面 (Jiù zài duìmiàn) - Ở ngay đối diện thôi.<br>🔸 Ví dụ: 郵局在哪裡？就在對面而已。(Yóujú zài nǎlǐ? Jiù zài duìmiàn éryǐ. - Bưu điện ở đâu? Ở ngay đối diện thôi.)", 
+    idiom: "就在對面 (Jiù zài duìmiàn) - Ở ngay đối diện thôi.<br>🔸 Ví dụ: 郵局在哪裡？就在對面而已。 Yóujú zài nǎlǐ? Jiù zài duìmiàn éryǐ. - Bưu điện ở đâu? Ở ngay đối diện thôi.", 
     level: "TOCFL A2"
   },
   {
@@ -734,7 +734,7 @@ const dataA2 = [
       { tc: "你有問題就直接問老師。", py: "Nǐ yǒu wèntí jiù zhíjiē wèn lǎoshī.", vn: "Bạn có vấn đề gì thì cứ trực tiếp hỏi giáo viên." },
       { tc: "我們不要換車了，直接坐計程車吧。", py: "Wǒmen búyào huàn chē le, zhíjiē zuò jìchéngchē ba.", vn: "Chúng ta đừng chuyển xe nữa, đi thẳng bằng taxi luôn đi." }
     ],
-    idiom: "直接說吧 (Zhíjiē shuō ba) - Nói thẳng đi / Cứ nói thẳng ra.<br>🔸 Ví dụ: 別拐彎抹角了，直接說吧！(Bié guǎiwānmòjiǎo le, zhíjiē shuō ba! - Đừng vòng vo tam quốc nữa, nói thẳng đi!)", 
+    idiom: "直接說吧 (Zhíjiē shuō ba) - Nói thẳng đi / Cứ nói thẳng ra.<br>🔸 Ví dụ: 別拐彎抹角了，直接說吧！ Bié guǎiwānmòjiǎo le, zhíjiē shuō ba! - Đừng vòng vo tam quốc nữa, nói thẳng đi!", 
     level: "TOCFL A2"
   },
   {
@@ -751,7 +751,7 @@ const dataA2 = [
       { tc: "這點小事，你不必客氣。", py: "Zhè diǎn xiǎoshì, nǐ búbì kèqì.", vn: "Chút chuyện nhỏ này, bạn không cần phải khách sáo." },
       { tc: "距離很近，你不必開車去。", py: "Jùlí hěn jìn, nǐ búbì kāichē qù.", vn: "Khoảng cách rất gần, bạn không nhất thiết phải lái xe đi." }
     ],
-    idiom: "不必了 (Búbì le) - Không cần đâu (Dùng để từ chối một cách lịch sự).<br>🔸 Ví dụ: A: 需要我幫你買飲料嗎？ B: 不必了，謝謝。(A: Xūyào wǒ bāng nǐ mǎi yǐnliào ma? B: Búbì le, xièxiè. - A: Cần tôi mua nước giúp không? B: Không cần đâu, cảm ơn.)", 
+    idiom: "不必了 (Búbì le) - Không cần đâu (Dùng để từ chối một cách lịch sự).<br>🔸 Ví dụ: A: 需要我幫你買飲料嗎？ B: 不必了，謝謝。 A: Xūyào wǒ bāng nǐ mǎi yǐnliào ma? B: Búbì le, xièxiè. - A: Cần tôi mua nước giúp không? B: Không cần đâu, cảm ơn.", 
     level: "TOCFL A2"
   },
   {
@@ -768,7 +768,7 @@ const dataA2 = [
       { tc: "我想去銀行換錢。", py: "Wǒ xiǎng qù yínháng huànqián.", vn: "Tôi muốn ra ngân hàng đổi tiền." },
       { tc: "這件衣服太小了，我想換大一點的。", py: "Zhè jiàn yīfú tài xiǎo le, wǒ xiǎng huàn dà yìdiǎn de.", vn: "Chiếc áo này nhỏ quá, tôi muốn đổi cái lớn hơn một chút." }
     ],
-    idiom: "換車 (Huàn chē) - Đổi xe, chuyển tuyến.<br>🔸 Ví dụ: 請問去台北101要在哪裡換車？(Qǐngwèn qù Táiběi 101 yào zài nǎlǐ huàn chē? - Xin hỏi đến Đài Bắc 101 phải chuyển xe ở đâu?)", 
+    idiom: "換車 (Huàn chē) - Đổi xe, chuyển tuyến.<br>🔸 Ví dụ: 請問去台北101要在哪裡換車？ Qǐngwèn qù Táiběi 101 yào zài nǎlǐ huàn chē? - Xin hỏi đến Đài Bắc 101 phải chuyển xe ở đâu?", 
     level: "TOCFL A2"
   },
   {
@@ -785,7 +785,7 @@ const dataA2 = [
       { tc: "火車站離這裡遠不遠？", py: "Huǒchēzhàn lí zhèlǐ yuǎn bù yuǎn?", vn: "Ga xe lửa cách đây có xa không?" },
       { tc: "捷運車站裡不能吃東西。", py: "Jiéyùn chēzhàn lǐ bùnéng chī dōngxī.", vn: "Trong trạm tàu điện ngầm không được ăn uống." }
     ],
-    idiom: "下一站 (Xià yí zhàn) - Trạm tiếp theo.<br>🔸 Ví dụ: 下一站是台北車站，要換車的旅客請準備下車。(Xià yí zhàn shì Táiběi chēzhàn, yào huàn chē de lǚkè qǐng zhǔnbèi xiàchē. - Trạm tiếp theo là Ga Đài Bắc, hành khách cần chuyển tuyến vui lòng chuẩn bị xuống xe.)", 
+    idiom: "下一站 (Xià yí zhàn) - Trạm tiếp theo.<br>🔸 Ví dụ: 下一站是台北車站，要換車的旅客請準備下車。 Xià yí zhàn shì Táiběi chēzhàn, yào huàn chē de lǚkè qǐng zhǔnbèi xiàchē. - Trạm tiếp theo là Ga Đài Bắc, hành khách cần chuyển tuyến vui lòng chuẩn bị xuống xe.", 
     level: "TOCFL A2"
   },
   {
@@ -802,7 +802,7 @@ const dataA2 = [
       { tc: "麻煩你幫我開一下門，謝謝。", py: "Máfan nǐ bāng wǒ kāi yíxià mén, xièxiè.", vn: "Phiền bạn mở cửa giúp tôi một chút, cảm ơn." },
       { tc: "我不想給別人添麻煩。", py: "Wǒ bù xiǎng gěi biérén tiān máfan.", vn: "Tôi không muốn chuốc thêm phiền phức cho người khác." }
     ],
-    idiom: "麻煩你了 (Máfan nǐ le) - Làm phiền bạn rồi (Câu cửa miệng lịch sự khi nhờ vả).<br>🔸 Ví dụ: 麻煩你幫我拿一下包包，謝謝！(Máfan nǐ bāng wǒ ná yíxià bāobāo, xièxiè! - Phiền bạn cầm giúp tôi cái túi, cảm ơn!)", 
+    idiom: "麻煩你了 (Máfan nǐ le) - Làm phiền bạn rồi (Câu cửa miệng lịch sự khi nhờ vả).<br>🔸 Ví dụ: 麻煩你幫我拿一下包包，謝謝！ Máfan nǐ bāng wǒ ná yíxià bāobāo, xièxiè! - Phiền bạn cầm giúp tôi cái túi, cảm ơn!", 
     level: "TOCFL A2"
   },
   {
@@ -819,7 +819,7 @@ const dataA2 = [
       { tc: "電影要開始了，我們趕快進去吧。", py: "Diànyǐng yào kāishǐ le, wǒmen gǎnkuài jìnqù ba.", vn: "Phim sắp bắt đầu rồi, chúng ta mau vào trong thôi." },
       { tc: "天黑了，你趕快回家。", py: "Tiān hēi le, nǐ gǎnkuài huí jiā.", vn: "Trời tối rồi, bạn mau về nhà đi." }
     ],
-    idiom: "趕快去 (Gǎnkuài qù) - Mau đi đi.<br>🔸 Ví dụ: 老師在找你，你趕快去辦公室吧！(Lǎoshī zài zhǎo nǐ, nǐ gǎnkuài qù bàngōngshì ba! - Thầy giáo đang tìm cậu, cậu mau đến văn phòng đi!)", 
+    idiom: "趕快去 (Gǎnkuài qù) - Mau đi đi.<br>🔸 Ví dụ: 老師在找你，你趕快去辦公室吧！ Lǎoshī zài zhǎo nǐ, nǐ gǎnkuài qù bàngōngshì ba! - Thầy giáo đang tìm cậu, cậu mau đến văn phòng đi!", 
     level: "TOCFL A2"
   },
   {
@@ -836,7 +836,7 @@ const dataA2 = [
       { tc: "他剛走，你晚了一步。", py: "Tā gāng zǒu, nǐ wǎn le yí bù.", vn: "Anh ấy vừa đi khỏi, bạn chậm mất một bước rồi." },
       { tc: "我們走吧，別在這裡等了。", py: "Wǒmen zǒu ba, bié zài zhèlǐ děng le.", vn: "Chúng ta đi thôi, đừng đợi ở đây nữa." }
     ],
-    idiom: "我先走了 (Wǒ xiān zǒu le) - Tôi đi trước đây (Câu chào tạm biệt cực kỳ thông dụng).<br>🔸 Ví dụ: 很高興跟你聊天，但我還有事，我先走了！(Hěn gāoxìng gēn nǐ liáotiān, dàn wǒ hái yǒu shì, wǒ xiān zǒu le! - Rất vui được nói chuyện với bạn, nhưng tôi có việc rồi, tôi đi trước đây!)", 
+    idiom: "我先走了 (Wǒ xiān zǒu le) - Tôi đi trước đây (Câu chào tạm biệt cực kỳ thông dụng).<br>🔸 Ví dụ: 很高興跟你聊天，但我還有事，我先走了！ Hěn gāoxìng gēn nǐ liáotiān, dàn wǒ hái yǒu shì, wǒ xiān zǒu le! - Rất vui được nói chuyện với bạn, nhưng tôi có việc rồi, tôi đi trước đây!", 
     level: "TOCFL A2"
   },
   {
@@ -853,7 +853,7 @@ const dataA2 = [
       { tc: "這是今天最後一個班次。", py: "Zhè shì jīntiān zuìhòu yí ge bāncì.", vn: "Đây là chuyến xe cuối cùng của ngày hôm nay." },
       { tc: "請問下一班次是什麼時候？", py: "Qǐngwèn xià yì bāncì shì shénme shíhòu?", vn: "Xin hỏi chuyến tiếp theo là khi nào?" }
     ],
-    idiom: "查班次 (Chá bāncì) - Tra cứu lịch tàu xe.<br>🔸 Ví dụ: 出發前，記得先上網查班次。(Chūfā qián, jìdé xiān shàngwǎng chá bāncì. - Trước khi xuất phát, nhớ lên mạng tra lịch tàu xe trước nhé.)", 
+    idiom: "查班次 (Chá bāncì) - Tra cứu lịch tàu xe.<br>🔸 Ví dụ: 出發前，記得先上網查班次。 Chūfā qián, jìdé xiān shàngwǎng chá bāncì. - Trước khi xuất phát, nhớ lên mạng tra lịch tàu xe trước nhé.", 
     level: "TOCFL A2"
   },
   {
@@ -870,7 +870,7 @@ const dataA2 = [
       { tc: "你這個禮拜六有空嗎？", py: "Nǐ zhège lǐbài liù yǒu kòng ma?", vn: "Thứ Bảy tuần này bạn có rảnh không?" },
       { tc: "這是他這個禮拜第三次遲到。", py: "Zhè shì tā zhège lǐbài dì sān cì chídào.", vn: "Đây là lần thứ ba anh ấy đi trễ trong tuần này." }
     ],
-    idiom: "禮拜幾 (Lǐbài jǐ) - Thứ mấy?<br>🔸 Ví dụ: 請問今天禮拜幾？(Qǐngwèn jīntiān lǐbài jǐ? - Xin hỏi hôm nay là thứ mấy?)", 
+    idiom: "禮拜幾 (Lǐbài jǐ) - Thứ mấy?<br>🔸 Ví dụ: 請問今天禮拜幾？ Qǐngwèn jīntiān lǐbài jǐ? - Xin hỏi hôm nay là thứ mấy?", 
     level: "TOCFL A2"
   },
   {
@@ -887,7 +887,7 @@ const dataA2 = [
       { tc: "很久沒見到你了，最近好嗎？", py: "Hěn jiǔ méi jiàndào nǐ le, zuìjìn hǎo ma?", vn: "Đã lâu không gặp bạn rồi, dạo này bạn khỏe không?" },
       { tc: "我昨天在夜市見到你的朋友。", py: "Wǒ zuótiān zài yèshì jiàndào nǐ de péngyǒu.", vn: "Hôm qua tôi gặp bạn của bạn ở chợ đêm." }
     ],
-    idiom: "明天見 (Míngtiān jiàn) - Ngày mai gặp.<br>🔸 Ví dụ: 今天的課就上到這裡，大家明天見！(Jīntiān de kè jiù shàng dào zhèlǐ, dàjiā míngtiān jiàn! - Bài học hôm nay đến đây thôi, hẹn gặp lại mọi người vào ngày mai!)", 
+    idiom: "明天見 (Míngtiān jiàn) - Ngày mai gặp.<br>🔸 Ví dụ: 今天的課就上到這裡，大家明天見！ Jīntiān de kè jiù shàng dào zhèlǐ, dàjiā míngtiān jiàn! - Bài học hôm nay đến đây thôi, hẹn gặp lại mọi người vào ngày mai!", 
     level: "TOCFL A2"
   },
   {
@@ -904,7 +904,7 @@ const dataA2 = [
       { tc: "每年台北都會舉辦大型電腦展。", py: "Měinián Táiběi dōu huì jǔbàn dàxíng diànnǎo zhǎn.", vn: "Mỗi năm Đài Bắc đều tổ chức triển lãm máy tính quy mô lớn." },
       { tc: "我在電腦展買了一台便宜的筆記本。", py: "Wǒ zài diànnǎo zhǎn mǎi le yì tái piányí de bǐjìběn.", vn: "Tôi đã mua một chiếc máy tính xách tay giá rẻ ở triển lãm máy tính." }
     ],
-    idiom: "逛電腦展 (Guàng diànnǎo zhǎn) - Dạo triển lãm máy tính.<br>🔸 Ví dụ: 我週末跟朋友去逛電腦展了。(Wǒ zhōumò gēn péngyǒu qù guàng diànnǎo zhǎn le. - Cuối tuần tôi đã đi dạo triển lãm máy tính với bạn bè.)", 
+    idiom: "逛電腦展 (Guàng diànnǎo zhǎn) - Dạo triển lãm máy tính.<br>🔸 Ví dụ: 我週末跟朋友去逛電腦展了。 Wǒ zhōumò gēn péngyǒu qù guàng diànnǎo zhǎn le. - Cuối tuần tôi đã đi dạo triển lãm máy tính với bạn bè.", 
     level: "TOCFL A2"
   },
   {
@@ -920,7 +920,7 @@ const dataA2 = [
       { tc: "從這裡坐捷運可以直達世貿展覽館。", py: "Cóng zhèlǐ zuò jiéyùn kěyǐ zhídá Shìmào Zhǎnlǎn Guǎn.", vn: "Từ đây ngồi tàu điện ngầm có thể đi thẳng đến Trung tâm Triển lãm Thế Mậu." },
       { tc: "明天世貿展覽館有書展。", py: "Míngtiān Shìmào Zhǎnlǎn Guǎn yǒu shūzhǎn.", vn: "Ngày mai ở Trung tâm Triển lãm Thế Mậu có hội chợ sách." }
     ],
-    idiom: "去世貿 (Qù Shìmào) - Đến tòa nhà Thế Mậu.<br>🔸 Ví dụ: 下午我要去世貿開會。(Xiàwǔ wǒ yào qù Shìmào kāihuì. - Chiều nay tôi phải đến tòa Thế Mậu họp.)", 
+    idiom: "去世貿 (Qù Shìmào) - Đến tòa nhà Thế Mậu.<br>🔸 Ví dụ: 下午我要去世貿開會。 Xiàwǔ wǒ yào qù Shìmào kāihuì. - Chiều nay tôi phải đến tòa Thế Mậu họp.", 
     level: "TOCFL A2"
   },
   {
@@ -937,7 +937,7 @@ const dataA2 = [
       { tc: "展覽館裡不能拍照。", py: "Zhǎnlǎn guǎn lǐ bùnéng pāizhào.", vn: "Bên trong khu triển lãm không được chụp ảnh." },
       { tc: "請在展覽館的入口等我。", py: "Qǐng zài zhǎnlǎn guǎn de rùkǒu děng wǒ.", vn: "Vui lòng đợi tôi ở lối vào khu triển lãm." }
     ],
-    idiom: "參觀展覽 (Cānguān zhǎnlǎn) - Tham quan triển lãm.<br>🔸 Ví dụ: 我們學校安排我們去參觀展覽。(Wǒmen xuéxiào ānpái wǒmen qù cānguān zhǎnlǎn. - Trường học sắp xếp cho chúng tôi đi tham quan triển lãm.)", 
+    idiom: "參觀展覽 (Cānguān zhǎnlǎn) - Tham quan triển lãm.<br>🔸 Ví dụ: 我們學校安排我們去參觀展覽。 Wǒmen xuéxiào ānpái wǒmen qù cānguān zhǎnlǎn. - Trường học sắp xếp cho chúng tôi đi tham quan triển lãm.", 
     level: "TOCFL A2"
   },
   {
@@ -953,7 +953,7 @@ const dataA2 = [
       { tc: "跨年的時候，台北101會放煙火。", py: "Kuànián de shíhòu, Táiběi 101 huì fàng yānhuǒ.", vn: "Vào dịp giao thừa, tháp Đài Bắc 101 sẽ bắn pháo hoa." },
       { tc: "從台北101往下看，風景很美。", py: "Cóng Táiběi 101 wǎng xià kàn, fēngjǐng hěn měi.", vn: "Từ tòa 101 nhìn xuống, phong cảnh rất đẹp." }
     ],
-    idiom: "101煙火 (101 yānhuǒ) - Pháo hoa 101 (Đặc sản dịp giao thừa).<br>🔸 Ví dụ: 你今年要去看台北101的跨年煙火嗎？(Nǐ jīnnián yào qù kàn Táiběi 101 de kuànián yānhuǒ ma? - Năm nay bạn có đi xem pháo hoa giao thừa ở tháp 101 không?)", 
+    idiom: "101煙火 (101 yānhuǒ) - Pháo hoa 101 (Đặc sản dịp giao thừa).<br>🔸 Ví dụ: 你今年要去看台北101的跨年煙火嗎？ Nǐ jīnnián yào qù kàn Táiběi 101 de kuànián yānhuǒ ma? - Năm nay bạn có đi xem pháo hoa giao thừa ở tháp 101 không?", 
     level: "TOCFL A2"
   },
   {
@@ -970,7 +970,7 @@ const dataA2 = [
       { tc: "他在台北住了五年了。", py: "Tā zài Táiběi zhù le wǔ nián le.", vn: "Anh ấy đã sống ở Đài Bắc được 5 năm rồi." },
       { tc: "我下個月要去台北玩。", py: "Wǒ xià ge yuè yào qù Táiběi wán.", vn: "Tháng sau tôi sẽ đi Đài Bắc chơi." }
     ],
-    idiom: "北漂 (Běi piāo) - Trôi dạt lên Đài Bắc (Chỉ người từ miền Nam lên Đài Bắc lập nghiệp).<br>🔸 Ví dụ: 他大學畢業後就成了一名北漂青年。(Tā dàxué bìyè hòu jiù chéng le yì míng běi piāo qīngnián. - Sau khi tốt nghiệp đại học, anh ấy trở thành một thanh niên lên Đài Bắc lập nghiệp.)", 
+    idiom: "北漂 (Běi piāo) - Trôi dạt lên Đài Bắc (Chỉ người từ miền Nam lên Đài Bắc lập nghiệp).<br>🔸 Ví dụ: 他大學畢業後就成了一名北漂青年。 Tā dàxué bìyè hòu jiù chéng le yì míng běi piāo qīngnián. - Sau khi tốt nghiệp đại học, anh ấy trở thành một thanh niên lên Đài Bắc lập nghiệp.", 
     level: "TOCFL A2"
   },
   {
@@ -986,7 +986,7 @@ const dataA2 = [
       { tc: "2號線的乘客總是很多。", py: "Èr hào xiàn de chéngkè zǒngshì hěn duō.", vn: "Hành khách của tuyến số 2 lúc nào cũng rất đông." },
       { tc: "我們在2號線的車站見面。", py: "Wǒmen zài èr hào xiàn de chēzhàn jiànmiàn.", vn: "Chúng ta gặp nhau ở ga tàu của tuyến số 2 nhé." }
     ],
-    idiom: "搭紅線 (Dā hóng xiàn) - Đi tuyến Đỏ (Người Đài Loan thường gọi tên tuyến MRT theo màu sắc thay vì số).<br>🔸 Ví dụ: 記得搭紅線，到世貿站下車。(Jìdé dā hóng xiàn, dào Shìmào zhàn xiàchē. - Nhớ đi tuyến đỏ, đến trạm Thế Mậu thì xuống xe.)", 
+    idiom: "搭紅線 (Dā hóng xiàn) - Đi tuyến Đỏ (Người Đài Loan thường gọi tên tuyến MRT theo màu sắc thay vì số).<br>🔸 Ví dụ: 記得搭紅線，到世貿站下車。 Jìdé dā hóng xiàn, dào Shìmào zhàn xiàchē. - Nhớ đi tuyến đỏ, đến trạm Thế Mậu thì xuống xe.", 
     level: "TOCFL A2"
   },
   {
@@ -1003,7 +1003,6 @@ const dataA2 = [
       { tc: "別急，我馬上就到了。", py: "Bié jí, wǒ mǎshàng jiù dào le.", vn: "Đừng vội, tôi sắp đến nơi rồi." },
       { tc: "遇到問題別急，慢慢解決。", py: "Yùdào wèntí bié jí, mànman jiějué.", vn: "Gặp vấn đề thì đừng gấp, cứ từ từ giải quyết." }
     ],
-    idiom: "慢慢來，別急 (Mànman lái, bié jí) - Cứ từ từ, đừng vội.<br>🔸 Ví dụ: 沒關係，慢慢來，別急！(Méiguānxì, mànman lái, bié jí! - Không sao đâu, cứ từ từ, đừng vội!)", 
+    idiom: "慢慢來，別急 (Mànman lái, bié jí) - Cứ từ từ, đừng vội.<br>🔸 Ví dụ: 沒關係，慢慢來，別急！ Méiguānxì, mànman lái, bié jí! - Không sao đâu, cứ từ từ, đừng vội!", 
     level: "TOCFL A2"
-  },
-  ];
+  }
