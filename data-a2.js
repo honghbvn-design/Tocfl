@@ -870,7 +870,7 @@ const dataA2 = [
       { tc: "你這個禮拜六有空嗎？", py: "Nǐ zhège lǐbài liù yǒu kòng ma?", vn: "Thứ Bảy tuần này bạn có rảnh không?" },
       { tc: "這是他這個禮拜第三次遲到。", py: "Zhè shì tā zhège lǐbài dì sān cì chídào.", vn: "Đây là lần thứ ba anh ấy đi trễ trong tuần này." }
     ],
-    idiom: "禮拜幾 (Lǐbài jǐ) - Thứ mấy?<br>🔸 Ví dụ: 請問今天禮拜幾？(Qǐngwèn jīntiān lǐbài jǐ? - Xin hỏi hôm nay là thứ mấy?)" , 
+    idiom: "禮拜幾 (Lǐbài jǐ) - Thứ mấy?<br>🔸 Ví dụ: 請問今天禮拜幾？(Qǐngwèn jīntiān lǐbài jǐ? - Xin hỏi hôm nay là thứ mấy?)", 
     level: "TOCFL A2"
   },
   {
@@ -1006,4 +1006,4 @@ const dataA2 = [
     idiom: "慢慢來，別急 (Mànman lái, bié jí) - Cứ từ từ, đừng vội.<br>🔸 Ví dụ: 沒關係，慢慢來，別急！(Méiguānxì, mànman lái, bié jí! - Không sao đâu, cứ từ từ, đừng vội!)", 
     level: "TOCFL A2"
   },
-];
+  ];
