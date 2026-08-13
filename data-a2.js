@@ -2501,4 +2501,284 @@ const dataA2 = [
     idiom: "三年級學生 (Sān niánjí xuéshēng) - Sinh viên/học sinh năm 3.<br>🔸 Ví dụ: 這個比賽只有三年級學生可以參加。 Zhège bǐsài zhǐyǒu sān niánjí xuéshēng kěyǐ cānjiā. - Cuộc thi này chỉ có sinh viên năm ba mới được tham gia.", 
     level: "TOCFL A2"
   },
+  {
+    word: "法律", pinyin: "fǎlǜ", hanViet: "Pháp luật",
+    image: "",
+    radical: "法 (Bộ Thủy 氵) + 律 (Bộ Xích 彳)<br>💡 Mẹo nhớ: Nước (氵) đại diện cho sự công bằng, bằng phẳng; Bước đi (彳) phải tuân theo lề lối, quy tắc.",
+    explanation: "Danh từ: Pháp luật, luật pháp.",
+    compounds: [
+      { tc: "律師", py: "lǜshī", vn: "luật sư" },
+      { tc: "法律系", py: "fǎlǜ xì", vn: "khoa luật" }
+    ],
+    examples: [
+      { tc: "他在大學念法律系。", py: "Tā zài dàxué niàn fǎlǜ xì.", vn: "Anh ấy học khoa luật ở trường đại học." },
+      { tc: "每個國家都有不同的法律。", py: "Měi ge guójiā dōu yǒu bùtóng de fǎlǜ.", vn: "Mỗi quốc gia đều có luật pháp khác nhau." },
+      { tc: "我們必須遵守法律。", py: "Wǒmen bìxū zūnshǒu fǎlǜ.", vn: "Chúng ta bắt buộc phải tuân thủ pháp luật." }
+    ],
+    idiom: "法律規定 (Fǎlǜ guīdìng) - Quy định của pháp luật.<br>🔸 Ví dụ: 按照法律規定，這裡不能抽菸。 Ànzhào fǎlǜ guīdìng, zhèlǐ bùnéng chōuyān. - Theo quy định của pháp luật, ở đây không được hút thuốc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "夠", pinyin: "gòu", hanViet: "Cấu",
+    image: "",
+    radical: "夠 (Bộ Tịch 夕)<br>💡 Mẹo nhớ: Ghép từ Đa (多 - nhiều) và Cú (句 - câu). Nhiều lời nói gộp lại là đã đủ rồi.",
+    explanation: "Tính từ / Phó từ: Đủ.",
+    compounds: [
+      { tc: "不夠", py: "bú gòu", vn: "không đủ" },
+      { tc: "夠了", py: "gòu le", vn: "đủ rồi" }
+    ],
+    examples: [
+      { tc: "今天的菜準備得夠多嗎？", py: "Jīntiān de cài zhǔnbèi de gòu duō ma?", vn: "Thức ăn chuẩn bị hôm nay có đủ nhiều không?" },
+      { tc: "我的錢不夠買這輛車。", py: "Wǒ de qián bú gòu mǎi zhè liàng chē.", vn: "Tiền của tôi không đủ để mua chiếc xe này." },
+      { tc: "我覺得這樣已經夠好了。", py: "Wǒ juéde zhèyàng yǐjīng gòu hǎo le.", vn: "Tôi cảm thấy như vậy đã đủ tốt rồi." }
+    ],
+    idiom: "夠了 (Gòu le) - Đủ rồi (Có thể dùng khi bực tức).<br>🔸 Ví dụ: 夠了！我不想再聽你說了。 Gòu le! Wǒ bù xiǎng zài tīng nǐ shuō le. - Đủ rồi! Tôi không muốn nghe bạn nói nữa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "履歷表", pinyin: "lǚlìbiǎo", hanViet: "Lý lịch biểu",
+    image: "",
+    radical: "履 (Bộ Thi 尸) + 歷 (Bộ Hán 厂) + 表 (Bộ Y 衣)<br>💡 Mẹo nhớ: Những bước đi (履) và trải nghiệm đã qua (歷) được trình bày rõ ràng trên một tờ giấy (表).",
+    explanation: "Danh từ: Sơ yếu lý lịch, CV.",
+    compounds: [
+      { tc: "寫履歷", py: "xiě lǚlì", vn: "viết CV" },
+      { tc: "寄履歷", py: "jì lǚlì", vn: "gửi CV" }
+    ],
+    examples: [
+      { tc: "去面試前要先準備好履歷表。", py: "Qù miànshì qián yào xiān zhǔnbèi hǎo lǚlìbiǎo.", vn: "Trước khi đi phỏng vấn phải chuẩn bị sẵn sơ yếu lý lịch." },
+      { tc: "他的履歷表看起來很不錯。", py: "Tā de lǚlìbiǎo kàn qǐlái hěn búcuò.", vn: "CV của anh ấy trông rất ổn." },
+      { tc: "請把你的履歷表寄到公司信箱。", py: "Qǐng bǎ nǐ de lǚlìbiǎo jì dào gōngsī xìnxiāng.", vn: "Vui lòng gửi CV của bạn đến hộp thư công ty." }
+    ],
+    idiom: "投履歷 (Tóu lǚlì) - Nộp hồ sơ / Rải CV xin việc.<br>🔸 Ví dụ: 他畢業後投了很多履歷。 Tā bìyè hòu tóu le hěn duō lǚlì. - Sau khi tốt nghiệp anh ấy đã rải rất nhiều CV.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "面談", pinyin: "miàntán", hanViet: "Diện đàm",
+    image: "",
+    radical: "面 (Bộ Diện 面) + 談 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Mặt đối mặt (面) nói chuyện, thảo luận (談) trực tiếp.",
+    explanation: "Động từ / Danh từ: Phỏng vấn, nói chuyện trực tiếp.",
+    compounds: [
+      { tc: "面試", py: "miànshì", vn: "phỏng vấn" },
+      { tc: "談話", py: "tánhuà", vn: "trò chuyện" }
+    ],
+    examples: [
+      { tc: "老闆明天想跟你面談。", py: "Lǎobǎn míngtiān xiǎng gēn nǐ miàntán.", vn: "Sếp ngày mai muốn phỏng vấn trực tiếp với bạn." },
+      { tc: "這次面談的結果很好。", py: "Zhè cì miàntán de jiéguǒ hěn hǎo.", vn: "Kết quả của buổi phỏng vấn lần này rất tốt." },
+      { tc: "我們需要找時間面談一下。", py: "Wǒmen xūyào zhǎo shíjiān miàntán yíxià.", vn: "Chúng ta cần tìm thời gian để nói chuyện trực tiếp một chút." }
+    ],
+    idiom: "參加面談 (Cānjiā miàntán) - Tham gia phỏng vấn.<br>🔸 Ví dụ: 我明天要去台北參加面談。 Wǒ míngtiān yào qù Táiběi cānjiā miàntán. - Ngày mai tôi phải đi Đài Bắc tham gia phỏng vấn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "華僑", pinyin: "Huáqiáo", hanViet: "Hoa kiều",
+    image: "",
+    radical: "華 (Bộ Thảo 艹) + 僑 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Người (亻) Trung Hoa (華) cư trú ở nước ngoài (僑 - kiều).",
+    explanation: "Danh từ: Hoa kiều (người gốc Hoa sống ở nước ngoài).",
+    compounds: [
+      { tc: "越僑", py: "Yuèqiáo", vn: "Việt kiều" }
+    ],
+    examples: [
+      { tc: "他的父母都是住在越南的華僑。", py: "Tā de fùmǔ dōu shì zhù zài Yuènán de Huáqiáo.", vn: "Bố mẹ anh ấy đều là Hoa kiều sống ở Việt Nam." },
+      { tc: "每年有很多華僑回台灣過年。", py: "Měinián yǒu hěn duō Huáqiáo huí Táiwān guònián.", vn: "Mỗi năm có rất nhiều Hoa kiều về Đài Loan đón Tết." },
+      { tc: "華僑在國外也會慶祝中秋節。", py: "Huáqiáo zài guówài yě huì qìngzhù zhōngqiūjié.", vn: "Hoa kiều ở nước ngoài cũng sẽ ăn mừng tết Trung Thu." }
+    ],
+    idiom: "華僑學校 (Huáqiáo xuéxiào) - Trường học dành cho Hoa kiều.<br>🔸 Ví dụ: 他小時候在華僑學校念書。 Tā xiǎoshíhòu zài Huáqiáo xuéxiào niànshū. - Lúc nhỏ anh ấy học ở trường dành cho Hoa kiều.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "辦公室", pinyin: "bàngōngshì", hanViet: "Biện công thất",
+    image: "",
+    radical: "辦 (Bộ Tân 辛) + 公 (Bộ Bát 八) + 室 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Dưới mái nhà (室) là nơi xử lý, giải quyết (辦) công việc chung (公).",
+    explanation: "Danh từ: Văn phòng làm việc.",
+    compounds: [
+      { tc: "辦公桌", py: "bàngōngzhuō", vn: "bàn làm việc" },
+      { tc: "辦公大樓", py: "bàngōng dàlóu", vn: "tòa nhà văn phòng" }
+    ],
+    examples: [
+      { tc: "老師現在在辦公室裡。", py: "Lǎoshī xiànzài zài bàngōngshì lǐ.", vn: "Giáo viên hiện đang ở trong văn phòng." },
+      { tc: "我們的辦公室又大又乾淨。", py: "Wǒmen de bàngōngshì yòu dà yòu gānjìng.", vn: "Văn phòng của chúng tôi vừa to vừa sạch sẽ." },
+      { tc: "請你下午來我的辦公室一趟。", py: "Qǐng nǐ xiàwǔ lái wǒ de bàngōngshì yí tàng.", vn: "Chiều nay mời bạn đến văn phòng của tôi một chuyến." }
+    ],
+    idiom: "辦公室戀情 (Bàngōngshì liànqíng) - Tình công sở.<br>🔸 Ví dụ: 他們公司不准員工談辦公室戀情。 Tāmen gōngsī bù zhǔn yuángōng tán bàngōngshì liànqíng. - Công ty của họ không cho phép nhân viên có tình cảm công sở.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "談話", pinyin: "tánhuà", hanViet: "Đàm thoại",
+    image: "",
+    radical: "談 (Bộ Ngôn 言) + 話 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Ngôn (lời nói), chỉ việc trao đổi, nói chuyện qua lại.",
+    explanation: "Động từ ly hợp / Danh từ: Nói chuyện, cuộc trò chuyện (mang sắc thái nghiêm túc hơn 聊天).",
+    compounds: [
+      { tc: "談話節目", py: "tánhuà jiémù", vn: "chương trình talkshow" }
+    ],
+    examples: [
+      { tc: "我剛才跟主任談話了。", py: "Wǒ gāngcái gēn zhǔrèn tánhuà le.", vn: "Tôi vừa mới nói chuyện với chủ nhiệm xong." },
+      { tc: "他們的談話內容非常有意思。", py: "Tāmen de tánhuà nèiróng fēicháng yǒuyìsī.", vn: "Nội dung cuộc trò chuyện của họ vô cùng thú vị." },
+      { tc: "開會時請停止談話。", py: "Kāihuì shí qǐng tíngzhǐ tánhuà.", vn: "Trong lúc họp xin hãy ngừng nói chuyện." }
+    ],
+    idiom: "談話時間 (Tánhuà shíjiān) - Thời gian trò chuyện.<br>🔸 Ví dụ: 這是我們的私人談話時間。 Zhè shì wǒmen de sīrén tánhuà shíjiān. - Đây là thời gian trò chuyện riêng tư của chúng tôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "情形", pinyin: "qíngxíng", hanViet: "Tình hình",
+    image: "",
+    radical: "情 (Bộ Tâm 忄) + 形 (Bộ Sam 彡)<br>💡 Mẹo nhớ: Tâm trạng (忄) và hình dáng (形) biểu hiện ra bên ngoài tạo thành tình hình, hoàn cảnh hiện tại.",
+    explanation: "Danh từ: Tình hình, hoàn cảnh.",
+    compounds: [
+      { tc: "情況", py: "qíngkuàng", vn: "tình huống" }
+    ],
+    examples: [
+      { tc: "你能告訴我當時的情形嗎？", py: "Nǐ néng gàosù wǒ dāngshí de qíngxíng ma?", vn: "Bạn có thể nói cho tôi biết tình hình lúc đó không?" },
+      { tc: "看這個情形，今天一定會下雨。", py: "Kàn zhège qíngxíng, jīntiān yídìng huì xiàyǔ.", vn: "Nhìn tình hình này, hôm nay nhất định sẽ mưa." },
+      { tc: "他家裡的情形不太好。", py: "Tā jiālǐ de qíngxíng bú tài hǎo.", vn: "Hoàn cảnh gia đình anh ấy không tốt lắm." }
+    ],
+    idiom: "看情形 (Kàn qíngxíng) - Xem tình hình thế nào đã.<br>🔸 Ví dụ: 我們明天要不要去爬山？看情形吧。 Wǒmen míngtiān yào búyào qù páshān? Kàn qíngxíng ba. - Ngày mai chúng ta có đi leo núi không? Xem tình hình đã nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "適合", pinyin: "shìhé", hanViet: "Thích hợp",
+    image: "",
+    radical: "適 (Bộ Xước 辶) + 合 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Di chuyển (辶) đến đúng nơi, vừa vặn, khớp (合) với bản thân mình.",
+    explanation: "Động từ: Phù hợp, thích hợp.",
+    compounds: [
+      { tc: "合適", py: "héshì", vn: "thích hợp (tính từ)" }
+    ],
+    examples: [
+      { tc: "這件衣服很適合你。", py: "Zhè jiàn yīfú hěn shìhé nǐ.", vn: "Chiếc áo này rất hợp với bạn." },
+      { tc: "我覺得這份工作不適合我。", py: "Wǒ juéde zhè fèn gōngzuò bú shìhé wǒ.", vn: "Tôi cảm thấy công việc này không hợp với tôi." },
+      { tc: "台灣的氣候很適合種水果。", py: "Táiwān de qìhòu hěn shìhé zhòng shuǐguǒ.", vn: "Khí hậu Đài Loan rất thích hợp để trồng trái cây." }
+    ],
+    idiom: "適合居住 (Shìhé jūzhù) - Thích hợp để sinh sống.<br>🔸 Ví dụ: 大家都說台南是一個適合居住的城市。 Dàjiā dōu shuō Táinán shì yí ge shìhé jūzhù de chéngshì. - Mọi người đều nói Đài Nam là một thành phố thích hợp để sống.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "說明", pinyin: "shuōmíng", hanViet: "Thuyết minh",
+    image: "",
+    radical: "說 (Bộ Ngôn 言) + 明 (Bộ Nhật 日)<br>💡 Mẹo nhớ: Dùng lời nói (言) để làm cho mọi thứ trở nên rõ ràng, sáng tỏ (明).",
+    explanation: "Động từ / Danh từ: Giải thích, thuyết minh, lời hướng dẫn.",
+    compounds: [
+      { tc: "說明書", py: "shuōmíngshū", vn: "sách hướng dẫn sử dụng" }
+    ],
+    examples: [
+      { tc: "你可以向我說明一下原因嗎？", py: "Nǐ kěyǐ xiàng wǒ shuōmíng yíxià yuányīn ma?", vn: "Bạn có thể giải thích nguyên nhân cho tôi một chút không?" },
+      { tc: "聽了你的說明，我就懂了。", py: "Tīng le nǐ de shuōmíng, wǒ jiù dǒng le.", vn: "Nghe lời giải thích của bạn, tôi hiểu rồi." },
+      { tc: "使用前請先看說明書。", py: "Shǐyòng qián qǐng xiān kàn shuōmíngshū.", vn: "Vui lòng đọc sách hướng dẫn trước khi sử dụng." }
+    ],
+    idiom: "說明會 (Shuōmíng huì) - Buổi hội thảo / Buổi giới thiệu.<br>🔸 Ví dụ: 明天學校有出國留學說明會。 Míngtiān xuéxiào yǒu chūguó liúxué shuōmíng huì. - Ngày mai trường có buổi hội thảo về du học nước ngoài.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "然後", pinyin: "ránhòu", hanViet: "Nhiên hậu",
+    image: "",
+    radical: "然 (Bộ Hỏa 灬) + 後 (Bộ Xích 彳)<br>💡 Mẹo nhớ: Đốt lửa (灬) xong xuôi, sau đó (後) mới làm việc khác. Dùng để nối tiếp hành động.",
+    explanation: "Liên từ / Phó từ: Sau đó, tiếp đó.",
+    compounds: [
+      { tc: "先... 然後...", py: "xiān... ránhòu...", vn: "trước tiên... sau đó..." }
+    ],
+    examples: [
+      { tc: "我先做作業，然後才去睡覺。", py: "Wǒ xiān zuò zuòyè, ránhòu cái qù shuìjiào.", vn: "Tôi làm bài tập trước, sau đó mới đi ngủ." },
+      { tc: "我們先去吃飯，然後去看電影吧。", py: "Wǒmen xiān qù chīfàn, ránhòu qù kàn diànyǐng ba.", vn: "Chúng ta đi ăn cơm trước, sau đó đi xem phim nhé." },
+      { tc: "你把水燒開，然後把麵放進去。", py: "Nǐ bǎ shuǐ shāokāi, ránhòu bǎ miàn fàng jìnqù.", vn: "Bạn đun sôi nước, sau đó thả mì vào." }
+    ],
+    idiom: "然後呢 (Ránhòu ne) - Rồi sao nữa? (Dùng để giục người khác kể tiếp).<br>🔸 Ví dụ: 昨天你見到他了，然後呢？ Zuótiān nǐ jiàndào tā le, ránhòu ne? - Hôm qua bạn gặp anh ấy rồi, rồi sao nữa?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "月底", pinyin: "yuèdǐ", hanViet: "Nguyệt để",
+    image: "",
+    radical: "月 (Bộ Nguyệt 月) + 底 (Bộ Nghiễm 广)<br>💡 Mẹo nhớ: Phần đáy, phần dưới cùng (底) của một tháng (月) chính là cuối tháng.",
+    explanation: "Danh từ: Cuối tháng.",
+    compounds: [
+      { tc: "月初", py: "yuèchū", vn: "đầu tháng" },
+      { tc: "年底", py: "niándǐ", vn: "cuối năm" }
+    ],
+    examples: [
+      { tc: "我通常在月底領薪水。", py: "Wǒ tōngcháng zài yuèdǐ lǐng xīnshuǐ.", vn: "Tôi thường lĩnh lương vào cuối tháng." },
+      { tc: "這份報告月底前要交。", py: "Zhè fèn bàogào yuèdǐ qián yào jiāo.", vn: "Bản báo cáo này phải nộp trước cuối tháng." },
+      { tc: "他月底要回國一趟。", py: "Tā yuèdǐ yào huí guó yí tàng.", vn: "Cuối tháng anh ấy phải về nước một chuyến." }
+    ],
+    idiom: "月底吃土 (Yuèdǐ chī tǔ) - Cuối tháng ăn đất (Từ lóng chỉ việc hết sạch tiền).<br>🔸 Ví dụ: 錢都花光了，這個月底要吃土了。 Qián dōu huā guāng le, zhège yuèdǐ yào chī tǔ le. - Tiêu sạch tiền rồi, cuối tháng này phải ăn đất thôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "發", pinyin: "fā", hanViet: "Phát",
+    image: "",
+    radical: "發 (Bộ Bát 癶)<br>💡 Mẹo nhớ: Hình ảnh hai bàn chân (癶) đạp mạnh xuống đất cùng với cây cung (弓) bật ra, mũi tên bay đi (phát ra).",
+    explanation: "Động từ: Phát, gửi, trả (lương).",
+    compounds: [
+      { tc: "發薪水", py: "fā xīnshuǐ", vn: "phát lương" },
+      { tc: "發現", py: "fāxiàn", vn: "phát hiện" }
+    ],
+    examples: [
+      { tc: "公司今天發薪水了。", py: "Gōngsī jīntiān fā xīnshuǐ le.", vn: "Công ty hôm nay phát lương rồi." },
+      { tc: "老師正在發考試卷。", py: "Lǎoshī zhèngzài fā kǎoshì juàn.", vn: "Giáo viên đang phát giấy thi." },
+      { tc: "麻煩你把這封信發出去。", py: "Máfan nǐ bǎ zhè fēng xìn fā chūqù.", vn: "Phiền bạn gửi bức thư này đi." }
+    ],
+    idiom: "發財 (Fācái) - Phát tài.<br>🔸 Ví dụ: 恭喜發財！ Gōngxǐ fācái! - Chúc mừng phát tài! (Câu chúc Tết phổ biến).", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "馬上", pinyin: "mǎshàng", hanViet: "Mã thượng",
+    image: "",
+    radical: "馬 (Bộ Mã 馬) + 上 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Ngồi trên lưng ngựa (馬) phi nước đại để đến ngay lập tức.",
+    explanation: "Phó từ: Ngay lập tức, liền.",
+    compounds: [
+      { tc: "趕快", py: "gǎnkuài", vn: "mau lên" }
+    ],
+    examples: [
+      { tc: "我馬上就到，請等我五分鐘。", py: "Wǒ mǎshàng jiù dào, qǐng děng wǒ wǔ fēnzhōng.", vn: "Tôi đến ngay đây, vui lòng đợi tôi 5 phút." },
+      { tc: "聽到這個消息，他馬上打電話回家。", py: "Tīng dào zhège xiāoxī, tā mǎshàng dǎ diànhuà huí jiā.", vn: "Nghe được tin này, anh ấy liền gọi điện về nhà ngay." },
+      { tc: "飯做好了，馬上就可以吃了。", py: "Fàn zuò hǎo le, mǎshàng jiù kěyǐ chī le.", vn: "Cơm nấu xong rồi, có thể ăn ngay lập tức." }
+    ],
+    idiom: "馬上來 (Mǎshàng lái) - Tới ngay đây.<br>🔸 Ví dụ: 服務生，點餐！馬上來！ Fúwùshēng, diǎncān! Mǎshàng lái! - Phục vụ, gọi món! Tới ngay đây!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "答應", pinyin: "dāyìng", hanViet: "Đáp ứng",
+    image: "",
+    radical: "答 (Bộ Trúc 竹) + 應 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Dùng tâm (心) để đồng ý, phản hồi (應) và đưa ra lời đáp (答).",
+    explanation: "Động từ: Đồng ý, nhận lời, hứa.",
+    compounds: [
+      { tc: "答應別人", py: "dāyìng biérén", vn: "nhận lời người khác" }
+    ],
+    examples: [
+      { tc: "他答應明天會來幫忙。", py: "Tā dāyìng míngtiān huì lái bāngmáng.", vn: "Anh ấy đã hứa ngày mai sẽ đến giúp đỡ." },
+      { tc: "我不能答應你這個要求。", py: "Wǒ bùnéng dāyìng nǐ zhège yāoqiú.", vn: "Tôi không thể đồng ý với yêu cầu này của bạn." },
+      { tc: "媽媽答應給我買新手機了。", py: "Māma dāyìng gěi wǒ mǎi xīn shǒujī le.", vn: "Mẹ đã đồng ý mua điện thoại mới cho tôi rồi." }
+    ],
+    idiom: "隨便答應 (Suíbiàn dāyìng) - Tùy tiện nhận lời.<br>🔸 Ví dụ: 做不到的事，不要隨便答應別人。 Zuò bù dào de shì, búyào suíbiàn dāyìng biérén. - Việc không làm được, đừng tùy tiện nhận lời người khác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "順利", pinyin: "shùnlì", hanViet: "Thuận lợi",
+    image: "",
+    radical: "順 (Bộ Hiệt 頁) + 利 (Bộ Đao 刂)<br>💡 Mẹo nhớ: Mọi việc trôi chảy theo dòng nước (川 trong 順), đem lại lợi ích (利).",
+    explanation: "Tính từ: Thuận lợi, suôn sẻ.",
+    compounds: [
+      { tc: "不順利", py: "bú shùnlì", vn: "không thuận lợi" }
+    ],
+    examples: [
+      { tc: "這次的面談非常順利。", py: "Zhè cì de miàntán fēicháng shùnlì.", vn: "Buổi phỏng vấn lần này vô cùng thuận lợi." },
+      { tc: "祝你工作順利。", py: "Zhù nǐ gōngzuò shùnlì.", vn: "Chúc bạn công việc thuận lợi." },
+      { tc: "雖然有點麻煩，但最後還是順利解決了。", py: "Suīrán yǒudiǎn máfan, dàn zuìhòu háishì shùnlì jiějué le.", vn: "Tuy có hơi phiền phức, nhưng cuối cùng vẫn giải quyết suôn sẻ." }
+    ],
+    idiom: "一切順利 (Yíqiè shùnlì) - Mọi việc suôn sẻ.<br>🔸 Ví dụ: 希望你出國念書一切順利。 Xīwàng nǐ chūguó niànshū yíqiè shùnlì. - Hy vọng bạn đi du học mọi việc đều suôn sẻ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "沒想到", pinyin: "méi xiǎngdào", hanViet: "Một tưởng đáo",
+    image: "",
+    radical: "沒 (Bộ Thủy 氵) + 想 (Bộ Tâm 心) + 到 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Trong lòng (心) chưa từng nghĩ (想) là nó sẽ chạm đến (到).",
+    explanation: "Động từ: Không ngờ tới, không nghĩ tới.",
+    compounds: [
+      { tc: "想到", py: "xiǎngdào", vn: "nghĩ đến" },
+      { tc: "想不到", py: "xiǎng bù dào", vn: "không thể ngờ" }
+    ],
+    examples: [
+      { tc: "真沒想到會在這裡遇見你！", py: "Zhēn méi xiǎngdào huì zài zhèlǐ yùjiàn nǐ!", vn: "Thật không ngờ sẽ gặp bạn ở đây!" },
+      { tc: "沒想到這家店的菜這麼好吃。", py: "Méi xiǎngdào zhè jiā diàn de cài zhème hǎochī.", vn: "Không ngờ đồ ăn của quán này lại ngon đến vậy." },
+      { tc: "我沒想到他會答應我的要求。", py: "Wǒ méi xiǎngdào tā huì dāyìng wǒ de yāoqiú.", vn: "Tôi không nghĩ tới việc anh ấy sẽ đồng ý yêu cầu của tôi." }
+    ],
+    idiom: "萬萬沒想到 (Wànwàn méi xiǎngdào) - Vạn lần không ngờ tới.<br>🔸 Ví dụ: 我萬萬沒想到他會騙我。 Wǒ wànwàn méi xiǎngdào tā huì piàn wǒ. - Tôi vạn lần không ngờ tới việc anh ta sẽ lừa tôi.", 
+    level: "TOCFL A2"
+  },
   ];
