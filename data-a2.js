@@ -344,5 +344,313 @@ const dataA2 = [
     ],
     idiom: "聽起來不錯喔 (Tīng qǐlái búcuò ō) - Nghe hợp lý đấy / Nghe ngon đấy (Dùng để tán thành một lời rủ rê).<br>🔸 Ví dụ: A: 晚上吃火鍋好嗎？ B: 聽起來不錯喔！(A: Wǎnshàng chī huǒguō hǎo ma? B: Tīng qǐlái búcuò ō! - A: Tối ăn lẩu nhé? B: Nghe được đấy!)", 
     level: "TOCFL A2"
+  },
+{
+    word: "看見", pinyin: "kànjiàn", hanViet: "Khán kiến",
+    image: "",
+    radical: "看 (Bộ Mục 目) + 見 (Bộ Kiến 見)<br>💡 Mẹo nhớ: Lấy tay (手 - bộ thủ bên trên chữ 看) che mắt (目) để nhìn (見) cho rõ.",
+    explanation: "Động từ: Nhìn thấy, trông thấy.",
+    compounds: [
+      { tc: "聽見", py: "tīngjiàn", vn: "nghe thấy" }
+    ],
+    examples: [
+      { tc: "你看見我的書了嗎？", py: "Nǐ kànjiàn wǒ de shū le ma?", vn: "Bạn có nhìn thấy sách của tôi không?" }
+    ],
+    idiom: "沒看見 (Méi kànjiàn) - Không nhìn thấy.<br>🔸 Ví dụ: 我沒看見你的錢包，你要不要再找找？(Wǒ méi kànjiàn nǐ de qiánbāo, nǐ yào bú yào zài zhǎozhǎo? - Tôi không thấy ví của bạn, bạn có muốn tìm lại thử xem không?)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "下載", pinyin: "xiàzài", hanViet: "Hạ tái",
+    image: "",
+    radical: "下 (Bộ Nhất 一) + 載 (Bộ Xa 車)<br>💡 Mẹo nhớ: Chữ 載 có bộ Xa (車 - chiếc xe), tải dữ liệu (下載) cũng giống như chất đồ đạc lên xe chở về.",
+    explanation: "Động từ: Tải xuống (download).",
+    compounds: [
+      { tc: "上傳", py: "shàngchuán", vn: "tải lên" }
+    ],
+    examples: [
+      { tc: "請下載這個 APP。", py: "Qǐng xiàzài zhège APP.", vn: "Vui lòng tải ứng dụng này." }
+    ],
+    idiom: "下載 APP (Xiàzài APP) - Tải ứng dụng.<br>🔸 Ví dụ: 結帳前記得先下載他們的APP，有打折喔！(Jiézhàng qián jìdé xiān xiàzài tāmen de APP, yǒu dǎzhé ō! - Trước khi thanh toán nhớ tải ứng dụng của họ trước, có giảm giá đó!)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "地圖", pinyin: "dìtú", hanViet: "Địa đồ",
+    image: "",
+    radical: "地 (Bộ Thổ 土) + 圖 (Bộ Vi 囗)<br>💡 Mẹo nhớ: Chữ 圖 có bộ Vi (囗 - bao quanh), bên trong là những nét vẽ chi tiết, tượng trưng cho bản đồ vẽ lại địa hình (地) của một khu vực.",
+    explanation: "Danh từ: Bản đồ.",
+    compounds: [
+      { tc: "捷運地圖", py: "jiéyùn dìtú", vn: "bản đồ tàu điện ngầm" }
+    ],
+    examples: [
+      { tc: "我手機裡有地圖。", py: "Wǒ shǒujī lǐ yǒu dìtú.", vn: "Trong điện thoại tôi có bản đồ." }
+    ],
+    idiom: "開導航 (Kāi dǎoháng) - Bật điều hướng (Google Maps).<br>🔸 Ví dụ: 我不知道怎麼走，我們開導航吧。(Wǒ bù zhīdào zěnme zǒu, wǒmen kāi dǎoháng ba. - Tôi không biết đi thế nào, chúng ta bật bản đồ chỉ đường đi.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "好用", pinyin: "hǎoyòng", hanViet: "Hảo dụng",
+    image: "",
+    radical: "好 (Bộ Nữ 女) + 用 (Bộ Dụng 用)<br>💡 Mẹo nhớ: Một đồ vật có công dụng (用) rất tốt (好).",
+    explanation: "Tính từ: Dễ dùng, xài tốt, tiện lợi.",
+    compounds: [
+      { tc: "好吃", py: "hǎochī", vn: "ngon (đồ ăn)" }
+    ],
+    examples: [
+      { tc: "這個筆很好用。", py: "Zhège bǐ hěn hǎoyòng.", vn: "Cây bút này rất dễ viết." }
+    ],
+    idiom: "超好用 (Chāo hǎoyòng) - Siêu tiện lợi.<br>🔸 Ví dụ: 這個新買的軟體真的超好用！(Zhège xīn mǎi de ruǎntǐ zhēn de chāo hǎoyòng! - Phần mềm mới mua này thực sự siêu tiện lợi!)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "著", pinyin: "zhe", hanViet: "Trứ",
+    image: "",
+    radical: "著 (Bộ Thảo 艸)<br>💡 Mẹo nhớ: Trợ từ dùng để nhấn mạnh trạng thái đang tiếp diễn, giống như cỏ (艸) mọc dai dẳng.",
+    explanation: "Trợ từ: Đang (đứng sau động từ biểu thị trạng thái đang diễn ra).",
+    compounds: [
+      { tc: "看著", py: "kànzhe", vn: "đang nhìn" }
+    ],
+    examples: [
+      { tc: "他穿著一件紅色的衣服。", py: "Tā chuānzhe yí jiàn hóngsè de yīfú.", vn: "Anh ấy đang mặc một chiếc áo màu đỏ." }
+    ],
+    idiom: "帶著 (Dàizhe) - Mang theo.<br>🔸 Ví dụ: 出門記得帶著雨傘！(Chūmén jìdé dàizhe yǔsǎn! - Ra khỏi nhà nhớ mang theo ô nhé!)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "日用品", pinyin: "rìyòngpǐn", hanViet: "Nhật dụng phẩm",
+    image: "",
+    radical: "日 (Bộ Nhật 日) + 用 (Bộ Dụng 用) + 品 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Những vật phẩm (品) được sử dụng (用) hàng ngày (日).",
+    explanation: "Danh từ: Đồ dùng sinh hoạt hàng ngày (nhu yếu phẩm).",
+    compounds: [
+      { tc: "用品", py: "yòngpǐn", vn: "đồ dùng" }
+    ],
+    examples: [
+      { tc: "我要去超市買日用品。", py: "Wǒ yào qù chāoshì mǎi rìyòngpǐn.", vn: "Tôi muốn đi siêu thị mua đồ dùng sinh hoạt." }
+    ],
+    idiom: "採買 (Cǎimǎi) - Mua sắm đồ đạc (Dùng nhiều khi đi siêu thị).<br>🔸 Ví dụ: 週末我們去全聯採買一些日用品。(Zhōumò wǒmen qù Quánlián cǎimǎi yìxiē rìyòngpǐn. - Cuối tuần chúng ta đi PX Mart sắm một ít đồ dùng hàng ngày nhé.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "經過", pinyin: "jīngguò", hanViet: "Kinh quá",
+    image: "",
+    radical: "經 (Bộ Mịch 糸) + 過 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Di chuyển (辶 - qua) xuyên suốt như những sợi chỉ (糸 - kinh) dệt vải.",
+    explanation: "Động từ / Danh từ: Đi ngang qua, trải qua / Quá trình.",
+    compounds: [
+      { tc: "路過", py: "lùguò", vn: "đi ngang đường" }
+    ],
+    examples: [
+      { tc: "我每天去學校都會經過這家麵店。", py: "Wǒ měitiān qù xuéxiào dōu huì jīngguò zhè jiā miàndiàn.", vn: "Mỗi ngày đến trường tôi đều đi ngang qua tiệm mỳ này." }
+    ],
+    idiom: "剛好經過 (Gānghǎo jīngguò) - Vừa hay đi ngang qua.<br>🔸 Ví dụ: 我剛好經過，就順便幫你買了飲料。(Wǒ gānghǎo jīngguò, jiù shùnbiàn bāng nǐ mǎi le yǐnliào. - Tôi vừa hay đi ngang qua, nên tiện thể mua đồ uống cho bạn luôn.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "巷子", pinyin: "xiàngzi", hanViet: "Hạng tử",
+    image: "",
+    radical: "巷 (Bộ Kỷ 己) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Chữ 巷 (Hẻm) có chữ Cộng (共 - chung) và Tị (巳 - con rắn), ngõ hẻm là lối đi chung ngoằn ngoèo như con rắn.",
+    explanation: "Danh từ: Con hẻm, ngõ nhỏ.",
+    compounds: [
+      { tc: "巷口", py: "xiàngkǒu", vn: "đầu hẻm" }
+    ],
+    examples: [
+      { tc: "我家在前面的巷子裡。", py: "Wǒ jiā zài qiánmiàn de xiàngzi lǐ.", vn: "Nhà tôi ở trong con hẻm phía trước." }
+    ],
+    idiom: "巷子內的 (Xiàngzi nèi de) - Người sành sỏi (Từ lóng).<br>🔸 Ví dụ: 只有巷子內的人才知道這家好吃的餐廳。(Zhǐyǒu xiàngzi nèi de rén cái zhīdào zhè jiā hǎochī de cāntīng. - Chỉ có người sành sỏi mới biết nhà hàng ngon này thôi.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "餓", pinyin: "è", hanViet: "Ngạ",
+    image: "",
+    radical: "餓 (Bộ Thực 食)<br>💡 Mẹo nhớ: Bộ Thực (食) chỉ đồ ăn thức uống, chữ Ngã (我 - tôi) ở bên phải. Khi tôi (我) cần đồ ăn (食) nghĩa là tôi đang đói (餓).",
+    explanation: "Tính từ: Đói bụng.",
+    compounds: [
+      { tc: "肚子餓", py: "dùzi è", vn: "bụng đói" }
+    ],
+    examples: [
+      { tc: "我好餓，我們去吃飯吧。", py: "Wǒ hǎo è, wǒmen qù chīfàn ba.", vn: "Tôi đói quá, chúng ta đi ăn cơm thôi." }
+    ],
+    idiom: "肚子餓死了 (Dùzi è sǐ le) - Đói chết đi được.<br>🔸 Ví dụ: 上了一整天的課，我現在肚子餓死了！(Shàng le yì zhěng tiān de kè, wǒ xiànzài dùzi è sǐ le! - Học cả một ngày trời, giờ tôi đói chết đi được!)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "一邊", pinyin: "yìbiān", hanViet: "Nhất biên",
+    image: "",
+    radical: "一 (Bộ Nhất 一) + 邊 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Cấu trúc 一邊... 一邊... dùng để diễn tả hai hành động xảy ra song song cùng một lúc.",
+    explanation: "Phó từ: Vừa... vừa...",
+    compounds: [
+      { tc: "兩邊", py: "liǎngbiān", vn: "hai bên" }
+    ],
+    examples: [
+      { tc: "他喜歡一邊吃飯一邊看電視。", py: "Tā xǐhuān yìbiān chīfàn yìbiān kàn diànshì.", vn: "Anh ấy thích vừa ăn cơm vừa xem tivi." }
+    ],
+    idiom: "邊走邊吃 (Biān zǒu biān chī) - Vừa đi vừa ăn (Rất phổ biến ở chợ đêm).<br>🔸 Ví dụ: 在台灣的夜市，很多人喜歡邊走邊吃。(Zài Táiwān de yèshì, hěn duō rén xǐhuān biān zǒu biān chī. - Ở chợ đêm Đài Loan, rất nhiều người thích vừa đi vừa ăn.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "發現", pinyin: "fāxiàn", hanViet: "Phát hiện",
+    image: "",
+    radical: "發 (Bộ Bát 癶) + 現 (Bộ Ngọc 玉)<br>💡 Mẹo nhớ: Chữ 現 (Hiện) có bộ Ngọc (玉) và chữ Kiến (見 - nhìn thấy), giống như tình cờ tìm thấy một viên ngọc quý.",
+    explanation: "Động từ: Phát hiện ra, nhận ra.",
+    compounds: [
+      { tc: "發明", py: "fāmíng", vn: "phát minh" }
+    ],
+    examples: [
+      { tc: "我發現這裡有一家新餐廳。", py: "Wǒ fāxiàn zhèlǐ yǒu yì jiā xīn cāntīng.", vn: "Tôi phát hiện ra ở đây có một nhà hàng mới." }
+    ],
+    idiom: "突然發現 (Túrán fāxiàn) - Đột nhiên nhận ra.<br>🔸 Ví dụ: 我走到一半，突然發現忘記帶錢包了。(Wǒ zǒu dào yíbàn, túrán fāxiàn wàngjì dài qiánbāo le. - Tôi đi được nửa đường, đột nhiên nhận ra đã quên mang ví.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "離", pinyin: "lí", hanViet: "Ly",
+    image: "",
+    radical: "離 (Bộ Chuy 隹)<br>💡 Mẹo nhớ: Bộ Chuy (隹) chỉ loài chim đuôi ngắn. Chim rời tổ bay đi là biểu tượng của sự chia ly (離) hoặc khoảng cách.",
+    explanation: "Giới từ: Cách, cách xa (chỉ khoảng cách thời gian hoặc không gian).",
+    compounds: [
+      { tc: "離開", py: "líkāi", vn: "rời đi" }
+    ],
+    examples: [
+      { tc: "學校離我家很近。", py: "Xuéxiào lí wǒ jiā hěn jìn.", vn: "Trường học cách nhà tôi rất gần." }
+    ],
+    idiom: "離這裡很近 (Lí zhèlǐ hěn jìn) - Cách đây rất gần.<br>🔸 Ví dụ: 捷運站離這裡很近，走路五分鐘就到了。(Jiéyùn zhàn lí zhèlǐ hěn jìn, zǒulù wǔ fēnzhōng jiù dào le. - Trạm tàu điện cách đây rất gần, đi bộ 5 phút là tới.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "背包", pinyin: "bēibāo", hanViet: "Bối bao",
+    image: "",
+    radical: "背 (Bộ Nhục 肉) + 包 (Bộ Bao 勹)<br>💡 Mẹo nhớ: Chữ 背 (Lưng) có bộ Nhục (thịt/cơ thể). Cái túi (包) đeo trên lưng (背) chính là ba lô.",
+    explanation: "Danh từ: Ba lô.",
+    compounds: [
+      { tc: "包包", py: "bāobāo", vn: "túi xách nói chung" }
+    ],
+    examples: [
+      { tc: "我的背包裡有一本書。", py: "Wǒ de bēibāo lǐ yǒu yì běn shū.", vn: "Trong ba lô của tôi có một quyển sách." }
+    ],
+    idiom: "背包客 (Bēibāokè) - Tây ba lô, dân đi phượt.<br>🔸 Ví dụ: 他是一個背包客，喜歡一個人去旅行。(Tā shì yí ge bēibāokè, xǐhuān yì ge rén qù lǚxíng. - Anh ấy là dân du lịch bụi, thích đi du lịch một mình.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "正好", pinyin: "zhènghǎo", hanViet: "Chính hảo",
+    image: "",
+    radical: "正 (Bộ Chỉ 止) + 好 (Bộ Nữ 女)<br>💡 Mẹo nhớ: Mọi thứ diễn ra một cách ngay ngắn, chính xác (正) và rất tốt đẹp (好).",
+    explanation: "Phó từ / Tính từ: Vừa vặn, đúng lúc, vừa hay.",
+    compounds: [
+      { tc: "剛好", py: "gānghǎo", vn: "vừa hay, vừa lúc" }
+    ],
+    examples: [
+      { tc: "這件衣服我穿正好。", py: "Zhè jiàn yīfú wǒ chuān zhènghǎo.", vn: "Chiếc áo này tôi mặc vừa vặn." }
+    ],
+    idiom: "來的正好 (Lái de zhènghǎo) - Đến đúng lúc lắm!<br>🔸 Ví dụ: 你來的正好，我們正準備切蛋糕呢！(Nǐ lái de zhènghǎo, wǒmen zhèng zhǔnbèi qiē dàngāo ne! - Cậu đến đúng lúc lắm, chúng tôi đang chuẩn bị cắt bánh kem này!)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "最後", pinyin: "zuìhòu", hanViet: "Tối hậu",
+    image: "",
+    radical: "最 (Bộ Viết 曰) + 後 (Bộ Xích 彳)<br>💡 Mẹo nhớ: Chữ 後 có bộ Xích (彳 - bước đi) và bộ Trĩ (夂 - đi chậm), người đi chậm nhất sẽ bị rớt lại phía sau cùng.",
+    explanation: "Phó từ / Danh từ: Cuối cùng, sau cùng.",
+    compounds: [
+      { tc: "最近", py: "zuìjìn", vn: "gần đây" }
+    ],
+    examples: [
+      { tc: "最後，他決定去台灣。", py: "Zuìhòu, tā juédìng qù Táiwān.", vn: "Cuối cùng, anh ấy quyết định đi Đài Loan." }
+    ],
+    idiom: "到最後 (Dào zuìhòu) - Đến phút cuối cùng.<br>🔸 Ví dụ: 我們找了很久，到最後還是沒找到那家店。(Wǒmen zhǎo le hěn jiǔ, dào zuìhòu háishì méi zhǎodào nà jiā diàn. - Chúng tôi tìm rất lâu, đến cuối cùng vẫn không thấy quán đó.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "枝", pinyin: "zhī", hanViet: "Chi",
+    image: "",
+    radical: "枝 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Chữ 枝 có bộ Mộc (cây). Lượng từ này chuyên dùng cho các vật thể có hình dáng thon dài như cành cây (bút, cành hoa...).",
+    explanation: "Lượng từ: Cây, cành, nhánh (dùng cho bút, cành hoa).",
+    compounds: [
+      { tc: "樹枝", py: "shùzhī", vn: "cành cây" }
+    ],
+    examples: [
+      { tc: "我買了一枝筆。", py: "Wǒ mǎi le yì zhī bǐ.", vn: "Tôi đã mua một cây bút." }
+    ],
+    idiom: "一枝筆 (Yì zhī bǐ) - Một cây bút (Trong đời sống, 枝 và 支 thường được dùng thay thế nhau).<br>🔸 Ví dụ: 桌上有一枝紅色的筆。(Zhuō shàng yǒu yì zhī hóngsè de bǐ. - Trên bàn có một cây bút màu đỏ.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "筆", pinyin: "bǐ", hanViet: "Bút",
+    image: "",
+    radical: "筆 (Bộ Trúc 竹)<br>💡 Mẹo nhớ: Chữ 筆 (Bút) bên trên có bộ Trúc (竹 - tre trúc), bên dưới có bộ Duật (聿 - cầm bút). Người xưa dùng thân trúc làm cán bút lông.",
+    explanation: "Danh từ: Bút (viết).",
+    compounds: [
+      { tc: "鉛筆", py: "qiānbǐ", vn: "bút chì" }
+    ],
+    examples: [
+      { tc: "借我一枝筆好嗎？", py: "Jiè wǒ yì zhī bǐ hǎo ma?", vn: "Mượn một cây bút được không?" }
+    ],
+    idiom: "借我一支筆 (Jiè wǒ yì zhī bǐ) - Cho tôi mượn cây bút với.<br>🔸 Ví dụ: 請問可以借我一支筆寫字嗎？(Qǐngwèn kěyǐ jiè wǒ yì zhī bǐ xiězì ma? - Xin hỏi có thể cho tôi mượn một cây bút để viết không?)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "本", pinyin: "běn", hanViet: "Bản",
+    image: "",
+    radical: "本 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Chữ 本 vốn dĩ là gốc cây (chữ Mộc 木 thêm một gạch ở dưới). Sách vở bắt nguồn từ giấy, giấy làm từ gỗ, nên dùng 本 làm lượng từ cho sách vở.",
+    explanation: "Lượng từ: Cuốn, quyển, bản (dùng cho sách, vở).",
+    compounds: [
+      { tc: "根本", py: "gēnběn", vn: "căn bản" }
+    ],
+    examples: [
+      { tc: "桌子上有三本書。", py: "Zhuōzi shàng yǒu sān běn shū.", vn: "Trên bàn có ba quyển sách." }
+    ],
+    idiom: "課本 (Kèběn) - Sách giáo khoa.<br>🔸 Ví dụ: 請大家打開課本第五十頁。(Qǐng dàjiā dǎkāi kèběn dì wǔshí yè. - Các em vui lòng mở sách giáo khoa trang 50.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "本子", pinyin: "běnzi", hanViet: "Bản tử",
+    image: "",
+    radical: "本 (Bộ Mộc 木) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: 'Tử' (子) thường là hậu tố đi kèm danh từ. 本子 là vật thể thuộc loại sách vở nhỏ.",
+    explanation: "Danh từ: Cuốn sổ, vở ghi chép.",
+    compounds: [
+      { tc: "筆記本", py: "bǐjìběn", vn: "sổ tay / laptop" }
+    ],
+    examples: [
+      { tc: "我買了一個新本子。", py: "Wǒ mǎi le yí ge xīn běnzi.", vn: "Tôi đã mua một cuốn sổ mới." }
+    ],
+    idiom: "筆記本 (Bǐjìběn) - Sổ tay / Máy tính xách tay.<br>🔸 Ví dụ: 開會時，請記得帶你的筆記本。(Kāihuì shí, qǐng jìdé dài nǐ de bǐjìběn. - Khi họp, vui lòng nhớ mang theo sổ tay của bạn.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "左轉", pinyin: "zuǒ zhuǎn", hanViet: "Tả chuyển",
+    image: "",
+    radical: "左 (Bộ Công 工) + 轉 (Bộ Xa 車)<br>💡 Mẹo nhớ: Chữ 左 (Trái) có bộ Công (工). Trái ngược với 右 (Phải) có bộ Khẩu (口).",
+    explanation: "Động từ: Rẽ trái.",
+    compounds: [
+      { tc: "右轉", py: "yòu zhuǎn", vn: "rẽ phải" }
+    ],
+    examples: [
+      { tc: "到前面的路口請左轉。", py: "Dào qiánmiàn de lùkǒu qǐng zuǒ zhuǎn.", vn: "Đến ngã rẽ phía trước vui lòng rẽ trái." }
+    ],
+    idiom: "待轉區 (Dàizhuǎn qū) - Khu vực chờ rẽ trái (Giao thông Đài Loan).<br>🔸 Ví dụ: 騎機車時，要在路口的待轉區等候左轉。(Qí jīchē shí, yào zài lùkǒu de dàizhuǎn qū děnghòu zuǒ zhuǎn. - Khi chạy xe máy, phải đợi ở khu vực chờ rẽ trái tại ngã tư.)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "師大路上", pinyin: "Shīdà Lù shàng", hanViet: "Sư Đại Lộ thượng",
+    image: "",
+    radical: "師 (Bộ Cân 巾) + 大 (Bộ Đại 大) + 路 (Bộ Túc 足) + 上 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Nằm ở phía trên (上) con đường (路) Sư Đại (師大).",
+    explanation: "Cụm từ: Trên đường Sư Đại.",
+    compounds: [
+      { tc: "路上", py: "lù shàng", vn: "trên đường" }
+    ],
+    examples: [
+      { tc: "我們在師大路上見面。", py: "Wǒmen zài Shīdà Lù shàng jiànmiàn.", vn: "Chúng ta gặp nhau trên đường Sư Đại nhé." }
+    ],
+    idiom: "在路上 (Zài lù shàng) - Đang trên đường.<br>🔸 Ví dụ: 別催了，我已經在路上了！(Bié cuī le, wǒ yǐjīng zài lù shàng le! - Đừng hối nữa, tôi đang trên đường tới rồi!)",
+    level: "TOCFL A2"
+  },
+  {
+    word: "麵店", pinyin: "miàndiàn", hanViet: "Miến điếm",
+    image: "",
+    radical: "麵 (Bộ Mạch 麥) + 店 (Bộ Nghiễm 广)<br>💡 Mẹo nhớ: Chữ 麵 (Mì) có bộ Mạch (麥 - lúa mạch) vì mì được làm từ bột mì. Chữ 店 (Tiệm) có bộ Nghiễm (广 - mái nhà/nơi chốn).",
+    explanation: "Danh từ: Quán mì, tiệm mì.",
+    compounds: [
+      { tc: "牛肉麵", py: "niúròumiàn", vn: "mì bò" }
+    ],
+    examples: [
+      { tc: "這家麵店的牛肉麵很好吃。", py: "Zhè jiā miàndiàn de niúròumiàn hěn hǎochī.", vn: "Mì bò của quán mì này rất ngon." }
+    ],
+    idiom: "吃麵 (Chī miàn) - Đi ăn mì.<br>🔸 Ví dụ: 中午我們隨便找一家麵店吃麵吧。(Zhōngwǔ wǒmen suíbiàn zhǎo yì jiā miàndiàn chī miàn ba. - Buổi trưa chúng ta cứ tìm đại một tiệm nào đó ăn mì đi.)",
+    level: "TOCFL A2"
   }
 ];
