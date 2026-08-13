@@ -652,7 +652,7 @@ const dataA2 = [
     ],
     idiom: "吃麵 (Chī miàn) - Đi ăn mì.<br>🔸 Ví dụ: 中午我們隨便找一家麵店吃麵吧。(Zhōngwǔ wǒmen suíbiàn zhǎo yì jiā miàndiàn chī miàn ba). - Buổi trưa chúng ta cứ tìm đại một tiệm nào đó ăn mì đi.)",
     level: "TOCFL A2"
-  }，
+  },
 {
     word: "還是", pinyin: "háishì", hanViet: "Hoàn thị",
     image: "",
