@@ -1413,4 +1413,371 @@ const dataA2 = [
     idiom: "好好照顧自己 (Hǎohǎo zhàogù zìjǐ) - Chăm sóc bản thân cho tốt nhé (Câu dặn dò quen thuộc).<br>🔸 Ví dụ: 你一個人在國外，要好好照顧自己。 Nǐ yí ge rén zài guówài, yào hǎohǎo zhàogù zìjǐ. - Con ở nước ngoài một mình, phải chăm sóc bản thân cho thật tốt nhé.", 
     level: "TOCFL A2"
   },
+  {
+    word: "進步", pinyin: "jìnbù", hanViet: "Tiến bộ",
+    image: "",
+    radical: "進 (Bộ Xước 辶) + 步 (Bộ Chỉ 止)<br>💡 Mẹo nhớ: Bước chân (步) không ngừng di chuyển, tiến về phía trước (辶) để ngày càng hoàn thiện hơn.",
+    explanation: "Động từ / Tính từ: Tiến bộ, có tiến triển.",
+    compounds: [
+      { tc: "退步", py: "tuìbù", vn: "thụt lùi, kém đi" },
+      { tc: "進步很多", py: "jìnbù hěn duō", vn: "tiến bộ rất nhiều" }
+    ],
+    examples: [
+      { tc: "他的中文進步了。", py: "Tā de Zhōngwén jìnbù le.", vn: "Tiếng Trung của anh ấy đã tiến bộ rồi." },
+      { tc: "我要每天練習，才能進步。", py: "Wǒ yào měitiān liànxí, cái néng jìnbù.", vn: "Tôi phải luyện tập mỗi ngày thì mới có thể tiến bộ." },
+      { tc: "老師說我的發音進步了很多。", py: "Lǎoshī shuō wǒ de fāyīn jìnbù le hěn duō.", vn: "Giáo viên nói phát âm của tôi đã tiến bộ rất nhiều." }
+    ],
+    idiom: "突飛猛進 (Tūfēiměngjìn) - Tiến bộ vượt bậc.<br>🔸 Ví dụ: 在台灣學了一年，他的中文突飛猛進。 Zài Táiwān xué le yì nián, tā de Zhōngwén tūfēiměngjìn. - Học ở Đài Loan một năm, tiếng Trung của anh ấy tiến bộ vượt bậc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "考試", pinyin: "kǎoshì", hanViet: "Khảo thí",
+    image: "",
+    radical: "考 (Bộ Lão 老) + 試 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Người thầy giáo già (老) dùng lời nói (言) để đặt câu hỏi, kiểm tra học trò.",
+    explanation: "Danh từ / Động từ: Bài thi, kỳ thi, thi cử.",
+    compounds: [
+      { tc: "期中考", py: "qīzhōng kǎo", vn: "thi giữa kỳ" },
+      { tc: "期末考", py: "qīmò kǎo", vn: "thi cuối kỳ" }
+    ],
+    examples: [
+      { tc: "我們明天有中文考試。", py: "Wǒmen míngtiān yǒu Zhōngwén kǎoshì.", vn: "Ngày mai chúng tôi có bài thi tiếng Trung." },
+      { tc: "這次考試有點難。", py: "Zhè cì kǎoshì yǒudiǎn nán.", vn: "Bài thi lần này hơi khó." },
+      { tc: "你考試準備得怎麼樣了？", py: "Nǐ kǎoshì zhǔnbèi de zěnmeyàng le?", vn: "Bạn chuẩn bị cho kỳ thi thế nào rồi?" }
+    ],
+    idiom: "考滿分 (Kǎo mǎnfēn) - Thi được điểm tối đa.<br>🔸 Ví dụ: 太棒了，我這次考試考了滿分！ Tài bàng le, wǒ zhè cì kǎoshì kǎo le mǎnfēn! - Tuyệt quá, bài thi lần này tôi được điểm tối đa!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "準備", pinyin: "zhǔnbèi", hanViet: "Chuẩn bị",
+    image: "",
+    radical: "準 (Bộ Băng 冫) + 備 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Con người (亻) luôn phải sẵn sàng phòng bị (備) mọi thứ chu toàn, chuẩn xác (準).",
+    explanation: "Động từ: Chuẩn bị.",
+    compounds: [
+      { tc: "準備好了", py: "zhǔnbèi hǎo le", vn: "đã chuẩn bị xong" },
+      { tc: "沒準備", py: "méi zhǔnbèi", vn: "chưa chuẩn bị" }
+    ],
+    examples: [
+      { tc: "我在準備明天的考試。", py: "Wǒ zài zhǔnbèi míngtiān de kǎoshì.", vn: "Tôi đang chuẩn bị cho bài thi ngày mai." },
+      { tc: "出國前要準備很多東西。", py: "Chūguó qián yào zhǔnbèi hěn duō dōngxī.", vn: "Trước khi ra nước ngoài phải chuẩn bị rất nhiều thứ." },
+      { tc: "大家準備好了嗎？", py: "Dàjiā zhǔnbèi hǎo le ma?", vn: "Mọi người đã chuẩn bị sẵn sàng chưa?" }
+    ],
+    idiom: "有備而來 (Yǒu bèi ér lái) - Đến có chuẩn bị trước.<br>🔸 Ví dụ: 看得出你今天是有備而來。 Kàndéchū nǐ jīntiān shì yǒu bèi ér lái. - Có thể thấy hôm nay bạn đến có sự chuẩn bị trước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "考", pinyin: "kǎo", hanViet: "Khảo",
+    image: "",
+    radical: "考 (Bộ Lão 老)<br>💡 Mẹo nhớ: Bậc trưởng bối, người già (老) khảo hạch, thử thách lớp trẻ.",
+    explanation: "Động từ: Thi, kiểm tra.",
+    compounds: [
+      { tc: "考上", py: "kǎo shàng", vn: "thi đỗ" },
+      { tc: "考得好", py: "kǎo de hǎo", vn: "thi tốt" }
+    ],
+    examples: [
+      { tc: "你昨天考得怎麼樣？", py: "Nǐ zuótiān kǎo de zěnmeyàng?", vn: "Hôm qua bạn thi thế nào?" },
+      { tc: "我要考台灣的大學。", py: "Wǒ yào kǎo Táiwān de dàxué.", vn: "Tôi muốn thi vào trường đại học của Đài Loan." },
+      { tc: "老師說明天要考聽寫。", py: "Lǎoshī shuō míngtiān yào kǎo tīngxiě.", vn: "Giáo viên nói ngày mai sẽ kiểm tra chính tả." }
+    ],
+    idiom: "考不好 (Kǎo bù hǎo) - Thi không tốt.<br>🔸 Ví dụ: 如果考不好，我會很難過。 Rúguǒ kǎo bù hǎo, wǒ huì hěn nánguò. - Nếu thi không tốt, tôi sẽ rất buồn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聽寫", pinyin: "tīngxiě", hanViet: "Thính tả",
+    image: "",
+    radical: "聽 (Bộ Nhĩ 耳) + 寫 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Dùng tai (耳) để lắng nghe và chép lại bằng chữ viết (寫). Đây là hình thức kiểm tra chính tả quen thuộc.",
+    explanation: "Danh từ / Động từ: Nghe viết, chính tả.",
+    compounds: [
+      { tc: "聽寫考試", py: "tīngxiě kǎoshì", vn: "bài kiểm tra chính tả" }
+    ],
+    examples: [
+      { tc: "我們現在開始考聽寫。", py: "Wǒmen xiànzài kāishǐ kǎo tīngxiě.", vn: "Bây giờ chúng ta bắt đầu kiểm tra chính tả." },
+      { tc: "我的聽寫成績一直很好。", py: "Wǒ de tīngxiě chéngjī yìzhí hěn hǎo.", vn: "Thành tích chính tả của tôi luôn rất tốt." },
+      { tc: "請大家把聽寫本拿出來。", py: "Qǐng dàjiā bǎ tīngxiě běn ná chūlái.", vn: "Mời các em lấy vở chính tả ra." }
+    ],
+    idiom: "練聽寫 (Liàn tīngxiě) - Luyện viết chính tả.<br>🔸 Ví dụ: 為了進步，我每天都在練聽寫。 Wèile jìnbù, wǒ měitiān dōu zài liàn tīngxiě. - Để tiến bộ, ngày nào tôi cũng luyện viết chính tả.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "容易", pinyin: "róngyì", hanViet: "Dung dị",
+    image: "",
+    radical: "容 (Bộ Miên 宀) + 易 (Bộ Nhật 日)<br>💡 Mẹo nhớ: Ở dưới mái nhà (宀) thì mọi việc đều trở nên dễ dàng, thay đổi (易) dễ như nhìn thấy mặt trời (日) mọc mỗi ngày.",
+    explanation: "Tính từ: Dễ, dễ dàng.",
+    compounds: [
+      { tc: "很容易", py: "hěn róngyì", vn: "rất dễ" },
+      { tc: "不容易", py: "bù róngyì", vn: "không dễ, gian nan" }
+    ],
+    examples: [
+      { tc: "這幾個漢字很容易寫。", py: "Zhè jǐ ge hànzì hěn róngyì xiě.", vn: "Mấy chữ Hán này rất dễ viết." },
+      { tc: "學中文其實不容易。", py: "Xué Zhōngwén qíshí bù róngyì.", vn: "Học tiếng Trung thực ra không dễ dàng." },
+      { tc: "在台灣很容易買到水果。", py: "Zài Táiwān hěn róngyì mǎi dào shuǐguǒ.", vn: "Ở Đài Loan rất dễ mua được trái cây." }
+    ],
+    idiom: "好不容易 (Hǎobù róngyì) - Khó khăn lắm mới... / Chật vật lắm mới...<br>🔸 Ví dụ: 我好不容易才買到這張票！ Wǒ hǎobù róngyì cái mǎi dào zhè zhāng piào! - Tôi khó khăn lắm mới mua được tấm vé này!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "小學", pinyin: "xiǎoxué", hanViet: "Tiểu học",
+    image: "",
+    radical: "小 (Bộ Tiểu 小) + 學 (Bộ Tử 子)<br>💡 Mẹo nhớ: Những đứa trẻ (子) còn nhỏ (小) đến trường học tập (學).",
+    explanation: "Danh từ: Trường tiểu học, cấp 1.",
+    compounds: [
+      { tc: "小學生", py: "xiǎoxuéshēng", vn: "học sinh tiểu học" },
+      { tc: "國小", py: "guóxiǎo", vn: "trường tiểu học (cách gọi của Đài Loan)" }
+    ],
+    examples: [
+      { tc: "我家附近有一所小學。", py: "Wǒ jiā fùjìn yǒu yì suǒ xiǎoxué.", vn: "Gần nhà tôi có một trường tiểu học." },
+      { tc: "他兒子今年上小學了。", py: "Tā érzi jīnnián shàng xiǎoxué le.", vn: "Con trai anh ấy năm nay lên tiểu học rồi." },
+      { tc: "我們是小學同學。", py: "Wǒmen shì xiǎoxué tóngxué.", vn: "Chúng tôi là bạn học thời tiểu học." }
+    ],
+    idiom: "小學程度 (Xiǎoxué chéngdù) - Trình độ tiểu học.<br>🔸 Ví dụ: 這本書很簡單，只有小學程度。 Zhè běn shū hěn jiǎndān, zhǐyǒu xiǎoxué chéngdù. - Cuốn sách này rất đơn giản, chỉ ngang trình độ tiểu học.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "漢字", pinyin: "hànzì", hanViet: "Hán tự",
+    image: "",
+    radical: "漢 (Bộ Thủy 氵) + 字 (Bộ Tử 子)<br>💡 Mẹo nhớ: Chữ viết (字) của người Hán (漢).",
+    explanation: "Danh từ: Chữ Hán.",
+    compounds: [
+      { tc: "寫漢字", py: "xiě hànzì", vn: "viết chữ Hán" },
+      { tc: "繁體漢字", py: "fántǐ hànzì", vn: "chữ Hán phồn thể" }
+    ],
+    examples: [
+      { tc: "漢字的筆畫很多。", py: "Hànzì de bǐhuà hěn duō.", vn: "Nét bút của chữ Hán rất nhiều." },
+      { tc: "我覺得寫漢字最難。", py: "Wǒ juéde xiě hànzì zuì nán.", vn: "Tôi cảm thấy viết chữ Hán là khó nhất." },
+      { tc: "你認識幾個漢字？", py: "Nǐ rènshí jǐ ge hànzì?", vn: "Bạn biết được bao nhiêu chữ Hán rồi?" }
+    ],
+    idiom: "看圖識字 (Kàn tú shí zì) - Nhìn hình đoán chữ (Phương pháp học chữ Hán).<br>🔸 Ví dụ: 老師用看圖識字的方法教我們。 Lǎoshī yòng kàn tú shí zì de fāngfǎ jiāo wǒmen. - Giáo viên dùng phương pháp nhìn hình đoán chữ để dạy chúng tôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "高中", pinyin: "gāozhōng", hanViet: "Cao trung",
+    image: "",
+    radical: "高 (Bộ Cao 高) + 中 (Bộ Cổn 丨)<br>💡 Mẹo nhớ: Cấp học trung học (中) nhưng ở mức độ cao (高) hơn.",
+    explanation: "Danh từ: Trường trung học phổ thông, cấp 3.",
+    compounds: [
+      { tc: "高中生", py: "gāozhōngshēng", vn: "học sinh cấp 3" },
+      { tc: "國中", py: "guózhōng", vn: "trường cấp 2" }
+    ],
+    examples: [
+      { tc: "我高中畢業後就來台灣了。", py: "Wǒ gāozhōng bìyè hòu jiù lái Táiwān le.", vn: "Sau khi tốt nghiệp cấp 3 tôi liền đến Đài Loan." },
+      { tc: "高中的功課很多。", py: "Gāozhōng de gōngkè hěn duō.", vn: "Bài tập của cấp 3 rất nhiều." },
+      { tc: "他是我的高中朋友。", py: "Tā shì wǒ de gāozhōng péngyǒu.", vn: "Anh ấy là bạn cấp 3 của tôi." }
+    ],
+    idiom: "高中時代 (Gāozhōng shídài) - Thời cấp 3.<br>🔸 Ví dụ: 我很懷念我的高中時代。 Wǒ hěn huáiniàn wǒ de gāozhōng shídài. - Tôi rất hoài niệm về thời cấp 3 của mình.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "才", pinyin: "cái", hanViet: "Tài",
+    image: "",
+    radical: "才 (Bộ Tài 才)<br>💡 Mẹo nhớ: Nét gạch ngang tượng trưng cho mặt đất, nét dọc là mầm cây vừa mới (才) nhú lên.",
+    explanation: "Phó từ: Mới (chỉ sự việc xảy ra muộn hoặc điều kiện để làm việc gì đó).",
+    compounds: [
+      { tc: "剛才", py: "gāngcái", vn: "vừa nãy" },
+      { tc: "這才", py: "zhè cái", vn: "lúc này mới" }
+    ],
+    examples: [
+      { tc: "他晚上十點才下班。", py: "Tā wǎnshàng shí diǎn cái xiàbān.", vn: "Tối 10 giờ anh ấy mới tan làm." },
+      { tc: "你怎麼現在才來？", py: "Nǐ zěnme xiànzài cái lái?", vn: "Sao bây giờ bạn mới đến?" },
+      { tc: "多練習才能進步。", py: "Duō liànxí cái néng jìnbù.", vn: "Luyện tập nhiều mới có thể tiến bộ." }
+    ],
+    idiom: "這才發現 (Zhè cái fāxiàn) - Lúc này mới nhận ra.<br>🔸 Ví dụ: 我回到家，這才發現錢包不見了。 Wǒ huí dào jiā, zhè cái fāxiàn qiánbāo bújiàn le. - Tôi về đến nhà, lúc này mới nhận ra ví đã biến mất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "說話", pinyin: "shuōhuà", hanViet: "Thuyết thoại",
+    image: "",
+    radical: "說 (Bộ Ngôn 言) + 話 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Ngôn (言) biểu thị cho lời nói, ngôn ngữ.",
+    explanation: "Động từ ly hợp: Nói chuyện.",
+    compounds: [
+      { tc: "說真話", py: "shuō zhēnhuà", vn: "nói thật" },
+      { tc: "說笑話", py: "shuō xiàohuà", vn: "nói đùa" }
+    ],
+    examples: [
+      { tc: "上課時請不要說話。", py: "Shàngkè shí qǐng búyào shuōhuà.", vn: "Trong giờ học xin đừng nói chuyện." },
+      { tc: "他是一個不愛說話的人。", py: "Tā shì yí ge bú ài shuōhuà de rén.", vn: "Anh ấy là một người không thích nói chuyện." },
+      { tc: "你可以大聲一點說話嗎？", py: "Nǐ kěyǐ dàshēng yìdiǎn shuōhuà ma?", vn: "Bạn có thể nói chuyện lớn tiếng hơn một chút không?" }
+    ],
+    idiom: "說實話 (Shuō shíhuà) - Nói thật lòng.<br>🔸 Ví dụ: 說實話，我不喜歡這個顏色。 Shuō shíhuà, wǒ bù xǐhuān zhège yánsè. - Nói thật lòng thì, tôi không thích màu này.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "不夠", pinyin: "bú gòu", hanViet: "Bất cấu",
+    image: "",
+    radical: "不 (Bộ Nhất 一) + 夠 (Bộ Tịch 夕)<br>💡 Mẹo nhớ: Chữ 夠 (đủ) ghép bởi Đa (多 - nhiều) và Cú (句 - câu). Không (不) có đủ (夠).",
+    explanation: "Tính từ: Không đủ.",
+    compounds: [
+      { tc: "夠了", py: "gòu le", vn: "đủ rồi" },
+      { tc: "錢不夠", py: "qián bú gòu", vn: "không đủ tiền" }
+    ],
+    examples: [
+      { tc: "我的錢不夠買這支手機。", py: "Wǒ de qián bú gòu mǎi zhè zhī shǒujī.", vn: "Tiền của tôi không đủ để mua chiếc điện thoại này." },
+      { tc: "時間不夠了，我們快走吧！", py: "Shíjiān bú gòu le, wǒmen kuài zǒu ba!", vn: "Thời gian không đủ nữa, chúng ta mau đi thôi!" },
+      { tc: "我覺得自己努力得還不夠。", py: "Wǒ juéde zìjǐ nǔlì de hái bú gòu.", vn: "Tôi cảm thấy bản thân nỗ lực vẫn chưa đủ." }
+    ],
+    idiom: "遠遠不夠 (Yuǎnyuǎn bú gòu) - Còn lâu mới đủ / Không thấm vào đâu.<br>🔸 Ví dụ: 只會說你好是遠遠不夠的。 Zhǐ huì shuō nǐ hǎo shì yuǎnyuǎn bú gòu de. - Chỉ biết nói xin chào là còn lâu mới đủ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "流利", pinyin: "liúlì", hanViet: "Lưu lợi",
+    image: "",
+    radical: "流 (Bộ Thủy 氵) + 利 (Bộ Đao 刂)<br>💡 Mẹo nhớ: Lời nói tuôn ra êm đềm như dòng nước chảy (流 - lưu), sắc sảo bén nhọn như dao (利 - lợi).",
+    explanation: "Tính từ: Lưu loát, trôi chảy.",
+    compounds: [
+      { tc: "說得很流利", py: "shuō de hěn liúlì", vn: "nói rất lưu loát" }
+    ],
+    examples: [
+      { tc: "他的英文非常流利。", py: "Tā de Yīngwén fēicháng liúlì.", vn: "Tiếng Anh của anh ấy vô cùng lưu loát." },
+      { tc: "我想把中文說得更流利。", py: "Wǒ xiǎng bǎ Zhōngwén shuō de gèng liúlì.", vn: "Tôi muốn nói tiếng Trung lưu loát hơn nữa." },
+      { tc: "雖然他學不久，但說得很流利。", py: "Suīrán tā xué bù jiǔ, dàn shuō de hěn liúlì.", vn: "Tuy anh ấy học chưa lâu, nhưng nói rất trôi chảy." }
+    ],
+    idiom: "對答如流 (Duìdá rú liú) - Đối đáp trôi chảy (như nước chảy).<br>🔸 Ví dụ: 面試時，他對答如流。 Miànshì shí, tā duìdá rú liú. - Lúc phỏng vấn, anh ấy đối đáp cực kỳ trôi chảy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "雖然", pinyin: "suīrán", hanViet: "Tuy nhiên",
+    image: "",
+    radical: "雖 (Bộ Chuy 隹) + 然 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Cấu trúc 雖然... 但是... (Mặc dù... nhưng...) là mẫu câu kinh điển trong tiếng Trung.",
+    explanation: "Liên từ: Mặc dù, tuy rằng.",
+    compounds: [
+      { tc: "雖然...但是...", py: "suīrán... dànshì...", vn: "mặc dù... nhưng..." }
+    ],
+    examples: [
+      { tc: "雖然下雨，他還是出門了。", py: "Suīrán xiàyǔ, tā háishì chūmén le.", vn: "Mặc dù trời mưa, anh ấy vẫn ra khỏi nhà." },
+      { tc: "這件衣服雖然貴，但是很好看。", py: "Zhè jiàn yīfú suīrán guì, dànshì hěn hǎokàn.", vn: "Chiếc áo này tuy đắt nhưng rất đẹp." },
+      { tc: "雖然我很累，但我必須學習。", py: "Suīrán wǒ hěn lèi, dàn wǒ bìxū xuéxí.", vn: "Tuy tôi rất mệt, nhưng tôi vẫn phải học." }
+    ],
+    idiom: "雖然如此 (Suīrán rúcǐ) - Mặc dù là vậy.<br>🔸 Ví dụ: 雖然如此，我們還是不能放棄。 Suīrán rúcǐ, wǒmen háishì bùnéng fàngqì. - Mặc dù là vậy, chúng ta vẫn không thể bỏ cuộc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "環境", pinyin: "huánjìng", hanViet: "Hoàn cảnh",
+    image: "",
+    radical: "環 (Bộ Ngọc 王) + 境 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Những vùng đất (土) bao quanh (環) khu vực sống của chúng ta tạo nên môi trường sống.",
+    explanation: "Danh từ: Môi trường, hoàn cảnh.",
+    compounds: [
+      { tc: "保護環境", py: "bǎohù huánjìng", vn: "bảo vệ môi trường" },
+      { tc: "學習環境", py: "xuéxí huánjìng", vn: "môi trường học tập" }
+    ],
+    examples: [
+      { tc: "這裡的環境很安靜。", py: "Zhèlǐ de huánjìng hěn ānjìng.", vn: "Môi trường ở đây rất yên tĩnh." },
+      { tc: "台灣的生活環境很不錯。", py: "Táiwān de shēnghuó huánjìng hěn búcuò.", vn: "Môi trường sống ở Đài Loan rất tuyệt." },
+      { tc: "我們應該愛護環境。", py: "Wǒmen yīnggāi àihù huánjìng.", vn: "Chúng ta nên yêu quý bảo vệ môi trường." }
+    ],
+    idiom: "適應環境 (Shìyìng huánjìng) - Thích nghi với môi trường.<br>🔸 Ví dụ: 我剛來，還在適應新環境。 Wǒ gāng lái, hái zài shìyìng xīn huánjìng. - Tôi vừa đến, vẫn đang tập thích nghi với môi trường mới.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "同意", pinyin: "tóngyì", hanViet: "Đồng ý",
+    image: "",
+    radical: "同 (Bộ Khẩu 口) + 意 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Cùng (同) chung một ý nghĩ từ trong tâm (心), nghĩa là tán thành, đồng ý với nhau.",
+    explanation: "Động từ: Đồng ý, tán thành.",
+    compounds: [
+      { tc: "不同意", py: "bù tóngyì", vn: "không đồng ý" }
+    ],
+    examples: [
+      { tc: "我完全同意你的看法。", py: "Wǒ wánquán tóngyì nǐ de kànfǎ.", vn: "Tôi hoàn toàn đồng ý với góc nhìn của bạn." },
+      { tc: "爸爸不同意我去台北。", py: "Bàba bù tóngyì wǒ qù Táiběi.", vn: "Bố không đồng ý cho tôi đi Đài Bắc." },
+      { tc: "你同意這個計畫嗎？", py: "Nǐ tóngyì zhège jìhuà ma?", vn: "Bạn có tán thành kế hoạch này không?" }
+    ],
+    idiom: "點頭同意 (Diǎntóu tóngyì) - Gật đầu đồng ý.<br>🔸 Ví dụ: 聽到這個提議，老闆點頭同意了。 Tīng dào zhège tíyì, lǎobǎn diǎntóu tóngyì le. - Nghe thấy đề xuất này, sếp đã gật đầu đồng ý.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "報紙", pinyin: "bàozhǐ", hanViet: "Báo chỉ",
+    image: "",
+    radical: "報 (Bộ Thổ 土) + 紙 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Báo cáo (報) thông tin được in lên trên giấy (紙).",
+    explanation: "Danh từ: Tờ báo.",
+    compounds: [
+      { tc: "看報紙", py: "kàn bàozhǐ", vn: "đọc báo" },
+      { tc: "報紙上", py: "bàozhǐ shàng", vn: "trên mặt báo" }
+    ],
+    examples: [
+      { tc: "爺爺每天早上都會看報紙。", py: "Yéye měitiān zǎoshàng dōu huì kàn bàozhǐ.", vn: "Mỗi buổi sáng ông nội đều đọc báo." },
+      { tc: "報紙上說明天會下雨。", py: "Bàozhǐ shàng shuō míngtiān huì xiàyǔ.", vn: "Trên báo nói ngày mai sẽ có mưa." },
+      { tc: "我去超商買了一份報紙。", py: "Wǒ qù chāoshāng mǎi le yí fèn bàozhǐ.", vn: "Tôi ra cửa hàng tiện lợi mua một tờ báo." }
+    ],
+    idiom: "登報 (Dēng bào) - Lên báo / Đăng báo.<br>🔸 Ví dụ: 這個大新聞已經登報了。 Zhège dà xīnwén yǐjīng dēng bào le. - Tin tức lớn này đã được lên báo rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "麵包", pinyin: "miànbāo", hanViet: "Miến bao",
+    image: "",
+    radical: "麵 (Bộ Mạch 麥) + 包 (Bộ Bao 勹)<br>💡 Mẹo nhớ: Loại bánh được nặn (包 - bao bọc) từ bột lúa mì (麥).",
+    explanation: "Danh từ: Bánh mì.",
+    compounds: [
+      { tc: "麵包店", py: "miànbāodiàn", vn: "tiệm bánh mì" },
+      { tc: "烤麵包", py: "kǎo miànbāo", vn: "bánh mì nướng" }
+    ],
+    examples: [
+      { tc: "我早餐喜歡吃麵包喝牛奶。", py: "Wǒ zǎocān xǐhuān chī miànbāo hē niúnǎi.", vn: "Bữa sáng tôi thích ăn bánh mì uống sữa tươi." },
+      { tc: "這家麵包店的麵包很香。", py: "Zhè jiā miànbāodiàn de miànbāo hěn xiāng.", vn: "Bánh mì của tiệm bánh này rất thơm." },
+      { tc: "幫我買兩個法國麵包好嗎？", py: "Bāng wǒ mǎi liǎng ge Fǎguó miànbāo hǎo ma?", vn: "Mua giúp tôi hai ổ bánh mì Pháp được không?" }
+    ],
+    idiom: "麵包師傅 (Miànbāo shīfù) - Thợ làm bánh mì.<br>🔸 Ví dụ: 他的夢想是成為一名麵包師傅。 Tā de mèngxiǎng shì chéngwéi yì míng miànbāo shīfù. - Ước mơ của anh ấy là trở thành một người thợ làm bánh mì.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "演講", pinyin: "yǎnjiǎng", hanViet: "Diễn giảng",
+    image: "",
+    radical: "演 (Bộ Thủy 氵) + 講 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Dùng lời nói (言) để trình bày, biểu diễn (演) cho nhiều người cùng nghe.",
+    explanation: "Danh từ / Động từ: Bài diễn thuyết, diễn thuyết.",
+    compounds: [
+      { tc: "聽演講", py: "tīng yǎnjiǎng", vn: "nghe diễn thuyết" },
+      { tc: "演講比賽", py: "yǎnjiǎng bǐsài", vn: "cuộc thi hùng biện" }
+    ],
+    examples: [
+      { tc: "今天下午學校有一場演講。", py: "Jīntiān xiàwǔ xuéxiào yǒu yì chǎng yǎnjiǎng.", vn: "Chiều nay trường học có một buổi diễn thuyết." },
+      { tc: "他的演講非常精彩。", py: "Tā de yǎnjiǎng fēicháng jīngcǎi.", vn: "Bài diễn thuyết của anh ấy vô cùng đặc sắc." },
+      { tc: "他在演講比賽中得了第一名。", py: "Tā zài yǎnjiǎng bǐsài zhōng dé le dì yī míng.", vn: "Anh ấy đã giành giải nhất trong cuộc thi hùng biện." }
+    ],
+    idiom: "發表演講 (Fābiǎo yǎnjiǎng) - Phát biểu diễn thuyết.<br>🔸 Ví dụ: 校長在台上發表演講。 Xiàozhǎng zài táishàng fābiǎo yǎnjiǎng. - Hiệu trưởng đang phát biểu diễn thuyết trên bục.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "噢", pinyin: "òu", hanViet: "Áo",
+    image: "",
+    radical: "噢 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Chữ có bộ Khẩu (miệng) chỉ âm thanh phát ra khi bất ngờ hoặc tỏ vẻ hiểu ra vấn đề.",
+    explanation: "Thán từ: Ồ, à (biểu thị sự ngạc nhiên hoặc đã hiểu ra).",
+    compounds: [
+      { tc: "噢，原來如此", py: "òu, yuánlái rúcǐ", vn: "ồ, hóa ra là vậy" }
+    ],
+    examples: [
+      { tc: "噢！我忘了帶鑰匙！", py: "Òu! Wǒ wàng le dài yàoshi!", vn: "Ồ! Tôi quên mang chìa khóa rồi!" },
+      { tc: "噢，我懂你的意思了。", py: "Òu, wǒ dǒng nǐ de yìsī le.", vn: "À, tôi hiểu ý của bạn rồi." },
+      { tc: "噢，那家店今天沒開。", py: "Òu, nà jiā diàn jīntiān méi kāi.", vn: "Ồ, quán đó hôm nay không mở cửa." }
+    ],
+    idiom: "噢，對了 (Òu, duì le) - À đúng rồi (Dùng khi đột nhiên nhớ ra điều gì).<br>🔸 Ví dụ: 噢，對了，老師要我們明天帶筆記本。 Òu, duì le, lǎoshī yào wǒmen míngtiān dài bǐjìběn. - À đúng rồi, giáo viên dặn chúng ta ngày mai mang theo sổ tay.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "活動中心", pinyin: "huódòng zhōngxīn", hanViet: "Hoạt động trung tâm",
+    image: "",
+    radical: "活 (Thủy 氵) + 動 (Lực 力) + 中 (Cổn 丨) + 心 (Tâm 心)<br>💡 Mẹo nhớ: Nơi (中心 - trung tâm) diễn ra các hoạt động (活動) tập thể, vui chơi, giải trí.",
+    explanation: "Danh từ: Trung tâm hoạt động (của trường học, khu phố).",
+    compounds: [
+      { tc: "學生活動中心", py: "xuéshēng huódòng zhōngxīn", vn: "trung tâm hoạt động sinh viên" }
+    ],
+    examples: [
+      { tc: "我們在活動中心打籃球。", py: "Wǒmen zài huódòng zhōngxīn dǎ lánqiú.", vn: "Chúng tôi đang đánh bóng rổ ở trung tâm hoạt động." },
+      { tc: "活動中心裡有很多社團。", py: "Huódòng zhōngxīn lǐ yǒu hěn duō shètuán.", vn: "Trong trung tâm hoạt động có rất nhiều câu lạc bộ." },
+      { tc: "今晚活動中心有舞會。", py: "Jīnwǎn huódòng zhōngxīn yǒu wǔhuì.", vn: "Tối nay trung tâm hoạt động có tiệc khiêu vũ." }
+    ],
+    idiom: "去活動中心 (Qù huódòng zhōngxīn) - Đến trung tâm hoạt động.<br>🔸 Ví dụ: 下課後，我們去活動中心看表演吧。 Xiàkè hòu, wǒmen qù huódòng zhōngxīn kàn biǎoyǎn ba. - Tan học xong, chúng ta đến trung tâm hoạt động xem biểu diễn nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "想起來", pinyin: "xiǎng qǐlái", hanViet: "Tưởng khởi lai",
+    image: "",
+    radical: "想 (Bộ Tâm 心) + 起 (Bộ Tẩu 走) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Dùng tâm trí (心) để gợi nhớ lại (起) một việc gì đó đã từng xảy ra (來).",
+    explanation: "Động từ: Nhớ ra, sực nhớ ra.",
+    compounds: [
+      { tc: "想不起來", py: "xiǎng bù qǐlái", vn: "không nhớ ra được" }
+    ],
+    examples: [
+      { tc: "我想起來他的名字了！", py: "Wǒ xiǎng qǐlái tā de míngzi le!", vn: "Tôi nhớ ra tên của anh ấy rồi!" },
+      { tc: "你終於想起來了。", py: "Nǐ zhōngyú xiǎng qǐlái le.", vn: "Cuối cùng thì bạn cũng nhớ ra rồi." },
+      { tc: "突然想起來我還沒吃飯。", py: "Túrán xiǎng qǐlái wǒ hái méi chīfàn.", vn: "Đột nhiên sực nhớ ra tôi vẫn chưa ăn cơm." }
+    ],
+    idiom: "我想起來了 (Wǒ xiǎng qǐlái le) - Tôi nhớ ra rồi.<br>🔸 Ví dụ: 噢，我想起來了，錢包在背包裡！ Òu, wǒ xiǎng qǐlái le, qiánbāo zài bēibāo lǐ! - Ồ, tôi nhớ ra rồi, ví tiền ở trong ba lô!", 
+    level: "TOCFL A2"
+  },
   ];
