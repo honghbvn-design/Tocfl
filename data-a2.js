@@ -4525,7 +4525,7 @@ const dataA2 = [
       { tc: "可樂罐", py: "kělè guàn", vn: "lon cola" }
     ],
     examples: [
-      { tc: "請把空汽水罐丟進回收筒。", py: "Qǐng bǎ kōng qìshuǐ guàn diū jìn huíshōu tǒng.", vn: "Vui lòng vứt lon nước ngọt rỗng vào thùng tái chế." },
+      { tc: "請把空汽水罐丟進回收桶。", py: "Qǐng bǎ kōng qìshuǐ guàn diū jìn huíshōu tǒng.", vn: "Vui lòng vứt lon nước ngọt rỗng vào thùng tái chế." },
       { tc: "桌子上放著兩個汽水罐。", py: "Zhuōzi shàng fàngzhe liǎng ge qìshuǐ guàn.", vn: "Trên bàn đang đặt hai lon nước ngọt." },
       { tc: "他不小心踢到了一個汽水罐。", py: "Tā bù xiǎoxīn tī dào le yí ge qìshuǐ guàn.", vn: "Anh ấy vô tình đá trúng một lon nước ngọt." }
     ],
