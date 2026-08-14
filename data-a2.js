@@ -5880,4 +5880,369 @@ const dataA2 = [
     idiom: "難以忘懷 Nányǐ wànghuái - Khó lòng quên được.<br>🔸 Ví dụ: 這段旅行的記憶讓我難以忘懷。 Zhè duàn lǚxíng de jìyì ràng wǒ nányǐ wànghuái. - Ký ức về chuyến du lịch này khiến tôi khó lòng quên được.", 
     level: "TOCFL A2"
   },
+  {
+    word: "鄉下", pinyin: "xiāngxià", hanViet: "Hương hạ",
+    image: "",
+    radical: "鄉 (Bộ Phụ 阝) + 下 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Vùng đất (阝) cách xa và nằm ở phía dưới (下) khu vực đô thị sầm uất chính là nông thôn.",
+    explanation: "Danh từ: Nông thôn, quê.",
+    compounds: [
+      { tc: "回鄉下", py: "huí xiāngxià", vn: "về quê" },
+      { tc: "鄉下人", py: "xiāngxià rén", vn: "người nhà quê" }
+    ],
+    examples: [
+      { tc: "我的外婆住在鄉下。", py: "Wǒ de wàipó zhù zài xiāngxià.", vn: "Bà ngoại của tôi sống ở nông thôn." },
+      { tc: "鄉下的空氣比城市好很多。", py: "Xiāngxià de kōngqì bǐ chéngshì hǎo hěn duō.", vn: "Không khí ở nông thôn tốt hơn thành phố rất nhiều." },
+      { tc: "放假時，我喜歡回鄉下休息。", py: "Fàngjià shí, wǒ xǐhuān huí xiāngxià xiūxí.", vn: "Lúc được nghỉ, tôi thích về quê nghỉ ngơi." }
+    ],
+    idiom: "鄉下生活 Xiāngxià shēnghuó - Cuộc sống nông thôn.<br>🔸 Ví dụ: 他很嚮往安靜的鄉下生活。 Tā hěn xiàngwǎng ānjìng de xiāngxià shēnghuó. - Anh ấy rất hướng về cuộc sống nông thôn yên bình.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "氣氛", pinyin: "qìfēn", hanViet: "Khí phân",
+    image: "",
+    radical: "氣 (Bộ Khí 气) + 氛 (Bộ Khí 气)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Khí (气) biểu thị bầu không khí bao trùm xung quanh.",
+    explanation: "Danh từ: Bầu không khí (thường chỉ trạng thái tâm lý, cảm xúc của một môi trường).",
+    compounds: [
+      { tc: "氣氛很好", py: "qìfēn hěn hǎo", vn: "bầu không khí rất tốt" }
+    ],
+    examples: [
+      { tc: "這家咖啡廳的氣氛很浪漫。", py: "Zhè jiā kāfēitīng de qìfēn hěn làngmàn.", vn: "Bầu không khí của quán cà phê này rất lãng mạn." },
+      { tc: "大家有說有笑，氣氛非常熱鬧。", py: "Dàjiā yǒushuō yǒuxiào, qìfēn fēicháng rènào.", vn: "Mọi người nói nói cười cười, bầu không khí vô cùng náo nhiệt." },
+      { tc: "開會時的氣氛有點緊張。", py: "Kāihuì shí de qìfēn yǒudiǎn jǐnzhāng.", vn: "Bầu không khí lúc họp có chút căng thẳng." }
+    ],
+    idiom: "營造氣氛 Yíngzào qìfēn - Tạo bầu không氣.<br>🔸 Ví dụ: 點蠟燭可以營造浪漫的氣氛。 Diǎn làzhú kěyǐ yíngzào làngmàn de qìfēn. - Thắp nến có thể tạo ra bầu không khí lãng mạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "鎮", pinyin: "zhèn", hanViet: "Trấn",
+    image: "",
+    radical: "鎮 (Bộ Kim 金)<br>💡 Mẹo nhớ: Nơi có các hoạt động giao thương, sử dụng tiền bạc (金) nhộn nhịp tạo thành thị trấn.",
+    explanation: "Danh từ: Thị trấn.",
+    compounds: [
+      { tc: "小鎮", py: "xiǎozhèn", vn: "thị trấn nhỏ" },
+      { tc: "市鎮", py: "shìzhèn", vn: "thị xã" }
+    ],
+    examples: [
+      { tc: "這是一個安靜的美麗小鎮。", py: "Zhè shì yí ge ānjìng de měilì xiǎozhèn.", vn: "Đây là một thị trấn nhỏ yên bình và xinh đẹp." },
+      { tc: "鎮上只有一家便利商店。", py: "Zhèn shàng zhǐyǒu yì jiā biànlì shāngdiàn.", vn: "Trên thị trấn chỉ có một cửa hàng tiện lợi." },
+      { tc: "他從小就在這個鎮上長大。", py: "Tā cóngxiǎo jiù zài zhège zhèn shàng zhǎngdà.", vn: "Anh ấy từ nhỏ đã lớn lên ở thị trấn này." }
+    ],
+    idiom: "小鎮風光 Xiǎozhèn fēngguāng - Phong cảnh thị trấn.<br>🔸 Ví dụ: 這裡的小鎮風光吸引了很多遊客。 Zhèlǐ de xiǎozhèn fēngguāng xīyǐn le hěn duō yóukè. - Phong cảnh thị trấn ở đây thu hút rất nhiều du khách.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "不同", pinyin: "bùtóng", hanViet: "Bất đồng",
+    image: "",
+    radical: "不 (Bộ Nhất 一) + 同 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Không (不) giống (同) nhau.",
+    explanation: "Tính từ: Không giống, khác biệt.",
+    compounds: [
+      { tc: "完全不同", py: "wánquán bùtóng", vn: "hoàn toàn khác biệt" }
+    ],
+    examples: [
+      { tc: "每個人的想法都不同。", py: "Měi ge rén de xiǎngfǎ dōu bùtóng.", vn: "Suy nghĩ của mỗi người đều không giống nhau." },
+      { tc: "這兩件衣服的顏色不同。", py: "Zhè liǎng jiàn yīfú de yánsè bùtóng.", vn: "Màu sắc của hai chiếc áo này khác nhau." },
+      { tc: "我們有著不同的文化背景。", py: "Wǒmen yǒuzhe bùtóng de wénhuà bèijǐng.", vn: "Chúng tôi có bối cảnh văn hóa khác biệt." }
+    ],
+    idiom: "與眾不同 Yǔzhòng bùtóng - Khác biệt với số đông / Độc đáo.<br>🔸 Ví dụ: 他的穿著打扮總是與眾不同。 Tā de chuānzhuó dǎbàn zǒngshì yǔzhòng bùtóng. - Cách ăn mặc của anh ấy lúc nào cũng độc đáo khác biệt với số đông.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "現代", pinyin: "xiàndài", hanViet: "Hiện đại",
+    image: "",
+    radical: "現 (Bộ Ngọc 玉) + 代 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Thời đại (代) đang hiện diện (現) ở ngay trước mắt.",
+    explanation: "Danh từ / Tính từ: Hiện đại, thời hiện đại.",
+    compounds: [
+      { tc: "現代人", py: "xiàndài rén", vn: "người hiện đại" },
+      { tc: "現代化", py: "xiàndàihuà", vn: "hiện đại hóa" }
+    ],
+    examples: [
+      { tc: "現代人的生活壓力很大。", py: "Xiàndài rén de shēnghuó yālì hěn dà.", vn: "Áp lực cuộc sống của người hiện đại rất lớn." },
+      { tc: "這是一座現代化的城市。", py: "Zhè shì yí zuò xiàndàihuà de chéngshì.", vn: "Đây là một thành phố hiện đại hóa." },
+      { tc: "這棟建築的設計非常現代。", py: "Zhè dòng jiànzhú de shèjì fēicháng xiàndài.", vn: "Thiết kế của tòa nhà này vô cùng hiện đại." }
+    ],
+    idiom: "現代科技 Xiàndài kējì - Công nghệ hiện đại.<br>🔸 Ví dụ: 現代科技讓生活變得更方便。 Xiàndài kējì ràng shēnghuó biàn de gèng fāngbiàn. - Công nghệ hiện đại giúp cuộc sống trở nên tiện lợi hơn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "公寓", pinyin: "gōngyù", hanViet: "Công ngụ",
+    image: "",
+    radical: "公 (Bộ Bát 八) + 寓 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Một tòa nhà (宀 - 寓) công cộng (公) được chia ra cho nhiều gia đình cùng sinh sống.",
+    explanation: "Danh từ: Chung cư, căn hộ.",
+    compounds: [
+      { tc: "租公寓", py: "zū gōngyù", vn: "thuê chung cư" },
+      { tc: "一棟公寓", py: "yí dòng gōngyù", vn: "một tòa chung cư" }
+    ],
+    examples: [
+      { tc: "他在台北租了一間小公寓。", py: "Tā zài Táiběi zū le yì jiān xiǎo gōngyù.", vn: "Anh ấy đã thuê một căn chung cư nhỏ ở Đài Bắc." },
+      { tc: "我們家住在公寓的五樓。", py: "Wǒmen jiā zhù zài gōngyù de wǔ lóu.", vn: "Nhà chúng tôi sống ở tầng năm của khu chung cư." },
+      { tc: "這棟公寓沒有電梯，很不方便。", py: "Zhè dòng gōngyù méiyǒu diàntī, hěn bù fāngbiàn.", vn: "Tòa chung cư này không có thang máy, rất bất tiện." }
+    ],
+    idiom: "高級公寓 Gāojí gōngyù - Chung cư cao cấp.<br>🔸 Ví dụ: 他買了一間市中心的高級公寓。 Tā mǎi le yì jiān shì zhōngxīn de gāojí gōngyù. - Anh ấy đã mua một căn chung cư cao cấp ở trung tâm thành phố.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "馬路", pinyin: "mǎlù", hanViet: "Mã lộ",
+    image: "",
+    radical: "馬 (Bộ Mã 馬) + 路 (Bộ Túc 足)<br>💡 Mẹo nhớ: Ngày xưa con đường (路) được thiết kế rộng rãi đủ để ngựa (馬) chạy.",
+    explanation: "Danh từ: Đường cái, đường lớn.",
+    compounds: [
+      { tc: "過馬路", py: "guò mǎlù", vn: "sang đường" },
+      { tc: "馬路邊", py: "mǎlù biān", vn: "bên đường" }
+    ],
+    examples: [
+      { tc: "過馬路時要小心車子。", py: "Guò mǎlù shí yào xiǎoxīn chēzi.", vn: "Lúc sang đường phải cẩn thận xe cộ." },
+      { tc: "這條馬路每天都塞車。", py: "Zhè tiáo mǎlù měitiān dōu sāichē.", vn: "Con đường này ngày nào cũng tắc xe." },
+      { tc: "小狗突然跑到馬路上，很危險。", py: "Xiǎogǒu túrán pǎo dào mǎlù shàng, hěn wéixiǎn.", vn: "Chú chó nhỏ đột nhiên chạy ra đường lớn, rất nguy hiểm." }
+    ],
+    idiom: "馬路如虎口 Mǎlù rú hǔ kǒu - Ra đường như vào miệng cọp (Đường sá rất nguy hiểm).<br>🔸 Ví dụ: 媽媽常說馬路如虎口，出門要小心。 Māma cháng shuō mǎlù rú hǔ kǒu, chūmén yào xiǎoxīn. - Mẹ thường nói ra đường như vào miệng cọp, ra khỏi nhà phải cẩn thận.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "寬", pinyin: "kuān", hanViet: "Khoan",
+    image: "",
+    radical: "寬 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Dưới mái nhà (宀) có không gian rộng rãi để nhìn ngắm cỏ cây (艹) và thấy được vẻ đẹp (見).",
+    explanation: "Tính từ: Rộng, rộng rãi.",
+    compounds: [
+      { tc: "很寬", py: "hěn kuān", vn: "rất rộng" },
+      { tc: "寬度", py: "kuāndù", vn: "chiều rộng" }
+    ],
+    examples: [
+      { tc: "這條馬路非常寬。", py: "Zhè tiáo mǎlù fēicháng kuān.", vn: "Con đường này vô cùng rộng." },
+      { tc: "他的肩膀很寬，穿西裝很好看。", py: "Tā de jiānbǎng hěn kuān, chuān xīzhuāng hěn hǎokàn.", vn: "Bờ vai của anh ấy rất rộng, mặc vest rất đẹp." },
+      { tc: "這張桌子不夠寬，放不下兩台電腦。", py: "Zhè zhāng zhuōzi bú gòu kuān, fàng bú xià liǎng tái diànnǎo.", vn: "Chiếc bàn này không đủ rộng, không để vừa hai cái máy tính." }
+    ],
+    idiom: "寬敞明亮 Kuānchǎng míngliàng - Rộng rãi sáng sủa.<br>🔸 Ví dụ: 這間公寓寬敞明亮，我很喜歡。 Zhè jiān gōngyù kuānchǎng míngliàng, wǒ hěn xǐhuān. - Căn chung cư này rộng rãi sáng sủa, tôi rất thích.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "汽車", pinyin: "qìchē", hanViet: "Khí xa",
+    image: "",
+    radical: "汽 (Bộ Thủy 氵) + 車 (Bộ Xa 車)<br>💡 Mẹo nhớ: Phương tiện xe cộ (車) chạy bằng hơi nước (汽) hoặc động cơ đốt trong.",
+    explanation: "Danh từ: Ô tô, xe hơi.",
+    compounds: [
+      { tc: "開汽車", py: "kāi qìchē", vn: "lái ô tô" },
+      { tc: "汽車站", py: "qìchēzhàn", vn: "bến xe ô tô" }
+    ],
+    examples: [
+      { tc: "他買了一輛新汽車。", py: "Tā mǎi le yí liàng xīn qìchē.", vn: "Anh ấy đã mua một chiếc ô tô mới." },
+      { tc: "這裡不能停放汽車。", py: "Zhèlǐ bùnéng tíngfàng qìchē.", vn: "Ở đây không được đỗ xe hơi." },
+      { tc: "台灣的汽車通常靠右邊行駛。", py: "Táiwān de qìchē tōngcháng kào yòubiān xíngshǐ.", vn: "Ô tô ở Đài Loan thông thường chạy sát lề bên phải." }
+    ],
+    idiom: "二手汽車 Èrshǒu qìchē - Ô tô cũ / Xe hơi đã qua sử dụng.<br>🔸 Ví dụ: 他為了省錢，買了一輛二手汽車。 Tā wèile shěngqián, mǎi le yí liàng èrshǒu qìchē. - Để tiết kiệm tiền, anh ấy đã mua một chiếc ô tô cũ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "建築", pinyin: "jiànzhú", hanViet: "Kiến trúc",
+    image: "",
+    radical: "建 (Bộ Dẫn 廴) + 築 (Bộ Trúc 竹)<br>💡 Mẹo nhớ: Việc xây dựng (建) được tiến hành (廴) bằng cách dùng tre trúc (竹) để tạo nên công trình.",
+    explanation: "Danh từ / Động từ: Kiến trúc, công trình kiến trúc / Xây dựng.",
+    compounds: [
+      { tc: "現代建築", py: "xiàndài jiànzhú", vn: "kiến trúc hiện đại" },
+      { tc: "建築物", py: "jiànzhúwù", vn: "công trình kiến trúc" }
+    ],
+    examples: [
+      { tc: "巴黎有很多美麗的老建築。", py: "Bālí yǒu hěn duō měilì de lǎo jiànzhú.", vn: "Paris có rất nhiều công trình kiến trúc cổ xinh đẹp." },
+      { tc: "這座廟是台灣有名的傳統建築。", py: "Zhè zuò miào shì Táiwān yǒumíng de chuántǒng jiànzhú.", vn: "Ngôi miếu này là kiến trúc truyền thống nổi tiếng của Đài Loan." },
+      { tc: "他在大學讀建築系。", py: "Tā zài dàxué dú jiànzhú xì.", vn: "Anh ấy học khoa kiến trúc ở trường đại học." }
+    ],
+    idiom: "建築風格 Jiànzhú fēnggé - Phong cách kiến trúc.<br>🔸 Ví dụ: 這棟大樓的建築風格非常特別。 Zhè dòng dàlóu de jiànzhú fēnggé fēicháng tèbié. - Phong cách kiến trúc của tòa nhà này vô cùng đặc biệt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "老", pinyin: "lǎo", hanViet: "Lão",
+    image: "",
+    radical: "老 (Bộ Lão 老)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng người già còng lưng chống gậy.",
+    explanation: "Tính từ: Cũ, già, lâu đời.",
+    compounds: [
+      { tc: "老人", py: "lǎorén", vn: "người già" },
+      { tc: "老朋友", py: "lǎo péngyǒu", vn: "bạn cũ" }
+    ],
+    examples: [
+      { tc: "這棟公寓已經很老了。", py: "Zhè dòng gōngyù yǐjīng hěn lǎo le.", vn: "Tòa chung cư này đã rất cũ rồi." },
+      { tc: "他是我的老朋友，我們認識十年了。", py: "Tā shì wǒ de lǎo péngyǒu, wǒmen rènshí shí nián le.", vn: "Anh ấy là bạn cũ của tôi, chúng tôi quen nhau 10 năm rồi." },
+      { tc: "人老了，體力就不如以前了。", py: "Rén lǎo le, tǐlì jiù bùrú yǐqián le.", vn: "Người già đi rồi, thể lực sẽ không được như trước nữa." }
+    ],
+    idiom: "老字號 Lǎozìhào - Cửa hiệu lâu đời / Thương hiệu lâu năm.<br>🔸 Ví dụ: 這是一家五十年歷史的老字號餐廳。 Zhè shì yì jiā wǔshí nián lìshǐ de lǎozìhào cāntīng. - Đây là một nhà hàng có thương hiệu lâu năm với 50 năm lịch sử.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "層", pinyin: "céng", hanViet: "Tằng",
+    image: "",
+    radical: "層 (Bộ Thi 尸)<br>💡 Mẹo nhớ: Ngôi nhà (尸) được xây chồng lên nhau thành từng tầng.",
+    explanation: "Lượng từ: Tầng (dùng cho nhà cửa, lớp áo, bánh).",
+    compounds: [
+      { tc: "高層", py: "gāocéng", vn: "tầng cao" },
+      { tc: "一層樓", py: "yì céng lóu", vn: "một tầng lầu" }
+    ],
+    examples: [
+      { tc: "這棟大樓有五十層。", py: "Zhè dòng dàlóu yǒu wǔshí céng.", vn: "Tòa nhà này có 50 tầng." },
+      { tc: "天氣冷，他多穿了一層衣服。", py: "Tiānqì lěng, tā duō chuān le yì céng yīfú.", vn: "Thời tiết lạnh, anh ấy mặc thêm một lớp áo." },
+      { tc: "我的辦公室在十層。", py: "Wǒ de bàngōngshì zài shí céng.", vn: "Văn phòng của tôi ở tầng 10." }
+    ],
+    idiom: "頂層 Dǐngcéng - Tầng cao nhất / Tầng thượng.<br>🔸 Ví dụ: 餐廳在頂層，風景非常好。 Cāntīng zài dǐngcéng, fēngjǐng fēicháng hǎo. - Nhà hàng nằm ở tầng thượng, phong cảnh cực kỳ đẹp.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "北部", pinyin: "běibù", hanViet: "Bắc bộ",
+    image: "",
+    radical: "北 (Bộ Tủy 匕) + 部 (Bộ Ấp 邑)<br>💡 Mẹo nhớ: Khu vực (部) nằm ở phía Bắc (北) của đất nước.",
+    explanation: "Danh từ: Miền Bắc, khu vực phía bắc.",
+    compounds: [
+      { tc: "北部人", py: "běibù rén", vn: "người miền Bắc" }
+    ],
+    examples: [
+      { tc: "台灣北部的冬天常下雨。", py: "Táiwān běibù de dōngtiān cháng xiàyǔ.", vn: "Mùa đông ở miền Bắc Đài Loan thường hay mưa." },
+      { tc: "他打算去北部找工作。", py: "Tā dǎsuàn qù běibù zhǎo gōngzuò.", vn: "Anh ấy dự định đi miền Bắc tìm việc." },
+      { tc: "台北是台灣北部的最大城市。", py: "Táiběi shì Táiwān běibù de zuìdà chéngshì.", vn: "Đài Bắc là thành phố lớn nhất ở khu vực miền Bắc Đài Loan." }
+    ],
+    idiom: "北上 Běishàng - Đi ra Bắc / Đi ngược lên phía Bắc.<br>🔸 Ví dụ: 週末他要開車北上找朋友。 Zhōumò tā yào kāichē běishàng zhǎo péngyǒu. - Cuối tuần anh ấy sẽ lái xe đi ra Bắc tìm bạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "熱情", pinyin: "rèqíng", hanViet: "Nhiệt tình",
+    image: "",
+    radical: "熱 (Bộ Hỏa 灬) + 情 (Bộ Tâm 忄)<br>💡 Mẹo nhớ: Tình cảm (情) nồng nhiệt như lửa nóng (熱).",
+    explanation: "Tính từ: Nhiệt tình, hiếu khách, niềm nở.",
+    compounds: [
+      { tc: "很熱情", py: "hěn rèqíng", vn: "rất nhiệt tình" }
+    ],
+    examples: [
+      { tc: "台灣人對外國朋友非常熱情。", py: "Táiwān rén duì wàiguó péngyǒu fēicháng rèqíng.", vn: "Người Đài Loan vô cùng hiếu khách với bạn bè nước ngoài." },
+      { tc: "謝謝你們熱情的招待。", py: "Xièxiè nǐmen rèqíng de zhāodài.", vn: "Cảm ơn sự tiếp đãi nhiệt tình của các bạn." },
+      { tc: "南部人總是很熱情地跟我們打招呼。", py: "Nánbù rén zǒngshì hěn rèqíng de gēn wǒmen dǎ zhāohū.", vn: "Người miền Nam lúc nào cũng niềm nở chào hỏi chúng tôi." }
+    ],
+    idiom: "熱情如火 Rèqíng rú huǒ - Nhiệt tình như lửa.<br>🔸 Ví dụ: 球迷們熱情如火地為選手加油。 Qiúmímen rèqíng rú huǒ de wèi xuǎnshǒu jiāyóu. - Các cổ động viên nhiệt tình như lửa cổ vũ cho tuyển thủ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "擠", pinyin: "jǐ", hanViet: "Tễ",
+    image: "",
+    radical: "擠 (Bộ Thủ 扌)<br>💡 Mẹo nhớ: Dùng tay (扌) chen lấn để tiến lên bằng người khác (齊 - tề).",
+    explanation: "Tính từ / Động từ: Chật chội, đông đúc / Chen lấn.",
+    compounds: [
+      { tc: "太擠了", py: "tài jǐ le", vn: "chật quá" },
+      { tc: "擠公車", py: "jǐ gōngchē", vn: "chen lấn lên xe buýt" }
+    ],
+    examples: [
+      { tc: "下班時間，捷運上非常擠。", py: "Xiàbān shíjiān, jiéyùn shàng fēicháng jǐ.", vn: "Giờ tan tầm, trên tàu điện ngầm vô cùng chật chội." },
+      { tc: "這家店太小了，客人一多就很擠。", py: "Zhè jiā diàn tài xiǎo le, kèrén yì duō jiù hěn jǐ.", vn: "Cửa hàng này nhỏ quá, khách đông một chút là chật cứng." },
+      { tc: "請大家排隊，不要擠。", py: "Qǐng dàjiā páiduì, búyào jǐ.", vn: "Xin mọi người xếp hàng, đừng chen lấn." }
+    ],
+    idiom: "人擠人 Rén jǐ rén - Người chen người (Cực kỳ đông đúc).<br>🔸 Ví dụ: 跨年的時候，街上到處都是人擠人。 Kuànián de shíhòu, jiē shàng dàochù dōu shì rén jǐ rén. - Lúc đón giao thừa, trên phố đâu đâu cũng là người chen người.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "飲料", pinyin: "yǐnliào", hanViet: "Ẩm liệu",
+    image: "",
+    radical: "飲 (Bộ Thực 食) + 料 (Bộ Đẩu 斗)<br>💡 Mẹo nhớ: Nguyên liệu (料) dùng làm đồ ăn thức uống (食).",
+    explanation: "Danh từ: Đồ uống, thức uống.",
+    compounds: [
+      { tc: "喝飲料", py: "hē yǐnliào", vn: "uống đồ uống" },
+      { tc: "冷飲", py: "lěngyǐn", vn: "đồ uống lạnh" }
+    ],
+    examples: [
+      { tc: "請問你想喝什麼飲料？", py: "Qǐngwèn nǐ xiǎng hē shénme yǐnliào?", vn: "Xin hỏi bạn muốn uống đồ uống gì?" },
+      { tc: "我平常只喝水，不喝甜的飲料。", py: "Wǒ píngcháng zhǐ hē shuǐ, bù hē tián de yǐnliào.", vn: "Tôi bình thường chỉ uống nước, không uống đồ uống ngọt." },
+      { tc: "這家店的飲料很好喝。", py: "Zhè jiā diàn de yǐnliào hěn hǎohē.", vn: "Thức uống của quán này rất ngon." }
+    ],
+    idiom: "手搖飲料 Shǒuyáo yǐnliào - Đồ uống lắc tay / Trà sữa (Đặc sản của Đài Loan).<br>🔸 Ví dụ: 台灣的手搖飲料店非常多。 Táiwān de shǒuyáo yǐnliào diàn fēicháng duō. - Các tiệm đồ uống lắc tay ở Đài Loan vô cùng nhiều.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "巴黎", pinyin: "Bālí", hanViet: "Ba Lê",
+    image: "",
+    radical: "巴 (Bộ Kỷ 己) + 黎 (Bộ Thử 黍)<br>💡 Mẹo nhớ: Phiên âm tên của thủ đô nước Pháp.",
+    explanation: "Danh từ riêng: Paris.",
+    compounds: [
+      { tc: "去巴黎", py: "qù Bālí", vn: "đi Paris" }
+    ],
+    examples: [
+      { tc: "巴黎是法國的首都。", py: "Bālí shì Fǎguó de shǒudū.", vn: "Paris là thủ đô của nước Pháp." },
+      { tc: "我一直夢想能去巴黎旅行。", py: "Wǒ yìzhí mèngxiǎng néng qù Bālí lǚxíng.", vn: "Tôi luôn mơ ước có thể đi Paris du lịch." },
+      { tc: "巴黎以美麗的建築和浪漫的氣氛聞名。", py: "Bālí yǐ měilì de jiànzhú hé làngmàn de qìfēn wénmíng.", vn: "Paris nổi tiếng với kiến trúc xinh đẹp và bầu không khí lãng mạn." }
+    ],
+    idiom: "浪漫巴黎 Làngmàn Bālí - Paris lãng mạn.<br>🔸 Ví dụ: 他們在浪漫巴黎度過了蜜月。 Tāmen zài làngmàn Bālí dùguò le mìyuè. - Họ đã trải qua tuần trăng mật ở Paris lãng mạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "高雄市", pinyin: "Gāoxióng Shì", hanViet: "Cao Hùng thị",
+    image: "",
+    radical: "高 (Bộ Cao 高) + 雄 (Bộ Chuy 隹) + 市 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Thành phố lớn và năng động nằm ở khu vực phía Nam Đài Loan.",
+    explanation: "Danh từ riêng: Thành phố Cao Hùng.",
+    compounds: [
+      { tc: "去高雄市", py: "qù Gāoxióng Shì", vn: "đi thành phố Cao Hùng" }
+    ],
+    examples: [
+      { tc: "高雄市是台灣南部最大的城市。", py: "Gāoxióng Shì shì Táiwān nánbù zuìdà de chéngshì.", vn: "Thành phố Cao Hùng là thành phố lớn nhất ở miền Nam Đài Loan." },
+      { tc: "從台北坐高鐵到高雄市只要一個半小時。", py: "Cóng Táiběi zuò gāotiě dào Gāoxióng Shì zhǐyào yí ge bàn xiǎoshí.", vn: "Từ Đài Bắc ngồi tàu cao tốc đến Cao Hùng chỉ mất một tiếng rưỡi." },
+      { tc: "高雄市的天氣一年四季都很溫暖。", py: "Gāoxióng Shì de tiānqì yì nián sìjì dōu hěn wēnnuǎn.", vn: "Thời tiết ở Cao Hùng cả bốn mùa đều rất ấm áp." }
+    ],
+    idiom: "高雄人 Gāoxióng rén - Người Cao Hùng.<br>🔸 Ví dụ: 他是一個熱情的高雄人。 Tā shì yí ge rèqíng de Gāoxióng rén. - Anh ấy là một người Cao Hùng nhiệt tình.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "中南部", pinyin: "zhōngnánbù", hanViet: "Trung Nam bộ",
+    image: "",
+    radical: "中 (Bộ Cổn 丨) + 南 (Bộ Thập 十) + 部 (Bộ Ấp 邑)<br>💡 Mẹo nhớ: Ghép giữa khu vực miền Trung (中) và miền Nam (南).",
+    explanation: "Danh từ: Khu vực miền Trung và miền Nam.",
+    compounds: [
+      { tc: "中南部天氣", py: "zhōngnánbù tiānqì", vn: "thời tiết khu vực Trung Nam" }
+    ],
+    examples: [
+      { tc: "台灣中南部的物價比北部便宜。", py: "Táiwān zhōngnánbù de wùjià bǐ běibù piányí.", vn: "Vật giá ở miền Trung và miền Nam Đài Loan rẻ hơn miền Bắc." },
+      { tc: "他大學畢業後回到中南部工作。", py: "Tā dàxué bìyè hòu huídào zhōngnánbù gōngzuò.", vn: "Sau khi tốt nghiệp đại học, anh ấy quay về khu vực Trung Nam bộ làm việc." },
+      { tc: "中南部有很多有名的夜市。", py: "Zhōngnánbù yǒu hěn duō yǒumíng de yèshì.", vn: "Miền Trung và Nam bộ có rất nhiều chợ đêm nổi tiếng." }
+    ],
+    idiom: "中南部美食 Zhōngnánbù měishí - Ẩm thực miền Trung và Nam.<br>🔸 Ví dụ: 週末我們去品嚐中南部美食吧。 Zhōumò wǒmen qù pǐncháng zhōngnánbù měishí ba. - Cuối tuần chúng ta đi thưởng thức ẩm thực miền Trung và Nam nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "買得起", pinyin: "mǎi de qǐ", hanViet: "Mãi đắc khởi",
+    image: "",
+    radical: "買 (Bộ Bối 貝) + 得 (Bộ Xích 彳) + 起 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Cấu trúc bổ ngữ khả năng: Động từ + 得起 biểu thị có khả năng chi trả, gánh vác nổi.",
+    explanation: "Cụm động từ: Mua nổi, có khả năng mua.",
+    compounds: [
+      { tc: "買不起", py: "mǎi bù qǐ", vn: "mua không nổi" }
+    ],
+    examples: [
+      { tc: "這件衣服很便宜，大家都買得起。", py: "Zhè jiàn yīfú hěn piányí, dàjiā dōu mǎi de qǐ.", vn: "Chiếc áo này rất rẻ, mọi người đều mua nổi." },
+      { tc: "在台北，年輕人很難買得起房子。", py: "Zài Táiběi, niánqīng rén hěn nán mǎi de qǐ fángzi.", vn: "Ở Đài Bắc, người trẻ rất khó mua nổi nhà." },
+      { tc: "只要努力存錢，你一定買得起這輛車。", py: "Zhǐyào nǔlì cúnqián, nǐ yídìng mǎi de qǐ zhè liàng chē.", vn: "Chỉ cần nỗ lực tiết kiệm, bạn nhất định sẽ mua nổi chiếc xe này." }
+    ],
+    idiom: "看不起 Kàn bù qǐ - Khinh thường / Coi thường (Cùng cấu trúc ngữ pháp).<br>🔸 Ví dụ: 請不要看不起窮人。 Qǐng búyào kàn bù qǐ qióngrén. - Xin đừng coi thường người nghèo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "百貨公司", pinyin: "bǎihuò gōngsī", hanViet: "Bách hóa công tư",
+    image: "",
+    radical: "百 (Trăm), 貨 (Hàng hóa), 公 (Công), 司 (Công ty)<br>💡 Mẹo nhớ: Công ty (公司) bán hàng trăm (百) loại hàng hóa (貨) khác nhau.",
+    explanation: "Danh từ: Trung tâm thương mại, cửa hàng bách hóa.",
+    compounds: [
+      { tc: "逛百貨公司", py: "guàng bǎihuò gōngsī", vn: "đi dạo trung tâm thương mại" }
+    ],
+    examples: [
+      { tc: "這家百貨公司有很多好吃的餐廳。", py: "Zhè jiā bǎihuò gōngsī yǒu hěn duō hǎochī de cāntīng.", vn: "Trung tâm thương mại này có rất nhiều nhà hàng ngon." },
+      { tc: "週末我們去百貨公司買衣服吧。", py: "Zhōumò wǒmen qù bǎihuò gōngsī mǎi yīfú ba.", vn: "Cuối tuần chúng ta đi trung tâm thương mại mua quần áo đi." },
+      { tc: "百貨公司正在打折，人非常多。", py: "Bǎihuò gōngsī zhèngzài dǎzhé, rén fēicháng duō.", vn: "Trung tâm thương mại đang giảm giá, người vô cùng đông." }
+    ],
+    idiom: "週年慶 Zhōuniánqìng - Lễ kỷ niệm thành lập (Dịp giảm giá lớn nhất của các bách hóa ở Đài Loan).<br>🔸 Ví dụ: 百貨公司週年慶的時候，買東西最划算。 Bǎihuò gōngsī zhōuniánqìng de shíhòu, mǎi dōngxī zuì huásuàn. - Vào dịp lễ kỷ niệm của trung tâm thương mại, mua đồ là có lợi nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "越來越", pinyin: "yuèláiyuè", hanViet: "Việt lai việt",
+    image: "",
+    radical: "越 (Bộ Tẩu 走) + 來 (Bộ Nhân 人) + 越 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Sự việc tiến tới (來) và vượt qua (越) mức độ ban đầu, chỉ sự tăng tiến dần theo thời gian.",
+    explanation: "Phó từ: Càng ngày càng.",
+    compounds: [
+      { tc: "越來越好", py: "yuèláiyuè hǎo", vn: "càng ngày càng tốt" },
+      { tc: "越來越多", py: "yuèláiyuè duō", vn: "càng ngày càng nhiều" }
+    ],
+    examples: [
+      { tc: "天氣越來越熱了。", py: "Tiānqì yuèláiyuè rè le.", vn: "Thời tiết càng ngày càng nóng rồi." },
+      { tc: "你的中文說得越來越流利了。", py: "Nǐ de Zhōngwén shuō de yuèláiyuè liúlì le.", vn: "Tiếng Trung của bạn nói càng ngày càng lưu loát rồi." },
+      { tc: "學中文的外國人越來越多。", py: "Xué Zhōngwén de wàiguó rén yuèláiyuè duō.", vn: "Người nước ngoài học tiếng Trung càng ngày càng nhiều." }
+    ],
+    idiom: "越來越近 Yuèláiyuè jìn - Càng ngày càng gần.<br>🔸 Ví dụ: 考試的時間越來越近了，大家都很緊張。 Kǎoshì de shíjiān yuèláiyuè jìn le, dàjiā dōu hěn jǐnzhāng. - Thời gian thi càng ngày càng gần, mọi người đều rất căng thẳng.", 
+    level: "TOCFL A2"
+  },
   ];
