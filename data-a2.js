@@ -4597,4 +4597,384 @@ const dataA2 = [
     idiom: "那怎麼辦 Nà zěnmebàn - Vậy thì phải làm sao?<br>🔸 Ví dụ: 餐廳客滿了，那我們怎麼辦？ Cāntīng kèmǎn le, nà wǒmen zěnmebàn? - Nhà hàng kín chỗ rồi, vậy chúng ta phải làm sao đây?", 
     level: "TOCFL A2"
   },
+  {
+    word: "聊", pinyin: "liáo", hanViet: "Liêu",
+    image: "",
+    radical: "聊 (Bộ Nhĩ 耳)<br>💡 Mẹo nhớ: Dùng tai (耳) để lắng nghe và trò chuyện qua lại với nhau.",
+    explanation: "Động từ: Nói chuyện, tán gẫu.",
+    compounds: [
+      { tc: "聊天", py: "liáotiān", vn: "nói chuyện phiếm" },
+      { tc: "聊一聊", py: "liáo yì liáo", vn: "nói chuyện một chút" }
+    ],
+    examples: [
+      { tc: "我們坐下來聊一聊吧。", py: "Wǒmen zuò xiàlái liáo yì liáo ba.", vn: "Chúng ta ngồi xuống nói chuyện một chút đi." },
+      { tc: "你昨天跟他說了什麼？我們只聊了工作。", py: "Nǐ zuótiān gēn tā shuō le shénme? Wǒmen zhǐ liáo le gōngzuò.", vn: "Hôm qua bạn nói gì với anh ấy thế? Chúng tôi chỉ nói chuyện công việc thôi." },
+      { tc: "我很喜歡跟她聊電影。", py: "Wǒ hěn xǐhuān gēn tā liáo diànyǐng.", vn: "Tôi rất thích nói chuyện về điện ảnh với cô ấy." }
+    ],
+    idiom: "聊得來 Liáodelái - Nói chuyện hợp nhau.<br>🔸 Ví dụ: 我們兩個人很聊得來。 Wǒmen liǎng ge rén hěn liáodelái. - Hai người chúng tôi nói chuyện rất hợp nhau.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "忽然", pinyin: "hūrán", hanViet: "Hốt nhiên",
+    image: "",
+    radical: "忽 (Bộ Tâm 心) + 然 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Một ý nghĩ thoáng qua trong tâm (心) một cách bất ngờ, nhanh chóng.",
+    explanation: "Phó từ: Đột nhiên, bỗng nhiên.",
+    compounds: [
+      { tc: "忽然發現", py: "hūrán fāxiàn", vn: "đột nhiên phát hiện" }
+    ],
+    examples: [
+      { tc: "走在路上，天忽然下起雨來。", py: "Zǒu zài lùshàng, tiān hūrán xià qǐ yǔ lái.", vn: "Đang đi trên đường, trời bỗng nhiên đổ mưa." },
+      { tc: "他忽然想起自己忘記帶錢包了。", py: "Tā hūrán xiǎngqǐ zìjǐ wàngjì dài qiánbāo le.", vn: "Anh ấy đột nhiên nhớ ra mình quên mang ví tiền rồi." },
+      { tc: "我忽然有一個好主意。", py: "Wǒ hūrán yǒu yí ge hǎo zhǔyì.", vn: "Tôi bỗng nhiên có một ý kiến hay." }
+    ],
+    idiom: "忽然之間 Hūrán zhī jiān - Đột nhiên / Chỉ trong chớp mắt.<br>🔸 Ví dụ: 忽然之間，她就哭了起來。 Hūrán zhī jiān, tā jiù kū le qǐlái. - Đột nhiên, cô ấy liền bật khóc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聲音", pinyin: "shēngyīn", hanViet: "Thanh âm",
+    image: "",
+    radical: "聲 (Bộ Nhĩ 耳) + 音 (Bộ Âm 音)<br>💡 Mẹo nhớ: Dùng tai (耳) để tiếp nhận các loại âm thanh (音) truyền đến.",
+    explanation: "Danh từ: Âm thanh, tiếng, giọng nói.",
+    compounds: [
+      { tc: "大聲", py: "dàshēng", vn: "lớn tiếng" },
+      { tc: "小聲", py: "xiǎoshēng", vn: "nhỏ tiếng" }
+    ],
+    examples: [
+      { tc: "你聽，這是什麼聲音？", py: "Nǐ tīng, zhè shì shénme shēngyīn?", vn: "Bạn nghe xem, đây là âm thanh gì vậy?" },
+      { tc: "她的聲音很好聽。", py: "Tā de shēngyīn hěn hǎotīng.", vn: "Giọng nói của cô ấy rất hay." },
+      { tc: "電視的聲音太大了，請關小一點。", py: "Diànshì de shēngyīn tài dà le, qǐng guān xiǎo yìdiǎn.", vn: "Tiếng tivi lớn quá, vui lòng vặn nhỏ lại một chút." }
+    ],
+    idiom: "大聲點 Dàshēng diǎn - Nói lớn tiếng lên chút.<br>🔸 Ví dụ: 這裡太吵了，請你說大聲點。 Zhèlǐ tài chǎo le, qǐng nǐ shuō dàshēng diǎn. - Ở đây ồn quá, xin bạn nói lớn tiếng lên một chút.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "奇怪", pinyin: "qíguài", hanViet: "Kỳ quái",
+    image: "",
+    radical: "奇 (Bộ Đại 大) + 怪 (Bộ Tâm 忄)<br>💡 Mẹo nhớ: Trong lòng (忄) cảm thấy mọi thứ to lớn (大) và khác thường.",
+    explanation: "Tính từ: Kỳ lạ, kỳ quái.",
+    compounds: [
+      { tc: "很奇怪", py: "hěn qíguài", vn: "rất kỳ lạ" }
+    ],
+    examples: [
+      { tc: "這件事情真奇怪。", py: "Zhè jiàn shìqíng zhēn qíguài.", vn: "Chuyện này thật kỳ lạ." },
+      { tc: "那個人穿著奇怪的衣服。", py: "Nàge rén chuānzhe qíguài de yīfú.", vn: "Người đó đang mặc bộ quần áo kỳ lạ." },
+      { tc: "我聽到了一個奇怪的聲音。", py: "Wǒ tīngdào le yí ge qíguài de shēngyīn.", vn: "Tôi đã nghe thấy một âm thanh kỳ lạ." }
+    ],
+    idiom: "少見多怪 Shǎojiàn duōguài - Ít thấy nên lấy làm lạ.<br>🔸 Ví dụ: 這在台灣很正常，你真是少見多怪。 Zhè zài Táiwān hěn zhèngcháng, nǐ zhēnshi shǎojiàn duōguài. - Chuyện này ở Đài Loan rất bình thường, bạn đúng là ít thấy nên lấy làm lạ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "袋子", pinyin: "dàizi", hanViet: "Đại tử",
+    image: "",
+    radical: "袋 (Bộ Y 衣) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Chiếc túi được may từ vải vóc, quần áo (衣) để đựng đồ.",
+    explanation: "Danh từ: Cái túi, bao, bị.",
+    compounds: [
+      { tc: "塑膠袋", py: "sùjiāodài", vn: "túi nilon" },
+      { tc: "環保袋", py: "huánbǎodài", vn: "túi bảo vệ môi trường" }
+    ],
+    examples: [
+      { tc: "請問你需要袋子嗎？", py: "Qǐngwèn nǐ xūyào dàizi ma?", vn: "Xin hỏi bạn có cần túi không?" },
+      { tc: "他手裡提著兩個大袋子。", py: "Tā shǒu lǐ tízhe liǎng ge dà dàizi.", vn: "Trong tay anh ấy đang xách hai cái túi lớn." },
+      { tc: "請把這些書裝進袋子裡。", py: "Qǐng bǎ zhèxiē shū zhuāng jìn dàizi lǐ.", vn: "Vui lòng cho những quyển sách này vào trong túi." }
+    ],
+    idiom: "購物袋 Gòuwùdài - Túi mua sắm.<br>🔸 Ví dụ: 去超市買東西記得帶購物袋。 Qù chāoshì mǎi dōngxī jìdé dài gòuwùdài. - Đi siêu thị mua đồ nhớ mang theo túi mua sắm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "輛", pinyin: "liàng", hanViet: "Lượng",
+    image: "",
+    radical: "輛 (Bộ Xa 車)<br>💡 Mẹo nhớ: Chữ Lưỡng (兩 - hai) và bộ Xa (車 - xe). Lượng từ dùng cho các loại xe cộ có bánh xe.",
+    explanation: "Lượng từ: Chiếc, cỗ (dùng cho xe cộ).",
+    compounds: [
+      { tc: "一輛車", py: "yí liàng chē", vn: "một chiếc xe" }
+    ],
+    examples: [
+      { tc: "門口停著一輛白色的車。", py: "Ménkǒu tíngzhe yí liàng báisè de chē.", vn: "Trước cửa đang đỗ một chiếc xe màu trắng." },
+      { tc: "那輛腳踏車是誰的？", py: "Nà liàng jiǎotàchē shì shuí de?", vn: "Chiếc xe đạp đó là của ai vậy?" },
+      { tc: "我剛買了一輛新機車。", py: "Wǒ gāng mǎi le yí liàng xīn jīchē.", vn: "Tôi vừa mua một chiếc xe máy mới." }
+    ],
+    idiom: "這輛車 Zhè liàng chē - Chiếc xe này.<br>🔸 Ví dụ: 這輛車很貴，我買不起。 Zhè liàng chē hěn guì, wǒ mǎi bù qǐ. - Chiếc xe này rất đắt, tôi mua không nổi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "一定", pinyin: "yídìng", hanViet: "Nhất định",
+    image: "",
+    radical: "一 (Bộ Nhất 一) + 定 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Mọi việc đã được quyết định cố định, chắc chắn ở dưới một mái nhà (宀).",
+    explanation: "Phó từ / Tính từ: Nhất định, chắc chắn / Nhất định (ở một mức độ nào đó).",
+    compounds: [
+      { tc: "不一定", py: "bù yídìng", vn: "không chắc, chưa chắc" }
+    ],
+    examples: [
+      { tc: "我明天一定會來。", py: "Wǒ míngtiān yídìng huì lái.", vn: "Ngày mai tôi nhất định sẽ đến." },
+      { tc: "他今天生病了，不一定會來上課。", py: "Tā jīntiān shēngbìng le, bù yídìng huì lái shàngkè.", vn: "Hôm nay anh ấy bị ốm rồi, chưa chắc sẽ đến lớp." },
+      { tc: "學好中文需要一定的時間。", py: "Xué hǎo Zhōngwén xūyào yídìng de shíjiān.", vn: "Học tốt tiếng Trung cần một khoảng thời gian nhất định." }
+    ],
+    idiom: "說到做到，一定辦到 Shuō dào zuò dào, yídìng bàn dào - Nói được làm được, nhất định làm được.<br>🔸 Ví dụ: 你放心，我說到做到，一定辦到。 Nǐ fàngxīn, wǒ shuō dào zuò dào, yídìng bàn dào. - Bạn yên tâm, tôi nói được làm được, nhất định làm được.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "地點", pinyin: "dìdiǎn", hanViet: "Địa điểm",
+    image: "",
+    radical: "地 (Bộ Thổ 土) + 點 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Một điểm (點) cụ thể nằm trên mặt đất (土 - 地).",
+    explanation: "Danh từ: Địa điểm, vị trí.",
+    compounds: [
+      { tc: "開會地點", py: "kāihuì dìdiǎn", vn: "địa điểm họp" },
+      { tc: "約會地點", py: "yuēhuì dìdiǎn", vn: "địa điểm hẹn hò" }
+    ],
+    examples: [
+      { tc: "請問面試的地點在哪裡？", py: "Qǐngwèn miànshì de dìdiǎn zài nǎlǐ?", vn: "Xin hỏi địa điểm phỏng vấn ở đâu?" },
+      { tc: "我們還沒決定聚餐的地點。", py: "Wǒmen hái méi juédìng jùcān de dìdiǎn.", vn: "Chúng tôi vẫn chưa quyết định địa điểm ăn liên hoan." },
+      { tc: "這個地點離車站很近，非常方便。", py: "Zhège dìdiǎn lí chēzhàn hěn jìn, fēicháng fāngbiàn.", vn: "Địa điểm này cách bến xe rất gần, vô cùng tiện lợi." }
+    ],
+    idiom: "改變地點 Gǎibiàn dìdiǎn - Thay đổi địa điểm.<br>🔸 Ví dụ: 因為下雨，我們必須改變活動地點。 Yīnwèi xiàyǔ, wǒmen bìxū gǎibiàn huódòng dìdiǎn. - Vì trời mưa, chúng tôi bắt buộc phải thay đổi địa điểm hoạt động.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "為了", pinyin: "wèile", hanViet: "Vị liễu",
+    image: "",
+    radical: "為 (Bộ Hỏa 灬) + 了 (Bộ Quyết 亅)<br>💡 Mẹo nhớ: Cụm từ chuyên dùng để biểu thị mục đích của một hành động.",
+    explanation: "Giới từ: Để, vì, nhằm (chỉ mục đích).",
+    compounds: [
+      { tc: "為了你好", py: "wèile nǐ hǎo", vn: "vì muốn tốt cho bạn" }
+    ],
+    examples: [
+      { tc: "為了健康，他每天都去跑步。", py: "Wèile jiànkāng, tā měitiān dōu qù pǎobù.", vn: "Để có sức khỏe, mỗi ngày anh ấy đều đi chạy bộ." },
+      { tc: "我這麼做都是為了你。", py: "Wǒ zhème zuò dōu shì wèile nǐ.", vn: "Tôi làm như vậy đều là vì bạn." },
+      { tc: "為了學好中文，他決定去台灣留學。", py: "Wèile xué hǎo Zhōngwén, tā juédìng qù Táiwān liúxué.", vn: "Để học tốt tiếng Trung, anh ấy quyết định đi Đài Loan du học." }
+    ],
+    idiom: "為了賺錢 Wèile zhuànqián - Vì để kiếm tiền.<br>🔸 Ví dụ: 為了賺錢，他每天打兩份工。 Wèile zhuànqián, tā měitiān dǎ liǎng fèn gōng. - Vì để kiếm tiền, mỗi ngày anh ấy làm thêm hai công việc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "保護", pinyin: "bǎohù", hanViet: "Bảo hộ",
+    image: "",
+    radical: "保 (Bộ Nhân 亻) + 護 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Con người (亻) dùng lời nói (言) và hành động để che chở, giữ gìn một thứ gì đó.",
+    explanation: "Động từ: Bảo vệ, giữ gìn.",
+    compounds: [
+      { tc: "保護環境", py: "bǎohù huánjìng", vn: "bảo vệ môi trường" },
+      { tc: "自我保護", py: "zìwǒ bǎohù", vn: "tự bảo vệ bản thân" }
+    ],
+    examples: [
+      { tc: "我們應該好好保護環境。", py: "Wǒmen yīnggāi hǎohǎo bǎohù huánjìng.", vn: "Chúng ta nên bảo vệ môi trường cho thật tốt." },
+      { tc: "父母總是想保護自己的孩子。", py: "Fùmǔ zǒngshì xiǎng bǎohù zìjǐ de háizi.", vn: "Cha mẹ lúc nào cũng muốn bảo vệ con cái của mình." },
+      { tc: "戴太陽眼鏡可以保護眼睛。", py: "Dài tàiyáng yǎnjìng kěyǐ bǎohù yǎnjīng.", vn: "Đeo kính râm có thể bảo vệ đôi mắt." }
+    ],
+    idiom: "保護地球 Bǎohù dìqiú - Bảo vệ Trái Đất.<br>🔸 Ví dụ: 做資源回收也是保護地球的一種方式。 Zuò zīyuán huíshōu yě shì bǎohù dìqiú de yì zhǒng fāngshì. - Làm tái chế tài nguyên cũng là một cách để bảo vệ Trái Đất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "分類", pinyin: "fēnlèi", hanViet: "Phân loại",
+    image: "",
+    radical: "分 (Bộ Đao 刀) + 類 (Bộ Hiệt 頁)<br>💡 Mẹo nhớ: Dùng dao (刀) để chia tách, cắt nhỏ ra thành từng loại (類) riêng biệt.",
+    explanation: "Động từ / Danh từ: Phân loại.",
+    compounds: [
+      { tc: "垃圾分類", py: "lèsè fēnlèi", vn: "phân loại rác" },
+      { tc: "分類清楚", py: "fēnlèi qīngchǔ", vn: "phân loại rõ ràng" }
+    ],
+    examples: [
+      { tc: "在台灣，丟垃圾前必須先分類。", py: "Zài Táiwān, diū lèsè qián bìxū xiān fēnlèi.", vn: "Ở Đài Loan, trước khi vứt rác bắt buộc phải phân loại trước." },
+      { tc: "這些書已經按照顏色分類好了。", py: "Zhèxiē shū yǐjīng ànzhào yánsè fēnlèi hǎo le.", vn: "Những quyển sách này đã được phân loại xong theo màu sắc rồi." },
+      { tc: "請你幫我把這些資料分類一下。", py: "Qǐng nǐ bāng wǒ bǎ zhèxiē zīliào fēnlèi yíxià.", vn: "Xin bạn giúp tôi phân loại những tài liệu này một chút." }
+    ],
+    idiom: "做好分類 Zuò hǎo fēnlèi - Làm tốt việc phân loại.<br>🔸 Ví dụ: 為了環保，我們應該做好垃圾分類。 Wèile huánbǎo, wǒmen yīnggāi zuò hǎo lèsè fēnlèi. - Vì bảo vệ môi trường, chúng ta nên làm tốt việc phân loại rác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "利用", pinyin: "lìyòng", hanViet: "Lợi dụng",
+    image: "",
+    radical: "利 (Bộ Đao 刂) + 用 (Bộ Dụng 用)<br>💡 Mẹo nhớ: Sử dụng (用) một thứ gì đó để mang lại lợi ích (利) cho bản thân.",
+    explanation: "Động từ: Tận dụng, sử dụng, lợi dụng.",
+    compounds: [
+      { tc: "廢物利用", py: "fèiwù lìyòng", vn: "tận dụng đồ bỏ đi" },
+      { tc: "利用時間", py: "lìyòng shíjiān", vn: "tận dụng thời gian" }
+    ],
+    examples: [
+      { tc: "我們應該好好利用週末的時間讀書。", py: "Wǒmen yīnggāi hǎohǎo lìyòng zhōumò de shíjiān dúshū.", vn: "Chúng ta nên tận dụng tốt thời gian cuối tuần để đọc sách." },
+      { tc: "他利用舊瓶子做了一個漂亮的花瓶。", py: "Tā lìyòng jiù píngzi zuò le yí ge piàoliang de huāpíng.", vn: "Anh ấy đã tận dụng cái chai cũ để làm một bình hoa đẹp." },
+      { tc: "我不喜歡被人利用。", py: "Wǒ bù xǐhuān bèi rén lìyòng.", vn: "Tôi không thích bị người khác lợi dụng." }
+    ],
+    idiom: "好好利用 Hǎohǎo lìyòng - Tận dụng cho tốt.<br>🔸 Ví dụ: 這些資料很有用，你要好好利用。 Zhèxiē zīliào hěn yǒuyòng, nǐ yào hǎohǎo lìyòng. - Những tài liệu này rất hữu ích, bạn phải tận dụng cho tốt nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "紙", pinyin: "zhǐ", hanViet: "Chỉ",
+    image: "",
+    radical: "紙 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Ngày xưa giấy thường được làm từ những sợi bông, tơ tằm (糸) ép mỏng.",
+    explanation: "Danh từ: Giấy.",
+    compounds: [
+      { tc: "一張紙", py: "yì zhāng zhǐ", vn: "một tờ giấy" },
+      { tc: "廢紙", py: "fèizhǐ", vn: "giấy lộn, giấy nháp" }
+    ],
+    examples: [
+      { tc: "請問你可以給我一張紙嗎？", py: "Qǐngwèn nǐ kěyǐ gěi wǒ yì zhāng zhǐ ma?", vn: "Xin hỏi bạn có thể cho tôi một tờ giấy không?" },
+      { tc: "這些紙都可以回收。", py: "Zhèxiē zhǐ dōu kěyǐ huíshōu.", vn: "Những loại giấy này đều có thể tái chế." },
+      { tc: "請把名字寫在這張紙上。", py: "Qǐng bǎ míngzi xiě zài zhè zhāng zhǐ shàng.", vn: "Vui lòng viết tên lên trên tờ giấy này." }
+    ],
+    idiom: "白紙黑字 Báizhǐ hēizì - Giấy trắng mực đen (Bằng chứng rõ ràng).<br>🔸 Ví dụ: 合約上白紙黑字寫得很清楚。 Héyuē shàng báizhǐ hēizì xiě de hěn qīngchǔ. - Trên hợp đồng giấy trắng mực đen viết rất rõ ràng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "瓶子", pinyin: "píngzi", hanViet: "Bình tử",
+    image: "",
+    radical: "瓶 (Bộ Ngõa 瓦) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Đồ vật dùng để đựng chất lỏng, thời xưa thường được nặn bằng đất nung, sành sứ (瓦).",
+    explanation: "Danh từ: Cái chai, lọ, bình.",
+    compounds: [
+      { tc: "玻璃瓶", py: "bōlípíng", vn: "chai thủy tinh" },
+      { tc: "水瓶", py: "shuǐpíng", vn: "bình nước" }
+    ],
+    examples: [
+      { tc: "桌子上有一個空瓶子。", py: "Zhuōzi shàng yǒu yí ge kōng píngzi.", vn: "Trên bàn có một cái chai rỗng." },
+      { tc: "請把這些塑膠瓶子拿去回收。", py: "Qǐng bǎ zhèxiē sùjiāo píngzi ná qù huíshōu.", vn: "Vui lòng mang những cái chai nhựa này đi tái chế." },
+      { tc: "他不小心打破了一個玻璃瓶子。", py: "Tā bù xiǎoxīn dǎpò le yí ge bōlí píngzi.", vn: "Anh ấy vô tình làm vỡ một cái chai thủy tinh." }
+    ],
+    idiom: "寶特瓶 Bǎotèpíng - Chai nhựa PET (Từ rất phổ biến ở Đài Loan).<br>🔸 Ví dụ: 喝完飲料後，寶特瓶要丟進回收桶。 Hē wán yǐnliào hòu, bǎotèpíng yào diū jìn huíshōu tǒng. - Sau khi uống xong đồ uống, chai nhựa phải vứt vào thùng tái chế.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "塑膠", pinyin: "sùjiāo", hanViet: "Tố giao",
+    image: "",
+    radical: "塑 (Bộ Thổ 土) + 膠 (Bộ Nhục 肉)<br>💡 Mẹo nhớ: Vật liệu nhân tạo có tính chất dẻo, kết dính (膠) và có thể nặn thành hình (塑).",
+    explanation: "Danh từ: Nhựa, plastic.",
+    compounds: [
+      { tc: "塑膠袋", py: "sùjiāodài", vn: "túi nilon" },
+      { tc: "塑膠杯", py: "sùjiāo bēi", vn: "cốc nhựa" }
+    ],
+    examples: [
+      { tc: "為了環保，我們應該少用塑膠袋。", py: "Wèile huánbǎo, wǒmen yīnggāi shǎo yòng sùjiāodài.", vn: "Vì bảo vệ môi trường, chúng ta nên ít sử dụng túi nilon." },
+      { tc: "這張桌子是塑膠做的。", py: "Zhè zhāng zhuōzi shì sùjiāo zuò de.", vn: "Cái bàn này được làm bằng nhựa." },
+      { tc: "塑膠垃圾對環境的影響很大。", py: "Sùjiāo lèsè duì huánjìng de yǐngxiǎng hěn dà.", vn: "Rác thải nhựa có ảnh hưởng rất lớn đến môi trường." }
+    ],
+    idiom: "減塑 Jiǎnsù - Giảm thiểu nhựa.<br>🔸 Ví dụ: 台灣現在推行減塑生活。 Táiwān xiànzài tuīxíng jiǎnsù shēnghuó. - Đài Loan hiện tại đang đẩy mạnh lối sống giảm thiểu nhựa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "資源", pinyin: "zīyuán", hanViet: "Tư nguyên",
+    image: "",
+    radical: "資 (Bộ Bối 貝) + 源 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Nguồn gốc (源) mang lại giá trị như tiền bạc (貝 - 資) cho con người chính là tài nguyên.",
+    explanation: "Danh từ: Tài nguyên.",
+    compounds: [
+      { tc: "資源回收", py: "zīyuán huíshōu", vn: "tái chế tài nguyên" },
+      { tc: "天然資源", py: "tiānrán zīyuán", vn: "tài nguyên thiên nhiên" }
+    ],
+    examples: [
+      { tc: "水是非常重要的資源。", py: "Shuǐ shì fēicháng zhòngyào de zīyuán.", vn: "Nước là một tài nguyên vô cùng quan trọng." },
+      { tc: "我們應該好好保護地球的資源。", py: "Wǒmen yīnggāi hǎohǎo bǎohù dìqiú de zīyuán.", vn: "Chúng ta nên bảo vệ tốt tài nguyên của Trái Đất." },
+      { tc: "星期三是我們社區的資源回收日。", py: "Xīngqísān shì wǒmen shèqū de zīyuán huíshōu rì.", vn: "Thứ Tư là ngày tái chế tài nguyên của khu phố chúng tôi." }
+    ],
+    idiom: "浪費資源 Làngfèi zīyuán - Lãng phí tài nguyên.<br>🔸 Ví dụ: 不關燈是一種浪費資源的行為。 Bù guān dēng shì yì zhǒng làngfèi zīyuán de xíngwéi. - Không tắt đèn là một hành vi lãng phí tài nguyên.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "回收桶", pinyin: "huíshōutǒng", hanViet: "Hồi thu thùng",
+    image: "",
+    radical: "回 (Bộ Vi 囗) + 收 (Bộ Phộc 攵) + 桶 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Cái thùng bằng gỗ (木) dùng để thu gom đồ đạc tái chế.",
+    explanation: "Danh từ: Thùng rác tái chế, thùng thu hồi.",
+    compounds: [
+      { tc: "資源回收桶", py: "zīyuán huíshōutǒng", vn: "thùng tái chế tài nguyên" }
+    ],
+    examples: [
+      { tc: "請把空瓶子丟進回收桶裡。", py: "Qǐng bǎ kōng píngzi diū jìn huíshōutǒng lǐ.", vn: "Vui lòng vứt cái chai rỗng vào trong thùng tái chế." },
+      { tc: "這個公園裡沒有回收桶。", py: "Zhège gōngyuán lǐ méiyǒu huíshōutǒng.", vn: "Trong công viên này không có thùng tái chế." },
+      { tc: "垃圾桶旁邊那個藍色的是回收桶。", py: "Lèsè tǒng pángbiān nàge lánsè de shì huíshōutǒng.", vn: "Cái màu xanh lam bên cạnh thùng rác đó là thùng tái chế." }
+    ],
+    idiom: "分類回收桶 Fēnlèi huíshōutǒng - Thùng tái chế phân loại.<br>🔸 Ví dụ: 捷運站裡有很多分類回收桶。 Jiéyùn zhàn lǐ yǒu hěn duō fēnlèi huíshōutǒng. - Trong trạm tàu điện ngầm có rất nhiều thùng tái chế phân loại.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "城市", pinyin: "chéngshì", hanViet: "Thành thị",
+    image: "",
+    radical: "城 (Bộ Thổ 土) + 市 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Nơi có tường thành (城) bao quanh và có chợ (市) buôn bán sầm uất.",
+    explanation: "Danh từ: Thành phố, thành thị.",
+    compounds: [
+      { tc: "大城市", py: "dà chéngshì", vn: "thành phố lớn" },
+      { tc: "城市生活", py: "chéngshì shēnghuó", vn: "cuộc sống thành thị" }
+    ],
+    examples: [
+      { tc: "台北是一個很繁華的城市。", py: "Táiběi shì yí ge hěn fánhuá de chéngshì.", vn: "Đài Bắc là một thành phố rất phồn hoa." },
+      { tc: "他習慣了城市的生活。", py: "Tā xíguàn le chéngshì de shēnghuó.", vn: "Anh ấy đã quen với cuộc sống thành phố rồi." },
+      { tc: "這個城市的交通非常方便。", py: "Zhège chéngshì de jiāotōng fēicháng fāngbiàn.", vn: "Giao thông của thành phố này vô cùng tiện lợi." }
+    ],
+    idiom: "城市人 Chéngshì rén - Người thành phố.<br>🔸 Ví dụ: 很多城市人都喜歡去鄉下度假。 Hěn duō chéngshì rén dōu xǐhuān qù xiāngxià dùjià. - Rất nhiều người thành phố đều thích về quê nghỉ dưỡng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聽見", pinyin: "tīngjiàn", hanViet: "Thính kiến",
+    image: "",
+    radical: "聽 (Bộ Nhĩ 耳) + 見 (Bộ Kiến 見)<br>💡 Mẹo nhớ: Dùng tai (耳) để nghe (聽) và nhận thức được (見) âm thanh.",
+    explanation: "Động từ: Nghe thấy, nghe được.",
+    compounds: [
+      { tc: "聽不見", py: "tīng bú jiàn", vn: "nghe không thấy" }
+    ],
+    examples: [
+      { tc: "你聽見外面的聲音了嗎？", py: "Nǐ tīngjiàn wàimiàn de shēngyīn le ma?", vn: "Bạn có nghe thấy âm thanh bên ngoài không?" },
+      { tc: "這裡太吵了，我聽不見你說話。", py: "Zhèlǐ tài chǎo le, wǒ tīng bú jiàn nǐ shuōhuà.", vn: "Ở đây ồn quá, tôi nghe không thấy bạn nói gì." },
+      { tc: "我好像聽見有人在叫我的名字。", py: "Wǒ hǎoxiàng tīngjiàn yǒu rén zài jiào wǒ de míngzi.", vn: "Tôi hình như nghe thấy có người đang gọi tên mình." }
+    ],
+    idiom: "聽得見 Tīng de jiàn - Có thể nghe thấy.<br>🔸 Ví dụ: 你站在那裡聽得見嗎？ Nǐ zhàn zài nàlǐ tīng de jiàn ma? - Bạn đứng ở đó có nghe thấy không?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "開過來", pinyin: "kāi guòlái", hanViet: "Khai quá lai",
+    image: "",
+    radical: "開 (Bộ Môn 門) + 過 (Bộ Xước 辶) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Hành động lái (開) xe băng qua (過) và hướng về phía người đang nói (來).",
+    explanation: "Cụm động từ: Lái (xe) qua đây, chạy tới (hướng về phía người nói).",
+    compounds: [
+      { tc: "開過去", py: "kāi guòqù", vn: "lái qua đó" }
+    ],
+    examples: [
+      { tc: "垃圾車開過來了，趕快去倒垃圾。", py: "Lèsè chē kāi guòlái le, gǎnkuài qù dào lèsè.", vn: "Xe rác lái tới rồi, mau đi đổ rác thôi." },
+      { tc: "請你把車子開過來一點。", py: "Qǐng nǐ bǎ chēzi kāi guòlái yìdiǎn.", vn: "Xin bạn lái xe qua đây một chút." },
+      { tc: "我看到他的車開過來了。", py: "Wǒ kàndào tā de chē kāi guòlái le.", vn: "Tôi nhìn thấy xe của anh ấy đang chạy tới rồi." }
+    ],
+    idiom: "把車開過來 Bǎ chē kāi guòlái - Lái xe qua đây.<br>🔸 Ví dụ: 你先在門口等，我把車開過來。 Nǐ xiān zài ménkǒu děng, wǒ bǎ chē kāi guòlái. - Bạn đứng đợi ở cửa trước đi, tôi lái xe qua đây.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "走過去", pinyin: "zǒu guòqù", hanViet: "Tẩu quá khứ",
+    image: "",
+    radical: "走 (Bộ Tẩu 走) + 過 (Bộ Xước 辶) + 去 (Bộ Tư 厶)<br>💡 Mẹo nhớ: Bước đi (走) băng qua (過) không gian theo hướng đi xa khỏi người nói (去).",
+    explanation: "Cụm động từ: Đi qua đó, bước qua đó (hướng ra xa người nói).",
+    compounds: [
+      { tc: "走過來", py: "zǒu guòlái", vn: "đi qua đây" }
+    ],
+    examples: [
+      { tc: "綠燈了，我們走過去吧。", py: "Lǜdēng le, wǒmen zǒu guòqù ba.", vn: "Đèn xanh rồi, chúng ta đi qua đó đi." },
+      { tc: "他看見朋友，就高興地走過去了。", py: "Tā kànjiàn péngyǒu, jiù gāoxìng de zǒu guòqù le.", vn: "Anh ấy nhìn thấy bạn, liền vui vẻ bước qua đó." },
+      { tc: "那家店不遠，我們走過去只要五分鐘。", py: "Nà jiā diàn bù yuǎn, wǒmen zǒu guòqù zhǐyào wǔ fēnzhōng.", vn: "Quán đó không xa, chúng ta đi bộ qua đó chỉ mất 5 phút." }
+    ],
+    idiom: "走過去看看 Zǒu guòqù kànkàn - Đi qua đó xem thử.<br>🔸 Ví dụ: 那邊好像發生了什麼事，我們走過去看看。 Nàbiān hǎoxiàng fāshēng le shénme shì, wǒmen zǒu guòqù kànkàn. - Bên kia hình như xảy ra chuyện gì đó, chúng ta đi qua đó xem thử đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "丟進去", pinyin: "diū jìnqù", hanViet: "Đâu tiến khứ",
+    image: "",
+    radical: "丟 (Bộ Nhất 一) + 進 (Bộ Xước 辶) + 去 (Bộ Tư 厶)<br>💡 Mẹo nhớ: Ném (丟) một đồ vật đi vào bên trong (進).",
+    explanation: "Cụm động từ: Ném vào trong, vứt vào trong.",
+    compounds: [
+      { tc: "丟出來", py: "diū chūlái", vn: "ném ra ngoài" }
+    ],
+    examples: [
+      { tc: "請把這些紙杯丟進去回收桶裡。", py: "Qǐng bǎ zhèxiē zhǐbēi diū jìnqù huíshōutǒng lǐ.", vn: "Vui lòng vứt những chiếc ly giấy này vào trong thùng tái chế." },
+      { tc: "他把信丟進去郵筒了。", py: "Tā bǎ xìn diū jìnqù yóutǒng le.", vn: "Anh ấy đã vứt bức thư vào trong thùng thư rồi." },
+      { tc: "不要把不好的東西丟進去洗衣機。", py: "Búyào bǎ bù hǎo de dōngxī diū jìnqù xǐyījī.", vn: "Đừng vứt những thứ không tốt vào trong máy giặt." }
+    ],
+    idiom: "把垃圾丟進去 Bǎ lèsè diū jìnqù - Vứt rác vào trong.<br>🔸 Ví dụ: 麻煩你把垃圾丟進去那個紅色的桶子裡。 Máfan nǐ bǎ lèsè diū jìnqù nàge hóngsè de tǒngzi lǐ. - Phiền bạn vứt rác vào trong cái thùng màu đỏ đó.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "路上", pinyin: "lùshàng", hanViet: "Lộ thượng",
+    image: "",
+    radical: "路 (Bộ Túc 足) + 上 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Ở trên (上) mặt đường đi (路) hoặc đang trong quá trình di chuyển.",
+    explanation: "Danh từ chỉ vị trí: Trên đường, trên đường đi.",
+    compounds: [
+      { tc: "馬路上", py: "mǎlù shàng", vn: "trên mặt đường" }
+    ],
+    examples: [
+      { tc: "我現在在路上，馬上就到了。", py: "Wǒ xiànzài zài lùshàng, mǎshàng jiù dào le.", vn: "Tôi hiện đang trên đường, tới ngay đây." },
+      { tc: "下雨天，路上的車子很多。", py: "Xiàyǔ tiān, lùshàng de chēzi hěn duō.", vn: "Ngày mưa, xe cộ trên đường rất đông." },
+      { tc: "他在回家的路上買了晚餐。", py: "Tā zài huí jiā de lùshàng mǎi le wǎncān.", vn: "Anh ấy đã mua bữa tối ở trên đường về nhà." }
+    ],
+    idiom: "在路上 Zài lùshàng - Đang trên đường đi.<br>🔸 Ví dụ: 別催了，我已經在路上了！ Bié cuī le, wǒ yǐjīng zài lùshàng le! - Đừng giục nữa, tôi đang trên đường đi rồi!", 
+    level: "TOCFL A2"
+  },
   ];
