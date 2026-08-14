@@ -6714,4 +6714,257 @@ const dataA2 = [
     idiom: "酸甜苦辣 Suān tián kǔ là - Chua ngọt đắng cay / Những thăng trầm của cuộc sống.<br>🔸 Ví dụ: 人生充滿了酸甜苦辣，我們要學會面對。 Rénshēng chōngmǎn le suān tián kǔ là, wǒmen yào xuéhuì miànduì. - Cuộc sống tràn ngập chua ngọt đắng cay, chúng ta phải học cách đối mặt.", 
     level: "TOCFL A2"
   },
+  {
+    word: "學期", pinyin: "xuéqí", hanViet: "Học kỳ",
+    image: "",
+    radical: "學 (Bộ Tử 子) + 期 (Bộ Nguyệt 月)<br>💡 Mẹo nhớ: Khoảng thời gian, ngày tháng (期) quy định dành cho việc học tập (學).",
+    explanation: "Danh từ: Học kỳ.",
+    compounds: [
+      { tc: "上學期", py: "shàng xuéqí", vn: "học kỳ một / học kỳ trước" },
+      { tc: "下學期", py: "xià xuéqí", vn: "học kỳ hai / học kỳ sau" }
+    ],
+    examples: [
+      { tc: "這個學期快要結束了。", py: "Zhège xuéqí kuàiyào jiéshù le.", vn: "Học kỳ này sắp kết thúc rồi." },
+      { tc: "下學期我打算選修語言學的課。", py: "Xià xuéqí wǒ dǎsuàn xuǎnxiū yǔyánxué de kè.", vn: "Học kỳ sau tôi dự định chọn học môn ngôn ngữ học." },
+      { tc: "每個學期都會有期中考和期末考。", py: "Měi ge xuéqí dōu huì yǒu qīzhōng kǎo hé qīmò kǎo.", vn: "Mỗi học kỳ đều sẽ có thi giữa kỳ và thi cuối kỳ." }
+    ],
+    idiom: "新學期 Xīn xuéqí - Học kỳ mới.<br>🔸 Ví dụ: 祝大家新學期有好的開始。 Zhù dàjiā xīn xuéqí yǒu hǎo de kāishǐ. - Chúc mọi người một học kỳ mới có một khởi đầu tốt đẹp.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "趁", pinyin: "chèn", hanViet: "Sấn",
+    image: "",
+    radical: "趁 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Chạy bộ (走) đi thật nhanh để tranh thủ thời gian, cơ hội.",
+    explanation: "Giới từ: Nhân lúc, tranh thủ, nhân cơ hội.",
+    compounds: [
+      { tc: "趁早", py: "chènzǎo", vn: "nhân lúc còn sớm" },
+      { tc: "趁機", py: "chènjī", vn: "thừa cơ, nhân cơ hội" }
+    ],
+    examples: [
+      { tc: "趁天氣好，我們出去走走吧。", py: "Chèn tiānqì hǎo, wǒmen chūqù zǒuzǒu ba.", vn: "Nhân lúc thời tiết đẹp, chúng ta ra ngoài đi dạo đi." },
+      { tc: "湯要趁熱喝才好喝。", py: "Tāng yào chèn rè hē cái hǎohē.", vn: "Canh phải tranh thủ lúc còn nóng uống mới ngon." },
+      { tc: "趁著週末，我把房間打掃乾淨了。", py: "Chènzhe zhōumò, wǒ bǎ fángjiān dǎsǎo gānjìng le.", vn: "Nhân dịp cuối tuần, tôi đã dọn dẹp sạch sẽ căn phòng rồi." }
+    ],
+    idiom: "打鐵趁熱 Dǎtiě chèn rè - Rèn sắt khi còn nóng / Chớp lấy thời cơ.<br>🔸 Ví dụ: 這是一個好機會，我們要打鐵趁熱。 Zhè shì yí ge hǎo jīhuì, wǒmen yào dǎtiě chèn rè. - Đây là một cơ hội tốt, chúng ta phải rèn sắt khi còn nóng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "皮", pinyin: "pí", hanViet: "Bì",
+    image: "",
+    radical: "皮 (Bộ Bì 皮)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng lớp da hoặc lớp vỏ bao bọc bên ngoài sự vật.",
+    explanation: "Danh từ: Da, lớp vỏ, lớp bọc bên ngoài (trong bài này chỉ vỏ hoành thánh, vỏ sủi cảo).",
+    compounds: [
+      { tc: "餃子皮", py: "jiǎozi pí", vn: "vỏ sủi cảo" },
+      { tc: "蘋果皮", py: "píngguǒ pí", vn: "vỏ táo" }
+    ],
+    examples: [
+      { tc: "這個水餃的皮很薄，非常好吃。", py: "Zhège shuǐjiǎo de pí hěn báo, fēicháng hǎochī.", vn: "Vỏ của cái sủi cảo này rất mỏng, vô cùng ngon." },
+      { tc: "你買了包餃子的皮了嗎？", py: "Nǐ mǎi le bāo jiǎozi de pí le ma?", vn: "Bạn đã mua vỏ gói sủi cảo chưa?" },
+      { tc: "我不喜歡吃蘋果皮。", py: "Wǒ bù xǐhuān chī píngguǒ pí.", vn: "Tôi không thích ăn vỏ táo." }
+    ],
+    idiom: "皮包骨 Pí bāo gǔ - Da bọc xương / Gầy giơ xương.<br>🔸 Ví dụ: 那隻流浪狗餓得皮包骨。 Nà zhī liúlànggǒu è de pí bāo gǔ. - Chú chó hoang đó đói đến mức da bọc xương.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "嚐", pinyin: "cháng", hanViet: "Thường",
+    image: "",
+    radical: "嚐 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Dùng miệng (口) để thử xem mùi vị thức ăn như thế nào.",
+    explanation: "Động từ: Nếm, nếm thử.",
+    compounds: [
+      { tc: "嚐一嚐", py: "cháng yì cháng", vn: "nếm thử một chút" },
+      { tc: "品嚐", py: "pǐncháng", vn: "thưởng thức" }
+    ],
+    examples: [
+      { tc: "這是我剛做的菜，你嚐嚐看。", py: "Zhè shì wǒ gāng zuò de cài, nǐ chángcháng kàn.", vn: "Đây là món tôi vừa làm, bạn nếm thử xem." },
+      { tc: "湯的味道有點淡，你嚐一下。", py: "Tāng de wèidào yǒudiǎn dàn, nǐ cháng yíxià.", vn: "Mùi vị của món canh hơi nhạt, bạn nếm một chút xem." },
+      { tc: "去夜市就是要嚐嚐各種小吃。", py: "Qù yèshì jiùshì yào chángcháng gè zhǒng xiǎochī.", vn: "Đi chợ đêm chính là để nếm thử các loại thức ăn vặt." }
+    ],
+    idiom: "嚐鮮 Chángxiān - Nếm thử món mới / Ăn thử đồ tươi mới.<br>🔸 Ví dụ: 這家新開的餐廳，我們去嚐鮮吧。 Zhè jiā xīn kāi de cāntīng, wǒmen qù chángxiān ba. - Nhà hàng này mới mở, chúng ta đi nếm thử món mới đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "大白菜", pinyin: "dàbáicài", hanViet: "Đại bạch thái",
+    image: "",
+    radical: "大 (Lớn) + 白 (Trắng) + 菜 (Bộ Thảo 艹)<br>💡 Mẹo nhớ: Loại rau (菜) có kích thước lớn (大) và phần cuống màu trắng (白).",
+    explanation: "Danh từ: Cải thảo.",
+    compounds: [
+      { tc: "炒大白菜", py: "chǎo dàbáicài", vn: "cải thảo xào" }
+    ],
+    examples: [
+      { tc: "媽媽買了兩顆大白菜。", py: "Māma mǎi le liǎng kē dàbáicài.", vn: "Mẹ đã mua hai bắp cải thảo." },
+      { tc: "韓國泡菜通常是用大白菜做的。", py: "Hánguó pàocài tōngcháng shì yòng dàbáicài zuò de.", vn: "Kim chi Hàn Quốc thông thường được làm bằng cải thảo." },
+      { tc: "今天晚上的湯裡有大白菜。", py: "Jīntiān wǎnshàng de tāng lǐ yǒu dàbáicài.", vn: "Trong món canh tối nay có rau cải thảo." }
+    ],
+    idiom: "白菜價 Báicài jià - Giá rẻ như bèo / Giá rẻ như mớ rau.<br>🔸 Ví dụ: 這些衣服都在打折，簡直是白菜價。 Zhèxiē yīfú dōu zài dǎzhé, jiǎnzhí shì báicài jià. - Những bộ quần áo này đều đang giảm giá, quả thực là giá rẻ như bèo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "加", pinyin: "jiā", hanViet: "Gia",
+    image: "",
+    radical: "加 (Bộ Lực 力)<br>💡 Mẹo nhớ: Dùng sức (力) và miệng (口) để khuyên người khác cố lên, hoặc mang nghĩa thêm vào.",
+    explanation: "Động từ: Thêm, cộng, cho thêm vào.",
+    compounds: [
+      { tc: "加鹽", py: "jiā yán", vn: "thêm muối" },
+      { tc: "加油", py: "jiāyóu", vn: "cố lên / đổ xăng" }
+    ],
+    examples: [
+      { tc: "這杯咖啡我想加一點牛奶。", py: "Zhè bēi kāfēi wǒ xiǎng jiā yìdiǎn niúnǎi.", vn: "Ly cà phê này tôi muốn thêm một chút sữa." },
+      { tc: "湯太淡了，請加一點鹽。", py: "Tāng tài dàn le, qǐng jiā yìdiǎn yán.", vn: "Canh nhạt quá, vui lòng cho thêm một chút muối." },
+      { tc: "如果你覺得冷，可以加一件外套。", py: "Rúguǒ nǐ juéde lěng, kěyǐ jiā yí jiàn wàitào.", vn: "Nếu bạn cảm thấy lạnh, có thể mặc thêm một chiếc áo khoác." }
+    ],
+    idiom: "加倍 Jiābèi - Tăng gấp bội / Gấp đôi.<br>🔸 Ví dụ: 考試快到了，我必須加倍努力。 Kǎoshì kuài dào le, wǒ bìxū jiābèi nǔlì. - Kỳ thi sắp đến rồi, tôi bắt buộc phải nỗ lực gấp bội.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "鹽", pinyin: "yán", hanViet: "Diêm",
+    image: "",
+    radical: "鹽 (Bộ Lỗ 鹵)<br>💡 Mẹo nhớ: Muối được kết tinh từ đất mặn (鹵) và đựng trong đĩa, đồ chứa (皿).",
+    explanation: "Danh từ: Muối.",
+    compounds: [
+      { tc: "鹽水", py: "yánshuǐ", vn: "nước muối" },
+      { tc: "太鹹", py: "tài xián", vn: "quá mặn" }
+    ],
+    examples: [
+      { tc: "做菜時不要放太多鹽，對身體不好。", py: "Zuòcài shí búyào fàng tài duō yán, duì shēntǐ bù hǎo.", vn: "Lúc nấu ăn đừng bỏ quá nhiều muối, không tốt cho sức khỏe." },
+      { tc: "請問鹽在哪裡？我想加一點。", py: "Qǐngwèn yán zài nǎlǐ? Wǒ xiǎng jiā yìdiǎn.", vn: "Xin hỏi muối ở đâu? Tôi muốn thêm một chút." },
+      { tc: "這道菜忘記放鹽了，沒有味道。", py: "Zhè dào cài wàngjì fàng yán le, méiyǒu wèidào.", vn: "Món này quên bỏ muối rồi, không có mùi vị gì cả." }
+    ],
+    idiom: "柴米油鹽 Cháimǐyóuyán - Củi gạo dầu muối / Những nhu cầu thiết yếu hàng ngày.<br>🔸 Ví dụ: 生活就是柴米油鹽，平平淡淡才是真。 Shēnghuó jiùshì cháimǐyóuyán, píngpíng dàndàn cái shì zhēn. - Cuộc sống chính là củi gạo dầu muối, bình bình đạm đạm mới là thật.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "拌", pinyin: "bàn", hanViet: "Bạn",
+    image: "",
+    radical: "拌 (Bộ Thủ 扌)<br>💡 Mẹo nhớ: Dùng tay (扌) để nhào trộn các phần (半 - một nửa) lại với nhau.",
+    explanation: "Động từ: Trộn, nhào trộn.",
+    compounds: [
+      { tc: "攪拌", py: "jiǎobàn", vn: "khuấy đều, trộn đều" },
+      { tc: "拌麵", py: "bànmiàn", vn: "mì trộn" }
+    ],
+    examples: [
+      { tc: "吃麵之前，要先把它拌一拌。", py: "Chī miàn zhīqián, yào xiān bǎ tā bàn yí bàn.", vn: "Trước khi ăn mì, phải trộn đều nó lên trước đã." },
+      { tc: "請把這些材料拌在一起。", py: "Qǐng bǎ zhèxiē cáiliào bàn zài yìqǐ.", vn: "Xin hãy trộn những nguyên liệu này lại với nhau." },
+      { tc: "我喜歡吃涼拌小黃瓜。", py: "Wǒ xǐhuān chī liángbàn xiǎohuángguā.", vn: "Tôi thích ăn món dưa chuột trộn lạnh." }
+    ],
+    idiom: "涼拌 Liángbàn - Món trộn lạnh / (Nghĩa bóng) Để đó cho nguội lạnh, không thèm đoái hoài.<br>🔸 Ví dụ: 這個問題太難了，我看只能涼拌了。 Zhège wèntí tài nán le, wǒ kàn zhǐnéng liángbàn le. - Vấn đề này khó quá, tôi thấy chỉ có cách bỏ mặc không thèm đoái hoài thôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "辣椒", pinyin: "làjiāo", hanViet: "Lạt tiêu",
+    image: "",
+    radical: "辣 (Bộ Tân 辛) + 椒 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Loại quả mọc trên cây (木 - 椒) có vị vô cùng cay nồng (辛 - 辣).",
+    explanation: "Danh từ: Quả ớt.",
+    compounds: [
+      { tc: "紅辣椒", py: "hóng làjiāo", vn: "ớt đỏ" },
+      { tc: "辣椒醬", py: "làjiāojiàng", vn: "tương ớt" }
+    ],
+    examples: [
+      { tc: "我不吃辣，請不要放辣椒。", py: "Wǒ bù chī là, qǐng búyào fàng làjiāo.", vn: "Tôi không ăn cay, vui lòng đừng bỏ ớt." },
+      { tc: "這個辣椒非常辣。", py: "Zhège làjiāo fēicháng là.", vn: "Quả ớt này vô cùng cay." },
+      { tc: "做泡菜需要放很多辣椒。", py: "Zuò pàocài xūyào fàng hěn duō làjiāo.", vn: "Làm kim chi cần phải cho rất nhiều ớt." }
+    ],
+    idiom: "辣得流眼淚 Là de liú yǎnlèi - Cay chảy cả nước mắt.<br>🔸 Ví dụ: 這碗麵加了太多辣椒，辣得我流眼淚。 Zhè wǎn miàn jiā le tài duō làjiāo, là de wǒ liú yǎnlèi. - Bát mì này cho quá nhiều ớt, cay đến mức tôi chảy cả nước mắt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "調味料", pinyin: "tiáowèiliào", hanViet: "Điều vị liệu",
+    image: "",
+    radical: "調 (Ngôn 言), 味 (Khẩu 口), 料 (Đẩu 斗)<br>💡 Mẹo nhớ: Những nguyên liệu (料) dùng để điều chỉnh (調) mùi vị (味) món ăn.",
+    explanation: "Danh từ: Gia vị.",
+    compounds: [
+      { tc: "加調味料", py: "jiā tiáowèiliào", vn: "thêm gia vị" }
+    ],
+    examples: [
+      { tc: "做這道菜需要什麼調味料？", py: "Zuò zhè dào cài xūyào shénme tiáowèiliào?", vn: "Làm món này cần những loại gia vị gì?" },
+      { tc: "醬油和鹽都是常見的調味料。", py: "Jiàngyóu hé yán dōu shì chángjiàn de tiáowèiliào.", vn: "Nước tương và muối đều là những gia vị thường thấy." },
+      { tc: "如果你覺得太淡，桌上有調味料可以自己加。", py: "Rúguǒ nǐ juéde tài dàn, zhuō shàng yǒu tiáowèiliào kěyǐ zìjǐ jiā.", vn: "Nếu bạn cảm thấy quá nhạt, trên bàn có gia vị có thể tự mình thêm vào." }
+    ],
+    idiom: "五味俱全 Wǔwèi jùquán - Đủ cả ngũ vị (Mặn, ngọt, chua, cay, đắng).<br>🔸 Ví dụ: 這道菜調味料放得很好，真是五味俱全。 Zhè dào cài tiáowèiliào fàng de hěn hǎo, zhēnshi wǔwèi jùquán. - Món ăn này nêm nếm gia vị rất ngon, thật sự là đủ cả ngũ vị.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "裝", pinyin: "zhuāng", hanViet: "Trang",
+    image: "",
+    radical: "裝 (Bộ Y 衣)<br>💡 Mẹo nhớ: Cho đồ vật vào bên trong túi áo (衣) để cất giữ, đóng gói hoặc che đậy.",
+    explanation: "Động từ: Đựng, chứa, đóng gói.",
+    compounds: [
+      { tc: "裝不下", py: "zhuāng bú xià", vn: "đựng không vừa" },
+      { tc: "包裝", py: "bāozhuāng", vn: "đóng gói" }
+    ],
+    examples: [
+      { tc: "這個袋子裝不下這麼多東西。", py: "Zhège dàizi zhuāng bú xià zhème duō dōngxī.", vn: "Cái túi này không đựng vừa nhiều đồ như vậy." },
+      { tc: "請幫我把這些蘋果裝起來。", py: "Qǐng bāng wǒ bǎ zhèxiē píngguǒ zhuāng qǐlái.", vn: "Vui lòng giúp tôi đóng gói những quả táo này lại." },
+      { tc: "這個瓶子是用來裝水的。", py: "Zhège píngzi shì yòng lái zhuāng shuǐ de.", vn: "Cái bình này là dùng để đựng nước." }
+    ],
+    idiom: "裝滿 Zhuāng mǎn - Chứa đầy / Đựng đầy.<br>🔸 Ví dụ: 他的背包裡裝滿了書。 Tā de bēibāo lǐ zhuāng mǎn le shū. - Trong ba lô của anh ấy đựng đầy sách.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "玻璃", pinyin: "bōlí", hanViet: "Pha lê",
+    image: "",
+    radical: "玻 (Bộ Ngọc 王) + 璃 (Bộ Ngọc 王)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Ngọc (王), chỉ vật liệu sáng bóng và trong suốt như ngọc thạch.",
+    explanation: "Danh từ: Thủy tinh.",
+    compounds: [
+      { tc: "玻璃杯", py: "bōlí bēi", vn: "cốc thủy tinh" },
+      { tc: "玻璃窗", py: "bōlíchuāng", vn: "cửa sổ kính" }
+    ],
+    examples: [
+      { tc: "這個杯子是玻璃做的。", py: "Zhège bēizi shì bōlí zuò de.", vn: "Chiếc cốc này được làm bằng thủy tinh." },
+      { tc: "小心，地上有破玻璃。", py: "Xiǎoxīn, dìshàng yǒu pò bōlí.", vn: "Cẩn thận, trên mặt đất có thủy tinh vỡ." },
+      { tc: "我買了一個很漂亮的玻璃花瓶。", py: "Wǒ mǎi le yí ge hěn piàoliang de bōlí huāpíng.", vn: "Tôi đã mua một chiếc bình hoa thủy tinh rất đẹp." }
+    ],
+    idiom: "玻璃心 Bōlí xīn - Trái tim thủy tinh (Dễ bị tổn thương, dễ tự ái).<br>🔸 Ví dụ: 他的個性太敏感，簡直是玻璃心。 Tā de gèxìng tài mǐngǎn, jiǎnzhí shì bōlí xīn. - Tính cách của anh ấy quá nhạy cảm, quả thực là một trái tim thủy tinh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "壽司", pinyin: "shòusī", hanViet: "Thọ tư",
+    image: "",
+    radical: "壽 (Bộ Thốn 寸) + 司 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Từ mượn phiên âm tiếng Nhật để chỉ món cơm cuộn.",
+    explanation: "Danh từ: Sushi.",
+    compounds: [
+      { tc: "吃壽司", py: "chī shòusī", vn: "ăn sushi" },
+      { tc: "壽司店", py: "shòusī diàn", vn: "quán sushi" }
+    ],
+    examples: [
+      { tc: "我非常喜歡吃日本的壽司。", py: "Wǒ fēicháng xǐhuān chī Rìběn de shòusī.", vn: "Tôi vô cùng thích ăn sushi của Nhật Bản." },
+      { tc: "這家壽司店的魚很新鮮。", py: "Zhè jiā shòusī diàn de yú hěn xīnxiān.", vn: "Cá của quán sushi này rất tươi sống." },
+      { tc: "你會自己做壽司嗎？", py: "Nǐ huì zìjǐ zuò shòusī ma?", vn: "Bạn có biết tự làm sushi không?" }
+    ],
+    idiom: "迴轉壽司 Huízhuǎn shòusī - Sushi băng chuyền.<br>🔸 Ví dụ: 我們週末去吃迴轉壽司吧。 Wǒmen zhōumò qù chī huízhuǎn shòusī ba. - Cuối tuần chúng ta đi ăn sushi băng chuyền nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "食物", pinyin: "shíwù", hanViet: "Thực vật",
+    image: "",
+    radical: "食 (Bộ Thực 食) + 物 (Bộ Ngưu 牛)<br>💡 Mẹo nhớ: Những đồ vật (物) được dùng để cung cấp năng lượng, để ăn (食) hàng ngày.",
+    explanation: "Danh từ: Thức ăn, thực phẩm.",
+    compounds: [
+      { tc: "買食物", py: "mǎi shíwù", vn: "mua thức ăn" },
+      { tc: "健康食物", py: "jiànkāng shíwù", vn: "thực phẩm tốt cho sức khỏe" }
+    ],
+    examples: [
+      { tc: "冰箱裡沒有食物了，我們去超市吧。", py: "Bīngxiāng lǐ méiyǒu shíwù le, wǒmen qù chāoshì ba.", vn: "Trong tủ lạnh không còn thức ăn nữa, chúng ta ra siêu thị thôi." },
+      { tc: "我們應該多吃健康的食物。", py: "Wǒmen yīnggāi duō chī jiànkāng de shíwù.", vn: "Chúng ta nên ăn nhiều thực phẩm tốt cho sức khỏe." },
+      { tc: "浪費食物是不好的行為。", py: "Làngfèi shíwù shì bù hǎo de xíngwéi.", vn: "Lãng phí thức ăn là hành vi không tốt." }
+    ],
+    idiom: "美味的食物 Měiwèi de shíwù - Thức ăn ngon miệng.<br>🔸 Ví dụ: 台灣有許多美味的食物。 Táiwān yǒu xǔduō měiwèi de shíwù. - Đài Loan có rất nhiều thức ăn ngon miệng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "做起來", pinyin: "zuò qǐlái", hanViet: "Tố khởi lai",
+    image: "",
+    radical: "做 (Bộ Nhân 亻) + 起 (Bộ Tẩu 走) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Cấu trúc V + 起來 dùng để đánh giá, nhận xét về một sự vật/sự việc khi bắt tay vào thực hiện hành động đó.",
+    explanation: "Cụm động từ: Khi bắt tay vào làm, lúc làm thử.",
+    compounds: [
+      { tc: "看起來", py: "kàn qǐlái", vn: "nhìn có vẻ" },
+      { tc: "聽起來", py: "tīng qǐlái", vn: "nghe có vẻ" }
+    ],
+    examples: [
+      { tc: "這件事說起來容易，做起來很難。", py: "Zhè jiàn shì shuō qǐlái róngyì, zuò qǐlái hěn nán.", vn: "Chuyện này nói thì dễ, lúc bắt tay vào làm mới thấy khó." },
+      { tc: "包餃子做起來其實不難。", py: "Bāo jiǎozi zuò qǐlái qíshí bù nán.", vn: "Gói sủi cảo lúc bắt tay vào làm thực ra không khó." },
+      { tc: "這道菜做起來需要花很多時間。", py: "Zhè dào cài zuò qǐlái xūyào huā hěn duō shíjiān.", vn: "Món này khi làm thử sẽ phải tốn rất nhiều thời gian." }
+    ],
+    idiom: "做起來容易 Zuò qǐlái róngyì - Làm thử thấy dễ.<br>🔸 Ví dụ: 這個運動做起來很容易，你也可以試試。 Zhège yùndòng zuò qǐlái hěn róngyì, nǐ yě kěyǐ shìshì. - Bài tập này lúc làm thử thấy rất dễ, bạn cũng có thể thử xem.", 
+    level: "TOCFL A2"
+  },
   ];
