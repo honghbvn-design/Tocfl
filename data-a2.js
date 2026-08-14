@@ -4977,4 +4977,337 @@ const dataA2 = [
     idiom: "在路上 Zài lùshàng - Đang trên đường đi.<br>🔸 Ví dụ: 別催了，我已經在路上了！ Bié cuī le, wǒ yǐjīng zài lùshàng le! - Đừng giục nữa, tôi đang trên đường đi rồi!", 
     level: "TOCFL A2"
   },
+  {
+    word: "功夫", pinyin: "gōngfū", hanViet: "Công phu",
+    image: "",
+    radical: "功 (Bộ Công 工) + 夫 (Bộ Đại 大)<br>💡 Mẹo nhớ: Cần rất nhiều công sức (工) và thời gian của một người đàn ông (夫) để rèn luyện võ thuật.",
+    explanation: "Danh từ: Kungfu, võ thuật.",
+    compounds: [
+      { tc: "練功夫", py: "liàn gōngfū", vn: "luyện võ thuật" }
+    ],
+    examples: [
+      { tc: "他從小就學習中國功夫。", py: "Tā cóngxiǎo jiù xuéxí Zhōngguó gōngfū.", vn: "Anh ấy từ nhỏ đã học võ thuật Trung Quốc." },
+      { tc: "這位老爺爺的功夫很厲害。", py: "Zhè wèi lǎo yéye de gōngfū hěn lìhài.", vn: "Võ thuật của ông cụ này rất lợi hại." },
+      { tc: "我很喜歡看功夫電影。", py: "Wǒ hěn xǐhuān kàn gōngfū diànyǐng.", vn: "Tôi rất thích xem phim võ thuật." }
+    ],
+    idiom: "下功夫 Xià gōngfū - Bỏ công sức / Đổ mồ hôi sôi nước mắt.<br>🔸 Ví dụ: 為了考上好大學，他下了很多功夫。 Wèile kǎo shàng hǎo dàxué, tā xià le hěn duō gōngfū. - Để thi đỗ đại học tốt, cậu ấy đã bỏ ra rất nhiều công sức.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "叫", pinyin: "jiào", hanViet: "Khiếu",
+    image: "",
+    radical: "叫 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Dùng miệng (口) để phát ra âm thanh thu hút sự chú ý.",
+    explanation: "Động từ: Gọi (để gây sự chú ý), bảo, sai bảo.",
+    compounds: [
+      { tc: "大叫", py: "dàjiào", vn: "hét lớn" },
+      { tc: "叫車", py: "jiàochē", vn: "gọi xe" }
+    ],
+    examples: [
+      { tc: "明天早上請早點叫我起床。", py: "Míngtiān zǎoshàng qǐng zǎodiǎn jiào wǒ qǐchuáng.", vn: "Sáng mai xin hãy gọi tôi dậy sớm một chút." },
+      { tc: "我聽見有人在外面叫我的名字。", py: "Wǒ tīngjiàn yǒu rén zài wàimiàn jiào wǒ de míngzi.", vn: "Tôi nghe thấy có người đang gọi tên tôi ở bên ngoài." },
+      { tc: "媽媽叫我去超市買雞蛋。", py: "Māma jiào wǒ qù chāoshì mǎi jīdàn.", vn: "Mẹ bảo tôi ra siêu thị mua trứng gà." }
+    ],
+    idiom: "叫醒 Jiàoxǐng - Gọi dậy / Đánh thức.<br>🔸 Ví dụ: 鬧鐘沒有把我叫醒。 Nàozhōng méiyǒu bǎ wǒ jiàoxǐng. - Đồng hồ báo thức đã không đánh thức tôi dậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "推", pinyin: "tuī", hanViet: "Thôi",
+    image: "",
+    radical: "推 (Bộ Thủ 扌)<br>💡 Mẹo nhớ: Dùng tay (扌) tác động lực lên một vật (隹) để nó di chuyển ra xa.",
+    explanation: "Động từ: Đẩy.",
+    compounds: [
+      { tc: "推開", py: "tuī kāi", vn: "đẩy ra" },
+      { tc: "推門", py: "tuī mén", vn: "đẩy cửa" }
+    ],
+    examples: [
+      { tc: "請你幫我把這張桌子推過去。", py: "Qǐng nǐ bāng wǒ bǎ zhè zhāng zhuōzi tuī guòqù.", vn: "Xin bạn giúp tôi đẩy cái bàn này qua đó." },
+      { tc: "那扇門壞了，你要用力推。", py: "Nà shàn mén huài le, nǐ yào yònglì tuī.", vn: "Cánh cửa đó hỏng rồi, bạn phải đẩy thật mạnh." },
+      { tc: "他生氣地把人推開了。", py: "Tā shēngqì de bǎ rén tuī kāi le.", vn: "Anh ấy tức giận đẩy người ta ra." }
+    ],
+    idiom: "推廣 Tuīguǎng - Đẩy mạnh / Phổ biến rộng rãi.<br>🔸 Ví dụ: 學校正在推廣資源回收的觀念。 Xuéxiào zhèngzài tuīguǎng zīyuán huíshōu de guānniàn. - Trường học đang đẩy mạnh quan niệm về tái chế tài nguyên.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "體育館", pinyin: "tǐyùguǎn", hanViet: "Thể dục quán",
+    image: "",
+    radical: "體 (Bộ Cốt 骨) + 育 (Bộ Nhục 肉) + 館 (Bộ Thực 食)<br>💡 Mẹo nhớ: Nơi (館) để rèn luyện thân thể, gân cốt (骨) và nuôi dưỡng (育) sức khỏe.",
+    explanation: "Danh từ: Nhà thi đấu, phòng thể dục.",
+    compounds: [
+      { tc: "學校體育館", py: "xuéxiào tǐyùguǎn", vn: "nhà thi đấu của trường" }
+    ],
+    examples: [
+      { tc: "我們下午在學校體育館打籃球。", py: "Wǒmen xiàwǔ zài xuéxiào tǐyùguǎn dǎ lánqiú.", vn: "Chiều nay chúng tôi đánh bóng rổ ở nhà thi đấu của trường." },
+      { tc: "體育館裡有很多人在運動。", py: "Tǐyùguǎn lǐ yǒu hěn duō rén zài yùndòng.", vn: "Trong nhà thi đấu có rất nhiều người đang tập thể thao." },
+      { tc: "明天的演講將在體育館舉行。", py: "Míngtiān de yǎnjiǎng jiāng zài tǐyùguǎn jǔxíng.", vn: "Buổi diễn thuyết ngày mai sẽ được tổ chức tại nhà thi đấu." }
+    ],
+    idiom: "去體育館 Qù tǐyùguǎn - Đến nhà thi đấu.<br>🔸 Ví dụ: 下雨了，我們去體育館跑步吧。 Xiàyǔ le, wǒmen qù tǐyùguǎn pǎobù ba. - Trời mưa rồi, chúng ta đến nhà thi đấu chạy bộ đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "太極拳", pinyin: "tàijíquán", hanViet: "Thái cực quyền",
+    image: "",
+    radical: "太 (Bộ Đại 大) + 極 (Bộ Mộc 木) + 拳 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Một môn võ dùng tay (手 - 拳) cực kỳ (極) nổi tiếng và phổ biến ở người lớn tuổi.",
+    explanation: "Danh từ: Thái cực quyền.",
+    compounds: [
+      { tc: "打太極拳", py: "dǎ tàijíquán", vn: "tập thái cực quyền" }
+    ],
+    examples: [
+      { tc: "爺爺每天早上都在公園打太極拳。", py: "Yéye měitiān zǎoshàng dōu zài gōngyuán dǎ tàijíquán.", vn: "Ông nội mỗi buổi sáng đều tập thái cực quyền trong công viên." },
+      { tc: "聽說打太極拳對身體很好。", py: "Tīngshuō dǎ tàijíquán duì shēntǐ hěn hǎo.", vn: "Nghe nói tập thái cực quyền rất tốt cho sức khỏe." },
+      { tc: "他想找一個師父學太極拳。", py: "Tā xiǎng zhǎo yí ge shīfù xué tàijíquán.", vn: "Anh ấy muốn tìm một sư phụ để học thái cực quyền." }
+    ],
+    idiom: "太極拳高手 Tàijíquán gāoshǒu - Cao thủ thái cực quyền.<br>🔸 Ví dụ: 他練了三十年，已經是太極拳高手了。 Tā liàn le sānshí nián, yǐjīng shì tàijíquán gāoshǒu le. - Ông ấy luyện tập đã ba mươi năm, đã là cao thủ thái cực quyền rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "師父", pinyin: "shīfù", hanViet: "Sư phụ",
+    image: "",
+    radical: "師 (Bộ Cân 巾) + 父 (Bộ Phụ 父)<br>💡 Mẹo nhớ: Người thầy (師) truyền dạy nghề nghiệp, võ thuật được tôn kính như một người cha (父).",
+    explanation: "Danh từ: Sư phụ, thầy (dạy võ, nghề thủ công).",
+    compounds: [
+      { tc: "拜師", py: "bàishī", vn: "bái sư" },
+      { tc: "徒弟", py: "túdì", vn: "đồ đệ" }
+    ],
+    examples: [
+      { tc: "我的太極拳師父非常厲害。", py: "Wǒ de tàijíquán shīfù fēicháng lìhài.", vn: "Sư phụ thái cực quyền của tôi cực kỳ lợi hại." },
+      { tc: "他跟著師父學了五年的功夫。", py: "Tā gēnzhe shīfù xué le wǔ nián de gōngfū.", vn: "Anh ấy theo sư phụ học công phu suốt năm năm." },
+      { tc: "這家麵包店的老闆是我的師父。", py: "Zhè jiā miànbāodiàn de lǎobǎn shì wǒ de shīfù.", vn: "Ông chủ của tiệm bánh mì này là sư phụ của tôi." }
+    ],
+    idiom: "一日為師，終身為父 Yírì wéi shī, zhōngshēn wéi fù - Một ngày làm thầy, cả đời làm cha.<br>🔸 Ví dụ: 中國人常說一日為師，終身為父，要懂得尊師重道。 Zhōngguó rén cháng shuō yírì wéi shī, zhōngshēn wéi fù, yào dǒngdé zūn shī zhòng dào. - Người Trung Quốc thường nói một ngày làm thầy cả đời làm cha, phải biết tôn sư trọng đạo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "天分", pinyin: "tiānfèn", hanViet: "Thiên phân",
+    image: "",
+    radical: "天 (Bộ Đại 大) + 分 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Phần (分) tài năng được ông Trời (天) ưu ái ban cho từ lúc mới sinh ra.",
+    explanation: "Danh từ: Thiên bẩm, năng khiếu.",
+    compounds: [
+      { tc: "有天分", py: "yǒu tiānfèn", vn: "có năng khiếu" },
+      { tc: "語言天分", py: "yǔyán tiānfèn", vn: "năng khiếu ngôn ngữ" }
+    ],
+    examples: [
+      { tc: "這個孩子在音樂方面很有天分。", py: "Zhège háizi zài yīnyuè fāngmiàn hěn yǒu tiānfèn.", vn: "Đứa trẻ này rất có năng khiếu về mặt âm nhạc." },
+      { tc: "學語言除了努力，也需要一點天分。", py: "Xué yǔyán chúle nǔlì, yě xūyào yìdiǎn tiānfèn.", vn: "Học ngôn ngữ ngoài sự nỗ lực ra, cũng cần một chút thiên bẩm." },
+      { tc: "教練說他沒有打籃球的天分。", py: "Jiàoliàn shuō tā méiyǒu dǎ lánqiú de tiānfèn.", vn: "Huấn luyện viên nói cậu ấy không có năng khiếu chơi bóng rổ." }
+    ],
+    idiom: "極具天分 Jí jù tiānfèn - Cực kỳ có năng khiếu.<br>🔸 Ví dụ: 他是一個極具天分的畫家。 Tā shì yí ge jí jù tiānfèn de huàjiā. - Anh ấy là một họa sĩ cực kỳ có năng khiếu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "懂", pinyin: "dǒng", hanViet: "Đổng",
+    image: "",
+    radical: "懂 (Bộ Tâm 忄)<br>💡 Mẹo nhớ: Bộ Tâm (忄) chỉ tư duy. Mọi thứ trở nên rõ ràng trong tâm trí tức là đã hiểu.",
+    explanation: "Động từ: Hiểu.",
+    compounds: [
+      { tc: "聽懂", py: "tīng dǒng", vn: "nghe hiểu" },
+      { tc: "看懂", py: "kàn dǒng", vn: "đọc hiểu, xem hiểu" }
+    ],
+    examples: [
+      { tc: "老師說的話，你聽懂了嗎？", py: "Lǎoshī shuō de huà, nǐ tīng dǒng le ma?", vn: "Lời giáo viên nói, bạn nghe hiểu chưa?" },
+      { tc: "這本書太難了，我看不懂。", py: "Zhè běn shū tài nán le, wǒ kàn bù dǒng.", vn: "Quyển sách này khó quá, tôi đọc không hiểu." },
+      { tc: "我不太懂他的意思。", py: "Wǒ bú tài dǒng tā de yìsī.", vn: "Tôi không hiểu rõ ý của anh ấy lắm." }
+    ],
+    idiom: "懂事 Dǒngshì - Hiểu chuyện.<br>🔸 Ví dụ: 這個小女孩很聽話，非常懂事。 Zhège xiǎo nǚhái hěn tīnghuà, fēicháng dǒngshì. - Cô bé này rất nghe lời, vô cùng hiểu chuyện.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "起來", pinyin: "qǐlái", hanViet: "Khởi lai",
+    image: "",
+    radical: "起 (Bộ Tẩu 走) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Người (人) bắt đầu rảo bước (走) vươn lên, thức dậy.",
+    explanation: "Động từ ly hợp: Thức dậy, đứng dậy (cũng dùng làm bổ ngữ xu hướng biểu thị động tác hướng lên trên).",
+    compounds: [
+      { tc: "站起來", py: "zhàn qǐlái", vn: "đứng lên" },
+      { tc: "早起", py: "zǎoqǐ", vn: "dậy sớm" }
+    ],
+    examples: [
+      { tc: "明天要考試，我必須早一點起來。", py: "Míngtiān yào kǎoshì, wǒ bìxū zǎo yìdiǎn qǐlái.", vn: "Ngày mai phải thi, tôi bắt buộc phải thức dậy sớm một chút." },
+      { tc: "他生病了，全身沒有力氣起來。", py: "Tā shēngbìng le, quánshēn méiyǒu lìqì qǐlái.", vn: "Anh ấy ốm rồi, toàn thân không có sức lực để dậy." },
+      { tc: "聽到國歌，大家都站了起來。", py: "Tīng dào guógē, dàjiā dōu zhàn le qǐlái.", vn: "Nghe thấy Quốc ca, mọi người đều đứng dậy." }
+    ],
+    idiom: "爬不起來 Pá bù lái - Bò dậy không nổi.<br>🔸 Ví dụ: 昨天太累了，今天早上我根本爬不起來。 Zuótiān tài lèi le, jīntiān zǎoshàng wǒ gēnběn pá bù lái. - Hôm qua mệt quá, sáng nay tôi hoàn toàn bò dậy không nổi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "動作", pinyin: "dòngzuò", hanViet: "Động tác",
+    image: "",
+    radical: "動 (Bộ Lực 力) + 作 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Con người (亻) dùng sức lực (力) để tạo ra những cử động cơ thể.",
+    explanation: "Danh từ: Động tác, cử động.",
+    compounds: [
+      { tc: "動作慢", py: "dòngzuò màn", vn: "động tác chậm chạp" },
+      { tc: "假動作", py: "jiǎ dòngzuò", vn: "động tác giả" }
+    ],
+    examples: [
+      { tc: "打太極拳的動作很慢。", py: "Dǎ tàijíquán de dòngzuò hěn màn.", vn: "Động tác đánh thái cực quyền rất chậm." },
+      { tc: "他的動作很快，馬上就做完了。", py: "Tā de dòngzuò hěn kuài, mǎshàng jiù zuò wán le.", vn: "Động tác của anh ấy rất nhanh, chớp mắt đã làm xong rồi." },
+      { tc: "請跟著老師一起做這個動作。", py: "Qǐng gēnzhe lǎoshī yìqǐ zuò zhège dòngzuò.", vn: "Mời cùng làm động tác này theo giáo viên." }
+    ],
+    idiom: "動作片 Dòngzuòpiàn - Phim hành động.<br>🔸 Ví dụ: 我週末喜歡看刺激的動作片。 Wǒ zhōumò xǐhuān kàn cìjī de dòngzuòpiàn. - Cuối tuần tôi thích xem những bộ phim hành động gay cấn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "輕", pinyin: "qīng", hanViet: "Khinh",
+    image: "",
+    radical: "輕 (Bộ Xa 車)<br>💡 Mẹo nhớ: Chiếc xe (車) chở ít đồ thì trọng lượng sẽ nhẹ.",
+    explanation: "Tính từ: Nhẹ, nhẹ nhàng.",
+    compounds: [
+      { tc: "很輕", py: "hěn qīng", vn: "rất nhẹ" },
+      { tc: "年輕", py: "niánqīng", vn: "trẻ tuổi" }
+    ],
+    examples: [
+      { tc: "這個箱子很輕，我一個人搬得動。", py: "Zhège xiāngzi hěn qīng, wǒ yí ge rén bān de dòng.", vn: "Cái thùng này rất nhẹ, một mình tôi khiêng nổi." },
+      { tc: "走路請輕一點，寶寶在睡覺。", py: "Zǒulù qǐng qīng yìdiǎn, bǎobǎo zài shuìjiào.", vn: "Đi bộ xin nhẹ một chút, em bé đang ngủ." },
+      { tc: "她的行李比我的輕很多。", py: "Tā de xínglǐ bǐ wǒ de qīng hěn duō.", vn: "Hành lý của cô ấy nhẹ hơn của tôi rất nhiều." }
+    ],
+    idiom: "輕輕地 Qīngqīng de - Một cách nhẹ nhàng.<br>🔸 Ví dụ: 他輕輕地把門關上了。 Tā qīngqīng de bǎ mén guān shàng le. - Anh ấy nhẹ nhàng đóng cửa lại.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "腿", pinyin: "tuǐ", hanViet: "Thối",
+    image: "",
+    radical: "腿 (Bộ Nhục 月)<br>💡 Mẹo nhớ: Bộ Nhục (月) chỉ các bộ phận trên cơ thể con người. Đây là phần chân, đùi.",
+    explanation: "Danh từ: Chân, đùi.",
+    compounds: [
+      { tc: "大腿", py: "dàtuǐ", vn: "đùi" },
+      { tc: "小腿", py: "xiǎotuǐ", vn: "bắp chân" }
+    ],
+    examples: [
+      { tc: "爬完山後，我的腿非常痠。", py: "Pá wán shān hòu, wǒ de tuǐ fēicháng suān.", vn: "Sau khi leo núi xong, chân của tôi vô cùng nhức mỏi." },
+      { tc: "他跑步太快，不小心摔斷了腿。", py: "Tā pǎobù tài kuài, bù xiǎoxīn shuāiduàn le tuǐ.", vn: "Anh ấy chạy bộ nhanh quá, không cẩn thận ngã gãy chân rồi." },
+      { tc: "她的腿又細又長，穿裙子很好看。", py: "Tā de tuǐ yòu xì yòu cháng, chuān qúnzi hěn hǎokàn.", vn: "Chân của cô ấy vừa thon vừa dài, mặc váy rất đẹp." }
+    ],
+    idiom: "跑斷腿 Pǎo duàn tuǐ - Chạy rạc cả cẳng / Chạy gãy cả chân.<br>🔸 Ví dụ: 為了找這份資料，我真是跑斷腿了。 Wèile zhǎo zhè fèn zīliào, wǒ zhēnshi pǎo duàn tuǐ le. - Để tìm tài liệu này, tôi đúng là chạy rạc cả cẳng rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "了", pinyin: "liǎo", hanViet: "Liễu",
+    image: "",
+    radical: "了 (Bộ Quyết 亅)<br>💡 Mẹo nhớ: Chú ý phát âm! Trong ngữ pháp V + 得/不 + 了, chữ này đọc là 'liǎo' biểu thị việc có đủ khả năng hoàn thành hành động hay không.",
+    explanation: "Trợ từ: Xong, nổi, được (Đứng sau Động từ + 得/不 để làm bổ ngữ chỉ khả năng).",
+    compounds: [
+      { tc: "做不了", py: "zuò bù liǎo", vn: "làm không được / làm không nổi" },
+      { tc: "吃得了", py: "chī de liǎo", vn: "ăn được / ăn nổi" }
+    ],
+    examples: [
+      { tc: "這麼多菜，我們兩個人吃不了。", py: "Zhème duō cài, wǒmen liǎng ge rén chī bù liǎo.", vn: "Nhiều đồ ăn thế này, hai người chúng ta ăn không nổi đâu." },
+      { tc: "這份工作太累了，我做不了。", py: "Zhè fèn gōngzuò tài lèi le, wǒ zuò bù liǎo.", vn: "Công việc này mệt quá, tôi làm không nổi." },
+      { tc: "明天早上八點開會，你來得了嗎？", py: "Míngtiān zǎoshàng bā diǎn kāihuì, nǐ lái de liǎo ma?", vn: "Sáng mai tám giờ họp, bạn tới được không?" }
+    ],
+    idiom: "受不了 Shòu bù liǎo - Chịu không nổi.<br>🔸 Ví dụ: 天氣太熱了，我真的受不了。 Tiānqì tài rè le, wǒ zhēn de shòu bù liǎo. - Thời tiết nóng quá, tôi thực sự chịu không nổi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "下去", pinyin: "xiàqù", hanViet: "Hạ khứ",
+    image: "",
+    radical: "下 (Bộ Nhất 一) + 去 (Bộ Tư 厶)<br>💡 Mẹo nhớ: Ngoài nghĩa là 'đi xuống', khi đứng sau động từ nó trở thành bổ ngữ xu hướng biểu thị hành động vẫn được tiếp tục duy trì.",
+    explanation: "Trợ từ: Tiếp tục (chỉ sự tiếp diễn của hành động).",
+    compounds: [
+      { tc: "讀下去", py: "dú xiàqù", vn: "đọc tiếp đi" },
+      { tc: "活下去", py: "huó xiàqù", vn: "sống tiếp" }
+    ],
+    examples: [
+      { tc: "這個故事很有趣，請你繼續說下去。", py: "Zhège gùshì hěn yǒuqù, qǐng nǐ jìxù shuō xiàqù.", vn: "Câu chuyện này rất thú vị, xin bạn hãy tiếp tục kể đi." },
+      { tc: "太累了，我走不下去了。", py: "Tài lèi le, wǒ zǒu bú xiàqù le.", vn: "Mệt quá rồi, tôi đi không nổi nữa." },
+      { tc: "雖然學中文很難，但我會堅持下去。", py: "Suīrán xué Zhōngwén hěn nán, dàn wǒ huì jiānchí xiàqù.", vn: "Tuy học tiếng Trung rất khó, nhưng tôi sẽ kiên trì tiếp." }
+    ],
+    idiom: "堅持下去 Jiānchí xiàqù - Kiên trì đến cùng.<br>🔸 Ví dụ: 只要堅持下去，你一定會成功。 Zhǐyào jiānchí xiàqù, nǐ yídìng huì chénggōng. - Chỉ cần kiên trì đến cùng, bạn nhất định sẽ thành công.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "興趣", pinyin: "xìngqù", hanViet: "Hưng thú",
+    image: "",
+    radical: "興 (Bộ Bát 八) + 趣 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Sự hào hứng (興) thôi thúc bạn luôn muốn theo đuổi (走) một điều gì đó.",
+    explanation: "Danh từ: Hứng thú, sở thích.",
+    compounds: [
+      { tc: "有興趣", py: "yǒu xìngqù", vn: "có hứng thú" },
+      { tc: "沒興趣", py: "méi xìngqù", vn: "không có hứng thú" }
+    ],
+    examples: [
+      { tc: "他對台灣的歷史很有興趣。", py: "Tā duì Táiwān de lìshǐ hěn yǒu xìngqù.", vn: "Anh ấy rất có hứng thú với lịch sử Đài Loan." },
+      { tc: "我對打電動完全沒有興趣。", py: "Wǒ duì dǎ diàndòng wánquán méiyǒu xìngqù.", vn: "Tôi hoàn toàn không có hứng thú với việc chơi game điện tử." },
+      { tc: "培養一個健康的興趣很重要。", py: "Péiyǎng yí ge jiànkāng de xìngqù hěn zhòngyào.", vn: "Nuôi dưỡng một sở thích lành mạnh là rất quan trọng." }
+    ],
+    idiom: "感興趣 Gǎn xìngqù - Cảm thấy có hứng thú.<br>🔸 Ví dụ: 我對這份工作非常感興趣。 Wǒ duì zhè fèn gōngzuò fēicháng gǎn xìngqù. - Tôi vô cùng có hứng thú với công việc này.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "借", pinyin: "jiè", hanViet: "Tá",
+    image: "",
+    radical: "借 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Người (亻) đi mượn đồ của người khác trong thời gian xưa (昔) để giải quyết nhu cầu hiện tại.",
+    explanation: "Động từ: Mượn, vay.",
+    compounds: [
+      { tc: "借錢", py: "jièqián", vn: "vay tiền" },
+      { tc: "借書", py: "jiè shū", vn: "mượn sách" }
+    ],
+    examples: [
+      { tc: "我昨天去圖書館借了兩本書。", py: "Wǒ zuótiān qù túshūguǎn jiè le liǎng běn shū.", vn: "Hôm qua tôi đi thư viện mượn hai quyển sách." },
+      { tc: "請問可以借我一百塊嗎？", py: "Qǐngwèn kěyǐ jiè wǒ yìbǎi kuài ma?", vn: "Xin hỏi có thể cho tôi vay một trăm tệ được không?" },
+      { tc: "我的筆不見了，跟你借一下好嗎？", py: "Wǒ de bǐ bújiàn le, gēn nǐ jiè yíxià hǎo ma?", vn: "Bút của tôi mất rồi, mượn của bạn một chút được không?" }
+    ],
+    idiom: "有借有還，再借不難 Yǒu jiè yǒu huán, zài jiè bù nán - Có vay có trả, vay lại không khó.<br>🔸 Ví dụ: 記住有借有還，再借不難，明天記得還我錢。 Jìzhù yǒu jiè yǒu huán, zài jiè bù nán, míngtiān jìdé huán wǒ qián. - Nhớ kỹ có vay có trả vay lại không khó, ngày mai nhớ trả tiền tôi nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "有天分", pinyin: "yǒu tiānfèn", hanViet: "Hữu thiên phân",
+    image: "",
+    radical: "有 (Có), 天 (Trời), 分 (Phần)<br>💡 Mẹo nhớ: Có (有) được phần tài năng bẩm sinh do ông trời (天) ban tặng.",
+    explanation: "Cụm động từ: Có năng khiếu, có thiên bẩm.",
+    compounds: [
+      { tc: "很有天分", py: "hěn yǒu tiānfèn", vn: "rất có năng khiếu" }
+    ],
+    examples: [
+      { tc: "老師說他在畫畫方面很有天分。", py: "Lǎoshī shuō tā zài huàhuà fāngmiàn hěn yǒu tiānfèn.", vn: "Giáo viên nói cậu ấy rất có năng khiếu về mặt hội họa." },
+      { tc: "這孩子學鋼琴學得很快，真有天分。", py: "Zhè háizi xué gāngqín xué de hěn kuài, zhēn yǒu tiānfèn.", vn: "Đứa trẻ này học piano rất nhanh, thật có thiên bẩm." },
+      { tc: "沒有天分沒關係，只要努力就會進步。", py: "Méiyǒu tiānfèn méiguānxì, zhǐyào nǔlì jiù huì jìnbù.", vn: "Không có năng khiếu cũng không sao, chỉ cần nỗ lực thì sẽ tiến bộ." }
+    ],
+    idiom: "語言天分 Yǔyán tiānfèn - Năng khiếu ngôn ngữ.<br>🔸 Ví dụ: 外國人學中文學得這麼好，一定很有語言天分。 Wàiguó rén xué Zhōngwén xué de zhème hǎo, yídìng hěn yǒu yǔyán tiānfèn. - Người nước ngoài học tiếng Trung tốt như vậy, nhất định rất có năng khiếu ngôn ngữ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "學會", pinyin: "xué huì", hanViet: "Học hội",
+    image: "",
+    radical: "學 (Bộ Tử 子) + 會 (Bộ Viết 曰)<br>💡 Mẹo nhớ: Cụm từ dùng làm bổ ngữ kết quả, chỉ việc đã học (學) và biết cách làm, thành thạo (會) một kỹ năng.",
+    explanation: "Cụm động từ: Học được, nắm vững, thành thạo.",
+    compounds: [
+      { tc: "學不會", py: "xué bú huì", vn: "học không vào, không nắm vững được" }
+    ],
+    examples: [
+      { tc: "我終於學會怎麼騎腳踏車了。", py: "Wǒ zhōngyú xué huì zěnme qí jiǎotàchē le.", vn: "Cuối cùng tôi cũng học được cách đi xe đạp rồi." },
+      { tc: "這個語法太難，我一直學不會。", py: "Zhège yǔfǎ tài nán, wǒ yìzhí xué bú huì.", vn: "Ngữ pháp này khó quá, tôi học mãi không vào." },
+      { tc: "在台灣生活一年，他學會了用筷子。", py: "Zài Táiwān shēnghuó yì nián, tā xué huì le yòng kuàizi.", vn: "Sống ở Đài Loan một năm, anh ấy đã thành thạo dùng đũa." }
+    ],
+    idiom: "活到老，學到老 Huó dào lǎo, xué dào lǎo - Học, học nữa, học mãi (Sống đến già, học đến già).<br>🔸 Ví dụ: 爺爺八十歲還學會了上網，真是活到老學到老。 Yéye bāshí suì hái xué huì le shàngwǎng, zhēnshi huó dào lǎo xué dào lǎo. - Ông nội tám mươi tuổi còn học được cách lên mạng, đúng là sống đến già học đến già.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "起不來", pinyin: "qǐ bù lái", hanViet: "Khởi bất lai",
+    image: "",
+    radical: "起 (Tẩu 走), 不 (Nhất 一), 來 (Nhân 人)<br>💡 Mẹo nhớ: Dùng bổ ngữ khả năng 不 (không thể) chen vào giữa động từ 起 và bổ ngữ xu hướng 來 để biểu thị không có khả năng thức dậy.",
+    explanation: "Cụm động từ: Dậy không nổi (thường do quá mệt hoặc ngủ muộn).",
+    compounds: [
+      { tc: "起得來", py: "qǐ de lái", vn: "dậy nổi" }
+    ],
+    examples: [
+      { tc: "昨天太晚睡，今天早上差點起不來。", py: "Zuótiān tài wǎn shuì, jīntiān zǎoshàng chàdiǎn qǐ bù lái.", vn: "Hôm qua ngủ muộn quá, sáng nay suýt nữa thì dậy không nổi." },
+      { tc: "明天六點要出發，你起得來嗎？", py: "Míngtiān liù diǎn yào chūfā, nǐ qǐ de lái ma?", vn: "Ngày mai sáu giờ phải xuất phát, bạn dậy nổi không?" },
+      { tc: "他生病了，全身沒有力氣，根本起不來。", py: "Tā shēngbìng le, quánshēn méiyǒu lìqì, gēnběn qǐ bù lái.", vn: "Anh ấy bị ốm rồi, toàn thân không có sức, căn bản là dậy không nổi." }
+    ],
+    idiom: "賴床起不來 Làichuáng qǐ bù lái - Ngủ nướng dậy không nổi.<br>🔸 Ví dụ: 週末大家都想賴床起不來。 Zhōumò dàjiā dōu xiǎng làichuáng qǐ bù lái. - Cuối tuần ai cũng muốn ngủ nướng dậy không nổi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "走不了路", pinyin: "zǒu bù liǎo lù", hanViet: "Tẩu bất liễu lộ",
+    image: "",
+    radical: "走 (Đi), 不 (Không), 了 (Nổi), 路 (Đường)<br>💡 Mẹo nhớ: Cấu trúc 走路 (đi bộ) được chêm thêm 不了 (không nổi) vào giữa để biểu thị sự mất khả năng di chuyển.",
+    explanation: "Cụm động từ: Đi không nổi, không đi lại được.",
+    compounds: [
+      { tc: "走得了路", py: "zǒu de liǎo lù", vn: "đi lại được" }
+    ],
+    examples: [
+      { tc: "他的腳受傷了，痛得走不了路。", py: "Tā de jiǎo shòushāng le, tèng de zǒu bù liǎo lù.", vn: "Chân của anh ấy bị thương rồi, đau đến mức không đi lại được." },
+      { tc: "今天走了太多路，我累得走不了路了。", py: "Jīntiān zǒu le tài duō lù, wǒ lèi de zǒu bù liǎo lù le.", vn: "Hôm nay đi bộ nhiều quá, tôi mệt đến mức đi không nổi nữa rồi." },
+      { tc: "你腳還痛嗎？走得了路嗎？", py: "Nǐ jiǎo hái tèng ma? Zǒu de liǎo lù ma?", vn: "Chân bạn còn đau không? Có đi lại được không?" }
+    ],
+    idiom: "寸步難行 Cùnbù nánxíng - Tấc bước khó đi.<br>🔸 Ví dụ: 外面積水很深，真是寸步難行。 Wàimiàn jīshuǐ hěn shēn, zhēnshi cùnbù nánxíng. - Bên ngoài nước đọng rất sâu, đúng là tấc bước khó đi.", 
+    level: "TOCFL A2"
+  },
   ];
