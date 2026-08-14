@@ -6967,4 +6967,207 @@ const dataA2 = [
     idiom: "做起來容易 Zuò qǐlái róngyì - Làm thử thấy dễ.<br>🔸 Ví dụ: 這個運動做起來很容易，你也可以試試。 Zhège yùndòng zuò qǐlái hěn róngyì, nǐ yě kěyǐ shìshì. - Bài tập này lúc làm thử thấy rất dễ, bạn cũng có thể thử xem.", 
     level: "TOCFL A2"
   },
+  {
+    word: "其他", pinyin: "qítā", hanViet: "Kỳ tha",
+    image: "",
+    radical: "其 (Bộ Bát 八) + 他 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Chỉ những sự vật, sự việc hoặc những người (他) khác nằm ngoài đối tượng đang được nhắc đến.",
+    explanation: "Đại từ: Khác, những cái khác, phần còn lại.",
+    compounds: [
+      { tc: "其他人", py: "qítā rén", vn: "người khác" },
+      { tc: "其他東西", py: "qítā dōngxī", vn: "những đồ vật khác" }
+    ],
+    examples: [
+      { tc: "除了這個，你還有其他的問題嗎？", py: "Chúle zhège, nǐ hái yǒu qítā de wèntí ma?", vn: "Ngoài cái này ra, bạn còn câu hỏi nào khác không?" },
+      { tc: "其他人都已經回家了。", py: "Qítā rén dōu yǐjīng huí jiā le.", vn: "Những người khác đều đã về nhà rồi." },
+      { tc: "我只需要這些，其他的不用了。", py: "Wǒ zhǐ xūyào zhèxiē, qítā de búyòng le.", vn: "Tôi chỉ cần những thứ này, những cái khác không cần nữa." }
+    ],
+    idiom: "其他選擇 Qítā xuǎnzé - Lựa chọn khác.<br>🔸 Ví dụ: 這家餐廳客滿了，我們只好找其他選擇。 Zhè jiā cāntīng kèmǎn le, wǒmen zhǐhǎo zhǎo qítā xuǎnzé. - Nhà hàng này kín khách rồi, chúng ta đành phải tìm lựa chọn khác thôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "假期", pinyin: "jiàqī", hanViet: "Giả kỳ",
+    image: "",
+    radical: "假 (Bộ Nhân 亻) + 期 (Bộ Nguyệt 月)<br>💡 Mẹo nhớ: Khoảng thời gian, ngày tháng (期) con người được nghỉ ngơi (假).",
+    explanation: "Danh từ: Kỳ nghỉ, ngày nghỉ.",
+    compounds: [
+      { tc: "長假期", py: "cháng jiàqī", vn: "kỳ nghỉ dài" },
+      { tc: "度過假期", py: "dùguò jiàqī", vn: "trải qua kỳ nghỉ" }
+    ],
+    examples: [
+      { tc: "你這個假期打算去哪裡玩？", py: "Nǐ zhège jiàqī dǎsuàn qù nǎlǐ wán?", vn: "Kỳ nghỉ này bạn dự định đi đâu chơi?" },
+      { tc: "祝你有一個愉快的假期。", py: "Zhù nǐ yǒu yí ge yúkuài de jiàqī.", vn: "Chúc bạn có một kỳ nghỉ vui vẻ." },
+      { tc: "我的假期馬上就要結束了。", py: "Wǒ de jiàqī mǎshàng jiù yào jiéshù le.", vn: "Kỳ nghỉ của tôi sắp kết thúc rồi." }
+    ],
+    idiom: "國定假期 Guódìng jiàqī - Ngày nghỉ lễ quốc gia.<br>🔸 Ví dụ: 明天是國定假期，大家都不用上班。 Míngtiān shì guódìng jiàqī, dàjiā dōu búyòng shàngbān. - Ngày mai là ngày nghỉ lễ quốc gia, mọi người đều không cần đi làm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "溫泉", pinyin: "wēnquán", hanViet: "Ôn tuyền",
+    image: "",
+    radical: "溫 (Bộ Thủy 氵) + 泉 (Bộ Thủy 水)<br>💡 Mẹo nhớ: Dòng suối (泉) có dòng nước (氵) ấm áp (溫) chảy ra từ lòng đất.",
+    explanation: "Danh từ: Suối nước nóng.",
+    compounds: [
+      { tc: "泡溫泉", py: "pào wēnquán", vn: "tắm suối nước nóng" },
+      { tc: "溫泉旅館", py: "wēnquán lǚguǎn", vn: "khách sạn suối nước nóng" }
+    ],
+    examples: [
+      { tc: "冬天去泡溫泉非常舒服。", py: "Dōngtiān qù pào wēnquán fēicháng shūfú.", vn: "Mùa đông đi tắm suối nước nóng vô cùng thoải mái." },
+      { tc: "台灣有很多有名的溫泉。", py: "Táiwān yǒu hěn duō yǒumíng de wēnquán.", vn: "Đài Loan có rất nhiều suối nước nóng nổi tiếng." },
+      { tc: "這家飯店裡面有溫泉。", py: "Zhè jiā fàndiàn lǐmiàn yǒu wēnquán.", vn: "Trong khách sạn này có suối nước nóng." }
+    ],
+    idiom: "溫泉勝地 Wēnquán shèngdì - Địa điểm tắm suối nước nóng nổi tiếng.<br>🔸 Ví dụ: 北投是台灣著名的溫泉勝地。 Běitóu shì Táiwān zhùmíng de wēnquán shèngdì. - Bắc Đầu là địa điểm tắm suối nước nóng nổi tiếng của Đài Loan.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "建議", pinyin: "jiànyì", hanViet: "Kiến nghị",
+    image: "",
+    radical: "建 (Bộ Dẫn 廴) + 議 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Dùng lời nói (言) để xây dựng (建), đóng góp ý kiến cho người khác.",
+    explanation: "Động từ / Danh từ: Khuyên, đề nghị, lời khuyên.",
+    compounds: [
+      { tc: "給建議", py: "gěi jiànyì", vn: "đưa ra lời khuyên" },
+      { tc: "好建議", py: "hǎo jiànyì", vn: "lời khuyên hay" }
+    ],
+    examples: [
+      { tc: "醫生建議他多休息。", py: "Yīshēng jiànyì tā duō xiūxí.", vn: "Bác sĩ khuyên anh ấy nghỉ ngơi nhiều hơn." },
+      { tc: "你有什麼好的建議嗎？", py: "Nǐ yǒu shénme hǎo de jiànyì ma?", vn: "Bạn có lời khuyên nào hay không?" },
+      { tc: "我接受了老師的建議。", py: "Wǒ jiēshòu le lǎoshī de jiànyì.", vn: "Tôi đã tiếp nhận lời khuyên của giáo viên." }
+    ],
+    idiom: "提出建議 Tíchū jiànyì - Đưa ra đề xuất.<br>🔸 Ví dụ: 開會時，大家都可以提出建議。 Kāihuì shí, dàjiā dōu kěyǐ tíchū jiànyì. - Lúc họp, mọi người đều có thể đưa ra đề xuất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "票", pinyin: "piào", hanViet: "Phiếu",
+    image: "",
+    radical: "票 (Bộ Thị 示)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng một mảnh giấy, tấm vé đưa ra cho mọi người xem (示).",
+    explanation: "Danh từ: Vé, phiếu.",
+    compounds: [
+      { tc: "買票", py: "mǎi piào", vn: "mua vé" },
+      { tc: "車票", py: "chēpiào", vn: "vé xe" }
+    ],
+    examples: [
+      { tc: "你買到演唱會的票了嗎？", py: "Nǐ mǎi dào yǎnchànghuì de piào le ma?", vn: "Bạn đã mua được vé xem buổi hòa nhạc chưa?" },
+      { tc: "這張火車票多少錢？", py: "Zhè zhāng huǒchēpiào duōshǎo qián?", vn: "Tấm vé xe lửa này bao nhiêu tiền?" },
+      { tc: "進去前請把你的票拿出來。", py: "Jìnqù qián qǐng bǎ nǐ de piào ná chūlái.", vn: "Trước khi vào trong vui lòng lấy vé của bạn ra." }
+    ],
+    idiom: "訂票 Dìng piào - Đặt vé.<br>🔸 Ví dụ: 週末的高鐵票要提早訂票。 Zhōumò de gāotiě piào yào tízǎo dìng piào. - Vé tàu cao tốc dịp cuối tuần phải đặt vé từ sớm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "考慮", pinyin: "kǎolǜ", hanViet: "Khảo lự",
+    image: "",
+    radical: "考 (Bộ Lão 老) + 慮 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Cần dùng cái tâm (心) tĩnh lặng của người lớn tuổi (老) để suy xét mọi việc một cách cẩn thận.",
+    explanation: "Động từ: Suy nghĩ, cân nhắc.",
+    compounds: [
+      { tc: "考慮一下", py: "kǎolǜ yíxià", vn: "cân nhắc một chút" },
+      { tc: "仔細考慮", py: "zǐxì kǎolǜ", vn: "suy nghĩ kỹ" }
+    ],
+    examples: [
+      { tc: "這份工作我還要再考慮一下。", py: "Zhè fèn gōngzuò wǒ hái yào zài kǎolǜ yíxià.", vn: "Công việc này tôi vẫn phải cân nhắc thêm một chút." },
+      { tc: "請你仔細考慮我的建議。", py: "Qǐng nǐ zǐxì kǎolǜ wǒ de jiànyì.", vn: "Xin bạn hãy suy nghĩ kỹ lời khuyên của tôi." },
+      { tc: "買房子是一件大事，必須好好考慮。", py: "Mǎi fángzi shì yí jiàn dàshì, bìxū hǎohǎo kǎolǜ.", vn: "Mua nhà là một việc lớn, bắt buộc phải suy nghĩ cẩn thận." }
+    ],
+    idiom: "考慮清楚 Kǎolǜ qīngchǔ - Suy nghĩ rõ ràng.<br>🔸 Ví dụ: 決定之前，一定要先考慮清楚。 Juédìng zhīqián, yídìng yào xiān kǎolǜ qīngchǔ. - Trước khi quyết định, nhất định phải suy nghĩ rõ ràng trước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "順便", pinyin: "shùnbiàn", hanViet: "Thuận tiện",
+    image: "",
+    radical: "順 (Bộ Hiệt 頁) + 便 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Một người (亻) tiện đường, thuận (順) bề làm thêm một việc gì đó mà không tốn công sức.",
+    explanation: "Phó từ: Tiện thể, nhân tiện.",
+    compounds: [
+      { tc: "順便買", py: "shùnbiàn mǎi", vn: "tiện thể mua" },
+      { tc: "順便問", py: "shùnbiàn wèn", vn: "tiện thể hỏi" }
+    ],
+    examples: [
+      { tc: "你去超市的時候，順便幫我買一瓶牛奶。", py: "Nǐ qù chāoshì de shíhòu, shùnbiàn bāng wǒ mǎi yì píng niúnǎi.", vn: "Lúc bạn đi siêu thị, tiện thể mua giúp tôi một chai sữa nhé." },
+      { tc: "我下班回家，順便去拿了包裹。", py: "Wǒ xiàbān huí jiā, shùnbiàn qù ná le bāoguǒ.", vn: "Tôi tan làm về nhà, tiện thể đi lấy bưu kiện luôn." },
+      { tc: "我只是經過這裡，順便過來看看你。", py: "Wǒ zhǐshì jīngguò zhèlǐ, shùnbiàn guòlái kànkàn nǐ.", vn: "Tôi chỉ đi ngang qua đây, nhân tiện ghé qua thăm bạn thôi." }
+    ],
+    idiom: "順便一提 Shùnbiàn yì tí - Nhân tiện nhắc tới.<br>🔸 Ví dụ: 順便一提，明天的會議取消了。 Shùnbiàn yì tí, míngtiān de huìyì qǔxiāo le. - Nhân tiện nhắc tới, cuộc họp ngày mai bị hủy rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "湖", pinyin: "hú", hanViet: "Hồ",
+    image: "",
+    radical: "湖 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Nơi chứa rất nhiều nước (氵) tụ lại thành một vũng lớn.",
+    explanation: "Danh từ: Hồ nước.",
+    compounds: [
+      { tc: "湖邊", py: "húbiān", vn: "bờ hồ" },
+      { tc: "日月潭", py: "Rìyuè Tán", vn: "Hồ Nhật Nguyệt (Một hồ nước nổi tiếng ở Đài Loan)" }
+    ],
+    examples: [
+      { tc: "這個湖的風景非常美麗。", py: "Zhège hú de fēngjǐng fēicháng měilì.", vn: "Phong cảnh của hồ nước này vô cùng xinh đẹp." },
+      { tc: "我們週末去湖邊散步吧。", py: "Wǒmen zhōumò qù hú biān sànbù ba.", vn: "Cuối tuần chúng ta ra bờ hồ đi dạo đi." },
+      { tc: "湖裡有很多魚游來游去。", py: "Hú lǐ yǒu hěn duō yú yóu lái yóu qù.", vn: "Dưới hồ có rất nhiều cá bơi tới bơi lui." }
+    ],
+    idiom: "湖光山色 Húguāng shānsè - Cảnh sắc hồ núi.<br>🔸 Ví dụ: 這裡的湖光山色美得像一幅畫。 Zhèlǐ de húguāng shānsè měi de xiàng yì fú huà. - Cảnh sắc hồ núi ở đây đẹp giống như một bức tranh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "原住民", pinyin: "yuánzhùmín", hanViet: "Nguyên trú dân",
+    image: "",
+    radical: "原 (Nguyên) + 住 (Trú) + 民 (Dân)<br>💡 Mẹo nhớ: Những người dân (民) đã sinh sống (住) ở một vùng đất từ nguyên thủy (原) ban sơ.",
+    explanation: "Danh từ: Người bản địa, thổ dân.",
+    compounds: [
+      { tc: "原住民文化", py: "yuánzhùmín wénhuà", vn: "văn hóa người bản địa" }
+    ],
+    examples: [
+      { tc: "台灣有很多不同的原住民族。", py: "Táiwān yǒu hěn duō bùtóng de yuánzhùmín zú.", vn: "Đài Loan có rất nhiều dân tộc bản địa khác nhau." },
+      { tc: "我想多了解原住民的歷史。", py: "Wǒ xiǎng duō liǎojiě yuánzhùmín de lìshǐ.", vn: "Tôi muốn tìm hiểu thêm về lịch sử của người bản địa." },
+      { tc: "原住民的音樂非常有特色。", py: "Yuánzhùmín de yīnyuè fēicháng yǒu tèsè.", vn: "Âm nhạc của người bản địa vô cùng đặc sắc." }
+    ],
+    idiom: "原住民部落 Yuánzhùmín bùluò - Bản làng người bản địa.<br>🔸 Ví dụ: 我們去參觀了一個美麗的原住民部落。 Wǒmen qù cānguān le yí ge měilì de yuánzhùmín bùluò. - Chúng tôi đã đi tham quan một bản làng người bản địa xinh đẹp.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "趟", pinyin: "tàng", hanViet: "Tr趟",
+    image: "",
+    radical: "趟 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Chữ Thượng (尚) kết hợp với bộ Tẩu (走 - đi bộ), dùng làm lượng từ đếm số lần di chuyển, đi lại.",
+    explanation: "Lượng từ: Chuyến (đi).",
+    compounds: [
+      { tc: "走一趟", py: "zǒu yí tàng", vn: "đi một chuyến" },
+      { tc: "去一趟", py: "qù yí tàng", vn: "đi một chuyến" }
+    ],
+    examples: [
+      { tc: "我明天必須去台北一趟。", py: "Wǒ míngtiān bìxū qù Táiběi yí tàng.", vn: "Ngày mai tôi bắt buộc phải đi Đài Bắc một chuyến." },
+      { tc: "他為了這件事跑了好幾趟。", py: "Tā wèile zhè jiàn shì pǎo le hǎo jǐ tàng.", vn: "Anh ấy vì chuyện này mà chạy đôn chạy đáo mấy chuyến." },
+      { tc: "這趟旅行讓我學到了很多東西。", py: "Zhè tàng lǚxíng ràng wǒ xuédào le hěn duō dōngxī.", vn: "Chuyến đi này giúp tôi học được rất nhiều thứ." }
+    ],
+    idiom: "白跑一趟 Bái pǎo yí tàng - Chạy mất công vô ích.<br>🔸 Ví dụ: 店沒開，我們白跑一趟了。 Diàn méi kāi, wǒmen bái pǎo yí tàng le. - Cửa hàng không mở, chúng ta chạy mất công vô ích rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "後來", pinyin: "hòulái", hanViet: "Hậu lai",
+    image: "",
+    radical: "後 (Bộ Xích 彳) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Chuyện đi đến (來) ở phần phía sau (後). Dùng để kể lại một sự việc đã xảy ra trong quá khứ.",
+    explanation: "Phó từ: Về sau, sau này (dùng kể chuyện quá khứ).",
+    compounds: [
+      { tc: "後來呢", py: "hòulái ne", vn: "sau đó thì sao" },
+      { tc: "到後來", py: "dào hòulái", vn: "mãi về sau" }
+    ],
+    examples: [
+      { tc: "他一開始不同意，後來還是答應了。", py: "Tā yì kāishǐ bù tóngyì, hòulái háishì dāyìng le.", vn: "Lúc đầu anh ấy không đồng ý, về sau vẫn nhận lời rồi." },
+      { tc: "你昨天去面試，後來怎麼樣了？", py: "Nǐ zuótiān qù miànshì, hòulái zěnmeyàng le?", vn: "Hôm qua bạn đi phỏng vấn, sau đó thế nào rồi?" },
+      { tc: "他們以前是好朋友，後來吵架了。", py: "Tāmen yǐqián shì hǎo péngyǒu, hòulái chǎojià le.", vn: "Bọn họ trước đây là bạn tốt, sau này lại cãi nhau rồi." }
+    ],
+    idiom: "後來居上 Hòulái jūshàng - Kẻ đến sau vượt người đi trước.<br>🔸 Ví dụ: 他的成績後來居上，考了第一名。 Tā de chéngjī hòulái jūshàng, kǎo le dì yī míng. - Thành tích của anh ấy vượt lên trên, thi được hạng nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "注意", pinyin: "zhùyì", hanViet: "Chú ý",
+    image: "",
+    radical: "注 (Bộ Thủy 氵) + 意 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Dồn tâm ý (意) vào một sự việc giống như rót nước (注 - Thủy) vào một chỗ.",
+    explanation: "Động từ: Chú ý, lưu ý.",
+    compounds: [
+      { tc: "注意安全", py: "zhùyì ānquán", vn: "chú ý an toàn" },
+      { tc: "沒注意", py: "méi zhùyì", vn: "không để ý" }
+    ],
+    examples: [
+      { tc: "過馬路時請注意安全。", py: "Guò mǎlù shí qǐng zhùyì ānquán.", vn: "Lúc sang đường xin hãy chú ý an toàn." },
+      { tc: "對不起，我剛才沒注意聽。", py: "Duìbùqǐ, wǒ gāngcái méi zhùyì tīng.", vn: "Xin lỗi, lúc nãy tôi không chú ý nghe." },
+      { tc: "最近天氣變冷了，要注意身體。", py: "Zuìjìn tiānqì biàn lěng le, yào zhùyì shēntǐ.", vn: "Dạo này thời tiết trở lạnh rồi, phải chú ý sức khỏe." }
+    ],
+    idiom: "引人注意 Yǐn rén zhùyì - Thu hút sự chú ý.<br>🔸 Ví dụ: 她的衣服顏色很特別，非常引人注意。 Tā de yīfú yánsè hěn tèbié, fēicháng yǐn rén zhùyì. - Màu sắc quần áo của cô ấy rất đặc biệt, vô cùng thu hút sự chú ý.", 
+    level: "TOCFL A2"
+  },
   ];
