@@ -5310,4 +5310,255 @@ const dataA2 = [
     idiom: "寸步難行 Cùnbù nánxíng - Tấc bước khó đi.<br>🔸 Ví dụ: 外面積水很深，真是寸步難行。 Wàimiàn jīshuǐ hěn shēn, zhēnshi cùnbù nánxíng. - Bên ngoài nước đọng rất sâu, đúng là tấc bước khó đi.", 
     level: "TOCFL A2"
   },
+  {
+    word: "好處", pinyin: "hǎochù", hanViet: "Hảo xứ",
+    image: "",
+    radical: "好 (Bộ Nữ 女) + 處 (Bộ Hô 虍)<br>💡 Mẹo nhớ: Nơi (處) mang lại những điều tốt lành (好) cho con người chính là điểm lợi, lợi ích.",
+    explanation: "Danh từ: Lợi ích, điểm tốt.",
+    compounds: [
+      { tc: "壞處", py: "huàichù", vn: "tác hại, điểm xấu" },
+      { tc: "有好處", py: "yǒu hǎochù", vn: "có lợi ích" }
+    ],
+    examples: [
+      { tc: "運動對身體有很多好處。", py: "Yùndòng duì shēntǐ yǒu hěn duō hǎochù.", vn: "Tập thể dục có rất nhiều lợi ích đối với cơ thể." },
+      { tc: "學中文的好處是什麼？", py: "Xué Zhōngwén de hǎochù shì shénme?", vn: "Lợi ích của việc học tiếng Trung là gì?" },
+      { tc: "這樣做對你沒有好處。", py: "Zhèyàng zuò duì nǐ méiyǒu hǎochù.", vn: "Làm như vậy không có lợi ích gì cho bạn cả." }
+    ],
+    idiom: "大有好處 Dà yǒu hǎochù - Có lợi ích to lớn.<br>🔸 Ví dụ: 多吃蔬菜對健康大有好處。 Duō chī shūcài duì jiànkāng dà yǒu hǎochù. - Ăn nhiều rau củ có lợi ích to lớn đối với sức khỏe.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "抱怨", pinyin: "bàoyuàn", hanViet: "Bão oán",
+    image: "",
+    radical: "抱 (Bộ Thủ 扌) + 怨 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Ôm (抱 - dùng tay 扌) sự hờn trách, bực dọc trong lòng (心) và nói ra thành lời.",
+    explanation: "Động từ: Than phiền, oán trách, càu nhàu.",
+    compounds: [
+      { tc: "一直抱怨", py: "yìzhí bàoyuàn", vn: "cứ than phiền suốt" }
+    ],
+    examples: [
+      { tc: "他總是在抱怨工作太累。", py: "Tā zǒngshì zài bàoyuàn gōngzuò tài lèi.", vn: "Anh ấy lúc nào cũng than phiền công việc quá mệt mỏi." },
+      { tc: "請不要再抱怨了，趕快做事吧。", py: "Qǐng búyào zài bàoyuàn le, gǎnkuài zuòshì ba.", vn: "Xin đừng càu nhàu nữa, mau chóng làm việc đi." },
+      { tc: "大家都抱怨這裡的天氣太熱。", py: "Dàjiā dōu bàoyuàn zhèlǐ de tiānqì tài rè.", vn: "Mọi người đều than phiền thời tiết ở đây nóng quá." }
+    ],
+    idiom: "愛抱怨 Ài bàoyuàn - Thích than phiền.<br>🔸 Ví dụ: 沒有人喜歡跟愛抱怨的人做朋友。 Méiyǒu rén xǐhuān gēn ài bàoyuàn de rén zuò péngyǒu. - Không ai thích làm bạn với người hay than phiền cả.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "公尺", pinyin: "gōngchǐ", hanViet: "Công xích",
+    image: "",
+    radical: "公 (Bộ Bát 八) + 尺 (Bộ Thi 尸)<br>💡 Mẹo nhớ: Đơn vị đo chiều dài (尺) tiêu chuẩn chung của quốc tế (公).",
+    explanation: "Danh từ: Mét (đơn vị đo chiều dài).",
+    compounds: [
+      { tc: "一百公尺", py: "yìbǎi gōngchǐ", vn: "một trăm mét" },
+      { tc: "公分", py: "gōngfēn", vn: "centimet" }
+    ],
+    examples: [
+      { tc: "我家離學校只有五百公尺。", py: "Wǒ jiā lí xuéxiào zhǐyǒu wǔbǎi gōngchǐ.", vn: "Nhà tôi cách trường học chỉ có 500 mét." },
+      { tc: "這座山有一千公尺高。", py: "Zhè zuò shān yǒu yìqiān gōngchǐ gāo.", vn: "Ngọn núi này cao 1000 mét." },
+      { tc: "他的身高是一點八公尺。", py: "Tā de shēngāo shì yì diǎn bā gōngchǐ.", vn: "Chiều cao của anh ấy là 1.8 mét." }
+    ],
+    idiom: "幾公尺 Jǐ gōngchǐ - Mấy mét.<br>🔸 Ví dụ: 請問這裡離車站還有幾公尺？ Qǐngwèn zhèlǐ lí chēzhàn hái yǒu jǐ gōngchǐ? - Xin hỏi từ đây đến nhà ga còn mấy mét nữa?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "總是", pinyin: "zǒngshì", hanViet: "Tổng thị",
+    image: "",
+    radical: "總 (Bộ Mịch 糸) + 是 (Bộ Nhật 日)<br>💡 Mẹo nhớ: Lúc nào cũng đúng (是) như vậy, gộp chung lại (總) không hề thay đổi.",
+    explanation: "Phó từ: Luôn luôn, lúc nào cũng.",
+    compounds: [
+      { tc: "老是", py: "lǎoshì", vn: "lúc nào cũng (khẩu ngữ)" }
+    ],
+    examples: [
+      { tc: "他總是忘記帶鑰匙。", py: "Tā zǒngshì wàngjì dài yàoshi.", vn: "Anh ấy lúc nào cũng quên mang chìa khóa." },
+      { tc: "媽媽總是對我很好。", py: "Māma zǒngshì duì wǒ hěn hǎo.", vn: "Mẹ luôn luôn đối xử rất tốt với tôi." },
+      { tc: "為什麼你總是遲到？", py: "Wèishénme nǐ zǒngshì chídào?", vn: "Tại sao bạn lúc nào cũng đi muộn vậy?" }
+    ],
+    idiom: "總是這樣 Zǒngshì zhèyàng - Lúc nào cũng vậy.<br>🔸 Ví dụ: 你不要生氣了，他總是這樣。 Nǐ búyào shēngqì le, tā zǒngshì zhèyàng. - Bạn đừng tức giận nữa, anh ta lúc nào cũng vậy mà.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "完", pinyin: "wán", hanViet: "Hoàn",
+    image: "",
+    radical: "完 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Dưới mái nhà (宀) mọi việc đã được giải quyết trọn vẹn (元), xong xuôi.",
+    explanation: "Trợ từ: Xong, hết (thường đứng sau động từ làm bổ ngữ kết quả).",
+    compounds: [
+      { tc: "做完", py: "zuò wán", vn: "làm xong" },
+      { tc: "賣完", py: "mài wán", vn: "bán hết" }
+    ],
+    examples: [
+      { tc: "我已經把功課寫完了。", py: "Wǒ yǐjīng bǎ gōngkè xiě wán le.", vn: "Tôi đã viết xong bài tập rồi." },
+      { tc: "這本書你看完了嗎？", py: "Zhè běn shū nǐ kàn wán le ma?", vn: "Quyển sách này bạn đã đọc xong chưa?" },
+      { tc: "店裡的蛋糕都賣完了。", py: "Diàn lǐ de dàngāo dōu mài wán le.", vn: "Bánh kem trong tiệm đều bán hết rồi." }
+    ],
+    idiom: "沒完沒了 Méiwán méiliǎo - Không biết đường nào mà lần / Không bao giờ kết thúc.<br>🔸 Ví dụ: 他們兩個人吵架總是沒完沒了。 Tāmen liǎng ge rén chǎojià zǒngshì méiwán méiliǎo. - Hai người họ cãi nhau lúc nào cũng không có hồi kết.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "體力", pinyin: "tǐlì", hanViet: "Thể lực",
+    image: "",
+    radical: "體 (Bộ Cốt 骨) + 力 (Bộ Lực 力)<br>💡 Mẹo nhớ: Sức mạnh (力) của cơ thể, xương cốt (骨).",
+    explanation: "Danh từ: Thể lực, sức lực.",
+    compounds: [
+      { tc: "體力好", py: "tǐlì hǎo", vn: "thể lực tốt" },
+      { tc: "沒有體力", py: "méiyǒu tǐlì", vn: "không có sức lực" }
+    ],
+    examples: [
+      { tc: "爬山需要很好的體力。", py: "Páshān xūyào hěn hǎo de tǐlì.", vn: "Leo núi cần thể lực rất tốt." },
+      { tc: "他剛生完病，體力還沒恢復。", py: "Tā gāng shēng wán bìng, tǐlì hái méi huīfù.", vn: "Anh ấy vừa ốm xong, thể lực vẫn chưa hồi phục." },
+      { tc: "這份工作很花體力。", py: "Zhè fèn gōngzuò hěn huā tǐlì.", vn: "Công việc này rất tốn sức lực." }
+    ],
+    idiom: "體力透支 Tǐlì tòuzhī - Kiệt sức / Cạn kiệt thể lực.<br>🔸 Ví dụ: 連續工作了十二個小時，他已經體力透支了。 Liánxù gōngzuò le shí'èr ge xiǎoshí, tā yǐjīng tǐlì tòuzhī le. - Làm việc liên tục mười hai tiếng đồng hồ, anh ấy đã kiệt sức rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "整天", pinyin: "zhěngtiān", hanViet: "Chỉnh thiên",
+    image: "",
+    radical: "整 (Bộ Phộc 攵) + 天 (Bộ Đại 大)<br>💡 Mẹo nhớ: Toàn bộ (整) thời gian của một ngày (天).",
+    explanation: "Danh từ chỉ thời gian: Cả ngày, suốt cả ngày.",
+    compounds: [
+      { tc: "一整天", py: "yì zhěngtiān", vn: "nguyên một ngày trời" }
+    ],
+    examples: [
+      { tc: "他整天都在房間裡打電動。", py: "Tā zhěngtiān dōu zài fángjiān lǐ dǎ diàndòng.", vn: "Cậu ấy ở trong phòng chơi game suốt cả ngày." },
+      { tc: "我今天忙了一整天，非常累。", py: "Wǒ jīntiān máng le yì zhěngtiān, fēicháng lèi.", vn: "Hôm nay tôi bận nguyên một ngày trời, vô cùng mệt." },
+      { tc: "外面下了一整天的雨。", py: "Wàimiàn xià le yì zhěngtiān de yǔ.", vn: "Bên ngoài mưa rả rích suốt cả ngày." }
+    ],
+    idiom: "整天無所事事 Zhěngtiān wúsuǒshìshì - Cả ngày không làm nên trò trống gì / Suốt ngày lêu lổng.<br>🔸 Ví dụ: 你不能整天無所事事，要去找工作。 Nǐ bùnéng zhěngtiān wúsuǒshìshì, yào qù zhǎo gōngzuò. - Bạn không thể suốt ngày lêu lổng được, phải đi tìm việc làm đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "精神", pinyin: "jīngshén", hanViet: "Tinh thần",
+    image: "",
+    radical: "精 (Bộ Mễ 米) + 神 (Bộ Kỳ 示)<br>💡 Mẹo nhớ: Những gì tinh túy, tinh hoa (精) của con người được thể hiện qua thần thái (神).",
+    explanation: "Danh từ: Tinh thần, sự minh mẫn, năng lượng.",
+    compounds: [
+      { tc: "有精神", py: "yǒu jīngshén", vn: "có tinh thần, tỉnh táo" },
+      { tc: "沒精神", py: "méi jīngshén", vn: "thiếu sức sống, ủ rũ" }
+    ],
+    examples: [
+      { tc: "喝杯咖啡會讓你比較有精神。", py: "Hē bēi kāfēi huì ràng nǐ bǐjiào yǒu jīngshén.", vn: "Uống một ly cà phê sẽ giúp bạn tỉnh táo hơn." },
+      { tc: "他昨天沒睡好，今天看起來沒精神。", py: "Tā zuótiān méi shuì hǎo, jīntiān kàn qǐlái méi jīngshén.", vn: "Hôm qua anh ấy không ngủ ngon, hôm nay trông có vẻ thiếu sức sống." },
+      { tc: "運動可以讓人保持好精神。", py: "Yùndòng kěyǐ ràng rén bǎochí hǎo jīngshén.", vn: "Tập thể thao có thể giúp con người duy trì tinh thần tốt." }
+    ],
+    idiom: "精神百倍 Jīngshén bǎibèi - Tinh thần phấn chấn / Tràn trề sinh lực.<br>🔸 Ví dụ: 睡了一個好覺，我現在精神百倍。 Shuì le yí ge hǎo jiào, wǒ xiànzài jīngshén bǎibèi. - Ngủ được một giấc ngon, tôi bây giờ tinh thần vô cùng phấn chấn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "本來", pinyin: "běnlái", hanViet: "Bản lai",
+    image: "",
+    radical: "本 (Bộ Mộc 木) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Gốc rễ ban đầu (本) trước khi sự việc diễn ra, đi đến (來).",
+    explanation: "Phó từ: Vốn dĩ, lúc đầu, đáng nhẽ.",
+    compounds: [
+      { tc: "本來想", py: "běnlái xiǎng", vn: "vốn dĩ muốn" },
+      { tc: "原本", py: "yuánběn", vn: "vốn dĩ (đồng nghĩa)" }
+    ],
+    examples: [
+      { tc: "我本來想去游泳，可是下雨了。", py: "Wǒ běnlái xiǎng qù yóuyǒng, kěshì xiàyǔ le.", vn: "Tôi vốn dĩ muốn đi bơi, nhưng trời lại mưa mất rồi." },
+      { tc: "這件事本來就是他不對。", py: "Zhè jiàn shì běnlái jiùshì tā bú duì.", vn: "Chuyện này vốn dĩ là do anh ta không đúng." },
+      { tc: "他本來不會說中文，現在說得很流利。", py: "Tā běnlái bú huì shuō Zhōngwén, xiànzài shuō de hěn liúlì.", vn: "Lúc đầu anh ấy không biết nói tiếng Trung, bây giờ nói rất lưu loát rồi." }
+    ],
+    idiom: "本來面目 Běnlái miànmù - Bộ mặt thật.<br>🔸 Ví dụ: 經過這件事，我終於看清了他的本來面目。 Jīngguò zhè jiàn shì, wǒ zhōngyú kàn qīng le tā de běnlái miànmù. - Trải qua chuyện này, tôi cuối cùng cũng nhìn rõ bộ mặt thật của anh ta.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "可能", pinyin: "kěnéng", hanViet: "Khả năng",
+    image: "",
+    radical: "可 (Bộ Khẩu 口) + 能 (Bộ Nhục 肉)<br>💡 Mẹo nhớ: Có thể (可) sẽ xảy ra, có năng lực (能) xảy ra.",
+    explanation: "Trợ động từ / Phó từ: Có thể, có lẽ, có khả năng.",
+    compounds: [
+      { tc: "不可能", py: "bù kěnéng", vn: "không thể nào" },
+      { tc: "有可能", py: "yǒu kěnéng", vn: "có khả năng" }
+    ],
+    examples: [
+      { tc: "他今天生病了，可能不會來上課。", py: "Tā jīntiān shēngbìng le, kěnéng bú huì lái shàngkè.", vn: "Hôm nay cậu ấy bị ốm, có lẽ sẽ không đến lớp." },
+      { tc: "這件事情是不可能發生的。", py: "Zhè jiàn shìqíng shì bù kěnéng fāshēng de.", vn: "Sự việc này là không thể nào xảy ra được." },
+      { tc: "明天下雨的可能性很大。", py: "Míngtiān xiàyǔ de kěnéngxìng hěn dà.", vn: "Khả năng ngày mai trời mưa là rất lớn." }
+    ],
+    idiom: "盡可能 Jǐnkěnéng - Hết sức có thể / Cố gắng hết mức.<br>🔸 Ví dụ: 我會盡可能幫助你。 Wǒ huì jǐnkěnéng bāngzhù nǐ. - Tôi sẽ giúp đỡ bạn hết sức có thể.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "回", pinyin: "huí", hanViet: "Hồi",
+    image: "",
+    radical: "回 (Bộ Vi 囗)<br>💡 Mẹo nhớ: Hình ảnh vòng tròn xoay chuyển quay trở về chỗ cũ.",
+    explanation: "Động từ: Quay về, trở lại.",
+    compounds: [
+      { tc: "回家", py: "huí jiā", vn: "về nhà" },
+      { tc: "回國", py: "huí guó", vn: "về nước" }
+    ],
+    examples: [
+      { tc: "你什麼時候要回國？", py: "Nǐ shénme shíhòu yào huí guó?", vn: "Khi nào thì bạn về nước?" },
+      { tc: "我下課後就馬上回家。", py: "Wǒ xiàkè hòu jiù mǎshàng huí jiā.", vn: "Sau khi tan học tôi liền về nhà ngay." },
+      { tc: "請你盡快回我電話。", py: "Qǐng nǐ jìnkuài huí wǒ diànhuà.", vn: "Xin bạn mau chóng gọi điện thoại lại cho tôi." }
+    ],
+    idiom: "回心轉意 Huíxīn zhuǎnyì - Hồi tâm chuyển ý / Thay đổi ý định.<br>🔸 Ví dụ: 他已經決定了，不會再回心轉意。 Tā yǐjīng juédìng le, bú huì zài huíxīn zhuǎnyì. - Anh ấy đã quyết định rồi, sẽ không hồi tâm chuyển ý nữa đâu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "影響", pinyin: "yǐngxiǎng", hanViet: "Ảnh hưởng",
+    image: "",
+    radical: "影 (Bộ Sam 彡) + 響 (Bộ Âm 音)<br>💡 Mẹo nhớ: Hình bóng (影) và âm thanh (響) vang dội có thể tác động đến người khác.",
+    explanation: "Động từ / Danh từ: Ảnh hưởng, tác động.",
+    compounds: [
+      { tc: "受影響", py: "shòu yǐngxiǎng", vn: "chịu ảnh hưởng" },
+      { tc: "影響很大", py: "yǐngxiǎng hěn dà", vn: "ảnh hưởng rất lớn" }
+    ],
+    examples: [
+      { tc: "天氣不好，影響了我們的心情。", py: "Tiānqì bù hǎo, yǐngxiǎng le wǒmen de xīnqíng.", vn: "Thời tiết không tốt, đã ảnh hưởng đến tâm trạng của chúng tôi." },
+      { tc: "父母的行為會影響孩子。", py: "Fùmǔ de xíngwéi huì yǐngxiǎng háizi.", vn: "Hành vi của cha mẹ sẽ tác động đến con cái." },
+      { tc: "這件事對我的影響非常大。", py: "Zhè jiàn shì duì wǒ de yǐngxiǎng fēicháng dà.", vn: "Sự việc này có ảnh hưởng vô cùng lớn đối với tôi." }
+    ],
+    idiom: "毫無影響 Háowú yǐngxiǎng - Hoàn toàn không có ảnh hưởng gì.<br>🔸 Ví dụ: 外面的噪音對他毫無影響，他還在看書。 Wàimiàn de zàoyīn duì tā háowú yǐngxiǎng, tā hái zài kànshū. - Tiếng ồn bên ngoài hoàn toàn không ảnh hưởng gì tới anh ấy, anh ấy vẫn đang đọc sách.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "身體", pinyin: "shēntǐ", hanViet: "Thân thể",
+    image: "",
+    radical: "身 (Bộ Thân 身) + 體 (Bộ Cốt 骨)<br>💡 Mẹo nhớ: Toàn bộ phần thân mình (身) và xương cốt (體) tạo nên cơ thể con người.",
+    explanation: "Danh từ: Cơ thể, thân thể, sức khỏe.",
+    compounds: [
+      { tc: "身體健康", py: "shēntǐ jiànkāng", vn: "cơ thể khỏe mạnh" }
+    ],
+    examples: [
+      { tc: "最近天氣冷，要注意身體。", py: "Zuìjìn tiānqì lěng, yào zhùyì shēntǐ.", vn: "Dạo này thời tiết lạnh, phải chú ý sức khỏe." },
+      { tc: "運動對身體很好。", py: "Yùndòng duì shēntǐ hěn hǎo.", vn: "Tập thể dục rất tốt cho cơ thể." },
+      { tc: "他覺得身體不太舒服，想去醫院。", py: "Tā juéde shēntǐ bú tài shūfú, xiǎng qù yīyuàn.", vn: "Anh ấy cảm thấy cơ thể không được khỏe, muốn đi bệnh viện." }
+    ],
+    idiom: "保重身體 Bǎozhòng shēntǐ - Bảo trọng sức khỏe.<br>🔸 Ví dụ: 工作雖然重要，但也要保重身體。 Gōngzuò suīrán zhòngyào, dàn yě yào bǎozhòng shēntǐ. - Công việc tuy quan trọng, nhưng cũng phải bảo trọng sức khỏe.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "練", pinyin: "liàn", hanViet: "Luyện",
+    image: "",
+    radical: "練 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Sợi tơ (糸) phải trải qua nhào nặn, rèn giũa nhiều lần mới trở thành vải vóc đẹp.",
+    explanation: "Động từ: Luyện tập, tập rèn.",
+    compounds: [
+      { tc: "練習", py: "liànxí", vn: "luyện tập" },
+      { tc: "練字", py: "liàn zì", vn: "luyện chữ" }
+    ],
+    examples: [
+      { tc: "他每天都在公園練太極拳。", py: "Tā měitiān dōu zài gōngyuán liàn tàijíquán.", vn: "Mỗi ngày ông ấy đều tập thái cực quyền trong công viên." },
+      { tc: "為了參加比賽，我每天都要練唱歌。", py: "Wèile cānjiā bǐsài, wǒ měitiān dōu yào liàn chànggē.", vn: "Để tham gia cuộc thi, mỗi ngày tôi đều phải luyện hát." },
+      { tc: "你的中文說得很好，是怎麼練的？", py: "Nǐ de Zhōngwén shuō de hěn hǎo, shì zěnme liàn de?", vn: "Tiếng Trung của bạn nói rất giỏi, là luyện tập như thế nào vậy?" }
+    ],
+    idiom: "勤學苦練 Qínxué kǔliàn - Chăm học khổ luyện.<br>🔸 Ví dụ: 只要勤學苦練，沒有什麼學不會的。 Zhǐyào qínxué kǔliàn, méiyǒu shénme xué bú huì de. - Chỉ cần chăm học khổ luyện, không có gì là không học được cả.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "想起", pinyin: "xiǎngqǐ", hanViet: "Tưởng khởi",
+    image: "",
+    radical: "想 (Bộ Tâm 心) + 起 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Trong lòng (心) khơi dậy (起) lại những ký ức cũ, nhớ lại một chuyện gì đó.",
+    explanation: "Động từ: Nhớ ra, nhớ lại.",
+    compounds: [
+      { tc: "想起來", py: "xiǎng qǐlái", vn: "sực nhớ ra" },
+      { tc: "想不起", py: "xiǎng bù qǐ", vn: "nhớ không ra" }
+    ],
+    examples: [
+      { tc: "我忽然想起明天有考試。", py: "Wǒ hūrán xiǎngqǐ míngtiān yǒu kǎoshì.", vn: "Tôi đột nhiên nhớ ra ngày mai có bài thi." },
+      { tc: "看到這張照片，我常常想起小時候的事。", py: "Kàndào zhè zhāng zhàopiān, wǒ chángcháng xiǎngqǐ xiǎoshíhòu de shì.", vn: "Nhìn thấy bức ảnh này, tôi thường nhớ lại những chuyện hồi nhỏ." },
+      { tc: "你能想起他的名字嗎？", py: "Nǐ néng xiǎngqǐ tā de míngzi ma?", vn: "Bạn có thể nhớ ra tên của anh ấy không?" }
+    ],
+    idiom: "回想起來 Huíxiǎng qǐlái - Nhớ lại thì / Nhìn lại thì.<br>🔸 Ví dụ: 回想起來，那真是一段美好的時光。 Huíxiǎng qǐlái, nà zhēn shì yí duàn měihǎo de shíguāng. - Giờ nhớ lại thì, đó thật sự là một khoảng thời gian tươi đẹp.", 
+    level: "TOCFL A2"
+  },
   ];
