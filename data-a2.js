@@ -6245,4 +6245,258 @@ const dataA2 = [
     idiom: "越來越近 Yuèláiyuè jìn - Càng ngày càng gần.<br>🔸 Ví dụ: 考試的時間越來越近了，大家都很緊張。 Kǎoshì de shíjiān yuèláiyuè jìn le, dàjiā dōu hěn jǐnzhāng. - Thời gian thi càng ngày càng gần, mọi người đều rất căng thẳng.", 
     level: "TOCFL A2"
   },
+  {
+    word: "包", pinyin: "bāo", hanViet: "Bao",
+    image: "",
+    radical: "包 (Bộ Bao 勹)<br>💡 Mẹo nhớ: Hình dáng bao bọc, ôm lấy đồ vật vào bên trong.",
+    explanation: "Động từ: Gói, bọc.",
+    compounds: [
+      { tc: "包餃子", py: "bāo jiǎozi", vn: "gói sủi cảo" },
+      { tc: "包裝", py: "bāozhuāng", vn: "đóng gói" }
+    ],
+    examples: [
+      { tc: "我們今天晚上要包餃子。", py: "Wǒmen jīntiān wǎnshàng yào bāo jiǎozi.", vn: "Tối nay chúng ta sẽ gói sủi cảo." },
+      { tc: "請問這個可以幫我包起來嗎？", py: "Qǐngwèn zhège kěyǐ bāng wǒ bāo qǐlái ma?", vn: "Xin hỏi cái này có thể gói lại giúp tôi được không?" },
+      { tc: "媽媽包的春捲最好吃。", py: "Māma bāo de chūnjuǎn zuì hǎochī.", vn: "Chả giò mẹ gói là ngon nhất." }
+    ],
+    idiom: "包紅包 Bāo hóngbāo - Mừng tuổi / Bỏ phong bì.<br>🔸 Ví dụ: 過年要包紅包給小孩。 Guònián yào bāo hóngbāo gěi xiǎohái. - Đón Tết phải mừng tuổi cho trẻ con.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "餃子", pinyin: "jiǎozi", hanViet: "Giáo tử",
+    image: "",
+    radical: "餃 (Bộ Thực 食) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Món ăn (食) được làm ra để giao (交) cho mọi người cùng thưởng thức.",
+    explanation: "Danh từ: Há cảo, sủi cảo (gọi chung).",
+    compounds: [
+      { tc: "吃餃子", py: "chī jiǎozi", vn: "ăn sủi cảo" },
+      { tc: "煮餃子", py: "zhǔ jiǎozi", vn: "luộc sủi cảo" }
+    ],
+    examples: [
+      { tc: "你喜歡吃什麼餡的餃子？", py: "Nǐ xǐhuān chī shénme xiàn de jiǎozi?", vn: "Bạn thích ăn sủi cảo nhân gì?" },
+      { tc: "這些餃子是我自己包的。", py: "Zhèxiē jiǎozi shì wǒ zìjǐ bāo de.", vn: "Những viên sủi cảo này là do tôi tự tay gói." },
+      { tc: "餃子是中國傳統的美食。", py: "Jiǎozi shì Zhōngguó chuántǒng de měishí.", vn: "Sủi cảo là món ăn truyền thống của Trung Quốc." }
+    ],
+    idiom: "一碗餃子 Yì wǎn jiǎozi - 一 bát sủi cảo.<br>🔸 Ví dụ: 老闆，請給我一碗餃子。 Lǎobǎn, qǐng gěi wǒ yì wǎn jiǎozi. - Ông chủ, vui lòng cho tôi một bát sủi cảo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "脫", pinyin: "tuō", hanViet: "Thoát",
+    image: "",
+    radical: "脫 (Bộ Nhục 月)<br>💡 Mẹo nhớ: Hành động cởi bỏ lớp quần áo trên cơ thể (月).",
+    explanation: "Động từ: Cởi (quần áo, giày dép).",
+    compounds: [
+      { tc: "脫鞋", py: "tuō xié", vn: "cởi giày" },
+      { tc: "脫衣服", py: "tuō yīfú", vn: "cởi áo" }
+    ],
+    examples: [
+      { tc: "進房間前請先脫鞋。", py: "Jìn fángjiān qián qǐng xiān tuō xié.", vn: "Trước khi vào phòng xin hãy cởi giày." },
+      { tc: "天氣太熱了，他把外套脫了。", py: "Tiānqì tài rè le, tā bǎ wàitào tuō le.", vn: "Thời tiết nóng quá, anh ấy cởi áo khoác ra rồi." },
+      { tc: "這裡不用脫鞋，直接進來吧。", py: "Zhèlǐ búyòng tuō xié, zhíjiē jìnlái ba.", vn: "Ở đây không cần cởi giày, cứ trực tiếp vào đi." }
+    ],
+    idiom: "脫口而出 Tuō kǒu ér chū - Buột miệng thốt ra.<br>🔸 Ví dụ: 他一生氣，髒話就脫口而出。 Tā yì shēngqì, zānghuà jiù tuō kǒu ér chū. - Anh ấy vừa tức giận, những lời khó nghe liền buột miệng thốt ra.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "鞋", pinyin: "xié", hanViet: "Hài",
+    image: "",
+    radical: "鞋 (Bộ Cách 革)<br>💡 Mẹo nhớ: Giày thời xưa thường được làm bằng da thú (革).",
+    explanation: "Danh từ: Giày.",
+    compounds: [
+      { tc: "鞋子", py: "xiézi", vn: "giày dép" },
+      { tc: "一雙鞋", py: "yì shuāng xié", vn: "một đôi giày" }
+    ],
+    examples: [
+      { tc: "我買了一雙新鞋。", py: "Wǒ mǎi le yì shuāng xīn xié.", vn: "Tôi đã mua một đôi giày mới." },
+      { tc: "這雙鞋穿起來很不舒服。", py: "Zhè shuāng xié chuān qǐlái hěn bù shūfú.", vn: "Đôi giày này đi vào rất không thoải mái." },
+      { tc: "你的鞋子在哪裡買的？", py: "Nǐ de xiézi zài nǎlǐ mǎi de?", vn: "Giày của bạn mua ở đâu vậy?" }
+    ],
+    idiom: "穿鞋 Chuān xié - Mang giày.<br>🔸 Ví dụ: 請穿好鞋子再出門。 Qǐng chuān hǎo xiézi zài chūmén. - Vui lòng mang giày vào hẳn hoi rồi hẵng ra ngoài.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "關", pinyin: "guān", hanViet: "Quan",
+    image: "",
+    radical: "關 (Bộ Môn 門)<br>💡 Mẹo nhớ: Hai cánh cửa (門) khép lại với nhau, bên trong cài then chốt.",
+    explanation: "Động từ: Đóng, tắt.",
+    compounds: [
+      { tc: "關門", py: "guānmén", vn: "đóng cửa" },
+      { tc: "關燈", py: "guāndēng", vn: "tắt đèn" }
+    ],
+    examples: [
+      { tc: "出門前請記得關燈。", py: "Chūmén qián qǐng jìdé guāndēng.", vn: "Trước khi ra khỏi nhà xin nhớ tắt đèn." },
+      { tc: "店已經關門了，我們明天再來吧。", py: "Diàn yǐjīng guānmén le, wǒmen míngtiān zài lái ba.", vn: "Cửa hàng đã đóng cửa rồi, ngày mai chúng ta hẵng quay lại." },
+      { tc: "請把窗戶關好，外面風很大。", py: "Qǐng bǎ chuānghù guān hǎo, wàimiàn fēng hěn dà.", vn: "Xin hãy đóng kín cửa sổ, bên ngoài gió rất to." }
+    ],
+    idiom: "關機 Guānjī - Tắt máy.<br>🔸 Ví dụ: 上課時請把手機關機。 Shàngkè shí qǐng bǎ shǒujī guānjī. - Trong giờ học vui lòng tắt điện thoại.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "門", pinyin: "mén", hanViet: "Môn",
+    image: "",
+    radical: "門 (Bộ Môn 門)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng hình dáng hai cánh cửa đang mở.",
+    explanation: "Danh từ: Cửa, cánh cửa.",
+    compounds: [
+      { tc: "開門", py: "kāimén", vn: "mở cửa" },
+      { tc: "大門", py: "dàmén", vn: "cửa chính" }
+    ],
+    examples: [
+      { tc: "有人在敲門，你去看看是誰。", py: "Yǒu rén zài qiāomén, nǐ qù kànkàn shì shuí.", vn: "Có người đang gõ cửa, bạn ra xem là ai đi." },
+      { tc: "請把門打開，裡面太熱了。", py: "Qǐng bǎ mén dǎkāi, lǐmiàn tài rè le.", vn: "Xin hãy mở cửa ra, bên trong nóng quá." },
+      { tc: "鑰匙插在門上，他忘記拔了。", py: "Yàoshi chā zài mén shàng, tā wàngjì bá le.", vn: "Chìa khóa cắm trên cửa, anh ấy quên rút ra rồi." }
+    ],
+    idiom: "門口 Ménkǒu - Cửa ra vào.<br>🔸 Ví dụ: 我在門口等你。 Wǒ zài ménkǒu děng nǐ. - Tôi đợi bạn ở cửa ra vào.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "春捲", pinyin: "chūnjuǎn", hanViet: "Xuân quyển",
+    image: "",
+    radical: "春 (Bộ Nhật 日) + 捲 (Bộ Thủ 扌)<br>💡 Mẹo nhớ: Dùng tay (扌) cuốn những nguyên liệu tươi ngon của mùa xuân (春) lại thành cuộn.",
+    explanation: "Danh từ: Chả giò, nem rán.",
+    compounds: [
+      { tc: "炸春捲", py: "zhá chūnjuǎn", vn: "chả giò rán" },
+      { tc: "吃春捲", py: "chī chūnjuǎn", vn: "ăn chả giò" }
+    ],
+    examples: [
+      { tc: "越南的春捲非常有名。", py: "Yuènán de chūnjuǎn fēicháng yǒumíng.", vn: "Chả giò của Việt Nam vô cùng nổi tiếng." },
+      { tc: "媽媽做了我最愛吃的炸春捲。", py: "Māma zuò le wǒ zuì ài chī de zhá chūnjuǎn.", vn: "Mẹ đã làm món chả giò rán mà tôi thích ăn nhất." },
+      { tc: "這家餐廳的春捲味道很特別。", py: "Zhè jiā cāntīng de chūnjuǎn wèidào hěn tèbié.", vn: "Mùi vị chả giò của nhà hàng này rất đặc biệt." }
+    ],
+    idiom: "越南春捲 Yuènán chūnjuǎn - Gỏi cuốn Việt Nam.<br>🔸 Ví dụ: 越南春捲清爽又健康。 Yuènán chūnjuǎn qīngshuǎng yòu jiànkāng. - Gỏi cuốn Việt Nam thanh mát lại tốt cho sức khỏe.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "泡菜", pinyin: "pàocài", hanViet: "Phao thái",
+    image: "",
+    radical: "泡 (Bộ Thủy 氵) + 菜 (Bộ Thảo 艹)<br>💡 Mẹo nhớ: Rau củ (艹) được ngâm trong nước (氵) để lên men.",
+    explanation: "Danh từ: Kim chi, dưa muối.",
+    compounds: [
+      { tc: "韓國泡菜", py: "Hánguó pàocài", vn: "kim chi Hàn Quốc" },
+      { tc: "辣泡菜", py: "là pàocài", vn: "kim chi cay" }
+    ],
+    examples: [
+      { tc: "韓國人吃飯時一定要有泡菜。", py: "Hánguó rén chīfàn shí yídìng yào yǒu pàocài.", vn: "Người Hàn Quốc khi ăn cơm nhất định phải có kim chi." },
+      { tc: "這罐泡菜是我奶奶自己做的。", py: "Zhè guàn pàocài shì wǒ nǎinai zìjǐ zuò de.", vn: "Hũ kim chi này là do bà nội tôi tự tay làm." },
+      { tc: "泡菜配白飯很好吃。", py: "Pàocài pèi báifàn hěn hǎochī.", vn: "Kim chi ăn kèm cơm trắng rất ngon." }
+    ],
+    idiom: "泡菜鍋 Pàocài guō - Lẩu kim chi.<br>🔸 Ví dụ: 冬天吃一鍋熱熱的泡菜鍋最舒服了。 Dōngtiān chī yì guō rèrè de pàocài guō zuì shūfú le. - Mùa đông ăn một nồi lẩu kim chi nóng hổi là thoải mái nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "飯廳", pinyin: "fàntīng", hanViet: "Phạn thính",
+    image: "",
+    radical: "飯 (Bộ Thực 食) + 廳 (Bộ Nghiễm 广)<br>💡 Mẹo nhớ: Gian phòng lớn dưới mái nhà (广) được thiết kế chuyên để dùng bữa (食).",
+    explanation: "Danh từ: Phòng ăn.",
+    compounds: [
+      { tc: "在飯廳", py: "zài fàntīng", vn: "ở phòng ăn" }
+    ],
+    examples: [
+      { tc: "大家都坐在飯廳裡等著吃晚餐。", py: "Dàjiā dōu zuò zài fàntīng lǐ děngzhe chī wǎncān.", vn: "Mọi người đều ngồi trong phòng ăn đợi ăn bữa tối." },
+      { tc: "我們家的飯廳很寬敞。", py: "Wǒmen jiā de fàntīng hěn kuānchǎng.", vn: "Phòng ăn của nhà chúng tôi rất rộng rãi." },
+      { tc: "請把這些菜端到飯廳去。", py: "Qǐng bǎ zhèxiē cài duān dào fàntīng qù.", vn: "Vui lòng bưng những món này ra phòng ăn." }
+    ],
+    idiom: "飯廳桌子 Fàntīng zhuōzi - Bàn phòng ăn.<br>🔸 Ví dụ: 飯廳桌子上放滿了水果。 Fàntīng zhuōzi shàng fàng mǎn le shuǐguǒ. - Trên bàn phòng ăn đặt đầy trái cây.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "下", pinyin: "xià", hanViet: "Hạ",
+    image: "",
+    radical: "下 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Đứng sau động từ như 放, 坐, 裝 để làm bổ ngữ khả năng, biểu thị không gian đó có đủ sức chứa hay không.",
+    explanation: "Trợ từ: Vừa, đủ chỗ chứa (Bổ ngữ khả năng).",
+    compounds: [
+      { tc: "坐不下", py: "zuò bú xià", vn: "ngồi không vừa" },
+      { tc: "放得下", py: "fàng de xià", vn: "để vừa" }
+    ],
+    examples: [
+      { tc: "這個房間太小，住不下三個人。", py: "Zhège fángjiān tài xiǎo, zhù bú xià sān ge rén.", vn: "Căn phòng này nhỏ quá, ba người ở không vừa." },
+      { tc: "冰箱滿了，放不下這些水果。", py: "Bīngxiāng mǎn le, fàng bú xià zhèxiē shuǐguǒ.", vn: "Tủ lạnh đầy rồi, không để vừa chỗ trái cây này." },
+      { tc: "這輛車坐得下五個人嗎？", py: "Zhè liàng chē zuò de xià wǔ ge rén ma?", vn: "Chiếc xe này có ngồi vừa năm người không?" }
+    ],
+    idiom: "裝不下 Zhuāng bú xià - Đựng không vừa.<br>🔸 Ví dụ: 箱子太小了，裝不下這麼多書。 Xiāngzi tài xiǎo le, zhuāng bú xià zhème duō shū. - Thùng nhỏ quá, đựng không vừa nhiều sách như vậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "洗", pinyin: "xǐ", hanViet: "Tẩy",
+    image: "",
+    radical: "洗 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Dùng nước (氵) để làm sạch bụi bẩn trên đồ vật.",
+    explanation: "Động từ: Rửa, giặt, gội.",
+    compounds: [
+      { tc: "洗手", py: "xǐshǒu", vn: "rửa tay" },
+      { tc: "洗衣服", py: "xǐ yīfú", vn: "giặt quần áo" }
+    ],
+    examples: [
+      { tc: "飯前請記得洗手。", py: "Fàn qián qǐng jìdé xǐshǒu.", vn: "Trước khi ăn xin nhớ rửa tay." },
+      { tc: "這些衣服我明天再洗。", py: "Zhèxiē yīfú wǒ míngtiān zài xǐ.", vn: "Những bộ quần áo này để ngày mai tôi hẵng giặt." },
+      { tc: "他正在廚房裡洗碗。", py: "Tā zhèngzài chúfáng lǐ xǐ wǎn.", vn: "Anh ấy đang rửa bát trong nhà bếp." }
+    ],
+    idiom: "洗澡 Xǐzǎo - Tắm.<br>🔸 Ví dụ: 運動完後洗個澡非常舒服。 Yùndòng wán hòu xǐ ge zǎo fēicháng shūfú. - Sau khi tập thể thao xong đi tắm một cái vô cùng thoải mái.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "做菜", pinyin: "zuòcài", hanViet: "Tố thái",
+    image: "",
+    radical: "做 (Bộ Nhân 亻) + 菜 (Bộ Thảo 艹)<br>💡 Mẹo nhớ: Con người (亻) bắt tay vào chế biến các loại rau củ, thực phẩm (艹) thành món ăn.",
+    explanation: "Cụm động từ: Nấu ăn, làm thức ăn.",
+    compounds: [
+      { tc: "學做菜", py: "xué zuòcài", vn: "học nấu ăn" }
+    ],
+    examples: [
+      { tc: "爸爸週末喜歡在家裡做菜。", py: "Bàba zhōumò xǐhuān zài jiālǐ zuòcài.", vn: "Cuối tuần bố thích ở nhà nấu ăn." },
+      { tc: "媽媽做的菜總是最好吃。", py: "Māma zuò de cài zǒngshì zuì hǎochī.", vn: "Món ăn mẹ nấu lúc nào cũng ngon nhất." },
+      { tc: "我最近在學做菜。", py: "Wǒ zuìjìn zài xué zuòcài.", vn: "Dạo này tôi đang học nấu ăn." }
+    ],
+    idiom: "教我做菜 Jiāo wǒ zuòcài - Dạy tôi nấu ăn.<br>🔸 Ví dụ: 你有空的時候可以教我做菜嗎？ Nǐ yǒukòng de shíhòu kěyǐ jiāo wǒ zuòcài ma? - Lúc nào rảnh bạn có thể dạy tôi nấu ăn được không?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "水餃", pinyin: "shuǐjiǎo", hanViet: "Thủy giáo",
+    image: "",
+    radical: "水 (Bộ Thủy 水) + 餃 (Bộ Thực 食)<br>💡 Mẹo nhớ: Loại sủi cảo (餃) được làm chín bằng cách luộc trong nước sôi (水).",
+    explanation: "Danh từ: Sủi cảo (loại luộc trong nước).",
+    compounds: [
+      { tc: "煮水餃", py: "zhǔ shuǐjiǎo", vn: "luộc sủi cảo" },
+      { tc: "吃水餃", py: "chī shuǐjiǎo", vn: "ăn sủi cảo" }
+    ],
+    examples: [
+      { tc: "晚餐我們吃水餃好嗎？", py: "Wǎncān wǒmen chī shuǐjiǎo hǎo ma?", vn: "Bữa tối chúng ta ăn sủi cảo nhé?" },
+      { tc: "這裡的水餃一份有十顆。", py: "Zhèlǐ de shuǐjiǎo yí fèn yǒu shí kē.", vn: "Sủi cảo ở đây một suất có mười viên." },
+      { tc: "豬肉水餃的味道很棒。", py: "Zhūròu shuǐjiǎo de wèidào hěn bàng.", vn: "Hương vị của sủi cảo thịt lợn rất tuyệt." }
+    ],
+    idiom: "點水餃 Diǎn shuǐjiǎo - Gọi món sủi cảo.<br>🔸 Ví dụ: 我肚子餓了，去點一份水餃吃。 Wǒ dùzi è le, qù diǎn yí fèn shuǐjiǎo chī. - Tôi đói bụng rồi, đi gọi một suất sủi cảo ăn thôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "煮", pinyin: "zhǔ", hanViet: "Chử",
+    image: "",
+    radical: "煮 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Dùng ngọn lửa (灬) ở bên dưới để đun nóng thức ăn.",
+    explanation: "Động từ: Nấu, luộc, đun.",
+    compounds: [
+      { tc: "煮湯", py: "zhǔ tāng", vn: "nấu canh" },
+      { tc: "煮咖啡", py: "zhǔ kāfēi", vn: "pha cà phê" }
+    ],
+    examples: [
+      { tc: "水已經煮開了。", py: "Shuǐ yǐjīng zhǔ kāi le.", vn: "Nước đã đun sôi rồi." },
+      { tc: "他正在廚房裡煮晚餐。", py: "Tā zhèngzài chúfáng lǐ zhǔ wǎncān.", vn: "Anh ấy đang nấu bữa tối trong bếp." },
+      { tc: "這些水餃要煮多久才會熟？", py: "Zhèxiē shuǐjiǎo yào zhǔ duōjiǔ cái huì shú?", vn: "Chỗ sủi cảo này phải luộc bao lâu mới chín?" }
+    ],
+    idiom: "煮飯 Zhǔfàn - Nấu cơm.<br>🔸 Ví dụ: 今天晚上換我煮飯。 Jīntiān wǎnshàng huàn wǒ zhǔfàn. - Tối nay đổi lại là tôi nấu cơm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "壞", pinyin: "huài", hanViet: "Hoại",
+    image: "",
+    radical: "壞 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Đồ vật biến thành đất (土), bị mục nát và hư hỏng.",
+    explanation: "Động từ / Tính từ: Hỏng, ôi thiu, xấu.",
+    compounds: [
+      { tc: "壞人", py: "huàirén", vn: "người xấu" },
+      { tc: "壞了", py: "huài le", vn: "hỏng rồi" }
+    ],
+    examples: [
+      { tc: "冰箱壞了，裡面的食物都不能吃了。", py: "Bīngxiāng huài le, lǐmiàn de shíwù dōu bùnéng chī le.", vn: "Tủ lạnh hỏng rồi, thức ăn bên trong đều không thể ăn được nữa." },
+      { tc: "這瓶牛奶放太久，已經壞了。", py: "Zhè píng niúnǎi fàng tài jiǔ, yǐjīng huài le.", vn: "Chai sữa này để lâu quá, đã bị ôi thiu rồi." },
+      { tc: "我的手機壞了，要拿去修。", py: "Wǒ de shǒujī huài le, yào ná qù xiū.", vn: "Điện thoại của tôi hỏng rồi, phải đem đi sửa." }
+    ],
+    idiom: "肚子吃壞了 Dùzi chī huài le - Ăn hỏng bụng / Ăn trúng thực.<br>🔸 Ví dụ: 昨天吃了海鮮，結果肚子吃壞了。 Zuótiān chī le hǎixiān, jiéguǒ dùzi chī huài le. - Hôm qua ăn hải sản, kết quả là bị ăn hỏng bụng rồi.", 
+    level: "TOCFL A2"
+  },
+  
   ];
