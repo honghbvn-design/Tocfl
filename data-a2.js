@@ -5561,4 +5561,323 @@ const dataA2 = [
     idiom: "回想起來 Huíxiǎng qǐlái - Nhớ lại thì / Nhìn lại thì.<br>🔸 Ví dụ: 回想起來，那真是一段美好的時光。 Huíxiǎng qǐlái, nà zhēn shì yí duàn měihǎo de shíguāng. - Giờ nhớ lại thì, đó thật sự là một khoảng thời gian tươi đẹp.", 
     level: "TOCFL A2"
   },
+  {
+    word: "春假", pinyin: "chūnjià", hanViet: "Xuân giả",
+    image: "",
+    radical: "春 (Bộ Nhật 日) + 假 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Kỳ nghỉ (假) diễn ra vào mùa xuân (春), khi mặt trời (日) mang hơi ấm đến vạn vật.",
+    explanation: "Danh từ: Kỳ nghỉ xuân.",
+    compounds: [
+      { tc: "放春假", py: "fàng chūnjià", vn: "nghỉ xuân" },
+      { tc: "暑假", py: "shǔjià", vn: "nghỉ hè" }
+    ],
+    examples: [
+      { tc: "你們學校春假放幾天？", py: "Nǐmen xuéxiào chūnjià fàng jǐ tiān?", vn: "Trường các bạn nghỉ xuân mấy ngày?" },
+      { tc: "春假的時候，我想去南部旅行。", py: "Chūnjià de shíhòu, wǒ xiǎng qù nánbù lǚxíng.", vn: "Lúc nghỉ xuân, tôi muốn đi miền Nam du lịch." },
+      { tc: "祝大家有一個愉快的春假。", py: "Zhù dàjiā yǒu yí ge yúkuài de chūnjià.", vn: "Chúc mọi người có một kỳ nghỉ xuân vui vẻ." }
+    ],
+    idiom: "春假計畫 Chūnjià jìhuà - Kế hoạch nghỉ xuân.<br>🔸 Ví dụ: 你的春假計畫是什麼？ Nǐ de chūnjià jìhuà shì shénme? - Kế hoạch nghỉ xuân của bạn là gì?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "好", pinyin: "hǎo", hanViet: "Hảo",
+    image: "",
+    radical: "好 (Bộ Nữ 女)<br>💡 Mẹo nhớ: Đứng sau động từ để làm bổ ngữ kết quả, biểu thị hành động đã hoàn thành một cách trọn vẹn, thỏa đáng.",
+    explanation: "Trợ từ: Xong, hoàn tất, tốt (Bổ ngữ kết quả).",
+    compounds: [
+      { tc: "做好", py: "zuò hǎo", vn: "làm xong xuôi" },
+      { tc: "準備好", py: "zhǔnbèi hǎo", vn: "chuẩn bị xong" }
+    ],
+    examples: [
+      { tc: "你的行李整理好了嗎？", py: "Nǐ de xínglǐ zhěnglǐ hǎo le ma?", vn: "Hành lý của bạn đã sắp xếp xong chưa?" },
+      { tc: "飯已經做好了，大家快來吃吧。", py: "Fàn yǐjīng zuò hǎo le, dàjiā kuài lái chī ba.", vn: "Cơm đã nấu xong rồi, mọi người mau tới ăn đi." },
+      { tc: "請把門關好。", py: "Qǐng bǎ mén guān hǎo.", vn: "Vui lòng đóng kín cửa lại." }
+    ],
+    idiom: "約好 Yuē hǎo - Hẹn xong / Đã chốt lịch hẹn.<br>🔸 Ví dụ: 我們已經約好明天下午見面。 Wǒmen yǐjīng yuē hǎo míngtiān xiàwǔ jiànmiàn. - Chúng tôi đã hẹn xong chiều mai gặp mặt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "到", pinyin: "dào", hanViet: "Đáo",
+    image: "",
+    radical: "到 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Đứng sau động từ để làm bổ ngữ kết quả, biểu thị hành động đã đạt được mục đích hoặc chạm đến một điểm nào đó.",
+    explanation: "Trợ từ: Được, thấy (Bổ ngữ kết quả).",
+    compounds: [
+      { tc: "看到", py: "kàndào", vn: "nhìn thấy" },
+      { tc: "買到", py: "mǎi dào", vn: "mua được" }
+    ],
+    examples: [
+      { tc: "你聽到我說的話了嗎？", py: "Nǐ tīngdào wǒ shuō de huà le ma?", vn: "Bạn đã nghe thấy lời tôi nói chưa?" },
+      { tc: "這本書很受歡迎，我跑了三家書店才買到。", py: "Zhè běn shū hěn shòu huānyíng, wǒ pǎo le sān jiā shūdiàn cái mǎi dào.", vn: "Quyển sách này rất được yêu thích, tôi chạy qua ba nhà sách mới mua được." },
+      { tc: "我找不到我的鑰匙。", py: "Wǒ zhǎo bú dào wǒ de yàoshi.", vn: "Tôi tìm không thấy chìa khóa của mình." }
+    ],
+    idiom: "說到做到 Shuō dào zuò dào - Nói được làm được.<br>🔸 Ví dụ: 他是一個說到做到的人。 Tā shì yí ge shuō dào zuò dào de rén. - Anh ấy là một người nói được làm được.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "特色", pinyin: "tèsè", hanViet: "Đặc sắc",
+    image: "",
+    radical: "特 (Bộ 牛 Ngưu) + 色 (Bộ Sắc 色)<br>💡 Mẹo nhớ: Màu sắc (色) nổi bật, đặc biệt (特) làm cho một sự vật trở nên khác biệt với phần còn lại.",
+    explanation: "Danh từ: Nét đặc sắc, đặc trưng, đặc điểm riêng.",
+    compounds: [
+      { tc: "地方特色", py: "dìfāng tèsè", vn: "đặc sắc địa phương" },
+      { tc: "特色小吃", py: "tèsè xiǎochī", vn: "món ăn vặt đặc sắc" }
+    ],
+    examples: [
+      { tc: "這家餐廳的菜很有特色。", py: "Zhè jiā cāntīng de cài hěn yǒu tèsè.", vn: "Món ăn của nhà hàng này rất có nét đặc sắc." },
+      { tc: "每個城市都有自己的文化特色。", py: "Měi ge chéngshì dōu yǒu zìjǐ de wénhuà tèsè.", vn: "Mỗi thành phố đều có nét đặc trưng văn hóa của riêng mình." },
+      { tc: "請你介紹一下你們國家的特色。", py: "Qǐng nǐ jièshào yíxià nǐmen guójiā de tèsè.", vn: "Xin bạn hãy giới thiệu một chút về nét đặc sắc của đất nước các bạn." }
+    ],
+    idiom: "別具特色 Bié jù tèsè - Mang phong cách đặc sắc riêng.<br>🔸 Ví dụ: 這裡的建築別具特色，吸引了很多遊客。 Zhèlǐ de jiànzhú bié jù tèsè, xīyǐn le hěn duō yóukè. - Kiến trúc ở đây mang phong cách đặc sắc riêng, thu hút rất nhiều du khách.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "顏色", pinyin: "yánsè", hanViet: "Nhan sắc",
+    image: "",
+    radical: "顏 (Bộ Hiệt 頁) + 色 (Bộ Sắc 色)<br>💡 Mẹo nhớ: Chữ 顏 (Nhan) vốn chỉ khuôn mặt, kết hợp với 色 (Sắc) chỉ những sắc thái màu mắt ta nhìn thấy.",
+    explanation: "Danh từ: Màu sắc.",
+    compounds: [
+      { tc: "各種顏色", py: "gè zhǒng yánsè", vn: "đủ các loại màu sắc" }
+    ],
+    examples: [
+      { tc: "你最喜歡什麼顏色？", py: "Nǐ zuì xǐhuān shénme yánsè?", vn: "Bạn thích nhất màu sắc gì?" },
+      { tc: "這件衣服的顏色很漂亮。", py: "Zhè jiàn yīfú de yánsè hěn piàoliang.", vn: "Màu sắc của chiếc áo này rất đẹp." },
+      { tc: "天空的顏色變暗了。", py: "Tiānkōng de yánsè biàn àn le.", vn: "Màu sắc của bầu trời tối đi rồi." }
+    ],
+    idiom: "五顏六色 Wǔyán liùsè - Đủ màu sắc sặc sỡ / Muôn màu muôn vẻ.<br>🔸 Ví dụ: 花園裡開滿了五顏六色的花。 Huāyuán lǐ kāi mǎn le wǔyán liùsè de huā. - Trong vườn hoa nở rộ những bông hoa đủ màu sắc sặc sỡ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "廟", pinyin: "miào", hanViet: "Miếu",
+    image: "",
+    radical: "廟 (Bộ Nghiễm 广)<br>💡 Mẹo nhớ: Nơi có mái che rộng lớn (广) dùng để thờ cúng thần linh (triều đại 朝).",
+    explanation: "Danh từ: Đền, chùa, miếu thờ.",
+    compounds: [
+      { tc: "去廟裡", py: "qù miào lǐ", vn: "đi vào chùa" },
+      { tc: "拜拜", py: "bàibài", vn: "thắp nhang khấn vái" }
+    ],
+    examples: [
+      { tc: "台灣到處都有廟。", py: "Táiwān dàochù dōu yǒu miào.", vn: "Đài Loan đâu đâu cũng có đền chùa." },
+      { tc: "過年的時候，很多人會去廟裡拜拜。", py: "Guònián de shíhòu, hěn duō rén huì qù miào lǐ bàibài.", vn: "Vào dịp năm mới, rất nhiều người sẽ đi vào chùa thắp nhang khấn vái." },
+      { tc: "這座廟有很長的歷史了。", py: "Zhè zuò miào yǒu hěn cháng de lìshǐ le.", vn: "Ngôi miếu này có lịch sử rất lâu đời rồi." }
+    ],
+    idiom: "廟會 Miàohuì - Lễ hội đền chùa.<br>🔸 Ví dụ: 今晚廟前有熱鬧的廟會。 Jīnwǎn miào qián yǒu rènào de miàohuì. - Tối nay trước đền có lễ hội vô cùng náo nhiệt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "像", pinyin: "xiàng", hanViet: "Tượng",
+    image: "",
+    radical: "像 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Người (亻) này trông có vẻ (象) tương đồng, y hệt với người kia.",
+    explanation: "Động từ: Giống, giống như.",
+    compounds: [
+      { tc: "好像", py: "hǎoxiàng", vn: "hình như" },
+      { tc: "很像", py: "hěn xiàng", vn: "rất giống" }
+    ],
+    examples: [
+      { tc: "他長得很像他爸爸。", py: "Tā zhǎng de hěn xiàng tā bàba.", vn: "Cậu ấy lớn lên trông rất giống bố mình." },
+      { tc: "你們兩個人穿的衣服很像。", py: "Nǐmen liǎng ge rén chuān de yīfú hěn xiàng.", vn: "Quần áo hai người các bạn mặc rất giống nhau." },
+      { tc: "這裡的風景像畫一樣美。", py: "Zhèlǐ de fēngjǐng xiàng huà yíyàng měi.", vn: "Phong cảnh nơi đây đẹp giống hệt như tranh." }
+    ],
+    idiom: "像...一樣 Xiàng... yíyàng - Giống như là.<br>🔸 Ví dụ: 他跑得像飛一樣快。 Tā pǎo de xiàng fēi yíyàng kuài. - Anh ấy chạy nhanh giống như là bay vậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "教堂", pinyin: "jiàotáng", hanViet: "Giáo đường",
+    image: "",
+    radical: "教 (Bộ Phộc 攵) + 堂 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Gian phòng lớn (堂) dùng để truyền bá tôn giáo (教).",
+    explanation: "Danh từ: Nhà thờ.",
+    compounds: [
+      { tc: "去教堂", py: "qù jiàotáng", vn: "đi nhà thờ" }
+    ],
+    examples: [
+      { tc: "每個星期天，他都會去教堂。", py: "Měi ge xīngqítiān, tā dōu huì qù jiàotáng.", vn: "Mỗi ngày Chủ nhật, anh ấy đều sẽ đi nhà thờ." },
+      { tc: "這座教堂的建築非常有特色。", py: "Zhè zuò jiàotáng de jiànzhú fēicháng yǒu tèsè.", vn: "Kiến trúc của nhà thờ này vô cùng đặc sắc." },
+      { tc: "他們在教堂裡舉行婚禮。", py: "Tāmen zài jiàotáng lǐ jǔxíng hūnlǐ.", vn: "Họ tổ chức lễ cưới ở trong nhà thờ." }
+    ],
+    idiom: "上教堂 Shàng jiàotáng - Đi lễ nhà thờ.<br>🔸 Ví dụ: 週末早上，我們全家一起上教堂。 Zhōumò zǎoshàng, wǒmen quánjiā yìqǐ shàng jiàotáng. - Buổi sáng cuối tuần, cả nhà chúng tôi cùng nhau đi lễ nhà thờ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "南部", pinyin: "nánbù", hanViet: "Nam bộ",
+    image: "",
+    radical: "南 (Bộ Thập 十) + 部 (Bộ Ấp 邑)<br>💡 Mẹo nhớ: Khu vực, vùng đất (部) nằm ở phía Nam (南) của bản đồ.",
+    explanation: "Danh từ: Miền Nam, khu vực phía nam.",
+    compounds: [
+      { tc: "北部", py: "běibù", vn: "miền Bắc" },
+      { tc: "東部", py: "dōngbù", vn: "miền Đông" }
+    ],
+    examples: [
+      { tc: "台灣南部的天氣比北部熱。", py: "Táiwān nánbù de tiānqì bǐ běibù rè.", vn: "Thời tiết miền Nam Đài Loan nóng hơn miền Bắc." },
+      { tc: "他老家在南部。", py: "Tā lǎojiā zài nánbù.", vn: "Quê của anh ấy ở miền Nam." },
+      { tc: "南部的食物比較甜。", py: "Nánbù de shíwù bǐjiào tián.", vn: "Đồ ăn của miền Nam tương đối ngọt." }
+    ],
+    idiom: "南部人 Nánbù rén - Người miền Nam.<br>🔸 Ví dụ: 南部人通常很熱情。 Nánbù rén tōngcháng hěn rèqíng. - Người miền Nam thông thường rất nhiệt tình.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "潛水", pinyin: "qiánshuǐ", hanViet: "Tiềm thủy",
+    image: "",
+    radical: "潛 (Bộ Thủy 氵) + 水 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Thủy, chỉ hành động ngụp lặn sâu xuống dưới dòng nước.",
+    explanation: "Động từ ly hợp: Lặn (lặn ống thở hoặc lặn bình khí).",
+    compounds: [
+      { tc: "去潛水", py: "qù qiánshuǐ", vn: "đi lặn biển" },
+      { tc: "浮潛", py: "fúqiǎn", vn: "lặn ống thở" }
+    ],
+    examples: [
+      { tc: "綠島是台灣非常有名的潛水勝地。", py: "Lùdǎo shì Táiwān fēicháng yǒumíng de qiánshuǐ shèngdì.", vn: "Lục Đảo là địa điểm lặn biển vô cùng nổi tiếng của Đài Loan." },
+      { tc: "我不會游泳，所以不敢去潛水。", py: "Wǒ bú huì yóuyǒng, suǒyǐ bù gǎn qù qiánshuǐ.", vn: "Tôi không biết bơi, cho nên không dám đi lặn." },
+      { tc: "潛水時可以看到很多美麗的魚。", py: "Qiánshuǐ shí kěyǐ kàndào hěn duō měilì de yú.", vn: "Khi lặn biển có thể nhìn thấy rất nhiều cá đẹp." }
+    ],
+    idiom: "潛水教練 Qiánshuǐ jiàoliàn - Huấn luyện viên lặn.<br>🔸 Ví dụ: 必須聽從潛水教練的指示。 Bìxū tīngcóng qiánshuǐ jiàoliàn de zhǐshì. - Bắt buộc phải nghe theo chỉ thị của huấn luyện viên lặn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "各", pinyin: "gè", hanViet: "Các",
+    image: "",
+    radical: "各 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Miệng (口) của mỗi một người có cách đi qua (夂) khác nhau.",
+    explanation: "Đại từ: Các, mỗi, mọi.",
+    compounds: [
+      { tc: "各位", py: "gèwèi", vn: "các vị, mọi người" },
+      { tc: "各地", py: "gèdì", vn: "các nơi" }
+    ],
+    examples: [
+      { tc: "各國的文化都不一樣。", py: "Gè guó de wénhuà dōu bù yíyàng.", vn: "Văn hóa của các quốc gia đều không giống nhau." },
+      { tc: "請大家回到各自的座位。", py: "Qǐng dàjiā huídào gèzì de zuòwèi.", vn: "Xin mọi người trở về chỗ ngồi của mỗi người." },
+      { tc: "這家店賣各種類型的茶。", py: "Zhè jiā diàn mài gè zhǒng lèixíng de chá.", vn: "Quán này bán các loại trà khác nhau." }
+    ],
+    idiom: "各式各樣 Gèshì gèyàng - Đủ loại kiểu dáng / Đa dạng muôn màu.<br>🔸 Ví dụ: 夜市裡有各式各樣的小吃。 Yèshì lǐ yǒu gèshì gèyàng de xiǎochī. - Trong chợ đêm có đủ loại thức ăn vặt đa dạng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "魚", pinyin: "yú", hanViet: "Ngư",
+    image: "",
+    radical: "魚 (Bộ Ngư 魚)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng một con cá đang bơi với phần đầu, thân có vảy và đuôi phía dưới.",
+    explanation: "Danh từ: Cá.",
+    compounds: [
+      { tc: "吃魚", py: "chī yú", vn: "ăn cá" },
+      { tc: "釣魚", py: "diàoyú", vn: "câu cá" }
+    ],
+    examples: [
+      { tc: "我不喜歡吃魚，因為刺太多了。", py: "Wǒ bù xǐhuān chī yú, yīnwèi cì tài duō le.", vn: "Tôi không thích ăn cá, bởi vì nhiều xương quá." },
+      { tc: "這條魚非常新鮮。", py: "Zhè tiáo yú fēicháng xīnxiān.", vn: "Con cá này vô cùng tươi sống." },
+      { tc: "河裡有很多魚游來游去。", py: "Hé lǐ yǒu hěn duō yú yóu lái yóu qù.", vn: "Dưới sông có rất nhiều cá bơi tới bơi lui." }
+    ],
+    idiom: "如魚得水 Rú yú dé shuǐ - Như cá gặp nước.<br>🔸 Ví dụ: 換了新工作後，他簡直是如魚得水。 Huàn le xīn gōngzuò hòu, tā jiǎnzhí shì rú yú dé shuǐ. - Sau khi chuyển công việc mới, anh ấy quả thực giống như cá gặp nước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "酸", pinyin: "suān", hanViet: "Toan",
+    image: "",
+    radical: "酸 (Bộ Dậu 酉)<br>💡 Mẹo nhớ: Đồ uống làm từ gạo ủ lên men trong bình gốm (酉) lâu ngày sẽ có vị chua.",
+    explanation: "Tính từ: Chua.",
+    compounds: [
+      { tc: "很酸", py: "hěn suān", vn: "rất chua" },
+      { tc: "酸辣湯", py: "suānlàtāng", vn: "canh chua cay" }
+    ],
+    examples: [
+      { tc: "這顆檸檬太酸了！", py: "Zhè kē níngméng tài suān le!", vn: "Quả chanh này chua quá đi mất!" },
+      { tc: "我不喜歡吃酸的水果。", py: "Wǒ bù xǐhuān chī suān de shuǐguǒ.", vn: "Tôi không thích ăn trái cây có vị chua." },
+      { tc: "這道菜又酸又辣，很好吃。", py: "Zhè dào cài yòu suān yòu là, hěn hǎochī.", vn: "Món ăn này vừa chua vừa cay, rất ngon." }
+    ],
+    idiom: "心酸 Xīnsuān - Chua xót trong lòng.<br>🔸 Ví dụ: 聽到他不幸的遭遇，我感到一陣心酸。 Tīng dào tā búxìng de zāoyù, wǒ gǎndào yízhuèn xīnsuān. - Nghe thấy hoàn cảnh bất hạnh của anh ấy, tôi cảm thấy trong lòng chua xót.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "檸檬", pinyin: "níngméng", hanViet: "Nịnh mông",
+    image: "",
+    radical: "檸 (Bộ Mộc 木) + 檬 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Tên một loại quả mọc trên cây nên cả hai chữ đều có bộ Mộc (cây cối).",
+    explanation: "Danh từ: Chanh (chanh vàng/chanh xanh).",
+    compounds: [
+      { tc: "檸檬汁", py: "níngméngzhī", vn: "nước cốt chanh" },
+      { tc: "檸檬紅茶", py: "níngméng hóngchá", vn: "hồng trà chanh" }
+    ],
+    examples: [
+      { tc: "麻煩給我一杯檸檬水。", py: "Máfan gěi wǒ yì bēi níngméng shuǐ.", vn: "Phiền cho tôi một ly nước chanh." },
+      { tc: "這道菜加一點檸檬會更好吃。", py: "Zhè dào cài jiā yìdiǎn níngméng huì gèng hǎochī.", vn: "Món ăn này vắt thêm chút chanh sẽ ngon hơn." },
+      { tc: "檸檬含有豐富的維他命C。", py: "Níngméng hányǒu fēngfù de wéitāmìng C.", vn: "Chanh có chứa rất nhiều vitamin C." }
+    ],
+    idiom: "切檸檬 Qiē níngméng - Cắt chanh.<br>🔸 Ví dụ: 請幫我切幾片檸檬。 Qǐng bāng wǒ qiē jǐ piàn níngméng. - Vui lòng giúp tôi cắt vài lát chanh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "味道", pinyin: "wèidào", hanViet: "Vị đạo",
+    image: "",
+    radical: "味 (Bộ Khẩu 口) + 道 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Đưa thức ăn vào miệng (口) để cảm nhận vị giác.",
+    explanation: "Danh từ: Mùi vị, hương vị.",
+    compounds: [
+      { tc: "好味道", py: "hǎo wèidào", vn: "mùi vị ngon" },
+      { tc: "沒有味道", py: "méiyǒu wèidào", vn: "không có mùi vị gì" }
+    ],
+    examples: [
+      { tc: "這湯的味道有點淡，要加點鹽。", py: "Zhè tāng de wèidào yǒudiǎn dàn, yào jiā diǎn yán.", vn: "Mùi vị của món canh này hơi nhạt, phải thêm chút muối." },
+      { tc: "我聞到一股奇怪的味道。", py: "Wǒ wéndào yì gǔ qíguài de wèidào.", vn: "Tôi ngửi thấy một mùi kỳ lạ." },
+      { tc: "媽媽做的菜，味道總是最好的。", py: "Māma zuò de cài, wèidào zǒngshì zuì hǎo de.", vn: "Món ăn mẹ nấu, mùi vị lúc nào cũng là ngon nhất." }
+    ],
+    idiom: "家鄉的味道 Jiāxiāng de wèidào - Hương vị quê nhà.<br>🔸 Ví dụ: 這碗麵讓我想起了家鄉的味道。 Zhè wǎn miàn ràng wǒ xiǎngqǐ le jiāxiāng de wèidào. - Tô mì này làm tôi nhớ lại hương vị của quê nhà.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "泰國", pinyin: "Tàiguó", hanViet: "Thái Quốc",
+    image: "",
+    radical: "泰 (Bộ Thủy 氺) + 國 (Bộ Vi 囗)<br>💡 Mẹo nhớ: Đất nước (國) bình yên, thái bình (泰).",
+    explanation: "Danh từ riêng: Thái Lan.",
+    compounds: [
+      { tc: "泰國菜", py: "Tàiguó cài", vn: "món Thái" },
+      { tc: "泰語", py: "Tàiyǔ", vn: "tiếng Thái" }
+    ],
+    examples: [
+      { tc: "泰國的天氣一年四季都很熱。", py: "Tàiguó de tiānqì yì nián sìjì dōu hěn rè.", vn: "Thời tiết của Thái Lan cả bốn mùa đều rất nóng." },
+      { tc: "我很喜歡吃泰國菜，特別是酸辣湯。", py: "Wǒ hěn xǐhuān chī Tàiguó cài, tèbié shì suānlàtāng.", vn: "Tôi rất thích ăn món Thái, đặc biệt là món canh chua cay." },
+      { tc: "下個月我要和朋友去泰國旅行。", py: "Xià ge yuè wǒ yào hé péngyǒu qù Tàiguó lǚxíng.", vn: "Tháng sau tôi sẽ cùng bạn bè đi Thái Lan du lịch." }
+    ],
+    idiom: "泰國旅行 Tàiguó lǚxíng - Du lịch Thái Lan.<br>🔸 Ví dụ: 泰國旅行非常受台灣人歡迎。 Tàiguó lǚxíng fēicháng shòu Táiwān rén huānyíng. - Việc đi du lịch Thái Lan vô cùng được người Đài Loan hoan nghênh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "比起來", pinyin: "bǐ qǐlái", hanViet: "Tỷ khởi lai",
+    image: "",
+    radical: "比 (Bộ Tỷ 比) + 起 (Bộ Tẩu 走) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Đặt hai sự vật mang ra so sánh (比) với nhau.",
+    explanation: "Cụm từ: So sánh, so với (Thường dùng trong cấu trúc: A和B比起來...).",
+    compounds: [
+      { tc: "跟以前比起來", py: "gēn yǐqián bǐ qǐlái", vn: "so với trước đây" }
+    ],
+    examples: [
+      { tc: "跟台北比起來，台南的物價比較低。", py: "Gēn Táiběi bǐ qǐlái, Táinán de wùjià bǐjiào dī.", vn: "So với Đài Bắc, vật giá ở Đài Nam tương đối thấp." },
+      { tc: "這兩件衣服比起來，我比較喜歡紅色的。", py: "Zhè liǎng jiàn yīfú bǐ qǐlái, wǒ bǐjiào xǐhuān hóngsè de.", vn: "Hai chiếc áo này đem so sánh, tôi thích màu đỏ hơn." },
+      { tc: "和坐公車比起來，搭捷運快多了。", py: "Hé zuò gōngchē bǐ qǐlái, dā jiéyùn kuài duō le.", vn: "So với việc đi xe buýt, đi tàu điện ngầm nhanh hơn nhiều." }
+    ],
+    idiom: "無法比擬 Wúfǎ bǐnǐ - Không thể sánh bằng.<br>🔸 Ví dụ: 這種美味是其他食物無法比擬的。 Zhè zhǒng měiwèi shì qíthā shíwù wúfǎ bǐnǐ de. - Vị ngon này là thứ mà các món ăn khác không thể nào sánh bằng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "極了", pinyin: "jíle", hanViet: "Cực liễu",
+    image: "",
+    radical: "極 (Bộ Mộc 木) + 了 (Bộ Quyết 亅)<br>💡 Mẹo nhớ: Dùng làm bổ ngữ chỉ mức độ đứng sau tính từ, thể hiện một trạng thái đã đạt đến đỉnh điểm (cực độ).",
+    explanation: "Trợ từ: Cực kỳ, vô cùng (bổ ngữ mức độ, V/Adj + 極了).",
+    compounds: [
+      { tc: "好極了", py: "hǎo jíle", vn: "tốt cực kỳ" },
+      { tc: "美極了", py: "měi jíle", vn: "đẹp vô cùng" }
+    ],
+    examples: [
+      { tc: "這個主意真是好極了！", py: "Zhège zhǔyì zhēnshi hǎo jíle!", vn: "Ý kiến này thật sự tốt cực kỳ!" },
+      { tc: "這家餐廳的菜難吃極了。", py: "Zhè jiā cāntīng de cài nánchī jíle.", vn: "Đồ ăn của nhà hàng này dở vô cùng." },
+      { tc: "聽到這個好消息，他高興極了。", py: "Tīng dào zhège hǎo xiāoxī, tā gāoxìng jíle.", vn: "Nghe được tin tốt này, anh ấy vui mừng tột độ." }
+    ],
+    idiom: "棒極了 Bàng jíle - Tuyệt cú mèo / Cực kỳ tuyệt vời.<br>🔸 Ví dụ: 你的表演真是棒極了！ Nǐ de biǎoyǎn zhēnshi bàng jíle! - Màn biểu diễn của bạn thật sự tuyệt cú mèo!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "忘不了", pinyin: "wàng bù liǎo", hanViet: "Vong bất liễu",
+    image: "",
+    radical: "忘 (Bộ Tâm 心), 不 (Nhất 一), 了 (Quyết 亅)<br>💡 Mẹo nhớ: Cấu trúc bổ ngữ khả năng chỉ việc trong lòng (心) không thể (不) làm kết thúc, quên đi (忘) được.",
+    explanation: "Cụm động từ: Không thể quên được.",
+    compounds: [
+      { tc: "忘得了", py: "wàng de liǎo", vn: "có thể quên được" }
+    ],
+    examples: [
+      { tc: "我永遠忘不了那一天。", py: "Wǒ yǒngyuǎn wàng bù liǎo nà yì tiān.", vn: "Tôi mãi mãi không thể quên được ngày hôm đó." },
+      { tc: "這碗麵的味道太好吃了，讓人忘不了。", py: "Zhè wǎn miàn de wèidào tài hǎochī le, ràng rén wàng bù liǎo.", vn: "Hương vị của tô mì này ngon quá, khiến người ta không thể nào quên." },
+      { tc: "他對我的幫助，我一輩子都忘不了。", py: "Tā duì wǒ de bāngzhù, wǒ yíbèizi dōu wàng bù liǎo.", vn: "Sự giúp đỡ của anh ấy dành cho tôi, tôi cả đời đều không thể quên." }
+    ],
+    idiom: "難以忘懷 Nányǐ wànghuái - Khó lòng quên được.<br>🔸 Ví dụ: 這段旅行的記憶讓我難以忘懷。 Zhè duàn lǚxíng de jìyì ràng wǒ nányǐ wànghuái. - Ký ức về chuyến du lịch này khiến tôi khó lòng quên được.", 
+    level: "TOCFL A2"
+  },
   ];
