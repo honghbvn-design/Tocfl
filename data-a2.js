@@ -7170,4 +7170,202 @@ const dataA2 = [
     idiom: "引人注意 Yǐn rén zhùyì - Thu hút sự chú ý.<br>🔸 Ví dụ: 她的衣服顏色很特別，非常引人注意。 Tā de yīfú yánsè hěn tèbié, fēicháng yǐn rén zhùyì. - Màu sắc quần áo của cô ấy rất đặc biệt, vô cùng thu hút sự chú ý.", 
     level: "TOCFL A2"
   },
+  {
+    word: "沙灘", pinyin: "shātān", hanViet: "Sa than",
+    image: "",
+    radical: "沙 (Bộ Thủy 氵) + 灘 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Thủy (氵) biểu thị vùng đất cát nằm sát bên cạnh nguồn nước.",
+    explanation: "Danh từ: Bãi biển, bãi cát.",
+    compounds: [
+      { tc: "去沙灘", py: "qù shātān", vn: "đi bãi biển" },
+      { tc: "沙灘排球", py: "shātān páiqiú", vn: "bóng chuyền bãi biển" }
+    ],
+    examples: [
+      { tc: "夏天時，我喜歡去沙灘玩水。", py: "Xiàtiān shí, wǒ xǐhuān qù shātān wán shuǐ.", vn: "Vào mùa hè, tôi thích đi bãi biển chơi nước." },
+      { tc: "這片沙灘非常乾淨。", py: "Zhè piàn shātān fēicháng gānjìng.", vn: "Bãi biển này vô cùng sạch sẽ." },
+      { tc: "我們在沙灘上散步，看夕陽。", py: "Wǒmen zài shātān shàng sànbù, kàn xìyáng.", vn: "Chúng tôi đi dạo trên bãi biển, ngắm hoàng hôn." }
+    ],
+    idiom: "漫步沙灘 Mànbù shātān - Đi dạo trên bãi biển.<br>🔸 Ví dụ: 傍晚時分，兩個人浪漫地漫步沙灘。 Bàngwǎn shífēn, liǎng ge rén làngmàn de mànbù shātān. - Lúc chập tối, hai người lãng mạn đi dạo trên bãi biển.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "錢包", pinyin: "qiánbāo", hanViet: "Tiền bao",
+    image: "",
+    radical: "錢 (Bộ Kim 金) + 包 (Bộ Bao 勹)<br>💡 Mẹo nhớ: Cái túi (包) dùng để đựng tiền bạc, kim loại (金).",
+    explanation: "Danh từ: Ví tiền, bóp tiền.",
+    compounds: [
+      { tc: "找錢包", py: "zhǎo qiánbāo", vn: "tìm ví tiền" },
+      { tc: "皮包", py: "píbāo", vn: "túi da, ví da" }
+    ],
+    examples: [
+      { tc: "出門前請檢查有沒有帶錢包。", py: "Chūmén qián qǐng jiǎnchá yǒu méiyǒu dài qiánbāo.", vn: "Trước khi ra khỏi nhà xin hãy kiểm tra xem có mang ví tiền không." },
+      { tc: "我的錢包不見了！", py: "Wǒ de qiánbāo bújiàn le!", vn: "Ví tiền của tôi biến mất rồi!" },
+      { tc: "他買了一個新的真皮錢包。", py: "Tā mǎi le yí ge xīn de zhēnpí qiánbāo.", vn: "Anh ấy đã mua một chiếc ví da thật mới." }
+    ],
+    idiom: "掏錢包 Tāo qiánbāo - Rút ví tiền.<br>🔸 Ví dụ: 結帳時，他立刻掏錢包付錢。 Jiézhàng shí, tā lìkè tāo qiánbāo fùqián. - Lúc thanh toán, anh ấy lập tức rút ví tiền ra trả.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "不見", pinyin: "bújiàn", hanViet: "Bất kiến",
+    image: "",
+    radical: "不 (Bộ Nhất 一) + 見 (Bộ Kiến 見)<br>💡 Mẹo nhớ: Không (不) còn nhìn thấy (見) sự vật đó ở đâu nữa.",
+    explanation: "Tính từ / Động từ: Biến mất, mất tích, không thấy.",
+    compounds: [
+      { tc: "弄不見", py: "nòng bújiàn", vn: "làm mất" }
+    ],
+    examples: [
+      { tc: "我的手機突然不見了。", py: "Wǒ de shǒujī túrán bújiàn le.", vn: "Điện thoại của tôi đột nhiên biến mất rồi." },
+      { tc: "你看見我的狗了嗎？牠不見了。", py: "Nǐ kànjiàn wǒ de gǒu le ma? Tā bújiàn le.", vn: "Bạn có nhìn thấy con chó của tôi không? Nó biến mất rồi." },
+      { tc: "放在桌上的蛋糕怎麼不見了？", py: "Fàng zài zhuō shàng de dàngāo zěnme bújiàn le?", vn: "Cái bánh kem đặt trên bàn sao không thấy đâu nữa rồi?" }
+    ],
+    idiom: "消失不見 Xiāoshī bújiàn - Biến mất tăm.<br>🔸 Ví dụ: 一轉眼，那個人就消失不見了。 Yì zhuǎnyǎn, nàge rén jiù xiāoshī bújiàn le. - Chớp mắt một cái, người đó đã biến mất tăm rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "被", pinyin: "bèi", hanViet: "Bị",
+    image: "",
+    radical: "被 (Bộ Y 衣)<br>💡 Mẹo nhớ: Chữ tượng hình cái chăn (cùng bộ với quần áo 衣). Dùng làm giới từ trong câu bị động.",
+    explanation: "Trợ từ: Bị, được (chỉ câu bị động).",
+    compounds: [
+      { tc: "被騙", py: "bèi piàn", vn: "bị lừa" },
+      { tc: "被偷", py: "bèi tōu", vn: "bị trộm" }
+    ],
+    examples: [
+      { tc: "他的腳踏車被偷了。", py: "Tā de jiǎotàchē bèi tōu le.", vn: "Xe đạp của anh ấy bị trộm rồi." },
+      { tc: "那個壞人已經被警察抓住了。", py: "Nàge huàirén yǐjīng bèi jǐngchá zhuā zhù le.", vn: "Tên người xấu đó đã bị cảnh sát bắt giữ rồi." },
+      { tc: "我的錢包被別人拿走了。", py: "Wǒ de qiánbāo bèi biérén ná zǒu le.", vn: "Ví tiền của tôi bị người khác lấy đi rồi." }
+    ],
+    idiom: "被人發現 Bèi rén fāxiàn - Bị người ta phát hiện.<br>🔸 Ví dụ: 他躲在這裡，還是被人發現了。 Tā duǒ zài zhèlǐ, háishì bèi rén fāxiàn le. - Anh ta trốn ở đây, nhưng vẫn bị người ta phát hiện ra.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "偷", pinyin: "tōu", hanViet: "Thâu",
+    image: "",
+    radical: "偷 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Con người (亻) có những hành động lén lút, không quang minh chính đại.",
+    explanation: "Động từ: Ăn trộm, ăn cắp.",
+    compounds: [
+      { tc: "小偷", py: "xiǎotōu", vn: "kẻ trộm" },
+      { tc: "偷東西", py: "tōu dōngxī", vn: "ăn trộm đồ" }
+    ],
+    examples: [
+      { tc: "有人偷了我的護照。", py: "Yǒu rén tōu le wǒ de hùzhào.", vn: "Có người đã ăn cắp hộ chiếu của tôi." },
+      { tc: "在夜市要小心，不要被偷東西。", py: "Zài yèshì yào xiǎoxīn, búyào bèi tōu dōngxī.", vn: "Ở chợ đêm phải cẩn thận, đừng để bị ăn trộm đồ." },
+      { tc: "那個小偷被警察抓走了。", py: "Nàge xiǎotōu bèi jǐngchá zhuā zǒu le.", vn: "Tên trộm đó đã bị cảnh sát bắt đi rồi." }
+    ],
+    idiom: "偷偷摸摸 Tōutōumōmō - Lén lén lút lút.<br>🔸 Ví dụ: 他偷偷摸摸地走進房間。 Tā tōutōumōmō de zǒu jìn fángjiān. - Anh ấy lén lén lút lút bước vào căn phòng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "安全", pinyin: "ānquán", hanViet: "An toàn",
+    image: "",
+    radical: "安 (Bộ Miên 宀) + 全 (Bộ Nhập 入)<br>💡 Mẹo nhớ: Nằm yên ổn dưới mái nhà (宀) thì tính mạng sẽ được vẹn toàn (全).",
+    explanation: "Tính từ / Danh từ: An toàn.",
+    compounds: [
+      { tc: "不安全", py: "bù ānquán", vn: "không an toàn" },
+      { tc: "安全帶", py: "ānquándài", vn: "dây an toàn" }
+    ],
+    examples: [
+      { tc: "晚上一個人出門不安全。", py: "Wǎnshàng yí ge rén chūmén bù ānquán.", vn: "Buổi tối đi ra ngoài một mình không an toàn." },
+      { tc: "台灣是一個非常安全的地方。", py: "Táiwān shì yí ge fēicháng ānquán de dìfāng.", vn: "Đài Loan là một nơi vô cùng an toàn." },
+      { tc: "開車時請繫好安全帶。", py: "Kāichē shí qǐng xì hǎo ānquán dài.", vn: "Lúc lái xe xin hãy thắt kỹ dây an toàn." }
+    ],
+    idiom: "注意安全 Zhùyì ānquán - Chú ý an toàn.<br>🔸 Ví dụ: 颱風天出門，大家請注意安全。 Táifēng tiān chūmén, dàjiā qǐng zhùyì ānquán. - Ngày bão đi ra ngoài, mọi người xin chú ý an toàn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "值得", pinyin: "zhíde", hanViet: "Trị đắc",
+    image: "",
+    radical: "值 (Bộ Nhân 亻) + 得 (Bộ Xích 彳)<br>💡 Mẹo nhớ: Con người (亻) cảm nhận được giá trị nhận lại hoàn toàn xứng đáng với công sức bỏ ra.",
+    explanation: "Tính từ / Động từ: Đáng giá, xứng đáng, đáng để...",
+    compounds: [
+      { tc: "不值得", py: "bù zhíde", vn: "không đáng" },
+      { tc: "很值得", py: "hěn zhíde", vn: "rất đáng giá" }
+    ],
+    examples: [
+      { tc: "這部電影非常好看，很值得去電影院看。", py: "Zhè bù diànyǐng fēicháng hǎokàn, hěn zhíde qù diànyǐngyuàn kàn.", vn: "Bộ phim này vô cùng hay, rất đáng để ra rạp xem." },
+      { tc: "為了這點小事生氣，真不值得。", py: "Wèile zhè diǎn xiǎoshì shēngqì, zhēn bù zhíde.", vn: "Vì chút chuyện nhỏ này mà tức giận, thật không đáng." },
+      { tc: "去墾丁旅行，這筆錢花得很值得。", py: "Qù Kěndīng lǚxíng, zhè bǐ qián huā de hěn zhíde.", vn: "Đi Khẩn Đinh du lịch, món tiền này tiêu rất xứng đáng." }
+    ],
+    idiom: "值得一看 Zhíde yí kàn - Đáng để xem thử.<br>🔸 Ví dụ: 這裡的夜景很美，值得一看。 Zhèlǐ de yèjǐng hěn měi, zhíde yí kàn. - Cảnh đêm ở đây rất đẹp, đáng để xem thử.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "墾丁", pinyin: "Kěndīng", hanViet: "Khẩn Đinh",
+    image: "",
+    radical: "墾 (Bộ Thổ 土) + 丁 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Tên một địa danh du lịch nổi tiếng nằm ở cực Nam của Đài Loan, nổi bật với bãi biển và khu bảo tồn.",
+    explanation: "Danh từ riêng: Khẩn Đinh (Kenting).",
+    compounds: [
+      { tc: "去墾丁", py: "qù Kěndīng", vn: "đi Khẩn Đinh" }
+    ],
+    examples: [
+      { tc: "暑假時，很多大學生會去墾丁玩。", py: "Shǔjià shí, hěn duō dàxuéshēng huì qù Kěndīng wán.", vn: "Vào kỳ nghỉ hè, rất nhiều sinh viên đại học sẽ đi Khẩn Đinh chơi." },
+      { tc: "墾丁的沙灘非常漂亮。", py: "Kěndīng de shātān fēicháng piàoliang.", vn: "Bãi biển của Khẩn Đinh vô cùng xinh đẹp." },
+      { tc: "我們下週打算去墾丁潛水。", py: "Wǒmen xià zhōu dǎsuàn qù Kěndīng qiánshuǐ.", vn: "Tuần sau chúng tôi dự định đi Khẩn Đinh lặn biển." }
+    ],
+    idiom: "墾丁大街 Kěndīng dàjiē - Phố lớn Khẩn Đinh (Khu chợ đêm nổi tiếng).<br>🔸 Ví dụ: 晚上可以去逛逛熱鬧的墾丁大街。 Wǎnshàng kěyǐ qù guàngguàng rènào de Kěndīng dàjiē. - Buổi tối có thể đi dạo phố lớn Khẩn Đinh náo nhiệt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "台中", pinyin: "Táizhōng", hanViet: "Đài Trung",
+    image: "",
+    radical: "台 (Bộ Khẩu 口) + 中 (Bộ Cổn 丨)<br>💡 Mẹo nhớ: Thành phố lớn nằm ở vị trí trung tâm (中) của hòn đảo Đài Loan.",
+    explanation: "Danh từ riêng: Đài Trung.",
+    compounds: [
+      { tc: "台中市", py: "Táizhōng Shì", vn: "thành phố Đài Trung" }
+    ],
+    examples: [
+      { tc: "台中在台灣的中部。", py: "Táizhōng zài Táiwān de zhōngbù.", vn: "Đài Trung nằm ở miền Trung của Đài Loan." },
+      { tc: "台中的天氣比台北好很多。", py: "Táizhōng de tiānqì bǐ Táiběi hǎo hěn duō.", vn: "Thời tiết của Đài Trung tốt hơn Đài Bắc rất nhiều." },
+      { tc: "週末我們要去台中找朋友。", py: "Zhōumò wǒmen yào qù Táizhōng zhǎo péngyǒu.", vn: "Cuối tuần chúng tôi sẽ đi Đài Trung tìm bạn." }
+    ],
+    idiom: "台中車站 Táizhōng chēzhàn - Ga Đài Trung.<br>🔸 Ví dụ: 我在台中車站等你。 Wǒ zài Táizhōng chēzhàn děng nǐ. - Tôi đợi bạn ở ga Đài Trung.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "日月潭", pinyin: "Rìyuè Tán", hanViet: "Nhật Nguyệt Đàm",
+    image: "",
+    radical: "日 (Mặt trời) + 月 (Mặt trăng) + 潭 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Hồ nước (潭) xinh đẹp ở miền Trung Đài Loan, có hình dáng một bên giống mặt trời (日), một bên giống mặt trăng (月).",
+    explanation: "Danh từ riêng: Hồ Nhật Nguyệt (Sun Moon Lake).",
+    compounds: [
+      { tc: "遊日月潭", py: "yóu Rìyuè Tán", vn: "du ngoạn hồ Nhật Nguyệt" }
+    ],
+    examples: [
+      { tc: "日月潭是台灣最有名的風景區之一。", py: "Rìyuè Tán shì Táiwān zuì yǒumíng de fēngjǐngqū zhī yī.", vn: "Hồ Nhật Nguyệt là một trong những khu phong cảnh nổi tiếng nhất của Đài Loan." },
+      { tc: "我們在日月潭騎腳踏車，風景很美。", py: "Wǒmen zài Rìyuè Tán qí jiǎotàchē, fēngjǐng hěn měi.", vn: "Chúng tôi đạp xe đạp ở hồ Nhật Nguyệt, phong cảnh rất đẹp." },
+      { tc: "日月潭的紅茶非常好喝。", py: "Rìyuè Tán de hóngchá fēicháng hǎohē.", vn: "Hồng trà của hồ Nhật Nguyệt vô cùng ngon." }
+    ],
+    idiom: "日月潭風景區 Rìyuè Tán fēngjǐngqū - Khu phong cảnh hồ Nhật Nguyệt.<br>🔸 Ví dụ: 假日很多遊客會來日月潭風景區玩。 Jiàrì hěn duō yóukè huì lái Rìyuè Tán fēngjǐngqū wán. - Ngày nghỉ rất nhiều du khách sẽ đến khu phong cảnh hồ Nhật Nguyệt chơi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "水上活動", pinyin: "shuǐshàng huódòng", hanViet: "Thủy thượng hoạt động",
+    image: "",
+    radical: "水 (Nước) + 上 (Trên) + 活 (Hoạt) + 動 (Động)<br>💡 Mẹo nhớ: Những hoạt động vui chơi giải trí diễn ra ở trên mặt nước.",
+    explanation: "Cụm danh từ: Hoạt động dưới nước, trò chơi dưới nước.",
+    compounds: [
+      { tc: "參加水上活動", py: "cānjiā shuǐshàng huódòng", vn: "tham gia hoạt động dưới nước" }
+    ],
+    examples: [
+      { tc: "墾丁有很多刺激的水上活動。", py: "Kěndīng yǒu hěn duō cìjī de shuǐshàng huódòng.", vn: "Khẩn Đinh có rất nhiều hoạt động dưới nước đầy kích thích." },
+      { tc: "夏天去海邊玩水上活動最舒服了。", py: "Xiàtiān qù hǎibiān wán shuǐshàng huódòng zuì shūfú le.", vn: "Mùa hè ra biển chơi các trò chơi dưới nước là thoải mái nhất." },
+      { tc: "玩水上活動時一定要穿救生衣。", py: "Wán shuǐshàng huódòng shí yídìng yào chuān jiùshēngyī.", vn: "Lúc chơi các hoạt động dưới nước nhất định phải mặc áo phao." }
+    ],
+    idiom: "刺激的水上活動 Cìjī de shuǐshàng huódòng - Hoạt động dưới nước kích thích.<br>🔸 Ví dụ: 年輕人特別喜歡玩刺激的水上活動。 Niánqīng rén tèbié xǐhuān wán cìjī de shuǐshàng huódòng. - Những người trẻ tuổi đặc biệt thích chơi các hoạt động dưới nước kích thích.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "風景區", pinyin: "fēngjǐngqū", hanViet: "Phong cảnh khu",
+    image: "",
+    radical: "風 (Gió) + 景 (Cảnh) + 區 (Khu)<br>💡 Mẹo nhớ: Khu vực (區) được quy hoạch, bảo tồn để tham quan cảnh đẹp thiên nhiên.",
+    explanation: "Danh từ: Khu phong cảnh, khu danh lam thắng cảnh.",
+    compounds: [
+      { tc: "國家風景區", py: "guójiā fēngjǐngqū", vn: "khu phong cảnh quốc gia" }
+    ],
+    examples: [
+      { tc: "這個週末我們要去風景區散步。", py: "Zhège zhōumò wǒmen yào qù fēngjǐngqū sànbù.", vn: "Cuối tuần này chúng tôi sẽ đi dạo ở khu phong cảnh." },
+      { tc: "風景區裡有很多賣特產的商店。", py: "Fēngjǐngqū lǐ yǒu hěn duō mài tèchǎn de shāngdiàn.", vn: "Trong khu phong cảnh có rất nhiều cửa hàng bán đặc sản." },
+      { tc: "請不要在風景區亂丟垃圾。", py: "Qǐng búyào zài fēngjǐngqū luàndiū lèsè.", vn: "Xin đừng vứt rác bừa bãi trong khu phong cảnh." }
+    ],
+    idiom: "著名風景區 Zhùmíng fēngjǐngqū - Khu phong cảnh nổi tiếng.<br>🔸 Ví dụ: 阿里山是台灣著名的風景區。 Ālǐshān shì Táiwān zhùmíng de fēngjǐngqū. - A Lý Sơn là khu phong cảnh nổi tiếng của Đài Loan.", 
+    level: "TOCFL A2"
+  },
   ];
