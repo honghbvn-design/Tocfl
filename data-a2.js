@@ -6498,5 +6498,220 @@ const dataA2 = [
     idiom: "肚子吃壞了 Dùzi chī huài le - Ăn hỏng bụng / Ăn trúng thực.<br>🔸 Ví dụ: 昨天吃了海鮮，結果肚子吃壞了。 Zuótiān chī le hǎixiān, jiéguǒ dùzi chī huài le. - Hôm qua ăn hải sản, kết quả là bị ăn hỏng bụng rồi.", 
     level: "TOCFL A2"
   },
-  
+  {
+    word: "破", pinyin: "pò", hanViet: "Phá",
+    image: "",
+    radical: "破 (Bộ Thạch 石)<br>💡 Mẹo nhớ: Dùng đá (石) đập vào da (皮) sẽ làm rách, vỡ ra.",
+    explanation: "Động từ / Tính từ: Rách, vỡ, bể.",
+    compounds: [
+      { tc: "打破", py: "dǎpò", vn: "làm vỡ" },
+      { tc: "破掉", py: "pò diào", vn: "bị rách, bị vỡ" }
+    ],
+    examples: [
+      { tc: "這件衣服破了一個洞。", py: "Zhè jiàn yīfú pò le yí ge dòng.", vn: "Chiếc áo này rách một lỗ rồi." },
+      { tc: "煮水餃時要小心，不要弄破了。", py: "Zhǔ shuǐjiǎo shí yào xiǎoxīn, búyào nòng pò le.", vn: "Lúc luộc sủi cảo phải cẩn thận, đừng làm rách." },
+      { tc: "他不小心打破了一個碗。", py: "Tā bù xiǎoxīn dǎpò le yí ge wǎn.", vn: "Anh ấy vô tình làm vỡ một cái bát." }
+    ],
+    idiom: "破財消災 Pòcái xiāozāi - Của đi thay người.<br>🔸 Ví dụ: 錢丟了就算了，當作破財消災吧。 Qián diū le jiù suàn le, dāngzuò pòcái xiāozāi ba. - Tiền mất rồi thì thôi, coi như của đi thay người vậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "餡兒", pinyin: "xiànr", hanViet: "Hãm nhi",
+    image: "",
+    radical: "餡 (Bộ Thực 食) + 兒 (Bộ Nhân 儿)<br>💡 Mẹo nhớ: Phần thức ăn (食) được nhồi, gói ở bên trong.",
+    explanation: "Danh từ: Nhân (của bánh, sủi cảo).",
+    compounds: [
+      { tc: "肉餡", py: "ròuxiàn", vn: "nhân thịt" },
+      { tc: "包餡", py: "bāo xiàn", vn: "gói nhân" }
+    ],
+    examples: [
+      { tc: "你喜歡吃豬肉餡還是牛肉餡？", py: "Nǐ xǐhuān chī zhūròu xiàn háishì niúròu xiàn?", vn: "Bạn thích ăn nhân thịt lợn hay nhân thịt bò?" },
+      { tc: "這個包子的餡兒很多，非常好吃。", py: "Zhège bāozi de xiànr hěn duō, fēicháng hǎochī.", vn: "Cái bánh bao này rất nhiều nhân, vô cùng ngon." },
+      { tc: "水餃破了，裡面的餡兒都掉出來了。", py: "Shuǐjiǎo pò le, lǐmiàn de xiànr dōu diào chūlái le.", vn: "Sủi cảo rách rồi, nhân bên trong đều rơi ra ngoài hết rồi." }
+    ],
+    idiom: "露餡兒 Lòuxiànr - Lộ tẩy / Bại lộ.<br>🔸 Ví dụ: 他的謊話終於露餡兒了。 Tā de huǎnghuà zhōngyú lòuxiànr le. - Lời nói dối của anh ta cuối cùng cũng bị lộ tẩy rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "扁", pinyin: "biǎn", hanViet: "Biển",
+    image: "",
+    radical: "扁 (Bộ Hộ 戶)<br>💡 Mẹo nhớ: Hình dáng bị ép xuống, không có độ phồng.",
+    explanation: "Tính từ: Dẹt, xẹp, mỏng.",
+    compounds: [
+      { tc: "壓扁", py: "yā biǎn", vn: "ép dẹt" }
+    ],
+    examples: [
+      { tc: "這個水餃包得扁扁的。", py: "Zhège shuǐjiǎo bāo de biǎnbiǎn de.", vn: "Cái sủi cảo này được gói dẹt dẹt." },
+      { tc: "我的腳踏車輪胎變扁了。", py: "Wǒ de jiǎotàchē lúntāi biàn biǎn le.", vn: "Lốp xe đạp của tôi bị xẹp rồi." },
+      { tc: "請不要把麵包壓扁。", py: "Qǐng búyào bǎ miànbāo yā biǎn.", vn: "Xin đừng ép dẹt chiếc bánh mì." }
+    ],
+    idiom: "看扁 Kàn biǎn - Coi thường / Đánh giá thấp.<br>🔸 Ví dụ: 你不要看扁他，他其實很聰明。 Nǐ búyào kàn biǎn tā, tā qíshí hěn cōngmíng. - Bạn đừng đánh giá thấp anh ấy, anh ấy thực ra rất thông minh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "材料", pinyin: "cáiliào", hanViet: "Tài liệu",
+    image: "",
+    radical: "材 (Bộ Mộc 木) + 料 (Bộ Đẩu 斗)<br>💡 Mẹo nhớ: Gỗ (木) và những thứ được đong đếm (斗) dùng để tạo nên một món đồ hoặc món ăn.",
+    explanation: "Danh từ: Nguyên liệu, vật liệu.",
+    compounds: [
+      { tc: "準備材料", py: "zhǔnbèi cáiliào", vn: "chuẩn備 nguyên liệu" }
+    ],
+    examples: [
+      { tc: "做這道菜需要什麼材料？", py: "Zuò zhè dào cài xūyào shénme cáiliào?", vn: "Làm món này cần những nguyên liệu gì?" },
+      { tc: "我們去超市買包餃子的材料吧。", py: "Wǒmen qù chāoshì mǎi bāo jiǎozi de cáiliào ba.", vn: "Chúng ta đi siêu thị mua nguyên liệu gói sủi cảo đi." },
+      { tc: "這些建築材料非常貴。", py: "Zhèxiē jiànzhú cáiliào fēicháng guì.", vn: "Những vật liệu xây dựng này vô cùng đắt." }
+    ],
+    idiom: "真材實料 Zhēncái shíliào - Nguyên liệu thật đồ thật / Chất lượng hàng thật giá thật.<br>🔸 Ví dụ: 這家店的牛肉麵真材實料，難怪生意這麼好。 Zhè jiā diàn de niúròumiàn zhēncái shíliào, nánguài shēngyì zhème hǎo. - Mì bò của tiệm này làm từ nguyên liệu thật chất lượng, hèn chi buôn bán tốt như vậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "道", pinyin: "dào", hanViet: "Đạo",
+    image: "",
+    radical: "道 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Đi bộ (辶) trên con đường, trình tự (đạo). Trong bài này dùng làm lượng từ cho các món ăn.",
+    explanation: "Lượng từ: Món (dùng cho món ăn).",
+    compounds: [
+      { tc: "一道菜", py: "yí dào cài", vn: "một món ăn" }
+    ],
+    examples: [
+      { tc: "這道菜叫什麼名字？", py: "Zhè dào cài jiào shénme míngzi?", vn: "Món ăn này tên là gì?" },
+      { tc: "媽媽今天晚上做了五道菜。", py: "Māma jīntiān wǎnshàng zuò le wǔ dào cài.", vn: "Tối nay mẹ đã làm năm món ăn." },
+      { tc: "這道湯的味道非常好。", py: "Zhè dào tāng de wèidào fēicháng hǎo.", vn: "Hương vị của món canh này rất tuyệt." }
+    ],
+    idiom: "拿手菜 Náshǒucài - Món tủ / Món sở trường.<br>🔸 Ví dụ: 春捲是媽媽的拿手菜。 Chūnjuǎn shì māma de náshǒucài. - Chả giò là món tủ của mẹ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "飽", pinyin: "bǎo", hanViet: "Bão",
+    image: "",
+    radical: "飽 (Bộ Thực 食)<br>💡 Mẹo nhớ: Đã ăn thức ăn (食) vào bụng và bao bọc (包) lại khiến bụng căng lên.",
+    explanation: "Tính từ: No, no bụng.",
+    compounds: [
+      { tc: "吃飽", py: "chī bǎo", vn: "ăn no" },
+      { tc: "很飽", py: "hěn bǎo", vn: "rất no" }
+    ],
+    examples: [
+      { tc: "我吃飽了，你們慢慢吃。", py: "Wǒ chī bǎo le, nǐmen mànmàn chī.", vn: "Tôi ăn no rồi, các bạn cứ từ từ ăn nhé." },
+      { tc: "這碗麵很大，吃完一定會很飽。", py: "Zhè wǎn miàn hěn dà, chī wán yídìng huì hěn bǎo.", vn: "Tô mì này rất lớn, ăn xong nhất định sẽ rất no." },
+      { tc: "他還沒吃飽，想再點一盤水餃。", py: "Tā hái méi chī bǎo, xiǎng zài diǎn yì pán shuǐjiǎo.", vn: "Anh ấy vẫn chưa ăn no, muốn gọi thêm một đĩa sủi cảo nữa." }
+    ],
+    idiom: "大飽口福 Dà bǎo kǒufú - No nê ngon miệng / Thỏa mãn vị giác.<br>🔸 Ví dụ: 今天的晚宴真是讓我大飽口福。 Jīntiān de wǎnyàn zhēnshi ràng wǒ dà bǎo kǒufú. - Bữa tiệc tối nay thật sự làm tôi no nê ngon miệng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "光", pinyin: "guāng", hanViet: "Quang",
+    image: "",
+    radical: "光 (Bộ Nhân 儿)<br>💡 Mẹo nhớ: Ánh sáng chiếu rọi không còn sót lại gì. Làm bổ ngữ kết quả biểu thị trạng thái cạn kiệt, nhẵn thín.",
+    explanation: "Trợ từ / Tính từ: Hết sạch, nhẵn (thường dùng làm bổ ngữ kết quả).",
+    compounds: [
+      { tc: "吃光", py: "chī guāng", vn: "ăn sạch" },
+      { tc: "賣光", py: "mài guāng", vn: "bán sạch" }
+    ],
+    examples: [
+      { tc: "桌上的菜都被大家吃光了。", py: "Zhuō shàng de cài dōu bèi dàjiā chī guāng le.", vn: "Thức ăn trên bàn đều bị mọi người ăn sạch rồi." },
+      { tc: "我的錢已經花光了。", py: "Wǒ de qián yǐjīng huā guāng le.", vn: "Tiền của tôi đã tiêu sạch rồi." },
+      { tc: "今天的水餃賣光了，明天請早。", py: "Jīntiān de shuǐjiǎo mài guāng le, míngtiān qǐng zǎo.", vn: "Sủi cảo hôm nay bán sạch rồi, ngày mai xin đến sớm." }
+    ],
+    idiom: "一掃而光 Yìsǎo ér guāng - Quét sạch sành sanh.<br>🔸 Ví dụ: 肚子太餓了，桌上的飯菜被他一掃而光。 Dùzi tài è le, zhuō shàng de fàncài bèi tā yìsǎo ér guāng. - Bụng đói quá rồi, cơm canh trên bàn bị anh ấy quét sạch sành sanh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "鍋子", pinyin: "guōzi", hanViet: "Oa tử",
+    image: "",
+    radical: "鍋 (Bộ Kim 金) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Đồ dùng nhà bếp được đúc bằng kim loại (金) dùng để đun nấu.",
+    explanation: "Danh từ: Nồi, xoong, chảo.",
+    compounds: [
+      { tc: "火鍋", py: "huǒguō", vn: "lẩu" },
+      { tc: "平底鍋", py: "píngdǐguō", vn: "chảo chống dính" }
+    ],
+    examples: [
+      { tc: "請把這些水餃放進鍋子裡煮。", py: "Qǐng bǎ zhèxiē shuǐjiǎo fàng jìn guōzi lǐ zhǔ.", vn: "Vui lòng cho những viên sủi cảo này vào trong nồi để luộc." },
+      { tc: "這個鍋子太小了，煮不了這麼多湯。", py: "Zhège guōzi tài xiǎo le, zhǔ bù liǎo zhème duō tāng.", vn: "Cái nồi này nhỏ quá, nấu không nổi nhiều canh thế này." },
+      { tc: "洗完碗後，記得把鍋子也洗乾淨。", py: "Xǐ wán wǎn hòu, jìdé bǎ guōzi yě xǐ gānjìng.", vn: "Sau khi rửa bát xong, nhớ rửa sạch cả cái nồi nữa nhé." }
+    ],
+    idiom: "背黑鍋 Bèi hēiguō - Đổ vỏ / Chịu tiếng oan.<br>🔸 Ví dụ: 明明不是他的錯，他卻要幫別人背黑鍋。 Míngmíng bú shì tā de cuò, tā què yào bāng biérén bèi hēiguō. - Rõ ràng không phải lỗi của anh ấy, anh ấy lại phải chịu tiếng oan thay người khác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "筷子", pinyin: "kuàizi", hanViet: "Khoái tử",
+    image: "",
+    radical: "筷 (Bộ Trúc 竹) + 子 (Bộ Tử 子)<br>💡 Mẹo nhớ: Đôi đũa truyền thống được làm từ tre trúc (竹) có tính chất nhanh nhạy (快).",
+    explanation: "Danh từ: Đũa, đôi đũa.",
+    compounds: [
+      { tc: "一雙筷子", py: "yì shuāng kuàizi", vn: "một đôi đũa" },
+      { tc: "用筷子", py: "yòng kuàizi", vn: "dùng đũa" }
+    ],
+    examples: [
+      { tc: "外國人通常不太會用筷子。", py: "Wàiguó rén tōngcháng bú tài huì yòng kuàizi.", vn: "Người nước ngoài thông thường không biết dùng đũa lắm." },
+      { tc: "請幫我拿一雙筷子來。", py: "Qǐng bāng wǒ ná yì shuāng kuàizi lái.", vn: "Vui lòng giúp tôi lấy một đôi đũa đến đây." },
+      { tc: "吃麵的時候，用筷子比較方便。", py: "Chī miàn de shíhòu, yòng kuàizi bǐjiào fāngbiàn.", vn: "Lúc ăn mì, dùng đũa sẽ tiện lợi hơn." }
+    ],
+    idiom: "免洗筷 Miǎnxǐ kuài - Đũa dùng một lần.<br>🔸 Ví dụ: 為了環保，我們應該少用免洗筷。 Wèile huánbǎo, wǒmen yīnggāi shǎo yòng miǎnxǐ kuài. - Vì bảo vệ môi trường, chúng ta nên ít dùng đũa dùng một lần.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "碗", pinyin: "wǎn", hanViet: "Oản",
+    image: "",
+    radical: "碗 (Bộ Thạch 石)<br>💡 Mẹo nhớ: Cái bát ngày xưa thường được làm từ đá (石) hoặc gốm sứ.",
+    explanation: "Danh từ / Lượng từ: Bát, chén.",
+    compounds: [
+      { tc: "洗碗", py: "xǐ wǎn", vn: "rửa bát" },
+      { tc: "一碗飯", py: "yì wǎn fàn", vn: "một bát cơm" }
+    ],
+    examples: [
+      { tc: "請給我一個碗，我想喝湯。", py: "Qǐng gěi wǒ yí ge wǎn, wǒ xiǎng hē tāng.", vn: "Xin cho tôi một cái bát, tôi muốn uống canh." },
+      { tc: "他太餓了，連續吃了三碗飯。", py: "Tā tài è le, liánxù chī le sān wǎn fàn.", vn: "Anh ấy đói quá, ăn liền tù tì ba bát cơm." },
+      { tc: "吃完飯後，哥哥負責洗碗。", py: "Chī wán fàn hòu, gēge fùzé xǐ wǎn.", vn: "Sau khi ăn cơm xong, anh trai phụ trách rửa bát." }
+    ],
+    idiom: "鐵飯碗 Tiěfànwǎn - Bát cơm sắt (Công việc biên chế nhà nước ổn định).<br>🔸 Ví dụ: 考上公務員就等於有了一個鐵飯碗。 Kǎo shàng gōngwùyuán jiù děngyú yǒu le yí ge tiěfànwǎn. - Thi đỗ công chức cũng tương đương với việc có được một công việc ổn định.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "韓國", pinyin: "Hánguó", hanViet: "Hàn Quốc",
+    image: "",
+    radical: "韓 (Bộ Vi 韋) + 國 (Bộ Vi 囗)<br>💡 Mẹo nhớ: Tên một quốc gia ở khu vực Đông Á.",
+    explanation: "Danh từ riêng: Hàn Quốc.",
+    compounds: [
+      { tc: "韓國人", py: "Hánguó rén", vn: "người Hàn Quốc" },
+      { tc: "韓文", py: "Hánwén", vn: "tiếng Hàn" }
+    ],
+    examples: [
+      { tc: "韓國的冬天非常冷，會下雪。", py: "Hánguó de dōngtiān fēicháng lěng, huì xiàxuě.", vn: "Mùa đông ở Hàn Quốc vô cùng lạnh, sẽ có tuyết rơi." },
+      { tc: "他打算明年去韓國留學。", py: "Tā dǎsuàn míngnián qù Hánguó liúxué.", vn: "Anh ấy dự định năm sau sẽ sang Hàn Quốc du học." },
+      { tc: "我很喜歡吃韓國的泡菜。", py: "Wǒ hěn xǐhuān chī Hánguó de pàocài.", vn: "Tôi rất thích ăn kim chi của Hàn Quốc." }
+    ],
+    idiom: "韓國流行音樂 Hánguó liúxíng yīnyuè - Nhạc Pop Hàn Quốc / K-pop.<br>🔸 Ví dụ: 韓國流行音樂在全世界都很受歡迎。 Hánguó liúxíng yīnyuè zài quán shìjiè dōu hěn shòu huānyíng. - Nhạc Pop Hàn Quốc rất được yêu thích trên toàn thế giới.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "看不出來", pinyin: "kàn bù chūlái", hanViet: "Khán bất xuất lai",
+    image: "",
+    radical: "看 (Nhìn), 不 (Không), 出來 (Ra)<br>💡 Mẹo nhớ: Dùng mắt nhìn (看) nhưng không thể nhận ra hoặc không đoán ra được vấn đề.",
+    explanation: "Cụm động từ: Nhìn không ra, không nhận ra, không đoán được.",
+    compounds: [
+      { tc: "看得出來", py: "kàn de chūlái", vn: "nhìn ra được" }
+    ],
+    examples: [
+      { tc: "她已經四十歲了？真看不出來！", py: "Tā yǐjīng sìshí suì le? Zhēn kàn bù chūlái!", vn: "Cô ấy đã bốn mươi tuổi rồi sao? Thật sự nhìn không ra đấy!" },
+      { tc: "這兩件衣服有什麼不同？我看不出來。", py: "Zhè liǎng jiàn yīfú yǒu shénme bùtóng? Wǒ kàn bù chūlái.", vn: "Hai chiếc áo này có gì khác nhau vậy? Tôi nhìn không ra." },
+      { tc: "你看得出來他今天很不高興嗎？", py: "Nǐ kàn de chūlái tā jīntiān hěn bù gāoxìng ma?", vn: "Bạn có nhìn ra được hôm nay anh ấy rất không vui không?" }
+    ],
+    idiom: "實在看不出來 Shízài kàn bù chūlái - Quả thực nhìn không ra.<br>🔸 Ví dụ: 他竟然會做菜？實在看不出來。 Tā jìngrán huì zuòcài? Shízài kàn bù chūlái. - Anh ấy vậy mà lại biết nấu ăn sao? Quả thực nhìn không ra đấy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "酸辣湯", pinyin: "suānlà tāng", hanViet: "Toan lạt thang",
+    image: "",
+    radical: "酸 (Chua) + 辣 (Cay) + 湯 (Canh)<br>💡 Mẹo nhớ: Một món canh súp đặc trưng của ẩm thực Trung Hoa có vị chua (酸) và cay (辣).",
+    explanation: "Danh từ: Canh chua cay (một món súp nổi tiếng ăn kèm với sủi cảo).",
+    compounds: [
+      { tc: "喝酸辣湯", py: "hē suānlà tāng", vn: "uống canh chua cay" }
+    ],
+    examples: [
+      { tc: "吃水餃的時候，我喜歡配一碗酸辣湯。", py: "Chī shuǐjiǎo de shíhòu, wǒ xǐhuān pèi yì wǎn suānlà tāng.", vn: "Lúc ăn sủi cảo, tôi thích ăn kèm một bát canh chua cay." },
+      { tc: "這家店的酸辣湯很有名。", py: "Zhè jiā diàn de suānlà tāng hěn yǒumíng.", vn: "Canh chua cay của quán này rất nổi tiếng." },
+      { tc: "媽媽做的酸辣湯味道剛剛好，不會太辣。", py: "Māma zuò de suānlà tāng wèidào gānggāng hǎo, bú huì tài là.", vn: "Canh chua cay mẹ nấu mùi vị vừa vặn, sẽ không quá cay." }
+    ],
+    idiom: "酸甜苦辣 Suān tián kǔ là - Chua ngọt đắng cay / Những thăng trầm của cuộc sống.<br>🔸 Ví dụ: 人生充滿了酸甜苦辣，我們要學會面對。 Rénshēng chōngmǎn le suān tián kǔ là, wǒmen yào xuéhuì miànduì. - Cuộc sống tràn ngập chua ngọt đắng cay, chúng ta phải học cách đối mặt.", 
+    level: "TOCFL A2"
+  },
   ];
