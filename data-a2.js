@@ -7368,4 +7368,354 @@ const dataA2 = [
     idiom: "著名風景區 Zhùmíng fēngjǐngqū - Khu phong cảnh nổi tiếng.<br>🔸 Ví dụ: 阿里山是台灣著名的風景區。 Ālǐshān shì Táiwān zhùmíng de fēngjǐngqū. - A Lý Sơn là khu phong cảnh nổi tiếng của Đài Loan.", 
     level: "TOCFL A2"
   },
+  {
+    word: "又", pinyin: "yòu", hanViet: "Hựu",
+    image: "",
+    radical: "又 (Bộ Hựu 又)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng bàn tay phải. Nghĩa gốc là lặp lại, thêm một lần nữa.",
+    explanation: "Phó từ / Liên từ: Lại (hành động lặp lại) / Vừa... lại...",
+    compounds: [
+      { tc: "又大又甜", py: "yòu dà yòu tián", vn: "vừa to lại vừa ngọt" },
+      { tc: "又來了", py: "yòu lái le", vn: "lại đến nữa rồi" }
+    ],
+    examples: [
+      { tc: "對不起，我今天又遲到了。", py: "Duìbùqǐ, wǒ jīntiān yòu chídào le.", vn: "Xin lỗi, hôm nay tôi lại đến muộn rồi." },
+      { tc: "這顆蘋果又大又紅，看起來很好吃。", py: "Zhè kē píngguǒ yòu dà yòu hóng, kàn qǐlái hěn hǎochī.", vn: "Quả táo này vừa to lại vừa đỏ, trông rất ngon." },
+      { tc: "昨天下了雨，今天又下雨了。", py: "Zuótiān xià le yǔ, jīntiān yòu xiàyǔ le.", vn: "Hôm qua trời mưa, hôm nay lại mưa nữa rồi." }
+    ],
+    idiom: "又來了 Yòu lái le - Lại nữa rồi (Phàn nàn về một việc cứ lặp đi lặp lại).<br>🔸 Ví dụ: 你怎麼又忘記帶鑰匙了？真受不了你！ Nǐ zěnme yòu wàngjì dài yàoshi le? Zhēn shòu bù liǎo nǐ! - Sao bạn lại quên mang chìa khóa nữa rồi? Thật chịu không nổi bạn!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "遍", pinyin: "biàn", hanViet: "Biến",
+    image: "",
+    radical: "遍 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Hành động di chuyển (辶) từ đầu đến cuối tạo thành một lượt, một vòng.",
+    explanation: "Lượng từ: Lần, lượt (nhấn mạnh quá trình thực hiện từ đầu đến cuối).",
+    compounds: [
+      { tc: "一遍", py: "yí biàn", vn: "một lượt" },
+      { tc: "看一遍", py: "kàn yí biàn", vn: "xem một lượt" }
+    ],
+    examples: [
+      { tc: "這本書我已經看了三遍。", py: "Zhè běn shū wǒ yǐjīng kàn le sān biàn.", vn: "Quyển sách này tôi đã đọc ba lượt rồi." },
+      { tc: "我聽不清楚，請你再說一遍。", py: "Wǒ tīng bù qīngchǔ, qǐng nǐ zài shuō yí biàn.", vn: "Tôi nghe không rõ, xin bạn hãy nói lại một lần nữa." },
+      { tc: "出門前，他把房間打掃了一遍。", py: "Chūmén qián, tā bǎ fángjiān dǎsǎo le yí biàn.", vn: "Trước khi ra khỏi nhà, anh ấy đã dọn dẹp căn phòng một lượt." }
+    ],
+    idiom: "讀一遍 Dú yí biàn - Đọc một lượt.<br>🔸 Ví dụ: 請大家把這篇課文讀一遍。 Qǐng dàjiā bǎ zhè piān kèwén dú yí biàn. - Xin mọi người hãy đọc bài học này một lượt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "民宿", pinyin: "mínsù", hanViet: "Dân túc",
+    image: "",
+    radical: "民 (Bộ Thị 氏) + 宿 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Nơi lưu trú, ngủ nghỉ (宿) do người dân (民) địa phương tự mở ra để kinh doanh.",
+    explanation: "Danh từ: Homestay, nhà nghỉ.",
+    compounds: [
+      { tc: "開民宿", py: "kāi mínsù", vn: "mở homestay" },
+      { tc: "住民宿", py: "zhù mínsù", vn: "ở homestay" }
+    ],
+    examples: [
+      { tc: "我們去花蓮玩，住了一間很漂亮的民宿。", py: "Wǒmen qù Huālián wán, zhù le yì jiān hěn piàoliang de mínsù.", vn: "Chúng tôi đi Hoa Liên chơi, đã ở một căn homestay rất đẹp." },
+      { tc: "這家民宿的老闆非常熱情。", py: "Zhè jiā mínsù de lǎobǎn fēicháng rèqíng.", vn: "Ông chủ của homestay này vô cùng nhiệt tình." },
+      { tc: "住民宿可以體驗當地的生活。", py: "Zhù mínsù kěyǐ tǐyàn dāngdì de shēnghuó.", vn: "Ở homestay có thể trải nghiệm cuộc sống của địa phương." }
+    ],
+    idiom: "特色民宿 Tèsè mínsù - Homestay đặc sắc.<br>🔸 Ví dụ: 台灣有很多充滿在地文化的特色民宿。 Táiwān yǒu hěn duō chōngmǎn zàidì wénhuà de tèsè mínsù. - Đài Loan có rất nhiều homestay đặc sắc ngập tràn văn hóa bản địa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "運氣", pinyin: "yùnqì", hanViet: "Vận khí",
+    image: "",
+    radical: "運 (Bộ Xước 辶) + 氣 (Bộ Khí 气)<br>💡 Mẹo nhớ: Luồng khí (氣) xoay chuyển (運) mang lại điềm lành hay điềm gở cho con người.",
+    explanation: "Danh từ: Vận may, may mắn.",
+    compounds: [
+      { tc: "運氣好", py: "yùnqì hǎo", vn: "may mắn" },
+      { tc: "運氣差", py: "yùnqì chā", vn: "xui xẻo" }
+    ],
+    examples: [
+      { tc: "他今天的運氣很好，抽中了頭獎。", py: "Tā jīntiān de yùnqì hěn hǎo, chōuzhòng le tóujiǎng.", vn: "Hôm nay vận may của anh ấy rất tốt, đã bốc trúng giải độc đắc." },
+      { tc: "我最近運氣不太好，常常丟東西。", py: "Wǒ zuìjìn yùnqì bú tài hǎo, chángcháng diū dōngxī.", vn: "Dạo này tôi xui xẻo quá, thường xuyên làm mất đồ." },
+      { tc: "光靠運氣是不夠的，還要自己努力。", py: "Guāng kào yùnqì shì bú gòu de, hái yào zìjǐ nǔlì.", vn: "Chỉ dựa vào may mắn là không đủ, còn phải tự mình nỗ lực nữa." }
+    ],
+    idiom: "運氣真好 Yùnqì zhēn hǎo - May mắn thật.<br>🔸 Ví dụ: 剛出門雨就停了，我們運氣真好。 Gāng chūmén yǔ jiù tíng le, wǒmen yùnqì zhēn hǎo. - Vừa ra khỏi nhà thì mưa tạnh, chúng ta may mắn thật.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "摩托車", pinyin: "mótuōchē", hanViet: "Ma thác xa",
+    image: "",
+    radical: "摩 (Bộ Thủ 手) + 托 (Bộ Thủ 手) + 車 (Bộ Xa 車)<br>💡 Mẹo nhớ: Từ mượn phiên âm từ tiếng Anh 'motorcycle'. Ở Đài Loan thường gọi là 機車 (jīchē) nhiều hơn.",
+    explanation: "Danh từ: Xe máy, xe mô tô.",
+    compounds: [
+      { tc: "騎摩托車", py: "qí mótuōchē", vn: "lái xe máy" },
+      { tc: "水上摩托車", py: "shuǐshàng mótuōchē", vn: "mô tô nước" }
+    ],
+    examples: [
+      { tc: "他每天騎摩托車去上班。", py: "Tā měitiān qí mótuōchē qù shàngbān.", vn: "Mỗi ngày anh ấy đều đi xe máy đến chỗ làm." },
+      { tc: "這輛摩托車看起來很酷。", py: "Zhè liàng mótuōchē kàn qǐlái hěn kù.", vn: "Chiếc mô tô này trông rất ngầu." },
+      { tc: "騎摩托車一定要記得戴安全帽。", py: "Qí mótuōchē yídìng yào jìdé dài ānquánmào.", vn: "Đi xe máy nhất định phải nhớ đội mũ bảo hiểm." }
+    ],
+    idiom: "租摩托車 Zū mótuōchē - Thuê xe máy.<br>🔸 Ví dụ: 去小琉球玩，我們租摩托車比較方便。 Qù Xiǎoliúqiú wán, wǒmen zū mótuōchē bǐjiào fāngbiàn. - Đi Tiểu Lưu Cầu chơi, chúng ta thuê xe máy sẽ tiện lợi hơn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "熱帶", pinyin: "rèdài", hanViet: "Nhiệt đới",
+    image: "",
+    radical: "熱 (Bộ Hỏa 灬) + 帶 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Vùng đai (帶) khí hậu luôn có thời tiết nóng bức (熱).",
+    explanation: "Danh từ: Nhiệt đới, vùng nhiệt đới.",
+    compounds: [
+      { tc: "熱帶國家", py: "rèdài guójiā", vn: "quốc gia nhiệt đới" },
+      { tc: "熱帶魚", py: "rèdàiyú", vn: "cá nhiệt đới" }
+    ],
+    examples: [
+      { tc: "台灣南部的氣候屬於熱帶氣候。", py: "Táiwān nánbù de qìhòu shǔyú rèdài qìhòu.", vn: "Khí hậu ở miền Nam Đài Loan thuộc kiểu khí hậu nhiệt đới." },
+      { tc: "我喜歡吃熱帶水果，像是芒果和香蕉。", py: "Wǒ xǐhuān chī rèdài shuǐguǒ, xiàng shì mángguǒ hé xiāngjiāo.", vn: "Tôi thích ăn trái cây nhiệt đới, giống như là xoài và chuối." },
+      { tc: "這個植物園裡種了很多熱帶植物。", py: "Zhège zhíwùyuán lǐ zhòng le hěn duō rèdài zhíwù.", vn: "Trong vườn bách thảo này trồng rất nhiều thực vật nhiệt đới." }
+    ],
+    idiom: "熱帶雨林 Rèdài yǔlín - Rừng mưa nhiệt đới.<br>🔸 Ví dụ: 亞馬遜是一座巨大的熱帶雨林。 Yàmǎxùn shì yí zuò jùdà de rèdài yǔlín. - Amazon là một khu rừng mưa nhiệt đới khổng lồ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "植物", pinyin: "zhíwù", hanViet: "Thực vật",
+    image: "",
+    radical: "植 (Bộ Mộc 木) + 物 (Bộ Ngưu 牛)<br>💡 Mẹo nhớ: Những sinh vật (物) được trồng trọt, sinh trưởng giống như cây cối (木).",
+    explanation: "Danh từ: Thực vật, cây cối.",
+    compounds: [
+      { tc: "種植物", py: "zhòng zhíwù", vn: "trồng cây" },
+      { tc: "動植物", py: "dòngzhíwù", vn: "động thực vật" }
+    ],
+    examples: [
+      { tc: "他在陽台上種了很多綠色植物。", py: "Tā zài yángtái shàng zhòng le hěn duō lǜsè zhíwù.", vn: "Anh ấy đã trồng rất nhiều cây xanh ở ngoài ban công." },
+      { tc: "水和陽光對植物的生長很重要。", py: "Shuǐ hé yángguāng duì zhíwù de shēngzhǎng hěn zhòngyào.", vn: "Nước và ánh nắng rất quan trọng đối với sự sinh trưởng của thực vật." },
+      { tc: "森林裡有各種各樣的野生植物。", py: "Sēnlín lǐ yǒu gè zhǒng gè yàng de yěshēng zhíwù.", vn: "Trong rừng có đủ các loại thực vật hoang dã." }
+    ],
+    idiom: "植物園 Zhíwùyuán - Vườn bách thảo.<br>🔸 Ví dụ: 週末我們帶孩子去植物園散步。 Zhōumò wǒmen dài háizi qù zhíwùyuán sànbù. - Cuối tuần chúng tôi đưa con cái đi dạo ở vườn bách thảo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "所有", pinyin: "suǒyǒu", hanViet: "Sở hữu",
+    image: "",
+    radical: "所 (Bộ Hộ 戶) + 有 (Bộ Nguyệt 月)<br>💡 Mẹo nhớ: Những thứ mình đang có (有), gom bao quát tất cả lại.",
+    explanation: "Tính từ: Tất cả, toàn bộ.",
+    compounds: [
+      { tc: "所有人", py: "suǒyǒu rén", vn: "tất cả mọi người" },
+      { tc: "所有東西", py: "suǒyǒu dōngxī", vn: "tất cả mọi thứ" }
+    ],
+    examples: [
+      { tc: "所有的學生都已經到教室了。", py: "Suǒyǒu de xuéshēng dōu yǐjīng dào jiàoshì le.", vn: "Tất cả học sinh đều đã đến phòng học rồi." },
+      { tc: "他把所有的錢都用來買書了。", py: "Tā bǎ suǒyǒu de qián dōu yòng lái mǎi shū le.", vn: "Anh ấy đã dùng toàn bộ tiền để mua sách rồi." },
+      { tc: "這是我所有的行李。", py: "Zhè shì wǒ suǒyǒu de xínglǐ.", vn: "Đây là toàn bộ hành lý của tôi." }
+    ],
+    idiom: "一切所有 Yíqiè suǒyǒu - Tất tần tật mọi thứ.<br>🔸 Ví dụ: 為了孩子，父母願意付出一切所有。 Wèile háizi, fùmǔ yuànyì fùchū yíqiè suǒyǒu. - Vì con cái, cha mẹ bằng lòng đánh đổi tất tần tật mọi thứ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "白天", pinyin: "báitiān", hanViet: "Bạch thiên",
+    image: "",
+    radical: "白 (Bộ Bạch 白) + 天 (Bộ Đại 大)<br>💡 Mẹo nhớ: Khoảng thời gian trong ngày (天) có ánh sáng trắng (白) chiếu rọi.",
+    explanation: "Danh từ: Ban ngày.",
+    compounds: [
+      { tc: "大白天", py: "dà báitiān", vn: "giữa ban ngày ban mặt" }
+    ],
+    examples: [
+      { tc: "他白天要工作，晚上還要去上課。", py: "Tā báitiān yào gōngzuò, wǎnshàng hái yào qù shàngkè.", vn: "Ban ngày anh ấy phải làm việc, buổi tối còn phải đi học." },
+      { tc: "這裡白天很熱，但晚上會變冷。", py: "Zhèlǐ báitiān hěn rè, dàn wǎnshàng huì biàn lěng.", vn: "Ở đây ban ngày rất nóng, nhưng buổi tối sẽ trở lạnh." },
+      { tc: "貓頭鷹白天睡覺，晚上才出來。", py: "Māotóuyīng báitiān shuìjiào, wǎnshàng cái chūlái.", vn: "Cú mèo ban ngày ngủ, buổi tối mới đi ra ngoài." }
+    ],
+    idiom: "白天黑夜 Báitiān hēiyè - Ngày và đêm / Bất kể ngày đêm.<br>🔸 Ví dụ: 為了考試，他白天黑夜都在念書。 Wèile kǎoshì, tā báitiān hēiyè dōu zài niànshū. - Để chuẩn bị cho kỳ thi, cậu ấy đọc sách bất kể ngày đêm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "躺", pinyin: "tǎng", hanViet: "Thảng",
+    image: "",
+    radical: "躺 (Bộ Thân 身)<br>💡 Mẹo nhớ: Cả cơ thể, thân mình (身) ngả xuống theo chiều ngang (尚) để nghỉ ngơi.",
+    explanation: "Động từ: Nằm.",
+    compounds: [
+      { tc: "躺下", py: "tǎng xià", vn: "nằm xuống" },
+      { tc: "躺在床上", py: "tǎng zài chuáng shàng", vn: "nằm trên giường" }
+    ],
+    examples: [
+      { tc: "他太累了，一躺在床上就睡著了。", py: "Tā tài lèi le, yì tǎng zài chuáng shàng jiù shuìzháo le.", vn: "Anh ấy mệt quá, vừa nằm xuống giường là ngủ thiếp đi luôn." },
+      { tc: "週末我喜歡躺在沙發上看電視。", py: "Zhōumò wǒ xǐhuān tǎng zài shāfā shàng kàn diànshì.", vn: "Cuối tuần tôi thích nằm trên ghế sofa xem tivi." },
+      { tc: "草地有點濕，請不要躺在上面。", py: "Cǎodì yǒudiǎn shī, qǐng búyào tǎng zài shàngmiàn.", vn: "Bãi cỏ hơi ướt, xin đừng nằm lên trên đó." }
+    ],
+    idiom: "躺平 Tǎngpíng - Nằm thẳng (Từ lóng mạng chỉ lối sống buông xuôi, mặc kệ sự đời).<br>🔸 Ví dụ: 現在很多年輕人因為壓力大而選擇躺平。 Xiànzài hěn duō niánqīng rén yīnwèi yālì dà ér xuǎnzé tǎngpíng. - Hiện nay rất nhiều người trẻ vì áp lực lớn mà lựa chọn lối sống buông xuôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "黃昏", pinyin: "huánghūn", hanViet: "Hoàng hôn",
+    image: "",
+    radical: "黃 (Bộ Hoàng 黃) + 昏 (Bộ Nhật 日)<br>💡 Mẹo nhớ: Bầu trời nhuộm màu vàng (黃) khi mặt trời (日) bắt đầu lặn xuống (昏).",
+    explanation: "Danh từ: Hoàng hôn, chập tối.",
+    compounds: [
+      { tc: "黃昏市場", py: "huánghūn shìchǎng", vn: "chợ chiều" }
+    ],
+    examples: [
+      { tc: "黃昏的景色非常美麗。", py: "Huánghūn de jǐngsè fēicháng měilì.", vn: "Cảnh sắc lúc hoàng hôn vô cùng xinh đẹp." },
+      { tc: "我們在黃昏時去海邊散步。", py: "Wǒmen zài huánghūn shí qù hǎibiān sànbù.", vn: "Chúng tôi đi dạo ở bờ biển vào lúc chập tối." },
+      { tc: "每到黃昏，街上的人就變多了。", py: "Měi dào huánghūn, jiē shàng de rén jiù biàn duō le.", vn: "Cứ đến lúc hoàng hôn, người trên đường liền đông lên." }
+    ],
+    idiom: "黃昏時分 Huánghūn shífēn - Lúc chập tối / Giờ hoàng hôn.<br>🔸 Ví dụ: 黃昏時分，天空變成了浪漫的粉紅色。 Huánghūn shífēn, tiānkōng biànchéng le làngmàn de fěnhóngsè. - Lúc chập tối, bầu trời biến thành một màu hồng lãng mạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "條", pinyin: "tiáo", hanViet: "Điều",
+    image: "",
+    radical: "條 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Nhành cây (木) mọc ra có hình dáng dài và thon. Lượng từ dùng cho những vật dài (đường, sông, cá, quần).",
+    explanation: "Lượng từ: Con, cái, dải.",
+    compounds: [
+      { tc: "一條路", py: "yì tiáo lù", vn: "một con đường" },
+      { tc: "兩條魚", py: "liǎng tiáo yú", vn: "hai con cá" }
+    ],
+    examples: [
+      { tc: "這條街上有很多好吃的餐廳。", py: "Zhè tiáo jiē shàng yǒu hěn duō hǎochī de cāntīng.", vn: "Trên con phố này có rất nhiều nhà hàng ngon." },
+      { tc: "媽媽在市場買了一條新鮮的魚。", py: "Māma zài shìchǎng mǎi le yì tiáo xīnxiān de yú.", vn: "Mẹ đã mua một con cá tươi ở chợ." },
+      { tc: "他穿著一條黑色的長褲。", py: "Tā chuānzhe yì tiáo hēisè de chángkù.", vn: "Anh ấy mặc một chiếc quần dài màu đen." }
+    ],
+    idiom: "一條心 Yì tiáo xīn - Một lòng một dạ / Đồng tâm hiệp lực.<br>🔸 Ví dụ: 只要大家一條心，就沒有解決不了的問題。 Zhǐyào dàjiā yì tiáo xīn, jiù méiyǒu jiějué bù liǎo de wèntí. - Chỉ cần mọi người đồng tâm hiệp lực, thì không có vấn đề gì là không giải quyết được.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "街", pinyin: "jiē", hanViet: "Nhai",
+    image: "",
+    radical: "街 (Bộ Hành 行)<br>💡 Mẹo nhớ: Nơi diễn ra các hoạt động giao thông, đi lại (行) buôn bán ở trung tâm.",
+    explanation: "Danh từ: Phố, đường phố.",
+    compounds: [
+      { tc: "逛街", py: "guàngjiē", vn: "dạo phố" },
+      { tc: "街上", py: "jiē shàng", vn: "trên đường phố" }
+    ],
+    examples: [
+      { tc: "這條街晚上非常熱鬧。", py: "Zhè tiáo jiē wǎnshàng fēicháng rènào.", vn: "Con phố này buổi tối vô cùng náo nhiệt." },
+      { tc: "他們在街上遇見了以前的老朋友。", py: "Tāmen zài jiē shàng yùjiàn le yǐqián de lǎo péngyǒu.", vn: "Họ tình cờ gặp lại người bạn cũ ở trên phố." },
+      { tc: "週末我喜歡跟朋友去逛街買東西。", py: "Zhōumò wǒ xǐhuān gēn péngyǒu qù guàngjiē mǎi dōngxī.", vn: "Cuối tuần tôi thích cùng bạn bè đi dạo phố mua đồ." }
+    ],
+    idiom: "大街小巷 Dàjiē xiǎoxiàng - Khắp đường cùng ngõ hẻm.<br>🔸 Ví dụ: 他的名字在這座城市裡大街小巷都知道。 Tā de míngzi zài zhè zuò chéngshì lǐ dàjiē xiǎoxiàng dōu zhīdào. - Tên của anh ấy ở trong thành phố này khắp đường cùng ngõ hẻm ai cũng biết.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "啤酒", pinyin: "píjiǔ", hanViet: "Tì tửu",
+    image: "",
+    radical: "啤 (Bộ Khẩu 口) + 酒 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Đồ uống chứa cồn (酒) được đưa vào miệng (口). Từ 'pí' là phiên âm của từ 'beer'.",
+    explanation: "Danh từ: Bia.",
+    compounds: [
+      { tc: "喝啤酒", py: "hē píjiǔ", vn: "uống bia" },
+      { tc: "一罐啤酒", py: "yí guàn píjiǔ", vn: "một lon bia" }
+    ],
+    examples: [
+      { tc: "夏天喝冰啤酒最舒服了。", py: "Xiàtiān hē bīng píjiǔ zuì shūfú le.", vn: "Mùa hè uống bia lạnh là thoải mái nhất." },
+      { tc: "下班後，他們去酒吧喝了幾杯啤酒。", py: "Xiàbān hòu, tāmen qù jiǔbā hē le jǐ bēi píjiǔ.", vn: "Sau khi tan làm, bọn họ đi quán bar uống vài ly bia." },
+      { tc: "他喝了一點啤酒就醉了。", py: "Tā hē le yìdiǎn píjiǔ jiù zuì le.", vn: "Anh ấy uống một chút bia là say rồi." }
+    ],
+    idiom: "生啤酒 Shēng píjiǔ - Bia tươi.<br>🔸 Ví dụ: 這家店的生啤酒非常好喝。 Zhè jiā diàn de shēng píjiǔ fēicháng hǎohē. - Bia tươi của quán này uống rất ngon.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "上", pinyin: "shàng", hanViet: "Thượng",
+    image: "",
+    radical: "上 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Đứng sau động từ làm bổ ngữ kết quả, biểu thị hai sự vật tiếp xúc với nhau hoặc hành động đã đạt được mục đích.",
+    explanation: "Trợ từ: Lên, vào (Bổ ngữ kết quả).",
+    compounds: [
+      { tc: "考上", py: "kǎo shàng", vn: "thi đỗ" },
+      { tc: "穿上", py: "chuān shàng", vn: "mặc vào" },
+      { tc: "關上", py: "guān shàng", vn: "đóng lại" }
+    ],
+    examples: [
+      { tc: "他穿上外套就出門了。", py: "Tā chuān shàng wàitào jiù chūmén le.", vn: "Anh ấy mặc áo khoác vào rồi ra khỏi nhà." },
+      { tc: "外面的風很大，請把窗戶關上。", py: "Wàimiàn de fēng hěn dà, qǐng bǎ chuānghù guān shàng.", vn: "Gió bên ngoài rất to, xin hãy đóng cửa sổ lại." },
+      { tc: "經過一年的努力，他終於考上了大學。", py: "Jīngguò yì nián de nǔlì, tā zhōngyú kǎo shàng le dàxué.", vn: "Trải qua một năm nỗ lực, cậu ấy cuối cùng cũng thi đỗ đại học rồi." }
+    ],
+    idiom: "閉上眼睛 Bì shàng yǎnjīng - Nhắm mắt lại.<br>🔸 Ví dụ: 許願前，請先閉上眼睛。 Xǔyuàn qián, qǐng xiān bì shàng yǎnjīng. - Trước khi ước, xin hãy nhắm mắt lại trước đã.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "浪漫", pinyin: "làngmàn", hanViet: "Lãng mạn",
+    image: "",
+    radical: "浪 (Bộ Thủy 氵) + 漫 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Tình cảm dạt dào, lai láng như những dòng nước (氵).",
+    explanation: "Tính từ: Lãng mạn.",
+    compounds: [
+      { tc: "很浪漫", py: "hěn làngmàn", vn: "rất lãng mạn" }
+    ],
+    examples: [
+      { tc: "巴黎是一個非常浪漫的城市。", py: "Bālí shì yí ge fēicháng làngmàn de chéngshì.", vn: "Paris là một thành phố vô cùng lãng mạn." },
+      { tc: "他為女朋友準備了一個浪漫的晚餐。", py: "Tā wèi nǚpéngyǒu zhǔnbèi le yí ge làngmàn de wǎncān.", vn: "Anh ấy đã chuẩn bị một bữa tối lãng mạn cho bạn gái." },
+      { tc: "這部電影的愛情故事很浪漫。", py: "Zhè bù diànyǐng de àiqíng gùshì hěn làngmàn.", vn: "Câu chuyện tình yêu của bộ phim này rất lãng mạn." }
+    ],
+    idiom: "浪漫氣氛 Làngmàn qìfēn - Bầu không khí lãng mạn.<br>🔸 Ví dụ: 點蠟燭可以營造浪漫氣氛。 Diǎn làzhú kěyǐ yíngzào làngmàn qìfēn. - Thắp nến có thể tạo ra bầu không khí lãng mạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "家鄉", pinyin: "jiāxiāng", hanViet: "Gia hương",
+    image: "",
+    radical: "家 (Bộ Miên 宀) + 鄉 (Bộ Phụ 阝)<br>💡 Mẹo nhớ: Nơi có gia đình (家), làng xóm (鄉) thân thuộc mà mình sinh ra và lớn lên.",
+    explanation: "Danh từ: Quê hương, quê nhà.",
+    compounds: [
+      { tc: "想念家鄉", py: "xiǎngniàn jiāxiāng", vn: "nhớ quê hương" }
+    ],
+    examples: [
+      { tc: "他在國外留學，很想念家鄉的美食。", py: "Tā zài guówài liúxué, hěn xiǎngniàn jiāxiāng de měishí.", vn: "Cậu ấy du học ở nước ngoài, rất nhớ ẩm thực của quê hương." },
+      { tc: "他離開家鄉，去大城市找工作。", py: "Tā líkāi jiāxiāng, qù dà chéngshì zhǎo gōngzuò.", vn: "Anh ấy rời xa quê hương, đến thành phố lớn tìm việc." },
+      { tc: "每年過年的時候，他都會回家鄉看看父母。", py: "Měinián guònián de shíhòu, tā dōu huì huí jiāxiāng kànkàn fùmǔ.", vn: "Mỗi năm vào dịp Tết, anh ấy đều sẽ về quê thăm bố mẹ." }
+    ],
+    idiom: "家鄉味 Jiāxiāng wèi - Hương vị quê nhà.<br>🔸 Ví dụ: 這碗麵吃起來有家鄉味。 Zhè wǎn miàn chī qǐlái yǒu jiāxiāng wèi. - Bát mì này ăn vào có hương vị quê nhà.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "觀光客", pinyin: "guānguāngkè", hanViet: "Quan quang khách",
+    image: "",
+    radical: "觀 (Bộ Kiến 見) + 光 (Bộ Nhân 儿) + 客 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Những vị khách (客) đến để tham quan, chiêm ngưỡng (見 - 觀) phong cảnh đẹp (光).",
+    explanation: "Danh từ: Khách du lịch, du khách.",
+    compounds: [
+      { tc: "外國觀光客", py: "wàiguó guānguāngkè", vn: "du khách nước ngoài" }
+    ],
+    examples: [
+      { tc: "台北101每天都有很多觀光客來參觀。", py: "Táiběi yī líng yī měitiān dōu yǒu hěn duō guānguāngkè lái cānguān.", vn: "Taipei 101 mỗi ngày đều có rất nhiều khách du lịch đến tham quan." },
+      { tc: "這家餐廳很受觀光客的歡迎。", py: "Zhè jiā cāntīng hěn shòu guānguāngkè de huānyíng.", vn: "Nhà hàng này rất được khách du lịch ưa chuộng." },
+      { tc: "夜市裡擠滿了觀光客。", py: "Yèshì lǐ jǐ mǎn le guānguāngkè.", vn: "Trong chợ đêm chật kín khách du lịch." }
+    ],
+    idiom: "觀光景點 Guānguāng jǐngdiǎn - Điểm tham quan du lịch.<br>🔸 Ví dụ: 日月潭是台灣著名的觀光景點。 Rìyuè Tán shì Táiwān zhùmíng de guānguāng jǐngdiǎn. - Hồ Nhật Nguyệt là điểm tham quan du lịch nổi tiếng của Đài Loan.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "曬太陽", pinyin: "shài tàiyáng", hanViet: "Sái thái dương",
+    image: "",
+    radical: "曬 (Bộ Nhật 日) + 太陽 (Mặt trời)<br>💡 Mẹo nhớ: Để ánh nắng mặt trời (日) chiếu rọi lên người để sưởi ấm.",
+    explanation: "Cụm động từ: Tắm nắng, phơi nắng.",
+    compounds: [
+      { tc: "去曬太陽", py: "qù shài tàiyáng", vn: "đi tắm nắng" }
+    ],
+    examples: [
+      { tc: "冬天時，老人喜歡在公園裡曬太陽。", py: "Dōngtiān shí, lǎorén xǐhuān zài gōngyuán lǐ shài tàiyáng.", vn: "Vào mùa đông, người già thích phơi nắng trong công viên." },
+      { tc: "週末我們去海邊曬太陽吧。", py: "Zhōumò wǒmen qù hǎibiān shài tàiyáng ba.", vn: "Cuối tuần chúng ta ra biển tắm nắng đi." },
+      { tc: "醫生建議他多曬太陽，對身體有幫助。", py: "Yīshēng jiànyì tā duō shài tàiyáng, duì shēntǐ yǒu bāngzhù.", vn: "Bác sĩ khuyên anh ấy phơi nắng nhiều hơn, sẽ có ích cho cơ thể." }
+    ],
+    idiom: "出去曬太陽 Chūqù shài tàiyáng - Ra ngoài phơi nắng.<br>🔸 Ví dụ: 天氣這麼好，不要待在家裡，出去曬太陽吧。 Tiānqì zhème hǎo, búyào dāi zài jiālǐ, chūqù shài tàiyáng ba. - Thời tiết đẹp như vậy, đừng ở trong nhà nữa, ra ngoài phơi nắng đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "水上摩托車", pinyin: "shuǐshàng mótuōchē", hanViet: "Thủy thượng ma thác xa",
+    image: "",
+    radical: "水 (Nước) + 上 (Trên) + 摩托車 (Mô tô)<br>💡 Mẹo nhớ: Chiếc xe mô tô được thiết kế đặc biệt để chạy trên mặt nước.",
+    explanation: "Danh từ: Mô tô nước (jet skis).",
+    compounds: [
+      { tc: "玩水上摩托車", py: "wán shuǐshàng mótuōchē", vn: "chơi mô tô nước" }
+    ],
+    examples: [
+      { tc: "去墾丁玩，一定要試試水上摩托車。", py: "Qù Kěndīng wán, yídìng yào shìshì shuǐshàng mótuōchē.", vn: "Đi Khẩn Đinh chơi, nhất định phải thử chơi mô tô nước." },
+      { tc: "騎水上摩托車非常刺激，但也很好玩。", py: "Qí shuǐshàng mótuōchē fēicháng cìjī, dàn yě hěn hǎowán.", vn: "Lái mô tô nước vô cùng kích thích, nhưng cũng rất vui." },
+      { tc: "玩水上摩托車時，一定要穿上救生衣。", py: "Wán shuǐshàng mótuōchē shí, yídìng yào chuān shàng jiùshēngyī.", vn: "Lúc chơi mô tô nước, nhất định phải mặc áo phao vào." }
+    ],
+    idiom: "租水上摩托車 Zū shuǐshàng mótuōchē - Thuê mô tô nước.<br>🔸 Ví dụ: 我們在海灘租水上摩托車玩了一個小時。 Wǒmen zài hǎitān zū shuǐshàng mótuōchē wán le yí ge xiǎoshí. - Chúng tôi thuê mô tô nước trên bãi biển chơi một tiếng đồng hồ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "愛上", pinyin: "àishàng", hanViet: "Ái thượng",
+    image: "",
+    radical: "愛 (Bộ Tâm 心) + 上 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Tình yêu (愛) được nảy sinh và bắt đầu chạm đến (上) một đối tượng nào đó.",
+    explanation: "Cụm động từ: Phải lòng, yêu thích, trót yêu.",
+    compounds: [
+      { tc: "愛上他", py: "àishàng tā", vn: "phải lòng anh ấy" }
+    ],
+    examples: [
+      { tc: "來台灣之後，我深深地愛上了這裡的美食。", py: "Lái Táiwān zhīhòu, wǒ shēnshēn de àishàng le zhèlǐ de měishí.", vn: "Sau khi đến Đài Loan, tôi đã yêu sâu sắc ẩm thực nơi đây." },
+      { tc: "他第一眼就愛上了那個漂亮的女孩。", py: "Tā dì yī yǎn jiù àishàng le nàge piàoliang de nǚhái.", vn: "Anh ấy ngay từ cái nhìn đầu tiên đã phải lòng cô gái xinh đẹp đó." },
+      { tc: "我最近愛上了聽古典音樂。", py: "Wǒ zuìjìn àishàng le tīng gǔdiǎn yīnyuè.", vn: "Dạo gần đây tôi trót yêu thích việc nghe nhạc cổ điển rồi." }
+    ],
+    idiom: "一見鍾情 Yíjiàn zhōngqíng - Tiếng sét ái tình / Vừa gặp đã yêu.<br>🔸 Ví dụ: 他們兩個人是一見鍾情，很快就愛上了對方。 Tāmen liǎng ge rén shì yíjiàn zhōngqíng, hěn kuài jiù àishàng le duìfāng. - Hai người họ là tiếng sét ái tình, rất nhanh chóng đã phải lòng đối phương.", 
+    level: "TOCFL A2"
+  },
   ];
