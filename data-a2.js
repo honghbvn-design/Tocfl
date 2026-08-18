@@ -9977,4 +9977,303 @@ const dataA2 = [
     idiom: "國際情勢 Guójì qíngshì - Tình hình quốc tế.<br>🔸 Ví dụ: 了解國際情勢，才能在職場上更有競爭力。 Liǎojiě guójì qíngshì, cái néng zài zhíchǎng shàng gèng yǒu jìngzhēnglì. - Am hiểu tình hình quốc tế, mới có thể có sức cạnh tranh hơn ở chốn công sở.", 
     level: "TOCFL A2"
   },
+  {
+    word: "春節", pinyin: "chūnjié", hanViet: "Xuân tiết",
+    image: "",
+    radical: "春 (Bộ 日 Nhật) + 節 (Bộ 竹 Trúc)<br>💡 Mẹo nhớ: Ngày lễ tết (節) quan trọng nhất diễn ra vào mùa xuân (春).",
+    explanation: "Danh từ: Lễ hội mùa xuân, Tết Nguyên Đán.",
+    compounds: [
+      { tc: "慶祝春節", py: "qìngzhù chūnjié", vn: "ăn mừng Tết Nguyên Đán" },
+      { tc: "春節假期", py: "chūnjié jiàqī", vn: "kỳ nghỉ Tết" }
+    ],
+    examples: [
+      { tc: "春節是華人最重要的傳統節日。", py: "Chūnjié shì huárén zuì zhòngyào de chuántǒng jiérì.", vn: "Tết Nguyên Đán là ngày lễ truyền thống quan trọng nhất của người Hoa." },
+      { tc: "今年春節你打算怎麼過？", py: "Jīnnián chūnjié nǐ dǎsuàn zěnme guò?", vn: "Tết Nguyên Đán năm nay bạn dự định đón như thế nào?" },
+      { tc: "春節期間，到處都非常熱鬧。", py: "Chūnjié qījiān, dàochù dōu fēicháng rènào.", vn: "Trong dịp Tết Nguyên Đán, đâu đâu cũng vô cùng náo nhiệt." }
+    ],
+    idiom: "春節聯歡晚會 Chūnjié liánhuān wǎnhuì - Đêm hội liên hoan mùa xuân Chương trình truyền hình đặc biệt đêm giao thừa.<br>🔸 Ví dụ: 除夕夜我們全家會一起看春節聯歡晚會。 Chúxì yè wǒmen quánjiā huì yìqǐ kàn chūnjié liánhuān wǎnhuì. - Đêm giao thừa cả nhà chúng tôi sẽ cùng nhau xem đêm hội liên hoan mùa xuân.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "伯伯", pinyin: "bóbo", hanViet: "Bá bá",
+    image: "",
+    radical: "伯 (Bộ 人 Nhân)<br>💡 Mẹo nhớ: Cách xưng hô tôn trọng dành cho người đàn ông lớn tuổi hơn bố mình.",
+    explanation: "Danh từ: Bác trai, bác.",
+    compounds: [
+      { tc: "王伯伯", py: "Wáng bóbo", vn: "bác Vương" }
+    ],
+    examples: [
+      { tc: "這位是我的鄰居，李伯伯。", py: "Zhè wèi shì wǒ de línjū, Lǐ bóbo.", vn: "Vị này là hàng xóm của tôi, bác Lý." },
+      { tc: "伯伯，請問火車站怎麼走？", py: "Bóbo, qǐngwèn huǒchēzhàn zěnme zǒu?", vn: "Bác ơi, xin hỏi ga xe lửa đi như thế nào ạ?" },
+      { tc: "大伯伯今年已經七十歲了。", py: "Dà bóbo jīnnián yǐjīng qīshí suì le.", vn: "Bác cả năm nay đã bảy mươi tuổi rồi." }
+    ],
+    idiom: "老伯伯 Lǎo bóbo - Ông bác Ông cụ.<br>🔸 Ví dụ: 那位老伯伯每天都在公園裡散步。 Nà wèi lǎo bóbo měitiān dōu zài gōngyuán lǐ sànbù. - Ông cụ đó ngày nào cũng đi dạo trong công viên.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "年夜飯", pinyin: "niányèfàn", hanViet: "Niên dạ phạn",
+    image: "",
+    radical: "年 (Năm) + 夜 (Đêm) + 飯 (Cơm)<br>💡 Mẹo nhớ: Bữa cơm (飯) được ăn vào buổi đêm (夜) cuối cùng của một năm (年).",
+    explanation: "Danh từ: Bữa cơm tất niên, bữa cơm đêm giao thừa.",
+    compounds: [
+      { tc: "吃年夜飯", py: "chī niányèfàn", vn: "ăn cơm tất niên" },
+      { tc: "準備年夜飯", py: "zhǔnbèi niányèfàn", vn: "chuẩn bị bữa cơm tất niên" }
+    ],
+    examples: [
+      { tc: "除夕那天，全家會聚在一起吃年夜飯。", py: "Chúxì nà tiān, quánjiā huì jù zài yìqǐ chī niányèfàn.", vn: "Vào ngày giao thừa, cả nhà sẽ tụ tập cùng nhau ăn bữa cơm tất niên." },
+      { tc: "媽媽從下午就開始準備豐盛的年夜飯。", py: "Māma cóng xiàwǔ jiù kāishǐ zhǔnbèi fēngshèng de niányèfàn.", vn: "Mẹ từ buổi chiều đã bắt đầu chuẩn bị bữa cơm tất niên thịnh soạn." },
+      { tc: "我們家的年夜飯一定會有魚。", py: "Wǒmen jiā de niányèfàn yídìng huì yǒu yú.", vn: "Bữa cơm tất niên của nhà chúng tôi nhất định sẽ có cá." }
+    ],
+    idiom: "團圓飯 Tuányuánfàn - Bữa cơm đoàn viên Bữa cơm sum họp.<br>🔸 Ví dụ: 年夜飯也就是家人團聚的團圓飯。 Niányèfàn yě jiùshì jiārén tuánjù de tuányuánfàn. - Bữa cơm tất niên cũng chính là bữa cơm đoàn viên gia đình sum họp.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "打擾", pinyin: "dǎrǎo", hanViet: "Đả nhiễu",
+    image: "",
+    radical: "打 (Bộ 手 Thủ) + 擾 (Bộ 手 Thủ)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Thủ chỉ hành động dùng tay gây cản trở, quấy rầy người khác.",
+    explanation: "Động từ: Làm phiền, quấy rầy.",
+    compounds: [
+      { tc: "不打擾", py: "bù dǎrǎo", vn: "không làm phiền" },
+      { tc: "打擾一下", py: "dǎrǎo yíxià", vn: "làm phiền một chút" }
+    ],
+    examples: [
+      { tc: "對不起，打擾你一下。", py: "Duìbùqǐ, dǎrǎo nǐ yíxià.", vn: "Xin lỗi, làm phiền bạn một chút." },
+      { tc: "他在讀書，我們不要去打擾他。", py: "Tā zài dúshū, wǒmen búyào qù dǎrǎo tā.", vn: "Anh ấy đang đọc sách, chúng ta đừng đi quấy rầy anh ấy." },
+      { tc: "這麼晚打電話給你，真是打擾了。", py: "Zhème wǎn dǎ diànhuà gěi nǐ, zhēnshi dǎrǎo le.", vn: "Muộn thế này còn gọi điện cho bạn, thật sự làm phiền rồi." }
+    ],
+    idiom: "多有打擾 Duō yǒu dǎrǎo - Đã làm phiền nhiều Lời khách sáo khi đến làm khách.<br>🔸 Ví dụ: 這次來台北玩，多有打擾，真是不好意思。 Zhè cì lái Táiběi wán, duō yǒu dǎrǎo, zhēnshi bù hǎoyìsī. - Lần này đến Đài Bắc chơi, đã làm phiền nhiều, thật sự rất ngại quá.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "女兒", pinyin: "nǚ'ér", hanViet: "Nữ nhi",
+    image: "",
+    radical: "女 (Bộ 女 Nữ) + 兒 (Bộ 儿 Nhi)<br>💡 Mẹo nhớ: Đứa trẻ (兒) có giới tính nữ (女).",
+    explanation: "Danh từ: Con gái.",
+    compounds: [
+      { tc: "小女兒", py: "xiǎo nǚ'ér", vn: "cô con gái út" },
+      { tc: "乖女兒", py: "guāi nǚ'ér", vn: "con gái ngoan" }
+    ],
+    examples: [
+      { tc: "他有兩個兒子和一個女兒。", py: "Tā yǒu liǎng ge érzi hé yí ge nǚ'ér.", vn: "Anh ấy có hai người con trai và một người con gái." },
+      { tc: "我的女兒今年上小學一年級。", py: "Wǒ de nǚ'ér jīnnián shàng xiǎoxué yì niánjí.", vn: "Con gái của tôi năm nay lên lớp một tiểu học." },
+      { tc: "她是一個非常聽話的好女兒。", py: "Tā shì yí ge fēicháng tīnghuà de hǎo nǚ'ér.", vn: "Cô ấy là một người con gái rất ngoan ngoãn." }
+    ],
+    idiom: "掌上明珠 Zhǎng shàng míngzhū - Viên ngọc quý trên tay Chỉ cô con gái cưng.<br>🔸 Ví dụ: 她是父母的掌上明珠，非常受寵愛。 Tā shì fùmǔ de zhǎng shàng míngzhū, fēicháng shòu chǒng'ài. - Cô ấy là viên ngọc quý trên tay của bố mẹ, vô cùng được cưng chiều.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "國外", pinyin: "guówài", hanViet: "Quốc ngoại",
+    image: "",
+    radical: "國 (Bộ 囗 Vi) + 外 (Bộ 夕 Tịch)<br>💡 Mẹo nhớ: Khu vực nằm bên ngoài (外) lãnh thổ của một quốc gia (國).",
+    explanation: "Danh từ: Nước ngoài.",
+    compounds: [
+      { tc: "去國外", py: "qù guówài", vn: "đi nước ngoài" },
+      { tc: "國外旅遊", py: "guówài lǚyóu", vn: "du lịch nước ngoài" }
+    ],
+    examples: [
+      { tc: "畢業後，他打算去國外留學。", py: "Bìyè hòu, tā dǎsuàn qù guówài liúxué.", vn: "Sau khi tốt nghiệp, anh ấy dự định đi nước ngoài du học." },
+      { tc: "這家公司的產品都賣到國外去了。", py: "Zhè jiā gōngsī de chǎnpǐn dōu mài dào guówài qù le.", vn: "Sản phẩm của công ty này đều được bán ra nước ngoài rồi." },
+      { tc: "他在國外生活了很多年，很想念台灣。", py: "Tā zài guówài shēnghuó le hěn duō nián, hěn xiǎngniàn Táiwān.", vn: "Anh ấy sống ở nước ngoài rất nhiều năm, rất nhớ Đài Loan." }
+    ],
+    idiom: "國內外 Guónèiwài - Trong và ngoài nước.<br>🔸 Ví dụ: 這則新聞引起了國內外的關注。 Zhè zé xīnwén yǐnqǐ le guónèiwài de guānzhù. - Bản tin này đã thu hút sự chú ý của cả trong và ngoài nước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "圍爐", pinyin: "wéilú", hanViet: "Vi lô",
+    image: "",
+    radical: "圍 (Bộ 囗 Vi) + 爐 (Bộ 火 Hỏa)<br>💡 Mẹo nhớ: Cả gia đình cùng bao quanh (圍) bếp lửa (爐) để ăn bữa cơm đoàn viên.",
+    explanation: "Động từ ly hợp: Đoàn tụ ăn cơm tất niên, quây quần bên bếp lửa.",
+    compounds: [
+      { tc: "圍爐吃火鍋", py: "wéilú chī huǒguō", vn: "quây quần ăn lẩu" }
+    ],
+    examples: [
+      { tc: "除夕夜最重要的事情就是全家一起圍爐。", py: "Chúxì yè zuì zhòngyào de shìqíng jiùshì quánjiā yìqǐ wéilú.", vn: "Việc quan trọng nhất trong đêm giao thừa chính là cả nhà cùng nhau quây quần ăn bữa tất niên." },
+      { tc: "今年我們打算去餐廳圍爐，媽媽就不用那麼辛苦了。", py: "Jīnnián wǒmen dǎsuàn qù cāntīng wéilú, māma jiù búyòng nàme xīnkǔ le.", vn: "Năm nay chúng tôi dự định ra nhà hàng ăn tất niên, mẹ sẽ không cần phải vất vả như vậy nữa." },
+      { tc: "大家圍爐聊天，氣氛非常溫馨。", py: "Dàjiā wéilú liáotiān, qìfēn fēicháng wēnxīn.", vn: "Mọi người quây quần trò chuyện, bầu không khí vô cùng ấm áp." }
+    ],
+    idiom: "圍爐夜話 Wéilú yèhuà - Quây quần trò chuyện ban đêm.<br>🔸 Ví dụ: 冬天的晚上，我們喜歡圍爐夜話。 Dōngtiān de wǎnshàng, wǒmen xǐhuān wéilú yèhuà. - Những buổi tối mùa đông, chúng tôi thích quây quần bên nhau trò chuyện.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "意思", pinyin: "yìsi", hanViet: "Ý tư",
+    image: "",
+    radical: "意 (Bộ 心 Tâm) + 思 (Bộ 心 Tâm)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Tâm chỉ sự suy nghĩ, tâm tư chất chứa trong lòng.",
+    explanation: "Danh từ: Ý nghĩa, ý.",
+    compounds: [
+      { tc: "什麼意思", py: "shénme yìsi", vn: "ý gì, có ý gì" },
+      { tc: "很有意思", py: "hěn yǒu yìsi", vn: "rất thú vị" }
+    ],
+    examples: [
+      { tc: "請問這句話是什麼意思？", py: "Qǐngwèn zhè jù huà shì shénme yìsi?", vn: "Xin hỏi câu này có ý nghĩa là gì?" },
+      { tc: "我不太懂你的意思。", py: "Wǒ bú tài dǒng nǐ de yìsi.", vn: "Tôi không hiểu ý của bạn lắm." },
+      { tc: "這部電影很有意思，推薦你去看看。", py: "Zhè bù diànyǐng hěn yǒu yìsi, tuījiàn nǐ qù kànkàn.", vn: "Bộ phim này rất thú vị, đề cử bạn đi xem thử." }
+    ],
+    idiom: "不好意思 Bù hǎoyìsi - Ngại quá Xin lỗi nhẹ nhàng.<br>🔸 Ví dụ: 不好意思，我遲到了。 Bù hǎoyìsi, wǒ chídào le. - Ngại quá, tôi đến muộn rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "全家", pinyin: "quánjiā", hanViet: "Toàn gia",
+    image: "",
+    radical: "全 (Bộ 入 Nhập) + 家 (Bộ 宀 Miên)<br>💡 Mẹo nhớ: Toàn bộ (全) mọi người trong một gia đình (家).",
+    explanation: "Danh từ: Cả nhà, toàn gia đình.",
+    compounds: [
+      { tc: "全家人", py: "quán jiā rén", vn: "người cả nhà" },
+      { tc: "全家出遊", py: "quánjiā chūyóu", vn: "cả nhà đi chơi" }
+    ],
+    examples: [
+      { tc: "週末我們全家要去台南玩。", py: "Zhōumò wǒmen quánjiā yào qù Táinán wán.", vn: "Cuối tuần cả nhà chúng tôi sẽ đi Đài Nam chơi." },
+      { tc: "這張照片是我們全家的合照。", py: "Zhè zhāng zhàopiān shì wǒmen quánjiā de hézhào.", vn: "Bức ảnh này là ảnh chụp chung của cả nhà chúng tôi." },
+      { tc: "除夕夜，全家人都要聚在一起吃年夜飯。", py: "Chúxì yè, quán jiā rén dōu yào jù zài yìqǐ chī niányèfàn.", vn: "Đêm giao thừa, người cả nhà đều phải tụ họp cùng nhau ăn bữa cơm tất niên." }
+    ],
+    idiom: "全家平安 Quánjiā píng'ān - Cả nhà bình an Lời chúc phổ biến.<br>🔸 Ví dụ: 新年快樂，祝你全家平安健康。 Xīnnián kuàilè, zhù nǐ quánjiā píng'ān jiànkāng. - Chúc mừng năm mới, chúc cả nhà bạn bình an khỏe mạnh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "孩子", pinyin: "háizi", hanViet: "Hài tử",
+    image: "",
+    radical: "孩 (Bộ 子 Tử) + 子 (Bộ 子 Tử)<br>💡 Mẹo nhớ: Chỉ những đứa trẻ nhỏ, con cái trong gia đình.",
+    explanation: "Danh từ: Trẻ em, con cái, đứa trẻ.",
+    compounds: [
+      { tc: "小孩子", py: "xiǎoháizi", vn: "trẻ con" },
+      { tc: "生孩子", py: "shēng háizi", vn: "sinh con" }
+    ],
+    examples: [
+      { tc: "這兩個孩子非常可愛。", py: "Zhè liǎng ge háizi fēicháng kě'ài.", vn: "Hai đứa trẻ này vô cùng đáng yêu." },
+      { tc: "父母總是希望給孩子最好的。", py: "Fùmǔ zǒngshì xīwàng gěi háizi zuì hǎo de.", vn: "Cha mẹ lúc nào cũng hy vọng dành cho con cái những điều tốt nhất." },
+      { tc: "這個公園有很多孩子在玩耍。", py: "Zhège gōngyuán yǒu hěn duō háizi zài wánshuǎ.", vn: "Công viên này có rất nhiều trẻ em đang vui đùa." }
+    ],
+    idiom: "熊孩子 Xióng háizi - Đứa trẻ nghịch ngợm Đứa trẻ hư.<br>🔸 Ví dụ: 那個熊孩子又把玻璃打破了。 Nàge xióng háizi yòu bǎ bōlí dǎpò le. - Đứa trẻ nghịch ngợm đó lại làm vỡ kính rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "吉祥", pinyin: "jíxiáng", hanViet: "Cát tường",
+    image: "",
+    radical: "吉 (Bộ 口 Khẩu) + 祥 (Bộ 示 Kỳ)<br>💡 Mẹo nhớ: Lời nói (口) mang lại điềm lành, những điều tốt đẹp (祥).",
+    explanation: "Tính từ: Cát tường, may mắn, tốt lành.",
+    compounds: [
+      { tc: "吉祥話", py: "jíxiánghuà", vn: "lời chúc may mắn" },
+      { tc: "吉祥物", py: "jíxiángwù", vn: "linh vật may mắn" }
+    ],
+    examples: [
+      { tc: "紅色在中國文化裡代表吉祥。", py: "Hóngsè zài Zhōngguó wénhuà lǐ dàibiǎo jíxiáng.", vn: "Màu đỏ trong văn hóa Trung Quốc tượng trưng cho sự cát tường." },
+      { tc: "過年時，大家見面都會說吉祥話。", py: "Guònián shí, dàjiā jiànmiàn dōu huì shuō jíxiánghuà.", vn: "Lúc đón Tết, mọi người gặp mặt đều sẽ nói lời chúc may mắn." },
+      { tc: "龍被認為是一種吉祥的動物。", py: "Lóng bèi rènwéi shì yì zhǒng jíxiáng de dòngwù.", vn: "Rồng được coi là một loài động vật mang lại điềm lành." }
+    ],
+    idiom: "吉祥如意 Jíxiáng rúyì - Cát tường như ý.<br>🔸 Ví dụ: 祝大家新年快樂，吉祥如意！ Zhù dàjiā xīnnián kuàilè, jíxiáng rúyì! - Chúc mọi người năm mới vui vẻ, cát tường như ý!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "年紀", pinyin: "niánjì", hanViet: "Niên kỷ",
+    image: "",
+    radical: "年 (Năm) + 紀 (Bộ 糸 Mịch)<br>💡 Mẹo nhớ: Dùng để chỉ số tuổi, khoảng thời gian (年) mà một người đã sống.",
+    explanation: "Danh từ: Tuổi tác.",
+    compounds: [
+      { tc: "年紀大", py: "niánjì dà", vn: "tuổi đã cao, lớn tuổi" },
+      { tc: "年紀小", py: "niánjì xiǎo", vn: "còn nhỏ tuổi" }
+    ],
+    examples: [
+      { tc: "請問您今年年紀多大？", py: "Qǐngwèn nín jīnnián niánjì duō dà?", vn: "Xin hỏi ngài năm nay tuổi tác bao nhiêu?" },
+      { tc: "爺爺年紀大了，走路比較慢。", py: "Yéye niánjì dà le, zǒulù bǐjiào màn.", vn: "Ông nội tuổi đã cao rồi, đi bộ tương đối chậm." },
+      { tc: "他雖然年紀小，但是很懂事。", py: "Tā suīrán niánjì xiǎo, dànshì hěn dǒngshì.", vn: "Cậu ấy tuy còn nhỏ tuổi, nhưng lại rất hiểu chuyện." }
+    ],
+    idiom: "上了年紀 Shàng le niánjì - Có tuổi rồi Đã già.<br>🔸 Ví dụ: 人上了年紀，就要多注意身體健康。 Rén shàng le niánjì, jiù yào duō zhùyì shēntǐ jiànkāng. - Con người có tuổi rồi, thì phải chú ý nhiều đến sức khỏe cơ thể.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "過年", pinyin: "guò nián", hanViet: "Quá niên",
+    image: "",
+    radical: "過 (Trải qua) + 年 (Năm)<br>💡 Mẹo nhớ: Hành động chào mừng thời khắc chuyển giao, bước qua một năm mới.",
+    explanation: "Cụm động từ: Đón Tết, ăn Tết.",
+    compounds: [
+      { tc: "回家過年", py: "huí jiā guò nián", vn: "về nhà ăn Tết" }
+    ],
+    examples: [
+      { tc: "過年時，我們都會穿上新衣服。", py: "Guò nián shí, wǒmen dōu huì chuān shàng xīn yīfú.", vn: "Lúc đón Tết, chúng tôi đều sẽ mặc quần áo mới lên người." },
+      { tc: "你今年打算在哪裡過年？", py: "Nǐ jīnnián dǎsuàn zài nǎlǐ guò nián?", vn: "Năm nay bạn dự định đón Tết ở đâu?" },
+      { tc: "過年期間，車票很難買。", py: "Guò nián qījiān, chēpiào hěn nán mǎi.", vn: "Trong dịp ăn Tết, vé xe rất khó mua." }
+    ],
+    idiom: "過好年 Guò hǎo nián - Ăn một cái Tết vui vẻ.<br>🔸 Ví dụ: 希望大家都能平安健康，過個好年。 Xīwàng dàjiā dōu néng píng'ān jiànkāng, guò ge hǎo nián. - Hy vọng mọi người đều có thể bình an khỏe mạnh, ăn một cái Tết vui vẻ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "除夕夜", pinyin: "chúxì yè", hanViet: "Trừ tịch dạ",
+    image: "",
+    radical: "除夕 (Đêm giao thừa) + 夜 (Đêm)<br>💡 Mẹo nhớ: Đêm cuối cùng của năm cũ âm lịch.",
+    explanation: "Danh từ chỉ thời gian: Đêm giao thừa.",
+    compounds: [
+      { tc: "除夕夜圍爐", py: "chúxì yè wéilú", vn: "đoàn tụ đêm giao thừa" }
+    ],
+    examples: [
+      { tc: "除夕夜外面放了很多煙火。", py: "Chúxì yè wàimiàn fàng le hěn duō yānhuǒ.", vn: "Đêm giao thừa bên ngoài đốt rất nhiều pháo hoa." },
+      { tc: "除夕夜，大人會給小孩壓歲錢。", py: "Chúxì yè, dàrén huì gěi xiǎohái yāsuìqián.", vn: "Đêm giao thừa, người lớn sẽ cho trẻ con tiền mừng tuổi." },
+      { tc: "我們家除夕夜有守歲的習慣。", py: "Wǒmen jiā chúxì yè yǒu shǒusuì de xíguàn.", vn: "Nhà chúng tôi đêm giao thừa có thói quen thức đón năm mới." }
+    ],
+    idiom: "除夕之夜 Chúxì zhī yè - Đêm giao thừa (Cách diễn đạt văn vẻ hơn).<br>🔸 Ví dụ: 除夕之夜，家家戶戶燈火通明。 Chúxì zhī yè, jiājiā hùhù dēnghuǒ tōngmíng. - Đêm giao thừa, nhà nhà đều sáng đèn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "睡著", pinyin: "shuìzháo", hanViet: "Thụy trước",
+    image: "",
+    radical: "睡 (Ngủ) + 著 (Bổ ngữ kết quả)<br>💡 Mẹo nhớ: Hành động ngủ (睡) đã thực sự tiến vào trạng thái say giấc (著).",
+    explanation: "Cụm động từ: Ngủ thiếp đi, ngủ say.",
+    compounds: [
+      { tc: "睡不著", py: "shuì bù zháo", vn: "ngủ không được" }
+    ],
+    examples: [
+      { tc: "電影太無聊了，我看到一半就睡著了。", py: "Diànyǐng tài wúliáo le, wǒ kàn dào yíbàn jiù shuìzháo le.", vn: "Bộ phim quá tẻ nhạt, tôi xem được một nửa liền ngủ thiếp đi." },
+      { tc: "寶寶已經睡著了，請小聲一點。", py: "Bǎobǎo yǐjīng shuìzháo le, qǐng xiǎoshēng yìdiǎn.", vn: "Em bé đã ngủ say rồi, vui lòng nhỏ tiếng một chút." },
+      { tc: "我昨晚喝了咖啡，結果很晚才睡著。", py: "Wǒ zuówǎn hē le kāfēi, jiéguǒ hěn wǎn cái shuìzháo.", vn: "Tối qua tôi uống cà phê, kết quả rất muộn mới ngủ thiếp đi." }
+    ],
+    idiom: "倒頭就睡 Dǎo tóu jiù shuì - Nằm xuống là ngủ ngay Đặt lưng là ngủ.<br>🔸 Ví dụ: 他今天太累了，一回家倒頭就睡著了。 Tā jīntiān tài lèi le, yì huí jiā dǎo tóu jiù shuìzháo le. - Hôm nay cậu ấy mệt quá, vừa về đến nhà nằm xuống là ngủ ngay.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "壓歲錢", pinyin: "yāsuìqián", hanViet: "Áp tuế tiền",
+    image: "",
+    radical: "壓 (Đè) + 歲 (Tuổi/Năm) + 錢 (Tiền)<br>💡 Mẹo nhớ: Khoản tiền (錢) dùng để trấn áp tà ma trong năm mới (歲) dành cho trẻ em.",
+    explanation: "Danh từ: Tiền mừng tuổi, tiền lì xì.",
+    compounds: [
+      { tc: "發壓歲錢", py: "fā yāsuìqián", vn: "phát tiền lì xì" },
+      { tc: "拿壓歲錢", py: "ná yāsuìqián", vn: "nhận tiền mừng tuổi" }
+    ],
+    examples: [
+      { tc: "過年時，小孩子最期待拿到壓歲錢。", py: "Guònián shí, xiǎoháizi zuì qīdài nádào yāsuìqián.", vn: "Lúc đón Tết, trẻ con mong chờ nhất là nhận được tiền lì xì." },
+      { tc: "媽媽幫我把壓歲錢存進銀行裡。", py: "Māma bāng wǒ bǎ yāsuìqián cún jìn yínháng lǐ.", vn: "Mẹ giúp tôi gửi tiền mừng tuổi vào trong ngân hàng." },
+      { tc: "他用今年的壓歲錢買了一台新腳踏車。", py: "Tā yòng jīnnián de yāsuìqián mǎi le yì tái xīn jiǎotàchē.", vn: "Cậu ấy dùng tiền lì xì năm nay mua một chiếc xe đạp mới." }
+    ],
+    idiom: "紅包 Hóngbāo - Phong bao lì xì đỏ Từ thông dụng hơn để chỉ tiền mừng tuổi.<br>🔸 Ví dụ: 爺爺給了我一個很大的紅包。 Yéye gěi le wǒ yí ge hěn dà de hóngbāo. - Ông nội đã cho tôi một phong bao lì xì rất lớn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "恭喜發財", pinyin: "gōngxǐ fācái", hanViet: "Cung hỷ phát tài",
+    image: "",
+    radical: "恭喜 (Chúc mừng) + 發財 (Phát tài)<br>💡 Mẹo nhớ: Câu chúc thông dụng nhất trong dịp Tết, chúc người khác làm ăn khấm khá.",
+    explanation: "Câu chúc: Cung hỷ phát tài, chúc mừng phát tài.",
+    compounds: [
+      { tc: "祝您恭喜發財", py: "zhù nín gōngxǐ fācái", vn: "chúc ngài cung hỷ phát tài" }
+    ],
+    examples: [
+      { tc: "過年見面第一句話就是「恭喜發財」。", py: "Guònián jiànmiàn dì yī jù huà jiùshì 'gōngxǐ fācái'.", vn: "Đón Tết gặp mặt câu đầu tiên chính là Cung hỷ phát tài." },
+      { tc: "恭喜發財，紅包拿來！", py: "Gōngxǐ fācái, hóngbāo ná lái!", vn: "Chúc mừng phát tài, đưa phong bao lì xì đây Trực dịch một câu nói đùa vui của trẻ con." },
+      { tc: "祝你的新公司生意興隆，恭喜發財！", py: "Zhù nǐ de xīn gōngsī shēngyì xīnglóng, gōngxǐ fācái!", vn: "Chúc công ty mới của bạn buôn may bán đắt, cung hỷ phát tài!" }
+    ],
+    idiom: "發大財 Fā dà cái - Phát tài lớn.<br>🔸 Ví dụ: 新的一年，祝大家都能發大財！ Xīn de yì nián, zhù dàjiā dōu néng fā dà cái! - Năm mới, chúc mọi người đều có thể phát tài lớn!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "好了", pinyin: "hǎo le", hanViet: "Hảo liễu",
+    image: "",
+    radical: "好 (Tốt) + 了 (Rồi)<br>💡 Mẹo nhớ: Biểu thị mọi việc đã hoàn tất, chuẩn bị xong hoặc đồng ý với một ý kiến.",
+    explanation: "Cụm từ: Được rồi, xong rồi.",
+    compounds: [
+      { tc: "準備好了", py: "zhǔnbèi hǎo le", vn: "chuẩn bị xong rồi" }
+    ],
+    examples: [
+      { tc: "飯做好了，大家快來吃吧。", py: "Fàn zuò hǎo le, dàjiā kuài lái chī ba.", vn: "Cơm nấu xong rồi, mọi người mau tới ăn đi." },
+      { tc: "好了，不要再吵了！", py: "Hǎo le, búyào zài chǎo le!", vn: "Được rồi, đừng cãi nhau nữa!" },
+      { tc: "你的感冒好了嗎？", py: "Nǐ de gǎnmào hǎo le ma?", vn: "Bệnh cảm của bạn đã khỏi rồi chứ?" }
+    ],
+    idiom: "好啦 Hǎo la - Được rồi mà Ngữ khí mềm mỏng hơn.<br>🔸 Ví dụ: 好啦，我答應你就是了。 Hǎo la, wǒ dāyìng nǐ jiùshì le. - Được rồi mà, tôi đồng ý với bạn là được chứ gì.", 
+    level: "TOCFL A2"
+  },
   ];
