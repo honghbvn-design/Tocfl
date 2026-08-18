@@ -10276,4 +10276,366 @@ const dataA2 = [
     idiom: "好啦 Hǎo la - Được rồi mà Ngữ khí mềm mỏng hơn.<br>🔸 Ví dụ: 好啦，我答應你就是了。 Hǎo la, wǒ dāyìng nǐ jiùshì le. - Được rồi mà, tôi đồng ý với bạn là được chứ gì.", 
     level: "TOCFL A2"
   },
+  {
+    word: "節日", pinyin: "jiérì", hanViet: "Tiết nhật",
+    image: "",
+    radical: "節 (Bộ 竹 Trúc) + 日 (Bộ 日 Nhật)<br>💡 Mẹo nhớ: Ngày (日) lễ như những đốt tre (竹), chia năm tháng thành các mốc quan trọng.",
+    explanation: "Danh từ: Ngày lễ, ngày tết.",
+    compounds: [
+      { tc: "重要節日", py: "zhòngyào jiérì", vn: "ngày lễ quan trọng" },
+      { tc: "傳統節日", py: "chuántǒng jiérì", vn: "ngày lễ truyền thống" }
+    ],
+    examples: [
+      { tc: "春節是台灣最重要的傳統節日。", py: "Chūnjié shì Táiwān zuì zhòngyào de chuántǒng jiérì.", vn: "Tết Nguyên Đán là ngày lễ truyền thống quan trọng nhất của Đài Loan." },
+      { tc: "這個節日對我們來說很有意義。", py: "Zhège jiérì duì wǒmen lái shuō hěn yǒu yìyì.", vn: "Ngày lễ này đối với chúng tôi mà nói rất có ý nghĩa." },
+      { tc: "節日期間，台南的夜市總是特別熱鬧。", py: "Jiérì qījiān, Táinán de yèshì zǒngshì tèbié rènào.", vn: "Trong thời gian nghỉ lễ, chợ đêm ở Đài Nam lúc nào cũng đặc biệt náo nhiệt." }
+    ],
+    idiom: "歡度節日 Huāndù jiérì - Vui vẻ qua ngày lễ.<br>🔸 Ví dụ: 祝大家平安健康，歡度節日。 Zhù dàjiā píng'ān jiànkāng, huāndù jiérì. - Chúc mọi người bình an khỏe mạnh, vui vẻ qua ngày lễ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "打掃", pinyin: "dǎsǎo", hanViet: "Đả tảo",
+    image: "",
+    radical: "打 (Bộ 手 Thủ) + 掃 (Bộ 手 Thủ)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Thủ (扌), chỉ hành động dùng tay để quét tước, dọn dẹp.",
+    explanation: "Động từ: Quét dọn, dọn dẹp.",
+    compounds: [
+      { tc: "打掃房間", py: "dǎsǎo fángjiān", vn: "dọn dẹp căn phòng" },
+      { tc: "大打掃", py: "dà dǎsǎo", vn: "tổng vệ sinh" }
+    ],
+    examples: [
+      { tc: "過年前，家家戶戶都會大打掃。", py: "Guònián qián, jiājiāhùhù dōu huì dà dǎsǎo.", vn: "Trước lúc đón Tết, nhà nhà đều sẽ tổng vệ sinh." },
+      { tc: "週末我要留在家裡打掃。", py: "Zhōumò wǒ yào liú zài jiālǐ dǎsǎo.", vn: "Cuối tuần tôi phải ở lại trong nhà dọn dẹp." },
+      { tc: "請你幫忙把客廳打掃乾淨。", py: "Qǐng nǐ bāngmáng bǎ kètīng dǎsǎo gānjìng.", vn: "Xin bạn giúp đỡ dọn dẹp sạch sẽ phòng khách." }
+    ],
+    idiom: "打掃衛生 Dǎsǎo wèishēng - Dọn dẹp vệ sinh.<br>🔸 Ví dụ: 我們每天都要打掃衛生，保持環境乾淨。 Wǒmen měitiān dōu yào dǎsǎo wèishēng, bǎochí huánjìng gānjìng. - Chúng ta mỗi ngày đều phải dọn dẹp vệ sinh, giữ gìn môi trường sạch sẽ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "另外", pinyin: "lìngwài", hanViet: "Lệnh ngoại",
+    image: "",
+    radical: "另 (Bộ 口 Khẩu) + 外 (Bộ 夕 Tịch)<br>💡 Mẹo nhớ: Bên ngoài (外) cái này ra vẫn còn một cái khác (另).",
+    explanation: "Liên từ / Đại từ: Ngoài ra, mặt khác, cái khác.",
+    compounds: [
+      { tc: "另外一個", py: "lìngwài yí ge", vn: "một cái khác" }
+    ],
+    examples: [
+      { tc: "我買了蘋果，另外還買了橘子。", py: "Wǒ mǎi le píngguǒ, lìngwài hái mǎi le júzi.", vn: "Tôi đã mua táo, ngoài ra còn mua cả quýt nữa." },
+      { tc: "這個方法不行，我們要想另外的辦法。", py: "Zhège fāngfǎ bùxíng, wǒmen yào xiǎng lìngwài de bànfǎ.", vn: "Phương pháp này không được, chúng ta phải nghĩ một cách khác." },
+      { tc: "這件衣服太小了，請給我另外一件。", py: "Zhè jiàn yīfú tài xiǎo le, qǐng gěi wǒ lìngwài yí jiàn.", vn: "Chiếc áo này nhỏ quá, vui lòng cho tôi một chiếc khác." }
+    ],
+    idiom: "另當別論 Lìng dāng biélùn - Bàn sau Tính sau.<br>🔸 Ví dụ: 如果明天下雨，這件事就另當別論了。 Rúguǒ míngtiān xiàyǔ, zhè jiàn shì jiù lìng dāng biélùn le. - Nếu ngày mai trời mưa, chuyện này sẽ tính sau vậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "春聯", pinyin: "chūnlián", hanViet: "Xuân liên",
+    image: "",
+    radical: "春 (Bộ 日 Nhật) + 聯 (Bộ 耳 Nhĩ)<br>💡 Mẹo nhớ: Những câu đối (聯) được viết trên giấy đỏ để dán vào dịp mùa xuân (春).",
+    explanation: "Danh từ: Câu đối Tết.",
+    compounds: [
+      { tc: "寫春聯", py: "xiě chūnlián", vn: "viết câu đối Tết" },
+      { tc: "貼春聯", py: "tiē chūnlián", vn: "dán câu đối Tết" }
+    ],
+    examples: [
+      { tc: "過年的時候，門口要貼春聯。", py: "Guònián de shíhòu, ménkǒu yào tiē chūnlián.", vn: "Lúc đón Tết, trước cửa phải dán câu đối Tết." },
+      { tc: "爺爺毛筆字寫得很好，每年都自己寫春聯。", py: "Yéye máobǐzì xiě de hěn hǎo, měinián dōu zìjǐ xiě chūnlián.", vn: "Ông nội viết chữ thư pháp rất đẹp, năm nào cũng tự viết câu đối Tết." },
+      { tc: "紅色的春聯看起來非常喜氣。", py: "Hóngsè de chūnlián kàn qǐlái fēicháng xǐqì.", vn: "Câu đối Tết màu đỏ trông vô cùng vui vẻ rộn ràng." }
+    ],
+    idiom: "買春聯 Mǎi chūnlián - Mua câu đối Tết.<br>🔸 Ví dụ: 我們去市場買春聯和年糕吧。 Wǒmen qù shìchǎng mǎi chūnlián hé niángāo ba. - Chúng ta ra chợ mua câu đối Tết và bánh tổ đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "除夕", pinyin: "chúxì", hanViet: "Trừ tịch",
+    image: "",
+    radical: "除 (Bộ 阜 Phụ) + 夕 (Bộ 夕 Tịch)<br>💡 Mẹo nhớ: Đêm (夕) cuối cùng để gạt bỏ (除) đi những điều xui xẻo của năm cũ.",
+    explanation: "Danh từ: Đêm giao thừa (Ngày cuối cùng của năm âm lịch).",
+    compounds: [
+      { tc: "除夕夜", py: "chúxì yè", vn: "đêm giao thừa" }
+    ],
+    examples: [
+      { tc: "除夕是一年的最後一天。", py: "Chúxì shì yì nián de zuìhòu yì tiān.", vn: "Giao thừa là ngày cuối cùng của một năm." },
+      { tc: "除夕這天，大家都會提早下班回家。", py: "Chúxì zhè tiān, dàjiā dōu huì tízǎo xiàbān huí jiā.", vn: "Vào ngày giao thừa, mọi người đều sẽ tan làm sớm để về nhà." },
+      { tc: "除夕晚上，我們要和家人一起吃團圓飯。", py: "Chúxì wǎnshàng, wǒmen yào hé jiārén yìqǐ chī tuányuánfàn.", vn: "Buổi tối giao thừa, chúng tôi phải cùng người nhà ăn bữa cơm đoàn viên." }
+    ],
+    idiom: "歡度除夕 Huāndù chúxì - Vui đón giao thừa.<br>🔸 Ví dụ: 全家人聚在一起，歡度除夕。 Quán jiā rén jù zài yìqǐ, huāndù chúxì. - Cả nhà tụ họp cùng nhau, vui đón giao thừa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "年糕", pinyin: "niángāo", hanViet: "Niên cao",
+    image: "",
+    radical: "年 (Năm) + 糕 (Bộ 米 Mễ)<br>💡 Mẹo nhớ: Bánh (糕) làm từ gạo (米) được ăn vào dịp năm mới (年).",
+    explanation: "Danh từ: Bánh tổ, bánh năm mới.",
+    compounds: [
+      { tc: "吃年糕", py: "chī niángāo", vn: "ăn bánh tổ" },
+      { tc: "炸年糕", py: "zhá niángāo", vn: "bánh tổ chiên" }
+    ],
+    examples: [
+      { tc: "過年吃年糕，代表步步高升。", py: "Guònián chī niángāo, dàibiǎo bùbù gāoshēng.", vn: "Đón Tết ăn bánh tổ, tượng trưng cho việc thăng tiến không ngừng." },
+      { tc: "奶奶做的甜年糕非常好吃。", py: "Nǎinai zuò de tián niángāo fēicháng hǎochī.", vn: "Bánh tổ ngọt do bà nội làm vô cùng ngon." },
+      { tc: "我喜歡吃煎得脆脆的年糕。", py: "Wǒ xǐhuān chī jiān de cuìcuì de niángāo.", vn: "Tôi thích ăn bánh tổ được chiên giòn rụm." }
+    ],
+    idiom: "步步高升 Bùbù gāoshēng - Thăng tiến không ngừng Phát âm chữ 糕 (gāo) giống chữ 高 (gāo - cao).<br>🔸 Ví dụ: 過年吃年糕，祝你新的一年步步高升。 Guònián chī niángāo, zhù nǐ xīn de yì nián bùbù gāoshēng. - Đón Tết ăn bánh tổ, chúc bạn năm mới thăng tiến không ngừng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "橘子", pinyin: "júzi", hanViet: "Quất tử",
+    image: "",
+    radical: "橘 (Bộ 木 Mộc) + 子 (Bộ 子 Tử)<br>💡 Mẹo nhớ: Quả mọc trên cây (木). Trong tiếng Trung, chữ 橘 (quýt) phát âm gần giống chữ 吉 (cát - may mắn).",
+    explanation: "Danh từ: Quả quýt.",
+    compounds: [
+      { tc: "吃橘子", py: "chī júzi", vn: "ăn quýt" },
+      { tc: "橘子汁", py: "júzizhī", vn: "nước ép quýt" }
+    ],
+    examples: [
+      { tc: "過年時桌上都會放橘子，代表大吉大利。", py: "Guònián shí zhuō shàng dōu huì fàng júzi, dàibiǎo dàjí dàlì.", vn: "Lúc đón Tết trên bàn đều sẽ đặt quả quýt, tượng trưng cho đại cát đại lợi." },
+      { tc: "這幾顆橘子很甜，你要吃嗎？", py: "Zhè jǐ kē júzi hěn tián, nǐ yào chī ma?", vn: "Mấy quả quýt này rất ngọt, bạn có muốn ăn không?" },
+      { tc: "冬天是吃橘子的好季節。", py: "Dōngtiān shì chī júzi de hǎo jìjié.", vn: "Mùa đông là mùa tốt để ăn quýt." }
+    ],
+    idiom: "大吉大利 Dàjí dàlì - Đại cát đại lợi.<br>🔸 Ví dụ: 送你兩顆橘子，祝你大吉大利。 Sòng nǐ liǎng kē júzi, zhù nǐ dàjí dàlì. - Tặng bạn hai quả quýt, chúc bạn đại cát đại lợi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "守歲", pinyin: "shǒusuì", hanViet: "Thủ tuế",
+    image: "",
+    radical: "守 (Bộ 宀 Miên) + 歲 (Bộ 止 Chỉ)<br>💡 Mẹo nhớ: Ở dưới mái nhà (宀) canh giữ, thức đợi năm cũ qua đi và đón tuổi mới (歲).",
+    explanation: "Động từ ly hợp: Thức đón giao thừa, thức canh tuổi.",
+    compounds: [
+      { tc: "除夕守歲", py: "chúxì shǒusuì", vn: "thức đón giao thừa" }
+    ],
+    examples: [
+      { tc: "除夕夜，我們全家一起打牌守歲。", py: "Chúxì yè, wǒmen quánjiā yìqǐ dǎpái shǒusuì.", vn: "Đêm giao thừa, cả nhà chúng tôi cùng nhau đánh bài thức đón năm mới." },
+      { tc: "傳統習俗說，守歲可以讓父母長壽。", py: "Chuántǒng xísú shuō, shǒusuì kěyǐ ràng fùmǔ chángshòu.", vn: "Tập tục truyền thống nói rằng, thức canh tuổi có thể giúp cha mẹ sống thọ." },
+      { tc: "昨晚守歲太晚睡，今天早上爬不起來。", py: "Zuówǎn shǒusuì tài wǎn shuì, jīntiān zǎoshàng pá bù qǐlái.", vn: "Tối qua thức đón giao thừa ngủ muộn quá, sáng nay dậy không nổi." }
+    ],
+    idiom: "熬夜守歲 Áoyè shǒusuì - Thức trắng đêm đón giao thừa.<br>🔸 Ví dụ: 年輕人喜歡熬夜守歲，玩到天亮。 Niánqīng rén xǐhuān áoyè shǒusuì, wán dào tiānliàng. - Người trẻ thích thức trắng đêm đón giao thừa, chơi đến tận sáng." , 
+    level: "TOCFL A2"
+  },
+  {
+    word: "說法", pinyin: "shuōfǎ", hanViet: "Thuyết pháp",
+    image: "",
+    radical: "說 (Bộ 言 Ngôn) + 法 (Bộ 水 Thủy)<br>💡 Mẹo nhớ: Phương pháp (法) để dùng lời nói (言) giải thích một quan điểm.",
+    explanation: "Danh từ: Cách nói, quan điểm, lý lẽ.",
+    compounds: [
+      { tc: "一種說法", py: "yì zhǒng shuōfǎ", vn: "một cách nói" }
+    ],
+    examples: [
+      { tc: "關於這個習俗，有很多不同的說法。", py: "Guānyú zhège xísú, yǒu hěn duō bùtóng de shuōfǎ.", vn: "Về tập tục này, có rất nhiều cách nói khác nhau." },
+      { tc: "我不贊同他的說法。", py: "Wǒ bú zàntóng tā de shuōfǎ.", vn: "Tôi không tán thành quan điểm của anh ấy." },
+      { tc: "換個說法，也許他就能聽懂了。", py: "Huàn ge shuōfǎ, yěxǔ tā jiù néng tīngdǒng le.", vn: "Đổi một cách nói khác, có lẽ anh ấy sẽ nghe hiểu được." }
+    ],
+    idiom: "眾說紛紜 Zhòngshuō fēnyún - Chín người mười ý Dư luận xôn xao.<br>🔸 Ví dụ: 關於這件事的起因，大家眾說紛紜。 Guānyú zhè jiàn shì de qǐyīn, dàjiā zhòngshuō fēnyún. - Về nguyên nhân của sự việc này, mọi người chín người mười ý.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "晚", pinyin: "wǎn", hanViet: "Vãn",
+    image: "",
+    radical: "晚 (Bộ 日 Nhật)<br>💡 Mẹo nhớ: Khi mặt trời (日) đã khuất bóng thì trời trở nên muộn màng.",
+    explanation: "Tính từ: Muộn, trễ.",
+    compounds: [
+      { tc: "太晚了", py: "tài wǎn le", vn: "muộn quá rồi" },
+      { tc: "很晚", py: "hěn wǎn", vn: "rất muộn" }
+    ],
+    examples: [
+      { tc: "時間不早了，太晚回家不安全。", py: "Shíjiān bù zǎo le, tài wǎn huí jiā bù ānquán.", vn: "Thời gian không còn sớm nữa, về nhà muộn quá không an toàn." },
+      { tc: "他昨晚工作到很晚才休息。", py: "Tā zuówǎn gōngzuò dào hěn wǎn cái xiūxí.", vn: "Tối qua anh ấy làm việc đến rất muộn mới nghỉ ngơi." },
+      { tc: "對不起，我來晚了。", py: "Duìbùqǐ, wǒ lái wǎn le.", vn: "Xin lỗi, tôi đến muộn rồi." }
+    ],
+    idiom: "相見恨晚 Xiāng jiàn hèn wǎn - Hận gặp nhau quá muộn.<br>🔸 Ví dụ: 我們兩個人聊得非常開心，真是相見恨晚。 Wǒmen liǎng ge rén liáo de fēicháng kāixīn, zhēnshi xiāng jiàn hèn wǎn. - Hai người chúng tôi nói chuyện vô cùng vui vẻ, thực sự là hận gặp nhau quá muộn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "活", pinyin: "huó", hanViet: "Hoạt",
+    image: "",
+    radical: "活 (Bộ 水 Thủy)<br>💡 Mẹo nhớ: Nước (氵) chảy liên tục không ngừng tượng trưng cho sự sống.",
+    explanation: "Tính từ / Động từ: Sống, hoạt động, sinh tồn.",
+    compounds: [
+      { tc: "活著", py: "huózhe", vn: "còn sống" },
+      { tc: "生活", py: "shēnghuó", vn: "cuộc sống" }
+    ],
+    examples: [
+      { tc: "只要活著，就有希望。", py: "Zhǐyào huózhe, jiù yǒu xīwàng.", vn: "Chỉ cần còn sống, là còn có hy vọng." },
+      { tc: "這條魚還是活的，非常新鮮。", py: "Zhè tiáo yú háishì huó de, fēicháng xīnxiān.", vn: "Con cá này vẫn còn sống, vô cùng tươi." },
+      { tc: "守歲是為了讓父母活得更久。", py: "Shǒusuì shì wèile ràng fùmǔ huó de gèng jiǔ.", vn: "Thức đón giao thừa là để giúp cha mẹ sống thọ hơn." }
+    ],
+    idiom: "活到老，學到老 Huó dào lǎo, xué dào lǎo - Học học nữa học mãi Sống đến già học đến già.<br>🔸 Ví dụ: 爺爺八十歲還在學電腦，真是活到老學到老。 Yéye bāshí suì hái zài xué diànnǎo, zhēnshi huó dào lǎo xué dào lǎo. - Ông nội tám mươi tuổi vẫn còn đang học máy tính, đúng là sống đến già học đến già.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "平安", pinyin: "píng'ān", hanViet: "Bình an",
+    image: "",
+    radical: "平 (Bộ 干 Can) + 安 (Bộ 宀 Miên)<br>💡 Mẹo nhớ: Nữ giới (女) ở dưới mái nhà (宀) thì gia đạo yên ổn, bằng phẳng (平).",
+    explanation: "Tính từ: Bình an, yên bình.",
+    compounds: [
+      { tc: "平平安安", py: "píngpíng ān'ān", vn: "bình an vô sự" },
+      { tc: "一路平安", py: "yílù píng'ān", vn: "thượng lộ bình an" }
+    ],
+    examples: [
+      { tc: "祝你新的一年平平安安。", py: "Zhù nǐ xīn de yì nián píngpíng ān'ān.", vn: "Chúc bạn một năm mới bình an vô sự." },
+      { tc: "只要家人平安健康，就是最大的幸福。", py: "Zhǐyào jiārén píng'ān jiànkāng, jiùshì zuìdà de xìngfú.", vn: "Chỉ cần người nhà bình an khỏe mạnh, thì chính là hạnh phúc lớn nhất." },
+      { tc: "他出了一場車禍，還好人很平安。", py: "Tā chū le yì chǎng chēhuò, háihǎo rén hěn píng'ān.", vn: "Anh ấy bị một trận tai nạn xe, may mà người vẫn rất bình an." }
+    ],
+    idiom: "歲歲平安 Suìsuì píng'ān - Năm năm bình an Lời nói để giải xui khi làm vỡ đồ vào dịp Tết, vì chữ 碎 (suì - vỡ) đồng âm với 歲 (suì - tuổi/năm).<br>🔸 Ví dụ: 不小心打破碗沒關係，歲歲平安！ Bù xiǎoxīn dǎpò wǎn méiguānxi, suìsuì píng'ān! - Không cẩn thận làm vỡ bát không sao cả, năm năm bình an!", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "出門", pinyin: "chūmén", hanViet: "Xuất môn",
+    image: "",
+    radical: "出 (Bộ 凵 Khảm) + 門 (Bộ 門 Môn)<br>💡 Mẹo nhớ: Bước chân đi ra ngoài (出) khỏi cánh cửa (門).",
+    explanation: "Động từ ly hợp: Ra khỏi nhà, đi vắng.",
+    compounds: [
+      { tc: "準備出門", py: "zhǔnbèi chūmén", vn: "chuẩn bị ra khỏi nhà" }
+    ],
+    examples: [
+      { tc: "他剛出門，你晚一點再打來吧。", py: "Tā gāng chūmén, nǐ wǎn yìdiǎn zài dǎ lái ba.", vn: "Anh ấy vừa ra khỏi nhà, bạn lát nữa muộn một chút hẵng gọi lại nhé." },
+      { tc: "今天外面很冷，出門記得多穿衣服。", py: "Jīntiān wàimiàn hěn lěng, chūmén jìdé duō chuān yīfú.", vn: "Hôm nay bên ngoài rất lạnh, ra khỏi nhà nhớ mặc nhiều áo." },
+      { tc: "我週末通常不喜歡出門，只想待在家。", py: "Wǒ zhōumò tōngcháng bù xǐhuān chūmén, zhǐ xiǎng dāi zài jiā.", vn: "Cuối tuần tôi thường không thích đi ra ngoài, chỉ muốn ở nhà." }
+    ],
+    idiom: "出門在外 Chūmén zàiwài - Xa nhà Khi đi ra ngoài.<br>🔸 Ví dụ: 出門在外，凡事都要小心。 Chūmén zàiwài, fánshì dōu yào xiǎoxīn. - Đi ra ngoài xa nhà, mọi việc đều phải cẩn thận.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "拜年", pinyin: "bàinián", hanViet: "Bái niên",
+    image: "",
+    radical: "拜 (Bộ 手 Thủ) + 年 (Năm)<br>💡 Mẹo nhớ: Chắp hai tay (手) để gửi lời chào mừng năm mới (年).",
+    explanation: "Động từ ly hợp: Chúc Tết.",
+    compounds: [
+      { tc: "去拜年", py: "qù bàinián", vn: "đi chúc Tết" },
+      { tc: "跟長輩拜年", py: "gēn zhǎngbèi bàinián", vn: "chúc Tết người lớn tuổi" }
+    ],
+    examples: [
+      { tc: "大年初一，我們全家去親戚家拜年。", py: "Dànián chūyī, wǒmen quánjiā qù qīnqī jiā bàinián.", vn: "Mùng một Tết, cả nhà chúng tôi đến nhà họ hàng chúc Tết." },
+      { tc: "新年好！我來給您拜年了。", py: "Xīnnián hǎo! Wǒ lái gěi nín bàinián le.", vn: "Năm mới tốt lành! Cháu đến chúc Tết bác đây ạ." },
+      { tc: "現在很多人習慣用手機傳簡訊拜年。", py: "Xiànzài hěn duō rén xíguàn yòng shǒujī chuán jiǎnxùn bàinián.", vn: "Bây giờ rất nhiều người có thói quen dùng điện thoại gửi tin nhắn chúc Tết." }
+    ],
+    idiom: "拜個早年 Bài ge zǎonián - Chúc Tết sớm.<br>🔸 Ví dụ: 明天我要出國了，先在這裡給大家拜個早年。 Míngtiān wǒ yào chūguó le, xiān zài zhèlǐ gěi dàjiā bài ge zǎonián. - Ngày mai tôi phải ra nước ngoài rồi, xin chúc Tết sớm mọi người ở đây trước.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "華人", pinyin: "Huárén", hanViet: "Hoa nhân",
+    image: "",
+    radical: "華 (Bộ 艸 Thảo) + 人 (Bộ 人 Nhân)<br>💡 Mẹo nhớ: Những người (人) mang dòng máu, sắc tộc Hoa (華).",
+    explanation: "Danh từ riêng: Người Hoa.",
+    compounds: [
+      { tc: "華人社會", py: "Huárén shèhuì", vn: "xã hội người Hoa" },
+      { tc: "華人文化", py: "Huárén wénhuà", vn: "văn hóa người Hoa" }
+    ],
+    examples: [
+      { tc: "春節是全世界華人共同的節日。", py: "Chūnjié shì quán shìjiè Huárén gòngtóng de jiérì.", vn: "Tết Nguyên Đán là ngày lễ chung của người Hoa trên toàn thế giới." },
+      { tc: "很多國家都有華人居住。", py: "Hěn duō guójiā dōu yǒu Huárén jūzhù.", vn: "Rất nhiều quốc gia đều có người Hoa sinh sống." },
+      { tc: "他是一位在美國長大的華人。", py: "Tā shì yí wèi zài Měiguó zhǎngdà de Huárén.", vn: "Anh ấy là một người Hoa lớn lên ở Mỹ." }
+    ],
+    idiom: "海外華人 Hǎiwài Huárén - Người Hoa ở hải ngoại.<br>🔸 Ví dụ: 許多海外華人依然保留著慶祝春節的習慣。 Xǔduō hǎiwài Huárén yīrán bǎoliúzhe qìngzhù chūnjié de xíguàn. - Rất nhiều người Hoa ở hải ngoại vẫn giữ thói quen ăn mừng Tết Nguyên Đán.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "貼上", pinyin: "tiēshàng", hanViet: "Thiếp thượng",
+    image: "",
+    radical: "貼 (Bộ 貝 Bối) + 上 (Bộ 一 Nhất)<br>💡 Mẹo nhớ: Đem đồ vật dính, dán lên (上) bề mặt của một vật khác.",
+    explanation: "Cụm động từ: Dán lên.",
+    compounds: [
+      { tc: "貼上春聯", py: "tiēshàng chūnlián", vn: "dán câu đối Tết lên" }
+    ],
+    examples: [
+      { tc: "請把這張郵票貼上信封。", py: "Qǐng bǎ zhè zhāng yóupiào tiēshàng xìnfēng.", vn: "Vui lòng dán con tem này lên phong bì." },
+      { tc: "過年時，我們會在門口貼上紅色的春聯。", py: "Guònián shí, wǒmen huì zài ménkǒu tiēshàng hóngsè de chūnlián.", vn: "Lúc đón Tết, chúng tôi sẽ dán câu đối Tết màu đỏ lên cửa." },
+      { tc: "他在牆上貼上了很多漂亮的照片。", py: "Tā zài qiáng shàng tiēshàng le hěn duō piàoliang de zhàopiān.", vn: "Anh ấy đã dán rất nhiều bức ảnh đẹp lên tường." }
+    ],
+    idiom: "貼標籤 Tiē biāoqiān - Dán nhãn (Nghĩa bóng: Đánh giá, quy chụp ai đó).<br>🔸 Ví dụ: 我們不應該隨便給別人貼標籤。 Wǒmen bù yīnggāi suíbiàn gěi biérén tiē biāoqiān. - Chúng ta không nên tùy tiện dán nhãn cho người khác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "年年有餘", pinyin: "niánnián yǒuyú", hanViet: "Niên niên hữu dư",
+    image: "",
+    radical: "年 (Năm) + 有 (Có) + 餘 (Dư dả)<br>💡 Mẹo nhớ: Chữ 餘 (dư dả) phát âm là yú, đồng âm với chữ 魚 (cá). Vì thế ngày Tết thường ăn cá để cầu mong năm nào cũng dư dả.",
+    explanation: "Câu chúc: Năm nào cũng dư dả (Chúc cho sự sung túc).",
+    compounds: [
+      { tc: "祝您年年有餘", py: "zhù nín niánnián yǒuyú", vn: "chúc ngài năm nào cũng dư dả" }
+    ],
+    examples: [
+      { tc: "年夜飯一定要吃魚，代表年年有餘。", py: "Niányèfàn yídìng yào chī yú, dàibiǎo niánnián yǒuyú.", vn: "Bữa cơm tất niên nhất định phải ăn cá, tượng trưng cho năm nào cũng dư dả." },
+      { tc: "祝大家新年快樂，年年有餘！", py: "Zhù dàjiā xīnnián kuàilè, niánnián yǒuyú!", vn: "Chúc mọi người năm mới vui vẻ, năm nào cũng dư dả!" },
+      { tc: "這道菜的名字叫「年年有餘」。", py: "Zhè dào cài de míngzi jiào 'niánnián yǒuyú'.", vn: "Món ăn này có tên là 'Năm nào cũng dư dả'." }
+    ],
+    idiom: "歲歲有餘 Suìsuì yǒuyú - Năm năm dư dả Đồng nghĩa với 年年有餘.<br>🔸 Ví dụ: 吃魚討個吉利，祝我們歲歲有餘。 Chī yú tǎo ge jílì, zhù wǒmen suìsuì yǒuyú. - Ăn cá để lấy hên, chúc chúng ta năm năm dư dả.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "步步高升", pinyin: "bùbù gāoshēng", hanViet: "Bộ bộ cao thăng",
+    image: "",
+    radical: "步 (Bước) + 高升 (Thăng tiến)<br>💡 Mẹo nhớ: Ăn bánh tổ (年糕 - niángāo) vì chữ 糕 (gāo) đồng âm với 高 (gāo - cao), chúc cho từng bước đi lên.",
+    explanation: "Câu chúc: Thăng tiến không ngừng, bước bước lên cao.",
+    compounds: [
+      { tc: "祝你步步高升", py: "zhù nǐ bùbù gāoshēng", vn: "chúc bạn thăng tiến không ngừng" }
+    ],
+    examples: [
+      { tc: "過年吃年糕，祝你新的一年步步高升。", py: "Guònián chī niángāo, zhù nǐ xīn de yì nián bùbù gāoshēng.", vn: "Đón Tết ăn bánh tổ, chúc bạn năm mới thăng tiến không ngừng." },
+      { tc: "恭喜你升職，祝你未來步步高升！", py: "Gōngxǐ nǐ shēngzhí, zhù nǐ wèilái bùbù gāoshēng!", vn: "Chúc mừng bạn thăng chức, chúc bạn tương lai thăng tiến không ngừng!" },
+      { tc: "這幅畫的寓意是步步高升。", py: "Zhè fú huà de yùyì shì bùbù gāoshēng.", vn: "Ngụ ý của bức tranh này là bước bước lên cao." }
+    ],
+    idiom: "平步青雲 Píngbù qīngyún - Một bước lên mây Đồng nghĩa với sự thăng tiến nhanh chóng.<br>🔸 Ví dụ: 他遇到貴人幫忙，從此平步青雲。 Tā yùdào guìrén bāngmáng, cóngcǐ píngbù qīngyún. - Anh ấy gặp được quý nhân giúp đỡ, từ đó một bước lên mây.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "大吉大利", pinyin: "dàjí dàlì", hanViet: "Đại cát đại lợi",
+    image: "",
+    radical: "大吉 (Vô cùng may mắn) + 大利 (Vô cùng thuận lợi)<br>💡 Mẹo nhớ: Ăn quýt (橘子 - júzi) vì chữ 橘 có âm gần giống chữ 吉 (cát - may mắn).",
+    explanation: "Câu chúc: Đại cát đại lợi, vô cùng may mắn thuận lợi.",
+    compounds: [
+      { tc: "新年大吉大利", py: "xīnnián dàjí dàlì", vn: "năm mới đại cát đại lợi" }
+    ],
+    examples: [
+      { tc: "送你幾顆橘子，祝你大吉大利。", py: "Sòng nǐ jǐ kē júzi, zhù nǐ dàjí dàlì.", vn: "Tặng bạn mấy quả quýt, chúc bạn đại cát đại lợi." },
+      { tc: "過年要說好話，祝大家大吉大利。", py: "Guònián yào shuō hǎohuà, zhù dàjiā dàjí dàlì.", vn: "Đón Tết phải nói lời hay ý đẹp, chúc mọi người đại cát đại lợi." },
+      { tc: "這門聯上寫著「大吉大利」。", py: "Zhè ménlián shàng xiězhe 'dàjí dàlì'.", vn: "Trên câu đối cửa này viết 'Đại cát đại lợi'." }
+    ],
+    idiom: "吉星高照 Jíxīng gāozhào - Sao may mắn chiếu mệnh.<br>🔸 Ví dụ: 祝你新的一年吉星高照，事事順心。 Zhù nǐ xīn de yì nián jíxīng gāozhào, shìshì shùnxīn. - Chúc bạn năm mới sao may mắn chiếu mệnh, mọi việc thuận tâm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "放鞭炮", pinyin: "fàng biānpào", hanViet: "Phóng tiên pháo",
+    image: "",
+    radical: "放 (Phóng) + 鞭 (Tiên) + 炮 (Pháo)<br>💡 Mẹo nhớ: Dùng lửa (火) để đốt pháo (炮) xua đuổi tà ma dịp năm mới.",
+    explanation: "Cụm động từ: Đốt pháo, thả pháo.",
+    compounds: [
+      { tc: "過年放鞭炮", py: "guònián fàng biānpào", vn: "đón Tết đốt pháo" }
+    ],
+    examples: [
+      { tc: "大年初一早上，很多人會放鞭炮。", py: "Dànián chūyī zǎoshàng, hěn duō rén huì fàng biānpào.", vn: "Sáng mùng một Tết, rất nhiều người sẽ đốt pháo." },
+      { tc: "放鞭炮的聲音非常大，把小孩嚇哭了。", py: "Fàng biānpào de shēngyīn fēicháng dà, bǎ xiǎohái xià kū le.", vn: "Tiếng đốt pháo vô cùng lớn, làm cho trẻ con sợ khóc luôn rồi." },
+      { tc: "為了安全，現在很多地方禁止放鞭炮。", py: "Wèile ānquán, xiànzài hěn duō dìfāng jìnzhǐ fàng biānpào.", vn: "Vì lý do an toàn, bây giờ rất nhiều nơi cấm đốt pháo." }
+    ],
+    idiom: "鞭炮聲 Biānpào shēng - Tiếng pháo.<br>🔸 Ví dụ: 外面傳來陣陣鞭炮聲，十分熱鬧。 Wàimiàn chuán lái zhènzhèn biānpào shēng, shífēn rènào. - Bên ngoài truyền đến từng trận tiếng pháo, vô cùng náo nhiệt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "大年初一", pinyin: "dànián chūyī", hanViet: "Đại niên sơ nhất",
+    image: "",
+    radical: "大年 (Năm mới) + 初一 (Mùng một)<br>💡 Mẹo nhớ: Ngày bắt đầu tiên (一) của một năm mới âm lịch.",
+    explanation: "Danh từ chỉ thời gian: Mùng một Tết.",
+    compounds: [
+      { tc: "大年初一拜年", py: "dànián chūyī bàinián", vn: "mùng một Tết đi chúc Tết" }
+    ],
+    examples: [
+      { tc: "大年初一，我們全家會去廟裡拜拜。", py: "Dànián chūyī, wǒmen quánjiā huì qù miào lǐ bàibài.", vn: "Mùng một Tết, cả nhà chúng tôi sẽ đi vào chùa thắp nhang." },
+      { tc: "大年初一要穿新衣服，代表新的開始。", py: "Dànián chūyī yào chuān xīn yīfú, dàibiǎo xīn de kāishǐ.", vn: "Mùng một Tết phải mặc quần áo mới, tượng trưng cho một sự khởi đầu mới." },
+      { tc: "大年初一早上吃素，是我們家的習慣。", py: "Dànián chūyī zǎoshàng chīsù, shì wǒmen jiā de xíguàn.", vn: "Sáng mùng một Tết ăn chay, là thói quen của nhà chúng tôi." }
+    ],
+    idiom: "大年初二 Dànián chū'èr - Mùng hai Tết Ngày con gái lấy chồng về thăm nhà ngoại.<br>🔸 Ví dụ: 大年初二，嫁出去的女兒會回娘家。 Dànián chū'èr, jià chūqù de nǚ'ér huì huí niángjiā. - Mùng hai Tết, con gái gả đi rồi sẽ về thăm nhà đẻ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "大年初五", pinyin: "dànián chūwǔ", hanViet: "Đại niên sơ ngũ",
+    image: "",
+    radical: "大年 (Năm mới) + 初五 (Mùng năm)<br>💡 Mẹo nhớ: Ngày thứ năm (五) của năm mới âm lịch, thường là ngày đón Thần Tài và các cửa hàng mở cửa lại.",
+    explanation: "Danh từ chỉ thời gian: Mùng năm Tết.",
+    compounds: [
+      { tc: "大年初五開工", py: "dànián chūwǔ kāigōng", vn: "mùng năm Tết khai trương làm việc lại" }
+    ],
+    examples: [
+      { tc: "很多商店會在大年初五開工。", py: "Hěn duō shāngdiàn huì zài dànián chūwǔ kāigōng.", vn: "Rất nhiều cửa hàng sẽ khai trương làm việc lại vào mùng năm Tết." },
+      { tc: "大年初五要迎財神，希望能發大財。", py: "Dànián chūwǔ yào yíng cáishén, xīwàng néng fā dà cái.", vn: "Mùng năm Tết phải đón Thần Tài, hy vọng có thể phát tài lớn." },
+      { tc: "大年初五，春節假期就快結束了。", py: "Dànián chūwǔ, chūnjié jiàqī jiù kuài jiéshù le.", vn: "Mùng năm Tết, kỳ nghỉ lễ mùa xuân cũng sắp kết thúc rồi." }
+    ],
+    idiom: "迎財神 Yíng cáishén - Đón Thần Tài.<br>🔸 Ví dụ: 老闆在大年初五準備了供品迎財神。 Lǎobǎn zài dànián chūwǔ zhǔnbèi le gòngpǐn yíng cáishén. - Sếp đã chuẩn bị đồ cúng để đón Thần Tài vào ngày mùng năm Tết.", 
+    level: "TOCFL A2"
+  },
   ];
