@@ -9524,4 +9524,54 @@ const dataA2 = [
     idiom: "沒念完 Méi niàn wán - Chưa học xong / Đọc chưa xong.<br>🔸 Ví dụ: 他的大學還沒念完就去工作了。 Tā de dàxué hái méi niàn wán jiù qù gōngzuò le. - Anh ấy đại học vẫn chưa học xong đã đi làm rồi.", 
     level: "TOCFL A2"
   },
+  {
+    word: "分公司", pinyin: "fēngōngsī", hanViet: "Phân công tư",
+    image: "",
+    radical: "分 (Bộ Đao 刀) + 公 (Bộ Bát 八) + 司 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Công ty (公司) được chia (分) ra thành nhiều cơ sở, chi nhánh nhỏ ở các nơi.",
+    explanation: "Danh từ: Chi nhánh công ty, công ty con.",
+    compounds: [
+      { tc: "台北分公司", py: "Táiběi fēngōngsī", vn: "chi nhánh Đài Bắc" },
+      { tc: "設立分公司", py: "shèlì fēngōngsī", vn: "thành lập chi nhánh" }
+    ],
+    examples: [
+      { tc: "我們公司在台南開了一家分公司。", py: "Wǒmen gōngsī zài Táinán kāi le yì jiā fēngōngsī.", vn: "Công ty chúng tôi đã mở một chi nhánh ở Đài Nam." },
+      { tc: "他下個月要被調到上海分公司工作。", py: "Tā xià ge yuè yào bèi diào dào Shànghǎi fēngōngsī gōngzuò.", vn: "Tháng sau anh ấy sẽ bị điều chuyển đến làm việc tại chi nhánh Thượng Hải." },
+      { tc: "這家銀行的分公司到處都有。", py: "Zhè jiā yínháng de fēngōngsī dàochù dōu yǒu.", vn: "Chi nhánh của ngân hàng này đâu đâu cũng có." }
+    ],
+    idiom: "海外分公司 Hǎiwài fēngōngsī - Chi nhánh hải ngoại.<br>🔸 Ví dụ: 為了拓展業務，他們設立了海外分公司。 Wèile tuòzhǎn yèwù, tāmen shèlì le hǎiwài fēngōngsī. - Để mở rộng nghiệp vụ, họ đã thành lập chi nhánh hải ngoại.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "捨不得", pinyin: "shěbùde", hanViet: "Xả bất đắc",
+    image: "",
+    radical: "捨 (Bộ Thủ 扌) + 不 (Bộ Nhất 一) + 得 (Bộ Xích 彳)<br>💡 Mẹo nhớ: Dùng tay (扌) buông bỏ (舍) nhưng trong lòng lại không (不) đành lòng, không nỡ (得).",
+    explanation: "Cụm động từ: Không nỡ, luyến tiếc, không đành lòng.",
+    compounds: [
+      { tc: "捨不得離開", py: "shěbùde líkāi", vn: "không nỡ rời đi" },
+      { tc: "捨不得吃", py: "shěbùde chī", vn: "không nỡ ăn" }
+    ],
+    examples: [
+      { tc: "她要去外國讀書了，我真的很捨不得。", py: "Tā yào qù wàiguó dúshū le, wǒ zhēnde hěn shěbùde.", vn: "Cô ấy sắp đi nước ngoài học rồi, tôi thực sự rất luyến tiếc." },
+      { tc: "這個蛋糕太漂亮了，我捨不得吃。", py: "Zhège dàngāo tài piàoliang le, wǒ shěbùde chī.", vn: "Chiếc bánh kem này đẹp quá, tôi không nỡ ăn." },
+      { tc: "畢業的時候，大家都捨不得離開學校。", py: "Bìyè de shíhòu, dàjiā dōu shěbùde líkāi xuéxiào.", vn: "Lúc tốt nghiệp, mọi người đều không nỡ rời xa trường học." }
+    ],
+    idiom: "捨不得孩子套不住狼 Shěbùde háizi tào bú zhù láng - Không nỡ để đứa trẻ thì không bắt được sói (Phải biết hy sinh mới làm được việc lớn).<br>🔸 Ví dụ: 想要成功就要敢於冒險，捨不得孩子套不住狼。 Xiǎng yào chénggōng jiù yào gǎnyú màoxiǎn, shěbùde háizi tào bú zhù láng. - Muốn thành công thì phải dám mạo hiểm, phải biết hy sinh mới làm được việc lớn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聚一聚", pinyin: "jù yí jù", hanViet: "Tụ nhất tụ",
+    image: "",
+    radical: "聚 (Bộ Nhĩ 耳) + 一 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Cùng nhau tụ tập (聚) lại một (一) chút để trò chuyện, hàn huyên.",
+    explanation: "Cụm động片段: Tụ tập một chút, gặp mặt một chút.",
+    compounds: [
+      { tc: "大家聚一聚", py: "dàjiā jù yí jù", vn: "mọi người tụ tập một chút" }
+    ],
+    examples: [
+      { tc: "我們好久沒見面了，週末出來聚一聚吧。", py: "Wǒmen hǎo jiǔ méi jiànmiàn le, zhōumò chūlái jù yí jù ba.", vn: "Chúng ta lâu lắm không gặp nhau rồi, cuối tuần ra ngoài gặp mặt một chút đi." },
+      { tc: "過年的時候，親戚朋友們都會聚一聚。", py: "Guònián de shíhòu, qīnqī péngyǒumen dōu huì jù yí jù.", vn: "Lúc ăn Tết, họ hàng bạn bè đều sẽ tụ tập một chút." },
+      { tc: "下課後，同學常常去飲料店聚一聚。", py: "Xiàkè hòu, tóngxué chángcháng qù yǐnliàodiàn jù yí jù.", vn: "Sau khi tan học, bạn học thường đến quán đồ uống tụ tập một chút." }
+    ],
+    idiom: "找時間聚一聚 Zhǎo shíjiān jù yí jù - Tìm thời gian gặp mặt chút.<br>🔸 Ví dụ: 最近大家都忙，等忙完再找時間聚一聚。 Zuìjìn dàjiā dōu máng, děng máng wán zài zhǎo shíjiān jù yí jù. - Dạo này mọi người đều bận, đợi bận xong lại tìm thời gian gặp mặt chút nhé.", 
+    level: "TOCFL A2"
+  },
   ];
