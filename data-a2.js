@@ -7718,4 +7718,489 @@ const dataA2 = [
     idiom: "一見鍾情 Yíjiàn zhōngqíng - Tiếng sét ái tình / Vừa gặp đã yêu.<br>🔸 Ví dụ: 他們兩個人是一見鍾情，很快就愛上了對方。 Tāmen liǎng ge rén shì yíjiàn zhōngqíng, hěn kuài jiù àishàng le duìfāng. - Hai người họ là tiếng sét ái tình, rất nhanh chóng đã phải lòng đối phương.", 
     level: "TOCFL A2"
   },
+  {
+    word: "新", pinyin: "xīn", hanViet: "Tân",
+    image: "",
+    radical: "新 (Bộ Cân 斤)<br>💡 Mẹo nhớ: Dùng rìu (斤) chặt cây (木) để làm ra những món đồ mới.",
+    explanation: "Phó từ: Mới (đứng trước động từ, biểu thị hành động vừa mới xảy ra).",
+    compounds: [
+      { tc: "新買的", py: "xīn mǎi de", vn: "mới mua" },
+      { tc: "新來的", py: "xīn lái de", vn: "mới đến" }
+    ],
+    examples: [
+      { tc: "這是我新買的手機。", py: "Zhè shì wǒ xīn mǎi de shǒujī.", vn: "Đây là điện thoại tôi mới mua." },
+      { tc: "他是我們公司新來的員工。", py: "Tā shì wǒmen gōngsī xīn lái de yuángōng.", vn: "Anh ấy là nhân viên mới đến của công ty chúng tôi." },
+      { tc: "這家餐廳是新開的。", py: "Zhè jiā cāntīng shì xīn kāi de.", vn: "Nhà hàng này mới mở." }
+    ],
+    idiom: "新年快樂 Xīnnián kuàilè - Chúc mừng năm mới.<br>🔸 Ví dụ: 祝大家新年快樂，萬事如意。 Zhù dàjiā xīnnián kuàilè, wànshì rúyì. - Chúc mọi người năm mới vui vẻ, vạn sự như ý.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "開", pinyin: "kāi", hanViet: "Khai",
+    image: "",
+    radical: "開 (Bộ Môn 門)<br>💡 Mẹo nhớ: Hình ảnh hai tay mở tung cánh cửa (門).",
+    explanation: "Động từ: Mở, khai trương (cửa hàng, công ty).",
+    compounds: [
+      { tc: "開餐廳", py: "kāi cāntīng", vn: "mở nhà hàng" },
+      { tc: "開公司", py: "kāi gōngsī", vn: "mở công ty" }
+    ],
+    examples: [
+      { tc: "我朋友打算在台北開一家咖啡廳。", py: "Wǒ péngyǒu dǎsuàn zài Táiběi kāi yì jiā kāfēitīng.", vn: "Bạn tôi dự định mở một quán cà phê ở Đài Bắc." },
+      { tc: "這家店明天正式開幕。", py: "Zhè jiā diàn míngtiān zhèngshì kāimù.", vn: "Cửa hàng này ngày mai chính thức khai trương." },
+      { tc: "這家銀行早上九點開門。", py: "Zhè jiā yínháng zǎoshàng jiǔ diǎn kāimén.", vn: "Ngân hàng này chín giờ sáng mở cửa." }
+    ],
+    idiom: "開張大吉 Kāizhāng dàjí - Khai trương hồng phát.<br>🔸 Ví dụ: 祝你的新店開張大吉，生意興隆。 Zhù nǐ de xīn diàn kāizhāng dàjí, shēngyì xīnglóng. - Chúc cửa hàng mới của bạn khai trương hồng phát, buôn may bán đắt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "素食", pinyin: "sùshí", hanViet: "Tố thực",
+    image: "",
+    radical: "素 (Bộ Mịch 糸) + 食 (Bộ Thực 食)<br>💡 Mẹo nhớ: Thức ăn (食) thanh đạm, mộc mạc như những sợi tơ (糸) trắng.",
+    explanation: "Danh từ: Đồ chay, thức ăn chay.",
+    compounds: [
+      { tc: "素食餐廳", py: "sùshí cāntīng", vn: "nhà hàng chay" },
+      { tc: "吃素食", py: "chī sùshí", vn: "ăn đồ chay" }
+    ],
+    examples: [
+      { tc: "這家素食餐廳的菜很好吃。", py: "Zhè jiā sùshí cāntīng de cài hěn hǎochī.", vn: "Món ăn của nhà hàng chay này rất ngon." },
+      { tc: "為了健康，他開始吃素食。", py: "Wèile jiànkāng, tā kāishǐ chī sùshí.", vn: "Vì sức khỏe, anh ấy bắt đầu ăn đồ chay." },
+      { tc: "台灣有很多賣素食的地方。", py: "Táiwān yǒu hěn duō mài sùshí de dìfāng.", vn: "Đài Loan có rất nhiều nơi bán đồ chay." }
+    ],
+    idiom: "素食主義者 Sùshí zhǔyì zhě - Người ăn chay trường.<br>🔸 Ví dụ: 他是一個嚴格的素食主義者，完全不吃肉。 Tā shì yí ge yángé de sùshí zhǔyì zhě, wánquán bù chī ròu. - Anh ấy là một người ăn chay trường nghiêm ngặt, hoàn toàn không ăn thịt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "速食", pinyin: "sùshí", hanViet: "Tốc thực",
+    image: "",
+    radical: "速 (Bộ Xước 辶) + 食 (Bộ Thực 食)<br>💡 Mẹo nhớ: Thức ăn (食) được chuẩn bị và phục vụ với tốc độ (速) rất nhanh.",
+    explanation: "Danh từ: Thức ăn nhanh (fast food).",
+    compounds: [
+      { tc: "速食店", py: "sùshí diàn", vn: "cửa hàng thức ăn nhanh" }
+    ],
+    examples: [
+      { tc: "小孩子通常很喜歡吃速食。", py: "Xiǎoháizi tōngcháng hěn xǐhuān chī sùshí.", vn: "Trẻ con thông thường rất thích ăn thức ăn nhanh." },
+      { tc: "吃太多速食對身體不好。", py: "Chī tài duō sùshí duì shēntǐ bù hǎo.", vn: "Ăn quá nhiều thức ăn nhanh không tốt cho cơ thể." },
+      { tc: "我趕時間，所以中午只吃了速食。", py: "Wǒ gǎn shíjiān, suǒyǐ zhōngwǔ zhǐ chī le sùshí.", vn: "Tôi vội thời gian, cho nên buổi trưa chỉ ăn thức ăn nhanh." }
+    ],
+    idiom: "速食文化 Sùshí wénhuà - Văn hóa thức ăn nhanh / Văn hóa 'mì ăn liền' (chỉ sự hời hợt, nhanh chóng).<br>🔸 Ví dụ: 現代社會充斥著速食文化，人們越來越沒有耐心。 Xiàndài shèhuì chōngchìzhe sùshí wénhuà, rénmen yuèláiyuè méiyǒu nàixīn. - Xã hội hiện đại tràn ngập văn hóa 'mì ăn liền', con người ngày càng không có kiên nhẫn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "錯", pinyin: "cuò", hanViet: "Thác",
+    image: "",
+    radical: "錯 (Bộ Kim 金)<br>💡 Mẹo nhớ: Đồ kim loại (金) xưa nếu chế tác không tốt sẽ dễ bị lỗi, sai sót.",
+    explanation: "Tính từ / Động từ: Sai, lỗi.",
+    compounds: [
+      { tc: "寫錯", py: "xiě cuò", vn: "viết sai" },
+      { tc: "做錯", py: "zuò cuò", vn: "làm sai" }
+    ],
+    examples: [
+      { tc: "這道題你做錯了，請再算一次。", py: "Zhè dào tí nǐ zuò cuò le, qǐng zài suàn yí cì.", vn: "Câu này bạn làm sai rồi, vui lòng tính lại một lần nữa." },
+      { tc: "對不起，我打錯電話了。", py: "Duìbùqǐ, wǒ dǎ cuò diànhuà le.", vn: "Xin lỗi, tôi gọi nhầm số rồi." },
+      { tc: "我把他的名字寫錯了。", py: "Wǒ bǎ tā de míngzi xiě cuò le.", vn: "Tôi viết sai tên của anh ấy rồi." }
+    ],
+    idiom: "認錯 Rèncuò - Nhận lỗi.<br>🔸 Ví dụ: 做錯事就應該勇敢認錯。 Zuò cuò shì jiù yīnggāi yǒnggǎn rèncuò. - Làm sai thì nên dũng cảm nhận lỗi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "肉", pinyin: "ròu", hanViet: "Nhục",
+    image: "",
+    radical: "肉 (Bộ Nhục 肉)<br>💡 Mẹo nhớ: Chữ tượng hình mô phỏng miếng thịt có các thớ thịt.",
+    explanation: "Danh từ: Thịt.",
+    compounds: [
+      { tc: "吃肉", py: "chī ròu", vn: "ăn thịt" },
+      { tc: "豬肉", py: "zhūròu", vn: "thịt lợn" }
+    ],
+    examples: [
+      { tc: "我不吃素，我喜歡吃肉。", py: "Wǒ bù chī sù, wǒ xǐhuān chī ròu.", vn: "Tôi không ăn chay, tôi thích ăn thịt." },
+      { tc: "這家餐廳的牛肉非常好吃。", py: "Zhè jiā cāntīng de niúròu fēicháng hǎochī.", vn: "Thịt bò của nhà hàng này vô cùng ngon." },
+      { tc: "醫生說我要少吃肉，多吃青菜。", py: "Yīshēng shuō wǒ yào shǎo chī ròu, duō chī qīngcài.", vn: "Bác sĩ nói tôi phải ít ăn thịt, ăn nhiều rau xanh." }
+    ],
+    idiom: "長肉 Zhǎng ròu - Tăng cân / Lên thịt.<br>🔸 Ví dụ: 最近吃太多了，我又長肉了。 Zuìjìn chī tài duō le, wǒ yòu zhǎng ròu le. - Dạo này ăn nhiều quá, tôi lại lên thịt rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "欸", pinyin: "èi", hanViet: "Ai",
+    image: "",
+    radical: "欸 (Bộ Khiếm 欠)<br>💡 Mẹo nhớ: Từ dùng để gọi người khác, thường dùng trong khẩu ngữ.",
+    explanation: "Trợ từ / Thán từ: Ê, này (dùng để gọi hoặc gây chú ý).",
+    compounds: [
+      { tc: "欸，你過來", py: "èi, nǐ guòlái", vn: "ê, bạn qua đây" }
+    ],
+    examples: [
+      { tc: "欸，你的東西掉了！", py: "Èi, nǐ de dōngxī diào le!", vn: "Ê, đồ của bạn rớt kìa!" },
+      { tc: "欸，我們明天幾點見面？", py: "Èi, wǒmen míngtiān jǐ diǎn jiànmiàn?", vn: "Này, ngày mai chúng ta mấy giờ gặp nhau?" },
+      { tc: "欸，你覺得這件衣服好看嗎？", py: "Èi, nǐ juéde zhè jiàn yīfú hǎokàn ma?", vn: "Này, bạn thấy chiếc áo này đẹp không?" }
+    ],
+    idiom: "欸一聲 Èi yì shēng - 叫 một tiếng 'ê'.<br>🔸 Ví dụ: 他欸了一聲，轉頭看著我。 Tā èi le yì shēng, zhuǎntóu kànzhe wǒ. - Anh ấy gọi một tiếng 'ê', quay đầu nhìn tôi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "讓", pinyin: "ràng", hanViet: "Nhượng",
+    image: "",
+    radical: "讓 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Dùng lời nói (言) để nhường nhịn hoặc cho phép người khác làm gì.",
+    explanation: "Động từ: Để cho, nhường, bảo, khiến cho.",
+    compounds: [
+      { tc: "讓座", py: "ràngzuò", vn: "nhường ghế" },
+      { tc: "讓我來", py: "ràng wǒ lái", vn: "để tôi làm" }
+    ],
+    examples: [
+      { tc: "這件事讓我非常生氣。", py: "Zhè jiàn shì ràng wǒ fēicháng shēngqì.", vn: "Việc này khiến tôi vô cùng tức giận." },
+      { tc: "請讓一讓，我要過去。", py: "Qǐng ràng yí ràng, wǒ yào guòqù.", vn: "Xin nhường đường một chút, tôi muốn đi qua." },
+      { tc: "媽媽不讓我喝冰水。", py: "Māma bú ràng wǒ hē bīng shuǐ.", vn: "Mẹ không cho phép tôi uống nước đá." }
+    ],
+    idiom: "當仁不讓 Dāng rén bú ràng - Thấy việc nghĩa không chối từ.<br>🔸 Ví dụ: 遇到需要幫忙的人，他總是當仁不讓。 Yùdào xūyào bāngmáng de rén, tā zǒngshì dāng rén bú ràng. - Gặp người cần giúp đỡ, anh ấy lúc nào cũng thấy việc nghĩa không chối từ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "吃素", pinyin: "chīsù", hanViet: "Ngật tố",
+    image: "",
+    radical: "吃 (Bộ Khẩu 口) + 素 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Ăn (吃) những thức ăn thanh đạm (素).",
+    explanation: "Cụm động từ: Ăn chay.",
+    compounds: [
+      { tc: "吃全素", py: "chī quán sù", vn: "ăn chay trường" }
+    ],
+    examples: [
+      { tc: "他因為宗教的關係開始吃素。", py: "Tā yīnwèi zōngjiào de guānxì kāishǐ chīsù.", vn: "Anh ấy vì lý do tôn giáo nên bắt đầu ăn chay." },
+      { tc: "我今天吃素，不吃肉。", py: "Wǒ jīntiān chīsù, bù chī ròu.", vn: "Hôm nay tôi ăn chay, không ăn thịt." },
+      { tc: "台灣有很多吃素的人。", py: "Táiwān yǒu hěn duō chīsù de rén.", vn: "Đài Loan có rất nhiều người ăn chay." }
+    ],
+    idiom: "初一十五吃素 Chūyī shíwǔ chīsù - Mùng một ngày rằm ăn chay.<br>🔸 Ví dụ: 我奶奶習慣初一十五吃素。 Wǒ nǎinai xíguàn chūyī shíwǔ chīsù. - Bà nội tôi có thói quen ăn chay vào mùng một và ngày rằm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "漢堡", pinyin: "hànbǎo", hanViet: "Hán bảo",
+    image: "",
+    radical: "漢 (Bộ Thủy 氵) + 堡 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Từ mượn phiên âm tiếng Anh của 'hamburger'.",
+    explanation: "Danh từ: Bánh hamburger.",
+    compounds: [
+      { tc: "吃漢堡", py: "chī hànbǎo", vn: "ăn hamburger" },
+      { tc: "牛肉漢堡", py: "niúròu hànbǎo", vn: "hamburger bò" }
+    ],
+    examples: [
+      { tc: "我中午在速食店吃了一個漢堡。", py: "Wǒ zhōngwǔ zài sùshí diàn chī le yí ge hànbǎo.", vn: "Buổi trưa tôi đã ăn một cái hamburger ở cửa hàng thức ăn nhanh." },
+      { tc: "這家店的漢堡非常有名。", py: "Zhè jiā diàn de hànbǎo fēicháng yǒumíng.", vn: "Hamburger của tiệm này vô cùng nổi tiếng." },
+      { tc: "請給我一個漢堡和一杯可樂。", py: "Qǐng gěi wǒ yí ge hànbǎo hé yì bēi kělè.", vn: "Xin cho tôi một cái hamburger và một ly cola." }
+    ],
+    idiom: "漢堡薯條 Hànbǎo shǔtiáo - Hamburger và khoai tây chiên (combo thức ăn nhanh điển hình).<br>🔸 Ví dụ: 小朋友最喜歡吃漢堡薯條了。 Xiǎopéngyǒu zuì xǐhuān chī hànbǎo shǔtiáo le. - Trẻ con thích ăn hamburger và khoai tây chiên nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "變", pinyin: "biàn", hanViet: "Biến",
+    image: "",
+    radical: "變 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Sự vật thay đổi trạng thái, tính chất.",
+    explanation: "Động từ: Biến đổi, trở nên, trở thành.",
+    compounds: [
+      { tc: "變胖", py: "biàn pàng", vn: "béo lên" },
+      { tc: "變漂亮", py: "biàn piàoliang", vn: "trở nên xinh đẹp" }
+    ],
+    examples: [
+      { tc: "天氣變冷了，你要多穿衣服。", py: "Tiānqì biàn lěng le, nǐ yào duō chuān yīfú.", vn: "Thời tiết trở lạnh rồi, bạn phải mặc nhiều áo vào." },
+      { tc: "幾年沒見，你變瘦了。", py: "Jǐ nián méi jiàn, nǐ biàn shòu le.", vn: "Mấy năm không gặp, bạn gầy đi rồi." },
+      { tc: "他變成了一個很有名的人。", py: "Tā biànchéng le yí ge hěn yǒumíng de rén.", vn: "Anh ấy đã trở thành một người rất nổi tiếng." }
+    ],
+    idiom: "千變萬化 Qiānbiàn wànhuà - Biến hóa khôn lường / Thay đổi thiên biến vạn hóa.<br>🔸 Ví dụ: 這裡的天氣千變萬化，很難預測。 Zhèlǐ de tiānqì qiānbiàn wànhuà, hěn nán yùcè. - Thời tiết ở đây biến hóa khôn lường, rất khó dự đoán.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "胖", pinyin: "pàng", hanViet: "Bán",
+    image: "",
+    radical: "胖 (Bộ Nhục 月)<br>💡 Mẹo nhớ: Bộ Nhục (月) chỉ cơ thể con người, khi có nhiều thịt thì sẽ trở nên mập mạp.",
+    explanation: "Tính từ: Béo, mập.",
+    compounds: [
+      { tc: "很胖", py: "hěn pàng", vn: "rất béo" },
+      { tc: "變胖", py: "biàn pàng", vn: "béo lên" }
+    ],
+    examples: [
+      { tc: "我最近吃太多，變胖了。", py: "Wǒ zuìjìn chī tài duō, biàn pàng le.", vn: "Dạo này tôi ăn nhiều quá, béo lên rồi." },
+      { tc: "那隻貓好胖，非常可愛。", py: "Nà zhī māo hǎo pàng, fēicháng kě'ài.", vn: "Chú mèo đó béo quá, vô cùng đáng yêu." },
+      { tc: "他不喜歡別人說他胖。", py: "Tā bù xǐhuān biérén shuō tā pàng.", vn: "Anh ấy không thích người khác chê anh ấy béo." }
+    ],
+    idiom: "心寬體胖 Xīnkuān tǐpàng - Lòng dạ thanh thản thì thân thể béo tốt.<br>🔸 Ví dụ: 退休後，他每天去爬山，心寬體胖。 Tuìxiū hòu, tā měitiān qù páshān, xīnkuān tǐpàng. - Sau khi nghỉ hưu, mỗi ngày ông ấy đều đi leo núi, lòng dạ thanh thản thân thể béo tốt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "素菜", pinyin: "sùcài", hanViet: "Tố thái",
+    image: "",
+    radical: "素 (Bộ Mịch 糸) + 菜 (Bộ Thảo 艹)<br>💡 Mẹo nhớ: Các món ăn (菜) được chế biến từ nguyên liệu thanh đạm, không có thịt (素).",
+    explanation: "Danh từ: Món chay.",
+    compounds: [
+      { tc: "點素菜", py: "diǎn sùcài", vn: "gọi món chay" }
+    ],
+    examples: [
+      { tc: "這家餐廳有很多好吃的素菜。", py: "Zhè jiā cāntīng yǒu hěn duō hǎochī de sùcài.", vn: "Nhà hàng này có rất nhiều món chay ngon." },
+      { tc: "我媽媽很會做素菜。", py: "Wǒ māma hěn huì zuò sùcài.", vn: "Mẹ tôi rất giỏi làm món chay." },
+      { tc: "今天的晚宴我們點了幾道素菜。", py: "Jīntiān de wǎnyàn wǒmen diǎn le jǐ dào sùcài.", vn: "Bữa tiệc tối nay chúng tôi đã gọi vài món chay." }
+    ],
+    idiom: "素菜館 Sùcài guǎn - Quán ăn chay.<br>🔸 Ví dụ: 附近新開了一家素菜館，我們去吃吃看吧。 Fùjìn xīn kāi le yì jiā sùcài guǎn, wǒmen qù chīchī kàn ba. - Gần đây mới mở một quán ăn chay, chúng ta đi ăn thử xem sao nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "油膩", pinyin: "yóunì", hanViet: "Du nị",
+    image: "",
+    radical: "油 (Bộ Thủy 氵) + 膩 (Bộ Nhục 月)<br>💡 Mẹo nhớ: Thức ăn có nhiều dầu mỡ (油), ăn vào có cảm giác ngấy (膩).",
+    explanation: "Tính từ: Nhiều dầu mỡ, ngấy.",
+    compounds: [
+      { tc: "太油膩", py: "tài yóunì", vn: "nhiều dầu mỡ quá" }
+    ],
+    examples: [
+      { tc: "這道菜太油膩了，我吃不下。", py: "Zhè dào cài tài yóunì le, wǒ chī bú xià.", vn: "Món ăn này nhiều dầu mỡ quá, tôi ăn không trôi." },
+      { tc: "醫生建議他少吃油膩的食物。", py: "Yīshēng jiànyì tā shǎo chī yóunì de shíwù.", vn: "Bác sĩ khuyên anh ấy ít ăn thức ăn nhiều dầu mỡ." },
+      { tc: "炸雞雖然好吃，但是很油膩。", py: "Zhá jī suīrán hǎochī, dànshì hěn yóunì.", vn: "Gà rán tuy ngon, nhưng mà rất ngấy." }
+    ],
+    idiom: "油腔滑調 Yóuqiāng huádiào - Khua môi múa mép / Ăn nói bỡn cợt.<br>🔸 Ví dụ: 他說話油腔滑調的，讓人很不舒服。 Tā shuōhuà yóuqiāng huádiào de, ràng rén hěn bù shūfú. - Anh ta ăn nói khua môi múa mép, khiến người ta rất khó chịu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "樣", pinyin: "yàng", hanViet: "Dạng",
+    image: "",
+    radical: "樣 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Hình dáng, kiểu mẫu của sự vật. Dùng làm lượng từ cho các chủng loại, món ăn.",
+    explanation: "Lượng từ: Loại, món, thứ.",
+    compounds: [
+      { tc: "一樣", py: "yíyàng", vn: "một loại / giống nhau" },
+      { tc: "兩樣菜", py: "liǎng yàng cài", vn: "hai món ăn" }
+    ],
+    examples: [
+      { tc: "這家店賣各樣的甜點。", py: "Zhè jiā diàn mài gè yàng de tiándiǎn.", vn: "Cửa hàng này bán đủ các loại đồ ngọt." },
+      { tc: "媽媽今天做了三樣菜。", py: "Māma jīntiān zuò le sān yàng cài.", vn: "Hôm nay mẹ đã làm ba món ăn." },
+      { tc: "你要買哪一樣？", py: "Nǐ yào mǎi nǎ yí yàng?", vn: "Bạn muốn mua loại nào?" }
+    ],
+    idiom: "各式各樣 Gèshì gèyàng - Đủ loại kiểu dáng / Đa dạng muôn màu.<br>🔸 Ví dụ: 這裡有各式各樣的衣服。 Zhèlǐ yǒu gèshì gèyàng de yīfú. - Ở đây có đủ các loại quần áo.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "好奇", pinyin: "hàoqí", hanViet: "Hiếu kỳ",
+    image: "",
+    radical: "好 (Bộ Nữ 女) + 奇 (Bộ Đại 大)<br>💡 Mẹo nhớ: Yêu thích (好 - đọc là hào) việc tìm hiểu những điều kỳ lạ (奇), mới mẻ.",
+    explanation: "Tính từ: Tò mò, hiếu kỳ.",
+    compounds: [
+      { tc: "很好奇", py: "hěn hàoqí", vn: "rất tò mò" },
+      { tc: "好奇心", py: "hàoqíxīn", vn: "tính tò mò" }
+    ],
+    examples: [
+      { tc: "我對這件事感到很好奇。", py: "Wǒ duì zhè jiàn shì gǎndào hěn hàoqí.", vn: "Tôi cảm thấy rất tò mò về chuyện này." },
+      { tc: "小孩子對什麼事都很好奇。", py: "Xiǎoháizi duì shénme shì dōu hěn hàoqí.", vn: "Trẻ con đối với chuyện gì cũng đều rất hiếu kỳ." },
+      { tc: "不要太好奇別人的私事。", py: "Búyào tài hàoqí biérén de sīshì.", vn: "Đừng quá tò mò về chuyện riêng tư của người khác." }
+    ],
+    idiom: "好奇害死貓 Hàoqí hài sǐ māo - Tò mò hại chết mèo (Sự tò mò có thể dẫn đến rắc rối).<br>🔸 Ví dụ: 有些事還是不知道比較好，好奇害死貓。 Yǒuxiē shì háishì bù zhīdào bǐjiào hǎo, hàoqí hài sǐ māo. - Có một số chuyện tốt nhất là không nên biết, tò mò sẽ gây ra rắc rối đấy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "女孩", pinyin: "nǚhái", hanViet: "Nữ hài",
+    image: "",
+    radical: "女 (Bộ Nữ 女) + 孩 (Bộ Tử 子)<br>💡 Mẹo nhớ: Những đứa trẻ (孩) có giới tính nữ (女).",
+    explanation: "Danh từ: Cô gái, bé gái.",
+    compounds: [
+      { tc: "小女孩", py: "xiǎo nǚhái", vn: "bé gái" },
+      { tc: "男孩", py: "nánhái", vn: "chàng trai, bé trai" }
+    ],
+    examples: [
+      { tc: "那個穿紅衣服的女孩是誰？", py: "Nàge chuān hóng yīfú de nǚhái shì shuí?", vn: "Cô gái mặc áo đỏ kia là ai vậy?" },
+      { tc: "她生了一個可愛的小女孩。", py: "Tā shēng le yí ge kě'ài de xiǎo nǚhái.", vn: "Cô ấy đã sinh được một bé gái đáng yêu." },
+      { tc: "這個女孩非常聰明。", py: "Zhège nǚhái fēicháng cōngmíng.", vn: "Cô bé này vô cùng thông minh." }
+    ],
+    idiom: "女孩子氣 Nǚhái zi qì - Nữ tính / Dịu dàng.<br>🔸 Ví dụ: 她的穿著打扮很女孩子氣。 Tā de chuānzhuó dǎbàn hěn nǚhái zi qì. - Cách ăn mặc của cô ấy rất nữ tính.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "青菜", pinyin: "qīngcài", hanViet: "Thanh thái",
+    image: "",
+    radical: "青 (Bộ Thanh 青) + 菜 (Bộ Thảo 艹)<br>💡 Mẹo nhớ: Những loại rau (菜) có màu xanh lá (青).",
+    explanation: "Danh từ: Rau xanh.",
+    compounds: [
+      { tc: "吃青菜", py: "chī qīngcài", vn: "ăn rau xanh" },
+      { tc: "炒青菜", py: "chǎo qīngcài", vn: "rau xào" }
+    ],
+    examples: [
+      { tc: "媽媽每天都會準備一盤炒青菜。", py: "Māma měitiān dōu huì zhǔnbèi yì pán chǎo qīngcài.", vn: "Mẹ mỗi ngày đều sẽ chuẩn bị một đĩa rau xào." },
+      { tc: "多吃青菜對身體好。", py: "Duō chī qīngcài duì shēntǐ hǎo.", vn: "Ăn nhiều rau xanh tốt cho cơ thể." },
+      { tc: "我不喜歡吃肉，只喜歡吃青菜。", py: "Wǒ bù xǐhuān chī ròu, zhǐ xǐhuān chī qīngcài.", vn: "Tôi không thích ăn thịt, chỉ thích ăn rau xanh." }
+    ],
+    idiom: "小白菜 Xiǎobáicài - Rau cải chíp.<br>🔸 Ví dụ: 今天的青菜是炒小白菜。 Jīntiān de qīngcài shì chǎo xiǎobáicài. - Rau xanh hôm nay là món cải chíp xào.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "瘦", pinyin: "shòu", hanViet: "Sấu",
+    image: "",
+    radical: "瘦 (Bộ Nạch 疒)<br>💡 Mẹo nhớ: Bộ Nạch (疒) chỉ bệnh tật, gầy gò ốm yếu thường liên quan đến sức khỏe không tốt.",
+    explanation: "Tính từ: Gầy, ốm.",
+    compounds: [
+      { tc: "變瘦", py: "biàn shòu", vn: "gầy đi" },
+      { tc: "很瘦", py: "hěn shòu", vn: "rất gầy" }
+    ],
+    examples: [
+      { tc: "你最近變瘦了，是不是工作太累？", py: "Nǐ zuìjìn biàn shòu le, shì bú shì gōngzuò tài lèi?", vn: "Dạo này bạn gầy đi rồi, có phải công việc mệt quá không?" },
+      { tc: "他雖然很瘦，但是力氣很大。", py: "Tā suīrán hěn shòu, dànshì lìqì hěn dà.", vn: "Anh ấy tuy rất gầy, nhưng sức lực lại rất lớn." },
+      { tc: "為了穿那件裙子，她想努力變瘦。", py: "Wèile chuān nà jiàn qúnzi, tā xiǎng nǔlì biàn shòu.", vn: "Để mặc vừa chiếc váy đó, cô ấy muốn nỗ lực giảm cân." }
+    ],
+    idiom: "骨瘦如柴 Gǔshòu rú chái - Gầy như que củi.<br>🔸 Ví dụ: 他生了一場大病，變得骨瘦如柴。 Tā shēng le yì chǎng dàbìng, biàn de gǔshòu rú chái. - Anh ấy bị một trận ốm nặng, trở nên gầy như que củi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "室友", pinyin: "shìyǒu", hanViet: "Thất hữu",
+    image: "",
+    radical: "室 (Bộ Miên 宀) + 友 (Bộ Hựu 又)<br>💡 Mẹo nhớ: Bạn bè (友) cùng sống chung dưới một mái nhà, một căn phòng (室).",
+    explanation: "Danh từ: Bạn cùng phòng.",
+    compounds: [
+      { tc: "好室友", py: "hǎo shìyǒu", vn: "bạn cùng phòng tốt" }
+    ],
+    examples: [
+      { tc: "我的室友是日本人。", py: "Wǒ de shìyǒu shì Rìběn rén.", vn: "Bạn cùng phòng của tôi là người Nhật Bản." },
+      { tc: "我和室友的感情很好。", py: "Wǒ hé shìyǒu de gǎnqíng hěn hǎo.", vn: "Tình cảm của tôi và bạn cùng phòng rất tốt." },
+      { tc: "他正在找新的室友一起租房子。", py: "Tā zhèngzài zhǎo xīn de shìyǒu yìqǐ zū fángzi.", vn: "Anh ấy đang tìm bạn cùng phòng mới để cùng thuê nhà." }
+    ],
+    idiom: "好聚好散 Hǎo jù hǎo sàn - Hợp nhau thì tụ, không hợp thì tán (Thường dùng khi chia tay bạn cùng phòng).<br>🔸 Ví dụ: 雖然要搬走了，但我們還是好聚好散吧。 Suīrán yào bān zǒu le, dàn wǒmen háishì hǎo jù hǎo sàn ba. - Tuy phải chuyển đi rồi, nhưng chúng ta vẫn cứ chia tay trong vui vẻ nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "豬肉", pinyin: "zhūròu", hanViet: "Trư nhục",
+    image: "",
+    radical: "豬 (Bộ Thỉ 豕) + 肉 (Bộ Nhục 肉)<br>💡 Mẹo nhớ: Thịt (肉) của con lợn (豕).",
+    explanation: "Danh từ: Thịt lợn, thịt heo.",
+    compounds: [
+      { tc: "豬肉水餃", py: "zhūròu shuǐjiǎo", vn: "sủi cảo nhân thịt lợn" },
+      { tc: "滷豬肉", py: "lǔ zhūròu", vn: "thịt lợn kho tàu" }
+    ],
+    examples: [
+      { tc: "我不吃牛肉，只吃豬肉。", py: "Wǒ bù chī niúròu, zhǐ chī zhūròu.", vn: "Tôi không ăn thịt bò, chỉ ăn thịt lợn." },
+      { tc: "這道豬肉料理非常受歡迎。", py: "Zhè dào zhūròu liàolǐ fēicháng shòu huānyíng.", vn: "Món thịt lợn này vô cùng được yêu thích." },
+      { tc: "市場裡的豬肉很新鮮。", py: "Shìchǎng lǐ de zhūròu hěn xīnxiān.", vn: "Thịt lợn trong chợ rất tươi." }
+    ],
+    idiom: "豬肉滿福堡 Zhūròu mǎnfúbǎo - Bánh mì kẹp xúc xích heo (Món ăn sáng nổi tiếng của McDonald's).<br>🔸 Ví dụ: 早餐我最喜歡吃豬肉滿福堡。 Zǎocān wǒ zuì xǐhuān chī zhūròu mǎnfúbǎo. - Bữa sáng tôi thích ăn bánh mì kẹp xúc xích heo nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "西方", pinyin: "xīfāng", hanViet: "Tây phương",
+    image: "",
+    radical: "西 (Bộ Á 襾) + 方 (Bộ Phương 方)<br>💡 Mẹo nhớ: Phương hướng (方) nằm ở phía Tây (西).",
+    explanation: "Danh từ: Phương Tây.",
+    compounds: [
+      { tc: "西方人", py: "xīfāng rén", vn: "người phương Tây" },
+      { tc: "西方文化", py: "xīfāng wénhuà", vn: "văn hóa phương Tây" }
+    ],
+    examples: [
+      { tc: "西方國家的生活習慣和我們不同。", py: "Xīfāng guójiā de shēnghuó xíguàn hé wǒmen bùtóng.", vn: "Thói quen sinh hoạt của các nước phương Tây không giống với chúng ta." },
+      { tc: "他對西方歷史很感興趣。", py: "Tā duì xīfāng lìshǐ hěn gǎn xìngqù.", vn: "Anh ấy rất có hứng thú với lịch sử phương Tây." },
+      { tc: "很多西方人喜歡來亞洲旅行。", py: "Hěn duō xīfāng rén xǐhuān lái Yàzhōu lǚxíng.", vn: "Rất nhiều người phương Tây thích đến Châu Á du lịch." }
+    ],
+    idiom: "西方極樂世界 Xīfāng jílè shìjiè - Tây phương cực lạc.<br>🔸 Ví dụ: 佛教相信人死後會去西方極樂世界。 Fójiào xiāngxìn rén sǐ hòu huì qù xīfāng jílè shìjiè. - Phật giáo tin rằng con người sau khi chết sẽ đi đến Tây phương cực lạc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "完全", pinyin: "wánquán", hanViet: "Hoàn toàn",
+    image: "",
+    radical: "完 (Bộ Miên 宀) + 全 (Bộ Nhập 入)<br>💡 Mẹo nhớ: Sự việc đã hoàn tất (完) một cách trọn vẹn (全).",
+    explanation: "Phó từ: Hoàn toàn.",
+    compounds: [
+      { tc: "完全不懂", py: "wánquán bù dǒng", vn: "hoàn toàn không hiểu" },
+      { tc: "完全同意", py: "wánquán tóngyì", vn: "hoàn toàn đồng ý" }
+    ],
+    examples: [
+      { tc: "我完全不知道這件事。", py: "Wǒ wánquán bù zhīdào zhè jiàn shì.", vn: "Tôi hoàn toàn không biết chuyện này." },
+      { tc: "這兩本書的內容完全不同。", py: "Zhè liǎng běn shū de nèiróng wánquán bùtóng.", vn: "Nội dung của hai quyển sách này hoàn toàn khác nhau." },
+      { tc: "他完全忘記了我們的約會。", py: "Tā wánquán wàngjì le wǒmen de yuēhuì.", vn: "Anh ấy hoàn toàn quên mất cuộc hẹn của chúng ta rồi." }
+    ],
+    idiom: "完全沒問題 Wánquán méi wèntí - Hoàn toàn không vấn đề gì.<br>🔸 Ví dụ: 交給我辦，完全沒問題。 Jiāo gěi wǒ bàn, wánquán méi wèntí. - Giao cho tôi làm, hoàn toàn không vấn đề gì.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "鹹", pinyin: "xián", hanViet: "Hàm",
+    image: "",
+    radical: "鹹 (Bộ Lỗ 鹵)<br>💡 Mẹo nhớ: Bộ Lỗ (鹵) mang ý nghĩa là vùng đất mặn, sinh ra vị mặn.",
+    explanation: "Tính từ: Mặn.",
+    compounds: [
+      { tc: "太鹹", py: "tài xián", vn: "mặn quá" },
+      { tc: "鹹魚", py: "xiányú", vn: "cá muối" }
+    ],
+    examples: [
+      { tc: "這道菜太鹹了，我要喝水。", py: "Zhè dào cài tài xián le, wǒ yào hē shuǐ.", vn: "Món này mặn quá, tôi muốn uống nước." },
+      { tc: "我不喜歡吃太鹹的食物。", py: "Wǒ bù xǐhuān chī tài xián de shíwù.", vn: "Tôi không thích ăn thức ăn quá mặn." },
+      { tc: "煮湯的時候，鹽不要放太多，不然會很鹹。", py: "Zhǔ tāng de shíhòu, yán búyào fàng tài duō, bùrán huì hěn xián.", vn: "Lúc nấu canh, đừng cho quá nhiều muối, nếu không sẽ rất mặn." }
+    ],
+    idiom: "鹹魚翻身 Xiányú fānshēn - Cá muối lật mình / Đổi đời.<br>🔸 Ví dụ: 他買彩券中了大獎，真的是鹹魚翻身了。 Tā mǎi cǎiquàn zhòng le dàjiǎng, zhēnde shì xiányú fānshēn le. - Anh ấy mua vé số trúng được giải lớn, thật sự là đổi đời rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "炸", pinyin: "zhá", hanViet: "Trá",
+    image: "",
+    radical: "炸 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Dùng lửa (灬) để đun nóng dầu và chiên chín thức ăn.",
+    explanation: "Động từ: Chiên, rán, ngập dầu.",
+    compounds: [
+      { tc: "炸雞", py: "zhájī", vn: "gà rán" },
+      { tc: "炸薯條", py: "zhá shǔtiáo", vn: "khoai tây chiên" }
+    ],
+    examples: [
+      { tc: "這家速食店的炸雞很好吃。", py: "Zhè jiā sùshí diàn de zhájī hěn hǎochī.", vn: "Gà rán của cửa hàng thức ăn nhanh này rất ngon." },
+      { tc: "我不常吃炸的東西，因為熱量太高了。", py: "Wǒ bù cháng chī zhá de dōngxī, yīnwèi rèliàng tài gāo le.", vn: "Tôi không hay ăn đồ chiên rán, vì lượng calo quá cao." },
+      { tc: "請幫我炸一份薯條。", py: "Qǐng bāng wǒ zhá yí fèn shǔtiáo.", vn: "Vui lòng chiên giúp tôi một phần khoai tây." }
+    ],
+    idiom: "炸豬排 Zhá zhūpái - Thịt heo chiên xù.<br>🔸 Ví dụ: 日式炸豬排飯非常受歡迎。 Rìshì zhá zhūpái fàn fēicháng shòu huānyíng. - Cơm thịt heo chiên xù kiểu Nhật vô cùng được ưa chuộng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "烤", pinyin: "kǎo", hanViet: "Khảo",
+    image: "",
+    radical: "烤 (Bộ Hỏa 火)<br>💡 Mẹo nhớ: Dùng lửa (火) để nướng chín thức ăn.",
+    explanation: "Động từ: Nướng.",
+    compounds: [
+      { tc: "烤肉", py: "kǎoròu", vn: "thịt nướng" },
+      { tc: "烤箱", py: "kǎoxiāng", vn: "lò nướng" }
+    ],
+    examples: [
+      { tc: "中秋節的時候，台灣人喜歡烤肉。", py: "Zhōngqiūjié de shíhòu, Táiwān rén xǐhuān kǎoròu.", vn: "Vào dịp Tết Trung thu, người Đài Loan thích nướng thịt." },
+      { tc: "這個蛋糕是用烤箱烤出來的。", py: "Zhège dàngāo shì yòng kǎoxiāng kǎo chūlái de.", vn: "Chiếc bánh kem này được nướng bằng lò nướng." },
+      { tc: "我買了一隻烤鴨當晚餐。", py: "Wǒ mǎi le yì zhī kǎoyā dāng wǎncān.", vn: "Tôi đã mua một con vịt nướng làm bữa tối." }
+    ],
+    idiom: "烤肉派對 Kǎoròu pàiduì - Tiệc nướng BBQ.<br>🔸 Ví dụ: 週末我們會在院子裡辦烤肉派對。 Zhōumò wǒmen huì zài yuànzi lǐ bàn kǎoròu pàiduì. - Cuối tuần chúng tôi sẽ tổ chức tiệc nướng BBQ trong sân.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "沙拉", pinyin: "shālā", hanViet: "Sa lạp",
+    image: "",
+    radical: "沙 (Bộ Thủy 氵) + 拉 (Bộ Thủ 扌)<br>💡 Mẹo nhớ: Từ mượn phiên âm tiếng Anh của từ 'salad'.",
+    explanation: "Danh từ: Salad (món rau trộn).",
+    compounds: [
+      { tc: "水果沙拉", py: "shuǐguǒ shālā", vn: "salad trái cây" },
+      { tc: "蔬菜沙拉", py: "shūcài shālā", vn: "salad rau củ" }
+    ],
+    examples: [
+      { tc: "為了減肥，他每天晚餐只吃沙拉。", py: "Wèile jiǎnféi, tā měitiān wǎncān zhǐ chī shālā.", vn: "Để giảm cân, mỗi ngày bữa tối anh ấy chỉ ăn salad." },
+      { tc: "這盤沙拉看起來很新鮮。", py: "Zhè pán shālā kàn qǐlái hěn xīnxiān.", vn: "Đĩa salad này trông rất tươi." },
+      { tc: "請幫我在沙拉上加一點醬。", py: "Qǐng bāng wǒ zài shālā shàng jiā yìdiǎn jiàng.", vn: "Vui lòng thêm cho tôi một chút nước sốt lên salad." }
+    ],
+    idiom: "生菜沙拉 Shēngcài shālā - Salad rau xà lách.<br>🔸 Ví dụ: 牛排配生菜沙拉可以解油膩。 Niúpái pèi shēngcài shālā kěyǐ jiě yóunì. - Bít tết ăn kèm salad xà lách có thể giúp bớt ngấy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "麥當勞", pinyin: "Màidāngláo", hanViet: "Mạch đương lao",
+    image: "",
+    radical: "麥 (Lúa mạch) + 當 (Đương) + 勞 (Lao)<br>💡 Mẹo nhớ: Phiên âm tiếng Trung của thương hiệu thức ăn nhanh nổi tiếng 'McDonald's'.",
+    explanation: "Danh từ riêng: McDonald's.",
+    compounds: [
+      { tc: "吃麥當勞", py: "chī Màidāngláo", vn: "ăn McDonald's" }
+    ],
+    examples: [
+      { tc: "我們中午去吃麥當勞吧。", py: "Wǒmen zhōngwǔ qù chī Màidāngláo ba.", vn: "Buổi trưa chúng ta đi ăn McDonald's đi." },
+      { tc: "小時候我最喜歡去麥當勞吃漢堡。", py: "Xiǎoshíhòu wǒ zuì xǐhuān qù Màidāngláo chī hànbǎo.", vn: "Hồi nhỏ tôi thích nhất là đi McDonald's ăn hamburger." },
+      { tc: "麥當勞的薯條很好吃。", py: "Màidāngláo de shǔtiáo hěn hǎochī.", vn: "Khoai tây chiên của McDonald's rất ngon." }
+    ],
+    idiom: "麥當勞叔叔 Màidāngláo shūshu - Chú hề McDonald's.<br>🔸 Ví dụ: 門口有一個很大的麥當勞叔叔模型。 Ménkǒu yǒu yí ge hěn dà de Màidāngláo shūshu móxíng. - Ở cửa có một mô hình chú hề McDonald's rất lớn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "速食店", pinyin: "sùshí diàn", hanViet: "Tốc thực điếm",
+    image: "",
+    radical: "速食 (Thức ăn nhanh) + 店 (Cửa hàng)<br>💡 Mẹo nhớ: Cửa hàng (店) chuyên bán các loại thức ăn nhanh (速食).",
+    explanation: "Danh từ: Cửa hàng thức ăn nhanh.",
+    compounds: [
+      { tc: "去速食店", py: "qù sùshí diàn", vn: "đi cửa hàng thức ăn nhanh" }
+    ],
+    examples: [
+      { tc: "台灣有很多速食店，非常方便。", py: "Táiwān yǒu hěn duō sùshí diàn, fēicháng fāngbiàn.", vn: "Đài Loan có rất nhiều cửa hàng thức ăn nhanh, vô cùng tiện lợi." },
+      { tc: "我們在速食店買了午餐。", py: "Wǒmen zài sùshí diàn mǎi le wǔcān.", vn: "Chúng tôi đã mua bữa trưa ở cửa hàng thức ăn nhanh." },
+      { tc: "年輕人喜歡在速食店裡聊天。", py: "Niánqīng rén xǐhuān zài sùshí diàn lǐ liáotiān.", vn: "Người trẻ tuổi thích trò chuyện trong cửa hàng thức ăn nhanh." }
+    ],
+    idiom: "連鎖速食店 Liánsuǒ sùshí diàn - Chuỗi cửa hàng thức ăn nhanh.<br>🔸 Ví dụ: 麥當勞是一家全球知名的連鎖速食店。 Màidāngláo shì yì jiā quánqiú zhīmíng de liánsuǒ sùshí diàn. - McDonald's là một chuỗi cửa hàng thức ăn nhanh nổi tiếng toàn cầu.", 
+    level: "TOCFL A2"
+  },
   ];
