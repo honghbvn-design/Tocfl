@@ -8505,4 +8505,355 @@ const dataA2 = [
     idiom: "買些吃的什麼的 Mǎi xiē chī de shénmede - Mua chút đồ ăn vân vân.<br>🔸 Ví dụ: 路上順便買些吃的什麼的吧。 Lùshàng shùnbiàn mǎi xiē chī de shénmede ba. - Trên đường tiện thể mua chút đồ ăn vân vân nhé.", 
     level: "TOCFL A2"
   },
+  {
+    word: "掉", pinyin: "diào", hanViet: "Điệu",
+    image: "",
+    radical: "掉 (Bộ Thủ 扌)<br>💡 Mẹo nhớ: Dùng tay (扌) làm rơi rớt đồ vật xuống bàn (卓).",
+    explanation: "Động từ: Rơi, rớt, mất.",
+    compounds: [
+      { tc: "掉了", py: "diào le", vn: "rơi mất rồi" },
+      { tc: "擦掉", py: "cā diào", vn: "lau sạch đi" }
+    ],
+    examples: [
+      { tc: "我的錢包不小心掉了。", py: "Wǒ de qiánbāo bù xiǎoxīn diào le.", vn: "Ví tiền của tôi không cẩn thận bị rơi mất rồi." },
+      { tc: "桌上的筆掉到地上了。", py: "Zhuō shàng de bǐ diào dào dìshàng le.", vn: "Cây bút trên bàn rơi xuống đất rồi." },
+      { tc: "這件衣服的扣子掉了。", py: "Zhè jiàn yīfú de kòuzi diào le.", vn: "Cái cúc của chiếc áo này rụng mất rồi." }
+    ],
+    idiom: "忘掉 Wàngdiào - Quên mất / Quên đi.<br>🔸 Ví dụ: 我已經把不開心的事情都忘掉了。 Wǒ yǐjīng bǎ bù kāixīn de shìqíng dōu wàngdiào le. - Tôi đã quên đi hết những chuyện không vui rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "低頭", pinyin: "dītóu", hanViet: "Đê đầu",
+    image: "",
+    radical: "低 (Bộ Nhân 亻) + 頭 (Bộ Hiệt 頁)<br>💡 Mẹo nhớ: Người (亻) cúi phần đầu (頭) xuống thấp (低).",
+    explanation: "Động từ ly hợp: Cúi đầu.",
+    compounds: [
+      { tc: "低頭族", py: "dītóuzú", vn: "những người cúi đầu (cắm mặt vào điện thoại)" }
+    ],
+    examples: [
+      { tc: "他一直低頭看手機，沒有看路。", py: "Tā yìzhí dītóu kàn shǒujī, méiyǒu kàn lù.", vn: "Anh ấy cứ cúi đầu xem điện thoại suốt, không thèm nhìn đường." },
+      { tc: "做錯事的時候，他低頭不敢說話。", py: "Zuò cuò shì de shíhòu, tā dītóu bù gǎn shuōhuà.", vn: "Lúc làm sai, cậu ấy cúi đầu không dám nói chuyện." },
+      { tc: "請不要一直低頭，對脖子不好。", py: "Qǐng búyào yìzhí dītóu, duì bózi bù hǎo.", vn: "Xin đừng cúi đầu mãi, không tốt cho cổ đâu." }
+    ],
+    idiom: "低頭認錯 Dītóu rèncuò - Cúi đầu nhận lỗi.<br>🔸 Ví dụ: 知道自己錯了，他乖乖地低頭認錯。 Zhīdào zìjǐ cuò le, tā guāiguāi de dītóu rèncuò. - Biết bản thân sai rồi, cậu ấy ngoan ngoãn cúi đầu nhận lỗi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "傳", pinyin: "chuán", hanViet: "Truyền",
+    image: "",
+    radical: "傳 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Người (亻) này chuyển đồ vật hoặc tin nhắn chuyên biệt (專) sang cho người khác.",
+    explanation: "Động từ: Gửi (tin nhắn, email), truyền.",
+    compounds: [
+      { tc: "傳簡訊", py: "chuán jiǎnxùn", vn: "gửi tin nhắn" },
+      { tc: "傳照片", py: "chuán zhàopiān", vn: "gửi ảnh" }
+    ],
+    examples: [
+      { tc: "我剛才傳了一個簡訊給你。", py: "Wǒ gāngcái chuán le yí ge jiǎnxùn gěi nǐ.", vn: "Tôi vừa nãy đã gửi một tin nhắn cho bạn." },
+      { tc: "請把那份資料傳到我的電子信箱。", py: "Qǐng bǎ nà fèn zīliào chuán dào wǒ de diànzǐ xìnxiāng.", vn: "Vui lòng gửi tài liệu đó vào hộp thư điện tử của tôi." },
+      { tc: "你可以把剛剛拍的照片傳給我嗎？", py: "Nǐ kěyǐ bǎ gānggāng pāi de zhàopiān chuán gěi wǒ ma?", vn: "Bạn có thể gửi bức ảnh vừa chụp cho tôi được không?" }
+    ],
+    idiom: "傳真 Chuánzhēn - Máy fax / Gửi fax.<br>🔸 Ví dụ: 麻煩你把合約傳真到公司。 Máfan nǐ bǎ héyuē chuánzhēn dào gōngsī. - Phiền bạn gửi fax bản hợp đồng đến công ty.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "過", pinyin: "guò", hanViet: "Quá",
+    image: "",
+    radical: "過 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Dùng sau động từ làm bổ ngữ, biểu thị hành động đã hoàn tất hoặc một trải nghiệm trong quá khứ.",
+    explanation: "Trợ từ: Qua, đã từng, xong (Chỉ hành động đã hoàn tất).",
+    compounds: [
+      { tc: "吃過", py: "chī guò", vn: "đã ăn rồi / ăn xong rồi" },
+      { tc: "去過", py: "qù guò", vn: "đã từng đi" }
+    ],
+    examples: [
+      { tc: "你吃過飯了嗎？", py: "Nǐ chī guò fàn le ma?", vn: "Bạn đã ăn cơm chưa?" },
+      { tc: "這部電影我以前看過。", py: "Zhè bù diànyǐng wǒ yǐqián kàn guò.", vn: "Bộ phim này trước đây tôi đã xem qua rồi." },
+      { tc: "我去過台灣兩次。", py: "Wǒ qù guò Táiwān liǎng cì.", vn: "Tôi đã từng đi Đài Loan hai lần." }
+    ],
+    idiom: "沒見過 Méi jiàn guò - Chưa từng thấy.<br>🔸 Ví dụ: 這麼奇怪的東西，我以前從來沒見過。 Zhème qíguài de dōngxī, wǒ yǐqián cónglái méi jiàn guò. - Đồ vật kỳ lạ thế này, trước đây tôi chưa từng thấy bao giờ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "簡訊", pinyin: "jiǎnxùn", hanViet: "Giản tấn",
+    image: "",
+    radical: "簡 (Bộ Trúc 竹) + 訊 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Lời nói (言) được viết lại một cách ngắn gọn, đơn giản (簡) để gửi đi.",
+    explanation: "Danh từ: Tin nhắn (văn bản).",
+    compounds: [
+      { tc: "看簡訊", py: "kàn jiǎnxùn", vn: "xem tin nhắn" },
+      { tc: "回簡訊", py: "huí jiǎnxùn", vn: "trả lời tin nhắn" }
+    ],
+    examples: [
+      { tc: "我現在不方便講電話，請傳簡訊給我。", py: "Wǒ xiànzài bù fāngbiàn jiǎng diànhuà, qǐng chuán jiǎnxùn gěi wǒ.", vn: "Tôi bây giờ không tiện nghe điện thoại, vui lòng gửi tin nhắn cho tôi." },
+      { tc: "他看了一下手機簡訊就出門了。", py: "Tā kàn le yíxià shǒujī jiǎnxùn jiù chūmén le.", vn: "Anh ấy xem tin nhắn điện thoại một chút rồi ra khỏi nhà." },
+      { tc: "為什麼你一直不回我的簡訊？", py: "Wèishénme nǐ yìzhí bù huí wǒ de jiǎnxùn?", vn: "Tại sao bạn cứ không trả lời tin nhắn của tôi vậy?" }
+    ],
+    idiom: "垃圾簡訊 Lèsè jiǎnxùn - Tin nhắn rác / Tin nhắn lừa đảo.<br>🔸 Ví dụ: 手機裡每天都會收到很多垃圾簡訊。 Shǒujī lǐ měitiān dōu huì shōudào hěn duō lèsè jiǎnxùn. - Trong điện thoại mỗi ngày đều sẽ nhận được rất nhiều tin nhắn rác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "功能", pinyin: "gōngnéng", hanViet: "Công năng",
+    image: "",
+    radical: "功 (Bộ Công 工) + 能 (Bộ Nhục 肉)<br>💡 Mẹo nhớ: Máy móc có năng lực (能) sinh ra công dụng (功) để phục vụ con người.",
+    explanation: "Danh từ: Chức năng.",
+    compounds: [
+      { tc: "新功能", py: "xīn gōngnéng", vn: "chức năng mới" },
+      { tc: "特殊功能", py: "tèshū gōngnéng", vn: "chức năng đặc biệt" }
+    ],
+    examples: [
+      { tc: "這支新手機有很多好用的功能。", py: "Zhè zhī xīn shǒujī yǒu hěn duō hǎoyòng de gōngnéng.", vn: "Chiếc điện thoại mới này có rất nhiều chức năng hữu ích." },
+      { tc: "我不懂怎麼使用這個功能。", py: "Wǒ bù dǒng zěnme shǐyòng zhège gōngnéng.", vn: "Tôi không hiểu cách sử dụng chức năng này như thế nào." },
+      { tc: "這個軟體的功能非常強大。", py: "Zhège ruǎntǐ de gōngnéng fēicháng qiángdà.", vn: "Chức năng của phần mềm này vô cùng mạnh mẽ." }
+    ],
+    idiom: "功能齊全 Gōngnéng qíquán - Đầy đủ chức năng.<br>🔸 Ví dụ: 這台相機雖然小，但是功能齊全。 Zhè tái xiàngjī suīrán xiǎo, dànshì gōngnéng qíquán. - Chiếc máy ảnh này tuy nhỏ, nhưng lại đầy đủ chức năng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "生氣", pinyin: "shēngqì", hanViet: "Sinh khí",
+    image: "",
+    radical: "生 (Bộ Sinh 生) + 氣 (Bộ Khí 气)<br>💡 Mẹo nhớ: Khí (氣) huyết trong người trào dâng, sinh (生) ra sự tức giận.",
+    explanation: "Động từ ly hợp / Tính từ: Tức giận, giận dữ.",
+    compounds: [
+      { tc: "很生氣", py: "hěn shēngqì", vn: "rất tức giận" },
+      { tc: "生他的氣", py: "shēng tā de qì", vn: "tức giận với anh ấy" }
+    ],
+    examples: [
+      { tc: "聽到這個消息，他非常生氣。", py: "Tīng dào zhège xiāoxī, tā fēicháng shēngqì.", vn: "Nghe được tin này, anh ấy vô cùng tức giận." },
+      { tc: "對不起，你還在生我的氣嗎？", py: "Duìbùqǐ, nǐ hái zài shēng wǒ de qì ma?", vn: "Xin lỗi, bạn vẫn còn đang giận tôi à?" },
+      { tc: "老闆今天心情不好，很容易生氣。", py: "Lǎobǎn jīntiān xīnqíng bù hǎo, hěn róngyì shēngqì.", vn: "Sếp hôm nay tâm trạng không tốt, rất dễ nổi cáu." }
+    ],
+    idiom: "惹人生氣 Rě rén shēngqì - Chọc giận người khác.<br>🔸 Ví dụ: 他的態度傲慢，總是很惹人生氣。 Tā de tàidù àomàn, zǒngshì hěn rě rén shēngqì. - Thái độ của anh ta kiêu ngạo, lúc nào cũng rất dễ chọc giận người khác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "罵", pinyin: "mà", hanViet: "Mạ",
+    image: "",
+    radical: "罵 (Bộ Võng 罒)<br>💡 Mẹo nhớ: Dùng hai cái miệng (口) mắng mỏ, chửi bới con ngựa (馬) bị nhốt trong tấm lưới (罒).",
+    explanation: "Động từ: Mắng, chửi, la mắng.",
+    compounds: [
+      { tc: "挨罵", py: "ái mà", vn: "bị mắng" },
+      { tc: "罵人", py: "mà rén", vn: "mắng người" }
+    ],
+    examples: [
+      { tc: "他因為考試考不好，被媽媽罵了一頓。", py: "Tā yīnwèi kǎoshì kǎo bù hǎo, bèi māma mà le yí dùn.", vn: "Cậu ấy vì thi không tốt, bị mẹ mắng cho một trận." },
+      { tc: "老闆在辦公室裡大聲罵人。", py: "Lǎobǎn zài bàngōngshì lǐ dàshēng mà rén.", vn: "Sếp đang lớn tiếng mắng người trong văn phòng." },
+      { tc: "請不要隨便罵小孩。", py: "Qǐng búyào suíbiàn mà xiǎohái.", vn: "Xin đừng tùy tiện mắng trẻ con." }
+    ],
+    idiom: "挨了一頓罵 Ái le yí dùn mà - Bị ăn một trận mắng.<br>🔸 Ví dụ: 遲到了一小時，他被老闆挨了一頓罵。 Chídào le yì xiǎoshí, tā bèi lǎobǎn ái le yí dùn mà. - Đến muộn một tiếng, cậu ấy bị sếp mắng cho một trận.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "健身房", pinyin: "jiànshēnfáng", hanViet: "Kiện thân phòng",
+    image: "",
+    radical: "建 (Dẫn) + 身 (Thân) + 房 (Hộ)<br>💡 Mẹo nhớ: Căn phòng (房) được trang bị máy móc để rèn luyện, làm khỏe (建) thân thể (身).",
+    explanation: "Danh từ: Phòng tập gym, phòng tập thể hình.",
+    compounds: [
+      { tc: "去健身房", py: "qù jiànshēnfáng", vn: "đi phòng gym" }
+    ],
+    examples: [
+      { tc: "下班後，我通常會去健身房運動。", py: "Xiàbān hòu, wǒ tōngcháng huì qù jiànshēnfáng yùndòng.", vn: "Sau khi tan làm, tôi thường sẽ đi phòng gym tập thể dục." },
+      { tc: "這家健身房的設備非常新。", py: "Zhè jiā jiànshēnfáng de shèbèi fēicháng xīn.", vn: "Thiết bị của phòng tập gym này vô cùng mới." },
+      { tc: "他在健身房認識了很多新朋友。", py: "Tā zài jiànshēnfáng rènshí le hěn duō xīn péngyǒu.", vn: "Anh ấy đã quen được rất nhiều người bạn mới ở phòng gym." }
+    ],
+    idiom: "上健身房 Shàng jiànshēnfáng - Đi tập gym.<br>🔸 Ví dụ: 為了減肥，她每天都上健身房。 Wèile jiǎnféi, tā měitiān dōu shàng jiànshēnfáng. - Để giảm cân, ngày nào cô ấy cũng đi tập gym.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "啦", pinyin: "la", hanViet: "Lạp",
+    image: "",
+    radical: "啦 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Trợ từ khẩu ngữ, đọc gộp âm của chữ 了 (le) và 啊 (a).",
+    explanation: "Trợ từ: Nha, nhé, rồi (Trợ từ cuối câu biểu thị nghi vấn hoặc cảm thán).",
+    compounds: [
+      { tc: "好啦", py: "hǎo la", vn: "được rồi" },
+      { tc: "走啦", py: "zǒu la", vn: "đi thôi" }
+    ],
+    examples: [
+      { tc: "時間不早了，我先走啦！", py: "Shíjiān bù zǎo le, wǒ xiān zǒu la!", vn: "Thời gian không còn sớm nữa, tôi đi trước đây!" },
+      { tc: "好啦好啦，我知道了，你別再唸了。", py: "Hǎo la hǎo la, wǒ zhīdào le, nǐ bié zài niàn le.", vn: "Được rồi được rồi, tôi biết rồi, bạn đừng cằn nhằn nữa." },
+      { tc: "你到底去不去啦？", py: "Nǐ dàodǐ qù bú qù la?", vn: "Rốt cuộc là bạn có đi hay không hả?" }
+    ],
+    idiom: "算啦 Suàn la - Thôi bỏ đi.<br>🔸 Ví dụ: 既然他不願意幫忙，就算啦。 Jìrán tā bú yuànyì bāngmáng, jiù suàn la. - Đã không muốn giúp đỡ, thì thôi bỏ đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "查", pinyin: "chá", hanViet: "Tra",
+    image: "",
+    radical: "查 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Xem xét kỹ càng cây cối (木) xem có bị chặt (nhìn giống 旦) hay không.",
+    explanation: "Động từ: Tra cứu, tra, kiểm tra.",
+    compounds: [
+      { tc: "查資料", py: "chá zīliào", vn: "tra tài liệu" },
+      { tc: "查字典", py: "chá zìdiǎn", vn: "tra từ điển" }
+    ],
+    examples: [
+      { tc: "遇到不懂的字，你可以查字典。", py: "Yùdào bù dǒng de zì, nǐ kěyǐ chá zìdiǎn.", vn: "Gặp chữ không hiểu, bạn có thể tra từ điển." },
+      { tc: "我上網查了一下明天的天氣。", py: "Wǒ shàngwǎng chá le yíxià míngtiān de tiānqì.", vn: "Tôi lên mạng tra thời tiết ngày mai một chút." },
+      { tc: "警察正在查這件案子。", py: "Jǐngchá zhèngzài chá zhè jiàn ànzi.", vn: "Cảnh sát đang điều tra vụ án này." }
+    ],
+    idiom: "查房 Cháfáng - Đi buồng / Kiểm tra phòng.<br>🔸 Ví dụ: 醫生每天早上都會來醫院查房。 Yīshēng měitiān zǎoshàng dōu huì lái yīyuàn cháfáng. - Bác sĩ mỗi buổi sáng đều sẽ đến bệnh viện đi buồng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "班機", pinyin: "bānjī", hanViet: "Ban cơ",
+    image: "",
+    radical: "班 (Bộ Ngọc 玉) + 機 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Chuyến bay (機) được sắp xếp theo lịch trình cố định (班).",
+    explanation: "Danh từ: Chuyến bay.",
+    compounds: [
+      { tc: "查班機", py: "chá bānjī", vn: "tra chuyến bay" },
+      { tc: "搭班機", py: "dā bānjī", vn: "bắt chuyến bay" }
+    ],
+    examples: [
+      { tc: "我的班機是明天早上十點。", py: "Wǒ de bānjī shì míngtiān zǎoshàng shí diǎn.", vn: "Chuyến bay của tôi là mười giờ sáng mai." },
+      { tc: "因為颱風的關係，很多班機都取消了。", py: "Yīnwèi táifēng de guānxi, hěn duō bānjī dōu qǔxiāo le.", vn: "Bởi vì bão, rất nhiều chuyến bay đều bị hủy rồi." },
+      { tc: "請問飛往東京的班機幾點起飛？", py: "Qǐngwèn fēiwǎng Dōngjīng de bānjī jǐ diǎn qǐfēi?", vn: "Xin hỏi chuyến bay đi Tokyo mấy giờ cất cánh?" }
+    ],
+    idiom: "錯過班機 Cuòguò bānjī - Lỡ chuyến bay.<br>🔸 Ví dụ: 他因為睡過頭而錯過了班機。 Tā yīnwèi shuì guòtóu ér cuòguò le bānjī. - Anh ấy vì ngủ quên mà đã lỡ mất chuyến bay.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "訂位", pinyin: "dìngwèi", hanViet: "Đính vị",
+    image: "",
+    radical: "訂 (Bộ Ngôn 言) + 位 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Dùng lời nói (言) để đặt trước vị trí (位) cho người.",
+    explanation: "Động từ ly hợp: Đặt chỗ (nhà hàng, rạp hát).",
+    compounds: [
+      { tc: "打電話訂位", py: "dǎ diànhuà dìngwèi", vn: "gọi điện thoại đặt chỗ" }
+    ],
+    examples: [
+      { tc: "這家餐廳生意很好，一定要先訂位。", py: "Zhè jiā cāntīng shēngyì hěn hǎo, yídìng yào xiān dìngwèi.", vn: "Nhà hàng này buôn bán rất tốt, nhất định phải đặt chỗ trước." },
+      { tc: "我已經幫大家訂好位了。", py: "Wǒ yǐjīng bāng dàjiā dìng hǎo wèi le.", vn: "Tôi đã giúp mọi người đặt chỗ xong xuôi rồi." },
+      { tc: "請問今晚七點還有位子嗎？我想訂位。", py: "Qǐngwèn jīnwǎn qī diǎn hái yǒu wèizi ma? Wǒ xiǎng dìngwèi.", vn: "Xin hỏi bảy giờ tối nay còn chỗ không? Tôi muốn đặt chỗ." }
+    ],
+    idiom: "取消訂位 Qǔxiāo dìngwèi - Hủy đặt chỗ.<br>🔸 Ví dụ: 如果不能去，請記得打電話取消訂位。 Rúguǒ bùnéng qù, qǐng jìdé dǎ diànhuà qǔxiāo dìngwèi. - Nếu không đi được, xin nhớ gọi điện thoại hủy đặt chỗ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "電", pinyin: "diàn", hanViet: "Điện",
+    image: "",
+    radical: "電 (Bộ Vũ 雨)<br>💡 Mẹo nhớ: Hiện tượng tự nhiên phát ra sấm chớp, tia lửa dưới trời mưa (雨) là cội nguồn của điện năng.",
+    explanation: "Danh từ: Điện, điện năng, pin.",
+    compounds: [
+      { tc: "停電", py: "tíngdiàn", vn: "mất điện" },
+      { tc: "沒電", py: "méi diàn", vn: "hết pin, mất điện" }
+    ],
+    examples: [
+      { tc: "我的手機快沒電了。", py: "Wǒ de shǒujī kuài méi diàn le.", vn: "Điện thoại của tôi sắp hết pin rồi." },
+      { tc: "昨天晚上突然停電，家裡一片黑。", py: "Zuótiān wǎnshàng túrán tíngdiàn, jiālǐ yí piàn hēi.", vn: "Tối hôm qua đột nhiên mất điện, trong nhà tối om." },
+      { tc: "出門記得關燈，節約用電。", py: "Chūmén jìdé guāndēng, jiéyuē yòng diàn.", vn: "Ra khỏi nhà nhớ tắt đèn, tiết kiệm dùng điện." }
+    ],
+    idiom: "充電寶 Chōngdiànbǎo - Sạc dự phòng.<br>🔸 Ví dụ: 出門旅行一定要帶充電寶。 Chūmén lǚxíng yídìng yào dài chōngdiànbǎo. - Đi du lịch nhất định phải mang theo sạc dự phòng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "充電", pinyin: "chōngdiàn", hanViet: "Sung điện",
+    image: "",
+    radical: "充 (Bộ Nhi 儿) + 電 (Bộ Vũ 雨)<br>💡 Mẹo nhớ: Nạp bổ sung (充) thêm năng lượng điện (電) vào thiết bị.",
+    explanation: "Động từ ly hợp: Sạc điện, sạc pin / Nạp năng lượng (nghĩa bóng).",
+    compounds: [
+      { tc: "充手機", py: "chōng shǒujī", vn: "sạc điện thoại" },
+      { tc: "充電線", py: "chōngdiànxiàn", vn: "dây sạc" }
+    ],
+    examples: [
+      { tc: "我的手機正在充電。", py: "Wǒ de shǒujī zhèngzài chōngdiàn.", vn: "Điện thoại của tôi đang sạc pin." },
+      { tc: "請問這裡有可以充電的地方嗎？", py: "Qǐngwèn zhèlǐ yǒu kěyǐ chōngdiàn de dìfāng ma?", vn: "Xin hỏi ở đây có chỗ nào có thể sạc pin không?" },
+      { tc: "週末去海邊走走，幫自己充個電。", py: "Zhōumò qù hǎibiān zǒuzǒu, bāng zìjǐ chōng ge diàn.", vn: "Cuối tuần ra biển đi dạo, nạp lại năng lượng cho bản thân." }
+    ],
+    idiom: "充電器 Chōngdiànqì - Cục sạc.<br>🔸 Ví dụ: 我忘記帶充電器了，可以借我嗎？ Wǒ wàngjì dài chōngdiànqì le, kěyǐ jiè wǒ ma? - Tôi quên mang cục sạc rồi, có thể cho tôi mượn không?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "糊塗", pinyin: "hútú", hanViet: "Hồ đồ",
+    image: "",
+    radical: "糊 (Bộ Mễ 米) + 塗 (Bộ Thổ 土)<br>💡 Mẹo nhớ: Đầu óc như bị dính hồ nấu từ gạo (米) và bùn đất (土), trở nên lú lẫn không rõ ràng.",
+    explanation: "Tính từ: Hồ đồ, lú lẫn, lơ đễnh, hay quên.",
+    compounds: [
+      { tc: "太糊塗了", py: "tài hútú le", vn: "hồ đồ quá" },
+      { tc: "一時糊塗", py: "yìshí hútú", vn: "nhất thời hồ đồ" }
+    ],
+    examples: [
+      { tc: "我真是糊塗，竟然把護照忘在家裡了。", py: "Wǒ zhēnshi hútú, jìngrán bǎ hùzhào wàng zài jiālǐ le.", vn: "Tôi thật sự hồ đồ, vậy mà lại quên hộ chiếu ở nhà rồi." },
+      { tc: "爺爺年紀大了，有時候會比較糊塗。", py: "Yéye niánjì dà le, yǒushíhòu huì bǐjiào hútú.", vn: "Ông nội có tuổi rồi, có lúc sẽ tương đối lú lẫn." },
+      { tc: "你怎麼這麼糊塗，連這點小事都做錯？", py: "Nǐ zěnme zhème hútú, lián zhè diǎn xiǎoshì dōu zuò cuò?", vn: "Sao bạn lại lơ đễnh như vậy, ngay cả chút chuyện nhỏ này cũng làm sai?" }
+    ],
+    idiom: "難得糊塗 Nándé hútú - Hiếm khi hồ đồ (Nghĩa bóng: Đôi khi giả ngốc giả lơ đi lại là sự khôn ngoan).<br>🔸 Ví dụ: 人生有時候難得糊塗，不必事事計較。 Rénshēng yǒushíhòu nándé hútú, búbì shìshì jìjiào. - Cuộc sống có lúc hiếm khi hồ đồ, không cần việc gì cũng phải tính toán.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "喔", pinyin: "ō", hanViet: "Ốc",
+    image: "",
+    radical: "喔 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Dùng miệng (口) phát ra âm thanh biểu thị sự thấu hiểu hoặc đề nghị.",
+    explanation: "Trợ từ: Ồ, nhé (Trợ từ cuối câu biểu thị sự gợi ý, nhắc nhở hoặc đã hiểu).",
+    compounds: [
+      { tc: "好喔", py: "hǎo ō", vn: "được nhé / ok nha" }
+    ],
+    examples: [
+      { tc: "明天要早點起床喔！", py: "Míngtiān yào zǎodiǎn qǐchuáng ō!", vn: "Ngày mai phải dậy sớm một chút nhé!" },
+      { tc: "喔！我終於懂你的意思了。", py: "Ō! Wǒ zhōngyú dǒng nǐ de yìsī le.", vn: "Ồ! Cuối cùng tôi cũng hiểu ý của bạn rồi." },
+      { tc: "記得帶雨傘喔，外面好像快下雨了。", py: "Jìdé dài yǔsǎn ō, wàimiàn hǎoxiàng kuài xiàyǔ le.", vn: "Nhớ mang ô nhé, bên ngoài hình như sắp mưa rồi." }
+    ],
+    idiom: "對喔 Duì ō - Đúng rồi nhỉ (Sực nhớ ra điều gì đó).<br>🔸 Ví dụ: 對喔！我差點忘記今天是他的生日。 Duì ō! Wǒ chàdiǎn wàngjì jīntiān shì tā de shēngrì. - Đúng rồi nhỉ! Tôi suýt nữa quên mất hôm nay là sinh nhật của anh ấy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "義大利", pinyin: "Yìdàlì", hanViet: "Nghĩa Đại Lợi",
+    image: "",
+    radical: "義 (Bộ Dương 羊) + 大 (Đại) + 利 (Đao)<br>💡 Mẹo nhớ: Tên riêng phiên âm từ tiếng nước ngoài.",
+    explanation: "Danh từ riêng: Nước Ý (Italy).",
+    compounds: [
+      { tc: "義大利麵", py: "Yìdàlì miàn", vn: "mì Ý / spaghetti" },
+      { tc: "去義大利", py: "qù Yìdàlì", vn: "đi Ý" }
+    ],
+    examples: [
+      { tc: "我很喜歡吃義大利麵。", py: "Wǒ hěn xǐhuān chī Yìdàlì miàn.", vn: "Tôi rất thích ăn mì Ý." },
+      { tc: "今年夏天他要去義大利旅行。", py: "Jīnnián xiàtiān tā yào qù Yìdàlì lǚxíng.", vn: "Mùa hè năm nay anh ấy sẽ đi Ý du lịch." },
+      { tc: "義大利的風景和建築非常迷人。", py: "Yìdàlì de fēngjǐng hé jiànzhú fēicháng mírén.", vn: "Phong cảnh và kiến trúc của Ý vô cùng quyến rũ." }
+    ],
+    idiom: "義式料理 Yìshì liàolǐ - Ẩm thực kiểu Ý.<br>🔸 Ví dụ: 這家餐廳專門賣義式料理，特別是披薩。 Zhè jiā cāntīng zhuānmén mài Yìshì liàolǐ, tèbié shì pīsà. - Nhà hàng này chuyên bán ẩm thực kiểu Ý, đặc biệt là pizza.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "拿走", pinyin: "názǒu", hanViet: "Nã tẩu",
+    image: "",
+    radical: "拿 (Bộ Thủ 手) + 走 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Dùng tay (手 - 拿) để mang đồ vật rời đi chỗ khác (走).",
+    explanation: "Cụm động từ: Lấy đi, mang đi.",
+    compounds: [
+      { tc: "被拿走", py: "bèi ná zǒu", vn: "bị lấy đi" }
+    ],
+    examples: [
+      { tc: "是誰把我的筆拿走了？", py: "Shì shuí bǎ wǒ de bǐ ná zǒu le?", vn: "Là ai đã lấy bút của tôi đi rồi?" },
+      { tc: "請你把桌上的垃圾拿走。", py: "Qǐng nǐ bǎ zhuō shàng de lèsè ná zǒu.", vn: "Xin bạn hãy mang rác trên bàn đi giúp." },
+      { tc: "他不小心拿走了我的雨傘。", py: "Tā bù xiǎoxīn ná zǒu le wǒ de yǔsǎn.", vn: "Anh ấy vô ý cầm nhầm ô của tôi đi rồi." }
+    ],
+    idiom: "隨便拿走 Suíbiàn ná zǒu - Tùy tiện lấy đi.<br>🔸 Ví dụ: 這些東西是別人的，你不能隨便拿走。 Zhèxiē dōngxī shì biérén de, nǐ bùnéng suíbiàn ná zǒu. - Những đồ này là của người khác, bạn không thể tùy tiện lấy đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "撿到", pinyin: "jiǎndào", hanViet: "Kiểm đáo",
+    image: "",
+    radical: "撿 (Bộ Thủ 扌) + 到 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Dùng tay (扌) lượm nhặt thành công (到) một thứ gì đó.",
+    explanation: "Cụm động từ: Nhặt được.",
+    compounds: [
+      { tc: "撿到錢", py: "jiǎndào qián", vn: "nhặt được tiền" }
+    ],
+    examples: [
+      { tc: "我在公園裡撿到了一支手機。", py: "Wǒ zài gōngyuán lǐ jiǎndào le yì zhī shǒujī.", vn: "Tôi đã nhặt được một chiếc điện thoại trong công viên." },
+      { tc: "你撿到的那個皮包是我的。", py: "Nǐ jiǎndào de nàge píbāo shì wǒ de.", vn: "Cái ví da mà bạn nhặt được là của tôi." },
+      { tc: "撿到東西應該要交給警察。", py: "Jiǎndào dōngxī yīnggāi yào jiāo gěi jǐngchá.", vn: "Nhặt được đồ thì nên giao cho cảnh sát." }
+    ],
+    idiom: "撿便宜 Jiǎn piányí - Nhặt được món hời / Mua được giá hời.<br>🔸 Ví dụ: 週年慶打折的時候，很多人去百貨公司撿便宜。 Zhōuniánqìng dǎzhé de shíhòu, hěn duō rén qù bǎihuò gōngsī jiǎn piányí. - Lúc trung tâm thương mại giảm giá kỷ niệm, rất nhiều người đến nhặt món hời.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "留下", pinyin: "liúxià", hanViet: "Lưu hạ",
+    image: "",
+    radical: "留 (Bộ Điền 田) + 下 (Bộ Nhất 一)<br>💡 Mẹo nhớ: Giữ đồ vật (留) lại ở phía dưới (下), không mang đi.",
+    explanation: "Cụm động từ: Giữ lại, để lại.",
+    compounds: [
+      { tc: "留下來", py: "liú xiàlái", vn: "ở lại / giữ lại" },
+      { tc: "留言", py: "liúyán", vn: "để lại lời nhắn" }
+    ],
+    examples: [
+      { tc: "請你把地址和電話留下來。", py: "Qǐng nǐ bǎ dìzhǐ hé diànhuà liú xiàlái.", vn: "Xin bạn hãy để lại địa chỉ và số điện thoại." },
+      { tc: "他把舊照片留下來作紀念。", py: "Tā bǎ jiù zhàopiān liú xiàlái zuò jìniàn.", vn: "Anh ấy giữ lại những bức ảnh cũ để làm kỷ niệm." },
+      { tc: "你可以留下來陪我嗎？", py: "Nǐ kěyǐ liú xiàlái péi wǒ ma?", vn: "Bạn có thể ở lại bầu bạn với tôi không?" }
+    ],
+    idiom: "留下印象 Liúxià yìnxiàng - Để lại ấn tượng.<br>🔸 Ví dụ: 他的表演給觀眾留下了深刻的印象。 Tā de biǎoyǎn gěi guānzhòng liúxià le shēnkè de yìnxiàng. - Màn biểu diễn của anh ấy đã để lại ấn tượng sâu sắc cho khán giả.", 
+    level: "TOCFL A2"
+  },
   ];
