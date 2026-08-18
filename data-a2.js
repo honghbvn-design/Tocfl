@@ -8856,4 +8856,354 @@ const dataA2 = [
     idiom: "留下印象 Liúxià yìnxiàng - Để lại ấn tượng.<br>🔸 Ví dụ: 他的表演給觀眾留下了深刻的印象。 Tā de biǎoyǎn gěi guānzhòng liúxià le shēnkè de yìnxiàng. - Màn biểu diễn của anh ấy đã để lại ấn tượng sâu sắc cho khán giả.", 
     level: "TOCFL A2"
   },
+  {
+    word: "網路", pinyin: "wǎnglù", hanViet: "Võng lộ",
+    image: "",
+    radical: "網 (Bộ Mịch 糸) + 路 (Bộ Túc 足)<br>💡 Mẹo nhớ: Một mạng lưới (網) những con đường (路) kết nối thông tin toàn cầu.",
+    explanation: "Danh từ: Mạng internet, mạng.",
+    compounds: [
+      { tc: "上網", py: "shàngwǎng", vn: "lên mạng" },
+      { tc: "網路購物", py: "wǎnglù gòuwù", vn: "mua sắm trên mạng" }
+    ],
+    examples: [
+      { tc: "這裡的網路速度非常快。", py: "Zhèlǐ de wǎnglù sùdù fēicháng kuài.", vn: "Tốc độ mạng ở đây vô cùng nhanh." },
+      { tc: "現代人沒有網路就活不下去。", py: "Xiàndài rén méiyǒu wǎnglù jiù huó bú xiàqù.", vn: "Người hiện đại không có mạng internet thì sống không nổi." },
+      { tc: "你可以透過網路查到很多資料。", py: "Nǐ kěyǐ tòuguò wǎnglù chá dào hěn duō zīliào.", vn: "Bạn có thể thông qua mạng internet tra được rất nhiều tài liệu." }
+    ],
+    idiom: "無遠弗屆 Wú yuǎn fú jiè - Không bề xa cách / Phủ sóng khắp nơi.<br>🔸 Ví dụ: 網路的力量無遠弗屆，可以連結全世界。 Wǎnglù de lìliàng wú yuǎn fú jiè, kěyǐ liánjié quán shìjiè. - Sức mạnh của mạng internet phủ sóng khắp nơi, có thể kết nối toàn thế giới.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "發生", pinyin: "fāshēng", hanViet: "Phát sinh",
+    image: "",
+    radical: "發 (Bộ Bát 癶) + 生 (Bộ Sinh 生)<br>💡 Mẹo nhớ: Một sự việc nảy sinh (生) và bộc phát (發) ra ngoài.",
+    explanation: "Động từ: Xảy ra, phát sinh.",
+    compounds: [
+      { tc: "發生事情", py: "fāshēng shìqíng", vn: "xảy ra chuyện" },
+      { tc: "發生車禍", py: "fāshēng chēhuò", vn: "xảy ra tai nạn xe" }
+    ],
+    examples: [
+      { tc: "昨天晚上這裡發生了什麼事？", py: "Zuótiān wǎnshàng zhèlǐ fāshēng le shénme shì?", vn: "Tối hôm qua ở đây đã xảy ra chuyện gì vậy?" },
+      { tc: "這個問題是最近才發生的。", py: "Zhège wèntí shì zuìjìn cái fāshēng de.", vn: "Vấn đề này dạo gần đây mới phát sinh." },
+      { tc: "不管發生什麼事，我都會支持你。", py: "Bùguǎn fāshēng shénme shì, wǒ dōu huì zhīchí nǐ.", vn: "Bất kể xảy ra chuyện gì, tôi đều sẽ ủng hộ bạn." }
+    ],
+    idiom: "突發狀況 Tūfā zhuàngkuàng - Tình huống đột xuất / Sự cố bất ngờ.<br>🔸 Ví dụ: 遇到突發狀況，我們要保持冷靜。 Yùdào tūfā zhuàngkuàng, wǒmen yào bǎochí lěngjìng. - Gặp phải tình huống đột xuất, chúng ta phải giữ bình tĩnh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "事情", pinyin: "shìqíng", hanViet: "Sự tình",
+    image: "",
+    radical: "事 (Bộ Quyết 亅) + 情 (Bộ Tâm 忄)<br>💡 Mẹo nhớ: Những sự việc (事) tác động đến tâm tình, cảm xúc (情) của con người.",
+    explanation: "Danh từ: Sự việc, sự tình, chuyện.",
+    compounds: [
+      { tc: "一件事情", py: "yí jiàn shìqíng", vn: "một sự việc" },
+      { tc: "做事情", py: "zuò shìqíng", vn: "làm việc" }
+    ],
+    examples: [
+      { tc: "這件事情我明天再告訴你。", py: "Zhè jiàn shìqíng wǒ míngtiān zài gàosù nǐ.", vn: "Sự việc này ngày mai tôi sẽ nói cho bạn biết sau." },
+      { tc: "他每天都有做不完的事情。", py: "Tā měitiān dōu yǒu zuò bù wán de shìqíng.", vn: "Ngày nào anh ấy cũng có những sự việc làm không xuể." },
+      { tc: "這是一件很重要的事情，不能忘記。", py: "Zhè shì yí jiàn hěn zhòngyào de shìqíng, bùnéng wàngjì.", vn: "Đây là một chuyện rất quan trọng, không thể quên được." }
+    ],
+    idiom: "大事化小，小事化無 Dàshì huà xiǎo, xiǎoshì huà wú - Chuyện lớn hóa nhỏ chuyện nhỏ hóa không.<br>🔸 Ví dụ: 大家各退一步，大事化小，小事化無吧。 Dàjiā gè tuì yí bù, dàshì huà xiǎo, xiǎoshì huà wú ba. - Mọi người mỗi người nhường một bước, chuyện lớn hóa nhỏ chuyện nhỏ hóa không đi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "消息", pinyin: "xiāoxí", hanViet: "Tiêu tức",
+    image: "",
+    radical: "消 (Bộ Thủy 氵) + 息 (Bộ Tâm 心)<br>💡 Mẹo nhớ: Thông tin truyền đi lan tỏa như nước (氵) và mang lại tin tức, hơi thở (息) mới.",
+    explanation: "Danh từ: Tin tức, thông tin.",
+    compounds: [
+      { tc: "好消息", py: "hǎo xiāoxí", vn: "tin vui, tin tốt" },
+      { tc: "壞消息", py: "huài xiāoxí", vn: "tin buồn, tin xấu" }
+    ],
+    examples: [
+      { tc: "你有聽說那個好消息嗎？", py: "Nǐ yǒu tīngshuō nàge hǎo xiāoxí ma?", vn: "Bạn có nghe nói về tin tốt đó chưa?" },
+      { tc: "我剛收到朋友傳來的消息。", py: "Wǒ gāng shōudào péngyǒu chuán lái de xiāoxí.", vn: "Tôi vừa nhận được tin tức do bạn bè gửi tới." },
+      { tc: "這幾天一直沒有他的消息，我很擔心。", py: "Zhè jǐ tiān yìzhí méiyǒu tā de xiāoxí, wǒ hěn dānxīn.", vn: "Mấy ngày nay mãi mà không có tin tức của anh ấy, tôi rất lo lắng." }
+    ],
+    idiom: "消息靈通 Xiāoxí língtōng - Thạo tin / Nắm bắt tin tức nhanh nhạy.<br>🔸 Ví dụ: 他的消息很靈通，什麼事都知道。 Tā de xiāoxí hěn língtōng, shénme shì dōu zhīdào. - Cậu ta rất thạo tin, chuyện gì cũng biết.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "透過", pinyin: "tòuguò", hanViet: "Thấu quá",
+    image: "",
+    radical: "透 (Bộ Xước 辶) + 過 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Xước (辶) chỉ sự di chuyển xuyên qua, đi qua một phương tiện hay quá trình nào đó.",
+    explanation: "Giới từ: Thông qua, qua.",
+    compounds: [
+      { tc: "透過網路", py: "tòuguò wǎnglù", vn: "thông qua mạng internet" },
+      { tc: "透過朋友介紹", py: "tòuguò péngyǒu jièshào", vn: "thông qua bạn bè giới thiệu" }
+    ],
+    examples: [
+      { tc: "我們是透過朋友介紹認識的。", py: "Wǒmen shì tòuguò péngyǒu jièshào rènshí de.", vn: "Chúng tôi quen biết nhau thông qua bạn bè giới thiệu." },
+      { tc: "現在很多人透過手機來學習語言。", py: "Xiànzài hěn duō rén tòuguò shǒujī lái xuéxí yǔyán.", vn: "Bây giờ rất nhiều người thông qua điện thoại để học ngôn ngữ." },
+      { tc: "透過這次活動，我學到了很多經驗。", py: "Tòuguò zhè cì huódòng, wǒ xuédào le hěn duō jīngyàn.", vn: "Thông qua hoạt động lần này, tôi đã học được rất nhiều kinh nghiệm." }
+    ],
+    idiom: "透過現象看本質 Tòuguò xiànxiàng kàn běnzhí - Thông qua hiện tượng nhìn thấu bản chất.<br>🔸 Ví dụ: 我們要學會透過現象看本質，不要被騙了。 Wǒmen yào xuéhuì tòuguò xiànxiàng kàn běnzhí, búyào bèi piàn le. - Chúng ta phải học cách thông qua hiện tượng nhìn thấu bản chất, đừng để bị lừa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "世界", pinyin: "shìjiè", hanViet: "Thế giới",
+    image: "",
+    radical: "世 (Bộ Nhất 一) + 界 (Bộ Điền 田)<br>💡 Mẹo nhớ: Cảnh giới, ranh giới (界) bao trùm cả một đời người, một kỷ nguyên (世).",
+    explanation: "Danh từ: Thế giới.",
+    compounds: [
+      { tc: "全世界", py: "quán shìjiè", vn: "toàn thế giới" },
+      { tc: "世界各地", py: "shìjiè gèdì", vn: "khắp nơi trên thế界" }
+    ],
+    examples: [
+      { tc: "世界上的語言有很多種。", py: "Shìjiè shàng de yǔyán yǒu hěn duō zhǒng.", vn: "Ngôn ngữ trên thế giới có rất nhiều loại." },
+      { tc: "我的夢想是去世界各地旅行。", py: "Wǒ de mèngxiǎng shì qù shìjiè gèdì lǚxíng.", vn: "Ước mơ của tôi là đi du lịch khắp nơi trên thế giới." },
+      { tc: "網路讓世界的距離變近了。", py: "Wǎnglù ràng shìjiè de jùlí biàn jìn le.", vn: "Mạng internet đã làm cho khoảng cách của thế giới xích lại gần nhau." }
+    ],
+    idiom: "世界末日 Shìjiè mòrì - Ngày tận thế.<br>🔸 Ví dụ: 就算世界末日，我也會陪在你身邊。 Jiùsuàn shìjiè mòrì, wǒ yě huì péi zài nǐ shēnbiān. - Cho dù là ngày tận thế, tôi cũng sẽ ở bên cạnh bạn.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "節省", pinyin: "jiéshěng", hanViet: "Tiết tỉnh",
+    image: "",
+    radical: "節 (Bộ Trúc 竹) + 省 (Bộ Mục 目)<br>💡 Mẹo nhớ: Xem xét kỹ càng (省) để cắt giảm chi tiêu, từng đốt từng nhịp (節).",
+    explanation: "Động từ: Tiết kiệm.",
+    compounds: [
+      { tc: "節省時間", py: "jiéshěng shíjiān", vn: "tiết kiệm thời gian" },
+      { tc: "節省金錢", py: "jiéshěng jīnqián", vn: "tiết kiệm tiền bạc" }
+    ],
+    examples: [
+      { tc: "搭高鐵可以節省很多交通時間。", py: "Dā gāotiě kěyǐ jiéshěng hěn duō jiāotōng shíjiān.", vn: "Đi tàu cao tốc có thể tiết kiệm được rất nhiều thời gian đi lại." },
+      { tc: "他生活很節省，不隨便亂花錢。", py: "Tā shēnghuó hěn jiéshěng, bù suíbiàn luàn huāqián.", vn: "Anh ấy sống rất tiết kiệm, không tùy tiện tiêu tiền bừa bãi." },
+      { tc: "為了買房子，我們必須節省一點。", py: "Wèile mǎi fángzi, wǒmen bìxū jiéshěng yìdiǎn.", vn: "Để mua nhà, chúng ta bắt buộc phải tiết kiệm một chút." }
+    ],
+    idiom: "勤儉節約 Qínjiǎn jiéyuē - Cần kiệm tiết ước / Chăm chỉ và tiết kiệm.<br>🔸 Ví dụ: 勤儉節約是中國人的傳統美德。 Qínjiǎn jiéyuē shì Zhōngguó rén de chuántǒng měidé. - Chăm chỉ và tiết kiệm là mỹ đức truyền thống của người Trung Quốc.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "起床", pinyin: "qǐchuáng", hanViet: "Khởi sàng",
+    image: "",
+    radical: "起 (Bộ Tẩu 走) + 床 (Bộ Nghiễm 广)<br>💡 Mẹo nhớ: Đứng dậy, rời khỏi (起) chiếc giường (床).",
+    explanation: "Động từ ly hợp: Thức dậy, ngủ dậy.",
+    compounds: [
+      { tc: "早起", py: "zǎo qǐ", vn: "dậy sớm" },
+      { tc: "賴床", py: "làichuáng", vn: "ngủ nướng" }
+    ],
+    examples: [
+      { tc: "你每天早上幾點起床？", py: "Nǐ měitiān zǎoshàng jǐ diǎn qǐchuáng?", vn: "Bạn mỗi sáng mấy giờ thức dậy?" },
+      { tc: "冬天太冷了，我不想起床。", py: "Dōngtiān tài lěng le, wǒ bù xiǎng qǐchuáng.", vn: "Mùa đông lạnh quá, tôi không muốn thức dậy." },
+      { tc: "我今天早上睡過頭，七點半才起床。", py: "Wǒ jīntiān zǎoshàng shuì guòtóu, qī diǎn bàn cái qǐchuáng.", vn: "Sáng nay tôi ngủ quên, bảy giờ rưỡi mới thức dậy." }
+    ],
+    idiom: "早睡早起 Zǎo shuì zǎo qǐ - Ngủ sớm dậy sớm.<br>🔸 Ví dụ: 早睡早起身體好。 Zǎo shuì zǎo qǐ shēntǐ hǎo. - Ngủ sớm dậy sớm cơ thể khỏe mạnh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "檢查", pinyin: "jiǎnchá", hanViet: "Kiểm tra",
+    image: "",
+    radical: "檢 (Bộ Mộc 木) + 查 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Mộc (cây cối), mang ý nghĩa xem xét, tra xét kỹ lưỡng từng chi tiết.",
+    explanation: "Động từ: Kiểm tra, khám (bệnh).",
+    compounds: [
+      { tc: "檢查身體", py: "jiǎnchá shēntǐ", vn: "kiểm tra sức khỏe" },
+      { tc: "檢查行李", py: "jiǎnchá xínglǐ", vn: "kiểm tra hành lý" }
+    ],
+    examples: [
+      { tc: "出門前，請檢查門窗有沒有關好。", py: "Chūmén qián, qǐng jiǎnchá ménchuāng yǒu méiyǒu guān hǎo.", vn: "Trước khi ra khỏi nhà, xin hãy kiểm tra cửa nẻo đã đóng kỹ chưa." },
+      { tc: "醫生正在幫病人檢查身體。", py: "Yīshēng zhèngzài bāng bìngrén jiǎnchá shēntǐ.", vn: "Bác sĩ đang giúp bệnh nhân kiểm tra sức khỏe." },
+      { tc: "交考卷前，記得再檢查一遍。", py: "Jiāo kǎojuàn qián, jìdé zài jiǎnchá yí biàn.", vn: "Trước khi nộp bài thi, nhớ kiểm tra lại một lượt." }
+    ],
+    idiom: "定期檢查 Dìngqī jiǎnchá - Kiểm tra định kỳ.<br>🔸 Ví dụ: 我們應該每年做一次定期的健康檢查。 Wǒmen yīnggāi měinián zuò yí cì dìngqī de jiànkāng jiǎnchá. - Chúng ta nên mỗi năm làm kiểm tra sức khỏe định kỳ một lần.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "郵件", pinyin: "yóujiàn", hanViet: "Bưu kiện",
+    image: "",
+    radical: "郵 (Bộ Ấp 邑) + 件 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Các kiện hàng (件) hoặc thư từ được gửi qua hệ thống bưu điện (郵).",
+    explanation: "Danh từ: Bưu kiện, thư từ, thư điện tử (email).",
+    compounds: [
+      { tc: "電子郵件", py: "diànzǐ yóujiàn", vn: "thư điện tử / email" },
+      { tc: "收郵件", py: "shōu yóujiàn", vn: "nhận thư" }
+    ],
+    examples: [
+      { tc: "我剛收到一封重要的電子郵件。", py: "Wǒ gāng shōudào yì fēng zhòngyào de diànzǐ yóujiàn.", vn: "Tôi vừa nhận được một bức thư điện tử quan trọng." },
+      { tc: "請把你的郵件地址給我。", py: "Qǐng bǎ nǐ de yóujiàn dìzhǐ gěi wǒ.", vn: "Vui lòng cho tôi địa chỉ email của bạn." },
+      { tc: "他每天早上到公司的第一件事就是回郵件。", py: "Tā měitiān zǎoshàng dào gōngsī de dì yī jiàn shì jiùshì huí yóujiàn.", vn: "Việc đầu tiên mỗi sáng anh ấy đến công ty làm chính là trả lời email." }
+    ],
+    idiom: "垃圾郵件 Lèsè yóujiàn - Thư rác / Thư spam.<br>🔸 Ví dụ: 信箱裡有很多廣告和垃圾郵件。 Xìnxiāng lǐ yǒu hěn duō guǎnggào hé lèsè yóujiàn. - Trong hộp thư có rất nhiều quảng cáo và thư rác.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "立刻", pinyin: "lìkè", hanViet: "Lập khắc",
+    image: "",
+    radical: "立 (Bộ Lập 立) + 刻 (Bộ Đao 刂)<br>💡 Mẹo nhớ: Thời gian khắc nghiệt (刻) trôi qua nhanh, phải đứng lên (立) hành động ngay.",
+    explanation: "Phó từ: Lập tức, ngay lập tức (Giống với 馬上).",
+    compounds: [
+      { tc: "立刻出發", py: "lìkè chūfā", vn: "lập tức xuất phát" }
+    ],
+    examples: [
+      { tc: "聽到這個消息，他立刻跑了出去。", py: "Tīng dào zhège xiāoxī, tā lìkè pǎo le chūqù.", vn: "Nghe được tin này, anh ấy lập tức chạy ra ngoài." },
+      { tc: "有什麼問題請立刻告訴我。", py: "Yǒu shénme wèntí qǐng lìkè gàosù wǒ.", vn: "Có vấn đề gì xin lập tức nói cho tôi biết." },
+      { tc: "會議馬上就要開始了，請大家立刻坐好。", py: "Huìyì mǎshàng jiù yào kāishǐ le, qǐng dàjiā lìkè zuò hǎo.", vn: "Cuộc họp sắp bắt đầu rồi, xin mọi người lập tức ngồi vào vị trí." }
+    ],
+    idiom: "立刻行動 Lìkè xíngdòng - Hành động ngay lập tức.<br>🔸 Ví dụ: 有了計畫就要立刻行動，不要再拖了。 Yǒu le jìhuà jiù yào lìkè xíngdòng, búyào zài tuō le. - Đã có kế hoạch thì phải hành động ngay lập tức, đừng trì hoãn nữa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "上傳", pinyin: "shàngchuán", hanViet: "Thượng truyền",
+    image: "",
+    radical: "上 (Bộ Nhất 一) + 傳 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Đưa dữ liệu truyền (傳) lên (上) không gian mạng internet.",
+    explanation: "Động từ: Tải lên, đăng lên (upload).",
+    compounds: [
+      { tc: "上傳照片", py: "shàngchuán zhàopiān", vn: "tải ảnh lên" },
+      { tc: "下載", py: "xiàzài", vn: "tải xuống" }
+    ],
+    examples: [
+      { tc: "你可以把剛剛拍的影片上傳到網路嗎？", py: "Nǐ kěyǐ bǎ gānggāng pāi de yǐngpiàn shàngchuán dào wǎnglù ma?", vn: "Bạn có thể tải đoạn video vừa chụp lên mạng được không?" },
+      { tc: "報告寫好後，請上傳到學校的網站。", py: "Bàogào xiě hǎo hòu, qǐng shàngchuán dào xuéxiào de wǎngzhàn.", vn: "Báo cáo viết xong rồi, vui lòng tải lên trang web của trường." },
+      { tc: "這個檔案太大，上傳需要一點時間。", py: "Zhège dǎng'àn tài dà, shàngchuán xūyào yìdiǎn shíjiān.", vn: "Tập tin này lớn quá, tải lên cần một chút thời gian." }
+    ],
+    idiom: "上傳失敗 Shàngchuán shībài - Tải lên thất bại.<br>🔸 Ví dụ: 網路不穩定，一直顯示上傳失敗。 Wǎnglù bù wěndìng, yìzhí xiǎnshì shàngchuán shībài. - Mạng không ổn định, cứ hiển thị tải lên thất bại suốt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "正常", pinyin: "zhèngcháng", hanViet: "Chính thường",
+    image: "",
+    radical: "正 (Bộ Chỉ 止) + 常 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Mọi việc diễn ra một cách ngay ngắn (正), bình thường (常).",
+    explanation: "Tính từ: Bình thường.",
+    compounds: [
+      { tc: "很正常", py: "hěn zhèngcháng", vn: "rất bình thường" },
+      { tc: "不正常", py: "bù zhèngcháng", vn: "không bình thường" }
+    ],
+    examples: [
+      { tc: "他的體溫很正常，沒有發燒。", py: "Tā de tǐwēn hěn zhèngcháng, méiyǒu fāshāo.", vn: "Nhiệt độ cơ thể của anh ấy rất bình thường, không bị sốt." },
+      { tc: "外國人覺得臭豆腐很臭，這很正常。", py: "Wàiguó rén juéde chòudòufǔ hěn chòu, zhè hěn zhèngcháng.", vn: "Người nước ngoài cảm thấy đậu phụ thối rất thối, điều này rất bình thường." },
+      { tc: "這家店週末也是正常營業。", py: "Zhè jiā diàn zhōumò yě shì zhèngcháng yíngyè.", vn: "Cửa hàng này cuối tuần cũng mở cửa kinh doanh bình thường." }
+    ],
+    idiom: "恢復正常 Huīfù zhèngcháng - Khôi phục bình thường.<br>🔸 Ví dụ: 停電了半小時後，現在終於恢復正常了。 Tíngdiàn le bàn xiǎoshí hòu, xiànzài zhōngyú huīfù zhèngcháng le. - Sau nửa tiếng cúp điện, bây giờ cuối cùng cũng khôi phục lại bình thường rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "談", pinyin: "tán", hanViet: "Đàm",
+    image: "",
+    radical: "談 (Bộ Ngôn 言)<br>💡 Mẹo nhớ: Hai ngọn lửa (炎) và lời nói (言) tạo nên cuộc nói chuyện, bàn bạc sôi nổi.",
+    explanation: "Động từ: Bàn bạc, nói chuyện, thảo luận.",
+    compounds: [
+      { tc: "談天", py: "tántiān", vn: "nói chuyện phiếm" },
+      { tc: "談一談", py: "tán yì tán", vn: "bàn bạc một chút" }
+    ],
+    examples: [
+      { tc: "我們找個時間坐下來好好談一談。", py: "Wǒmen zhǎo ge shíjiān zuò xiàlái hǎohǎo tán yì tán.", vn: "Chúng ta tìm thời gian ngồi xuống đàng hoàng bàn bạc một chút." },
+      { tc: "老闆正在跟客戶談生意。", py: "Lǎobǎn zhèngzài gēn kèhù tán shēngyì.", vn: "Sếp đang bàn chuyện làm ăn với khách hàng." },
+      { tc: "我很喜歡跟她談文學和音樂。", py: "Wǒ hěn xǐhuān gēn tā tán wénxué hé yīnyuè.", vn: "Tôi rất thích nói chuyện văn học và âm nhạc với cô ấy." }
+    ],
+    idiom: "談戀愛 Tán liàn'ài - Yêu đương / Hẹn hò.<br>🔸 Ví dụ: 他最近好像在談戀愛，心情特別好。 Tā zuìjìn hǎoxiàng zài tán liàn'ài, xīnqíng tèbié hǎo. - Dạo này anh ấy hình như đang yêu đương, tâm trạng đặc biệt tốt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "現代人", pinyin: "xiàndài rén", hanViet: "Hiện đại nhân",
+    image: "",
+    radical: "現 (Ngọc), 代 (Nhân), 人 (Nhân)<br>💡 Mẹo nhớ: Những con người (人) sống trong thời đại hiện đại (現代).",
+    explanation: "Danh từ: Người hiện đại, người thời nay.",
+    compounds: [
+      { tc: "現代社會", py: "xiàndài shèhuì", vn: "xã hội hiện đại" }
+    ],
+    examples: [
+      { tc: "現代人的生活節奏非常快。", py: "Xiàndài rén de shēnghuó jiézòu fēicháng kuài.", vn: "Nhịp sống của người hiện đại vô cùng nhanh." },
+      { tc: "手機已經變成現代人生活中不可缺少的東西。", py: "Shǒujī yǐjīng biànchéng xiàndài rén shēnghuó zhōng bùkě quēshǎo de dōngxī.", vn: "Điện thoại đã trở thành món đồ không thể thiếu trong cuộc sống của người hiện đại." },
+      { tc: "很多現代人都有睡不好的問題。", py: "Hěn duō xiàndài rén dōu yǒu shuì bù hǎo de wèntí.", vn: "Rất nhiều người thời nay đều có vấn đề về việc khó ngủ." }
+    ],
+    idiom: "現代人文明病 Xiàndài rén wénmíng bìng - Bệnh văn minh của người hiện đại (các bệnh về tinh thần, béo phì do lối sống...).<br>🔸 Ví dụ: 壓力太大是現代人的文明病之一。 Yālì tài dà shì xiàndài rén de wénmíng bìng zhī yī. - Áp lực quá lớn là một trong những căn bệnh văn minh của người hiện đại.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "比方說", pinyin: "bǐfāng shuō", hanViet: "Tỷ phương thuyết",
+    image: "",
+    radical: "比 (Tỷ), 方 (Phương), 說 (Ngôn)<br>💡 Mẹo nhớ: Dùng lời nói (說) để đưa ra một ví dụ so sánh (比).",
+    explanation: "Cụm từ: Ví dụ như, tỷ như.",
+    compounds: [
+      { tc: "比如說", py: "bǐrú shuō", vn: "ví dụ như (đồng nghĩa)" }
+    ],
+    examples: [
+      { tc: "我很喜歡吃台灣小吃，比方說臭豆腐和滷肉飯。", py: "Wǒ hěn xǐhuān chī Táiwān xiǎochī, bǐfāng shuō chòudòufǔ hé lǔròufàn.", vn: "Tôi rất thích ăn đồ ăn vặt Đài Loan, ví dụ như đậu phụ thối và cơm thịt kho." },
+      { tc: "運動對身體很好，比方說跑步、游泳都可以。", py: "Yùndòng duì shēntǐ hěn hǎo, bǐfāng shuō pǎobù, yóuyǒng dōu kěyǐ.", vn: "Tập thể thao rất tốt cho cơ thể, tỷ như chạy bộ, bơi lội đều được." },
+      { tc: "有很多方法可以學中文，比方說多看台灣電影。", py: "Yǒu hěn duō fāngfǎ kěyǐ xué Zhōngwén, bǐfāng shuō duō kàn Táiwān diànyǐng.", vn: "Có rất nhiều cách để học tiếng Trung, ví dụ như xem phim Đài Loan nhiều hơn." }
+    ],
+    idiom: "打個比方 Dǎ ge bǐfāng - Lấy một ví dụ.<br>🔸 Ví dụ: 我打個比方，你就知道這件事有多重要了。 Wǒ dǎ ge bǐfāng, nǐ jiù zhīdào zhè jiàn shì yǒu duō zhòngyào le. - Tôi lấy một ví dụ, bạn sẽ biết ngay chuyện này quan trọng đến mức nào.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "做到", pinyin: "zuòdào", hanViet: "Tố đáo",
+    image: "",
+    radical: "做 (Bộ Nhân 亻) + 到 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Bổ ngữ kết quả biểu thị hành động làm (做) đã đạt được (到) mục tiêu.",
+    explanation: "Cụm động từ: Làm được, đạt được.",
+    compounds: [
+      { tc: "做不到", py: "zuò bú dào", vn: "không làm được" }
+    ],
+    examples: [
+      { tc: "只要努力，你一定能做到。", py: "Zhǐyào nǔlì, nǐ yídìng néng zuòdào.", vn: "Chỉ cần nỗ lực, bạn nhất định có thể làm được." },
+      { tc: "他答應我的事，最後都沒有做到。", py: "Tā dāyìng wǒ de shì, zuìhòu dōu méiyǒu zuòdào.", vn: "Chuyện anh ấy đồng ý với tôi, cuối cùng đều không làm được." },
+      { tc: "想學好中文，首先要做到每天練習。", py: "Xiǎng xué hǎo Zhōngwén, shǒuxiān yào zuòdào měitiān liànxí.", vn: "Muốn học tốt tiếng Trung, đầu tiên phải đạt được việc luyện tập mỗi ngày." }
+    ],
+    idiom: "說到做到 Shuō dào zuò dào - Nói được làm được.<br>🔸 Ví dụ: 他是一個說到做到的人，很值得信任。 Tā shì yí ge shuō dào zuò dào de rén, hěn zhíde xìnrèn. - Anh ấy là một người nói được làm được, rất đáng để tin tưởng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "第一手", pinyin: "dìyīshǒu", hanViet: "Đệ nhất thủ",
+    image: "",
+    radical: "第 (Bộ Trúc 竹) + 一 (Bộ Nhất 一) + 手 (Bộ Thủ 手)<br>💡 Mẹo nhớ: Từ bàn tay (手) đầu tiên (第一) truyền ra, không qua trung gian.",
+    explanation: "Cụm từ: Trực tiếp, tận tay, đầu tiên.",
+    compounds: [
+      { tc: "第一手消息", py: "dìyīshǒu xiāoxí", vn: "tin tức trực tiếp / tin tức đầu tiên" }
+    ],
+    examples: [
+      { tc: "記者總是想拿到第一手的新聞。", py: "Jìzhě zǒngshì xiǎng nádào dìyīshǒu de xīnwén.", vn: "Phóng viên lúc nào cũng muốn lấy được tin tức trực tiếp đầu tiên." },
+      { tc: "這些資料是我親自去調查的第一手資料。", py: "Zhèxiē zīliào shì wǒ qīnzì qù diàochá de dìyīshǒu zīliào.", vn: "Những tài liệu này là tài liệu tận tay tôi đích thân đi điều tra." },
+      { tc: "他買的是二手車，不是第一手的。", py: "Tā mǎi de shì èrshǒu chē, bú shì dìyīshǒu de.", vn: "Anh ấy mua là xe cũ, không phải là xe đập hộp." }
+    ],
+    idiom: "第一手貨源 Dìyīshǒu huòyuán - Nguồn hàng tận gốc / Nguồn hàng f1.<br>🔸 Ví dụ: 我們公司提供第一手貨源，價格最便宜。 Wǒmen gōngsī tígōng dìyīshǒu huòyuán, jiàgé zuì piányí. - Công ty chúng tôi cung cấp nguồn hàng tận gốc, giá cả rẻ nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "急著", pinyin: "jízhe", hanViet: "Cấp trứ",
+    image: "",
+    radical: "急 (Bộ Tâm 心) + 著 (Bộ Mục 目)<br>💡 Mẹo nhớ: Động từ + 著 biểu thị trạng thái đang diễn ra của sự vội vã trong lòng (心).",
+    explanation: "Cụm động từ: Vội vàng, gấp gáp làm gì đó.",
+    compounds: [
+      { tc: "急著走", py: "jízhe zǒu", vn: "vội vàng rời đi" },
+      { tc: "急著出門", py: "jízhe chūmén", vn: "vội vàng ra ngoài" }
+    ],
+    examples: [
+      { tc: "你這麼急著出門，要去哪裡？", py: "Nǐ zhème jízhe chūmén, yào qù nǎlǐ?", vn: "Bạn vội vàng ra khỏi nhà như vậy là muốn đi đâu?" },
+      { tc: "時間還早，不用急著做決定。", py: "Shíjiān hái zǎo, búyòng jízhe zuò juédìng.", vn: "Thời gian vẫn còn sớm, không cần gấp gáp đưa ra quyết định." },
+      { tc: "他急著把這個好消息告訴大家。", py: "Tā jízhe bǎ zhège hǎo xiāoxī gàosù dàjiā.", vn: "Anh ấy nôn nóng muốn báo tin vui này cho mọi người biết." }
+    ],
+    idiom: "急著投胎 Jízhe tóutāi - Vội đi đầu thai à (Câu mắng vui khi ai đó quá hấp tấp).<br>🔸 Ví dụ: 跑那麼快幹嘛，急著投胎啊？ Pǎo nàme kuài gànmá, jízhe tóutāi a? - Chạy nhanh thế làm gì, vội đi đầu thai à?", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "打招呼", pinyin: "dǎ zhāohū", hanViet: "Đả chiêu hô",
+    image: "",
+    radical: "打 (Bộ Thủ 扌) + 招 (Bộ Thủ 扌) + 呼 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Dùng tay (扌) vẫy gọi và dùng miệng (口) để chào ai đó.",
+    explanation: "Cụm động từ: Chào hỏi.",
+    compounds: [
+      { tc: "跟他打招呼", py: "gēn tā dǎ zhāohū", vn: "chào hỏi anh ấy" }
+    ],
+    examples: [
+      { tc: "在路上遇到老師，要記得打招呼。", py: "Zài lùshàng yùdào lǎoshī, yào jìdé dǎ zhāohū.", vn: "Gặp giáo viên trên đường, phải nhớ chào hỏi." },
+      { tc: "他剛剛跟我打招呼，可是我忘記他的名字了。", py: "Tā gānggāng gēn wǒ dǎ zhāohū, kěshì wǒ wàngjì tā de míngzi le.", vn: "Anh ấy vừa nãy chào hỏi tôi, nhưng tôi lại quên tên của anh ấy mất rồi." },
+      { tc: "台灣人見面時喜歡微笑打招呼。", py: "Táiwān rén jiànmiàn shí xǐhuān wéixiào dǎ zhāohū.", vn: "Người Đài Loan khi gặp mặt thích mỉm cười chào hỏi." }
+    ],
+    idiom: "不打招呼 Bù dǎ zhāohū - Không chào không hỏi / Không nói tiếng nào.<br>🔸 Ví dụ: 他走的時候連招呼都不打一聲。 Tā zǒu de shíhòu lián zhāohū dōu bù dǎ yì shēng. - Lúc rời đi cậu ấy đến một tiếng chào hỏi cũng không nói.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "面對面", pinyin: "miàn duì miàn", hanViet: "Diện đối diện",
+    image: "",
+    radical: "面 (Bộ Diện 面) + 對 (Bộ Thốn 寸) + 面 (Bộ Diện 面)<br>💡 Mẹo nhớ: Khuôn mặt (面) hướng đối diện (對) với khuôn mặt.",
+    explanation: "Cụm từ: Mặt đối mặt, trực tiếp.",
+    compounds: [
+      { tc: "面對面溝通", py: "miàn duì miàn gōutōng", vn: "giao tiếp trực tiếp" }
+    ],
+    examples: [
+      { tc: "有些事情還是面對面說比較清楚。", py: "Yǒuxiē shìqíng háishì miàn duì miàn shuō bǐjiào qīngchǔ.", vn: "Có một số chuyện vẫn là mặt đối mặt nói sẽ rõ ràng hơn." },
+      { tc: "我們明天約個時間面對面討論吧。", py: "Wǒmen míngtiān yuē ge shíjiān miàn duì miàn tǎolùn ba.", vn: "Ngày mai chúng ta hẹn thời gian mặt đối mặt thảo luận đi." },
+      { tc: "透過網路聊天，不如面對面見面來得好。", py: "Tòuguò wǎnglù liáotiān, bùrú miàn duì miàn jiànmiàn láidé hǎo.", vn: "Thông qua mạng trò chuyện, không bằng mặt đối mặt gặp gỡ sẽ tốt hơn." }
+    ],
+    idiom: "面對面建群 Miàn duì miàn jiàn qún - Tạo nhóm trực tiếp (Tính năng quét mã tạo nhóm chat của WeChat/Line).<br>🔸 Ví dụ: 我們來面對面建群，方便以後聯絡。 Wǒmen lái miàn duì miàn jiàn qún, fāngbiàn yǐhòu liánluò. - Chúng ta cùng tạo nhóm trực tiếp đi, tiện cho sau này liên lạc.", 
+    level: "TOCFL A2"
+  },
   ];
