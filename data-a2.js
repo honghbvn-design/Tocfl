@@ -8203,4 +8203,306 @@ const dataA2 = [
     idiom: "連鎖速食店 Liánsuǒ sùshí diàn - Chuỗi cửa hàng thức ăn nhanh.<br>🔸 Ví dụ: 麥當勞是一家全球知名的連鎖速食店。 Màidāngláo shì yì jiā quánqiú zhīmíng de liánsuǒ sùshí diàn. - McDonald's là một chuỗi cửa hàng thức ăn nhanh nổi tiếng toàn cầu.", 
     level: "TOCFL A2"
   },
+  {
+    word: "只要", pinyin: "zhǐyào", hanViet: "Chỉ yếu",
+    image: "",
+    radical: "只 (Bộ Khẩu 口) + 要 (Bộ Á 襾)<br>💡 Mẹo nhớ: Dùng miệng (口) đưa ra một điều kiện cần thiết (要).",
+    explanation: "Liên từ: Chỉ cần.",
+    compounds: [
+      { tc: "只要...就...", py: "zhǐyào... jiù...", vn: "chỉ cần... thì..." }
+    ],
+    examples: [
+      { tc: "只要你努力，就一定會成功。", py: "Zhǐyào nǐ nǔlì, jiù yídìng huì chénggōng.", vn: "Chỉ cần bạn nỗ lực, thì nhất định sẽ thành công." },
+      { tc: "只要不下雨，我們就去爬山。", py: "Zhǐyào bú xiàyǔ, wǒmen jiù qù páshān.", vn: "Chỉ cần trời không mưa, chúng ta sẽ đi leo núi." },
+      { tc: "只要有時間，我就會去圖書館。", py: "Zhǐyào yǒu shíjiān, wǒ jiù huì qù túshūguǎn.", vn: "Chỉ cần có thời gian, tôi sẽ đi thư viện." }
+    ],
+    idiom: "只要功夫深，鐵杵磨成針 Zhǐyào gōngfū shēn, tiěchǔ mó chéng zhēn - Có công mài sắt có ngày nên kim.<br>🔸 Ví dụ: 學習語言很難，但只要功夫深，鐵杵磨成針。 Xuéxí yǔyán hěn nán, dàn zhǐyào gōngfū shēn, tiěchǔ mó chéng zhēn. - Học ngôn ngữ rất khó, nhưng có công mài sắt có ngày nên kim.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "討厭", pinyin: "tǎoyàn", hanViet: "Thảo yếm",
+    image: "",
+    radical: "討 (Bộ Ngôn 言) + 厭 (Bộ Hán 厂)<br>💡 Mẹo nhớ: Dùng lời nói (言) bày tỏ sự chán ghét, bực dọc.",
+    explanation: "Động từ / Tính từ: Ghét, đáng ghét.",
+    compounds: [
+      { tc: "很討厭", py: "hěn tǎoyàn", vn: "rất đáng ghét" },
+      { tc: "討厭吃", py: "tǎoyàn chī", vn: "ghét ăn" }
+    ],
+    examples: [
+      { tc: "我很討厭下雨天。", py: "Wǒ hěn tǎoyàn xiàyǔ tiān.", vn: "Tôi rất ghét những ngày trời mưa." },
+      { tc: "這個人一直說謊，真的很討厭。", py: "Zhège rén yìzhí shuōhuǎng, zhēn de hěn tǎoyàn.", vn: "Người này cứ nói dối suốt, thật sự rất đáng ghét." },
+      { tc: "弟弟討厭吃青菜。", py: "Dìdi tǎoyàn chī qīngcài.", vn: "Em trai ghét ăn rau xanh." }
+    ],
+    idiom: "惹人討厭 Rě rén tǎoyàn - Chuốc lấy sự chán ghét từ người khác.<br>🔸 Ví dụ: 他講話太沒禮貌，很惹人討厭。 Tā jiǎnghuà tài méi lǐmào, hěn rě rén tǎoyàn. - Cậu ta nói chuyện quá vô phép, rất dễ chuốc lấy sự chán ghét.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "餐", pinyin: "cān", hanViet: "Xan",
+    image: "",
+    radical: "餐 (Bộ Thực 食)<br>💡 Mẹo nhớ: Lượng từ dùng để đếm các bữa ăn (食).",
+    explanation: "Lượng từ / Danh từ: Bữa, bữa ăn.",
+    compounds: [
+      { tc: "一餐飯", py: "yì cān fàn", vn: "một bữa cơm" },
+      { tc: "聚餐", py: "jùcān", vn: "ăn liên hoan" }
+    ],
+    examples: [
+      { tc: "醫生說一天要吃三餐。", py: "Yīshēng shuō yì tiān yào chī sān cān.", vn: "Bác sĩ nói một ngày phải ăn ba bữa." },
+      { tc: "這一餐我請客。", py: "Zhè yì cān wǒ qǐngkè.", vn: "Bữa này tôi mời." },
+      { tc: "他因為太忙，少吃了一餐。", py: "Tā yīnwèi tài máng, shǎo chī le yì cān.", vn: "Anh ấy vì quá bận nên ăn thiếu mất một bữa." }
+    ],
+    idiom: "一日三餐 Yí rì sān cān - Một ngày ba bữa.<br>🔸 Ví dụ: 為了健康，我們必須按時吃一日三餐。 Wèile jiànkāng, wǒmen bìxū ànshí chī yí rì sān cān. - Để khỏe mạnh, chúng ta bắt buộc phải ăn đúng giờ một ngày ba bữa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "宗教", pinyin: "zōngjiào", hanViet: "Tông giáo",
+    image: "",
+    radical: "宗 (Bộ Miên 宀) + 教 (Bộ Phộc 攵)<br>💡 Mẹo nhớ: Nơi (宀) truyền dạy (教) những tín ngưỡng tôn thờ cho mọi người.",
+    explanation: "Danh từ: Tôn giáo.",
+    compounds: [
+      { tc: "宗教信仰", py: "zōngjiào xìnyǎng", vn: "tín ngưỡng tôn giáo" },
+      { tc: "宗教自由", py: "zōngjiào zìyóu", vn: "tự do tôn giáo" }
+    ],
+    examples: [
+      { tc: "每個人的宗教信仰都應該被尊重。", py: "Měi ge rén de zōngjiào xìnyǎng dōu yīnggāi bèi zūnzhòng.", vn: "Tín ngưỡng tôn giáo của mỗi người đều nên được tôn trọng." },
+      { tc: "台灣有各種不同的宗教。", py: "Táiwān yǒu gè zhǒng bùtóng de zōngjiào.", vn: "Đài Loan có rất nhiều loại tôn giáo khác nhau." },
+      { tc: "他因為宗教的關係吃素。", py: "Tā yīnwèi zōngjiào de guānxì chīsù.", vn: "Anh ấy vì lý do tôn giáo nên ăn chay." }
+    ],
+    idiom: "宗教活動 Zōngjiào huódòng - Hoạt động tôn giáo.<br>🔸 Ví dụ: 週末他會去參加當地的宗教活動。 Zhōumò tā huì qù cānjiā dāngdì de zōngjiào huódòng. - Cuối tuần anh ấy sẽ đi tham gia hoạt động tôn giáo của địa phương.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "關係", pinyin: "guānxi", hanViet: "Quan hệ",
+    image: "",
+    radical: "關 (Bộ Môn 門) + 係 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Những mối liên kết, ràng buộc (係) khép kín như bị khóa sau cánh cửa (門).",
+    explanation: "Danh từ: Quan hệ, mối quan hệ, sự liên quan.",
+    compounds: [
+      { tc: "沒關係", py: "méiguānxi", vn: "không sao" },
+      { tc: "人際關係", py: "rénjì guānxi", vn: "quan hệ xã hội" }
+    ],
+    examples: [
+      { tc: "我們兩個人的關係很好。", py: "Wǒmen liǎng ge rén de guānxi hěn hǎo.", vn: "Mối quan hệ của hai chúng tôi rất tốt." },
+      { tc: "這件事跟我沒有關係。", py: "Zhè jiàn shì gēn wǒ méiyǒu guānxi.", vn: "Chuyện này không có liên quan gì đến tôi cả." },
+      { tc: "因為天氣的關係，比賽取消了。", py: "Yīnwèi tiānqì de guānxi, bǐsài qǔxiāo le.", vn: "Vì lý do thời tiết, trận đấu bị hủy rồi." }
+    ],
+    idiom: "關係密切 Guānxi mìqiè - Quan hệ mật thiết.<br>🔸 Ví dụ: 台灣和日本在經濟上有密切的關係。 Táiwān hé Rìběn zài jīngjì shàng yǒu mìqiè de guānxi. - Đài Loan và Nhật Bản có mối quan hệ mật thiết về mặt kinh tế.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "薯條", pinyin: "shǔtiáo", hanViet: "Thự điều",
+    image: "",
+    radical: "薯 (Bộ Thảo 艹) + 條 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Củ khoai tây (艹) được cắt thành từng thanh dài (條) để chiên.",
+    explanation: "Danh từ: Khoai tây chiên.",
+    compounds: [
+      { tc: "炸薯條", py: "zhá shǔtiáo", vn: "khoai tây chiên" },
+      { tc: "大份薯條", py: "dà fèn shǔtiáo", vn: "khoai tây chiên cỡ lớn" }
+    ],
+    examples: [
+      { tc: "吃漢堡時一定要配薯條。", py: "Chī hànbǎo shí yídìng yào pèi shǔtiáo.", vn: "Lúc ăn hamburger nhất định phải ăn kèm khoai tây chiên." },
+      { tc: "請給我一份大份的薯條。", py: "Qǐng gěi wǒ yí fèn dà fèn de shǔtiáo.", vn: "Vui lòng cho tôi một phần khoai tây chiên cỡ lớn." },
+      { tc: "薯條趁熱吃最好吃。", py: "Shǔtiáo chèn rè chī zuì hǎochī.", vn: "Khoai tây chiên tranh thủ lúc còn nóng ăn là ngon nhất." }
+    ],
+    idiom: "漢堡薯條 Hànbǎo shǔtiáo - Hamburger và khoai tây chiên.<br>🔸 Ví dụ: 速食店最受歡迎的餐點是漢堡薯條。 Sùshí diàn zuì shòu huānyíng de cāndiǎn shì hànbǎo shǔtiáo. - Món ăn được yêu thích nhất ở cửa hàng thức ăn nhanh là hamburger và khoai tây chiên.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "作法", pinyin: "zuòfǎ", hanViet: "Tác pháp",
+    image: "",
+    radical: "作 (Bộ Nhân 亻) + 法 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Phương pháp (法) để con người (亻) chế biến hoặc làm ra một thứ gì đó.",
+    explanation: "Danh từ: Cách làm, phương pháp làm.",
+    compounds: [
+      { tc: "傳統作法", py: "chuántǒng zuòfǎ", vn: "cách làm truyền thống" }
+    ],
+    examples: [
+      { tc: "這道菜的作法很簡單。", py: "Zhè dào cài de zuòfǎ hěn jiǎndān.", vn: "Cách làm của món này rất đơn giản." },
+      { tc: "每個人的作法都不一樣。", py: "Měi ge rén de zuòfǎ dōu bù yíyàng.", vn: "Cách làm của mỗi người đều không giống nhau." },
+      { tc: "請教我這個蛋糕的作法。", py: "Qǐng jiào wǒ zhège dàngāo de zuòfǎ.", vn: "Xin hãy dạy tôi cách làm chiếc bánh kem này." }
+    ],
+    idiom: "改變作法 Gǎibiàn zuòfǎ - Thay đổi cách làm.<br>🔸 Ví dụ: 為了提高效率，我們必須改變作法。 Wèile tígāo xiàolǜ, wǒmen bìxū gǎibiàn zuòfǎ. - Để nâng cao hiệu suất, chúng ta bắt buộc phải thay đổi cách làm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "越", pinyin: "yuè", hanViet: "Việt",
+    image: "",
+    radical: "越 (Bộ Tẩu 走)<br>💡 Mẹo nhớ: Đi bộ (走) vượt qua giới hạn cũ, chỉ sự tăng tiến dần.",
+    explanation: "Phó từ: Càng.",
+    compounds: [
+      { tc: "越來越...", py: "yuèláiyuè...", vn: "càng ngày càng..." },
+      { tc: "越多越好", py: "yuè duō yuè hǎo", vn: "càng nhiều càng tốt" }
+    ],
+    examples: [
+      { tc: "風雨越下越大了。", py: "Fēngyǔ yuè xià yuè dà le.", vn: "Mưa gió càng lúc càng lớn rồi." },
+      { tc: "中文越學越有趣。", py: "Zhōngwén yuè xué yuè yǒuqù.", vn: "Tiếng Trung càng học càng thấy thú vị." },
+      { tc: "這種水果越紅越甜。", py: "Zhè zhǒng shuǐguǒ yuè hóng yuè tián.", vn: "Loại trái cây này càng đỏ càng ngọt." }
+    ],
+    idiom: "越來越好 Yuè lái yuè hǎo - Càng ngày càng tốt.<br>🔸 Ví dụ: 相信你的身體會越來越好。 Xiāngxìn nǐ de shēntǐ huì yuè lái yuè hǎo. - Tin rằng sức khỏe của bạn sẽ càng ngày càng tốt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "簡單", pinyin: "jiǎndān", hanViet: "Giản đơn",
+    image: "",
+    radical: "簡 (Bộ Trúc 竹) + 單 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Những thẻ tre (竹) ngày xưa ghi chép nội dung ngắn gọn, không cầu kỳ.",
+    explanation: "Tính từ: Đơn giản, dễ dàng.",
+    compounds: [
+      { tc: "很簡單", py: "hěn jiǎndān", vn: "rất đơn giản" },
+      { tc: "不簡單", py: "bù jiǎndān", vn: "không đơn giản" }
+    ],
+    examples: [
+      { tc: "這個問題很簡單，我會回答。", py: "Zhège wèntí hěn jiǎndān, wǒ huì huídá.", vn: "Câu hỏi này rất đơn giản, tôi biết trả lời." },
+      { tc: "這道菜作法簡單，又很好吃。", py: "Zhè dào cài zuòfǎ jiǎndān, yòu hěn hǎochī.", vn: "Món ăn này cách làm đơn giản, lại rất ngon." },
+      { tc: "他的生活過得非常簡單。", py: "Tā de shēnghuó guò de fēicháng jiǎndān.", vn: "Cuộc sống của anh ấy trôi qua vô cùng đơn giản." }
+    ],
+    idiom: "頭腦簡單 Tóunǎo jiǎndān - Đầu óc đơn giản.<br>🔸 Ví dụ: 不要以為他頭腦簡單，其實他很聰明。 Búyào yǐwéi tā tóunǎo jiǎndān, qíshí tā hěn cōngmíng. - Đừng tưởng cậu ta đầu óc đơn giản, thực ra cậu ta rất thông minh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "蒸", pinyin: "zhēng", hanViet: "Chưng",
+    image: "",
+    radical: "蒸 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Dùng ngọn lửa (灬) đun nóng nước để làm chín thức ăn bằng hơi.",
+    explanation: "Động từ: Hấp.",
+    compounds: [
+      { tc: "蒸魚", py: "zhēng yú", vn: "cá hấp" },
+      { tc: "蒸餃", py: "zhēngjiǎo", vn: "há cảo hấp" }
+    ],
+    examples: [
+      { tc: "這條魚是用蒸的，味道很鮮美。", py: "Zhè tiáo yú shì yòng zhēng de, wèidào hěn xiānměi.", vn: "Con cá này là đồ hấp, hương vị rất tươi ngon." },
+      { tc: "媽媽正在廚房蒸包子。", py: "Māma zhèngzài chúfáng zhēng bāozi.", vn: "Mẹ đang hấp bánh bao trong bếp." },
+      { tc: "蒸的食物比較健康。", py: "Zhēng de shíwù bǐjiào jiànkāng.", vn: "Thức ăn hấp tương đối tốt cho sức khỏe." }
+    ],
+    idiom: "蒸蒸日上 Zhēngzhēng rìshàng - Ngày một đi lên.<br>🔸 Ví dụ: 祝你的事業蒸蒸日上。 Zhù nǐ de shìyè zhēngzhēng rìshàng. - Chúc sự nghiệp của bạn ngày một đi lên.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "有機", pinyin: "yǒujī", hanViet: "Hữu cơ",
+    image: "",
+    radical: "有 (Bộ Nguyệt 月) + 機 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Nông sản được trồng tự nhiên, giữ nguyên được cơ chế sinh trưởng của cây cối (木).",
+    explanation: "Tính từ: Hữu cơ (organic).",
+    compounds: [
+      { tc: "有機蔬菜", py: "yǒujī shūcài", vn: "rau hữu cơ" },
+      { tc: "有機食品", py: "yǒujī shípǐn", vn: "thực phẩm hữu cơ" }
+    ],
+    examples: [
+      { tc: "有機蔬菜的價格比較高。", py: "Yǒujī shūcài de jiàgé bǐjiào gāo.", vn: "Giá của rau hữu cơ tương đối cao." },
+      { tc: "為了健康，他們家只吃有機食品。", py: "Wèile jiànkāng, tāmen jiā zhǐ chī yǒujī shípǐn.", vn: "Vì sức khỏe, nhà họ chỉ ăn thực phẩm hữu cơ." },
+      { tc: "這家店專門賣有機農產品。", py: "Zhè jiā diàn zhuānmén mài yǒujī nóngchǎnpǐn.", vn: "Cửa hàng này chuyên bán nông sản hữu cơ." }
+    ],
+    idiom: "有機農業 Yǒujī nóngyè - Nông nghiệp hữu cơ.<br>🔸 Ví dụ: 現在越來越多農夫投入有機農業。 Xiànzài yuèláiyuè duō nóngfū tóurù yǒujī nóngyè. - Hiện nay ngày càng có nhiều nông dân đầu tư vào nông nghiệp hữu cơ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "食品", pinyin: "shípǐn", hanViet: "Thực phẩm",
+    image: "",
+    radical: "食 (Bộ Thực 食) + 品 (Bộ Khẩu 口)<br>💡 Mẹo nhớ: Các mặt hàng, sản phẩm (品) dùng làm thức ăn (食).",
+    explanation: "Danh từ: Thực phẩm, đồ ăn.",
+    compounds: [
+      { tc: "垃圾食品", py: "lèsè shípǐn", vn: "thực phẩm rác, đồ ăn vặt" },
+      { tc: "冷凍食品", py: "lěngdòng shípǐn", vn: "thực phẩm đông lạnh" }
+    ],
+    examples: [
+      { tc: "超市裡有很多冷凍食品。", py: "Chāoshì lǐ yǒu hěn duō lěngdòng shípǐn.", vn: "Trong siêu thị có rất nhiều thực phẩm đông lạnh." },
+      { tc: "為了健康，不要吃太多垃圾食品。", py: "Wèile jiànkāng, búyào chī tài duō lèsè shípǐn.", vn: "Vì sức khỏe, đừng ăn quá nhiều thực phẩm rác." },
+      { tc: "這裡賣的食品都很新鮮。", py: "Zhèlǐ mài de shípǐn dōu hěn xīnxiān.", vn: "Thực phẩm bán ở đây đều rất tươi sống." }
+    ],
+    idiom: "食品安全 Shípǐn ānquán - An toàn thực phẩm.<br>🔸 Ví dụ: 政府非常重視食品安全問題。 Zhèngfǔ fēicháng zhòngshì shípǐn ānquán wèntí. - Chính phủ vô cùng coi trọng vấn đề an toàn thực phẩm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "地球", pinyin: "dìqiú", hanViet: "Địa cầu",
+    image: "",
+    radical: "地 (Bộ Thổ 土) + 球 (Bộ Ngọc 王/玉)<br>💡 Mẹo nhớ: Khối hình cầu (球) chứa đầy đất đai (土).",
+    explanation: "Danh từ: Trái Đất.",
+    compounds: [
+      { tc: "保護地球", py: "bǎohù dìqiú", vn: "bảo vệ Trái Đất" }
+    ],
+    examples: [
+      { tc: "地球是我們共同的家。", py: "Dìqiú shì wǒmen gòngtóng de jiā.", vn: "Trái Đất là ngôi nhà chung của chúng ta." },
+      { tc: "為了保護地球，我們應該減少汙染。", py: "Wèile bǎohù dìqiú, wǒmen yīnggāi jiǎnshǎo wūrǎn.", vn: "Để bảo vệ Trái Đất, chúng ta nên giảm thiểu ô nhiễm." },
+      { tc: "地球上有七十多億人口。", py: "Dìqiú shàng yǒu qīshí duō yì rénkǒu.", vn: "Trên Trái Đất có hơn 7 tỷ người." }
+    ],
+    idiom: "地球村 Dìqiú cūn - Ngôi làng toàn cầu.<br>🔸 Ví dụ: 網路讓世界變成了一個地球村。 Wǎnglù ràng shìjiè biànchéng le yí ge dìqiú cūn. - Mạng internet đã biến thế giới trở thành một ngôi làng toàn cầu.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "汙染", pinyin: "wūrǎn", hanViet: "Ô nhiễm",
+    image: "",
+    radical: "汙 (Bộ Thủy 氵) + 染 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Nguồn nước (氵) bị làm cho dơ bẩn, vấy bẩn.",
+    explanation: "Danh từ / Động từ: Ô nhiễm, làm ô nhiễm.",
+    compounds: [
+      { tc: "空氣汙染", py: "kōngqì wūrǎn", vn: "ô nhiễm không khí" },
+      { tc: "水汙染", py: "shuǐwūrǎn", vn: "ô nhiễm nguồn nước" }
+    ],
+    examples: [
+      { tc: "這座城市的空氣汙染很嚴重。", py: "Zhè zuò chéngshì de kōngqì wūrǎn hěn yánzhòng.", vn: "Ô nhiễm không khí của thành phố này rất nghiêm trọng." },
+      { tc: "工廠的廢水汙染了河川。", py: "Gōngchǎng de fèishuǐ wūrǎn le héchuān.", vn: "Nước thải của nhà máy đã làm ô nhiễm dòng sông." },
+      { tc: "我們要努力減少環境汙染。", py: "Wǒmen yào nǔlì jiǎnshǎo huánjìng wūrǎn.", vn: "Chúng ta phải nỗ lực giảm thiểu ô nhiễm môi trường." }
+    ],
+    idiom: "減少汙染 Jiǎnshǎo wūrǎn - Giảm thiểu ô nhiễm.<br>🔸 Ví dụ: 多搭大眾運輸工具可以減少汙染。 Duō dā dàzhòng yùnshū gōngjù kěyǐ jiǎnshǎo wūrǎn. - Đi phương tiện công cộng nhiều hơn có thể giúp giảm thiểu ô nhiễm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "嚴重", pinyin: "yánzhòng", hanViet: "Nghiêm trọng",
+    image: "",
+    radical: "嚴 (Bộ Khẩu 口) + 重 (Bộ Lý 里)<br>💡 Mẹo nhớ: Vấn đề đã trở nên rất nặng nề (重), cần phải nghiêm túc (嚴) giải quyết.",
+    explanation: "Tính từ: Nghiêm trọng, nặng.",
+    compounds: [
+      { tc: "很嚴重", py: "hěn yánzhòng", vn: "rất nghiêm trọng" },
+      { tc: "越來越嚴重", py: "yuèláiyuè yánzhòng", vn: "càng ngày càng nghiêm trọng" }
+    ],
+    examples: [
+      { tc: "他的病很嚴重，必須住院。", py: "Tā de bìng hěn yánzhòng, bìxū zhùyuàn.", vn: "Bệnh của anh ấy rất nặng, bắt buộc phải nằm viện." },
+      { tc: "這個問題比我們想的還要嚴重。", py: "Zhège wèntí bǐ wǒmen xiǎng de hái yào yánzhòng.", vn: "Vấn đề này nghiêm trọng hơn so với chúng ta nghĩ." },
+      { tc: "這次颱風造成的破壞非常嚴重。", py: "Zhè cì táifēng zàochéng de pòhuài fēicháng yánzhòng.", vn: "Sự tàn phá do cơn bão lần này gây ra vô cùng nghiêm trọng." }
+    ],
+    idiom: "後果嚴重 Hòuguǒ yánzhòng - Hậu quả nghiêm trọng.<br>🔸 Ví dụ: 如果你不聽勸告，後果嚴重。 Rúguǒ nǐ bù tīng quàngào, hòuguǒ yánzhòng. - Nếu bạn không nghe lời khuyên, hậu quả sẽ rất nghiêm trọng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "衛生", pinyin: "wèishēng", hanViet: "Vệ sinh",
+    image: "",
+    radical: "衛 (Bộ Hành 行) + 生 (Bộ Sinh 生)<br>💡 Mẹo nhớ: Các hành động giữ gìn, bảo vệ (衛) cho cuộc sống, sức khỏe (生) được sạch sẽ.",
+    explanation: "Danh từ / Tính từ: Vệ sinh, sạch sẽ.",
+    compounds: [
+      { tc: "衛生紙", py: "wèishēngzhǐ", vn: "giấy vệ sinh" },
+      { tc: "不太衛生", py: "bú tài wèishēng", vn: "không vệ sinh lắm" }
+    ],
+    examples: [
+      { tc: "吃飯前洗手是好衛生的習慣。", py: "Chīfàn qián xǐshǒu shì hǎo wèishēng de xíguàn.", vn: "Rửa tay trước khi ăn là thói quen vệ sinh tốt." },
+      { tc: "路邊攤的食物有時候不太衛生。", py: "Lùbiāntān de shíwù yǒushíhòu bú tài wèishēng.", vn: "Thức ăn ở quán vỉa hè có lúc không được vệ sinh cho lắm." },
+      { tc: "廁所裡沒有衛生紙了。", py: "Cèsuǒ lǐ méiyǒu wèishēngzhǐ le.", vn: "Trong nhà vệ sinh không còn giấy vệ sinh nữa." }
+    ],
+    idiom: "講究衛生 Jiǎngjiù wèishēng - Chú trọng vệ sinh.<br>🔸 Ví dụ: 這家餐廳非常講究衛生。 Zhè jiā cāntīng fēicháng jiǎngjiù wèishēng. - Nhà hàng này vô cùng chú trọng vệ sinh.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "營養", pinyin: "yíngyǎng", hanViet: "Doanh dưỡng",
+    image: "",
+    radical: "營 (Bộ Hỏa 火/Thảo 艹) + 養 (Bộ Thực 食)<br>💡 Mẹo nhớ: Thức ăn (食) cung cấp chất bổ để nuôi dưỡng (養) cơ thể khỏe mạnh.",
+    explanation: "Danh từ / Tính từ: Dinh dưỡng, bổ dưỡng.",
+    compounds: [
+      { tc: "營養豐富", py: "yíngyǎng fēngfù", vn: "giàu dinh dưỡng" },
+      { tc: "營養不良", py: "yíngyǎng bùliáng", vn: "suy dinh dưỡng" }
+    ],
+    examples: [
+      { tc: "多吃蔬菜水果比較有營養。", py: "Duō chī shūcài shuǐguǒ bǐjiào yǒu yíngyǎng.", vn: "Ăn nhiều rau củ quả sẽ bổ dưỡng hơn." },
+      { tc: "牛奶含有豐富的營養。", py: "Niúnǎi hányǒu fēngfù de yíngyǎng.", vn: "Sữa bò có chứa hàm lượng dinh dưỡng phong phú." },
+      { tc: "媽媽總是為我們準備營養的早餐。", py: "Māma zǒngshì wèi wǒmen zhǔnbèi yíngyǎng de zǎocān.", vn: "Mẹ luôn chuẩn bị bữa sáng đầy đủ dinh dưỡng cho chúng tôi." }
+    ],
+    idiom: "營養價值 Yíngyǎng jiàzhí - Giá trị dinh dưỡng.<br>🔸 Ví dụ: 這種魚的營養價值很高。 Zhè zhǒng yú de yíngyǎng jiàzhí hěn gāo. - Giá trị dinh dưỡng của loại cá này rất cao.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "什麼的", pinyin: "shénmede", hanViet: "Thập ma đích",
+    image: "",
+    radical: "什 (Nhân) + 麼 (Ma) + 的 (Bạch)<br>💡 Mẹo nhớ: Dùng ở cuối một danh sách liệt kê để chỉ những thứ tương tự.",
+    explanation: "Trợ từ: Vân vân, những thứ đại loại thế.",
+    compounds: [
+      { tc: "水果什麼的", py: "shuǐguǒ shénmede", vn: "trái cây vân vân" }
+    ],
+    examples: [
+      { tc: "我喜歡吃蘋果、香蕉什麼的。", py: "Wǒ xǐhuān chī píngguǒ, xiāngjiāo shénmede.", vn: "Tôi thích ăn táo, chuối vân vân." },
+      { tc: "他去超市買了青菜、水果什麼的。", py: "Tā qù chāoshì mǎi le qīngcài, shuǐguǒ shénmede.", vn: "Anh ấy đi siêu thị mua rau xanh, trái cây và những thứ đại loại thế." },
+      { tc: "週末我通常在家看書、上網什麼的。", py: "Zhōumò wǒ tōngcháng zài jiā kànshū, shàngwǎng shénmede.", vn: "Cuối tuần tôi thường ở nhà đọc sách, lên mạng vân vân." }
+    ],
+    idiom: "買些吃的什麼的 Mǎi xiē chī de shénmede - Mua chút đồ ăn vân vân.<br>🔸 Ví dụ: 路上順便買些吃的什麼的吧。 Lùshàng shùnbiàn mǎi xiē chī de shénmede ba. - Trên đường tiện thể mua chút đồ ăn vân vân nhé.", 
+    level: "TOCFL A2"
+  },
   ];
