@@ -9574,4 +9574,407 @@ const dataA2 = [
     idiom: "找時間聚一聚 Zhǎo shíjiān jù yí jù - Tìm thời gian gặp mặt chút.<br>🔸 Ví dụ: 最近大家都忙，等忙完再找時間聚一聚。 Zuìjìn dàjiā dōu máng, děng máng wán zài zhǎo shíjiān jù yí jù. - Dạo này mọi người đều bận, đợi bận xong lại tìm thời gian gặp mặt chút nhé.", 
     level: "TOCFL A2"
   },
+  {
+    word: "當時", pinyin: "dāngshí", hanViet: "Đương thời",
+    image: "",
+    radical: "當 (Bộ 小 Tiểu) + 時 (Bộ 日 Nhật)<br>💡 Mẹo nhớ: Khoảng thời gian (時) ngay tại thời điểm (當) sự việc đó xảy ra trong quá khứ.",
+    explanation: "Phó từ / Danh từ chỉ thời gian: Lúc đó, khi đó.",
+    compounds: [
+      { tc: "當時的情況", py: "dāngshí de qíngkuàng", vn: "tình hình lúc đó" }
+    ],
+    examples: [
+      { tc: "我當時太緊張了，忘記要說什麼。", py: "Wǒ dāngshí tài jǐnzhāng le, wàngjì yào shuō shénme.", vn: "Lúc đó tôi căng thẳng quá, quên mất phải nói gì." },
+      { tc: "當時他才剛畢業，還沒有工作經驗。", py: "Dāngshí tā cái gāng bìyè, hái méiyǒu gōngzuò jīngyàn.", vn: "Khi đó anh ấy mới vừa tốt nghiệp, vẫn chưa có kinh nghiệm làm việc." },
+      { tc: "請你告訴我當時發生了什麼事。", py: "Qǐng nǐ gàosù wǒ dāngshí fāshēng le shénme shì.", vn: "Xin hãy kể cho tôi nghe lúc đó đã xảy ra chuyện gì." }
+    ],
+    idiom: "想當年 Xiǎng dāngnián - Nhớ năm đó / Nghĩ lại hồi đó.<br>🔸 Ví dụ: 想當年我們還是大學生，現在都已經工作了。 Xiǎng dāngnián wǒmen háishì dàxuéshēng, xiànzài dōu yǐjīng gōngzuò le. - Nghĩ lại hồi đó chúng ta vẫn còn là sinh viên đại học, bây giờ đều đã đi làm cả rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聲調", pinyin: "shēngdiào", hanViet: "Thanh điệu",
+    image: "",
+    radical: "聲 (Bộ 耳 Nhĩ) + 調 (Bộ 言 Ngôn)<br>💡 Mẹo nhớ: Dùng tai (耳) để nghe và phân biệt các giai điệu, ngữ điệu (調) của lời nói (言).",
+    explanation: "Danh từ: Thanh điệu (trong ngôn ngữ).",
+    compounds: [
+      { tc: "注意聲調", py: "zhùyì shēngdiào", vn: "chú ý thanh điệu" },
+      { tc: "四個聲調", py: "sì ge shēngdiào", vn: "bốn thanh điệu" }
+    ],
+    examples: [
+      { tc: "中文的聲調對外國人來說很難。", py: "Zhōngwén de shēngdiào duì wàiguó rén lái shuō hěn nán.", vn: "Thanh điệu của tiếng Trung đối với người nước ngoài mà nói rất khó." },
+      { tc: "如果聲調念錯了，意思就會不一樣。", py: "Rúguǒ shēngdiào niàn cuò le, yìsī jiù huì bù yíyàng.", vn: "Nếu như đọc sai thanh điệu, ý nghĩa sẽ không giống nhau." },
+      { tc: "老師正在教我們如何發出正確的聲調。", py: "Lǎoshī zhèngzài jiāo wǒmen rúhé fāchū zhèngquè de shēngdiào.", vn: "Giáo viên đang dạy chúng tôi làm thế nào để phát ra thanh điệu chính xác." }
+    ],
+    idiom: "聲調標準 Shēngdiào zhǔnbiāo - Thanh điệu chuẩn xác.<br>🔸 Ví dụ: 他說中文的聲調非常標準，就像台灣人一樣。 Tā shuō Zhōngwén de shēngdiào fēicháng zhǔnbiāo, jiù xiàng Táiwān rén yíyàng. - Thanh điệu nói tiếng Trung của anh ấy vô cùng chuẩn xác, giống hệt như người Đài Loan vậy.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "發音", pinyin: "fāyīn", hanViet: "Phát âm",
+    image: "",
+    radical: "發 (Bộ Bát 癶) + 音 (Bộ 音 Âm)<br>💡 Mẹo nhớ: Phát (發) ra âm thanh (音) từ trong miệng.",
+    explanation: "Danh từ / Động từ: Phát âm.",
+    compounds: [
+      { tc: "發音不準", py: "fāyīn bù zhǔn", vn: "phát âm không chuẩn" },
+      { tc: "練習發音", py: "liànxí fāyīn", vn: "luyện tập phát âm" }
+    ],
+    examples: [
+      { tc: "他的英文發音非常漂亮。", py: "Tā de Yīngwén fāyīn fēicháng piàoliang.", vn: "Phát âm tiếng Anh của anh ấy vô cùng hay." },
+      { tc: "學語言最重要的是發音要清楚。", py: "Xué yǔyán zuì zhòngyào de shì fāyīn yào qīngchǔ.", vn: "Học ngôn ngữ quan trọng nhất là phát âm phải rõ ràng." },
+      { tc: "請你跟著老師一起練習這個字的發音。", py: "Qǐng nǐ gēnzhe lǎoshī yìqǐ liànxí zhège zì de fāyīn.", vn: "Mời bạn cùng luyện tập phát âm của chữ này theo giáo viên." }
+    ],
+    idiom: "咬字清晰 Yǎozì qīngxī - Nhả chữ rõ ràng / Phát âm rành mạch.<br>🔸 Ví dụ: 身為一名老師，上課時必須咬字清晰。 Shēnwéi yì míng lǎoshī, shàngkè shí bìxū yǎozì qīngxī. - Là một giáo viên, khi lên lớp bắt buộc phải nhả chữ rõ ràng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "準", pinyin: "zhǔn", hanViet: "Chuẩn",
+    image: "",
+    radical: "準 (Bộ 冫 Băng)<br>💡 Mẹo nhớ: Mặt nước đóng băng (冫) phẳng lặng, tạo thành một tiêu chuẩn ngang bằng tuyệt đối.",
+    explanation: "Tính từ: Chuẩn, chính xác.",
+    compounds: [
+      { tc: "很準", py: "hěn zhǔn", vn: "rất chuẩn" },
+      { tc: "不準", py: "bù zhǔn", vn: "không chuẩn" }
+    ],
+    examples: [
+      { tc: "我的手錶不太準，慢了五分鐘。", py: "Wǒ de shǒubiǎo bú tài zhǔn, màn le wǔ fēnzhōng.", vn: "Đồng hồ của tôi không chuẩn lắm, bị chậm mất năm phút." },
+      { tc: "他猜得很準，明天真的下雨了。", py: "Tā cāi de hěn zhǔn, míngtiān zhēnde xiàyǔ le.", vn: "Anh ấy đoán rất chuẩn, ngày mai thực sự đã có mưa rồi." },
+      { tc: "你的發音越來越準了。", py: "Nǐ de fāyīn yuèláiyuè zhǔn le.", vn: "Phát âm của bạn càng ngày càng chuẩn rồi." }
+    ],
+    idiom: "準時 Zhǔnshí - Đúng giờ.<br>🔸 Ví dụ: 我們約好下午兩點見面，請準時到達。 Wǒmen yuē hǎo xiàwǔ liǎng diǎn jiànmiàn, qǐng zhǔnshí dàodá. - Chúng ta hẹn gặp nhau lúc hai giờ chiều, xin hãy đến đúng giờ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "企業", pinyin: "qǐyè", hanViet: "Xí nghiệp",
+    image: "",
+    radical: "企 (Bộ 人 Nhân) + 業 (Bộ 木 Mộc)<br>💡 Mẹo nhớ: Con người (人) cùng nhau nỗ lực xây dựng cơ đồ, sự nghiệp (業).",
+    explanation: "Danh từ: Xí nghiệp, doanh nghiệp.",
+    compounds: [
+      { tc: "大企業", py: "dà qǐyè", vn: "doanh nghiệp lớn" },
+      { tc: "企業家", py: "qǐyèjiā", vn: "doanh nhân" }
+    ],
+    examples: [
+      { tc: "畢業後，我想進入大企業工作。", py: "Bìyè hòu, wǒ xiǎng jìnrù dà qǐyè gōngzuò.", vn: "Sau khi tốt nghiệp, tôi muốn vào làm việc ở các doanh nghiệp lớn." },
+      { tc: "這家企業在台灣非常有名。", py: "Zhè jiā qǐyè zài Táiwān fēicháng yǒumíng.", vn: "Doanh nghiệp này vô cùng nổi tiếng ở Đài Loan." },
+      { tc: "現在很多企業都很重視環保問題。", py: "Xiànzài hěn duō qǐyè dōu hěn zhòngshì huánbǎo wèntí.", vn: "Hiện nay rất nhiều doanh nghiệp đều coi trọng vấn đề bảo vệ môi trường." }
+    ],
+    idiom: "企業管理 Qǐyè guǎnlǐ - Quản trị doanh nghiệp.<br>🔸 Ví dụ: 他大學時主修企業管理，對商業很有興趣。 Tā dàxué shí zhǔxiū qǐyè guǎnlǐ, duì shāngyè hěn yǒu xìngqù. - Hồi đại học anh ấy học chuyên ngành Quản trị doanh nghiệp, rất có hứng thú với thương mại.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "管理", pinyin: "guǎnlǐ", hanViet: "Quản lý",
+    image: "",
+    radical: "管 (Bộ 竹 Trúc) + 理 (Bộ 玉 Ngọc)<br>💡 Mẹo nhớ: Dùng ống tre (竹) để cai quản, điều chỉnh sự vật sao cho trật tự, có lý (理).",
+    explanation: "Động từ / Danh từ: Quản lý.",
+    compounds: [
+      { tc: "時間管理", py: "shíjiān guǎnlǐ", vn: "quản lý thời gian" },
+      { tc: "管理公司", py: "guǎnlǐ gōngsī", vn: "quản lý công ty" }
+    ],
+    examples: [
+      { tc: "南台科技大學的企業管理系很有名。", py: "Nántái kējì dàxué de qǐyè guǎnlǐ xì hěn yǒumíng.", vn: "Khoa Quản trị Kinh doanh của trường Đại học Khoa học Công nghệ Nam Đài rất nổi tiếng." },
+      { tc: "要學好中文，首先要做好時間管理。", py: "Yào xué hǎo Zhōngwén, shǒuxiān yào zuò hǎo shíjiān guǎnlǐ.", vn: "Muốn học tốt tiếng Trung, đầu tiên phải làm tốt việc quản lý thời gian." },
+      { tc: "他負責管理公司的財務。", py: "Tā fùzé guǎnlǐ gōngsī de cáiwù.", vn: "Anh ấy phụ trách quản lý tài chính của công ty." }
+    ],
+    idiom: "管理階層 Guǎnlǐ jiēcéng - Tầng lớp quản lý / Cấp quản lý.<br>🔸 Ví dụ: 他工作非常努力，希望能升上管理階層。 Tā gōngzuò fēicháng nǔlì, xīwàng néng shēng shàng guǎnlǐ jiēcéng. - Anh ấy làm việc vô cùng nỗ lực, hy vọng có thể thăng lên cấp quản lý.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "系", pinyin: "xì", hanViet: "Hệ",
+    image: "",
+    radical: "系 (Bộ 糸 Mịch)<br>💡 Mẹo nhớ: Những mối liên kết có tính hệ thống giống như những sợi tơ (糸) đan vào nhau.",
+    explanation: "Danh từ: Khoa, hệ (trong trường đại học).",
+    compounds: [
+      { tc: "中文系", py: "Zhōngwén xì", vn: "khoa tiếng Trung" },
+      { tc: "企管系", py: "qǐguǎn xì", vn: "khoa quản trị kinh doanh" }
+    ],
+    examples: [
+      { tc: "請問你是哪一個系的學生？", py: "Qǐngwèn nǐ shì nǎ yí ge xì de xuéshēng?", vn: "Xin hỏi bạn là sinh viên của khoa nào?" },
+      { tc: "我計畫去南台科大念企業管理系。", py: "Wǒ jìhuà qù Nántái Kēdà niàn qǐyè guǎnlǐ xì.", vn: "Tôi lên kế hoạch đến học Khoa Quản trị Kinh doanh tại trường STUST." },
+      { tc: "他們系的功課非常重。", py: "Tāmen xì de gōngkè fēicháng zhòng.", vn: "Bài vở của khoa bọn họ vô cùng nặng." }
+    ],
+    idiom: "系主任 Xì zhǔrèn - Chủ nhiệm khoa.<br>🔸 Ví dụ: 有任何選課的問題，可以去請問系主任。 Yǒu rènhé xuǎnkè de wèntí, kěyǐ qù qǐngwèn xì zhǔrèn. - Có bất cứ câu hỏi nào về việc chọn môn, có thể đi hỏi chủ nhiệm khoa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "經濟", pinyin: "jīngjì", hanViet: "Kinh tế",
+    image: "",
+    radical: "經 (Bộ 糸 Mịch) + 濟 (Bộ 水 Thủy)<br>💡 Mẹo nhớ: Sắp xếp các sợi tơ (糸) và điều hòa dòng nước (水) tượng trưng cho việc trị quốc, quản lý tài sản.",
+    explanation: "Danh từ: Kinh tế.",
+    compounds: [
+      { tc: "經濟發展", py: "jīngjì fāzhǎn", vn: "phát triển kinh tế" },
+      { tc: "經濟獨立", py: "jīngjì dúlì", vn: "độc lập kinh tế" }
+    ],
+    examples: [
+      { tc: "台灣的經濟發展得很好。", py: "Táiwān de jīngjì fāzhǎn de hěn hǎo.", vn: "Kinh tế của Đài Loan phát triển rất tốt." },
+      { tc: "最近幾年，全球的經濟都不太好。", py: "Zuìjìn jǐ nián, quánqiú de jīngjì dōu bú tài hǎo.", vn: "Mấy năm gần đây, nền kinh tế toàn cầu đều không tốt lắm." },
+      { tc: "大學畢業後，我希望能早點經濟獨立。", py: "Dàxué bìyè hòu, wǒ xīwàng néng zǎodiǎn jīngjì dúlì.", vn: "Sau khi tốt nghiệp đại học, tôi hy vọng có thể sớm ngày độc lập tài chính." }
+    ],
+    idiom: "經濟學 Jīngjìxué - Kinh tế học.<br>🔸 Ví dụ: 他大學時主修經濟學，對市場很了解。 Tā dàxué shí zhǔxiū jīngjìxué, duì shìchǎng hěn liǎojiě. - Hồi đại học anh ấy học chuyên ngành Kinh tế học, rất am hiểu về thị trường.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "幫助", pinyin: "bāngzhù", hanViet: "Bang trợ",
+    image: "",
+    radical: "幫 (Bộ 巾 Cân) + 助 (Bộ 力 Lực)<br>💡 Mẹo nhớ: Dùng sức lực (力) để hỗ trợ người khác làm việc.",
+    explanation: "Động từ / Danh từ: Giúp đỡ, sự giúp đỡ.",
+    compounds: [
+      { tc: "需要幫助", py: "xūyào bāngzhù", vn: "cần giúp đỡ" },
+      { tc: "很有幫助", py: "hěn yǒu bāngzhù", vn: "rất có ích" }
+    ],
+    examples: [
+      { tc: "謝謝你這幾天對我的幫助。", py: "Xièxiè nǐ zhè jǐ tiān duì wǒ de bāngzhù.", vn: "Cảm ơn sự giúp đỡ của bạn dành cho tôi mấy ngày nay." },
+      { tc: "多看台灣的新聞對學習中文很有幫助。", py: "Duō kàn Táiwān de xīnwén duì xuéxí Zhōngwén hěn yǒu bāngzhù.", vn: "Xem nhiều tin tức Đài Loan rất có ích cho việc học tiếng Trung." },
+      { tc: "如果你需要幫助，可以隨時打電話給我。", py: "Rúguǒ nǐ xūyào bāngzhù, kěyǐ suíshí dǎ diànhuà gěi wǒ.", vn: "Nếu như bạn cần giúp đỡ, có thể gọi điện thoại cho tôi bất cứ lúc nào." }
+    ],
+    idiom: "互相幫助 Hùxiāng bāngzhù - Giúp đỡ lẫn nhau.<br>🔸 Ví dụ: 同學之間應該要互相幫助。 Tóngxué zhījiān yīnggāi yào hùxiāng bāngzhù. - Giữa bạn học với nhau nên giúp đỡ lẫn nhau.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "有關", pinyin: "yǒuguān", hanViet: "Hữu quan",
+    image: "",
+    radical: "有 (Có) + 關 (Bộ Môn 門)<br>💡 Mẹo nhớ: Có (有) mối liên hệ, gắn kết (關) với nhau.",
+    explanation: "Tính từ / Giới từ: Có liên quan, liên quan đến.",
+    compounds: [
+      { tc: "和...有關", py: "hé... yǒuguān", vn: "có liên quan đến..." },
+      { tc: "有關的資料", py: "yǒuguān de zīliào", vn: "tài liệu có liên quan" }
+    ],
+    examples: [
+      { tc: "這件事跟你有關嗎？", py: "Zhè jiàn shì gēn nǐ yǒuguān ma?", vn: "Chuyện này có liên quan đến bạn không?" },
+      { tc: "我想找一些有關台灣歷史的書。", py: "Wǒ xiǎng zhǎo yìxiē yǒuguān Táiwān lìshǐ de shū.", vn: "Tôi muốn tìm một vài cuốn sách có liên quan đến lịch sử Đài Loan." },
+      { tc: "只要是有關企管系的資訊，我都會去查。", py: "Zhǐyào shì yǒuguān qǐguǎn xì de zīxùn, wǒ dōu huì qù chá.", vn: "Chỉ cần là thông tin liên quan đến Khoa Quản trị Kinh doanh, tôi đều sẽ đi tra cứu." }
+    ],
+    idiom: "息息相關 Xíxí xiāngguān - Liên quan mật thiết.<br>🔸 Ví dụ: 環境保護與我們的生活息息相關。 Huánjìng bǎohù yǔ wǒmen de shēnghuó xíxí xiāngguān. - Việc bảo vệ môi trường có liên quan mật thiết đến cuộc sống của chúng ta.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "語法", pinyin: "yǔfǎ", hanViet: "Ngữ pháp",
+    image: "",
+    radical: "語 (Bộ 言 Ngôn) + 法 (Bộ 水 Thủy)<br>💡 Mẹo nhớ: Các quy tắc, phép tắc (法) cấu tạo nên ngôn ngữ (語).",
+    explanation: "Danh từ: Ngữ pháp.",
+    compounds: [
+      { tc: "中文語法", py: "Zhōngwén yǔfǎ", vn: "ngữ pháp tiếng Trung" },
+      { tc: "語法錯誤", py: "yǔfǎ cuòwù", vn: "lỗi ngữ pháp" }
+    ],
+    examples: [
+      { tc: "我覺得中文的語法比英文簡單。", py: "Wǒ juéde Zhōngwén de yǔfǎ bǐ Yīngwén jiǎndān.", vn: "Tôi cảm thấy ngữ pháp tiếng Trung đơn giản hơn tiếng Anh." },
+      { tc: "這個句子的語法有點奇怪，請你改一下。", py: "Zhège jùzi de yǔfǎ yǒudiǎn qíguài, qǐng nǐ gǎi yíxià.", vn: "Ngữ pháp của câu này hơi kỳ lạ, xin bạn hãy sửa lại một chút." },
+      { tc: "上課時，老師會教我們很多新的語法。", py: "Shàngkè shí, lǎoshī huì jiāo wǒmen hěn duō xīn de yǔfǎ.", vn: "Lúc lên lớp, giáo viên sẽ dạy chúng tôi rất nhiều điểm ngữ pháp mới." }
+    ],
+    idiom: "語法書 Yǔfǎ shū - Sách ngữ pháp.<br>🔸 Ví dụ: 為了考TOCFL，我買了一本很厚的語法書。 Wèile kǎo TOCFL, wǒ mǎi le yì běn hěn hòu de yǔfǎ shū. - Để thi chứng chỉ TOCFL, tôi đã mua một quyển sách ngữ pháp rất dày.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "研究", pinyin: "yánjiù", hanViet: "Nghiên cứu",
+    image: "",
+    radical: "研 (Bộ 石 Thạch) + 究 (Bộ 穴 Huyệt)<br>💡 Mẹo nhớ: Đào sâu tìm tòi tận trong hang sâu (穴) như mài đá (石) để tìm ra chân lý.",
+    explanation: "Động từ / Danh từ: Nghiên cứu.",
+    compounds: [
+      { tc: "做研究", py: "zuò yánjiù", vn: "làm nghiên cứu" },
+      { tc: "研究計畫", py: "yánjiù jìhuà", vn: "kế hoạch nghiên cứu" }
+    ],
+    examples: [
+      { tc: "他目前在大學裡做研究。", py: "Tā mùqián zài dàxué lǐ zuò yánjiù.", vn: "Anh ấy hiện tại đang làm nghiên cứu trong trường đại học." },
+      { tc: "這個問題值得我們好好研究一下。", py: "Zhège wèntí zhíde wǒmen hǎohǎo yánjiù yíxià.", vn: "Vấn đề này xứng đáng để chúng ta nghiên cứu kỹ càng một chút." },
+      { tc: "我未來的目標是進入研究所做研究。", py: "Wǒ wèilái de mùbiāo shì jìnrù yánjiùsuǒ zuò yánjiù.", vn: "Mục tiêu tương lai của tôi là vào viện nghiên cứu để làm nghiên cứu." }
+    ],
+    idiom: "研究生 Yánjiùshēng - Nghiên cứu sinh / Sinh viên thạc sĩ, tiến sĩ.<br>🔸 Ví dụ: 明年我就是南台科大的研究生了。 Míngnián wǒ jiùshì Nántái Kēdà de yánjiùshēng le. - Sang năm tôi sẽ là nghiên cứu sinh của Đại học Khoa học Công nghệ Nam Đài rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "教書", pinyin: "jiāoshū", hanViet: "Giáo thư",
+    image: "",
+    radical: "教 (Bộ 攵 Phộc) + 書 (Bộ 曰 Viết)<br>💡 Mẹo nhớ: Dùng roi gậy (攵) đôn đốc học sinh đọc sách (書).",
+    explanation: "Cụm động từ: Dạy học, đi dạy.",
+    compounds: [
+      { tc: "去學校教書", py: "qù xuéxiào jiāoshū", vn: "đến trường dạy học" }
+    ],
+    examples: [
+      { tc: "他畢業後打算回鄉下教書。", py: "Tā bìyè hòu dǎsuàn huí xiāngxià jiāoshū.", vn: "Sau khi tốt nghiệp anh ấy dự định về quê dạy học." },
+      { tc: "我的媽媽在國中教書。", py: "Wǒ de māma zài guózhōng jiāoshū.", vn: "Mẹ của tôi đi dạy ở trường cấp hai." },
+      { tc: "教書是一份非常辛苦但很有意義的工作。", py: "Jiāoshū shì yí fèn fēicháng xīnkǔ dàn hěn yǒu yìyì de gōngzuò.", vn: "Dạy học là một công việc vô cùng vất vả nhưng rất có ý nghĩa." }
+    ],
+    idiom: "教書育人 Jiāoshū yùrén - Dạy học trồng người.<br>🔸 Ví dụ: 老師的責任不僅是教書，更是育人。 Lǎoshī de zérèn bùjǐn shì jiāoshū, gèng shì yùrén. - Trách nhiệm của người giáo viên không chỉ là dạy học, mà còn là trồng người.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "方法", pinyin: "fāngfǎ", hanViet: "Phương pháp",
+    image: "",
+    radical: "方 (Bộ 方 Phương) + 法 (Bộ 水 Thủy)<br>💡 Mẹo nhớ: Cách thức, lề lối (法) để giải quyết các khía cạnh (方) của vấn đề.",
+    explanation: "Danh từ: Phương pháp, cách thức.",
+    compounds: [
+      { tc: "學習方法", py: "xuéxí fāngfǎ", vn: "phương pháp học tập" },
+      { tc: "好方法", py: "hǎo fāngfǎ", vn: "phương pháp tốt" }
+    ],
+    examples: [
+      { tc: "每個人都有自己學外語的方法。", py: "Měi ge rén dōu yǒu zìjǐ xué wàiyǔ de fāngfǎ.", vn: "Mỗi người đều có phương pháp học ngoại ngữ của riêng mình." },
+      { tc: "這個方法真的很有用，你可以試試看。", py: "Zhège fāngfǎ zhēnde hěn yǒuyòng, nǐ kěyǐ shìshì kàn.", vn: "Phương pháp này thực sự rất hữu dụng, bạn có thể thử xem." },
+      { tc: "我們要想出一個解決問題的方法。", py: "Wǒmen yào xiǎng chū yí ge jiějué wèntí de fāngfǎ.", vn: "Chúng ta phải nghĩ ra một phương pháp giải quyết vấn đề." }
+    ],
+    idiom: "想盡辦法 Xiǎng jìn bànfǎ - Nghĩ đủ mọi cách.<br>🔸 Ví dụ: 為了拿到獎學金，我會想盡辦法提高成績。 Wèile nádào jiǎngxuéjīn, wǒ huì xiǎng jìn bànfǎ tígāo chéngjī. - Để lấy được học bổng, tôi sẽ nghĩ đủ mọi cách để nâng cao thành tích.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "目的", pinyin: "mùdì", hanViet: "Mục đích",
+    image: "",
+    radical: "目 (Bộ 目 Mục) + 的 (Bộ 白 Bạch)<br>💡 Mẹo nhớ: Cái đích đến rõ ràng (白) mà ánh mắt (目) luôn hướng tới.",
+    explanation: "Danh từ: Mục đích.",
+    compounds: [
+      { tc: "達到目的", py: "dádào mùdì", vn: "đạt được mục đích" },
+      { tc: "主要目的", py: "zhǔyào mùdì", vn: "mục đích chính" }
+    ],
+    examples: [
+      { tc: "你來台灣留學的目的是什麼？", py: "Nǐ lái Táiwān liúxué de mùdì shì shénme?", vn: "Mục đích bạn đến Đài Loan du học là gì?" },
+      { tc: "他做這件事的目的，是為了幫助更多人。", py: "Tā zuò zhè jiàn shì de mùdì, shì wèi le bāngzhù gèng duō rén.", vn: "Mục đích anh ấy làm việc này, là vì để giúp đỡ nhiều người hơn." },
+      { tc: "只要能達到目的，辛苦一點也沒關係。", py: "Zhǐyào néng dádào mùdì, xīnkǔ yìdiǎn yě méiguānxi.", vn: "Chỉ cần có thể đạt được mục đích, vất vả một chút cũng không sao." }
+    ],
+    idiom: "目的不明 Mùdì bù míng - Mục đích không rõ ràng.<br>🔸 Ví dụ: 他突然跑來找我，目的不明。 Tā túrán pǎo lái zhǎo wǒ, mùdì bù míng. - Anh ta đột nhiên chạy đến tìm tôi, mục đích không rõ ràng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "國際", pinyin: "guójì", hanViet: "Quốc tế",
+    image: "",
+    radical: "國 (Bộ 囗 Vi) + 際 (Bộ 阝 Phụ)<br>💡 Mẹo nhớ: Sự giao thiệp, ranh giới (際) giữa các quốc gia (國) với nhau.",
+    explanation: "Tính từ: Quốc tế.",
+    compounds: [
+      { tc: "國際關係", py: "guójì guānxi", vn: "quan hệ quốc tế" },
+      { tc: "國際新聞", py: "guójì xīnwén", vn: "tin tức quốc tế" }
+    ],
+    examples: [
+      { tc: "台南有很多來自國際的交換學生。", py: "Táinán yǒu hěn duō láizì guójì de jiāohuàn xuéshēng.", vn: "Đài Nam có rất nhiều sinh viên trao đổi đến từ quốc tế." },
+      { tc: "出國前，請確認你的國際駕照辦好了沒。", py: "Chūguó qián, qǐng quèrèn nǐ de guójì jiàzhào bàn hǎo le méi.", vn: "Trước khi xuất ngoại, xin hãy xác nhận xem bằng lái xe quốc tế của bạn đã làm xong chưa." },
+      { tc: "英文是一種國際語言。", py: "Yīngwén shì yì zhǒng guójì yǔyán.", vn: "Tiếng Anh là một loại ngôn ngữ quốc tế." }
+    ],
+    idiom: "國際機場 Guójì jīchǎng - Sân bay quốc tế.<br>🔸 Ví dụ: 桃園國際機場是台灣最大的機場。 Táoyuán guójì jīchǎng shì Táiwān zuìdà de jīchǎng. - Sân bay quốc tế Đào Viên là sân bay lớn nhất Đài Loan.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "翻譯", pinyin: "fānyì", hanViet: "Phiên dịch",
+    image: "",
+    radical: "翻 (Bộ 羽 Vũ) + 譯 (Bộ 言 Ngôn)<br>💡 Mẹo nhớ: Lật giở (翻) các trang sách để chuyển đổi lời nói (言) từ ngôn ngữ này sang ngôn ngữ khác.",
+    explanation: "Động từ / Danh từ: Dịch, phiên dịch, người phiên dịch.",
+    compounds: [
+      { tc: "翻譯員", py: "fānyìyuán", vn: "nhân viên phiên dịch" },
+      { tc: "翻譯軟體", py: "fānyì ruǎntǐ", vn: "phần mềm phiên dịch" }
+    ],
+    examples: [
+      { tc: "請你幫我把這句話翻譯成中文。", py: "Qǐng nǐ bāng wǒ bǎ zhè jù huà fānyì chéng Zhōngwén.", vn: "Xin bạn giúp tôi dịch câu này sang tiếng Trung." },
+      { tc: "他將來想當一名專業的翻譯。", py: "Tā jiānglái xiǎng dāng yì míng zhuānyè de fānyì.", vn: "Tương lai anh ấy muốn làm một người phiên dịch chuyên nghiệp." },
+      { tc: "這本書已經被翻譯成十幾種語言了。", py: "Zhè běn shū yǐjīng bèi fānyì chéng shí jǐ zhǒng yǔyán le.", vn: "Cuốn sách này đã được dịch ra mười mấy loại ngôn ngữ rồi." }
+    ],
+    idiom: "口頭翻譯 Kǒutóu fānyì - Phiên dịch miệng / Thông dịch.<br>🔸 Ví dụ: 開會時需要有人做口頭翻譯。 Kāihuì shí xūyào yǒu rén zuò kǒutóu fānyì. - Lúc họp cần có người làm phiên dịch miệng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "外交", pinyin: "wàijiāo", hanViet: "Ngoại giao",
+    image: "",
+    radical: "外 (Bộ 夕 Tịch) + 交 (Bộ 亠 Đầu)<br>💡 Mẹo nhớ: Những hoạt động giao thiệp (交) với các nước ở bên ngoài (外).",
+    explanation: "Danh từ: Ngoại giao.",
+    compounds: [
+      { tc: "外交部", py: "wàijiāobù", vn: "Bộ ngoại giao" },
+      { tc: "外交人員", py: "wàijiāo rényuán", vn: "nhân viên ngoại giao" }
+    ],
+    examples: [
+      { tc: "他在大學念的是外交系。", py: "Tā zài dàxué niàn de shì wàijiāo xì.", vn: "Hồi đại học anh ấy học khoa Ngoại giao." },
+      { tc: "兩國之間建立了良好的外交關係。", py: "Liǎng guó zhījiān jiànlì le liánghǎo de wàijiāo guānxi.", vn: "Giữa hai nước đã thiết lập được mối quan hệ ngoại giao tốt đẹp." },
+      { tc: "他的夢想是成為一名外交官。", py: "Tā de mèngxiǎng shì chéngwéi yì míng wàijiāoguān.", vn: "Ước mơ của anh ấy là trở thành một nhà ngoại giao." }
+    ],
+    idiom: "國民外交 Guómín wàijiāo - Ngoại giao nhân dân (Mỗi người dân đóng vai trò như một nhà ngoại giao quảng bá hình ảnh đất nước).<br>🔸 Ví dụ: 我們出國旅行時，也要注意禮貌，做好國民外交。 Wǒmen chūguó lǚxíng shí, yě yào zhùyì lǐmào, zuò hǎo guómín wàijiāo. - Lúc chúng ta ra nước ngoài du lịch, cũng phải chú ý lễ phép, làm tốt công tác ngoại giao nhân dân.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "人員", pinyin: "rényuán", hanViet: "Nhân viên",
+    image: "",
+    radical: "人 (Bộ 人 Nhân) + 員 (Bộ 口 Khẩu)<br>💡 Mẹo nhớ: Những con người (人) tham gia vào một tổ chức, bộ phận cụ thể.",
+    explanation: "Danh từ: Nhân viên, người làm việc.",
+    compounds: [
+      { tc: "工作人員", py: "gōngzuò rényuán", vn: "nhân viên công tác" },
+      { tc: "服務人員", py: "fúwù rényuán", vn: "nhân viên phục vụ" }
+    ],
+    examples: [
+      { tc: "請問哪裡可以找到這裡的工作人員？", py: "Qǐngwèn nǎlǐ kěyǐ zhǎodào zhèlǐ de gōngzuò rényuán?", vn: "Xin hỏi có thể tìm nhân viên công tác ở đâu vậy?" },
+      { tc: "這家飯店的服務人員態度很好。", py: "Zhè jiā fàndiàn de fúwù rényuán tàidù hěn hǎo.", vn: "Thái độ của nhân viên phục vụ khách sạn này rất tốt." },
+      { tc: "非本公司人員，請勿進入。", py: "Fēi běn gōngsī rényuán, qǐng wù jìnrù.", vn: "Không phải nhân viên công ty, xin đừng bước vào." }
+    ],
+    idiom: "醫護人員 Yīhù rényuán - Nhân viên y tế.<br>🔸 Ví dụ: 疫情期間，醫護人員非常辛苦。 Yìqíng qījiān, yīhù rényuán fēicháng xīnkǔ. - Trong thời kỳ dịch bệnh, nhân viên y tế vô cùng vất vả.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "充實", pinyin: "chōngshí", hanViet: "Sung thực",
+    image: "",
+    radical: "充 (Bộ 儿 Nhi) + 實 (Bộ 宀 Miên)<br>💡 Mẹo nhớ: Nạp thêm, làm cho đầy đủ (充) những kiến thức thiết thực (實) vào đầu.",
+    explanation: "Động từ / Tính từ: Trau dồi, bổ sung / Phong phú, đầy đủ.",
+    compounds: [
+      { tc: "充實自己", py: "chōngshí zìjǐ", vn: "trau dồi bản thân" },
+      { tc: "很充實", py: "hěn chōngshí", vn: "rất phong phú, trọn vẹn" }
+    ],
+    examples: [
+      { tc: "週末去圖書館看書，可以充實自己。", py: "Zhōumò qù túshūguǎn kànshū, kěyǐ chōngshí zìjǐ.", vn: "Cuối tuần đi thư viện đọc sách, có thể trau dồi bản thân." },
+      { tc: "在台南念碩士的日子，每天都過得很充實。", py: "Zài Táinán niàn shuòshì de rìzi, měitiān dōu guò de hěn chōngshí.", vn: "Những ngày tháng học thạc sĩ ở Đài Nam, mỗi ngày đều trôi qua rất trọn vẹn." },
+      { tc: "他想利用假期的時間，充實外語能力。", py: "Tā xiǎng lìyòng jiàqī de shíjiān, chōngshí wàiyǔ nénglì.", vn: "Anh ấy muốn lợi dụng thời gian kỳ nghỉ, trau dồi năng lực ngoại ngữ." }
+    ],
+    idiom: "充實內涵 Chōngshí nèihán - Bồi đắp nội hàm / Làm phong phú thế giới nội tâm.<br>🔸 Ví dụ: 閱讀好書能幫助我們充實內涵。 Yuèdú hǎo shū néng bāngzhù wǒmen chōngshí nèihán. - Đọc sách hay có thể giúp chúng ta bồi đắp nội hàm.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "專業", pinyin: "zhuānyè", hanViet: "Chuyên nghiệp",
+    image: "",
+    radical: "專 (Bộ 寸 Thốn) + 業 (Bộ 木 Mộc)<br>💡 Mẹo nhớ: Dành sự tập trung chuyên nhất (專) cho một ngành nghề, sự nghiệp (業) cụ thể.",
+    explanation: "Danh từ / Tính từ: Chuyên ngành / Chuyên nghiệp.",
+    compounds: [
+      { tc: "專業知識", py: "zhuānyè zhīshì", vn: "kiến thức chuyên môn" },
+      { tc: "很專業", py: "hěn zhuānyè", vn: "rất chuyên nghiệp" }
+    ],
+    examples: [
+      { tc: "這家公司的服務非常專業。", py: "Zhè jiā gōngsī de fúwù fēicháng zhuānyè.", vn: "Dịch vụ của công ty này vô cùng chuyên nghiệp." },
+      { tc: "請問你在大學念的是什麼專業？", py: "Qǐngwèn nǐ zài dàxué niàn de shì shénme zhuānyè?", vn: "Xin hỏi hồi đại học bạn học chuyên ngành gì?" },
+      { tc: "翻譯是一門需要很多專業知識的工作。", py: "Fānyì shì yì mén xūyào hěn duō zhuānyè zhīshì de gōngzuò.", vn: "Phiên dịch là một công việc cần rất nhiều kiến thức chuyên môn." }
+    ],
+    idiom: "專業人士 Zhuānyè rénshì - Chuyên gia / Người trong ngành.<br>🔸 Ví dụ: 遇到法律問題，最好請教專業人士。 Yùdào fǎlǜ wèntí, zuì hǎo qǐngjiào zhuānyè rénshì. - Gặp phải vấn đề pháp lý, tốt nhất nên thỉnh giáo chuyên gia.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "加拿大", pinyin: "Jiānádà", hanViet: "Gia Nã Đại",
+    image: "",
+    radical: "加 (Gia) + 拿 (Nã) + 大 (Đại)<br>💡 Mẹo nhớ: Phiên âm tiếng Trung của nước Canada.",
+    explanation: "Danh từ riêng: Canada.",
+    compounds: [
+      { tc: "加拿大人", py: "Jiānádà rén", vn: "người Canada" }
+    ],
+    examples: [
+      { tc: "加拿大在美國的北邊。", py: "Jiānádà zài Měiguó de běibiān.", vn: "Canada nằm ở phía Bắc của nước Mỹ." },
+      { tc: "他打算明年去加拿大打工度假。", py: "Tā dǎsuàn míngnián qù Jiānádà dǎgōng dùjià.", vn: "Anh ấy dự định năm sau đi Canada làm việc kết hợp nghỉ dưỡng (Working Holiday)." },
+      { tc: "加拿大的冬天非常冷，會下很大的雪。", py: "Jiānádà de dōngtiān fēicháng lěng, huì xià hěn dà de xuě.", vn: "Mùa đông của Canada vô cùng lạnh, sẽ rơi tuyết rất lớn." }
+    ],
+    idiom: "加拿大楓葉 Jiānádà fēngyè - Lá phong Canada.<br>🔸 Ví dụ: 加拿大國旗上有美麗的楓葉圖案。 Jiānádà guóqí shàng yǒu měilì de fēngyè tú'àn. - Trên quốc kỳ của Canada có họa tiết lá phong vô cùng xinh đẹp.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "企業管理系", pinyin: "qǐyè guǎnlǐ xì", hanViet: "Xí nghiệp quản lý hệ",
+    image: "",
+    radical: "企管系 (Viết tắt)<br>💡 Mẹo nhớ: Cụm từ ghép từ các từ 企業 (Doanh nghiệp) + 管理 (Quản lý) + 系 (Khoa).",
+    explanation: "Cụm danh từ: Khoa Quản trị Kinh doanh (Viết tắt: 企管系).",
+    compounds: [
+      { tc: "企管系學生", py: "qǐguǎn xì xuéshēng", vn: "sinh viên khoa quản trị kinh doanh" }
+    ],
+    examples: [
+      { tc: "恭喜你順利進入南台科大企業管理系就讀！", py: "Gōngxǐ nǐ shùnlì jìnrù Nántái Kēdà qǐyè guǎnlǐ xì jiùdú!", vn: "Chúc mừng bạn thuận lợi vào học Khoa Quản trị Kinh doanh trường STUST!" },
+      { tc: "企業管理系要學的科目非常多。", py: "Qǐyè guǎnlǐ xì yào xué de kēmù fēicháng duō.", vn: "Các môn học phải học của Khoa Quản trị Kinh doanh vô cùng nhiều." },
+      { tc: "他想考企業管理系的研究所。", py: "Tā xiǎng kǎo qǐyè guǎnlǐ xì de yánjiùsuǒ.", vn: "Anh ấy muốn thi vào bậc thạc sĩ của Khoa Quản trị Kinh doanh." }
+    ],
+    idiom: "企管碩士 Qǐguǎn shuòshì - Thạc sĩ Quản trị Kinh doanh (MBA).<br>🔸 Ví dụ: 拿到企管碩士學位對未來的發展很有幫助。 Nádào qǐguǎn shuòshì xuéwèi duì wèilái de fāzhǎn hěn yǒu bāngzhù. - Việc lấy được bằng Thạc sĩ Quản trị Kinh doanh rất có ích cho sự phát triển trong tương lai.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "國際關係", pinyin: "guójì guānxi", hanViet: "Quốc tế quan hệ",
+    image: "",
+    radical: "國際 (Quốc tế) + 關係 (Quan hệ)<br>💡 Mẹo nhớ: Một lĩnh vực nghiên cứu về sự tương tác giữa các quốc gia.",
+    explanation: "Cụm danh từ: Quan hệ Quốc tế.",
+    compounds: [
+      { tc: "國際關係學系", py: "guójì guānxi xué xì", vn: "khoa quan hệ quốc tế" }
+    ],
+    examples: [
+      { tc: "他對國際關係很有興趣，常常看國際新聞。", py: "Tā duì guójì guānxi hěn yǒu xìngqù, chángcháng kàn guójì xīnwén.", vn: "Cậu ấy rất có hứng thú với Quan hệ Quốc tế, thường hay xem tin tức quốc tế." },
+      { tc: "這是一場關於國際關係的重要會議。", py: "Zhè shì yì chǎng guānyú guójì guānxi de zhòngyào huìyì.", vn: "Đây là một cuộc họp quan trọng về Quan hệ Quốc tế." },
+      { tc: "大學時，我選修了國際關係這門課。", py: "Dàxué shí, wǒ xuǎnxiū le guójì guānxi zhè mén kè.", vn: "Lúc học đại học, tôi đã chọn học môn Quan hệ Quốc tế này." }
+    ],
+    idiom: "國際情勢 Guójì qíngshì - Tình hình quốc tế.<br>🔸 Ví dụ: 了解國際情勢，才能在職場上更有競爭力。 Liǎojiě guójì qíngshì, cái néng zài zhíchǎng shàng gèng yǒu jìngzhēnglì. - Am hiểu tình hình quốc tế, mới có thể có sức cạnh tranh hơn ở chốn công sở.", 
+    level: "TOCFL A2"
+  },
   ];
