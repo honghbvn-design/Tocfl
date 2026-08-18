@@ -9206,4 +9206,322 @@ const dataA2 = [
     idiom: "面對面建群 Miàn duì miàn jiàn qún - Tạo nhóm trực tiếp (Tính năng quét mã tạo nhóm chat của WeChat/Line).<br>🔸 Ví dụ: 我們來面對面建群，方便以後聯絡。 Wǒmen lái miàn duì miàn jiàn qún, fāngbiàn yǐhòu liánluò. - Chúng ta cùng tạo nhóm trực tiếp đi, tiện cho sau này liên lạc.", 
     level: "TOCFL A2"
   },
+  {
+    word: "將來", pinyin: "jiānglái", hanViet: "Tương lai",
+    image: "",
+    radical: "將 (Bộ Thốn 寸) + 來 (Bộ Nhân 人)<br>💡 Mẹo nhớ: Thời gian, những điều sắp sửa đi tới (來) với chúng ta.",
+    explanation: "Danh từ: Tương lai, mai sau.",
+    compounds: [
+      { tc: "將來發展", py: "jiānglái fāzhǎn", vn: "phát triển trong tương lai" },
+      { tc: "將來的計畫", py: "jiānglái de jìhuà", vn: "kế hoạch tương lai" }
+    ],
+    examples: [
+      { tc: "我們不知道將來會發生什麼事。", py: "Wǒmen bù zhīdào jiānglái huì fāshēng shénme shì.", vn: "Chúng ta không biết tương lai sẽ xảy ra chuyện gì." },
+      { tc: "她將來想在台南當一名華語老師。", py: "Tā jiānglái xiǎng zài Táinán dāng yì míng huáyǔ lǎoshī.", vn: "Tương lai cô ấy muốn làm một giáo viên tiếng Trung ở Đài Nam." },
+      { tc: "為了美好的將來，我們現在必須努力。", py: "Wèile měihǎo de jiānglái, wǒmen xiànzài bìxū nǔlì.", vn: "Vì một tương lai tươi đẹp, chúng ta bây giờ bắt buộc phải nỗ lực." }
+    ],
+    idiom: "展望將來 Zhǎnwàng jiānglái - Hướng tới tương lai / Nhìn về tương lai.<br>🔸 Ví dụ: 畢業後，我們應該放下過去，展望將來。 Bìyè hòu, wǒmen yīnggāi fàngxià guòqù, zhǎnwàng jiānglái. - Sau khi tốt nghiệp, chúng ta nên bỏ lại quá khứ, hướng tới tương lai.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "徵求", pinyin: "zhēngqiú", hanViet: "Trưng cầu",
+    image: "",
+    radical: "徵 (Bộ Xích 彳) + 求 (Bộ Thủy 水)<br>💡 Mẹo nhớ: Băng qua đường sá (彳) để tìm kiếm, mời gọi, thỉnh cầu (求) sự giúp đỡ hoặc ứng viên.",
+    explanation: "Động từ: Tuyển dụng, tìm kiếm, trưng cầu.",
+    compounds: [
+      { tc: "徵求意見", py: "zhēngqiú yìjiàn", vn: "trưng cầu ý kiến" },
+      { tc: "徵求員工", py: "zhēngqiú yuángōng", vn: "tuyển dụng nhân viên" }
+    ],
+    examples: [
+      { tc: "這家公司正在徵求新的工程師。", py: "Zhè jiā gōngsī zhèngzài zhēngqiú xīn de gōngchéngshī.", vn: "Công ty này đang tuyển dụng kỹ sư mới." },
+      { tc: "遇到問題時，你可以上網徵求大家的意見。", py: "Yùdào wèntí shí, nǐ kěyǐ shàngwǎng zhēngqiú dàjiā de yìjiàn.", vn: "Lúc gặp vấn đề, bạn có thể lên mạng trưng cầu ý kiến của mọi người." },
+      { tc: "我們學校正在徵求一位華語教師。", py: "Wǒmen xuéxiào zhèngzài zhēngqiú yí wèi huáyǔ jiàoshī.", vn: "Trường chúng tôi đang tuyển dụng một vị giáo viên tiếng Trung." }
+    ],
+    idiom: "徵求同意 Zhēngqiú tóngyì - Trưng cầu sự đồng ý.<br>🔸 Ví dụ: 做決定之前，必須先徵求老闆的同意。 Zuò juédìng zhīqián, bìxū xiān zhēngqiú lǎobǎn de tóngyì. - Trước khi đưa ra quyết định, bắt buộc phải trưng cầu sự đồng ý của sếp trước." , 
+    level: "TOCFL A2"
+  },
+  {
+    word: "教師", pinyin: "jiàoshī", hanViet: "Giáo sư",
+    image: "",
+    radical: "教 (Bộ Phộc 攵) + 師 (Bộ Cân 巾)<br>💡 Mẹo nhớ: Người thầy (師) chuyên đảm nhận việc giảng dạy (教) cho học sinh.",
+    explanation: "Danh từ: Giáo viên (Cách gọi trang trọng hơn của 老師).",
+    compounds: [
+      { tc: "華語教師", py: "huáyǔ jiàoshī", vn: "giáo viên tiếng Trung" },
+      { tc: "外籍教師", py: "wàijí jiàoshī", vn: "giáo viên ngoại quốc" }
+    ],
+    examples: [
+      { tc: "他是一位非常有經驗的華語教師。", py: "Tā shì yí wèi fēicháng yǒu jīngyàn de huáyǔ jiàoshī.", vn: "Anh ấy là một vị giáo viên tiếng Trung vô cùng có kinh nghiệm." },
+      { tc: "教師節的時候，學生會送卡片給老師。", py: "Jiàoshījié de shíhòu, xuéshēng huì sòng kǎpiàn gěi lǎoshī.", vn: "Vào ngày Nhà giáo, học sinh sẽ tặng thiệp cho giáo viên." },
+      { tc: "這所大學的教師都非常專業。", py: "Zhè suǒ dàxué de jiàoshī dōu fēicháng zhuānyè.", vn: "Giáo viên của ngôi trường đại học này đều vô cùng chuyên nghiệp." }
+    ],
+    idiom: "尊師重道 Zūn shī zhòng dào - Tôn sư trọng đạo.<br>🔸 Ví dụ: 尊師重道是傳統的美德。 Zūn shī zhòng dào shì chuántǒng de měidé. - Tôn sư trọng đạo là mỹ đức truyền thống.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "認為", pinyin: "rènwéi", hanViet: "Nhận vi",
+    image: "",
+    radical: "認 (Bộ Ngôn 言) + 為 (Bộ Hỏa 灬)<br>💡 Mẹo nhớ: Dùng lời nói (言) để đưa ra quan điểm, suy nghĩ của bản thân về một vấn đề.",
+    explanation: "Động từ: Cho rằng, nhận định, nghĩ rằng.",
+    compounds: [
+      { tc: "我認為", py: "wǒ rènwéi", vn: "tôi cho rằng" }
+    ],
+    examples: [
+      { tc: "我認為這個計畫非常不錯。", py: "Wǒ rènwéi zhège jìhuà fēicháng búcuò.", vn: "Tôi cho rằng kế hoạch này rất không tồi." },
+      { tc: "大家都認為他是一個好人。", py: "Dàjiā dōu rènwéi tā shì yí ge hǎo rén.", vn: "Mọi người đều nhận định anh ấy là một người tốt." },
+      { tc: "你認為在台南生活怎麼樣？", py: "Nǐ rènwéi zài Táinán shēnghuó zěnmeyàng?", vn: "Bạn nghĩ rằng cuộc sống ở Đài Nam như thế nào?" }
+    ],
+    idiom: "個人認為 Gèrén rènwéi - Cá nhân tôi cho rằng.<br>🔸 Ví dụ: 我個人認為，健康比賺錢更重要。 Wǒ gèrén rènwéi, jiànkāng bǐ zhuànqián gèng zhòngyào. - Cá nhân tôi cho rằng, sức khỏe quan trọng hơn kiếm tiền.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "畢業", pinyin: "bìyè", hanViet: "Tất nghiệp",
+    image: "",
+    radical: "畢 (Bộ Điền 田) + 業 (Bộ Mộc 木)<br>💡 Mẹo nhớ: Hoàn tất (畢) công việc học hành, thi cử (業).",
+    explanation: "Động từ ly hợp: Tốt nghiệp.",
+    compounds: [
+      { tc: "大學畢業", py: "dàxué bìyè", vn: "tốt nghiệp đại học" },
+      { tc: "畢業生", py: "bìyèshēng", vn: "người tốt nghiệp, sinh viên năm cuối" }
+    ],
+    examples: [
+      { tc: "他明年就要從大學畢業了。", py: "Tā míngnián jiù yào cóng dàxué bìyè le.", vn: "Anh ấy năm sau là sẽ tốt nghiệp đại học rồi." },
+      { tc: "畢業後，她打算繼續念研究所。", py: "Bìyè hòu, tā dǎsuàn jìxù niàn yánjiùsuǒ.", vn: "Sau khi tốt nghiệp, cô ấy dự định tiếp tục học lên thạc sĩ." },
+      { tc: "恭喜你順利畢業！", py: "Gōngxǐ nǐ shùnlì bìyè!", vn: "Chúc mừng bạn tốt nghiệp thuận lợi!" }
+    ],
+    idiom: "畢業典禮 Bìyè diǎnlǐ - Lễ tốt nghiệp.<br>🔸 Ví dụ: 週末我們要去參加弟弟的畢業典禮。 Zhōumò wǒmen yào qù cānjiā dìdi de bìyè diǎnlǐ. - Cuối tuần chúng tôi sẽ đi tham gia lễ tốt nghiệp của em trai.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "發展", pinyin: "fāzhǎn", hanViet: "Phát triển",
+    image: "",
+    radical: "發 (Bộ Bát 癶) + 展 (Bộ Thi 尸)<br>💡 Mẹo nhớ: Bộc phát (發) và mở rộng, trải dài (展) ra.",
+    explanation: "Động từ / Danh từ: Phát triển, sự phát triển.",
+    compounds: [
+      { tc: "經濟發展", py: "jīngjì fāzhǎn", vn: "phát triển kinh tế" },
+      { tc: "發展潛力", py: "fāzhǎn qiánlì", vn: "tiềm năng phát triển" }
+    ],
+    examples: [
+      { tc: "這座城市最近幾年發展得很快。", py: "Zhè zuò chéngshì zuìjìn jǐ nián fāzhǎn de hěn kuài.", vn: "Thành phố này mấy năm gần đây phát triển rất nhanh." },
+      { tc: "他希望將來能在台灣發展。", py: "Tā xīwàng jiānglái néng zài Táiwān fāzhǎn.", vn: "Anh ấy hy vọng tương lai có thể phát triển sự nghiệp ở Đài Loan." },
+      { tc: "這個科技軟體的發展潛力很大。", py: "Zhège kējì ruǎntǐ de fāzhǎn qiánlì hěn dà.", vn: "Tiềm năng phát triển của phần mềm công nghệ này rất lớn." }
+    ],
+    idiom: "發展迅速 Fāzhǎn xùnsù - Phát triển thần tốc.<br>🔸 Ví dụ: 現代網路科技發展迅速，改變了我們的生活。 Xiàndài wǎnglù kējì fāzhǎn xùnsù, gǎibiàn le wǒmen de shēnghuó. - Công nghệ mạng hiện đại phát triển thần tốc, đã thay đổi cuộc sống của chúng ta.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "連", pinyin: "lián", hanViet: "Liên",
+    image: "",
+    radical: "連 (Bộ Xước 辶)<br>💡 Mẹo nhớ: Sự việc tiếp nối, dính liền (連) với nhau tạo thành một mạch.",
+    explanation: "Giới từ / Phó từ: Ngay cả, đến cả.",
+    compounds: [
+      { tc: "連...都...", py: "lián... dōu...", vn: "ngay cả... cũng..." }
+    ],
+    examples: [
+      { tc: "這個問題太難了，連老師也不會。", py: "Zhège wèntí tài nán le, lián lǎoshī yě bú huì.", vn: "Vấn đề này khó quá, ngay cả giáo viên cũng không biết." },
+      { tc: "他太忙了，連吃飯的時間都沒有。", py: "Tā tài máng le, lián chīfàn de shíjiān dōu méiyǒu.", vn: "Anh ấy bận quá, ngay cả thời gian ăn cơm cũng không có." },
+      { tc: "外面雨下得很大，連出門都不方便。", py: "Wàimiàn yǔ xià de hěn dà, lián chūmén dōu bù fāngbiàn.", vn: "Bên ngoài mưa rơi rất to, đến cả đi ra ngoài cũng không tiện." }
+    ],
+    idiom: "連忙 Liánmáng - Vội vàng / Nhanh chóng.<br>🔸 Ví dụ: 聽到這個消息，他連忙跑了出去。 Tīng dào zhège xiāoxī, tā liánmáng pǎo le chūqù. - Nghe được tin này, anh ấy vội vàng chạy ra ngoài.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "想法", pinyin: "xiǎngfǎ", hanViet: "Tưởng pháp",
+    image: "",
+    radical: "想 (Bộ Tâm 心) + 法 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Cách thức (法) tư duy, ngẫm nghĩ trong lòng (心 - 想).",
+    explanation: "Danh từ: Suy nghĩ, ý tưởng, quan điểm.",
+    compounds: [
+      { tc: "改變想法", py: "gǎibiàn xiǎngfǎ", vn: "thay đổi suy nghĩ" },
+      { tc: "好想法", py: "hǎo xiǎngfǎ", vn: "ý tưởng hay" }
+    ],
+    examples: [
+      { tc: "每個人對這件事的想法都不一樣。", py: "Měi ge rén duì zhè jiàn shì de xiǎngfǎ dōu bù yíyàng.", vn: "Suy nghĩ của mỗi người về việc này đều không giống nhau." },
+      { tc: "你可以把你的想法告訴我嗎？", py: "Nǐ kěyǐ bǎ nǐ de xiǎngfǎ gàosù wǒ ma?", vn: "Bạn có thể nói suy nghĩ của bạn cho tôi biết không?" },
+      { tc: "這是一個非常好的想法，我們可以試試看。", py: "Zhè shì yí ge fēicháng hǎo de xiǎngfǎ, wǒmen kěyǐ shìshì kàn.", vn: "Đây là một ý tưởng vô cùng hay, chúng ta có thể thử xem sao." }
+    ],
+    idiom: "想法一致 Xiǎngfǎ yízhì - Suy nghĩ đồng nhất / Chung quan điểm.<br>🔸 Ví dụ: 在這個問題上，我們的想法一致。 Zài zhège wèntí shàng, wǒmen de xiǎngfǎ yízhì. - Về vấn đề này, suy nghĩ của chúng tôi đồng nhất.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "不但", pinyin: "búdàn", hanViet: "Bất đãn",
+    image: "",
+    radical: "不 (Bộ Nhất 一) + 但 (Bộ Nhân 亻)<br>💡 Mẹo nhớ: Dùng trong cấu trúc câu ghép chỉ sự tăng tiến, nhấn mạnh vế sau.",
+    explanation: "Liên từ: Không những, không chỉ.",
+    compounds: [
+      { tc: "不但...而且...", py: "búdàn... érqiě...", vn: "không những... mà còn..." }
+    ],
+    examples: [
+      { tc: "他不但是我的同學，也是我的好朋友。", py: "Tā búdàn shì wǒ de tóngxué, yě shì wǒ de hǎo péngyǒu.", vn: "Cậu ấy không những là bạn học của tôi, mà còn là bạn tốt của tôi." },
+      { tc: "這道菜不但好看，而且很好吃。", py: "Zhè dào cài búdàn hǎokàn, érqiě hěn hǎochī.", vn: "Món ăn này không những đẹp mắt, hơn nữa còn rất ngon." },
+      { tc: "她不但會說中文，還會說英文。", py: "Tā búdàn huì shuō Zhōngwén, hái huì shuō Yīngwén.", vn: "Cô ấy không những biết nói tiếng Trung, mà còn biết nói tiếng Anh." }
+    ],
+    idiom: "不單單 Bù dāndān - Không chỉ đơn thuần là.<br>🔸 Ví dụ: 學語言不單單是背單字，還要了解文化。 Xué yǔyán bù dāndān shì bèi dānzì, hái yào liǎojiě wénhuà. - Học ngôn ngữ không chỉ đơn thuần là học thuộc từ vựng, mà còn phải tìm hiểu văn hóa.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "繼續", pinyin: "jìxù", hanViet: "Kế tục",
+    image: "",
+    radical: "繼 (Bộ Mịch 糸) + 續 (Bộ Mịch 糸)<br>💡 Mẹo nhớ: Cả hai chữ đều có bộ Mịch (糸) biểu tượng cho những sợi tơ nối liền nhau không đứt đoạn.",
+    explanation: "Trợ động từ / Động từ: Tiếp tục.",
+    compounds: [
+      { tc: "繼續努力", py: "jìxù nǔlì", vn: "tiếp tục nỗ lực" },
+      { tc: "繼續學習", py: "jìxù xuéxí", vn: "tiếp tục học tập" }
+    ],
+    examples: [
+      { tc: "休息一下，我們等一下繼續上課。", py: "Xiūxí yíxià, wǒmen děng yíxià jìxù shàngkè.", vn: "Nghỉ ngơi một lát, chúng ta đợi chút nữa tiếp tục học." },
+      { tc: "拿到獎學金後，她決定繼續在南台科技大學念書。", py: "Nádào jiǎngxuéjīn hòu, tā juédìng jìxù zài Nántái kējì dàxué niànshū.", vn: "Sau khi nhận được học bổng, cô ấy quyết định tiếp tục học tại trường Đại học Khoa học Công nghệ Nam Đài." },
+      { tc: "請你繼續說，我在聽。", py: "Qǐng nǐ jìxù shuō, wǒ zài tīng.", vn: "Xin bạn hãy tiếp tục nói, tôi đang nghe." }
+    ],
+    idiom: "繼續保持 Jìxù bǎochí - Tiếp tục duy trì / Cứ giữ phong độ nhé.<br>🔸 Ví dụ: 你這次考得很好，要繼續保持喔。 Nǐ zhè cì kǎo de hěn hǎo, yào jìxù bǎochí ō. - Lần này bạn thi rất tốt, phải tiếp tục duy trì phong độ nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "使用", pinyin: "shǐyòng", hanViet: "Sử dụng",
+    image: "",
+    radical: "使 (Bộ Nhân 亻) + 用 (Bộ Dụng 用)<br>💡 Mẹo nhớ: Con người (亻) đem đồ vật ra dùng (用) vào một mục đích cụ thể.",
+    explanation: "Động từ: Sử dụng, dùng.",
+    compounds: [
+      { tc: "使用說明", py: "shǐyòng shuōmíng", vn: "hướng dẫn sử dụng" },
+      { tc: "使用方法", py: "shǐyòng fāngfǎ", vn: "phương pháp sử dụng" }
+    ],
+    examples: [
+      { tc: "請問這個機器要怎麼使用？", py: "Qǐngwèn zhège jīqì yào zěnme shǐyòng?", vn: "Xin hỏi cái máy này phải sử dụng như thế nào?" },
+      { tc: "使用網路可以查到很多資料。", py: "Shǐyòng wǎnglù kěyǐ chá dào hěn duō zīliào.", vn: "Sử dụng mạng internet có thể tra được rất nhiều tài liệu." },
+      { tc: "請大家小心使用這些設備。", py: "Qǐng dàjiā xiǎoxīn shǐyòng zhèxiē shèbèi.", vn: "Xin mọi người sử dụng những thiết bị này cẩn thận." }
+    ],
+    idiom: "方便使用 Fāngbiàn shǐyòng - Tiện lợi khi sử dụng / Dễ sử dụng.<br>🔸 Ví dụ: 這個軟體的介面設計得很方便使用。 Zhège ruǎntǐ de jièmiàn shèjì de hěn fāngbiàn shǐyòng. - Giao diện của phần mềm này được thiết kế rất tiện lợi khi sử dụng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "實現", pinyin: "shíxiàn", hanViet: "Thực hiện",
+    image: "",
+    radical: "實 (Bộ Miên 宀) + 現 (Bộ Ngọc 玉)<br>💡 Mẹo nhớ: Những điều mong muốn nay đã hiện (現) ra sự thật (實) rõ ràng.",
+    explanation: "Động từ: Thực hiện, đạt được, biến thành hiện thực.",
+    compounds: [
+      { tc: "實現夢想", py: "shíxiàn mèngxiǎng", vn: "biến ước mơ thành hiện thực" },
+      { tc: "實現願望", py: "shíxiàn yuànwàng", vn: "đạt được tâm nguyện" }
+    ],
+    examples: [
+      { tc: "只要努力，你的夢想一定會實現。", py: "Zhǐyào nǔlì, nǐ de mèngxiǎng yídìng huì shíxiàn.", vn: "Chỉ cần nỗ lực, ước mơ của bạn nhất định sẽ thành hiện thực." },
+      { tc: "他終於實現了出國留學的願望。", py: "Tā zhōngyú shíxiàn le chūguó liúxué de yuànwàng.", vn: "Cuối cùng anh ấy cũng đã đạt được tâm nguyện đi du học nước ngoài." },
+      { tc: "這個計畫很難在短時間內實現。", py: "Zhège jìhuà hěn nán zài duǎn shíjiān nèi shíxiàn.", vn: "Kế hoạch này rất khó để thực hiện trong thời gian ngắn." }
+    ],
+    idiom: "美夢成真 Měimèng chéng zhēn - Giấc mơ thành hiện thực.<br>🔸 Ví dụ: 恭喜你拿到獎學金，真的是美夢成真了。 Gōngxǐ nǐ nádào jiǎngxuéjīn, zhēnde shì měimèng chéng zhēn le. - Chúc mừng bạn đã lấy được học bổng, thực sự là giấc mơ thành hiện thực rồi.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "招待", pinyin: "zhāodài", hanViet: "Chiêu đãi",
+    image: "",
+    radical: "招 (Bộ Thủ 扌) + 待 (Bộ Xích 彳)<br>💡 Mẹo nhớ: Dùng tay (扌) vẫy gọi khách đến và lấy đồ ra đối đãi (待).",
+    explanation: "Động từ: Chiêu đãi, tiếp đãi.",
+    compounds: [
+      { tc: "招待客人", py: "zhāodài kèrén", vn: "tiếp đãi khách" },
+      { tc: "熱情招待", py: "rèqíng zhāodài", vn: "tiếp đãi nhiệt tình" }
+    ],
+    examples: [
+      { tc: "謝謝你們熱情的招待。", py: "Xièxiè nǐmen rèqíng de zhāodài.", vn: "Cảm ơn sự tiếp đãi nhiệt tình của các bạn." },
+      { tc: "他準備了很多好菜來招待客人。", py: "Tā zhǔnbèi le hěn duō hǎo cài lái zhāodài kèrén.", vn: "Anh ấy đã chuẩn bị rất nhiều món ngon để chiêu đãi khách." },
+      { tc: "老闆親自出來招待我們。", py: "Lǎobǎn qīnzì chūlái zhāodài wǒmen.", vn: "Sếp đích thân ra mặt tiếp đãi chúng tôi." }
+    ],
+    idiom: "招待不周 Zhāodài bù zhōu - Tiếp đãi không chu đáo (Lời nói khiêm tốn của chủ nhà đối với khách).<br>🔸 Ví dụ: 飯菜簡單，招待不周，請多包涵。 Fàncài jiǎndān, zhāodài bù zhōu, qǐng duō bāohán. - Cơm canh đơn giản, tiếp đãi không chu đáo, xin được lượng thứ.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "研究所", pinyin: "yánjiùsuǒ", hanViet: "Nghiên cứu sở",
+    image: "",
+    radical: "研 (Bộ Thạch 石) + 究 (Bộ Huyệt 穴) + 所 (Bộ Hộ 戶)<br>💡 Mẹo nhớ: Cơ sở (所) dành cho việc học tập chuyên sâu, nghiên cứu (研究) sau đại học.",
+    explanation: "Danh từ: Viện nghiên cứu, trường cao học, bậc thạc sĩ/tiến sĩ.",
+    compounds: [
+      { tc: "考研究所", py: "kǎo yánjiùsuǒ", vn: "thi cao học" },
+      { tc: "念研究所", py: "niàn yánjiùsuǒ", vn: "học thạc sĩ / học cao học" }
+    ],
+    examples: [
+      { tc: "他大學畢業後考上了研究所。", py: "Tā dàxué bìyè hòu kǎo shàng le yánjiùsuǒ.", vn: "Sau khi tốt nghiệp đại học, anh ấy đã thi đỗ vào bậc cao học." },
+      { tc: "她打算在南台科技大學的研究所念書。", py: "Tā dǎsuàn zài Nántái kējì dàxué de yánjiùsuǒ niànshū.", vn: "Cô ấy dự định học cao học tại trường Đại học Khoa học Công nghệ Nam Đài." },
+      { tc: "研究所的課業比大學重很多。", py: "Yánjiùsuǒ de kèyè bǐ dàxué zhòng hěn duō.", vn: "Bài vở ở bậc cao học nặng hơn đại học rất nhiều." }
+    ],
+    idiom: "研究所畢業 Yánjiùsuǒ bìyè - Tốt nghiệp thạc sĩ / cao học.<br>🔸 Ví dụ: 研究所畢業後，他順利找到了一份好工作。 Yánjiùsuǒ bìyè hòu, tā shùnlì zhǎodào le yí fèn hǎo gōngzuò. - Sau khi tốt nghiệp thạc sĩ, anh ấy đã thuận lợi tìm được một công việc tốt.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "聚", pinyin: "jù", hanViet: "Tụ",
+    image: "",
+    radical: "聚 (Bộ Nhĩ 耳)<br>💡 Mẹo nhớ: Cùng nhau gom lại, họp mặt đông đủ tại một nơi.",
+    explanation: "Động từ: Tụ tập, sum họp, gặp mặt.",
+    compounds: [
+      { tc: "聚餐", py: "jùcān", vn: "tụ tập ăn uống / liên hoan" },
+      { tc: "聚在一起", py: "jù zài yìqǐ", vn: "tụ họp cùng nhau" }
+    ],
+    examples: [
+      { tc: "過年的時候，全家人會聚在一起。", py: "Guònián de shíhòu, quán jiā rén huì jù zài yìqǐ.", vn: "Vào dịp Tết, cả gia đình sẽ tụ họp lại cùng nhau." },
+      { tc: "我們找個時間聚一聚吧。", py: "Wǒmen zhǎo ge shíjiān jù yì jù ba.", vn: "Chúng ta tìm thời gian gặp mặt một chút đi." },
+      { tc: "畢業後，大家很少有機會聚在一起了。", py: "Bìyè hòu, dàjiā hěn shǎo yǒu jīhuì jù zài yìqǐ le.", vn: "Sau khi tốt nghiệp, mọi người rất hiếm khi có cơ hội tụ họp cùng nhau nữa." }
+    ],
+    idiom: "好聚好散 Hǎo jù hǎo sàn - Hợp nhau thì tụ, không hợp thì tán (Chia tay trong êm đẹp).<br>🔸 Ví dụ: 既然不適合，我們就好聚好散吧。 Jìrán bù shìhé, wǒmen jiù hǎo jù hǎo sàn ba. - Đã không phù hợp, thì chúng ta chia tay trong êm đẹp nhé.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "香港", pinyin: "Xiānggǎng", hanViet: "Hương Cảng",
+    image: "",
+    radical: "香 (Bộ Hương 香) + 港 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Bến cảng (港) ngập tràn mùi hương (香) thơm ngát. Tên một đặc khu kinh tế sầm uất.",
+    explanation: "Danh từ riêng: Hồng Kông.",
+    compounds: [
+      { tc: "香港人", py: "Xiānggǎng rén", vn: "người Hồng Kông" },
+      { tc: "去香港", py: "qù Xiānggǎng", vn: "đi Hồng Kông" }
+    ],
+    examples: [
+      { tc: "香港是一個非常繁華的城市。", py: "Xiānggǎng shì yí ge fēicháng fánhuá de chéngshì.", vn: "Hồng Kông là một thành phố vô cùng phồn hoa." },
+      { tc: "我下個月要去香港出差。", py: "Wǒ xià ge yuè yào qù Xiānggǎng chūchāi.", vn: "Tháng sau tôi phải đi Hồng Kông công tác." },
+      { tc: "香港的點心和美食非常有名。", py: "Xiānggǎng de diǎnxīn hé měishí fēicháng yǒumíng.", vn: "Điểm tâm và ẩm thực của Hồng Kông vô cùng nổi tiếng." }
+    ],
+    idiom: "東方之珠 Dōngfāng zhī zhū - Hòn ngọc Viễn Đông (Biệt danh của Hồng Kông).<br>🔸 Ví dụ: 香港夜晚的燈光非常美，被稱為東方之珠。 Xiānggǎng yèwǎn de dēngguāng fēicháng měi, bèi chēng wéi dōngfāng zhī zhū. - Ánh đèn ban đêm của Hồng Kông rất đẹp, được mệnh danh là Hòn ngọc Viễn Đông.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "上海", pinyin: "Shànghǎi", hanViet: "Thượng Hải",
+    image: "",
+    radical: "上 (Bộ Nhất 一) + 海 (Bộ Thủy 氵)<br>💡 Mẹo nhớ: Thành phố nằm ở phía trên (上) gần vùng biển (海).",
+    explanation: "Danh từ riêng: Thượng Hải.",
+    compounds: [
+      { tc: "上海菜", py: "Shànghǎi cài", vn: "món Thượng Hải" }
+    ],
+    examples: [
+      { tc: "上海是中國最大的城市之一。", py: "Shànghǎi shì Zhōngguó zuìdà de chéngshì zhī yī.", vn: "Thượng Hải là một trong những thành phố lớn nhất của Trung Quốc." },
+      { tc: "他現在在上海工作。", py: "Tā xiànzài zài Shànghǎi gōngzuò.", vn: "Anh ấy hiện tại đang làm việc ở Thượng Hải." },
+      { tc: "上海的夜景非常漂亮。", py: "Shànghǎi de yèjǐng fēicháng piàoliang.", vn: "Cảnh đêm của Thượng Hải vô cùng xinh đẹp." }
+    ],
+    idiom: "外灘夜景 Wàitān yèjǐng - Cảnh đêm Bến Thượng Hải.<br>🔸 Ví dụ: 去上海一定要去看著名的外灘夜景。 Qù Shànghǎi yídìng yào qù kàn zhùmíng de wàitān yèjǐng. - Đi Thượng Hải nhất định phải đi ngắm cảnh đêm Bến Thượng Hải nổi tiếng.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "說到", pinyin: "shuōdào", hanViet: "Thuyết đáo",
+    image: "",
+    radical: "說 (Bộ Ngôn 言) + 到 (Bộ Đao 刀)<br>💡 Mẹo nhớ: Dùng lời nói (說) nhắc chạm đến (到) một chủ đề nào đó.",
+    explanation: "Cụm động từ: Nhắc đến, nói đến.",
+    compounds: [
+      { tc: "說到這裡", py: "shuōdào zhèlǐ", vn: "nói đến đây" }
+    ],
+    examples: [
+      { tc: "說到台南，就會想到很多好吃的小吃。", py: "Shuōdào Táinán, jiù huì xiǎngdào hěn duō hǎochī de xiǎochī.", vn: "Nhắc đến Đài Nam, là sẽ nghĩ ngay đến rất nhiều món ăn vặt ngon." },
+      { tc: "說到這件事，我就覺得很生氣。", py: "Shuōdào zhè jiàn shì, wǒ jiù juéde hěn shēngqì.", vn: "Nhắc đến chuyện này, tôi lại cảm thấy rất tức giận." },
+      { tc: "說到運動，他最喜歡打籃球。", py: "Shuōdào yùndòng, tā zuì xǐhuān dǎ lánqiú.", vn: "Nói đến thể thao, anh ấy thích đánh bóng rổ nhất." }
+    ],
+    idiom: "說到做到 Shuō dào zuò dào - Nói được làm được.<br>🔸 Ví dụ: 老闆答應給大家發獎金，他總是說到做到。 Lǎobǎn dāyìng gěi dàjiā fā jiǎngjīn, tā zǒngshì shuō dào zuò dào. - Sếp đồng ý phát tiền thưởng cho mọi người, ông ấy lúc nào cũng nói được làm được.", 
+    level: "TOCFL A2"
+  },
+  {
+    word: "念完", pinyin: "niànwán", hanViet: "Niệm hoàn",
+    image: "",
+    radical: "念 (Bộ Tâm 心) + 完 (Bộ Miên 宀)<br>💡 Mẹo nhớ: Hoàn thành, kết thúc (完) việc đọc sách, học hành (念).",
+    explanation: "Cụm động từ: Học xong, đọc xong.",
+    compounds: [
+      { tc: "念完書", py: "niàn wán shū", vn: "học xong / đọc sách xong" },
+      { tc: "念完大學", py: "niàn wán dàxué", vn: "học xong đại học" }
+    ],
+    examples: [
+      { tc: "這本書我已經念完了。", py: "Zhè běn shū wǒ yǐjīng niàn wán le.", vn: "Quyển sách này tôi đã đọc xong rồi." },
+      { tc: "他打算念完研究所後留在台灣工作。", py: "Tā dǎsuàn niàn wán yánjiùsuǒ hòu liú zài Táiwān gōngzuò.", vn: "Anh ấy dự định học xong thạc sĩ sẽ ở lại Đài Loan làm việc." },
+      { tc: "請你把這篇課文念完。", py: "Qǐng nǐ bǎ zhè piān kèwén niàn wán.", vn: "Xin bạn hãy đọc cho xong bài học này." }
+    ],
+    idiom: "沒念完 Méi niàn wán - Chưa học xong / Đọc chưa xong.<br>🔸 Ví dụ: 他的大學還沒念完就去工作了。 Tā de dàxué hái méi niàn wán jiù qù gōngzuò le. - Anh ấy đại học vẫn chưa học xong đã đi làm rồi.", 
+    level: "TOCFL A2"
+  },
   ];
