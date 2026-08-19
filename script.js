@@ -484,54 +484,56 @@ if (searchInput) {
         }
     });
 
-    // 3. Lắng nghe Enter (Tìm)
+    // 3. Lắng nghe Enter (Tìm kiếm + Thuật toán sắp xếp ưu tiên)
     searchInput.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
             dictSuggest.style.display = 'none';
-            const keyword = this.value.trim().toLowerCase();
+            const rawInput = this.value.trim().toLowerCase();
             const allData = getAllDictData();
-            const cleanInput = removeTones(keyword);
             
-            const results = allData.filter(item => 
-                (item.word && item.word.toLowerCase().includes(keyword)) || 
+            if (rawInput === '') {
+                displayWords(allData, 1);
+                return;
+            }
+
+            const cleanInput = removeTones(rawInput);
+            
+            // Lọc dữ liệu
+            let filteredData = allData.filter(item => 
+                (item.word && item.word.toLowerCase().includes(rawInput)) || 
                 (item.pinyin && removeTones(item.pinyin.toLowerCase()).includes(cleanInput))
             );
-            displayWords(results, 1);
+
+            // === THUẬT TOÁN SẮP XẾP ƯU TIÊN (HỆ CHẤM ĐIỂM CỦA BẠN) ===
+            filteredData.sort((a, b) => {
+                const getScore = (item) => {
+                    const word = item.word.toLowerCase();
+                    const input = rawInput.toLowerCase();
+                    
+                    if (word === input) return 3; // Ưu tiên 1: Giống hệt 100%
+                    if (word.startsWith(input)) return 2; // Ưu tiên 2: Bắt đầu bằng từ khóa
+                    return 1; // Ưu tiên 3: Các trường hợp còn lại
+                };
+
+                const scoreA = getScore(a);
+                const scoreB = getScore(b);
+
+                if (scoreA !== scoreB) {
+                    return scoreB - scoreA;
+                }
+                
+                return a.word.length - b.word.length;
+            });
+            // ==================================================
+
+            displayWords(filteredData, 1); // Hiển thị kết quả từ trang 1
         }
     });
 }
 
-// === THUẬT TOÁN SẮP XẾP ƯU TIÊN (HỆ CHẤM ĐIỂM) ===
-    filteredData.sort((a, b) => {
-        const getScore = (item) => {
-            // Đưa về chữ thường để so sánh an toàn tuyệt đối
-            const word = item.word.toLowerCase();
-            const input = rawInput.toLowerCase();
-            
-            if (word === input) return 3; // Ưu tiên 1: Giống hệt 100%
-            if (word.startsWith(input)) return 2; // Ưu tiên 2: Bắt đầu bằng từ khóa
-            return 1; // Ưu tiên 3: Các trường hợp còn lại
-        };
-
-        const scoreA = getScore(a);
-        const scoreB = getScore(b);
-
-        // Xếp theo điểm: Điểm cao (3) đẩy lên đầu, điểm thấp (1) đẩy xuống cuối
-        if (scoreA !== scoreB) {
-            return scoreB - scoreA;
-        }
-        
-        // Nếu bằng điểm nhau (ví dụ cùng được 2 điểm), từ nào ngắn hơn xếp trước
-        return a.word.length - b.word.length;
-    });
-    // ==================================================
-
-    displayWords(filteredData);
-}
-
-// KHỞI CHẠY LẦN ĐẦU
-displayWords(dictionaryData);
+// KHỞI CHẠY LẦN ĐẦU (Hiển thị toàn bộ từ vựng A1 + A2 với phân trang)
+displayWords(getAllDictData(), 1);
 
 
 // ==========================================
