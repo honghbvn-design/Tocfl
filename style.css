@@ -20,3 +20,26 @@ body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; margin: 0; padd
 .chat-line { margin-bottom: 15px; display: flex; gap: 10px; }
 .speaker-avatar { width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
 .chat-content { background: #f8f9fa; padding: 10px 15px; border-radius: 10px; flex-grow: 1; }
+
+/* CSS cho Khung tìm kiếm và Gợi ý */
+.search-wrapper { position: relative; }
+.suggestion-box {
+  position: absolute; top: 100%; left: 0; width: 100%; background: white;
+  border: 1px solid #ddd; border-top: none; border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); list-style: none; padding: 0; margin: 0;
+  z-index: 1000; display: none; text-align: left;
+}
+.suggestion-box li { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
+.suggestion-box li:hover { background-color: #f9f9f9; color: #d84b6b; }
+.sugg-word { font-weight: bold; }
+.sugg-mean { color: #666; font-size: 14px; }
+
+/* CSS cho thanh Phân trang */
+.pagination-container { text-align: center; margin-top: 20px; margin-bottom: 30px; }
+.pagination-btn {
+  padding: 8px 12px; margin: 0 5px; border: 1px solid #d84b6b; background: white;
+  color: #d84b6b; border-radius: 5px; cursor: pointer; transition: 0.3s;
+}
+.pagination-btn:hover { background: #ffe6eb; }
+.pagination-btn.active { background: #d84b6b; color: white; }
+.pagination-btn:disabled { border-color: #ccc; color: #ccc; cursor: not-allowed; background: #f9f9f9; }
