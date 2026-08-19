@@ -453,14 +453,30 @@ function removeTones(str) {
 const searchInput = document.getElementById('searchInput');
 
 if (searchInput) {
-    // 1. Chèn CSS gợi ý
+    // 1. Chèn CSS gợi ý (Đã ÉP MÀU CHỮ ĐEN để sửa lỗi tàng hình)
     const style = document.createElement('style');
-    style.innerHTML = `.auto-suggestion-box { position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #ddd; border-top: none; z-index: 1000; display: none; list-style: none; padding: 0; } .auto-suggestion-box li { padding: 10px; cursor: pointer; border-bottom: 1px solid #eee; } .auto-suggestion-box li:hover { background: #f9f9f9; color: #d84b6b; }`;
+    style.innerHTML = `
+      .modern-search-box { position: relative !important; }
+      .auto-suggestion-box {
+        position: absolute; top: 100%; left: 0; width: 100%; background: white !important;
+        border: 1px solid #ddd; border-top: none; border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1); list-style: none; padding: 0; margin: 0;
+        z-index: 1000; display: none; text-align: left; max-height: 300px; overflow-y: auto;
+      }
+      .auto-suggestion-box li { 
+        padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; 
+        display: flex; justify-content: space-between; 
+        color: #333 !important; /* Bắt buộc chữ màu đen */
+      }
+      .auto-suggestion-box li * { color: #333 !important; } /* Ép tất cả chữ bên trong thành màu đen */
+      .auto-suggestion-box li:hover { background-color: #f9f9f9 !important; }
+      .auto-suggestion-box li:hover * { color: #d84b6b !important; } /* Đổi màu đỏ khi di chuột */
+    `;
     document.head.appendChild(style);
 
     const dictSuggest = document.createElement('ul');
     dictSuggest.className = 'auto-suggestion-box';
-    searchInput.parentNode.classList.add('search-wrapper'); // Bọc input vào div có class này
+    searchInput.parentNode.classList.add('search-wrapper');
     searchInput.parentNode.appendChild(dictSuggest);
 
     // 2. Lắng nghe gõ chữ (Gợi ý)
@@ -479,11 +495,13 @@ if (searchInput) {
         if (suggestions.length > 0) {
             suggestions.forEach(item => {
                 const li = document.createElement('li');
-                li.innerHTML = `<strong>${item.word}</strong> (${item.pinyin})`;
+                li.innerHTML = `<span><strong>${item.word}</strong> (${item.pinyin})</span> <span style="font-size:14px;">${item.hanViet}</span>`;
                 li.onclick = () => { searchInput.value = item.word; dictSuggest.style.display = 'none'; displayWords([item], 1); };
                 dictSuggest.appendChild(li);
             });
             dictSuggest.style.display = 'block';
+        } else {
+            dictSuggest.style.display = 'none';
         }
     });
 
@@ -508,15 +526,14 @@ if (searchInput) {
                 (item.pinyin && removeTones(item.pinyin.toLowerCase()).includes(cleanInput))
             );
 
-            // === THUẬT TOÁN SẮP XẾP ƯU TIÊN (HỆ CHẤM ĐIỂM CỦA BẠN) ===
+            // === THUẬT TOÁN SẮP XẾP ƯU TIÊN ===
             filteredData.sort((a, b) => {
                 const getScore = (item) => {
                     const word = item.word.toLowerCase();
                     const input = rawInput.toLowerCase();
-                    
-                    if (word === input) return 3; // Ưu tiên 1: Giống hệt 100%
-                    if (word.startsWith(input)) return 2; // Ưu tiên 2: Bắt đầu bằng từ khóa
-                    return 1; // Ưu tiên 3: Các trường hợp còn lại
+                    if (word === input) return 3;
+                    if (word.startsWith(input)) return 2;
+                    return 1;
                 };
 
                 const scoreA = getScore(a);
@@ -525,15 +542,19 @@ if (searchInput) {
                 if (scoreA !== scoreB) {
                     return scoreB - scoreA;
                 }
-                
                 return a.word.length - b.word.length;
             });
-            // ==================================================
 
-            displayWords(filteredData, 1); // Hiển thị kết quả từ trang 1
+            displayWords(filteredData, 1);
         }
     });
 }
+
+// Tắt gợi ý khi click ra ngoài
+document.addEventListener('click', function(e) {
+    const dictSuggest = document.querySelector('.auto-suggestion-box');
+    if (dictSuggest && e.target !== searchInput) dictSuggest.style.display = 'none';
+});
 
 // KHỞI CHẠY LẦN ĐẦU (Hiển thị toàn bộ từ vựng A1 + A2 với phân trang)
 displayWords(getAllDictData(), 1);
