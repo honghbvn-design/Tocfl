@@ -361,27 +361,31 @@ function displayWords(data, page = 1) {
 // --- HÀM VẼ CÁC NÚT PHÂN TRANG ---
 // ==========================================
 function renderPagination() {
+    // 1. Lấy hộp chứa từ vựng
+    const dictContainer = document.getElementById('dictionary-container');
+    if (!dictContainer) return;
+
+    // 2. Tìm thanh phân trang
     let pageContainer = document.getElementById('pagination-controls');
     
-    // Nếu trong HTML chưa có thẻ div id="pagination-controls", JS sẽ tự động tạo
+    // Nếu chưa có thì tạo mới
     if (!pageContainer) {
         pageContainer = document.createElement('div');
         pageContainer.id = 'pagination-controls';
         pageContainer.style.textAlign = 'center';
         pageContainer.style.margin = '30px 0';
-        // Chèn vào ngay dưới container từ vựng
-        const dictContainer = document.getElementById('dictionary-container');
-        if (dictContainer && dictContainer.parentNode) {
-            dictContainer.parentNode.insertBefore(pageContainer, dictContainer.nextSibling);
-        }
     }
+    
+    // BẮT BUỘC: Nhét thanh phân trang vào BÊN TRONG hộp từ vựng
+    // (như vậy khi hộp từ vựng ẩn đi, nó cũng sẽ tự động ẩn theo)
+    dictContainer.appendChild(pageContainer);
 
     const totalPages = Math.ceil(currentDisplayData.length / itemsPerPage);
     pageContainer.innerHTML = ''; // Xóa nút cũ
 
     if (totalPages <= 1) return; // Nếu chỉ có 1 trang thì không hiện nút
 
-    // CSS ảo cho các nút phân trang (Chèn trực tiếp bằng JS)
+    // CSS ảo cho các nút phân trang
     const btnStyle = "padding: 8px 15px; margin: 0 5px; border: 1px solid #d84b6b; background: white; color: #d84b6b; border-radius: 5px; cursor: pointer; font-weight: bold;";
     const activeStyle = "padding: 8px 15px; margin: 0 5px; border: 1px solid #d84b6b; background: #d84b6b; color: white; border-radius: 5px; cursor: pointer; font-weight: bold;";
 
@@ -401,7 +405,6 @@ function renderPagination() {
 
     // Các nút SỐ (1, 2, 3...)
     for (let i = 1; i <= totalPages; i++) {
-        // Chỉ hiện 2 trang đầu, 2 trang cuối và các trang xung quanh trang hiện tại để khỏi dài dòng
         if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
             const pageBtn = document.createElement('button');
             pageBtn.innerHTML = i;
