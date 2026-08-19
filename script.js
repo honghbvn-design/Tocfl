@@ -199,10 +199,10 @@ let currentDisplayData = []; // Mảng chứa dữ liệu đang được hiển 
 
 // Hàm gộp toàn bộ dữ liệu từ vựng (A1 + A2)
 function getAllDictData() {
-    let allData = [];
-    if (typeof dictionaryData !== 'undefined') allData = allData.concat(dictionaryData);
-    if (typeof dataA2 !== 'undefined') allData = allData.concat(dataA2);
-    return allData;
+    let all = [];
+    if (typeof dictionaryData !== 'undefined') all = all.concat(dictionaryData);
+    if (typeof dataA2 !== 'undefined') all = all.concat(dataA2);
+    return all;
 }
 
 // ==========================================
@@ -434,12 +434,6 @@ function renderPagination() {
     pageContainer.appendChild(nextBtn);
 }
 
-
-// ==========================================
-// --- XỬ LÝ TÌM KIẾM (ENTER & DROPDOWN) BẰNG JS TỰ ĐỘNG ---
-// ==========================================
-const searchInput = document.getElementById('searchInput');
-
 // Hàm hỗ trợ: Lọc bỏ toàn bộ dấu và ký tự đặc biệt của Pinyin
 function removeTones(str) {
     if (!str) return "";
@@ -450,97 +444,61 @@ function removeTones(str) {
               .replace(/\s+/g, '');             // Xóa khoảng trắng (để gõ dính liền vẫn tìm được)
 }
 
-if (searchInput) {
-    // 1. Cắt sự kiện onkeyup cũ trong thẻ HTML
-    searchInput.onkeyup = null; 
+// ==========================================
+// --- TÍNH NĂNG TÌM KIẾM & PHÂN TRANG ---
+// ==========================================
+const searchInput = document.getElementById('searchInput');
 
-    // 2. Chèn CSS cho Dropdown trực tiếp bằng JS
+if (searchInput) {
+    // 1. Chèn CSS gợi ý
     const style = document.createElement('style');
-    style.innerHTML = `
-      .modern-search-box { position: relative !important; }
-      .auto-suggestion-box {
-        position: absolute; top: 100%; left: 0; width: 100%; background: white;
-        border: 1px solid #ddd; border-top: none; border-radius: 0 0 8px 8px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1); list-style: none; padding: 0; margin: 0;
-        z-index: 1000; display: none; text-align: left; max-height: 300px; overflow-y: auto;
-      }
-      .auto-suggestion-box li { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
-      .auto-suggestion-box li:hover { background-color: #f9f9f9; color: #d84b6b; }
-    `;
+    style.innerHTML = `.auto-suggestion-box { position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #ddd; border-top: none; z-index: 1000; display: none; list-style: none; padding: 0; } .auto-suggestion-box li { padding: 10px; cursor: pointer; border-bottom: 1px solid #eee; } .auto-suggestion-box li:hover { background: #f9f9f9; color: #d84b6b; }`;
     document.head.appendChild(style);
 
-    // 3. Tạo thẻ ul gợi ý
     const dictSuggest = document.createElement('ul');
     dictSuggest.className = 'auto-suggestion-box';
+    searchInput.parentNode.classList.add('search-wrapper'); // Bọc input vào div có class này
     searchInput.parentNode.appendChild(dictSuggest);
 
-    // 4. Lắng nghe khi GÕ CHỮ (Xổ dropdown)
+    // 2. Lắng nghe gõ chữ (Gợi ý)
     searchInput.addEventListener('input', function() {
         const keyword = this.value.trim().toLowerCase();
         dictSuggest.innerHTML = '';
         if (keyword === '') { dictSuggest.style.display = 'none'; return; }
 
-        const cleanInput = removeTones(keyword);
         const allData = getAllDictData();
-        
-        // Lọc lấy 5 kết quả
-        const suggestions = allData.filter(item => {
-            if (item.word && item.word.toLowerCase().includes(keyword)) return true;
-            if (item.hanViet && item.hanViet.toLowerCase().includes(keyword)) return true;
-            if (item.pinyin && removeTones(item.pinyin.toLowerCase()).includes(cleanInput)) return true;
-            if (item.explanation && item.explanation.toLowerCase().includes(keyword)) return true;
-            return false;
-        }).slice(0, 5);
+        const cleanInput = removeTones(keyword);
+        const suggestions = allData.filter(item => 
+            (item.word && item.word.toLowerCase().includes(keyword)) || 
+            (item.pinyin && removeTones(item.pinyin.toLowerCase()).includes(cleanInput))
+        ).slice(0, 5);
 
         if (suggestions.length > 0) {
             suggestions.forEach(item => {
                 const li = document.createElement('li');
-                li.innerHTML = `<span><strong>${item.word}</strong> (${item.pinyin})</span> <span style="color:#666; font-size:14px;">${item.hanViet}</span>`;
-                li.onclick = function() {
-                    searchInput.value = item.word;
-                    dictSuggest.style.display = 'none';
-                    displayWords([item], 1); // In ra màn hình từ đã chọn
-                };
+                li.innerHTML = `<strong>${item.word}</strong> (${item.pinyin})`;
+                li.onclick = () => { searchInput.value = item.word; dictSuggest.style.display = 'none'; displayWords([item], 1); };
                 dictSuggest.appendChild(li);
             });
             dictSuggest.style.display = 'block';
-        } else {
-            dictSuggest.style.display = 'none';
         }
     });
 
-    // 5. Lắng nghe khi BẤM ENTER (Tìm & In kết quả)
+    // 3. Lắng nghe Enter (Tìm)
     searchInput.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
             dictSuggest.style.display = 'none';
             const keyword = this.value.trim().toLowerCase();
             const allData = getAllDictData();
-            
-            if (keyword === '') {
-                displayWords(allData, 1); // Hiện tất cả (có chia trang)
-                return;
-            }
-
-            // Ghi nhận tìm kiếm nếu có hàm trackUserAction
-            if(typeof trackUserAction === 'function') trackUserAction("Search", "Tra từ (Enter): " + keyword);
-
             const cleanInput = removeTones(keyword);
-            const finalResults = allData.filter(item => {
-                if (item.word && item.word.toLowerCase().includes(keyword)) return true;
-                if (item.hanViet && item.hanViet.toLowerCase().includes(keyword)) return true;
-                if (item.pinyin && removeTones(item.pinyin.toLowerCase()).includes(cleanInput)) return true;
-                if (item.explanation && item.explanation.toLowerCase().includes(keyword)) return true;
-                return false;
-            });
-
-            displayWords(finalResults, 1); // Bắt đầu in ra từ trang 1
+            
+            const results = allData.filter(item => 
+                (item.word && item.word.toLowerCase().includes(keyword)) || 
+                (item.pinyin && removeTones(item.pinyin.toLowerCase()).includes(cleanInput))
+            );
+            displayWords(results, 1);
         }
-    });
-
-    // Tắt dropdown khi click ngoài
-    document.addEventListener('click', function(e) {
-        if (e.target !== searchInput) dictSuggest.style.display = 'none';
     });
 }
 
