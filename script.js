@@ -669,29 +669,77 @@ function renderQuizzesHtml(group, dIdx) {
 }
 
 // ========================================================
-// 3. HÀM CHÍNH: GỘP TẤT CẢ LÊN GIAO DIỆN (ĐÃ KHÔI PHỤC ÂM THANH & TOCFL)
+// 3. HÀM CHÍNH: GỘP TẤT CẢ LÊN GIAO DIỆN (CÓ MENU CHỌN BÀI)
 // ========================================================
-function displayDialogues(searchTerm = "") {
+let currentDiagLevel = null;
+let currentDiagLesson = null;
+
+function displayDialogues(targetLevel = null, targetLesson = null) {
     const container = document.getElementById('dialogue-container');
     if (!container) return;
 
-    let htmlContent = "";
+    // 1. Tự động lấy danh sách Cấp độ (Level) từ dữ liệu hiện có
+    const availableLevels = [...new Set(dialogueData.map(d => d.level || "TOCFL A1"))];
+    
+    // Nếu chưa có cấp độ nào được chọn, mặc định lấy cấp độ đầu tiên
+    if (!currentDiagLevel || targetLevel === null) {
+        currentDiagLevel = availableLevels.length > 0 ? availableLevels[0] : "TOCFL A1";
+    } else if (targetLevel) {
+        currentDiagLevel = targetLevel;
+    }
+
+    // 2. Tự động lấy danh sách Bài học (Lesson) thuộc Cấp độ đang chọn
+    const lessonsForLevel = dialogueData.filter(d => (d.level || "TOCFL A1") === currentDiagLevel).map(d => d.lesson);
+    const uniqueLessons = [...new Set(lessonsForLevel)].sort((a, b) => {
+        // Sắp xếp Bài 1, Bài 2 theo đúng thứ tự số
+        const numA = parseInt(a.replace(/\D/g, '')) || 0;
+        const numB = parseInt(b.replace(/\D/g, '')) || 0;
+        return numA - numB;
+    });
+
+    // Nếu chưa có bài nào được chọn (hoặc vừa đổi Level), mặc định lấy bài đầu tiên (Bài 1)
+    if (!currentDiagLesson || targetLesson === null || (targetLevel && targetLevel !== currentDiagLevel)) {
+        currentDiagLesson = uniqueLessons.length > 0 ? uniqueLessons[0] : "Bài 1";
+    }
+    if (targetLesson) currentDiagLesson = targetLesson;
+
+    // ==========================================
+    // TẠO GIAO DIỆN MENU (NÚT BẤM)
+    // ==========================================
+    let htmlContent = `<div style="background: white; padding: 20px; border-radius: 15px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">`;
+    
+    // Dòng 1: Các nút chọn Cấp độ (TOCFL A1, A2...)
+    htmlContent += `<div style="display: flex; gap: 10px; border-bottom: 1px dashed #ddd; padding-bottom: 15px; margin-bottom: 15px; flex-wrap: wrap; align-items: center;">`;
+    htmlContent += `<span style="font-weight: bold; color: #555; margin-right: 10px;">Cấp độ:</span>`;
+    availableLevels.forEach(lvl => {
+        const isActive = (lvl === currentDiagLevel) ? "background: #d84b6b; color: white; border-color: #d84b6b;" : "background: white; color: #d84b6b; border-color: #d84b6b;";
+        htmlContent += `<button onclick="displayDialogues('${lvl}', null)" style="padding: 8px 15px; border: 2px solid; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.3s; ${isActive}">${lvl}</button>`;
+    });
+    htmlContent += `</div>`;
+
+    // Dòng 2: Các nút chọn Bài học (Bài 1, Bài 2...)
+    htmlContent += `<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">`;
+    htmlContent += `<span style="font-weight: bold; color: #555; margin-right: 10px;">Bài học:</span>`;
+    uniqueLessons.forEach(lsn => {
+        const isActive = (lsn === currentDiagLesson) ? "background: #2980b9; color: white; border-color: #2980b9;" : "background: white; color: #2980b9; border-color: #2980b9;";
+        htmlContent += `<button onclick="displayDialogues('${currentDiagLevel}', '${lsn}')" style="padding: 6px 12px; border: 1px solid; border-radius: 8px; cursor: pointer; font-weight: 500; transition: 0.3s; ${isActive}">${lsn}</button>`;
+    });
+    if (uniqueLessons.length === 0) {
+        htmlContent += `<span style="color: #999; font-style: italic;">Chưa có bài học nào.</span>`;
+    }
+    htmlContent += `</div></div>`;
+
+    // ==========================================
+    // HIỂN THỊ NỘI DUNG BÀI ĐƯỢC CHỌN (GIỮ NGUYÊN GIAO DIỆN CŨ CỦA BẠN)
+    // ==========================================
     let hasResults = false;
 
     dialogueData.forEach((group, dIdx) => {
-        let isMatch = false;
-        if (searchTerm === "") isMatch = true;
-        else {
-            if (group.title.toLowerCase().includes(searchTerm) || group.lesson.toLowerCase().includes(searchTerm)) isMatch = true;
-            group.content.forEach(line => {
-                if (line.zh.includes(searchTerm) || line.py.toLowerCase().includes(searchTerm) || line.vn.toLowerCase().includes(searchTerm)) isMatch = true;
-            });
-        }
-
-        if (isMatch) {
+        // Chỉ vẽ ra màn hình những bài đúng Level và đúng Bài đang được click chọn
+        if ((group.level || "TOCFL A1") === currentDiagLevel && group.lesson === currentDiagLesson) {
             hasResults = true;
             
-            // Gọi 2 hàm phụ ở trên để ghép giao diện bài tập vào
+            // Lấy giao diện bài tập đục lỗ và trắc nghiệm
             const clozesHtml = renderClozesHtml(group, dIdx);
             const quizzesHtml = renderQuizzesHtml(group, dIdx);
 
@@ -737,7 +785,12 @@ function displayDialogues(searchTerm = "") {
             `;
         }
     });
-    container.innerHTML = htmlContent || "<p style='text-align:center; color:gray;'>Không tìm thấy đoạn hội thoại nào phù hợp.</p>";
+
+    if (!hasResults && uniqueLessons.length > 0) {
+        htmlContent += "<p style='text-align:center; color:gray; font-size: 18px; margin-top: 20px;'>Đang cập nhật nội dung cho bài này...</p>";
+    }
+
+    container.innerHTML = htmlContent;
 }
 
 // --- HÀM KIỂM TRA ĐÁP ÁN ĐỤC LỖ (KHÔNG CẦN ÂM THANH) ---
