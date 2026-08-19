@@ -25,14 +25,16 @@
             </div>
             <h2>Maomi Chinese Dictionary</h2>
 
-            <div class="modern-search-box" id="search-section-dict">
+            <div class="modern-search-box search-wrapper" id="search-section-dict">
                 <span class="search-icon">🔍</span>
-                <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好..." onkeyup="searchDict()">
+                <input type="text" id="searchInput" placeholder="Tra từ: 請問，你好...">
+                <ul id="suggestionBox" class="suggestion-box"></ul>
             </div>
             
-            <div class="modern-search-box" id="search-section-speak" style="display: none;">
+           <div class="modern-search-box search-wrapper" id="search-section-speak" style="display: none;">
                 <span class="search-icon">🔍</span>
-                <input type="text" id="dialogueSearchInput" placeholder="Tìm hội thoại..." onkeyup="searchDialogue()">
+                <input type="text" id="dialogueSearchInput" placeholder="Tìm hội thoại...">
+                <ul id="dialogueSuggestionBox" class="suggestion-box"></ul>
             </div>
 
             <div class="modern-filters">
@@ -42,6 +44,7 @@
         </div>
 
         <div id="dictionary-container" class="result-area"></div>
+	<div id="pagination-controls" class="pagination-container"></div>
         <div id="dialogue-container" class="result-area" style="display: none;"></div>
     </div>
 <!-- Tải thư viện Firebase cốt lõi -->
@@ -51,6 +54,7 @@
 <!-- Tải thư viện Cơ sở dữ liệu (Lưu điểm số, hành vi) -->
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
 
+<script src="data-a1.js"></script>
 <script src="data-a2.js"></script>
 <script src="script.js"></script>
 
