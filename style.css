@@ -21,7 +21,7 @@ body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; margin: 0; padd
 .speaker-avatar { width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
 .chat-content { background: #f8f9fa; padding: 10px 15px; border-radius: 10px; flex-grow: 1; }
 
-/* CSS cho Khung tìm kiếm và Gợi ý */
+/* --- BỔ SUNG CSS CHO KHUNG GỢI Ý VÀ PHÂN TRANG --- */
 .search-wrapper { position: relative; }
 .suggestion-box {
   position: absolute; top: 100%; left: 0; width: 100%; background: white;
@@ -29,9 +29,17 @@ body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; margin: 0; padd
   box-shadow: 0 4px 6px rgba(0,0,0,0.1); list-style: none; padding: 0; margin: 0;
   z-index: 1000; display: none; text-align: left;
 }
-.suggestion-box li { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
-.suggestion-box li:hover { background-color: #f9f9f9; color: #d84b6b; }
-.sugg-word { font-weight: bold; }
+.suggestion-box li { 
+  padding: 10px 15px; 
+  cursor: pointer; 
+  border-bottom: 1px solid #eee; 
+  display: flex; 
+  justify-content: space-between; 
+  color: #333 !important; /* Ép màu chữ hiển thị đậm rõ, không bị trắng tinh */
+  background: white !important; /* Đảm bảo nền trắng */
+}
+.suggestion-box li:hover { background-color: #f9f9f9 !important; color: #d84b6b !important; }
+.sugg-word { font-weight: bold; color: #333; }
 .sugg-mean { color: #666; font-size: 14px; }
 
 /* CSS cho thanh Phân trang */
