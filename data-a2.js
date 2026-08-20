@@ -10837,3 +10837,59 @@ dialogueData.push({
       }
     ]
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 2 - Đoạn văn",
+    title: "Bài讀: 美美來台灣玩 Mỹ Mỹ đến Đài Loan chơi",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "如玉的朋友美美從法國到台灣來玩兩個禮拜，她先從歐洲坐飛機到越南，再轉機到台灣。到了機場，美美直接坐巴士到台北。如玉告訴她，在市區坐捷運是最方便的，所以她下了巴士，就坐捷運到旅館去了。", 
+        py: "Rúyù de péngyǒu Měiměi cóng Fàguó dào Táiwān lái wán liǎng ge lǐbài, tā xiān cóng Ōuzhōu zuò fēijī dào Yuènán, zài zhuǎnjī dào Táiwān. Dào le jīchǎng, Měiměi zhíjiē zuò bāshì dào Táiběi. Rúyù gàosù tā, zài shìqū zuò jiéyùn shì zuì fāngbiàn de, suǒyǐ tā xià le bāshì, jiù zuò jiéyùn dào lǚguǎn qù le.", 
+        vn: "Bạn của Như Ngọc là Mỹ Mỹ từ Pháp đến Đài Loan chơi hai tuần, cô ấy trước tiên từ Châu Âu đi máy bay đến Việt Nam, rồi chuyển bay đến Đài Loan. Tới sân bay, Mỹ Mỹ ngồi xe buýt trực tiếp đến Đài Bắc. Như Ngọc nói với cô ấy, ở khu vực thành phố đi tàu điện ngầm là tiện lợi nhất, cho nên sau khi xuống xe buýt, cô ấy liền đi tàu điện ngầm đến khách sạn." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "美美覺得台北的交通非常便利，到處都有公車、計程車，還有捷運，去哪裡都很方便。台北捷運的路線不複雜，車票也不貴，買一張悠遊卡，誰都可以輕輕鬆鬆地去逛逛。", 
+        py: "Měiměi juéde Táiběi de jiāotōng fēicháng biànlì, dàochù dōu yǒu gōngchē, jìchéngchē, hái yǒu jiéyùn, qù nǎlǐ dōu hěn fāngbiàn. Táiběi jiéyùn de lùxiàn bù fùzá, chēpiào yě bú guì, mǎi yì zhāng yōuyóukǎ, shéi dōu kěyǐ qīngqīng-sōngsōng de qù guàngguang.", 
+        vn: "Mỹ Mỹ cảm thấy giao thông ở Đài Bắc vô cùng tiện lợi, khắp nơi đều có xe buýt, xe taxi, còn có tàu điện ngầm, đi đâu cũng đều rất tiện. Tuyến đường của tàu điện ngầm Đài Bắc không phức tạp, vé xe cũng không đắt, mua một tấm thẻ EasyCard (thẻ Du Du), ai cũng có thể nhẹ nhàng thoải mái đi dạo phố." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "美美住在法國東部，沒有什麼機會到海邊。聽說台灣附近的小島，風景都很美，所以她決定到綠島去看看。綠島在台灣的東南邊，到那裡不太方便。美美得先坐火車到台東，再搭船或是飛機到綠島。她打算第二個星期去綠島，好好地玩一玩。", 
+        py: "Měiměi zhù zài Fàguó dōngbù, méiyǒu shénme jīhuì dào hǎibiān. Tīngshuō Táiwān fùjìn de xiǎodǎo, fēngjǐng dōu hěn měi, suǒyǐ tā juédìng dào Lǜdǎo qù kànkan. Lǜdǎo zài Táiwān de dōngnán biān, dào nàlǐ bú tài fāngbiàn. Měiměi děi xiān zuò huǒchē dào Táidōng, zài dā chuán huòshì fēijī dào Lǜdǎo. Tā dǎsuàn dì èr ge xīngqí qù Lǜdǎo, hǎohāo de wán yì wán.", 
+        vn: "Mỹ Mỹ sống ở miền Đông nước Pháp, không có cơ hội gì để đến bờ biển. Nghe nói những hòn đảo nhỏ gần Đài Loan, phong cảnh đều rất đẹp, cho nên cô ấy quyết định đến Lục Đảo xem thử. Lục Đảo nằm ở phía Đông Nam của Đài Loan, đến đó không được tiện cho lắm. Mỹ Mỹ phải ngồi xe lửa đến Đài Đông trước, rồi mới đi thuyền hoặc là máy bay đến Lục Đảo. Cô ấy dự định tuần thứ hai sẽ đi Lục Đảo, chơi đùa thật thỏa thích." 
+      }
+    ],
+    clozes: [], // Không dùng đục lỗ cho bài đọc hiểu
+    quizzes: [], // Đẩy câu hỏi xuống phần reading
+    reading: {
+      paragraph: { 
+        zh: "如玉的朋友美美從法國到台灣來玩兩個禮拜，她先從歐洲坐飛機到越南，再轉機到台灣。到了機場，美美直接坐巴士到台北。如玉告訴她，在市區坐捷運是最方便的，所以她下了巴士，就坐捷運到旅館去了。\n\n美美覺得台北的交通非常便利，到處都有公車、計程車，還有捷運，去哪裡都很方便。台北捷運的路線不複雜，車票也不貴，買一張悠遊卡，誰都可以輕輕鬆鬆地去逛逛。\n\n美美住在法國東部，沒有什麼機會到海邊。聽說台灣附近的小島，風景都很美，所以她決定到綠島去看看。綠島在台灣的東南邊，到那裡不太方便。美美得先坐火車到台東，再搭船或是飛機到綠島。她打算第二個星期去綠島，好好地玩一玩。", 
+        py: "Rúyù de péngyǒu Měiměi cóng Fàguó dào Táiwān lái wán liǎng ge lǐbài, tā xiān cóng Ōuzhōu zuò fēijī dào Yuènán, zài zhuǎnjī dào Táiwān. Dào le jīchǎng, Měiměi zhíjiē zuò bāshì dào Táiběi. Rúyù gàosù tā, zài shìqū zuò jiéyùn shì zuì fāngbiàn de, suǒyǐ tā xià le bāshì, jiù zuò jiéyùn dào lǚguǎn qù le.\n\nMěiměi juéde Táiběi de jiāotōng fēicháng biànlì, dàochù dōu yǒu gōngchē, jìchéngchē, hái yǒu jiéyùn, qù nǎlǐ dōu hěn fāngbiàn. Táiběi jiéyùn de lùxiàn bù fùzá, chēpiào yě bú guì, mǎi yì zhāng yōuyóukǎ, shéi dōu kěyǐ qīngqīng-sōngsōng de qù guàngguang.\n\nMěiměi zhù zài Fàguó dōngbù, méiyǒu shénme jīhuì dào hǎibiān. Tīngshuō Táiwān fùjìn de xiǎodǎo, fēngjǐng dōu hěn měi, suǒyǐ tā juédìng dào Lǜdǎo qù kànkan. Lǜdǎo zài Táiwān de dōngnán biān, dào nàlǐ bú tài fāngbiàn. Měiměi děi xiān zuò huǒchē dào Táidōng, zài dā chuán huòshì fēijī dào Lǜdǎo. Tā dǎsuàn dì èr ge xīngqí qù Lǜdǎo, hǎohāo de wán yì wán.", 
+        vn: "Bạn của Như Ngọc là Mỹ Mỹ từ Pháp đến Đài Loan chơi hai tuần, cô ấy trước tiên từ Châu Âu đi máy bay đến Việt Nam, rồi chuyển bay đến Đài Loan. Tới sân bay, Mỹ Mỹ ngồi xe buýt trực tiếp đến Đài Bắc. Như Ngọc nói với cô ấy, ở khu vực thành phố đi tàu điện ngầm là tiện lợi nhất, cho nên sau khi xuống xe buýt, cô ấy liền đi tàu điện ngầm đến khách sạn.\n\nMỹ Mỹ cảm thấy giao thông ở Đài Bắc vô cùng tiện lợi, khắp nơi đều có xe buýt, xe taxi, còn có tàu điện ngầm, đi đâu cũng đều rất tiện. Tuyến đường của tàu điện ngầm Đài Bắc không phức tạp, vé xe cũng không đắt, mua một tấm thẻ EasyCard (thẻ Du Du), ai cũng có thể nhẹ nhàng thoải mái đi dạo phố.\n\nMỹ Mỹ sống ở miền Đông nước Pháp, không có cơ hội gì để đến bờ biển. Nghe nói những hòn đảo nhỏ gần Đài Loan, phong cảnh đều rất đẹp, cho nên cô ấy quyết định đến Lục Đảo xem thử. Lục Đảo nằm ở phía Đông Nam của Đài Loan, đến đó không được tiện cho lắm. Mỹ Mỹ phải ngồi xe lửa đến Đài Đông trước, rồi mới đi thuyền hoặc là máy bay đến Lục Đảo. Cô ấy dự định tuần thứ hai sẽ đi Lục Đảo, chơi đùa thật thỏa thích." 
+      },
+      questions: [
+        {
+          question: { zh: "美美從法國到台灣，是在哪裡轉機的？", vn: "Mỹ Mỹ từ Pháp đến Đài Loan, đã chuyển bay ở đâu?" },
+          options: [ { zh: "日本 (Nhật Bản)", vn: "Nhật Bản" }, { zh: "越南 (Việt Nam)", vn: "Việt Nam" }, { zh: "韓國 (Hàn Quốc)", vn: "Hàn Quốc" } ], correct: 1
+        },
+        {
+          question: { zh: "美美到了機場以後，怎麼去台北？", vn: "Sau khi Mỹ Mỹ đến sân bay, đã đi đến Đài Bắc bằng cách nào?" },
+          options: [ { zh: "坐巴士", vn: "Đi xe buýt" }, { zh: "坐捷運", vn: "Đi tàu điện ngầm" }, { zh: "坐計程車", vn: "Đi taxi" } ], correct: 0
+        },
+        {
+          question: { zh: "根據短文，台北捷運怎麼樣？", vn: "Theo đoạn văn ngắn, tàu điện ngầm Đài Bắc như thế nào?" },
+          options: [ { zh: "路線很複雜", vn: "Tuyến đường rất phức tạp" }, { zh: "車票很貴", vn: "Vé xe rất đắt" }, { zh: "很方便，買悠遊卡就可以坐", vn: "Rất tiện lợi, mua thẻ EasyCard là có thể đi" } ], correct: 2
+        },
+        {
+          question: { zh: "美美為什麼決定去綠島？", vn: "Tại sao Mỹ Mỹ quyết định đi Lục Đảo?" },
+          options: [ { zh: "因為她住的地方沒有海邊，而且聽說那裡的風景很美", vn: "Vì nơi cô ấy sống không có bờ biển, vả lại nghe nói phong cảnh ở đó rất đẹp" }, { zh: "因為綠島的交通很方便", vn: "Vì giao thông ở Lục Đảo rất tiện lợi" }, { zh: "因為她想去綠島坐火車", vn: "Vì cô ấy muốn đến Lục Đảo đi xe lửa" } ], correct: 0
+        },
+        {
+          question: { zh: "從台北到綠島，美美要怎麼去？", vn: "Từ Đài Bắc đến Lục Đảo, Mỹ Mỹ phải đi như thế nào?" },
+          options: [ { zh: "直接坐飛機去", vn: "Ngồi máy bay trực tiếp đi" }, { zh: "先坐火車到台東，再搭船或飛機", vn: "Đi xe lửa đến Đài Đông trước, rồi đi thuyền hoặc máy bay" }, { zh: "先坐公車，再換捷運", vn: "Đi xe buýt trước, rồi đổi sang tàu điện ngầm" } ], correct: 1
+        }
+      ]
+    }
+});
