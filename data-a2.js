@@ -10717,7 +10717,7 @@ dialogueData.push({
 });
 dialogueData.push({
     level: "TOCFL A2",
-    lesson: "Bài 1 - Đoạn văn",
+    lesson: "Bài 1",
     title: "Bài đọc: 試試地圖好用不好用 (Thử xem bản đồ có dễ dùng không)",
     content: [
       { 
