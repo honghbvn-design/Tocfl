@@ -10771,3 +10771,69 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 2",
+    title: "Hội thoại 2: 還是坐捷運吧！ (Take the MRT Instead!)",
+    content: [
+      { sp: "如玉", gender: "female", zh: "安同，早！你要去哪裡？", py: "Āntóng, zǎo! Nǐ yào qù nǎlǐ?", vn: "Antoine, chào buổi sáng! Bạn muốn đi đâu?" },
+      { sp: "安同", gender: "male", zh: "早！我約了朋友一起去看電影，你呢？", py: "Zǎo! Wǒ yuē le péngyǒu yìqǐ qù kàn diànyǐng, nǐ ne?", vn: "Chào buổi sáng! Tôi đã hẹn bạn cùng đi xem phim, còn bạn thì sao?" },
+      { sp: "如玉", gender: "female", zh: "我要去看電腦展。", py: "Wǒ yào qù kàn diànnǎozhǎn.", vn: "Tôi muốn đi xem triển lãm máy tính." },
+      { sp: "安同", gender: "male", zh: "你去哪裡看電腦展？", py: "Nǐ qù nǎlǐ kàn diànnǎozhǎn?", vn: "Bạn đi đâu xem triển lãm máy tính?" },
+      { sp: "如玉", gender: "female", zh: "世貿展覽館，我現在要去對面坐公車。", py: "Shìmào zhǎnlǎnguǎn, wǒ xiànzài yào qù duìmiàn zuò gōngchē.", vn: "Trung tâm triển lãm Thương mại Thế giới, bây giờ tôi phải sang đường đối diện ngồi xe buýt." },
+      { sp: "安同", gender: "male", zh: "那裡離台北 101 不遠，妳怎麼不坐捷運呢？", py: "Nàlǐ lí Táiběi 101 bù yuǎn, nǐ zěnme bú zuò jiéyùn ne?", vn: "Nơi đó cách Đài Bắc 101 không xa, sao bạn không đi tàu điện ngầm?" },
+      { sp: "如玉", gender: "female", zh: "朋友告訴我公車直接到展覽館，不必換車。", py: "Péngyǒu gàosù wǒ gōngchē zhíjiē dào zhǎnlǎnguǎn, búbì huàn chē.", vn: "Bạn tôi nói xe buýt đi thẳng đến trung tâm triển lãm, không cần phải đổi xe." },
+      { sp: "安同", gender: "male", zh: "坐捷運也很方便。妳先坐 2 號線到台北車站，再換車到展覽館。", py: "Zuò jiéyùn yě hěn fāngbiàn. Nǐ xiān zuò 2 hào xiàn dào Táiběi chēzhàn, zài huàn chē dào zhǎnlǎnguǎn.", vn: "Đi tàu điện ngầm cũng rất tiện. Bạn trước tiên đi tuyến số 2 đến ga Đài Bắc, sau đó đổi xe đến trung tâm triển lãm." },
+      { sp: "如玉", gender: "female", zh: "聽起來坐捷運比較麻煩。", py: "Tīng qǐlái zuò jiéyùn bǐjiào máfán.", vn: "Nghe có vẻ đi tàu điện ngầm phiền phức hơn." },
+      { sp: "安同", gender: "male", zh: "一點也不麻煩，捷運比較快，坐公車要花一個多小時。你還是坐捷運吧！", py: "Yìdiǎn yě bù máfán, jiéyùn bǐjiào kuài, zuò gōngchē yào huā yí ge duō xiǎoshí. Nǐ háishì zuò jiéyùn ba!", vn: "Chút nào cũng không phiền, tàu điện ngầm nhanh hơn, đi xe buýt phải mất hơn một tiếng đồng hồ. Bạn vẫn nên đi tàu điện ngầm đi!" },
+      { sp: "如玉", gender: "female", zh: "捷運站遠嗎？", py: "Jiéyùnzhàn yuǎn ma?", vn: "Trạm tàu điện ngầm có xa không?" },
+      { sp: "安同", gender: "male", zh: "捷運站就在前面。", py: "Jiéyùnzhàn jiù zài qiánmiàn.", vn: "Trạm tàu điện ngầm ở ngay phía trước." },
+      { sp: "如玉", gender: "female", zh: "謝謝！我得趕快走了。", py: "Xièxie! Wǒ děi gǎnkuài zǒu le.", vn: "Cảm ơn! Tôi phải mau chóng đi thôi." },
+      { sp: "安同", gender: "male", zh: "別急，走慢一點。捷運的班次很多。", py: "Bié jí, zǒu màn yìdiǎn. Jiéyùn de bāncì hěn duō.", vn: "Đừng vội, đi chậm một chút. Chuyến tàu điện ngầm có rất nhiều." },
+      { sp: "如玉", gender: "female", zh: "好，我們下禮拜見。", py: "Hǎo, wǒmen xià lǐbài jiàn.", vn: "Được, tuần sau chúng ta gặp lại." }
+    ],
+    clozes: [
+      {
+        sentence: { zh: "我約了朋友一起去看 ______ 。", py: "Wǒ yuē le péngyǒu yìqǐ qù kàn ______ .", vn: "Tôi đã hẹn bạn cùng đi xem..." },
+        options: [ { zh: "展覽", vn: "triển lãm" }, { zh: "電影", vn: "phim ảnh" }, { zh: "捷運", vn: "tàu điện ngầm" } ], correct: 1
+      },
+      {
+        sentence: { zh: "朋友告訴我公車直接到展覽館，不必 ______ 。", py: "Péngyǒu gàosù wǒ gōngchē zhíjiē dào zhǎnlǎnguǎn, búbì ______ .", vn: "Bạn tôi nói xe buýt đi thẳng đến trung tâm triển lãm, không cần phải..." },
+        options: [ { zh: "換車", vn: "đổi xe" }, { zh: "走路", vn: "đi bộ" }, { zh: "買票", vn: "mua vé" } ], correct: 0
+      },
+      {
+        sentence: { zh: "聽起來坐捷運比較 ______ 。", py: "Tīng qǐlái zuò jiéyùn bǐjiào ______ .", vn: "Nghe có vẻ đi tàu điện ngầm tương đối..." },
+        options: [ { zh: "方便", vn: "thuận tiện" }, { zh: "舒服", vn: "thoải mái" }, { zh: "麻煩", vn: "phiền phức" } ], correct: 2
+      },
+      {
+        sentence: { zh: "一點也不麻煩，捷運比較快，坐公車要 ______ 一個多小時。", py: "Yìdiǎn yě bù máfán, jiéyùn bǐjiào kuài, zuò gōngchē yào ______ yí ge duō xiǎoshí.", vn: "Chút nào cũng không phiền, tàu điện ngầm nhanh hơn, đi xe buýt phải ... hơn một tiếng đồng hồ." },
+        options: [ { zh: "找", vn: "tìm" }, { zh: "花", vn: "tiêu tốn" }, { zh: "坐", vn: "ngồi" } ], correct: 1
+      },
+      {
+        sentence: { zh: "別急，走慢一點。捷運的 ______ 很多。", py: "Bié jí, zǒu màn yìdiǎn. Jiéyùn de ______ hěn duō.", vn: "Đừng vội, đi chậm một chút. ... tàu điện ngầm có rất nhiều." },
+        options: [ { zh: "班次", vn: "chuyến / lượt" }, { zh: "車站", vn: "nhà ga" }, { zh: "展覽", vn: "triển lãm" } ], correct: 0
+      }
+    ],
+    quizzes: [
+      {
+        question: { zh: "安同今天要去做什麼？", vn: "Antoine hôm nay muốn đi làm gì?" },
+        options: [ { zh: "去坐公車", vn: "Đi ngồi xe buýt" }, { zh: "去看電腦展", vn: "Đi xem triển lãm máy tính" }, { zh: "去看電影", vn: "Đi xem phim" } ], correct: 2
+      },
+      {
+        question: { zh: "如玉要去哪裡看電腦展？", vn: "Như Ngọc muốn đi đâu xem triển lãm máy tính?" },
+        options: [ { zh: "世貿展覽館", vn: "Trung tâm triển lãm Thương mại Thế giới" }, { zh: "台北車站", vn: "Ga Đài Bắc" }, { zh: "台北 101", vn: "Đài Bắc 101" } ], correct: 0
+      },
+      {
+        question: { zh: "為什麼如玉想坐公車去展覽館？", vn: "Tại sao Như Ngọc muốn đi xe buýt đến trung tâm triển lãm?" },
+        options: [ { zh: "因為捷運站很遠", vn: "Vì trạm tàu điện ngầm rất xa" }, { zh: "因為公車可以直接到，不必換車", vn: "Vì xe buýt có thể đến trực tiếp, không cần đổi xe" }, { zh: "因為公車比較快", vn: "Vì xe buýt nhanh hơn" } ], correct: 1
+      },
+      {
+        question: { zh: "安同覺得去展覽館坐什麼車比較好？", vn: "Antoine cảm thấy đi xe gì đến trung tâm triển lãm sẽ tốt hơn?" },
+        options: [ { zh: "計程車", vn: "Xe taxi" }, { zh: "捷運", vn: "Tàu điện ngầm" }, { zh: "公車", vn: "Xe buýt" } ], correct: 1
+      },
+      {
+        question: { zh: "安同為什麼叫如玉別急？", vn: "Tại sao Antoine bảo Như Ngọc đừng vội?" },
+        options: [ { zh: "因為展覽館很近", vn: "Vì trung tâm triển lãm rất gần" }, { zh: "因為捷運的班次很多", vn: "Vì tàu điện ngầm có rất nhiều chuyến" }, { zh: "因為時間還早", vn: "Vì thời gian vẫn còn sớm" } ], correct: 1
+      }
+    ]
+});
