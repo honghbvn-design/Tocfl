@@ -669,7 +669,75 @@ function renderQuizzesHtml(group, dIdx) {
 }
 
 // ========================================================
-// 3. HÀM CHÍNH: GỘP TẤT CẢ LÊN GIAO DIỆN (CÓ MENU CHỌN BÀI)
+// HÀM MỚI BỔ SUNG: XỬ LÝ BÀI TẬP ĐỌC HIỂU
+// ========================================================
+function renderReadingHtml(group, dIdx) {
+    if (!group.reading || !group.reading.paragraph) return "";
+
+    let html = `
+        <div style="background: #fdfefe; padding: 25px; border-radius: 20px; border: 2px solid #27ae60; margin-top: 30px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0; color: #27ae60; font-size: 24px; display: flex; align-items: center; gap: 10px;">📖 Bài tập Đọc hiểu (閱讀測驗)</h3>
+            
+            <div style="background: #e9f7ef; padding: 20px; border-radius: 12px; margin-bottom: 25px; border-left: 5px solid #2ecc71;">
+                <p style="font-size: 22px; color: #2c3e50; line-height: 1.6; margin: 0 0 12px 0; font-weight: 500;">${group.reading.paragraph.zh}</p>
+                <p style="font-size: 18px; color: #2980b9; margin: 0 0 8px 0;">${group.reading.paragraph.py}</p>
+                <p style="font-size: 16px; color: #7f8c8d; font-style: italic; margin: 0;">${group.reading.paragraph.vn}</p>
+            </div>
+    `;
+
+    group.reading.questions.forEach((q, qIdx) => {
+        let questionText = (typeof q.question === 'object' && q.question !== null) ? (q.question.zh || "") : (q.question || "");
+        let questionVn = (typeof q.question === 'object' && q.question !== null) ? (q.question.vn || "") : "";
+
+        html += `
+            <div style="margin-top: 20px; padding-bottom: 15px; border-bottom: 1px dashed #a9dfbf;">
+                <div style="font-size: 20px; font-weight: bold; color:#2c3e50;">${qIdx + 1}. ${questionText}</div>
+                <div style="font-size: 16px; color:#7f8c8d; font-style: italic; margin-bottom: 10px;">${questionVn}</div>
+                <div id="reading-options-${dIdx}-${qIdx}" style="display: grid; gap: 8px;">
+        `;
+
+        q.options.forEach((opt, oIdx) => {
+            let optText = (typeof opt === 'object' && opt !== null) ? `${opt.zh || ""} (${opt.vn || ""})` : (opt || "");
+            html += `
+                <button onclick="checkReading(${dIdx}, ${qIdx}, ${oIdx})" style="text-align: left; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px; background: white; cursor: pointer; font-size: 18px; transition: 0.2s;">
+                    ${optText}
+                </button>
+            `;
+        });
+
+        html += `
+                </div>
+                <p id="reading-result-${dIdx}-${qIdx}" style="margin-top: 10px; font-weight: bold; display: none; font-size: 18px;"></p>
+            </div>
+        `;
+    });
+
+    html += `</div>`;
+    return html;
+}
+
+function checkReading(dIdx, qIdx, selected) {
+    const quiz = dialogueData[dIdx].reading.questions[qIdx];
+    const resultText = document.getElementById(`reading-result-${dIdx}-${qIdx}`);
+    const optionsContainer = document.getElementById(`reading-options-${dIdx}-${qIdx}`);
+    const buttons = optionsContainer.getElementsByTagName('button');
+
+    resultText.style.display = "block";
+    if (selected === quiz.correct) {
+        resultText.style.color = "#27ae60";
+        resultText.innerHTML = "✅ Chính xác!";
+        buttons[selected].style.background = "#d5f5e3";
+        buttons[selected].style.borderColor = "#27ae60";
+    } else {
+        resultText.style.color = "#e74c3c";
+        resultText.innerHTML = "❌ Sai rồi, hãy đọc kỹ lại đoạn văn nhé!";
+        buttons[selected].style.background = "#fadbd8";
+        buttons[selected].style.borderColor = "#e74c3c";
+    }
+}
+
+// ========================================================
+// 3. HÀM CHÍNH: GỘP TẤT CẢ LÊN GIAO DIỆN (CÓ BÀI ĐỌC HIỂU)
 // ========================================================
 let currentDiagLevel = null;
 let currentDiagLesson = null;
@@ -678,37 +746,27 @@ function displayDialogues(targetLevel = null, targetLesson = null) {
     const container = document.getElementById('dialogue-container');
     if (!container) return;
 
-    // 1. Tự động lấy danh sách Cấp độ (Level) từ dữ liệu hiện có
     const availableLevels = [...new Set(dialogueData.map(d => d.level || "TOCFL A1"))];
-    
-    // Nếu chưa có cấp độ nào được chọn, mặc định lấy cấp độ đầu tiên
     if (!currentDiagLevel || targetLevel === null) {
         currentDiagLevel = availableLevels.length > 0 ? availableLevels[0] : "TOCFL A1";
     } else if (targetLevel) {
         currentDiagLevel = targetLevel;
     }
 
-    // 2. Tự động lấy danh sách Bài học (Lesson) thuộc Cấp độ đang chọn
     const lessonsForLevel = dialogueData.filter(d => (d.level || "TOCFL A1") === currentDiagLevel).map(d => d.lesson);
     const uniqueLessons = [...new Set(lessonsForLevel)].sort((a, b) => {
-        // Sắp xếp Bài 1, Bài 2 theo đúng thứ tự số
         const numA = parseInt(a.replace(/\D/g, '')) || 0;
         const numB = parseInt(b.replace(/\D/g, '')) || 0;
         return numA - numB;
     });
 
-    // Nếu chưa có bài nào được chọn (hoặc vừa đổi Level), mặc định lấy bài đầu tiên (Bài 1)
     if (!currentDiagLesson || targetLesson === null || (targetLevel && targetLevel !== currentDiagLevel)) {
         currentDiagLesson = uniqueLessons.length > 0 ? uniqueLessons[0] : "Bài 1";
     }
     if (targetLesson) currentDiagLesson = targetLesson;
 
-    // ==========================================
-    // TẠO GIAO DIỆN MENU (NÚT BẤM)
-    // ==========================================
     let htmlContent = `<div style="background: white; padding: 20px; border-radius: 15px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">`;
     
-    // Dòng 1: Các nút chọn Cấp độ (TOCFL A1, A2...)
     htmlContent += `<div style="display: flex; gap: 10px; border-bottom: 1px dashed #ddd; padding-bottom: 15px; margin-bottom: 15px; flex-wrap: wrap; align-items: center;">`;
     htmlContent += `<span style="font-weight: bold; color: #555; margin-right: 10px;">Cấp độ:</span>`;
     availableLevels.forEach(lvl => {
@@ -717,7 +775,6 @@ function displayDialogues(targetLevel = null, targetLesson = null) {
     });
     htmlContent += `</div>`;
 
-    // Dòng 2: Các nút chọn Bài học (Bài 1, Bài 2...)
     htmlContent += `<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">`;
     htmlContent += `<span style="font-weight: bold; color: #555; margin-right: 10px;">Bài học:</span>`;
     uniqueLessons.forEach(lsn => {
@@ -729,19 +786,16 @@ function displayDialogues(targetLevel = null, targetLesson = null) {
     }
     htmlContent += `</div></div>`;
 
-    // ==========================================
-    // HIỂN THỊ NỘI DUNG BÀI ĐƯỢC CHỌN (GIỮ NGUYÊN GIAO DIỆN CŨ CỦA BẠN)
-    // ==========================================
     let hasResults = false;
 
     dialogueData.forEach((group, dIdx) => {
-        // Chỉ vẽ ra màn hình những bài đúng Level và đúng Bài đang được click chọn
         if ((group.level || "TOCFL A1") === currentDiagLevel && group.lesson === currentDiagLesson) {
             hasResults = true;
             
-            // Lấy giao diện bài tập đục lỗ và trắc nghiệm
             const clozesHtml = renderClozesHtml(group, dIdx);
             const quizzesHtml = renderQuizzesHtml(group, dIdx);
+            // Kích hoạt giao diện Đọc hiểu
+            const readingHtml = renderReadingHtml(group, dIdx);
 
             htmlContent += `
                 <div class="dialogue-card" style="padding: 30px; border-radius: 20px; background: white; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: left;">
@@ -781,6 +835,7 @@ function displayDialogues(targetLevel = null, targetLesson = null) {
 
                     ${clozesHtml}
                     ${quizzesHtml}
+                    ${readingHtml} <!-- IN PHẦN ĐỌC HIỂU RA ĐÂY -->
                 </div>
             `;
         }
