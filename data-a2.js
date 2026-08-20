@@ -10640,7 +10640,10 @@ const dataA2 = [
   },
   ];
 
-{
+// =======================================================
+// DỮ LIỆU HỘI THOẠI A2 (Tự động nối vào kho hội thoại)
+// =======================================================
+dialogueData.push({
     level: "TOCFL A2",
     lesson: "Bài 1",
     title: "Hội thoại 1: 我好像迷路了 Hình như tôi lạc đường rồi",
@@ -10711,4 +10714,4 @@ const dataA2 = [
         }
       ]
     }
-  }
+});
