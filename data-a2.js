@@ -10639,3 +10639,76 @@ const dataA2 = [
     level: "TOCFL A2"
   },
   ];
+
+{
+    level: "TOCFL A2",
+    lesson: "Bài 1",
+    title: "Hội thoại 1: 我好像迷路了 Hình như tôi lạc đường rồi",
+    content: [
+      { sp: "路人", gender: "female", zh: "你需要我幫忙嗎？", py: "Nǐ xūyào wǒ bāngmáng ma?", vn: "Bạn có cần tôi giúp không?" },
+      { sp: "安同", gender: "male", zh: "我好像迷路了。", py: "Wǒ hǎoxiàng mílù le.", vn: "Hình như tôi bị lạc đường rồi." },
+      { sp: "路人", gender: "female", zh: "你要去哪裡？", py: "Nǐ yào qù nǎlǐ?", vn: "Bạn muốn đi đâu?" },
+      { sp: "安同", gender: "male", zh: "請問，到師大怎麼走？", py: "Qǐngwèn, dào Shīdà zěnme zǒu?", vn: "Xin hỏi, đến trường Sư Phạm đi như thế nào?" },
+      { sp: "路人", gender: "female", zh: "你從這裡往前走，到了下一個路口，右轉——", py: "Nǐ cóng zhèlǐ wǎng qián zǒu, dào le xià yí ge lùkǒu, yòuzhuǎn——", vn: "Bạn từ đây đi thẳng về phía trước, đến ngã tư tiếp theo, rẽ phải..." },
+      { sp: "安同", gender: "male", zh: "右轉就到了嗎？聽起來不遠。", py: "Yòuzhuǎn jiù dào le ma? Tīng qǐlái bù yuǎn.", vn: "Rẽ phải là tới luôn sao? Nghe có vẻ không xa." },
+      { sp: "路人", gender: "female", zh: "還沒到！你右轉以後，是和平東路一段，再往前一直走，過了第二個紅綠燈，就看見師大了。", py: "Hái méi dào! Nǐ yòuzhuǎn yǐhòu, shì Hépíng Dōnglù Yíduàn, zài wǎng qián yìzhí zǒu, guò le dì èr ge hónglǜdēng, jiù kànjiàn Shīdà le.", vn: "Vẫn chưa tới! Sau khi bạn rẽ phải, là đoạn 1 đường Hoà Bình Đông, lại tiếp tục đi thẳng về phía trước, qua cột đèn giao thông thứ hai, là sẽ nhìn thấy trường Sư Phạm rồi." },
+      { sp: "安同", gender: "male", zh: "謝謝，我知道了。", py: "Xièxie, wǒ zhīdào le.", vn: "Cảm ơn, tôi biết rồi." },
+      { sp: "路人", gender: "female", zh: "你的中文很好。", py: "Nǐ de Zhōngwén hěn hǎo.", vn: "Tiếng Trung của bạn rất tốt." },
+      { sp: "安同", gender: "male", zh: "謝謝，我還得多學一點。能不能再告訴我，這附近有沒有提款機？", py: "Xièxie, wǒ hái děi duō xué yìdiǎn. Néng bù néng zài gàosù wǒ, zhè fùjìn yǒu méiyǒu tíkuǎnjī?", vn: "Cảm ơn, tôi vẫn cần phải học thêm một chút. Có thể cho tôi biết thêm, gần đây có máy rút tiền không?" },
+      { sp: "路人", gender: "female", zh: "從這裡往和平東路走，好像沒有銀行，不過大部分的超商裡應該都有。", py: "Cóng zhèlǐ wǎng Hépíng Dōnglù zǒu, hǎoxiàng méiyǒu yínháng, búguò dà bùfèn de chāoshāng lǐ yīnggāi dōu yǒu.", vn: "Từ đây đi về hướng đường Hòa Bình Đông, hình như không có ngân hàng, nhưng mà phần lớn trong các siêu thị mini chắc là đều có." },
+      { sp: "安同", gender: "male", zh: "你說的「超商」是「7-11」那種便利商店嗎？", py: "Nǐ shuō de 'chāoshāng' shì '7-11' nà zhǒng biànlì shāngdiàn ma?", vn: "«Siêu thị mini» mà bạn nói là loại cửa hàng tiện lợi như «7-11» phải không?" },
+      { sp: "路人", gender: "female", zh: "是的。對了，郵局也可以提錢。", py: "Shì de. Duì le, yóujú yě kěyǐ tí qián.", vn: "Đúng vậy. À đúng rồi, bưu điện cũng có thể rút tiền." },
+      { sp: "安同", gender: "male", zh: "我看見了，那邊有一家便利商店。謝謝，謝謝！", py: "Wǒ kànjiàn le, nàbiān yǒu yì jiā biànlì shāngdiàn. Xièxie, xièxie!", vn: "Tôi nhìn thấy rồi, bên kia có một cửa hàng tiện lợi. Cảm ơn, cảm ơn nhé!" },
+      { sp: "路人", gender: "female", zh: "不客氣。", py: "Bú kèqì.", vn: "Đừng khách sáo." }
+    ],
+    clozes: [
+      {
+        sentence: { zh: "我好像 ______ 了。", py: "Wǒ hǎoxiàng ______ le.", vn: "Hình như tôi bị lạc đường rồi." },
+        options: [ { zh: "迷路", vn: "lạc đường" }, { zh: "提款", vn: "rút tiền" }, { zh: "便利", vn: "tiện lợi" } ], correct: 0
+      },
+      {
+        sentence: { zh: "你從這裡 ______ 走，到了下一個路口，右轉。", py: "Nǐ cóng zhèlǐ ______ zǒu, dào le xià yí ge lùkǒu, yòuzhuǎn.", vn: "Bạn từ đây đi thẳng về phía trước, đến ngã tư tiếp theo, rẽ phải." },
+        options: [ { zh: "往右", vn: "về bên phải" }, { zh: "往前", vn: "về phía trước" }, { zh: "往左", vn: "về bên trái" } ], correct: 1
+      },
+      {
+        sentence: { zh: "能不能再告訴我，這附近有沒有 ______？", py: "Néng bù néng zài gàosù wǒ, zhè fùjìn yǒu méiyǒu ______?", vn: "Có thể cho tôi biết thêm, gần đây có máy rút tiền không?" },
+        options: [ { zh: "郵局", vn: "bưu điện" }, { zh: "銀行", vn: "ngân hàng" }, { zh: "提款機", vn: "máy rút tiền" } ], correct: 2
+      },
+      {
+        sentence: { zh: "過了第二個 ______，就看見師大了。", py: "Guò le dì èr ge ______ , jiù kànjiàn Shīdà le.", vn: "Qua cột đèn giao thông thứ hai, là sẽ nhìn thấy trường Sư Phạm rồi." },
+        options: [ { zh: "便利商店", vn: "cửa hàng tiện lợi" }, { zh: "紅綠燈", vn: "đèn giao thông" }, { zh: "提款機", vn: "máy rút tiền" } ], correct: 1
+      },
+      {
+        sentence: { zh: "不過大部分的 ______ 裡應該都有(提款機)。", py: "Búguò dà bùfèn de ______ lǐ yīnggāi dōu yǒu (tíkuǎnjī).", vn: "Nhưng mà phần lớn trong các siêu thị mini chắc là đều có (máy rút tiền)." },
+        options: [ { zh: "銀行", vn: "ngân hàng" }, { zh: "郵局", vn: "bưu điện" }, { zh: "超商", vn: "siêu thị mini" } ], correct: 2
+      }
+    ],
+    quizzes: [
+      { question: { zh: "安同想要去哪裡？", vn: "Antoine muốn đi đâu?" }, options: [ { zh: "銀行", vn: "Ngân hàng" }, { zh: "師大", vn: "Trường Sư Phạm" }, { zh: "郵局", vn: "Bưu điện" } ], correct: 1 },
+      { question: { zh: "根據對話，安同最後打算在哪裡提錢？", vn: "Theo đoạn hội thoại, cuối cùng Antoine dự định rút tiền ở đâu?" }, options: [ { zh: "在便利商店提錢", vn: "Rút tiền ở cửa hàng tiện lợi" }, { zh: "在郵局提錢", vn: "Rút tiền ở bưu điện" }, { zh: "在銀行提錢", vn: "Rút tiền ở ngân hàng" } ], correct: 0 },
+      { question: { zh: "路人覺得安同的中文說得怎麼樣？", vn: "Người qua đường thấy Antoine nói tiếng Trung như thế nào?" }, options: [ { zh: "說得很好", vn: "Nói rất tốt" }, { zh: "說得不太好", vn: "Nói không tốt lắm" }, { zh: "聽不懂", vn: "Nghe không hiểu" } ], correct: 0 },
+      { question: { zh: "安同右轉以後，會走到哪一條路？", vn: "Sau khi Antoine rẽ phải, sẽ đi đến đường nào?" }, options: [ { zh: "和平南路", vn: "Đường Hòa Bình Nam" }, { zh: "師大路", vn: "Đường Sư Phạm" }, { zh: "和平東路", vn: "Đường Hòa Bình Đông" } ], correct: 2 },
+      { question: { zh: "根據對話，除了超商，哪裡也可以提錢？", vn: "Theo hội thoại, ngoài siêu thị mini ra, ở đâu cũng có thể rút tiền?" }, options: [ { zh: "紅綠燈", vn: "Cột đèn giao thông" }, { zh: "郵局", vn: "Bưu điện" }, { zh: "學校", vn: "Trường học" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "安同是一個外國人，他的中文說得很好。今天他想去師大，可是他好像迷路了。他問了一位路人，路人告訴他：往前走，下一個路口右轉，過了第二個紅綠燈就到了。除了問路，安同還想找提款機提錢。路人說附近沒有銀行，但是超商和郵局都可以提錢。最後，安同看見了一家便利商店，他非常感謝那位路人。", 
+        py: "Āntóng shì yí ge wàiguórén, tā de Zhōngwén shuō de hěn hǎo. Jīntiān tā xiǎng qù Shīdà, kěshì tā hǎoxiàng mílù le. Tā wèn le yí wèi lùrén, lùrén gàosù tā: wǎng qián zǒu, xià yí ge lùkǒu yòuzhuǎn, guò le dì èr ge hónglǜdēng jiù dào le. Chúle wèn lù, Āntóng hái xiǎng zhǎo tíkuǎnjī tí qián. Lùrén shuō fùjìn méiyǒu yínháng, dànshì chāoshāng hé yóujú dōu kěyǐ tí qián. Zuìhòu, Āntóng kànjiàn le yì jiā biànlì shāngdiàn, tā fēicháng gǎnxiè nà wèi lùrén.", 
+        vn: "Antoine là một người nước ngoài, tiếng Trung của anh ấy nói rất tốt. Hôm nay anh ấy muốn đến trường Sư Phạm, nhưng anh ấy hình như bị lạc đường rồi. Anh ấy đã hỏi một người qua đường, người qua đường nói với anh ấy: đi thẳng về phía trước, ngã tư tiếp theo rẽ phải, qua cột đèn giao thông thứ hai là tới. Ngoài việc hỏi đường, Antoine còn muốn tìm máy rút tiền để rút tiền. Người qua đường nói gần đây không có ngân hàng, nhưng siêu thị mini và bưu điện đều có thể rút tiền. Cuối cùng, Antoine nhìn thấy một cửa hàng tiện lợi, anh ấy vô cùng cảm ơn người qua đường đó." 
+      },
+      questions: [
+        {
+          question: { zh: "安同為什麼要找路人幫忙？", vn: "Tại sao Antoine lại tìm người qua đường giúp đỡ?" },
+          options: [ { zh: "因為他想買東西", vn: "Vì anh ấy muốn mua đồ" }, { zh: "因為他迷路了", vn: "Vì anh ấy bị lạc đường" }, { zh: "因為他想學中文", vn: "Vì anh ấy muốn học tiếng Trung" } ], correct: 1
+        },
+        {
+          question: { zh: "根據短文，去師大會經過幾個紅綠燈？", vn: "Theo đoạn văn ngắn, đi đến trường Sư Phạm sẽ đi qua mấy cột đèn giao thông?" },
+          options: [ { zh: "兩個", vn: "Hai cái" }, { zh: "一個", vn: "Một cái" }, { zh: "三個", vn: "Ba cái" } ], correct: 0
+        },
+        {
+          question: { zh: "這段短文主要在說什麼？", vn: "Đoạn văn ngắn này chủ yếu nói về điều gì?" },
+          options: [ { zh: "安同在便利商店買東西", vn: "Antoine mua đồ ở cửa hàng tiện lợi" }, { zh: "安同問路和找提款機的故事", vn: "Câu chuyện Antoine hỏi đường và tìm máy rút tiền" }, { zh: "台灣的超商很方便", vn: "Siêu thị mini ở Đài Loan rất tiện lợi" } ], correct: 1
+        }
+      ]
+    }
+  }
