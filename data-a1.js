@@ -8759,7 +8759,7 @@ const dialogueData = [
   {
     title: "Hội thoại 1: 歡迎你來台灣 Chào mừng bạn tới Đài Loan ",
     lesson: "Bài 1",
-    level: "TOCFL Band A",
+    level: "TOCFL A1",
     content: [
       { sp: "林小姐", gender: "female", zh: "請問，你是王先生嗎？", py: "Qǐngwèn, nǐ shì Wáng xiānshēng ma?", vn: "Xin hỏi, anh là ông Vương phải không?" },
       { sp: "王先生", gender: "male", zh: "是的。請問你貴姓？", py: "Shìde. Qǐngwèn nǐ guìxìng?", vn: "Vâng đúng vậy. Xin hỏi cô họ gì?" },
