@@ -10715,3 +10715,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 1 - Đoạn văn",
+    title: "Bài đọc: 試試地圖好用不好用 (Thử xem bản đồ có dễ dùng không)",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬安同下載了新的地圖到手機裡，他找白如玉跟他在師大附近走走，試試地圖好用不好用。他們看著地圖，從學校門口往左轉，過了和平東路就到了師大路。在師大路上，他們看見很多賣小吃的店，也有賣衣服和日用品的商店。他們經過兩個小巷子再右轉，這邊的商店比師大路的多。", 
+        py: "Mǎ Āntóng xiàzài le xīn de dìtú dào shǒujī lǐ, tā zhǎo Bái Rúyù gēn tā zài Shīdà fùjìn zǒuzou, shìshi dìtú hǎoyòng bù hǎoyòng. Tāmen kànzhe dìtú, cóng xuéxiào ménkǒu wǎng zuǒ zhuǎn, guò le Hépíng Dōnglù jiù dào le Shīdàlù. Zài Shīdàlù shàng, tāmen kànjiàn hěn duō mài xiǎochī de diàn, yě yǒu mài yīfú hé rìyòngpǐn de shāngdiàn. Tāmen jīngguò liǎng ge xiǎo xiàngzi zài yòuzhuǎn, zhèbiān de shāngdiàn bǐ Shīdàlù de duō.", 
+        vn: "Mã An Đồng đã tải một bản đồ mới về điện thoại, anh ấy rủ Bạch Như Ngọc cùng đi dạo quanh trường Sư Phạm, để thử xem bản đồ có dễ dùng không. Họ nhìn bản đồ, từ cổng trường rẽ trái, qua đường Hòa Bình Đông là đến đường Sư Phạm. Trên đường Sư Phạm, họ nhìn thấy rất nhiều quán bán đồ ăn vặt, cũng có cửa hàng bán quần áo và đồ dùng hàng ngày. Họ đi qua hai con hẻm nhỏ rồi rẽ phải, cửa hàng ở bên này nhiều hơn so với đường Sư Phạm." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "他們逛了半天，白如玉覺得有一點餓，所以他們到一家麵店，點了兩碗牛肉麵。他們一邊吃麵，一邊看著手機裡的地圖，發現離麵店不遠的巷子裡有一家賣背包的店。馬安同正好想買一個背包，所以決定吃了麵就到這家店去看看。", 
+        py: "Tāmen guàng le bàntiān, Bái Rúyù juéde yǒu yìdiǎn è, suǒyǐ tāmen dào yì jiā miàndiàn, diǎn le liǎng wǎn niúròumiàn. Tāmen yìbiān chī miàn, yìbiān kànzhe shǒujī lǐ de dìtú, fāxiàn lí miàndiàn bù yuǎn de xiàngzi lǐ yǒu yì jiā mài bēibāo de diàn. Mǎ Āntóng zhènghǎo xiǎng mǎi yí ge bēibāo, suǒyǐ juédìng chī le miàn jiù dào zhè jiā diàn qù kànkan.", 
+        vn: "Họ dạo quanh một hồi lâu, Bạch Như Ngọc cảm thấy hơi đói, vì vậy họ đến một quán mì, gọi hai bát mì bò. Họ vừa ăn mì, vừa xem bản đồ trong điện thoại, phát hiện trong con hẻm cách quán mì không xa có một cửa hàng bán ba lô. Mã An Đồng đúng lúc đang muốn mua một chiếc ba lô, nên quyết định ăn mì xong sẽ đến cửa hàng này xem thử." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "最後，馬安同買了一個背包，白如玉也在附近買了兩枝筆和一本本子。馬安同和白如玉都覺得，逛師大附近的店真有意思，吃的東西和日用品也很便宜。", 
+        py: "Zuìhòu, Mǎ Āntóng mǎi le yí ge bēibāo, Bái Rúyù yě zài fùjìn mǎi le liǎng zhī bǐ hé yì běn běnzi. Mǎ Āntóng hé Bái Rúyù dōu juéde, guàng Shīdà fùjìn de diàn zhēn yǒuyìsi, chī de dōngxī hé rìyòngpǐn yě hěn piányí.", 
+        vn: "Cuối cùng, Mã An Đồng đã mua một chiếc ba lô, Bạch Như Ngọc cũng mua hai cây bút và một cuốn vở ở gần đó. Mã An Đồng và Bạch Như Ngọc đều cảm thấy, đi dạo các cửa hàng quanh trường Sư Phạm thật là thú vị, đồ ăn và đồ dùng hàng ngày cũng rất rẻ." 
+      }
+    ],
+    clozes: [], // Không dùng đục lỗ cho bài đọc hiểu
+    quizzes: [], // Đẩy câu hỏi xuống phần reading
+    reading: {
+      paragraph: { 
+        zh: "馬安同下載了新的地圖到手機裡，他找白如玉跟他在師大附近走走，試試地圖好用不好用。他們看著地圖，從學校門口往左轉，過了和平東路就到了師大路。在師大路上，他們看見很多賣小吃的店，也有賣衣服和日用品的商店。他們經過兩個小巷子再右轉，這邊的商店比師大路的多。\n\n他們逛了半天，白如玉覺得有一點餓，所以他們到一家麵店，點了兩碗牛肉麵。他們一邊吃麵，一邊看著手機裡的地圖，發現離麵店不遠的巷子裡有一家賣背包的店。馬安同正好想買一個背包，所以決定吃了麵就到這家店去看看。\n\n最後，馬安同買了一個背包，白如玉也在附近買了兩枝筆和一本本子。馬安同和白如玉都覺得，逛師大附近的店真有意思，吃的東西和日用品也很便宜。", 
+        py: "Mǎ Āntóng xiàzài le xīn de dìtú dào shǒujī lǐ, tā zhǎo Bái Rúyù gēn tā zài Shīdà fùjìn zǒuzou, shìshi dìtú hǎoyòng bù hǎoyòng. Tāmen kànzhe dìtú, cóng xuéxiào ménkǒu wǎng zuǒ zhuǎn, guò le Hépíng Dōnglù jiù dào le Shīdàlù. Zài Shīdàlù shàng, tāmen kànjiàn hěn duō mài xiǎochī de diàn, yě yǒu mài yīfú hé rìyòngpǐn de shāngdiàn. Tāmen jīngguò liǎng ge xiǎo xiàngzi zài yòuzhuǎn, zhèbiān de shāngdiàn bǐ Shīdàlù de duō.\n\nTāmen guàng le bàntiān, Bái Rúyù juéde yǒu yìdiǎn è, suǒyǐ tāmen dào yì jiā miàndiàn, diǎn le liǎng wǎn niúròumiàn. Tāmen yìbiān chī miàn, yìbiān kànzhe shǒujī lǐ de dìtú, fāxiàn lí miàndiàn bù yuǎn de xiàngzi lǐ yǒu yì jiā mài bēibāo de diàn. Mǎ Āntóng zhènghǎo xiǎng mǎi yí ge bēibāo, suǒyǐ juédìng chī le miàn jiù dào zhè jiā diàn qù kànkan.\n\nZuìhòu, Mǎ Āntóng mǎi le yí ge bēibāo, Bái Rúyù yě zài fùjìn mǎi le liǎng zhī bǐ hé yì běn běnzi. Mǎ Āntóng hé Bái Rúyù dōu juéde, guàng Shīdà fùjìn de diàn zhēn yǒuyìsi, chī de dōngxī hé rìyòngpǐn yě hěn piányí.", 
+        vn: "Mã An Đồng đã tải một bản đồ mới về điện thoại, anh ấy rủ Bạch Như Ngọc cùng đi dạo quanh trường Sư Phạm, để thử xem bản đồ có dễ dùng không. Họ nhìn bản đồ, từ cổng trường rẽ trái, qua đường Hòa Bình Đông là đến đường Sư Phạm. Trên đường Sư Phạm, họ nhìn thấy rất nhiều quán bán đồ ăn vặt, cũng có cửa hàng bán quần áo và đồ dùng hàng ngày. Họ đi qua hai con hẻm nhỏ rồi rẽ phải, cửa hàng ở bên này nhiều hơn so với đường Sư Phạm.\n\nHọ dạo quanh một hồi lâu, Bạch Như Ngọc cảm thấy hơi đói, vì vậy họ đến một quán mì, gọi hai bát mì bò. Họ vừa ăn mì, vừa xem bản đồ trong điện thoại, phát hiện trong con hẻm cách quán mì không xa có một cửa hàng bán ba lô. Mã An Đồng đúng lúc đang muốn mua một chiếc ba lô, nên quyết định ăn mì xong sẽ đến cửa hàng này xem thử.\n\nCuối cùng, Mã An Đồng đã mua một chiếc ba lô, Bạch Như Ngọc cũng mua hai cây bút và một cuốn vở ở gần đó. Mã An Đồng và Bạch Như Ngọc đều cảm thấy, đi dạo các cửa hàng quanh trường Sư Phạm thật là thú vị, đồ ăn và đồ dùng hàng ngày cũng rất rẻ." 
+      },
+      questions: [
+        {
+          question: { zh: "馬安同找白如玉一起去師大附近做什麼？", vn: "Mã An Đồng rủ Bạch Như Ngọc cùng đến gần trường Sư Phạm để làm gì?" },
+          options: [ { zh: "買衣服和日用品", vn: "Mua quần áo và đồ dùng hàng ngày" }, { zh: "試試新的地圖好不好用", vn: "Thử xem bản đồ mới có dễ dùng không" }, { zh: "吃有名的牛肉麵", vn: "Ăn món mì bò nổi tiếng" } ], correct: 1
+        },
+        {
+          question: { zh: "在師大路上，他們看見了什麼？", vn: "Trên đường Sư Phạm, họ đã nhìn thấy gì?" },
+          options: [ { zh: "很多銀行和郵局", vn: "Rất nhiều ngân hàng và bưu điện" }, { zh: "很多賣小吃、衣服和日用品的店", vn: "Rất nhiều quán ăn vặt, quần áo và đồ dùng hàng ngày" }, { zh: "很多賣背包的店", vn: "Rất nhiều cửa hàng bán ba lô" } ], correct: 1
+        },
+        {
+          question: { zh: "白如玉覺得餓的時候，他們吃了什麼？", vn: "Khi Bạch Như Ngọc cảm thấy đói, họ đã ăn gì?" },
+          options: [ { zh: "小吃", vn: "Đồ ăn vặt" }, { zh: "牛肉麵", vn: "Mì bò" }, { zh: "麵包", vn: "Bánh mì" } ], correct: 1
+        },
+        {
+          question: { zh: "賣背包的店在哪裡？", vn: "Cửa hàng bán ba lô nằm ở đâu?" },
+          options: [ { zh: "在學校門口", vn: "Ở ngay cổng trường" }, { zh: "在和平東路上", vn: "Trên đường Hòa Bình Đông" }, { zh: "在離麵店不遠的巷子裡", vn: "Ở trong con hẻm cách quán mì không xa" } ], correct: 2
+        },
+        {
+          question: { zh: "最後，白如玉買了什麼？", vn: "Cuối cùng, Bạch Như Ngọc đã mua gì?" },
+          options: [ { zh: "一個背包", vn: "Một chiếc ba lô" }, { zh: "兩枝筆和一本本子", vn: "Hai cây bút và một cuốn vở" }, { zh: "兩碗牛肉麵", vn: "Hai bát mì bò" } ], correct: 1
+        }
+      ]
+    }
+});
