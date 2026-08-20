@@ -10774,7 +10774,7 @@ dialogueData.push({
 dialogueData.push({
     level: "TOCFL A2",
     lesson: "Bài 2",
-    title: "Hội thoại 2: 還是坐捷運吧！ (Take the MRT Instead!)",
+    title: "Hội thoại 2: 還是坐捷運吧！ Hay là đi tàu điện ngầm đi!",
     content: [
       { sp: "如玉", gender: "female", zh: "安同，早！你要去哪裡？", py: "Āntóng, zǎo! Nǐ yào qù nǎlǐ?", vn: "Antoine, chào buổi sáng! Bạn muốn đi đâu?" },
       { sp: "安同", gender: "male", zh: "早！我約了朋友一起去看電影，你呢？", py: "Zǎo! Wǒ yuē le péngyǒu yìqǐ qù kàn diànyǐng, nǐ ne?", vn: "Chào buổi sáng! Tôi đã hẹn bạn cùng đi xem phim, còn bạn thì sao?" },
