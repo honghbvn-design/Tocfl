@@ -10924,7 +10924,7 @@ dialogueData.push({
 dialogueData.push({
     level: "TOCFL A2",
     lesson: "Bài 3", // Giữ nguyên tên "Bài 3" để nối tiếp với phần Hội thoại ở trên
-    title: "Bài讀: 馬安同到師大來學中文 Mã An Đồng đến trường Sư Phạm học tiếng Trung",
+    title: "Bài đọc: 馬安同到師大來學中文 Mã An Đồng đến trường Sư Phạm học tiếng Trung",
     content: [
       { 
         sp: "📖", gender: "female", 
