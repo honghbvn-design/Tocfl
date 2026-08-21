@@ -11985,3 +11985,71 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 12", // Giữ nguyên "Bài 12" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 台灣的素食文化 Văn hóa ăn chay ở Đài Loan",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "白如玉、馬丁和陳月美一起到一家素食餐廳吃午餐，他們聊起吃素的經驗。", 
+        py: "Bái Rúyù, Mǎdīng hé Chén Yuèměi yìqǐ dào yì jiā sùshí cāntīng chī wǔcān, tāmen liáo qǐ chī sù de jīngyàn.", 
+        vn: "Bạch Như Ngọc, Martin và Trần Nguyệt Mỹ cùng đến một nhà hàng đồ chay ăn bữa trưa, họ nói chuyện về kinh nghiệm ăn chay." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "他們注意到只要在學校附近就找得到素食餐廳，他們也覺得很多台灣人都不討厭吃素，但是不一定餐餐都吃素；還有，很多台灣人吃素是因為宗教的關係。白如玉說她吃素跟宗教沒有關係，只是覺得吃太多肉容易變胖。她建議馬丁應該少吃一點漢堡、薯條什麼的，多吃青菜，可以讓身體更健康。", 
+        py: "Tāmen zhùyì dào zhǐyào zài xuéxiào fùjìn jiù zhǎo de dào sùshí cāntīng, tāmen yě juéde hěn duō Táiwānrén dōu bù tǎoyàn chī sù, dànshì bù yídìng cāncān dōu chī sù; háiyǒu, hěn duō Táiwānrén chī sù shì yīnwèi zōngjiào de guānxi. Bái Rúyù shuō tā chī sù gēn zōngjiào méiyǒu guānxi, zhǐshì juéde chī tài duō ròu róngyì biàn pàng. Tā jiànyì Mǎdīng yīnggāi shǎo chī yìdiǎn hànbǎo, shǔtiáo shénme de, duō chī qīngcài, kěyǐ ràng shēntǐ gèng jiànkāng.", 
+        vn: "Họ chú ý thấy chỉ cần ở gần trường học là có thể tìm được nhà hàng đồ chay, họ cũng cảm thấy rất nhiều người Đài Loan đều không ghét ăn chay, nhưng không nhất định bữa nào cũng ăn chay; ngoài ra, rất nhiều người Đài Loan ăn chay là vì lý do tôn giáo. Bạch Như Ngọc nói cô ấy ăn chay không liên quan đến tôn giáo, chỉ là cảm thấy ăn quá nhiều thịt dễ bị béo. Cô ấy khuyên Martin nên ăn ít hamburger, khoai tây chiên các loại đi một chút, ăn nhiều rau xanh, có thể giúp cơ thể khỏe mạnh hơn." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "陳月美也同意，最好不要常吃炸的、烤的食物，菜的作法越簡單越好，煮的或是蒸的東西，都不太油膩。", 
+        py: "Chén Yuèměi yě tóngyì, zuìhǎo búyào cháng chī zhà de, kǎo de shíwù, cài de zuòfǎ yuè jiǎndān yuè hǎo, zhǔ de huòshì zhēng de dōngxī, dōu bú tài yóunì.", 
+        vn: "Trần Nguyệt Mỹ cũng đồng ý, tốt nhất đừng thường xuyên ăn thức ăn chiên, nướng, cách làm món ăn càng đơn giản càng tốt, đồ luộc hoặc là đồ hấp, đều không quá ngấy dầu mỡ." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "陳月美還說，在她家附近有一家賣有機食品的店，天天都有很多人去買他們的食品，好像人人都很注意身體健康。他們覺得，這大概是因為地球的環境汙染越來越嚴重，不少人吃了有問題的食物就生病了，所以才慢慢開始注意食品的衛生和營養問題。", 
+        py: "Chén Yuèměi hái shuō, zài tā jiā fùjìn yǒu yì jiā mài yǒujī shípǐn de diàn, tiāntiān dōu yǒu hěn duō rén qù mǎi tāmen de shípǐn, hǎoxiàng rénrén dōu hěn zhùyì shēntǐ jiànkāng. Tāmen juéde, zhè dàgài shì yīnwèi dìqiú de huánjìng wūrǎn yuè lái yuè yánzhòng, bù shǎo rén chī le yǒu wèntí de shíwù jiù shēngbìng le, suǒyǐ cái mànman kāishǐ zhùyì shípǐn de wèishēng hé yíngyǎng wèntí.", 
+        vn: "Trần Nguyệt Mỹ còn nói, ở gần nhà cô ấy có một cửa hàng bán thực phẩm hữu cơ, ngày nào cũng có rất nhiều người đến mua thực phẩm của họ, dường như ai ai cũng rất chú ý đến sức khỏe cơ thể. Họ cảm thấy, điều này đại khái là vì ô nhiễm môi trường của trái đất ngày càng nghiêm trọng, không ít người ăn phải thức ăn có vấn đề liền bị bệnh, cho nên mới từ từ bắt đầu chú ý đến vấn đề vệ sinh và dinh dưỡng của thực phẩm." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬丁聽了以後說，他可以趁在台灣的機會，多吃吃素食，讓自己瘦下來。", 
+        py: "Mǎdīng tīng le yǐhòu shuō, tā kěyǐ chèn zài Táiwān de jīhuì, duō chīchī sùshí, ràng zìjǐ shòu xiàlái.", 
+        vn: "Martin nghe xong liền nói, cậu ấy có thể nhân cơ hội ở Đài Loan, ăn đồ chay nhiều một chút, để bản thân gầy đi." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "白如玉、馬丁和陳月美一起到一家素食餐廳吃午餐，他們聊起吃素的經驗。他們注意到只要在學校附近就找得到素食餐廳，他們也覺得很多台灣人都不討厭吃素，但是不一定餐餐都吃素；還有，很多台灣人吃素是因為宗教的關係。白如玉說她吃素跟宗教沒有關係，只是覺得吃太多肉容易變胖。她建議馬丁應該少吃一點漢堡、薯條什麼的，多吃青菜，可以讓身體更健康。\n\n陳月美也同意，最好不要常吃炸的、烤的食物，菜的作法越簡單越好，煮的或是蒸的東西，都不太油膩。\n\n陳月美還說，在她家附近有一家賣有機食品的店，天天都有很多人去買他們的食品，好像人人都很注意身體健康。他們覺得，這大概是因為地球的環境汙染越來越嚴重，不少人吃了有問題的食物就生病了，所以才慢慢開始注意食品的衛生和營養問題。\n\n馬丁聽了以後說，他可以趁在台灣的機會，多吃吃素食，讓自己瘦下來。", 
+        py: "Bái Rúyù, Mǎdīng hé Chén Yuèměi yìqǐ dào yì jiā sùshí cāntīng chī wǔcān, tāmen liáo qǐ chī sù de jīngyàn. Tāmen zhùyì dào zhǐyào zài xuéxiào fùjìn jiù zhǎo de dào sùshí cāntīng, tāmen yě juéde hěn duō Táiwānrén dōu bù tǎoyàn chī sù, dànshì bù yídìng cāncān dōu chī sù; háiyǒu, hěn duō Táiwānrén chī sù shì yīnwèi zōngjiào de guānxi. Bái Rúyù shuō tā chī sù gēn zōngjiào méiyǒu guānxi, zhǐshì juéde chī tài duō ròu róngyì biàn pàng. Tā jiànyì Mǎdīng yīnggāi shǎo chī yìdiǎn hànbǎo, shǔtiáo shénme de, duō chī qīngcài, kěyǐ ràng shēntǐ gèng jiànkāng.\n\nChén Yuèměi yě tóngyì, zuìhǎo búyào cháng chī zhà de, kǎo de shíwù, cài de zuòfǎ yuè jiǎndān yuè hǎo, zhǔ de huòshì zhēng de dōngxī, dōu bú tài yóunì.\n\nChén Yuèměi hái shuō, zài tā jiā fùjìn yǒu yì jiā mài yǒujī shípǐn de diàn, tiāntiān dōu yǒu hěn duō rén qù mǎi tāmen de shípǐn, hǎoxiàng rénrén dōu hěn zhùyì shēntǐ jiànkāng. Tāmen juéde, zhè dàgài shì yīnwèi dìqiú de huánjìng wūrǎn yuè lái yuè yánzhòng, bù shǎo rén chī le yǒu wèntí de shíwù jiù shēngbìng le, suǒyǐ cái mànman kāishǐ zhùyì shípǐn de wèishēng hé yíngyǎng wèntí.\n\nMǎdīng tīng le yǐhòu shuō, tā kěyǐ chèn zài Táiwān de jīhuì, duō chīchī sùshí, ràng zìjǐ shòu xiàlái.", 
+        vn: "Bạch Như Ngọc, Martin và Trần Nguyệt Mỹ cùng đến một nhà hàng đồ chay ăn bữa trưa, họ nói chuyện về kinh nghiệm ăn chay. Họ chú ý thấy chỉ cần ở gần trường học là có thể tìm được nhà hàng đồ chay, họ cũng cảm thấy rất nhiều người Đài Loan đều không ghét ăn chay, nhưng không nhất định bữa nào cũng ăn chay; ngoài ra, rất nhiều người Đài Loan ăn chay là vì lý do tôn giáo. Bạch Như Ngọc nói cô ấy ăn chay không liên quan đến tôn giáo, chỉ là cảm thấy ăn quá nhiều thịt dễ bị béo. Cô ấy khuyên Martin nên ăn ít hamburger, khoai tây chiên các loại đi một chút, ăn nhiều rau xanh, có thể giúp cơ thể khỏe mạnh hơn.\n\nTrần Nguyệt Mỹ cũng đồng ý, tốt nhất đừng thường xuyên ăn thức ăn chiên, nướng, cách làm món ăn càng đơn giản càng tốt, đồ luộc hoặc là đồ hấp, đều không quá ngấy dầu mỡ.\n\nTrần Nguyệt Mỹ còn nói, ở gần nhà cô ấy có một cửa hàng bán thực phẩm hữu cơ, ngày nào cũng có rất nhiều người đến mua thực phẩm của họ, dường như ai ai cũng rất chú ý đến sức khỏe cơ thể. Họ cảm thấy, điều này đại khái là vì ô nhiễm môi trường của trái đất ngày càng nghiêm trọng, không ít người ăn phải thức ăn có vấn đề liền bị bệnh, cho nên mới từ từ bắt đầu chú ý đến vấn đề vệ sinh và dinh dưỡng của thực phẩm.\n\nMartin nghe xong liền nói, cậu ấy có thể nhân cơ hội ở Đài Loan, ăn đồ chay nhiều một chút, để bản thân gầy đi." 
+      },
+      questions: [
+        {
+          question: { zh: "為什麼很多台灣人吃素？", vn: "Tại sao rất nhiều người Đài Loan ăn chay?" },
+          options: [ { zh: "因為宗教的關係", vn: "Vì lý do tôn giáo" }, { zh: "因為肉太貴了", vn: "Vì thịt quá đắt" }, { zh: "因為他們不喜歡吃菜", vn: "Vì họ không thích ăn rau" } ], correct: 0
+        },
+        {
+          question: { zh: "白如玉為什麼吃素？", vn: "Tại sao Bạch Như Ngọc ăn chay?" },
+          options: [ { zh: "因為宗教的關係", vn: "Vì lý do tôn giáo" }, { zh: "因為她覺得吃太多肉容易變胖", vn: "Vì cô ấy cảm thấy ăn nhiều thịt dễ bị béo" }, { zh: "因為她買不起肉", vn: "Vì cô ấy không mua nổi thịt" } ], correct: 1
+        },
+        {
+          question: { zh: "陳月美覺得什麼樣的食物不太油膩？", vn: "Trần Nguyệt Mỹ cảm thấy đồ ăn như thế nào thì không quá ngấy dầu mỡ?" },
+          options: [ { zh: "炸的或烤的食物", vn: "Đồ ăn chiên hoặc nướng" }, { zh: "漢堡和薯條", vn: "Hamburger và khoai tây chiên" }, { zh: "煮的或是蒸的東西", vn: "Đồ luộc hoặc là đồ hấp" } ], correct: 2
+        },
+        {
+          question: { zh: "為什麼現在越來越多人注意食品的衛生和營養問題？", vn: "Tại sao bây giờ ngày càng có nhiều người chú ý đến vấn đề vệ sinh và dinh dưỡng của thực phẩm?" },
+          options: [ { zh: "因為有機食品很便宜", vn: "Vì thực phẩm hữu cơ rất rẻ" }, { zh: "因為環境汙染嚴重，吃了有問題的食物會生病", vn: "Vì ô nhiễm môi trường nghiêm trọng, ăn phải thức ăn có vấn đề sẽ bị bệnh" }, { zh: "因為餐廳的菜不好吃", vn: "Vì đồ ăn của nhà hàng không ngon" } ], correct: 1
+        },
+        {
+          question: { zh: "馬丁聽了她們的話以後，打算做什麼？", vn: "Martin sau khi nghe lời của họ xong thì dự định làm gì?" },
+          options: [ { zh: "回國以後再吃素", vn: "Sau khi về nước mới ăn chay" }, { zh: "趁在台灣的機會多吃素食，讓自己瘦下來", vn: "Nhân cơ hội ở Đài Loan ăn nhiều đồ chay, để bản thân gầy đi" }, { zh: "天天去買有機食品", vn: "Ngày nào cũng đi mua thực phẩm hữu cơ" } ], correct: 1
+        }
+      ]
+    }
+});
