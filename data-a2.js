@@ -12053,3 +12053,65 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 13",
+    title: "Hội thoại 13: 我的手機掉了 Điện thoại của tôi bị mất rồi",
+    content: [
+      { sp: "愛麗", gender: "female", zh: "怎麼了？在找什麼？", py: "Zěnme le? Zài zhǎo shénme?", vn: "Sao thế? Đang tìm gì vậy?" },
+      { sp: "馬丁", gender: "male", zh: "找我的手機，我怎麼找都找不到。", py: "Zhǎo wǒ de shǒujī, wǒ zěnme zhǎo dōu zhǎo bú dào.", vn: "Tìm điện thoại của mình, mình tìm thế nào cũng không thấy." },
+      { sp: "愛麗", gender: "female", zh: "我早上還看到你在餐廳低頭玩手機，你是不是在餐廳掉的？", py: "Wǒ zǎoshang hái kàndào nǐ zài cāntīng dītóu wán shǒujī, nǐ shìbúshì zài cāntīng diào de?", vn: "Buổi sáng mình còn thấy cậu cúi đầu chơi điện thoại ở nhà ăn, có phải cậu làm rơi ở nhà ăn không?" },
+      { sp: "馬丁", gender: "male", zh: "不是，我離開餐廳後，還給義大利朋友傳過簡訊。", py: "Bú shì, wǒ líkāi cāntīng hòu, hái gěi Yìdàlì péngyǒu chuán guò jiǎnxùn.", vn: "Không phải, sau khi rời khỏi nhà ăn, mình còn nhắn tin cho người bạn Ý." },
+      { sp: "愛麗", gender: "female", zh: "是不是被誰拿走了？要是有人撿到了，看見你的手機那麼新，功能又好，就留下自己用了。", py: "Shìbúshì bèi shéi ná zǒu le? Yàoshì yǒu rén jiǎn dào le, kànjiàn nǐ de shǒujī nàme xīn, gōngnéng yòu hǎo, jiù liúxià zìjǐ yòng le.", vn: "Có phải bị ai lấy đi rồi không? Nếu có người nhặt được, thấy điện thoại của cậu mới như vậy, chức năng lại tốt, liền giữ lại tự dùng rồi." },
+      { sp: "馬丁", gender: "male", zh: "我就怕是這樣，這已經是我掉的第三支手機了。", py: "Wǒ jiù pà shì zhèyàng, zhè yǐjīng shì wǒ diào de dì sān zhī shǒujī le.", vn: "Mình chỉ sợ là như vậy, đây đã là chiếc điện thoại thứ ba mình làm mất rồi." },
+      { sp: "愛麗", gender: "female", zh: "你的手機是你女朋友送的禮物？這樣會讓她生氣吧！", py: "Nǐ de shǒujī shì nǐ nǚpéngyǒu sòng de lǐwù? Zhèyàng huì ràng tā shēngqì ba!", vn: "Điện thoại của cậu là quà bạn gái tặng hả? Như vậy sẽ khiến cô ấy tức giận đấy!" },
+      { sp: "馬丁", gender: "male", zh: "是啊！她還叫我別再掉手機了。要是被她知道了，一定會罵我的。", py: "Shì a! Tā hái jiào wǒ bié zài diào shǒujī le. Yàoshì bèi tā zhīdào le, yídìng huì mà wǒ de.", vn: "Đúng vậy! Cô ấy còn bảo mình đừng làm mất điện thoại nữa. Nếu bị cô ấy biết được, nhất định sẽ mắng mình." },
+      { sp: "愛麗", gender: "female", zh: "你是什麼時候發現手機不見的？", py: "Nǐ shì shénme shíhòu fāxiàn shǒujī bú jiàn de?", vn: "Cậu phát hiện mất điện thoại lúc nào?" },
+      { sp: "馬丁", gender: "male", zh: "我剛剛想上網，才發現不見的。", py: "Wǒ gānggāng xiǎng shàngwǎng, cái fāxiàn bú jiàn de.", vn: "Mình vừa nãy muốn lên mạng, mới phát hiện ra bị mất." },
+      { sp: "愛麗", gender: "female", zh: "你傳完簡訊後，還去了什麼地方？", py: "Nǐ chuán wán jiǎnxùn hòu, hái qù le shénme dìfāng?", vn: "Sau khi nhắn tin xong, cậu còn đi đâu nữa?" },
+      { sp: "馬丁", gender: "male", zh: "我先去健身房做運動，然後去圖書館做功課。", py: "Wǒ xiān qù jiànshēnfáng zuò yùndòng, ránhòu qù túshūguǎn zuò gōngkè.", vn: "Mình đến phòng gym tập thể dục trước, sau đó đến thư viện làm bài tập." },
+      { sp: "愛麗", gender: "female", zh: "你去圖書館找過了嗎？", py: "Nǐ qù túshūguǎn zhǎo guò le ma?", vn: "Cậu đã đến thư viện tìm chưa?" },
+      { sp: "馬丁", gender: "male", zh: "到處都找過了，還是找不到。怎麼辦？我女朋友不會讓我再買新手機的。", py: "Dàochù dōu zhǎoguò le, háishì zhǎo bú dào. Zěnme bàn? Wǒ nǚpéngyǒu bú huì ràng wǒ zài mǎi xīn shǒujī de.", vn: "Chỗ nào cũng tìm rồi, vẫn không tìm thấy. Làm sao đây? Bạn gái mình sẽ không cho mình mua điện thoại mới nữa đâu." },
+      { sp: "愛麗", gender: "female", zh: "那健身房呢？", py: "Nà jiànshēnfáng ne?", vn: "Vậy còn phòng gym thì sao?" },
+      { sp: "馬丁", gender: "male", zh: "我在健身房沒用手機。啊！我想起來了！", py: "Wǒ zài jiànshēnfáng méi yòng shǒujī. A! Wǒ xiǎng qǐlái le!", vn: "Ở phòng gym mình không dùng điện thoại. A! Mình nhớ ra rồi!" },
+      { sp: "愛麗", gender: "female", zh: "想起來啦？放在什麼地方了？", py: "Xiǎng qǐlái la? Fàng zài shénme dìfāng le?", vn: "Nhớ ra rồi à? Để ở đâu rồi?" },
+      { sp: "馬丁", gender: "male", zh: "剛剛我在查回國的班機資料，正要訂位的時候，手機沒電了。所以我去健身房的時候，放在那裡充電。", py: "Gānggāng wǒ zài chá huí guó de bānjī zīliào, zhèngyào dìngwèi de shíhòu, shǒujī méi diàn le. Suǒyǐ wǒ qù jiànshēnfáng de shíhòu, fàng zài nàlǐ chōngdiàn.", vn: "Lúc nãy mình đang tra thông tin chuyến bay về nước, ngay lúc chuẩn bị đặt chỗ thì điện thoại hết pin. Cho nên lúc đi phòng gym, mình để ở đó sạc pin." },
+      { sp: "愛麗", gender: "female", zh: "你怎麼這麼糊塗，趕快回去拿吧！", py: "Nǐ zěnme zhème hútu, gǎnkuài huíqù ná ba!", vn: "Sao cậu hồ đồ thế, mau quay lại lấy đi!" },
+      { sp: "馬丁", gender: "male", zh: "那我先走了！妳別告訴我女朋友喔！", py: "Nà wǒ xiān zǒu le! Nǐ bié gàosù wǒ nǚpéngyǒu ō!", vn: "Vậy mình đi trước đây! Cậu đừng nói với bạn gái mình nhé!" }
+    ],
+    clozes: [
+      { sentence: { zh: "我離開餐廳後，還給義大利朋友傳過 ______ 。", py: "Wǒ líkāi cāntīng hòu, hái gěi Yìdàlì péngyǒu chuán guò ______ .", vn: "Sau khi rời khỏi nhà ăn, mình còn ... cho người bạn Ý." }, options: [ { zh: "簡訊", vn: "tin nhắn" }, { zh: "資料", vn: "tài liệu" }, { zh: "禮物", vn: "quà tặng" } ], correct: 0 },
+      { sentence: { zh: "你是什麼時候 ______ 手機不見的？", py: "Nǐ shì shénme shíhòu ______ shǒujī bú jiàn de?", vn: "Cậu ... mất điện thoại lúc nào?" }, options: [ { zh: "以為", vn: "tưởng rằng" }, { zh: "發現", vn: "phát hiện" }, { zh: "打算", vn: "dự định" } ], correct: 1 },
+      { sentence: { zh: "剛剛我在查回國的班機資料，正要 ______ 的時候，手機沒電了。", py: "Gānggāng wǒ zài chá huí guó de bānjī zīliào, zhèngyào ______ de shíhòu, shǒujī méi diàn le.", vn: "Lúc nãy mình đang tra thông tin chuyến bay về nước, ngay lúc chuẩn bị ... thì điện thoại hết pin." }, options: [ { zh: "上網", vn: "lên mạng" }, { zh: "充電", vn: "sạc pin" }, { zh: "訂位", vn: "đặt chỗ" } ], correct: 2 },
+      { sentence: { zh: "所以我去健身房的時候，放在那裡 ______ 。", py: "Suǒyǐ wǒ qù jiànshēnfáng de shíhòu, fàng zài nàlǐ ______ .", vn: "Cho nên lúc đi phòng gym, mình để ở đó ..." }, options: [ { zh: "休息", vn: "nghỉ ngơi" }, { zh: "充電", vn: "sạc pin" }, { zh: "運動", vn: "tập thể dục" } ], correct: 1 },
+      { sentence: { zh: "你怎麼這麼 ______ ，趕快回去拿吧！", py: "Nǐ zěnme zhème ______ , gǎnkuài huíqù ná ba!", vn: "Sao cậu ... thế, mau quay lại lấy đi!" }, options: [ { zh: "聰明", vn: "thông minh" }, { zh: "糊塗", vn: "hồ đồ/lú lẫn" }, { zh: "客氣", vn: "khách sáo" } ], correct: 1 }
+    ],
+    quizzes: [
+      { question: { zh: "馬丁正在找什麼？", vn: "Martin đang tìm cái gì?" }, options: [ { zh: "他的錢包", vn: "Ví tiền của cậu ấy" }, { zh: "他的背包", vn: "Ba lô của cậu ấy" }, { zh: "他的手機", vn: "Điện thoại của cậu ấy" } ], correct: 2 },
+      { question: { zh: "馬丁的手機是誰送的？", vn: "Điện thoại của Martin là do ai tặng?" }, options: [ { zh: "他的女朋友", vn: "Bạn gái của cậu ấy" }, { zh: "他的義大利朋友", vn: "Người bạn Ý của cậu ấy" }, { zh: "他自己買的", vn: "Cậu ấy tự mua" } ], correct: 0 },
+      { question: { zh: "馬丁離開餐廳後，傳了簡訊給誰？", vn: "Sau khi Martin rời khỏi nhà ăn, đã nhắn tin cho ai?" }, options: [ { zh: "愛麗", vn: "Alice" }, { zh: "義大利朋友", vn: "Người bạn Ý" }, { zh: "女朋友", vn: "Bạn gái" } ], correct: 1 },
+      { question: { zh: "馬丁去了健身房以後，又去了哪裡？", vn: "Sau khi Martin đến phòng gym, lại đi đâu tiếp?" }, options: [ { zh: "回宿舍", vn: "Về ký túc xá" }, { zh: "去餐廳", vn: "Đến nhà ăn" }, { zh: "去圖書館做功課", vn: "Đến thư viện làm bài tập" } ], correct: 2 },
+      { question: { zh: "馬丁最後想起來手機放在哪裡？", vn: "Cuối cùng Martin nhớ ra để điện thoại ở đâu?" }, options: [ { zh: "掉在餐廳裡了", vn: "Rơi ở trong nhà ăn" }, { zh: "放在健身房充電", vn: "Để ở phòng gym sạc pin" }, { zh: "忘在圖書館了", vn: "Để quên ở thư viện" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "馬丁怎麼找都找不到他的手機。愛麗問他是不是在餐廳掉的，馬丁說他離開餐廳後還傳過簡訊，然後去了健身房和圖書館。他到處都找過了，還是找不到。馬丁很擔心，因為手機是女朋友送的，而且這已經是他掉的第三支手機了，要是被女朋友知道一定會被罵。最後，馬丁想起來他查班機資料時手機沒電了，所以去運動的時候，就把手機放在健身房充電。愛麗覺得馬丁太糊塗了，叫他趕快回去拿。", 
+        py: "Mǎdīng zěnme zhǎo dōu zhǎo bú dào tā de shǒujī. Àilì wèn tā shìbúshì zài cāntīng diào de, Mǎdīng shuō tā líkāi cāntīng hòu hái chuán guò jiǎnxùn, ránhòu qù le jiànshēnfáng hé túshūguǎn. Tā dàochù dōu zhǎo guò le, háishì zhǎo bú dào. Mǎdīng hěn dānxīn, yīnwèi shǒujī shì nǚpéngyǒu sòng de, érqiě zhè yǐjīng shì tā diào de dì sān zhī shǒujī le, yàoshì bèi nǚpéngyǒu zhīdào yídìng huì bèi mà. Zuìhòu, Mǎdīng xiǎng qǐlái tā chá bānjī zīliào shí shǒujī méi diàn le, suǒyǐ qù yùndòng de shíhòu, jiù bǎ shǒujī fàng zài jiànshēnfáng chōngdiàn. Àilì juéde Mǎdīng tài hútu le, jiào tā gǎnkuài huíqù ná.", 
+        vn: "Martin tìm thế nào cũng không thấy điện thoại của mình. Alice hỏi anh ấy có phải làm rơi ở nhà ăn không, Martin nói sau khi rời khỏi nhà ăn anh ấy còn nhắn tin, sau đó đến phòng gym và thư viện. Anh ấy đã tìm khắp nơi rồi, vẫn không tìm thấy. Martin rất lo lắng, vì điện thoại là do bạn gái tặng, hơn nữa đây đã là chiếc điện thoại thứ ba anh ấy làm mất rồi, nếu để bạn gái biết nhất định sẽ bị mắng. Cuối cùng, Martin nhớ ra lúc tra thông tin chuyến bay thì điện thoại hết pin, nên lúc đi tập thể dục, đã để điện thoại ở phòng gym sạc pin. Alice thấy Martin quá hồ đồ, bảo anh ấy mau quay lại lấy." 
+      },
+      questions: [
+        {
+          question: { zh: "馬丁為什麼那麼怕女朋友知道他掉手機？", vn: "Tại sao Martin lại sợ bạn gái biết mình mất điện thoại đến vậy?" },
+          options: [ { zh: "因為手機很貴", vn: "Vì điện thoại rất đắt" }, { zh: "因為手機是女朋友送的，而且這是他掉的第三支手機", vn: "Vì điện thoại là do bạn gái tặng, hơn nữa đây là chiếc thứ ba cậu ấy làm mất" }, { zh: "因為女朋友會讓他買新的", vn: "Vì bạn gái sẽ bắt cậu ấy mua cái mới" } ], correct: 1
+        },
+        {
+          question: { zh: "馬丁去健身房以前，手機怎麼了？", vn: "Trước khi Martin đến phòng gym, điện thoại bị làm sao?" },
+          options: [ { zh: "手機壞了", vn: "Điện thoại bị hỏng rồi" }, { zh: "被偷了", vn: "Bị trộm rồi" }, { zh: "沒電了", vn: "Hết pin rồi" } ], correct: 2
+        },
+        {
+          question: { zh: "愛麗覺得馬丁這個人怎麼樣？", vn: "Alice cảm thấy Martin là người như thế nào?" },
+          options: [ { zh: "很聰明", vn: "Rất thông minh" }, { zh: "很糊塗", vn: "Rất hồ đồ" }, { zh: "很小心", vn: "Rất cẩn thận" } ], correct: 1
+        }
+      ]
+    }
+});
