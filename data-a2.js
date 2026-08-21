@@ -11678,3 +11678,66 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 10",
+    title: "Hội thoại 10: 歡迎到我家來包餃子 Hoan nghênh đến nhà tôi gói sủi cảo",
+    content: [
+      { sp: "張老師", gender: "female", zh: "歡迎，歡迎，大家請進，不要脫鞋。月美，麻煩妳關門。", py: "Huānyíng, huānyíng, dàjiā qǐng jìn, búyào tuō xié. Yuèměi, máfán nǐ guānmén.", vn: "Hoan nghênh, hoan nghênh, mời mọi người vào, không cần cởi giày. Nguyệt Mỹ, phiền em đóng cửa." },
+      { sp: "月美", gender: "female", zh: "謝謝老師請我們來包餃子，我也帶了我們越南的春捲。", py: "Xièxie lǎoshī qǐng wǒmen lái bāo jiǎozi, wǒ yě dài le wǒmen Yuènán de chūnjuǎn.", vn: "Cảm ơn cô giáo đã mời chúng em đến gói sủi cảo, em cũng mang theo chả giò của Việt Nam chúng em." },
+      { sp: "東健", gender: "male", zh: "張老師，這是我做的韓國泡菜。", py: "Zhāng lǎoshī, zhè shì wǒ zuò de Hánguó pàocài.", vn: "Cô Trương, đây là kim chi Hàn Quốc em tự làm." },
+      { sp: "張老師", gender: "female", zh: "看不出來你還會做泡菜！馬丁、高美玲，你們也帶東西來了啊？", py: "Kàn bù chūlái nǐ hái huì zuò pàocài! Mǎdīng, Gāo Měilíng, nǐmen yě dài dōngxī lái le a?", vn: "Nhìn không ra em còn biết làm kim chi đấy! Martin, Cao Mỹ Linh, các em cũng mang đồ đến à?" },
+      { sp: "馬丁", gender: "male", zh: "我們剛剛去超市買了水果跟飲料。老師，你們家的餐廳真大。", py: "Wǒmen gānggāng qù chāoshì mǎi le shuǐguǒ gēn yǐnliào. Lǎoshī, nǐmen jiā de cāntīng zhēn dà.", vn: "Chúng em vừa đi siêu thị mua trái cây và đồ uống. Cô ơi, phòng ăn nhà cô thật lớn." },
+      { sp: "美玲", gender: "female", zh: "老師家的餐廳應該坐得下十個人吧？", py: "Lǎoshī jiā de cāntīng yīnggāi zuò de xià shí ge rén ba?", vn: "Phòng ăn nhà cô chắc ngồi vừa mười người nhỉ?" },
+      { sp: "張老師", gender: "female", zh: "坐得下，所以請你們幾個人一起來吃飯沒問題。", py: "Zuò de xià, suǒyǐ qǐng nǐmen jǐ ge rén yìqǐ lái chīfàn méi wèntí.", vn: "Ngồi vừa, cho nên mời mấy người các em cùng đến ăn cơm không vấn đề gì." },
+      { sp: "東健", gender: "male", zh: "老師，我們要幫忙準備什麼？", py: "Lǎoshī, wǒmen yào bāngmáng zhǔnbèi shénme?", vn: "Cô ơi, chúng em phải giúp chuẩn bị gì ạ?" },
+      { sp: "張老師", gender: "female", zh: "我把包餃子的東西都準備好了，你們去把手洗一洗，我們就開始包吧！", py: "Wǒ bǎ bāo jiǎozi de dōngxī dōu zhǔnbèi hǎo le, nǐmen qù bǎ shǒu xǐ yì xǐ, wǒmen jiù kāishǐ bāo ba!", vn: "Cô đã chuẩn bị xong đồ gói sủi cảo rồi, các em đi rửa tay đi, chúng ta sẽ bắt đầu gói nhé!" },
+      { sp: "美玲", gender: "female", zh: "這是我第一次包餃子，你們包過嗎？", py: "Zhè shì wǒ dì yí cì bāo jiǎozi, nǐmen bāoguò ma?", vn: "Đây là lần đầu tiên em gói sủi cảo, các cậu đã từng gói chưa?" },
+      { sp: "月美", gender: "female", zh: "我跟馬丁以前上過做菜的課，包過水餃，對不對？", py: "Wǒ gēn Mǎdīng yǐqián shàngguò zuòcài de kè, bāoguò shuǐjiǎo, duì bú duì?", vn: "Mình và Martin trước đây từng học qua lớp nấu ăn, đã từng gói sủi cảo nước, đúng không?" },
+      { sp: "馬丁", gender: "male", zh: "包過，可是我包的水餃一煮就壞了。", py: "Bāoguò, kěshì wǒ bāo de shuǐjiǎo yì zhǔ jiù huài le.", vn: "Từng gói rồi, nhưng sủi cảo nước mình gói vừa luộc đã hỏng rồi." },
+      { sp: "張老師", gender: "female", zh: "不是壞了，是煮破了。如果你們沒把餃子包好，一煮就破了。", py: "Bú shì huài le, shì zhǔ pò le. Rúguǒ nǐmen méi bǎ jiǎozi bāo hǎo, yì zhǔ jiù pò le.", vn: "Không phải hỏng, là luộc rách rồi. Nếu các em không gói sủi cảo kỹ, vừa luộc sẽ rách ngay." },
+      { sp: "東健", gender: "male", zh: "老師，您看我這麼包，對嗎？", py: "Lǎoshī, nín kàn wǒ zhème bāo, duì ma?", vn: "Cô ơi, cô xem em gói thế này đúng không?" },
+      { sp: "張老師", gender: "female", zh: "很好，不過你還可以多放一點餡兒，如果扁扁的，看起來就不像餃子了。", py: "Hěn hǎo, búguò nǐ hái kěyǐ duō fàng yìdiǎn xiàn'r, rúguǒ biǎnbiǎn de, kàn qǐlái jiù bú xiàng jiǎozi le.", vn: "Rất tốt, nhưng em có thể cho thêm một chút nhân, nếu xẹp lép thì trông sẽ không giống sủi cảo nữa." },
+      { sp: "月美", gender: "female", zh: "老師，我們五個人要包多少餃子？", py: "Lǎoshī, wǒmen wǔ ge rén yào bāo duōshǎo jiǎozi?", vn: "Cô ơi, năm người chúng ta phải gói bao nhiêu sủi cảo?" },
+      { sp: "張老師", gender: "female", zh: "我準備的材料大概可以包一百多個，再做幾道菜，還有一大碗酸辣湯，應該夠了。大家一定都吃得飽。", py: "Wǒ zhǔnbèi de cáiliào dàgài kěyǐ bāo yìbǎi duō ge, zài zuò jǐ dào cài, hái yǒu yí dà wǎn suānlàtāng, yīnggāi gòu le. Dàjiā yídìng dōu chī de bǎo.", vn: "Nguyên liệu cô chuẩn bị đại khái có thể gói hơn một trăm cái, làm thêm vài món thức ăn, còn có một bát lớn súp chua cay, chắc là đủ rồi. Mọi người nhất định đều ăn no." },
+      { sp: "美玲", gender: "female", zh: "馬丁，你來以前不是一直說餓嗎？你能吃幾個餃子？", py: "Mǎdīng, nǐ lái yǐqián bú shì yìzhí shuō è ma? Nǐ néng chī jǐ ge jiǎozi?", vn: "Martin, trước khi đến không phải cậu cứ nói đói sao? Cậu có thể ăn được mấy cái sủi cảo?" },
+      { sp: "馬丁", gender: "male", zh: "我想我吃得下二十個，要是妳吃不完，我可以幫妳吃。", py: "Wǒ xiǎng wǒ chī de xià èrshí ge, yàoshì nǐ chī bù wán, wǒ kěyǐ bāng nǐ chī.", vn: "Mình nghĩ mình ăn nổi hai mươi cái, nếu cậu ăn không hết, mình có thể ăn giúp cậu." },
+      { sp: "張老師", gender: "female", zh: "大家最好能把餃子都吃光。你們包，我去把鍋子洗了，就要準備煮餃子了。", py: "Dàjiā zuìhǎo néng bǎ jiǎozi dōu chī guāng. Nǐmen bāo, wǒ qù bǎ guōzi xǐ le, jiù yào zhǔnbèi zhǔ jiǎozi le.", vn: "Mọi người tốt nhất là có thể ăn sạch sủi cảo. Các em gói đi, cô đi rửa nồi, rồi chuẩn bị luộc sủi cảo đây." },
+      { sp: "月美", gender: "female", zh: "老師，我幫您把筷子和碗放在桌上。", py: "Lǎoshī, wǒ bāng nín bǎ kuàizi hé wǎn fàng zài zhuō shàng.", vn: "Cô ơi, em giúp cô lấy đũa và bát đặt lên bàn nhé." }
+    ],
+    clozes: [
+      { sentence: { zh: "謝謝老師請我們來包餃子，我也帶了我們越南的 ______ 。", py: "Xièxie lǎoshī qǐng wǒmen lái bāo jiǎozi, wǒ yě dài le wǒmen Yuènán de ______ .", vn: "Cảm ơn cô giáo đã mời chúng em đến gói sủi cảo, em cũng mang theo ... của Việt Nam chúng em." }, options: [ { zh: "包子", vn: "bánh bao" }, { zh: "春捲", vn: "chả giò" }, { zh: "泡菜", vn: "kim chi" } ], correct: 1 },
+      { sentence: { zh: "老師家的餐廳應該 ______ 得下十個人吧？", py: "Lǎoshī jiā de cāntīng yīnggāi ______ de xià shí ge rén ba?", vn: "Phòng ăn nhà cô chắc ... vừa mười người nhỉ?" }, options: [ { zh: "吃", vn: "ăn" }, { zh: "住", vn: "ở" }, { zh: "坐", vn: "ngồi" } ], correct: 2 },
+      { sentence: { zh: "不是壞了，是煮 ______ 了。", py: "Bú shì huài le, shì zhǔ ______ le.", vn: "Không phải hỏng, là luộc ... rồi." }, options: [ { zh: "熟", vn: "chín" }, { zh: "破", vn: "rách" }, { zh: "好", vn: "xong" } ], correct: 1 },
+      { sentence: { zh: "你還可以多放一點 ______ ，如果扁扁的，看起來就不像餃子了。", py: "Nǐ hái kěyǐ duō fàng yìdiǎn ______ , rúguǒ biǎnbiǎn de, kàn qǐlái jiù bú xiàng jiǎozi le.", vn: "Em có thể cho thêm một chút ... , nếu xẹp lép thì trông sẽ không giống sủi cảo nữa." }, options: [ { zh: "肉", vn: "thịt" }, { zh: "菜", vn: "rau" }, { zh: "餡兒", vn: "nhân" } ], correct: 2 },
+      { sentence: { zh: "我想我吃得下二十個，要是妳吃不 ______ ，我可以幫妳吃。", py: "Wǒ xiǎng wǒ chī de xià èrshí ge, yàoshì nǐ chī bù ______ , wǒ kěyǐ bāng nǐ chī.", vn: "Mình nghĩ mình ăn nổi hai mươi cái, nếu cậu ăn không ... , mình có thể ăn giúp cậu." }, options: [ { zh: "飽", vn: "no" }, { zh: "完", vn: "hết" }, { zh: "下", vn: "nổi" } ], correct: 1 }
+    ],
+    quizzes: [
+      { question: { zh: "學生們帶了什麼去張老師家？", vn: "Các học sinh đã mang những gì đến nhà cô Trương?" }, options: [ { zh: "只有春捲和泡菜", vn: "Chỉ có chả giò và kim chi" }, { zh: "春捲、泡菜、水果和飲料", vn: "Chả giò, kim chi, trái cây và đồ uống" }, { zh: "只有水果和飲料", vn: "Chỉ có trái cây và đồ uống" } ], correct: 1 },
+      { question: { zh: "馬丁以前包的水餃為什麼一煮就破了？", vn: "Tại sao sủi cảo nước Martin gói trước đây vừa luộc đã rách?" }, options: [ { zh: "因為水太熱了", vn: "Vì nước quá nóng" }, { zh: "因為肉不新鮮", vn: "Vì thịt không tươi" }, { zh: "因為沒把餃子包好", vn: "Vì không gói sủi cảo kỹ" } ], correct: 2 },
+      { question: { zh: "張老師覺得東健包的餃子怎麼樣？", vn: "Cô Trương thấy sủi cảo Đông Kiện gói thế nào?" }, options: [ { zh: "很好，但是要多放一點餡兒", vn: "Rất tốt, nhưng phải cho thêm một chút nhân" }, { zh: "不好看，太圓了", vn: "Không đẹp, quá tròn" }, { zh: "包得太慢了", vn: "Gói quá chậm" } ], correct: 0 },
+      { question: { zh: "張老師準備了多少餃子的材料？", vn: "Cô Trương đã chuẩn bị nguyên liệu cho bao nhiêu cái sủi cảo?" }, options: [ { zh: "五十個左右", vn: "Khoảng 50 cái" }, { zh: "大概一百多個", vn: "Đại khái hơn 100 cái" }, { zh: "兩百個", vn: "200 cái" } ], correct: 1 },
+      { question: { zh: "關於馬丁，下面哪一個是對的？", vn: "Về Martin, câu nào dưới đây là đúng?" }, options: [ { zh: "他覺得自己吃不完二十個餃子", vn: "Cậu ấy thấy mình ăn không hết 20 cái sủi cảo" }, { zh: "他來以前一直說很餓", vn: "Trước khi đến cậu ấy cứ nói rất đói" }, { zh: "他不想幫美玲吃餃子", vn: "Cậu ấy không muốn giúp Mỹ Linh ăn sủi cảo" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "張老師請學生們到家裡包餃子。月美帶了越南春捲，東健帶了韓國泡菜，馬丁和美玲買了水果和飲料。老師家的餐廳很大，坐得下十個人。老師準備了一百多個餃子的材料，還會做幾道菜和酸辣湯。馬丁以前包過水餃，但一煮就破了，老師說是因為沒包好。馬丁很餓，說自己吃得下二十個餃子。最後大家一起幫忙，準備吃一頓豐盛的晚餐。", 
+        py: "Zhāng lǎoshī qǐng xuéshēng men dào jiālǐ bāo jiǎozi. Yuèměi dài le Yuènán chūnjuǎn, Dōngjiàn dài le Hánguó pàocài, Mǎdīng hé Měilíng mǎi le shuǐguǒ hé yǐnliào. Lǎoshī jiā de cāntīng hěn dà, zuò de xià shí ge rén. Lǎoshī zhǔnbèi le yìbǎi duō ge jiǎozi de cáiliào, hái huì zuò jǐ dào cài hé suānlàtāng. Mǎdīng yǐqián bāoguò shuǐjiǎo, dàn yì zhǔ jiù pò le, lǎoshī shuō shì yīnwèi méi bāo hǎo. Mǎdīng hěn è, shuō zìjǐ chī de xià èrshí ge jiǎozi. Zuìhòu dàjiā yìqǐ bāngmáng, zhǔnbèi chī yí dùn fēngshèng de wǎncān.", 
+        vn: "Cô Trương mời các học sinh đến nhà gói sủi cảo. Nguyệt Mỹ mang theo chả giò Việt Nam, Đông Kiện mang theo kim chi Hàn Quốc, Martin và Mỹ Linh mua trái cây và đồ uống. Phòng ăn nhà cô giáo rất lớn, ngồi vừa mười người. Cô giáo đã chuẩn bị nguyên liệu cho hơn một trăm cái sủi cảo, còn sẽ làm vài món thức ăn và súp chua cay. Martin trước đây từng gói sủi cảo nước, nhưng vừa luộc đã rách, cô giáo nói là vì chưa gói kỹ. Martin rất đói, nói mình có thể ăn nổi hai mươi cái sủi cảo. Cuối cùng mọi người cùng nhau giúp đỡ, chuẩn bị ăn một bữa tối thịnh soạn." 
+      },
+      questions: [
+        {
+          question: { zh: "張老師請學生到家裡做什麼？", vn: "Cô Trương mời học sinh đến nhà làm gì?" },
+          options: [ { zh: "做春捲", vn: "Làm chả giò" }, { zh: "包餃子", vn: "Gói sủi cảo" }, { zh: "做泡菜", vn: "Làm kim chi" } ], correct: 1
+        },
+        {
+          question: { zh: "誰帶了越南的食物來？", vn: "Ai đã mang thức ăn Việt Nam đến?" },
+          options: [ { zh: "東健", vn: "Đông Kiện" }, { zh: "馬丁", vn: "Martin" }, { zh: "月美", vn: "Nguyệt Mỹ" } ], correct: 2
+        },
+        {
+          question: { zh: "馬丁為什麼說他可以幫美玲吃餃子？", vn: "Tại sao Martin nói cậu ấy có thể giúp Mỹ Linh ăn sủi cảo?" },
+          options: [ { zh: "因為他很餓，覺得自己吃得下很多", vn: "Vì cậu ấy rất đói, cảm thấy mình ăn nổi rất nhiều" }, { zh: "因為美玲做的餃子很好吃", vn: "Vì sủi cảo Mỹ Linh làm rất ngon" }, { zh: "因為張老師準備的材料不夠", vn: "Vì nguyên liệu cô Trương chuẩn bị không đủ" } ], correct: 0
+        }
+      ]
+    }
+});
