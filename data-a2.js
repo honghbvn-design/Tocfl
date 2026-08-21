@@ -11093,3 +11093,63 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 5",
+    title: "Bài 5: 吃喜酒 Đi ăn cưới",
+    content: [
+      { sp: "明華", gender: "male", zh: "安同，你們來了。", py: "Āntóng, nǐmen lái le.", vn: "Antoine, các bạn đến rồi." },
+      { sp: "安同", gender: "male", zh: "恭喜！恭喜！明華，這是我常跟你說的高美玲。美玲，他就是新娘的哥哥，李明華。", py: "Gōngxǐ! Gōngxǐ! Mínghuá, zhè shì wǒ cháng gēn nǐ shuō de Gāo Měilíng. Měilíng, tā jiùshì xīnniáng de gēge, Lǐ Mínghuá.", vn: "Chúc mừng! Chúc mừng! Minh Hoa, đây là Cao Mỹ Linh mà tôi thường nói với bạn. Mỹ Linh, anh ấy chính là anh trai của cô dâu, Lý Minh Hoa." },
+      { sp: "美玲", gender: "female", zh: "李先生，恭喜你們！謝謝你請我們來參加你妹妹的婚禮。", py: "Lǐ xiānshēng, gōngxǐ nǐmen! Xièxie nǐ qǐng wǒmen lái cānjiā nǐ mèimei de hūnlǐ.", vn: "Anh Lý, chúc mừng mọi người! Cảm ơn anh đã mời chúng tôi đến tham dự hôn lễ của em gái anh." },
+      { sp: "明華", gender: "male", zh: "你太客氣了。安同，你今天穿西裝真好看。", py: "Nǐ tài kèqì le. Āntóng, nǐ jīntiān chuān xīzhuāng zhēn hǎokàn.", vn: "Bạn quá khách sáo rồi. Antoine, hôm nay bạn mặc âu phục thật đẹp." },
+      { sp: "安同", gender: "male", zh: "謝謝，參加婚禮應該要穿得很正式。", py: "Xièxie, cānjiā hūnlǐ yīnggāi yào chuān de hěn zhèngshì.", vn: "Cảm ơn, tham gia hôn lễ thì nên mặc thật trang trọng." },
+      { sp: "美玲", gender: "female", zh: "客人怎麼都還沒到？", py: "Kèrén zěnme dōu hái méi dào?", vn: "Sao khách khứa đều vẫn chưa đến thế?" },
+      { sp: "明華", gender: "male", zh: "現在才六點，婚禮六點半開始，時間還早。", py: "Xiànzài cái liù diǎn, hūnlǐ liù diǎn bàn kāishǐ, shíjiān hái zǎo.", vn: "Bây giờ mới sáu giờ, hôn lễ sáu rưỡi bắt đầu, thời gian vẫn còn sớm." },
+      { sp: "安同", gender: "male", zh: "明華，手裡拿著照相機的那個人是誰？", py: "Mínghuá, shǒulǐ názhe zhàoxiàngjī de nà ge rén shì shéi?", vn: "Minh Hoa, người cầm máy ảnh trong tay kia là ai vậy?" },
+      { sp: "明華", gender: "male", zh: "他是新郎的弟弟。", py: "Tā shì xīnláng de dìdi.", vn: "Cậu ấy là em trai của chú rể." },
+      { sp: "安同", gender: "male", zh: "新郎呢？", py: "Xīnláng ne?", vn: "Chú rể đâu?" },
+      { sp: "明華", gender: "male", zh: "他在門口站著跟客人說話。", py: "Tā zài ménkǒu zhànzhe gēn kèrén shuōhuà.", vn: "Anh ấy đang đứng ở cửa nói chuyện với khách." },
+      { sp: "安同", gender: "male", zh: "哪一個？", py: "Nǎ yí ge?", vn: "Người nào cơ?" },
+      { sp: "明華", gender: "male", zh: "就是穿著白西裝的那個。", py: "Jiùshì chuānzhe bái xīzhuāng de nà ge.", vn: "Chính là người mặc âu phục trắng đó." },
+      { sp: "安同", gender: "male", zh: "新郎看起來好帥。", py: "Xīnláng kàn qǐlái hǎo shuài.", vn: "Chú rể trông thật đẹp trai." },
+      { sp: "美玲", gender: "female", zh: "你看，那邊那位穿著紅色禮服，跟客人說話的太太是誰？", py: "Nǐ kàn, nàbiān nà wèi chuānzhe hóngsè lǐfú, gēn kèrén shuōhuà de tàitài shì shéi?", vn: "Bạn nhìn xem, người phụ nữ mặc lễ phục màu đỏ đang nói chuyện với khách bên kia là ai vậy?" },
+      { sp: "明華", gender: "male", zh: "那是新郎的媽媽。", py: "Nà shì xīnláng de māma.", vn: "Đó là mẹ của chú rể." },
+      { sp: "美玲", gender: "female", zh: "她看起來好高興啊！怎麼沒看見新娘呢？", py: "Tā kàn qǐlái hǎo gāoxìng a! Zěnme méi kànjiàn xīnniáng ne?", vn: "Bác ấy trông thật là vui! Sao không nhìn thấy cô dâu thế?" },
+      { sp: "明華", gender: "male", zh: "等一下你們就會看見她了。婚禮要開始了，我帶你們去你們的座位吧！", py: "Děng yíxià nǐmen jiù huì kànjiàn tā le. Hūnlǐ yào kāishǐ le, wǒ dài nǐmen qù nǐmen de zuòwèi ba!", vn: "Đợi một lát các bạn sẽ nhìn thấy cô ấy thôi. Hôn lễ sắp bắt đầu rồi, tôi đưa các bạn đến chỗ ngồi của các bạn nhé!" }
+    ],
+    clozes: [
+      { sentence: { zh: "謝謝你請我們來參加你妹妹的 ______ 。", py: "Xièxie nǐ qǐng wǒmen lái cānjiā nǐ mèimei de ______ .", vn: "Cảm ơn anh đã mời chúng tôi đến tham dự ... của em gái anh." }, options: [ { zh: "婚禮", vn: "hôn lễ" }, { zh: "生日", vn: "sinh nhật" }, { zh: "聚會", vn: "buổi tụ tập" } ], correct: 0 },
+      { sentence: { zh: "安同，你今天穿 ______ 真好看。", py: "Āntóng, nǐ jīntiān chuān ______ zhēn hǎokàn.", vn: "Antoine, hôm nay bạn mặc ... thật đẹp." }, options: [ { zh: "禮服", vn: "lễ phục" }, { zh: "西裝", vn: "âu phục" }, { zh: "外套", vn: "áo khoác" } ], correct: 1 },
+      { sentence: { zh: "參加婚禮應該要穿得很 ______ 。", py: "Cānjiā hūnlǐ yīnggāi yào chuān de hěn ______ .", vn: "Tham gia hôn lễ thì nên mặc thật ..." }, options: [ { zh: "隨便", vn: "tùy tiện" }, { zh: "輕鬆", vn: "thoải mái" }, { zh: "正式", vn: "trang trọng" } ], correct: 2 },
+      { sentence: { zh: "手裡拿著 ______ 的那個人是誰？", py: "Shǒulǐ názhe ______ de nà ge rén shì shéi?", vn: "Người cầm ... trong tay kia là ai vậy?" }, options: [ { zh: "照相機", vn: "máy ảnh" }, { zh: "手機", vn: "điện thoại" }, { zh: "禮物", vn: "quà tặng" } ], correct: 0 },
+      { sentence: { zh: "那邊那位穿著紅色 ______ ，跟客人說話的太太是誰？", py: "Nàbiān nà wèi chuānzhe hóngsè ______ , gēn kèrén shuōhuà de tàitài shì shéi?", vn: "Người phụ nữ mặc ... màu đỏ đang nói chuyện với khách bên kia là ai vậy?" }, options: [ { zh: "西裝", vn: "âu phục" }, { zh: "禮服", vn: "lễ phục" }, { zh: "裙子", vn: "váy" } ], correct: 1 }
+    ],
+    quizzes: [
+      { question: { zh: "明華是誰的哥哥？", vn: "Minh Hoa là anh trai của ai?" }, options: [ { zh: "新娘的哥哥", vn: "Anh trai của cô dâu" }, { zh: "新郎的哥哥", vn: "Anh trai của chú rể" }, { zh: "安同的哥哥", vn: "Anh trai của Antoine" } ], correct: 0 },
+      { question: { zh: "婚禮幾點開始？", vn: "Hôn lễ mấy giờ bắt đầu?" }, options: [ { zh: "六點", vn: "Sáu giờ" }, { zh: "六點半", vn: "Sáu rưỡi" }, { zh: "七點", vn: "Bảy giờ" } ], correct: 1 },
+      { question: { zh: "手裡拿著照相機的人是誰？", vn: "Người cầm máy ảnh là ai?" }, options: [ { zh: "新郎的哥哥", vn: "Anh trai của chú rể" }, { zh: "新娘的弟弟", vn: "Em trai của cô dâu" }, { zh: "新郎的弟弟", vn: "Em trai của chú rể" } ], correct: 2 },
+      { question: { zh: "新郎現在在做什麼？", vn: "Chú rể hiện tại đang làm gì?" }, options: [ { zh: "在門口站著跟客人說話", vn: "Đang đứng ở cửa nói chuyện với khách" }, { zh: "在拍照", vn: "Đang chụp ảnh" }, { zh: "在吃飯", vn: "Đang ăn cơm" } ], correct: 0 },
+      { question: { zh: "穿著紅色禮服的太太是誰？", vn: "Người phụ nữ mặc lễ phục màu đỏ là ai?" }, options: [ { zh: "新娘的媽媽", vn: "Mẹ của cô dâu" }, { zh: "新娘", vn: "Cô dâu" }, { zh: "新郎的媽媽", vn: "Mẹ của chú rể" } ], correct: 2 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "安同和美玲一起去參加明華妹妹的婚禮。美玲覺得客人還沒到，明華說因為現在才六點，婚禮六點半才開始。安同看到一個手裡拿著照相機的人，明華說那是新郎的弟弟。新郎穿著白西裝，在門口站著跟客人說話。美玲看到一位穿著紅色禮服的太太，原來她是新郎的媽媽。最後，婚禮要開始了，明華帶他們去座位。", 
+        py: "Āntóng hé Měilíng yìqǐ qù cānjiā Mínghuá mèimei de hūnlǐ. Měilíng juéde kèrén hái méi dào, Mínghuá shuō yīnwèi xiànzài cái liù diǎn, hūnlǐ liù diǎn bàn cái kāishǐ. Āntóng kàndào yí ge shǒulǐ názhe zhàoxiàngjī de rén, Mínghuá shuō nà shì xīnláng de dìdi. Xīnláng chuānzhe bái xīzhuāng, zài ménkǒu zhànzhe gēn kèrén shuōhuà. Měilíng kàndào yí wèi chuānzhe hóngsè lǐfú de tàitài, yuánlái tā shì xīnláng de māma. Zuìhòu, hūnlǐ yào kāishǐ le, Mínghuá dài tāmen qù zuòwèi.", 
+        vn: "Antoine và Mỹ Linh cùng nhau đi tham gia hôn lễ của em gái Minh Hoa. Mỹ Linh thấy khách vẫn chưa đến, Minh Hoa nói vì bây giờ mới sáu giờ, sáu rưỡi hôn lễ mới bắt đầu. Antoine nhìn thấy một người tay cầm máy ảnh, Minh Hoa nói đó là em trai chú rể. Chú rể mặc âu phục trắng, đang đứng ở cửa nói chuyện với khách. Mỹ Linh nhìn thấy một người phụ nữ mặc lễ phục đỏ, hóa ra bà ấy là mẹ của chú rể. Cuối cùng, hôn lễ sắp bắt đầu, Minh Hoa đưa họ đến chỗ ngồi." 
+      },
+      questions: [
+        {
+          question: { zh: "他們去參加誰的婚禮？", vn: "Họ đi tham gia hôn lễ của ai?" },
+          options: [ { zh: "安同的婚禮", vn: "Hôn lễ của Antoine" }, { zh: "明華妹妹的婚禮", vn: "Hôn lễ của em gái Minh Hoa" }, { zh: "美玲的婚禮", vn: "Hôn lễ của Mỹ Linh" } ], correct: 1
+        },
+        {
+          question: { zh: "新郎穿什麼顏色的西裝？", vn: "Chú rể mặc âu phục màu gì?" },
+          options: [ { zh: "黑色", vn: "Màu đen" }, { zh: "紅色", vn: "Màu đỏ" }, { zh: "白色", vn: "Màu trắng" } ], correct: 2
+        },
+        {
+          question: { zh: "穿紅色禮服的人是誰？", vn: "Người mặc lễ phục màu đỏ là ai?" },
+          options: [ { zh: "新郎的媽媽", vn: "Mẹ của chú rể" }, { zh: "新娘", vn: "Cô dâu" }, { zh: "新娘的媽媽", vn: "Mẹ của cô dâu" } ], correct: 0
+        }
+      ]
+    }
+});
