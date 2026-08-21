@@ -11797,4 +11797,65 @@ dialogueData.push({
       ]
     }
 });
-
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 11",
+    title: "Hội thoại 11: 台灣好玩的地方真多 Đài Loan có thật nhiều nơi thú vị",
+    content: [
+      { sp: "馬丁", gender: "male", zh: "我來台灣以後，沒離開過台北，所以想到其他地方去看看。", py: "Wǒ lái Táiwān yǐhòu, méi líkāiguò Táiběi, suǒyǐ xiǎng dào qítā dìfāng qù kànkan.", vn: "Từ khi tôi đến Đài Loan, chưa từng rời khỏi Đài Bắc, nên muốn đến những nơi khác xem thử." },
+      { sp: "如玉", gender: "female", zh: "假期快到了，你可以計畫一下啊！", py: "Jiàqī kuài dào le, nǐ kěyǐ jìhuà yíxià a!", vn: "Kỳ nghỉ sắp đến rồi, bạn có thể lên kế hoạch một chút đấy!" },
+      { sp: "馬丁", gender: "male", zh: "你們去過很多地方，可不可以告訴我，哪裡一定要去看看呢？", py: "Nǐmen qùguò hěn duō dìfāng, kěbù kěyǐ gàosù wǒ, nǎlǐ yídìng yào qù kànkan ne?", vn: "Các bạn đã đi qua rất nhiều nơi, có thể cho tôi biết, nơi nào nhất định phải đến xem không?" },
+      { sp: "美玲", gender: "female", zh: "如果你喜歡海邊和游泳，可以到墾丁去，那裡有各種水上活動。", py: "Rúguǒ nǐ xǐhuān hǎibiān hé yóuyǒng, kěyǐ dào Kěndīng qù, nàlǐ yǒu gèzhǒng shuǐshàng huódòng.", vn: "Nếu bạn thích bờ biển và bơi lội, có thể đến Khẩn Đinh, ở đó có các loại hoạt động trên nước." },
+      { sp: "如玉", gender: "female", zh: "上次我朋友來，去綠島玩了三天，她說風景很美，而且海邊有個溫泉，非常特別。", py: "Shàng cì wǒ péngyǒu lái, qù Lǜdǎo wán le sān tiān, tā shuō fēngjǐng hěn měi, érqiě hǎibiān yǒu ge wēnquán, fēicháng tèbié.", vn: "Lần trước bạn tôi đến, đi Lục Đảo chơi ba ngày, cô ấy nói phong cảnh rất đẹp, hơn nữa ở bờ biển có một suối nước nóng, vô cùng đặc biệt." },
+      { sp: "美玲", gender: "female", zh: "綠島我去過兩次。如果時間夠，我建議你去看看。", py: "Lǜdǎo wǒ qùguò liǎng cì. Rúguǒ shíjiān gòu, wǒ jiànyì nǐ qù kànkan.", vn: "Lục Đảo tôi đã đi hai lần rồi. Nếu có đủ thời gian, tôi khuyên bạn nên đi xem thử." },
+      { sp: "如玉", gender: "female", zh: "夏天去綠島的人很多，船票常常買不到，你可以考慮去墾丁，交通比較方便。", py: "Xiàtiān qù Lǜdǎo de rén hěn duō, chuánpiào chángcháng mǎi bú dào, nǐ kěyǐ kǎolǜ qù Kěndīng, jiāotōng bǐjiào fāngbiàn.", vn: "Mùa hè người đi Lục Đảo rất đông, vé tàu thường không mua được, bạn có thể cân nhắc đi Khẩn Đinh, giao thông khá thuận tiện." },
+      { sp: "美玲", gender: "female", zh: "墾丁也不錯。你回來的時候，可以順便去台中玩，台中附近也有很多有名的風景區。", py: "Kěndīng yě búcuò. Nǐ huílái de shíhòu, kěyǐ shùnbiàn qù Táizhōng wán, Táizhōng fùjìn yě yǒu hěn duō yǒumíng de fēngjǐngqū.", vn: "Khẩn Đinh cũng không tồi. Lúc bạn về, có thể nhân tiện đến Đài Trung chơi, gần Đài Trung cũng có rất nhiều khu phong cảnh nổi tiếng." },
+      { sp: "馬丁", gender: "male", zh: "噢！我聽說有個地方叫什麼湖？", py: "Ō! Wǒ tīngshuō yǒu ge dìfāng jiào shénme hú?", vn: "Ồ! Tôi nghe nói có một nơi gọi là hồ gì đó?" },
+      { sp: "如玉", gender: "female", zh: "你說的是日月潭吧！在台灣中部，離台中不遠。那裡不錯，有山有水，還有原住民的文化。", py: "Nǐ shuō de shì Rìyuètán ba! Zài Táiwān zhōngbù, lí Táizhōng bù yuǎn. Nàlǐ búcuò, yǒu shān yǒu shuǐ, hái yǒu yuánzhùmín de wénhuà.", vn: "Cái bạn nói là Nhật Nguyệt Đàm (Hồ Nhật Nguyệt) phải không! Nằm ở miền Trung Đài Loan, cách Đài Trung không xa. Nơi đó không tồi, có núi có nước, còn có văn hóa của người dân tộc bản địa." },
+      { sp: "馬丁", gender: "male", zh: "我也聽說台中的夜市有各種小吃，比台北多。", py: "Wǒ yě tīngshuō Táizhōng de yèshì yǒu gèzhǒng xiǎochī, bǐ Táiběi duō.", vn: "Tôi cũng nghe nói chợ đêm Đài Trung có các loại đồ ăn vặt, nhiều hơn Đài Bắc." },
+      { sp: "美玲", gender: "female", zh: "對，上個月我本來計畫去台中玩一趟，後來因為颱風就沒去。", py: "Duì, shàng ge yuè wǒ běnlái jìhuà qù Táizhōng wán yí tàng, hòulái yīnwèi táifēng jiù méi qù.", vn: "Đúng, tháng trước tôi vốn dĩ lên kế hoạch đi Đài Trung chơi một chuyến, sau đó vì bão nên không đi nữa." },
+      { sp: "如玉", gender: "female", zh: "好可惜，台中很有意思。", py: "Hǎo kěxí, Táizhōng hěn yǒuyìsi.", vn: "Thật đáng tiếc, Đài Trung rất thú vị." },
+      { sp: "美玲", gender: "female", zh: "沒關係，以後一定還有機會。", py: "Méiguānxi, yǐhòu yídìng hái yǒu jīhuì.", vn: "Không sao, sau này nhất định vẫn còn cơ hội." },
+      { sp: "馬丁", gender: "male", zh: "聽了你們的建議，我打算先去墾丁，然後再到台中去玩。", py: "Tīng le nǐmen de jiànyì, wǒ dǎsuàn xiān qù Kěndīng, ránhòu zài dào Táizhōng qù wán.", vn: "Nghe lời khuyên của các bạn, tôi dự định đi Khẩn Đinh trước, sau đó lại đến Đài Trung chơi." },
+      { sp: "如玉", gender: "female", zh: "夏天去玩的人很多，去墾丁一定要先訂好旅館，才不會找不到地方住。", py: "Xiàtiān qù wán de rén hěn duō, qù Kěndīng yídìng yào xiān dìng hǎo lǚguǎn, cái bú huì zhǎo bú dào dìfāng zhù.", vn: "Mùa hè người đi chơi rất đông, đi Khẩn Đinh nhất định phải đặt trước khách sạn, mới không bị tình trạng không tìm được chỗ ở." },
+      { sp: "馬丁", gender: "male", zh: "還要注意什麼呢？", py: "Hái yào zhùyì shénme ne?", vn: "Còn phải chú ý điều gì nữa không?" },
+      { sp: "美玲", gender: "female", zh: "我上一次去的時候，把錢包和衣服放在沙灘上，沒想到錢包不見了，大概被偷了。", py: "Wǒ shàng yí cì qù de shíhòu, bǎ qiánbāo hé yīfú fàng zài shātān shàng, méi xiǎngdào qiánbāo bújiàn le, dàgài bèi tōu le.", vn: "Lần trước tôi đi, để ví tiền và quần áo trên bãi cát, không ngờ ví tiền biến mất rồi, đại khái là bị trộm rồi." },
+      { sp: "如玉", gender: "female", zh: "雖然台灣很安全，但是還是要小心一點啊！", py: "Suīrán Táiwān hěn ānquán, dànshì háishì yào xiǎoxīn yìdiǎn a!", vn: "Mặc dù Đài Loan rất an toàn, nhưng vẫn phải cẩn thận một chút đó!" },
+      { sp: "美玲", gender: "female", zh: "除了這件事，墾丁真的很值得去。", py: "Chúle zhè jiàn shì, Kěndīng zhēn de hěn zhídé qù.", vn: "Ngoài chuyện này ra, Khẩn Đinh thật sự rất đáng đi." }
+    ],
+    clozes: [
+      { sentence: { zh: "如果你喜歡海邊和游泳，可以到墾丁去，那裡有各種水上 ______ 。", py: "Rúguǒ nǐ xǐhuān hǎibiān hé yóuyǒng, kěyǐ dào Kěndīng qù, nàlǐ yǒu gèzhǒng shuǐshàng ______ .", vn: "Nếu bạn thích bờ biển và bơi lội, có thể đến Khẩn Đinh, ở đó có các loại ... trên nước." }, options: [ { zh: "風景", vn: "phong cảnh" }, { zh: "活動", vn: "hoạt động" }, { zh: "交通", vn: "giao thông" } ], correct: 1 },
+      { sentence: { zh: "夏天去綠島的人很多， ______ 常常買不到。", py: "Xiàtiān qù Lǜdǎo de rén hěn duō, ______ chángcháng mǎi bú dào.", vn: "Mùa hè người đi Lục Đảo rất đông, ... thường không mua được." }, options: [ { zh: "船票", vn: "vé tàu" }, { zh: "車票", vn: "vé xe" }, { zh: "機票", vn: "vé máy bay" } ], correct: 0 },
+      { sentence: { zh: "你回來的時候，可以 ______ 去台中玩。", py: "Nǐ huílái de shíhòu, kěyǐ ______ qù Táizhōng wán.", vn: "Lúc bạn về, có thể ... đến Đài Trung chơi." }, options: [ { zh: "隨便", vn: "tùy tiện" }, { zh: "順便", vn: "nhân tiện" }, { zh: "雖然", vn: "mặc dù" } ], correct: 1 },
+      { sentence: { zh: "那裡不錯，有山有水，還有 ______ 的文化。", py: "Nàlǐ búcuò, yǒu shān yǒu shuǐ, hái yǒu ______ de wénhuà.", vn: "Nơi đó không tồi, có núi có nước, còn có văn hóa của ..." }, options: [ { zh: "外國人", vn: "người nước ngoài" }, { zh: "原住民", vn: "người dân tộc bản địa" }, { zh: "年輕人", vn: "người trẻ tuổi" } ], correct: 1 },
+      { sentence: { zh: "沒想到錢包不見了，大概被 ______ 了。", py: "Méi xiǎngdào qiánbāo bújiàn le, dàgài bèi ______ le.", vn: "Không ngờ ví tiền biến mất rồi, đại khái là bị ... rồi." }, options: [ { zh: "偷", vn: "trộm" }, { zh: "吃", vn: "ăn" }, { zh: "忘", vn: "quên" } ], correct: 0 }
+    ],
+    quizzes: [
+      { question: { zh: "馬丁為什麼想去其他地方看看？", vn: "Tại sao Martin muốn đến những nơi khác xem thử?" }, options: [ { zh: "因為他來台灣以後，沒離開過台北", vn: "Vì từ khi đến Đài Loan, anh ấy chưa từng rời khỏi Đài Bắc" }, { zh: "因為他不喜歡台北", vn: "Vì anh ấy không thích Đài Bắc" }, { zh: "因為他要找工作", vn: "Vì anh ấy muốn tìm việc" } ], correct: 0 },
+      { question: { zh: "如果喜歡水上活動，美玲建議去哪裡？", vn: "Nếu thích các hoạt động trên nước, Mỹ Linh khuyên nên đi đâu?" }, options: [ { zh: "台北", vn: "Đài Bắc" }, { zh: "日月潭", vn: "Nhật Nguyệt Đàm" }, { zh: "墾丁", vn: "Khẩn Đinh" } ], correct: 2 },
+      { question: { zh: "為什麼如玉建議馬丁夏天去墾丁，不要去綠島？", vn: "Tại sao Như Ngọc khuyên Martin mùa hè nên đi Khẩn Đinh, không nên đi Lục Đảo?" }, options: [ { zh: "因為綠島沒有溫泉", vn: "Vì Lục Đảo không có suối nước nóng" }, { zh: "因為去綠島的船票常常買不到，去墾丁交通比較方便", vn: "Vì vé tàu đi Lục Đảo thường mua không được, đi Khẩn Đinh giao thông tiện hơn" }, { zh: "因為墾丁比較便宜", vn: "Vì Khẩn Đinh rẻ hơn" } ], correct: 1 },
+      { question: { zh: "美玲上個月為什麼沒去台中？", vn: "Mỹ Linh tháng trước tại sao không đi Đài Trung?" }, options: [ { zh: "因為她沒有錢", vn: "Vì cô ấy không có tiền" }, { zh: "因為颱風", vn: "Vì có bão" }, { zh: "因為她找不到旅館", vn: "Vì cô ấy không tìm được khách sạn" } ], correct: 1 },
+      { question: { zh: "美玲上一次去墾丁的時候發生了什麼事？", vn: "Lần trước Mỹ Linh đi Khẩn Đinh đã xảy ra chuyện gì?" }, options: [ { zh: "她的錢包被偷了", vn: "Ví tiền của cô ấy bị trộm" }, { zh: "她生病了", vn: "Cô ấy bị ốm" }, { zh: "她沒買到車票", vn: "Cô ấy không mua được vé xe" } ], correct: 0 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "馬丁來台灣以後還沒離開過台北，所以想利用假期去別的地方玩。美玲和如玉給了他一些建議。如果喜歡水上活動，可以去墾丁，因為夏天去綠島的船票很難買。回來的時候還可以順便去台中的日月潭，那裡有山有水，還有原住民文化。馬丁決定先去墾丁再去台中。如玉提醒他要先訂好旅館，美玲則告訴他去沙灘玩要小心，因為她上次去的時候錢包被偷了。不過，墾丁還是很值得去的。", 
+        py: "Mǎdīng lái Táiwān yǐhòu hái méi líkāiguò Táiběi, suǒyǐ xiǎng lìyòng jiàqī qù bié de dìfāng wán. Měilíng hé Rúyù gěi le tā yìxiē jiànyì. Rúguǒ xǐhuān shuǐshàng huódòng, kěyǐ qù Kěndīng, yīnwèi xiàtiān qù Lǜdǎo de chuánpiào hěn nán mǎi. Huílái de shíhòu hái kěyǐ shùnbiàn qù Táizhōng de Rìyuètán, nàlǐ yǒu shān yǒu shuǐ, hái yǒu yuánzhùmín wénhuà. Mǎdīng juédìng xiān qù Kěndīng zài qù Táizhōng. Rúyù tíxǐng tā yào xiān dìng hǎo lǚguǎn, Měilíng zé gàosù tā qù shātān wán yào xiǎoxīn, yīnwèi tā shàng cì qù de shíhòu qiánbāo bèi tōu le. Búguò, Kěndīng háishì hěn zhídé qù de.", 
+        vn: "Martin từ khi đến Đài Loan vẫn chưa rời khỏi Đài Bắc, nên muốn tranh thủ kỳ nghỉ đi chơi ở những nơi khác. Mỹ Linh và Như Ngọc đã cho anh ấy một vài lời khuyên. Nếu thích các hoạt động trên nước thì có thể đi Khẩn Đinh, bởi vì mùa hè vé tàu đi Lục Đảo rất khó mua. Lúc về còn có thể nhân tiện đến Nhật Nguyệt Đàm ở Đài Trung, nơi đó có núi có nước, còn có văn hóa dân tộc bản địa. Martin quyết định đi Khẩn Đinh trước rồi mới đi Đài Trung. Như Ngọc nhắc nhở anh ấy phải đặt khách sạn trước, còn Mỹ Linh thì nói với anh ấy đi bãi cát chơi phải cẩn thận, vì lần trước cô ấy đi ví tiền đã bị trộm. Dù vậy, Khẩn Đinh vẫn rất đáng để đi." 
+      },
+      questions: [
+        {
+          question: { zh: "馬丁打算先去哪裡玩？", vn: "Martin dự định đi đâu chơi trước?" },
+          options: [ { zh: "台中", vn: "Đài Trung" }, { zh: "墾丁", vn: "Khẩn Đinh" }, { zh: "綠島", vn: "Lục Đảo" } ], correct: 1
+        },
+        {
+          question: { zh: "為什麼夏天去綠島不太方便？", vn: "Tại sao mùa hè đi Lục Đảo không được tiện lắm?" },
+          options: [ { zh: "因為那裡沒有溫泉", vn: "Vì ở đó không có suối nước nóng" }, { zh: "因為風景不好看", vn: "Vì phong cảnh không đẹp" }, { zh: "因為船票很難買", vn: "Vì vé tàu rất khó mua" } ], correct: 2
+        },
+        {
+          question: { zh: "在沙灘玩的時候要注意什麼？", vn: "Lúc chơi trên bãi cát phải chú ý điều gì?" },
+          options: [ { zh: "要多穿衣服", vn: "Phải mặc nhiều quần áo" }, { zh: "要小心錢包被偷", vn: "Phải cẩn thận ví tiền bị trộm" }, { zh: "不能游泳", vn: "Không được bơi" } ], correct: 1
+        }
+      ]
+    }
+});
