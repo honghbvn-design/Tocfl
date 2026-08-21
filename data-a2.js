@@ -12353,3 +12353,68 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 15", // Giữ nguyên "Bài 15" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 春節 Tết Nguyên Đán",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "春節就是中國新年，是華人一年裡最大的一個節日。過年前一個月大家就忙起來了，得把家裡打掃乾淨，也要準備過年的食物，還要給孩子買新衣服。另外，每家門口都要貼上春聯，才有過年的氣氛。", 
+        py: "Chūnjié jiùshì Zhōngguó xīnnián, shì huárén yì nián lǐ zuì dà de yí ge jiérì. Guònián qián yí ge yuè dàjiā jiù máng qǐlái le, děi bǎ jiālǐ dǎsǎo gānjìng, yě yào zhǔnbèi guònián de shíwù, hái yào gěi háizi mǎi xīn yīfú. Lìngwài, měi jiā ménkǒu dōu yào tiē shàng chūnlián, cái yǒu guònián de qìfēn.", 
+        vn: "Lễ hội mùa xuân (Tết Nguyên Đán) chính là năm mới của Trung Quốc, là một ngày lễ lớn nhất trong một năm của người Hoa. Một tháng trước Tết mọi người đã bắt đầu bận rộn rồi, phải dọn dẹp nhà cửa sạch sẽ, cũng phải chuẩn bị thức ăn ngày Tết, còn phải mua quần áo mới cho trẻ con. Ngoài ra, trước cửa mỗi nhà đều phải dán câu đối xuân, thì mới có không khí Tết." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "春節前一天是除夕，大部分的人都比平常早回家，因為大家要吃年夜飯。過年的食物都有特別的意思，吃魚的意思是年年有餘(魚)；吃年糕是步步高(糕)升，希望大家工作、功課一年比一年好；吃橘子是希望新的一年大吉大利。", 
+        py: "Chūnjié qián yì tiān shì chúxì, dà bùfèn de rén dōu bǐ píngcháng zǎo huíjiā, yīnwèi dàjiā yào chī niányèfàn. Guònián de shíwù dōu yǒu tèbié de yìsi, chī yú de yìsi shì niánnián yǒu yú (yú); chī niángāo shì bùbù gāo (gāo) shēng, xīwàng dàjiā gōngzuò, gōngkè yì nián bǐ yì nián hǎo; chī júzi shì xīwàng xīn de yì nián dàjí dàlì.", 
+        vn: "Một ngày trước Tết là đêm Giao thừa, phần lớn mọi người đều về nhà sớm hơn ngày thường, bởi vì mọi người phải ăn bữa cơm tất niên. Thức ăn ngày Tết đều có ý nghĩa đặc biệt, ăn cá có ý nghĩa là 'niên niên hữu dư' (năm nào cũng dư dả - chữ 'ngư' đồng âm với chữ 'dư'); ăn bánh tổ là 'bộ bộ cao thăng' (mỗi bước một lên cao - chữ 'cao' trong bánh tổ đồng âm với chữ 'cao' trong cao thăng), hy vọng mọi người công việc, bài vở một năm tốt hơn một năm; ăn quýt là hy vọng năm mới 'đại cát đại lợi'." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "吃了年夜飯，一家人就一起聊聊天、看看電視，等新的一年開始，這叫守歲。傳統的說法是：除夕夜孩子越晚睡，父母就活得越久。父母也會給孩子壓歲錢，希望他們新的一年都能平平安安的。過了十二點，很多人就到外面放鞭炮，慶祝新年。", 
+        py: "Chī le niányèfàn, yì jiā rén jiù yìqǐ liáoliáotiān, kànkan diànshì, děng xīn de yì nián kāishǐ, zhè jiào shǒusuì. Chuántǒng de shuōfǎ shì: chúxìyè háizi yuè wǎn shuì, fùmǔ jiù huó de yuè jiǔ. Fùmǔ yě huì gěi háizi yāsuìqián, xīwàng tāmen xīn de yì nián dōu néng píngpíng'ān'ān de. Guò le shí'èr diǎn, hěn duō rén jiù dào wàimiàn fàng biānpào, qìngzhù xīnnián.", 
+        vn: "Ăn xong bữa cơm tất niên, cả nhà liền cùng nhau nói chuyện phiếm, xem tivi, đợi năm mới bắt đầu, cái này gọi là đón giao thừa (thủ tuế). Cách nói truyền thống là: Đêm giao thừa trẻ con ngủ càng muộn, bố mẹ sẽ sống càng lâu. Bố mẹ cũng sẽ cho trẻ con tiền mừng tuổi, hy vọng năm mới của chúng đều có thể bình an. Qua 12 giờ, rất nhiều người liền ra ngoài đốt pháo, ăn mừng năm mới." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "新年的第一天，也叫大年初一。大家會出門給親戚、朋友拜年，祝他們新年快樂。到了大年初五，大部分的人都得上班，街上又熱鬧起來了。", 
+        py: "Xīnnián de dì yī tiān, yě jiào dànián chūyī. Dàjiā huì chūmén gěi qīnqī, péngyǒu bàinián, zhù tāmen xīnnián kuàilè. Dào le dànián chūwǔ, dà bùfèn de rén dōu děi shàngbān, jiē shàng yòu rènào qǐlái le.", 
+        vn: "Ngày đầu tiên của năm mới, cũng gọi là mùng một Tết. Mọi người sẽ ra khỏi nhà đi chúc Tết họ hàng, bạn bè, chúc họ năm mới vui vẻ. Đến mùng năm Tết, phần lớn mọi người đều phải đi làm, trên phố lại bắt đầu náo nhiệt trở lại." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "春節就是中國新年，是華人一年裡最大的一個節日。過年前一個月大家就忙起來了，得把家裡打掃乾淨，也要準備過年的食物，還要給孩子買新衣服。另外，每家門口都要貼上春聯，才有過年的氣氛。\n\n春節前一天是除夕，大部分的人都比平常早回家，因為大家要吃年夜飯。過年的食物都有特別的意思，吃魚的意思是年年有餘(魚)；吃年糕是步步高(糕)升，希望大家工作、功課一年比一年好；吃橘子是希望新的一年大吉大利。\n\n吃了年夜飯，一家人就一起聊聊天、看看電視，等新的一年開始，這叫守歲。傳統的說法是：除夕夜孩子越晚睡，父母就活得越久。父母也會給孩子壓歲錢，希望他們新的一年都能平平安安的。過了十二點，很多人就到外面放鞭炮，慶祝新年。\n\n新年的第一天，也叫大年初一。大家會出門給親戚、朋友拜年，祝他們新年快樂。到了大年初五，大部分的人都得上班，街上又熱鬧起來了。", 
+        py: "Chūnjié jiùshì Zhōngguó xīnnián, shì huárén yì nián lǐ zuì dà de yí ge jiérì. Guònián qián yí ge yuè dàjiā jiù máng qǐlái le, děi bǎ jiālǐ dǎsǎo gānjìng, yě yào zhǔnbèi guònián de shíwù, hái yào gěi háizi mǎi xīn yīfú. Lìngwài, měi jiā ménkǒu dōu yào tiē shàng chūnlián, cái yǒu guònián de qìfēn.\n\nChūnjié qián yì tiān shì chúxì, dà bùfèn de rén dōu bǐ píngcháng zǎo huíjiā, yīnwèi dàjiā yào chī niányèfàn. Guònián de shíwù dōu yǒu tèbié de yìsi, chī yú de yìsi shì niánnián yǒu yú (yú); chī niángāo shì bùbù gāo (gāo) shēng, xīwàng dàjiā gōngzuò, gōngkè yì nián bǐ yì nián hǎo; chī júzi shì xīwàng xīn de yì nián dàjí dàlì.\n\nChī le niányèfàn, yì jiā rén jiù yìqǐ liáoliáotiān, kànkan diànshì, děng xīn de yì nián kāishǐ, zhè jiào shǒusuì. Chuántǒng de shuōfǎ shì: chúxìyè háizi yuè wǎn shuì, fùmǔ jiù huó de yuè jiǔ. Fùmǔ yě huì gěi háizi yāsuìqián, xīwàng tāmen xīn de yì nián dōu néng píngpíng'ān'ān de. Guò le shí'èr diǎn, hěn duō rén jiù dào wàimiàn fàng biānpào, qìngzhù xīnnián.\n\nXīnnián de dì yī tiān, yě jiào dànián chūyī. Dàjiā huì chūmén gěi qīnqī, péngyǒu bàinián, zhù tāmen xīnnián kuàilè. Dào le dànián chūwǔ, dà bùfèn de rén dōu děi shàngbān, jiē shàng yòu rènào qǐlái le.", 
+        vn: "Lễ hội mùa xuân (Tết Nguyên Đán) chính là năm mới của Trung Quốc, là một ngày lễ lớn nhất trong một năm của người Hoa. Một tháng trước Tết mọi người đã bắt đầu bận rộn rồi, phải dọn dẹp nhà cửa sạch sẽ, cũng phải chuẩn bị thức ăn ngày Tết, còn phải mua quần áo mới cho trẻ con. Ngoài ra, trước cửa mỗi nhà đều phải dán câu đối xuân, thì mới có không khí Tết.\n\nMột ngày trước Tết là đêm Giao thừa, phần lớn mọi người đều về nhà sớm hơn ngày thường, bởi vì mọi người phải ăn bữa cơm tất niên. Thức ăn ngày Tết đều có ý nghĩa đặc biệt, ăn cá có ý nghĩa là 'niên niên hữu dư' (năm nào cũng dư dả - chữ 'ngư' đồng âm với chữ 'dư'); ăn bánh tổ là 'bộ bộ cao thăng' (mỗi bước một lên cao - chữ 'cao' trong bánh tổ đồng âm với chữ 'cao' trong cao thăng), hy vọng mọi người công việc, bài vở một năm tốt hơn một năm; ăn quýt là hy vọng năm mới 'đại cát đại lợi'.\n\nĂn xong bữa cơm tất niên, cả nhà liền cùng nhau nói chuyện phiếm, xem tivi, đợi năm mới bắt đầu, cái này gọi là đón giao thừa (thủ tuế). Cách nói truyền thống là: Đêm giao thừa trẻ con ngủ càng muộn, bố mẹ sẽ sống càng lâu. Bố mẹ cũng sẽ cho trẻ con tiền mừng tuổi, hy vọng năm mới của chúng đều có thể bình an. Qua 12 giờ, rất nhiều người liền ra ngoài đốt pháo, ăn mừng năm mới.\n\nNgày đầu tiên của năm mới, cũng gọi là mùng một Tết. Mọi người sẽ ra khỏi nhà đi chúc Tết họ hàng, bạn bè, chúc họ năm mới vui vẻ. Đến mùng năm Tết, phần lớn mọi người đều phải đi làm, trên phố lại bắt đầu náo nhiệt trở lại." 
+      },
+      questions: [
+        {
+          question: { zh: "過年前，大家不忙哪一件事？", vn: "Trước Tết, mọi người không bận rộn với việc nào?" },
+          options: [ { zh: "把家裡打掃乾淨", vn: "Dọn dẹp nhà cửa sạch sẽ" }, { zh: "給孩子買新衣服", vn: "Mua quần áo mới cho trẻ con" }, { zh: "出去旅行", vn: "Đi ra ngoài du lịch" } ], correct: 2
+        },
+        {
+          question: { zh: "過年的時候，吃「魚」代表什麼意思？", vn: "Lúc đón Tết, ăn 'cá' tượng trưng cho ý nghĩa gì?" },
+          options: [ { zh: "步步高升", vn: "Mỗi bước một lên cao" }, { zh: "年年有餘", vn: "Năm nào cũng dư dả" }, { zh: "大吉大利", vn: "Đại cát đại lợi" } ], correct: 1
+        },
+        {
+          question: { zh: "什麼叫作「守歲」？", vn: "Thế nào gọi là 'đón giao thừa' (thủ tuế)?" },
+          options: [ { zh: "吃了年夜飯，一家人一起聊天、看電視，等新的一年開始", vn: "Ăn xong bữa cơm tất niên, cả nhà cùng nhau nói chuyện, xem tivi, đợi năm mới bắt đầu" }, { zh: "出門給親戚、朋友拜年", vn: "Ra khỏi nhà đi chúc Tết họ hàng, bạn bè" }, { zh: "到外面放鞭炮", vn: "Ra ngoài đốt pháo" } ], correct: 0
+        },
+        {
+          question: { zh: "傳統的說法覺得，除夕夜孩子越晚睡會怎麼樣？", vn: "Cách nói truyền thống cho rằng, đêm giao thừa trẻ con ngủ càng muộn sẽ như thế nào?" },
+          options: [ { zh: "孩子就會長得越高", vn: "Trẻ con sẽ lớn càng cao" }, { zh: "父母就會活得越久", vn: "Bố mẹ sẽ sống càng lâu" }, { zh: "新的一年會有很多錢", vn: "Năm mới sẽ có rất nhiều tiền" } ], correct: 1
+        },
+        {
+          question: { zh: "大部分的人什麼時候開始回去上班？", vn: "Phần lớn mọi người bắt đầu quay lại làm việc khi nào?" },
+          options: [ { zh: "大年初一", vn: "Mùng một Tết" }, { zh: "除夕夜", vn: "Đêm giao thừa" }, { zh: "大年初五", vn: "Mùng năm Tết" } ], correct: 2
+        }
+      ]
+    }
+});
+// =======================================================
+// KẾT THÚC DỮ LIỆU TOCFL A2
+// =======================================================
