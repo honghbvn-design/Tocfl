@@ -11622,3 +11622,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 9", // Giữ nguyên "Bài 9" để nối tiếp với khối hội thoại bên trên
+    title: "Bài讀: 台灣南北大不同 Sự khác biệt lớn giữa miền Nam và miền Bắc Đài Loan",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "高美玲利用放假的時候到處去旅行，她喜歡台北這個大城市，也喜歡中南部鄉下。因為她家在巴黎，已經習慣大城市熱鬧的氣氛，但是她覺得台灣鄉下小鎮也很有意思。", 
+        py: "Gāo Měilíng lìyòng fàngjià de shíhòu dàochù qù lǚxíng, tā xǐhuān Táiběi zhège dà chéngshì, yě xǐhuān zhōngnánbù xiāngxià. Yīnwèi tā jiā zài Bālí, yǐjīng xíguàn dà chéngshì rènào de qìfēn, dànshì tā juéde Táiwān xiāngxià xiǎozhèn yě hěn yǒuyìsi.", 
+        vn: "Cao Mỹ Linh tranh thủ lúc nghỉ lễ đi du lịch khắp nơi, cô ấy thích thành phố lớn Đài Bắc này, cũng thích vùng quê ở miền Trung và miền Nam. Bởi vì nhà cô ấy ở Paris, đã quen với không khí náo nhiệt của thành phố lớn, nhưng cô ấy cảm thấy những thị trấn nhỏ ở vùng quê Đài Loan cũng rất thú vị." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "高美玲發現中南部跟台北有很多不同的地方。台北市區現代的公寓、大樓比較多，馬路寬、汽車多。中南部除了新建築，也看得見傳統的老房子。她在高雄市看見很多三層樓的房子，朋友告訴她，買得起房子的南部人，比較喜歡這種房子。", 
+        py: "Gāo Měilíng fāxiàn zhōngnánbù gēn Táiběi yǒu hěn duō bùtóng de dìfāng. Táiběi shìqū xiàndài de gōngyù, dàlóu bǐjiào duō, mǎlù kuān, qìchē duō. Zhōngnánbù chúle xīn jiànzhù, yě kàn de jiàn chuántǒng de lǎo fángzi. Tā zài Gāoxióng shì kànjiàn hěn duō sān céng lóu de fángzi, péngyǒu gàosù tā, mǎi de qǐ fángzi de nánbù rén, bǐjiào xǐhuān zhè zhǒng fángzi.", 
+        vn: "Cao Mỹ Linh phát hiện ra miền Trung Nam bộ và Đài Bắc có rất nhiều điểm khác biệt. Khu vực thành phố Đài Bắc có khá nhiều căn hộ, tòa nhà hiện đại, đường sá rộng rãi, nhiều ô tô. Miền Trung Nam bộ ngoài những kiến trúc mới, cũng có thể nhìn thấy những ngôi nhà cổ truyền thống. Cô ấy nhìn thấy rất nhiều ngôi nhà ba tầng ở thành phố Cao Hùng, bạn bè nói với cô ấy, người miền Nam mua nổi nhà, khá thích loại nhà này." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "台灣不是很大，但是南部的天氣比北部好多了。夏天雖然熱得很，可是冬天不冷，而且不常下雨。美玲覺得可能天氣好，所以南部人很熱情。", 
+        py: "Táiwān bú shì hěn dà, dànshì nánbù de tiānqì bǐ běibù hǎo duō le. Xiàtiān suīrán rè de hěn, kěshì dōngtiān bù lěng, érqiě bù cháng xiàyǔ. Měilíng juéde kěnéng tiānqì hǎo, suǒyǐ nánbù rén hěn rèqíng.", 
+        vn: "Đài Loan không lớn lắm, nhưng thời tiết ở miền Nam tốt hơn miền Bắc rất nhiều. Mùa hè mặc dù rất nóng, nhưng mùa đông không lạnh, hơn nữa không thường xuyên mưa. Mỹ Linh cảm thấy có thể do thời tiết tốt, cho nên người miền Nam rất nhiệt tình." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "高美玲利用放假的時候到處去旅行，她喜歡台北這個大城市，也喜歡中南部鄉下。因為她家在巴黎，已經習慣大城市熱鬧的氣氛，但是她覺得台灣鄉下小鎮也很有意思。\n\n高美玲發現中南部跟台北有很多不同的地方。台北市區現代的公寓、大樓比較多，馬路寬、汽車多。中南部除了新建築，也看得見傳統的老房子。她在高雄市看見很多三層樓的房子，朋友告訴她，買得起房子的南部人，比較喜歡這種房子。\n\n台灣不是很大，但是南部的天氣比北部好多了。夏天雖然熱得很，可是冬天不冷，而且不常下雨。美玲覺得可能天氣好，所以南部人很熱情。", 
+        py: "Gāo Měilíng lìyòng fàngjià de shíhòu dàochù qù lǚxíng, tā xǐhuān Táiběi zhège dà chéngshì, yě xǐhuān zhōngnánbù xiāngxià. Yīnwèi tā jiā zài Bālí, yǐjīng xíguàn dà chéngshì rènào de qìfēn, dànshì tā juéde Táiwān xiāngxià xiǎozhèn yě hěn yǒuyìsi.\n\nGāo Měilíng fāxiàn zhōngnánbù gēn Táiběi yǒu hěn duō bùtóng de dìfāng. Táiběi shìqū xiàndài de gōngyù, dàlóu bǐjiào duō, mǎlù kuān, qìchē duō. Zhōngnánbù chúle xīn jiànzhù, yě kàn de jiàn chuántǒng de lǎo fángzi. Tā zài Gāoxióng shì kànjiàn hěn duō sān céng lóu de fángzi, péngyǒu gàosù tā, mǎi de qǐ fángzi de nánbù rén, bǐjiào xǐhuān zhè zhǒng fángzi.\n\nTáiwān bú shì hěn dà, dànshì nánbù de tiānqì bǐ běibù hǎo duō le. Xiàtiān suīrán rè de hěn, kěshì dōngtiān bù lěng, érqiě bù cháng xiàyǔ. Měilíng juéde kěnéng tiānqì hǎo, suǒyǐ nánbù rén hěn rèqíng.", 
+        vn: "Cao Mỹ Linh tranh thủ lúc nghỉ lễ đi du lịch khắp nơi, cô ấy thích thành phố lớn Đài Bắc này, cũng thích vùng quê ở miền Trung và miền Nam. Bởi vì nhà cô ấy ở Paris, đã quen với không khí náo nhiệt của thành phố lớn, nhưng cô ấy cảm thấy những thị trấn nhỏ ở vùng quê Đài Loan cũng rất thú vị.\n\nCao Mỹ Linh phát hiện ra miền Trung Nam bộ và Đài Bắc có rất nhiều điểm khác biệt. Khu vực thành phố Đài Bắc có khá nhiều căn hộ, tòa nhà hiện đại, đường sá rộng rãi, nhiều ô tô. Miền Trung Nam bộ ngoài những kiến trúc mới, cũng có thể nhìn thấy những ngôi nhà cổ truyền thống. Cô ấy nhìn thấy rất nhiều ngôi nhà ba tầng ở thành phố Cao Hùng, bạn bè nói với cô ấy, người miền Nam mua nổi nhà, khá thích loại nhà này.\n\nĐài Loan không lớn lắm, nhưng thời tiết ở miền Nam tốt hơn miền Bắc rất nhiều. Mùa hè mặc dù rất nóng, nhưng mùa đông không lạnh, hơn nữa không thường xuyên mưa. Mỹ Linh cảm thấy có thể do thời tiết tốt, cho nên người miền Nam rất nhiệt tình." 
+      },
+      questions: [
+        {
+          question: { zh: "高美玲喜歡台灣的什麼地方？", vn: "Cao Mỹ Linh thích nơi nào ở Đài Loan?" },
+          options: [ { zh: "只喜歡台北", vn: "Chỉ thích Đài Bắc" }, { zh: "只喜歡中南部", vn: "Chỉ thích miền Trung và miền Nam" }, { zh: "台北和中南部的鄉下她都喜歡", vn: "Đài Bắc và vùng quê miền Trung Nam bộ cô ấy đều thích" } ], correct: 2
+        },
+        {
+          question: { zh: "台北的市區跟中南部有什麼不一樣？", vn: "Khu vực thành phố Đài Bắc và miền Trung Nam bộ có gì khác nhau?" },
+          options: [ { zh: "台北的老房子比較多", vn: "Đài Bắc có nhiều nhà cổ hơn" }, { zh: "台北現代的公寓和大樓比較多，馬路寬", vn: "Đài Bắc có nhiều căn hộ và tòa nhà hiện đại hơn, đường rộng" }, { zh: "中南部的汽車比台北多", vn: "Miền Trung Nam bộ có nhiều ô tô hơn Đài Bắc" } ], correct: 1
+        },
+        {
+          question: { zh: "南部買得起房子的人，比較喜歡什麼樣的房子？", vn: "Người miền Nam mua nổi nhà thích kiểu nhà như thế nào hơn?" },
+          options: [ { zh: "現代的公寓", vn: "Căn hộ hiện đại" }, { zh: "很高的大樓", vn: "Tòa nhà rất cao" }, { zh: "三層樓的房子", vn: "Ngôi nhà ba tầng" } ], correct: 2
+        },
+        {
+          question: { zh: "台灣南部冬天的天氣怎麼樣？", vn: "Thời tiết mùa đông ở miền Nam Đài Loan như thế nào?" },
+          options: [ { zh: "不冷，而且不常下雨", vn: "Không lạnh, hơn nữa không thường xuyên mưa" }, { zh: "常常下雨，很冷", vn: "Thường xuyên mưa, rất lạnh" }, { zh: "會下雪", vn: "Sẽ có tuyết rơi" } ], correct: 0
+        },
+        {
+          question: { zh: "美玲覺得為什麼南部人很熱情？", vn: "Mỹ Linh cảm thấy tại sao người miền Nam lại rất nhiệt tình?" },
+          options: [ { zh: "因為南部有很多老房子", vn: "Vì miền Nam có rất nhiều nhà cổ" }, { zh: "因為南部天氣好", vn: "Vì thời tiết miền Nam tốt" }, { zh: "因為南部人喜歡旅行", vn: "Vì người miền Nam thích đi du lịch" } ], correct: 1
+        }
+      ]
+    }
+});
