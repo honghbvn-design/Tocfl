@@ -11439,3 +11439,63 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 8",
+    title: "Hội thoại 8: 學功夫 Học võ thuật",
+    content: [
+      { sp: "東健", gender: "male", zh: "安同！安同！", py: "Āntóng! Āntóng!", vn: "Antoine! Antoine!" },
+      { sp: "安同", gender: "male", zh: "東健！對不起，沒聽見你叫我。", py: "Dōngjiàn! Duìbùqǐ, méi tīngjiàn nǐ jiào wǒ.", vn: "Đông Kiện! Xin lỗi, không nghe thấy bạn gọi tôi." },
+      { sp: "東健", gender: "male", zh: "音樂那麼吵，你當然聽不見。", py: "Yīnyuè nàme chǎo, nǐ dāngrán tīng bú jiàn.", vn: "Âm nhạc ồn như vậy, bạn đương nhiên là nghe không thấy rồi." },
+      { sp: "安同", gender: "male", zh: "有什麼事嗎？", py: "Yǒu shénme shì ma?", vn: "Có chuyện gì không?" },
+      { sp: "東健", gender: "male", zh: "沒事，只是一到學校門口，就看見你推著腳踏車走過來。", py: "Méi shì, zhǐshì yí dào xuéxiào ménkǒu, jiù kànjiàn nǐ tuīzhe jiǎotàchē zǒu guòlái.", vn: "Không có gì, chỉ là vừa đến cổng trường, liền nhìn thấy bạn dắt xe đạp đi tới." },
+      { sp: "安同", gender: "male", zh: "你下午要做什麼？", py: "Nǐ xiàwǔ yào zuò shénme?", vn: "Buổi chiều bạn định làm gì?" },
+      { sp: "東健", gender: "male", zh: "我要去體育館運動。對了，你現在還在學太極拳嗎？", py: "Wǒ yào qù tǐyùguǎn yùndòng. Duì le, nǐ xiànzài hái zài xué Tàijíquán ma?", vn: "Tôi muốn đến nhà thi đấu tập thể dục. À đúng rồi, hiện tại bạn vẫn đang học Thái Cực Quyền chứ?" },
+      { sp: "安同", gender: "male", zh: "是啊！我的師父說我有天分，學得不錯。", py: "Shì a! Wǒ de shīfù shuō wǒ yǒu tiānfèn, xué de búcuò.", vn: "Đúng vậy! Sư phụ của tôi nói tôi có thiên phú, học rất khá." },
+      { sp: "東健", gender: "male", zh: "你師父是台灣人吧？他說中文你聽得懂嗎？", py: "Nǐ shīfù shì Táiwānrén ba? Tā shuō Zhōngwén nǐ tīng de dǒng ma?", vn: "Sư phụ của bạn là người Đài Loan phải không? Ông ấy nói tiếng Trung bạn nghe hiểu không?" },
+      { sp: "安同", gender: "male", zh: "剛開始我都聽不懂，可是現在沒問題了。", py: "Gāng kāishǐ wǒ dōu tīng bù dǒng, kěshì xiànzài méi wèntí le.", vn: "Lúc mới bắt đầu tôi đều nghe không hiểu, nhưng bây giờ không có vấn đề gì rồi." },
+      { sp: "東健", gender: "male", zh: "太極拳難嗎？你學了多久了？", py: "Tàijíquán nán ma? Nǐ xué le duōjiǔ le?", vn: "Thái Cực Quyền khó không? Bạn đã học bao lâu rồi?" },
+      { sp: "安同", gender: "male", zh: "不太容易，而且要很早起來。我學了三個多月了，才學會了一點。", py: "Bú tài róngyì, érqiě yào hěn zǎo qǐlái. Wǒ xué le sān ge duō yuè le, cái xuéhuì le yìdiǎn.", vn: "Không dễ lắm, hơn nữa phải dậy rất sớm. Tôi đã học hơn ba tháng rồi, mới học được một chút." },
+      { sp: "東健", gender: "male", zh: "可是太極拳的動作看起來慢慢的，輕輕的，應該很輕鬆。", py: "Kěshì Tàijíquán de dòngzuò kàn qǐlái mànman de, qīngqīng de, yīnggāi hěn qīngsōng.", vn: "Nhưng mà động tác của Thái Cực Quyền nhìn có vẻ chậm rãi, nhẹ nhàng, chắc là rất thoải mái." },
+      { sp: "安同", gender: "male", zh: "那些動作好像很容易，但是剛開始的時候，我早上常常累得起不來，腿也痛得走不了路。", py: "Nàxiē dòngzuò hǎoxiàng hěn róngyì, dànshì gāng kāishǐ de shíhòu, wǒ zǎoshang chángcháng lèi de qǐ bù lái, tuǐ yě tòng de zǒu bù liǎo lù.", vn: "Những động tác đó dường như rất dễ, nhưng lúc mới bắt đầu, buổi sáng tôi thường mệt đến mức dậy không nổi, chân cũng đau đến mức đi không được." },
+      { sp: "東健", gender: "male", zh: "那你怎麼還學得下去？", py: "Nà nǐ zěnme hái xué de xiàqù?", vn: "Vậy sao bạn vẫn còn học tiếp được?" },
+      { sp: "安同", gender: "male", zh: "雖然很累，可是這是我的興趣。", py: "Suīrán hěn lèi, kěshì zhè shì wǒ de xìngqù.", vn: "Mặc dù rất mệt, nhưng đây là sở thích của tôi." },
+      { sp: "東健", gender: "male", zh: "你下午沒事吧？要不要跟我一起去運動？", py: "Nǐ xiàwǔ méi shì ba? Yào bú yào gēn wǒ yìqǐ qù yùndòng?", vn: "Buổi chiều bạn rảnh chứ? Có muốn cùng tôi đi tập thể dục không?" },
+      { sp: "安同", gender: "male", zh: "好啊！我先去圖書館借書，下午再跟你去運動。", py: "Hǎo a! Wǒ xiān qù túshūguǎn jiè shū, xiàwǔ zài gēn nǐ qù yùndòng.", vn: "Được thôi! Tôi đến thư viện mượn sách trước, buổi chiều sẽ cùng bạn đi tập thể dục." }
+    ],
+    clozes: [
+      { sentence: { zh: "沒事，只是一到學校門口，就看見你 ______ 著腳踏車走過來。", py: "Méi shì, zhǐshì yí dào xuéxiào ménkǒu, jiù kànjiàn nǐ ______ zhe jiǎotàchē zǒu guòlái.", vn: "Không có gì, chỉ là vừa đến cổng trường, liền nhìn thấy bạn ... xe đạp đi tới." }, options: [ { zh: "騎", vn: "cưỡi/đạp" }, { zh: "推", vn: "đẩy/dắt" }, { zh: "買", vn: "mua" } ], correct: 1 },
+      { sentence: { zh: "我要去 ______ 運動。", py: "Wǒ yào qù ______ yùndòng.", vn: "Tôi muốn đến ... tập thể dục." }, options: [ { zh: "圖書館", vn: "thư viện" }, { zh: "博物館", vn: "bảo tàng" }, { zh: "體育館", vn: "nhà thi đấu" } ], correct: 2 },
+      { sentence: { zh: "我的 ______ 說我有天分，學得不錯。", py: "Wǒ de ______ shuō wǒ yǒu tiānfèn, xué de búcuò.", vn: "... của tôi nói tôi có thiên phú, học rất khá." }, options: [ { zh: "師父", vn: "sư phụ" }, { zh: "同學", vn: "bạn học" }, { zh: "老闆", vn: "ông chủ" } ], correct: 0 },
+      { sentence: { zh: "早上常常累得起不來， ______ 也痛得走不了路。", py: "Zǎoshang chángcháng lèi de qǐ bù lái, ______ yě tòng de zǒu bù liǎo lù.", vn: "Buổi sáng thường mệt đến mức dậy không nổi, ... cũng đau đến mức đi không được." }, options: [ { zh: "手", vn: "tay" }, { zh: "頭", vn: "đầu" }, { zh: "腿", vn: "chân" } ], correct: 2 },
+      { sentence: { zh: "雖然很累，可是這是我的 ______ 。", py: "Suīrán hěn lèi, kěshì zhè shì wǒ de ______ .", vn: "Mặc dù rất mệt, nhưng đây là ... của tôi." }, options: [ { zh: "興趣", vn: "sở thích" }, { zh: "習慣", vn: "thói quen" }, { zh: "工作", vn: "công việc" } ], correct: 0 }
+    ],
+    quizzes: [
+      { question: { zh: "東健剛開始叫安同的時候，安同為什麼沒聽見？", vn: "Lúc Đông Kiện mới bắt đầu gọi Antoine, tại sao Antoine không nghe thấy?" }, options: [ { zh: "因為安同不想跟他說話", vn: "Vì Antoine không muốn nói chuyện với anh ấy" }, { zh: "因為音樂太吵了", vn: "Vì âm nhạc ồn quá" }, { zh: "因為安同在睡覺", vn: "Vì Antoine đang ngủ" } ], correct: 1 },
+      { question: { zh: "安同現在在學什麼功夫？", vn: "Antoine hiện tại đang học võ thuật gì?" }, options: [ { zh: "太極拳", vn: "Thái Cực Quyền" }, { zh: "跆拳道", vn: "Taekwondo" }, { zh: "空手道", vn: "Karate" } ], correct: 0 },
+      { question: { zh: "安同剛開始學太極拳的時候，覺得怎麼樣？", vn: "Antoine lúc mới bắt đầu học Thái Cực Quyền, cảm thấy thế nào?" }, options: [ { zh: "覺得很輕鬆", vn: "Cảm thấy rất thoải mái" }, { zh: "覺得很累，腿也很痛", vn: "Cảm thấy rất mệt, chân cũng rất đau" }, { zh: "覺得很容易", vn: "Cảm thấy rất dễ" } ], correct: 1 },
+      { question: { zh: "安同學太極拳學了多久了？", vn: "Antoine học Thái Cực Quyền được bao lâu rồi?" }, options: [ { zh: "半年了", vn: "Nửa năm rồi" }, { zh: "一個月了", vn: "Một tháng rồi" }, { zh: "三個多月了", vn: "Hơn ba tháng rồi" } ], correct: 2 },
+      { question: { zh: "安同下午跟東健去運動以前，要先去做什麼？", vn: "Antoine trước khi đi tập thể dục cùng Đông Kiện vào buổi chiều, phải đi làm gì trước?" }, options: [ { zh: "去圖書館借書", vn: "Đến thư viện mượn sách" }, { zh: "去找師父", vn: "Đi tìm sư phụ" }, { zh: "回宿舍睡覺", vn: "Về ký túc xá ngủ" } ], correct: 0 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "東健在學校門口看見安同推著腳踏車走過來。東健下午要去體育館運動，他問安同是不是還在學太極拳。安同說他學了三個多月了，雖然剛開始覺得很累，腿也很痛，但是因為有興趣，所以還繼續學。最後，安同打算先去圖書館借書，下午再跟東健一起去運動。", 
+        py: "Dōngjiàn zài xuéxiào ménkǒu kànjiàn Āntóng tuīzhe jiǎotàchē zǒu guòlái. Dōngjiàn xiàwǔ yào qù tǐyùguǎn yùndòng, tā wèn Āntóng shìbúshì hái zài xué Tàijíquán. Āntóng shuō tā xué le sān ge duō yuè le, suīrán gāng kāishǐ juéde hěn lèi, tuǐ yě hěn tòng, dànshì yīnwèi yǒu xìngqù, suǒyǐ hái jìxù xué. Zuìhòu, Āntóng dǎsuàn xiān qù túshūguǎn jiè shū, xiàwǔ zài gēn Dōngjiàn yìqǐ qù yùndòng.", 
+        vn: "Đông Kiện ở cổng trường nhìn thấy Antoine đang dắt xe đạp đi tới. Đông Kiện buổi chiều muốn đi nhà thi đấu tập thể dục, anh ấy hỏi Antoine có phải vẫn đang học Thái Cực Quyền không. Antoine nói anh ấy đã học hơn ba tháng rồi, mặc dù lúc mới bắt đầu cảm thấy rất mệt, chân cũng rất đau, nhưng vì có sở thích nên vẫn tiếp tục học. Cuối cùng, Antoine dự định đến thư viện mượn sách trước, buổi chiều sẽ cùng Đông Kiện đi tập thể dục." 
+      },
+      questions: [
+        {
+          question: { zh: "安同為什麼常常累得起不來？", vn: "Tại sao Antoine thường mệt đến mức dậy không nổi?" },
+          options: [ { zh: "因為他去體育館運動", vn: "Vì anh ấy đến nhà thi đấu tập thể dục" }, { zh: "因為他學太極拳", vn: "Vì anh ấy học Thái Cực Quyền" }, { zh: "因為他去圖書館借書", vn: "Vì anh ấy đến thư viện mượn sách" } ], correct: 1
+        },
+        {
+          question: { zh: "安同學太極拳學了多長時間？", vn: "Antoine học Thái Cực Quyền được khoảng thời gian bao lâu rồi?" },
+          options: [ { zh: "一個多月", vn: "Hơn một tháng" }, { zh: "兩個多月", vn: "Hơn hai tháng" }, { zh: "三個多月", vn: "Hơn ba tháng" } ], correct: 2
+        },
+        {
+          question: { zh: "他們下午打算一起去做什麼？", vn: "Buổi chiều họ dự định cùng nhau đi làm gì?" },
+          options: [ { zh: "去體育館運動", vn: "Đến nhà thi đấu tập thể dục" }, { zh: "去打太極拳", vn: "Đi tập Thái Cực Quyền" }, { zh: "去學校門口聊天", vn: "Đến cổng trường nói chuyện" } ], correct: 0
+        }
+      ]
+    }
+});
