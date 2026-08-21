@@ -11921,3 +11921,67 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 12",
+    title: "Hội thoại 12: 怎麼吃才健康？ Ăn thế nào mới khỏe mạnh?",
+    content: [
+      { sp: "月美", gender: "female", zh: "我正在等白如玉，我們要去吃飯，你想跟我們一起去嗎？", py: "Wǒ zhèngzài děng Bái Rúyù, wǒmen yào qù chīfàn, nǐ xiǎng gēn wǒmen yìqǐ qù ma?", vn: "Mình đang đợi Bạch Như Ngọc, bọn mình muốn đi ăn cơm, cậu có muốn đi cùng bọn mình không?" },
+      { sp: "馬丁", gender: "male", zh: "好啊！妳們要去吃什麼？", py: "Hǎo a! Nǐmen yào qù chī shénme?", vn: "Được chứ! Các cậu muốn đi ăn gì?" },
+      { sp: "月美", gender: "female", zh: "我們打算去學校對面一家新開的素食餐廳。", py: "Wǒmen dǎsuàn qù xuéxiào duìmiàn yì jiā xīn kāi de sùshí cāntīng.", vn: "Bọn mình định đến một nhà hàng đồ chay mới mở đối diện trường." },
+      { sp: "馬丁", gender: "male", zh: "速食？學校對面有「麥當勞」？我怎麼沒注意到？", py: "Sùshí? Xuéxiào duìmiàn yǒu 'Màidāngláo'? Wǒ zěnme méi zhùyì dào?", vn: "Đồ ăn nhanh á? Đối diện trường có 'McDonald's' sao? Sao mình không chú ý tới nhỉ?" },
+      { sp: "月美", gender: "female", zh: "你想錯了，不是麥當勞那種速食店，是不吃肉的素食餐廳。", py: "Nǐ xiǎng cuò le, bú shì Màidāngláo nà zhǒng sùshí diàn, shì bù chī ròu de sùshí cāntīng.", vn: "Cậu nghĩ sai rồi, không phải loại cửa hàng đồ ăn nhanh như McDonald's đâu, là nhà hàng đồ chay không ăn thịt cơ." },
+      { sp: "馬丁", gender: "male", zh: "新開的餐廳我都想去嚐一嚐，好，我跟妳們一起去。", py: "Xīn kāi de cāntīng wǒ dōu xiǎng qù cháng yì cháng, hǎo, wǒ gēn nǐmen yìqǐ qù.", vn: "Nhà hàng mới mở mình đều muốn đến nếm thử, được, mình đi cùng các cậu." },
+      { sp: "如玉", gender: "female", zh: "欸！馬丁，好久不見！月美，對不起，讓妳等了這麼久。", py: "Ei! Mǎdīng, hǎo jiǔ bú jiàn! Yuèměi, duìbùqǐ, ràng nǐ děng le zhème jiǔ.", vn: "Ê! Martin, lâu rồi không gặp! Nguyệt Mỹ, xin lỗi, để cậu phải đợi lâu như vậy." },
+      { sp: "月美", gender: "female", zh: "沒關係，我也剛下課。馬丁也跟我們去吃飯。", py: "Méiguānxi, wǒ yě gāng xiàkè. Mǎdīng yě gēn wǒmen qù chīfàn.", vn: "Không sao, mình cũng vừa tan học. Martin cũng đi ăn cùng bọn mình." },
+      { sp: "如玉", gender: "female", zh: "馬丁，你拿了這麼多菜，我沒想到你也喜歡吃素。", py: "Mǎdīng, nǐ ná le zhème duō cài, wǒ méi xiǎngdào nǐ yě xǐhuān chī sù.", vn: "Martin, cậu lấy nhiều đồ ăn thế này, mình không ngờ cậu cũng thích ăn chay." },
+      { sp: "馬丁", gender: "male", zh: "我是到了台灣以後才覺得吃素不錯，我以前吃漢堡的機會比較多。", py: "Wǒ shì dào le Táiwān yǐhòu cái juéde chī sù búcuò, wǒ yǐqián chī hànbǎo de jīhuì bǐjiào duō.", vn: "Mình đến Đài Loan rồi mới thấy ăn chay không tồi, trước đây mình có nhiều cơ hội ăn hamburger hơn." },
+      { sp: "如玉", gender: "female", zh: "漢堡吃多了對健康不好，而且容易讓你變胖。", py: "Hànbǎo chī duō le duì jiànkāng bù hǎo, érqiě róngyì ràng nǐ biàn pàng.", vn: "Hamburger ăn nhiều không tốt cho sức khỏe, hơn nữa lại dễ khiến cậu béo lên." },
+      { sp: "月美", gender: "female", zh: "我在越南就常常吃素。還有，這家餐廳的素菜看起來不油膩，好像每一樣都值得試試。", py: "Wǒ zài Yuènán jiù chángcháng chī sù. Háiyǒu, zhè jiā cāntīng de sùcài kàn qǐlái bù yóunì, hǎoxiàng měi yí yàng dōu zhídé shìshi.", vn: "Ở Việt Nam mình cũng thường xuyên ăn chay. Hơn nữa, đồ chay của nhà hàng này trông không bị ngấy dầu mỡ, dường như món nào cũng đáng để thử." },
+      { sp: "馬丁", gender: "male", zh: "我很好奇台灣女孩是不是都喜歡吃青菜？她們看起來個個都很瘦。", py: "Wǒ hěn hàoqí Táiwān nǚhái shìbúshì dōu xǐhuān chī qīngcài? Tāmen kàn qǐlái gègè dōu hěn shòu.", vn: "Mình rất tò mò có phải con gái Đài Loan đều thích ăn rau xanh không? Bọn họ trông ai cũng rất gầy." },
+      { sp: "月美", gender: "female", zh: "這也不一定，我室友吃素，但是有一點胖。如玉，我記得妳男朋友不吃肉，對不對？", py: "Zhè yě bù yídìng, wǒ shìyǒu chī sù, dànshì yǒu yìdiǎn pàng. Rúyù, wǒ jìde nǐ nánpéngyǒu bù chī ròu, duì bú duì?", vn: "Cái này cũng không chắc đâu, bạn cùng phòng của mình ăn chay, nhưng lại hơi mập. Như Ngọc, mình nhớ bạn trai cậu không ăn thịt, đúng không?" },
+      { sp: "如玉", gender: "female", zh: "對，牛肉、豬肉，他不常吃，他只吃魚。", py: "Duì, niúròu, zhūròu, tā bù cháng chī, tā zhǐ chī yú.", vn: "Đúng vậy, thịt bò, thịt lợn, anh ấy không thường ăn, anh ấy chỉ ăn cá." },
+      { sp: "月美", gender: "female", zh: "我聽說西方一些吃素的人跟我們不太一樣，我們是完全不吃肉的。", py: "Wǒ tīngshuō xīfāng yìxiē chī sù de rén gēn wǒmen bú tài yíyàng, wǒmen shì wánquán bù chī ròu de.", vn: "Mình nghe nói một số người phương Tây ăn chay không giống chúng ta lắm, chúng ta là hoàn toàn không ăn thịt." },
+      { sp: "馬丁", gender: "male", zh: "我覺得吃素應該是為了健康。", py: "Wǒ juéde chī sù yīnggāi shì wèile jiànkāng.", vn: "Mình nghĩ ăn chay nên là vì sức khỏe." },
+      { sp: "如玉", gender: "female", zh: "菜的味道不要太鹹，不要常吃炸的、烤的東西，就比較健康。", py: "Cài de wèidào búyào tài xián, búyào cháng chī zhà de, kǎo de dōngxī, jiù bǐjiào jiànkāng.", vn: "Mùi vị của món ăn đừng quá mặn, đừng thường xuyên ăn đồ chiên, đồ nướng, thì sẽ khỏe mạnh hơn." },
+      { sp: "月美", gender: "female", zh: "下次有機會，請你們吃我做的越南素食。", py: "Xià cì yǒu jīhuì, qǐng nǐmen chī wǒ zuò de Yuènán sùshí.", vn: "Lần sau có cơ hội, mời các cậu ăn đồ chay Việt Nam do mình làm." },
+      { sp: "如玉", gender: "female", zh: "我也可以做一些青菜沙拉請大家吃。", py: "Wǒ yě kěyǐ zuò yìxiē qīngcài shālā qǐng dàjiā chī.", vn: "Mình cũng có thể làm một ít salad rau xanh mời mọi người ăn." },
+      { sp: "馬丁", gender: "male", zh: "真的？太好了，我希望多吃素，瘦一點，讓自己更健康。", py: "Zhēn de? Tài hǎo le, wǒ xīwàng duō chī sù, shòu yìdiǎn, ràng zìjǐ gèng jiànkāng.", vn: "Thật sao? Tốt quá rồi, mình hy vọng ăn chay nhiều hơn, gầy đi một chút, để bản thân khỏe mạnh hơn." },
+      { sp: "如玉", gender: "female", zh: "快一點吃吧！我跟月美等一下還要準備下午的考試。", py: "Kuài yìdiǎn chī ba! Wǒ gēn Yuèměi děng yíxià hái yào zhǔnbèi xiàwǔ de kǎoshì.", vn: "Mau ăn chút đi! Mình và Nguyệt Mỹ một lát nữa còn phải chuẩn bị cho bài thi buổi chiều." }
+    ],
+    clozes: [
+      { sentence: { zh: "你想錯了，不是麥當勞那種 ______ 店，是不吃肉的素食餐廳。", py: "Nǐ xiǎng cuò le, bú shì Màidāngláo nà zhǒng ______ diàn, shì bù chī ròu de sùshí cāntīng.", vn: "Cậu nghĩ sai rồi, không phải loại cửa hàng ... như McDonald's đâu, là nhà hàng đồ chay không ăn thịt cơ." }, options: [ { zh: "速食", vn: "đồ ăn nhanh" }, { zh: "素食", vn: "đồ chay" }, { zh: "衣服", vn: "quần áo" } ], correct: 0 },
+      { sentence: { zh: "這家餐廳的素菜看起來不 ______ ，好像每一樣都值得試試。", py: "Zhè jiā cāntīng de sùcài kàn qǐlái bù ______ , hǎoxiàng měi yí yàng dōu zhídé shìshi.", vn: "Đồ chay của nhà hàng này trông không bị ... , dường như món nào cũng đáng để thử." }, options: [ { zh: "好吃", vn: "ngon" }, { zh: "便宜", vn: "rẻ" }, { zh: "油膩", vn: "ngấy dầu mỡ" } ], correct: 2 },
+      { sentence: { zh: "我很好 ______ 台灣女孩是不是都喜歡吃青菜？", py: "Wǒ hěn hào ______ Táiwān nǚhái shìbúshì dōu xǐhuān chī qīngcài?", vn: "Mình rất tò ... có phải con gái Đài Loan đều thích ăn rau xanh không?" }, options: [ { zh: "奇", vn: "mò (kỳ)" }, { zh: "看", vn: "nhìn" }, { zh: "吃", vn: "ăn" } ], correct: 0 },
+      { sentence: { zh: "菜的味道不要太 ______ ，不要常吃炸的、烤的東西。", py: "Cài de wèidào búyào tài ______ , búyào cháng chī zhà de, kǎo de dōngxī.", vn: "Mùi vị của món ăn đừng quá ... , đừng thường xuyên ăn đồ chiên, đồ nướng." }, options: [ { zh: "甜", vn: "ngọt" }, { zh: "酸", vn: "chua" }, { zh: "鹹", vn: "mặn" } ], correct: 2 },
+      { sentence: { zh: "我也可以做一些青菜 ______ 請大家吃。", py: "Wǒ yě kěyǐ zuò yìxiē qīngcài ______ qǐng dàjiā chī.", vn: "Mình cũng có thể làm một ít ... rau xanh mời mọi người ăn." }, options: [ { zh: "湯", vn: "súp/canh" }, { zh: "沙拉", vn: "salad" }, { zh: "漢堡", vn: "hamburger" } ], correct: 1 }
+    ],
+    quizzes: [
+      { question: { zh: "他們三個人要去哪裡吃飯？", vn: "Ba người họ muốn đi đâu ăn cơm?" }, options: [ { zh: "去吃麥當勞", vn: "Đi ăn McDonald's" }, { zh: "去學校對面新開的素食餐廳", vn: "Đến nhà hàng đồ chay mới mở đối diện trường" }, { zh: "回宿舍自己做飯", vn: "Về ký túc xá tự nấu ăn" } ], correct: 1 },
+      { question: { zh: "馬丁一開始為什麼聽錯了？", vn: "Tại sao ban đầu Martin lại nghe nhầm?" }, options: [ { zh: "因為他不認識月美", vn: "Vì cậu ấy không quen Nguyệt Mỹ" }, { zh: "因為他把「素食」聽成「速食」了", vn: "Vì cậu ấy nghe 'đồ chay' (sùshí) thành 'đồ ăn nhanh' (sùshí)" }, { zh: "因為他不想跟她們吃飯", vn: "Vì cậu ấy không muốn ăn cơm cùng họ" } ], correct: 1 },
+      { question: { zh: "馬丁以前常常吃什麼？", vn: "Martin trước đây thường xuyên ăn gì?" }, options: [ { zh: "漢堡", vn: "Hamburger" }, { zh: "素食", vn: "Đồ chay" }, { zh: "青菜沙拉", vn: "Salad rau xanh" } ], correct: 0 },
+      { question: { zh: "如玉的男朋友吃不吃肉？", vn: "Bạn trai của Như Ngọc có ăn thịt không?" }, options: [ { zh: "他吃很多牛肉和豬肉", vn: "Anh ấy ăn rất nhiều thịt bò và thịt lợn" }, { zh: "他完全不吃肉", vn: "Anh ấy hoàn toàn không ăn thịt" }, { zh: "他不常吃牛肉和豬肉，只吃魚", vn: "Anh ấy không thường ăn thịt bò và thịt lợn, chỉ ăn cá" } ], correct: 2 },
+      { question: { zh: "如玉覺得怎麼吃比較健康？", vn: "Như Ngọc cảm thấy ăn thế nào thì khỏe mạnh hơn?" }, options: [ { zh: "每天吃漢堡", vn: "Mỗi ngày ăn hamburger" }, { zh: "味道不要太鹹，少吃炸的和烤的", vn: "Mùi vị đừng quá mặn, ít ăn đồ chiên và nướng" }, { zh: "多吃油膩的東西", vn: "Ăn nhiều đồ ngấy dầu mỡ" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "月美和白如玉打算去學校對面的素食餐廳吃飯。馬丁一開始聽錯了，以為是「速食店」，後來知道是不吃肉的素食餐廳，他也想去嚐一嚐。在餐廳裡，馬丁拿了很多菜，他說來台灣後才覺得吃素不錯，以前常吃漢堡。如玉說漢堡吃多了不健康，容易變胖。他們聊到吃素，月美說這家餐廳的菜不油膩。如玉覺得，為了健康，菜的味道不要太鹹，也不要常吃炸的、烤的東西。最後，如玉提醒大家快點吃，因為下午還要準備考試。", 
+        py: "Yuèměi hé Bái Rúyù dǎsuàn qù xuéxiào duìmiàn de sùshí cāntīng chīfàn. Mǎdīng yì kāishǐ tīng cuò le, yǐwéi shì 'sùshí diàn', hòulái zhīdào shì bù chī ròu de sùshí cāntīng, tā yě xiǎng qù cháng yì cháng. Zài cāntīng lǐ, Mǎdīng ná le hěn duō cài, tā shuō lái Táiwān hòu cái juéde chī sù búcuò, yǐqián cháng chī hànbǎo. Rúyù shuō hànbǎo chī duō le bú jiànkāng, róngyì biàn pàng. Tāmen liáo dào chī sù, Yuèměi shuō zhè jiā cāntīng de cài bù yóunì. Rúyù juéde, wèile jiànkāng, cài de wèidào búyào tài xián, yě búyào cháng chī zhà de, kǎo de dōngxī. Zuìhòu, Rúyù tíxǐng dàjiā kuài diǎn chī, yīnwèi xiàwǔ hái yào zhǔnbèi kǎoshì.", 
+        vn: "Nguyệt Mỹ và Bạch Như Ngọc dự định đến nhà hàng đồ chay đối diện trường ăn cơm. Ban đầu Martin nghe nhầm, tưởng là 'cửa hàng đồ ăn nhanh', sau đó biết là nhà hàng đồ chay không ăn thịt, cậu ấy cũng muốn đến nếm thử. Trong nhà hàng, Martin lấy rất nhiều thức ăn, cậu ấy nói sau khi đến Đài Loan mới thấy ăn chay không tồi, trước đây thường ăn hamburger. Như Ngọc nói hamburger ăn nhiều không khỏe mạnh, dễ béo lên. Họ nói chuyện về việc ăn chay, Nguyệt Mỹ nói thức ăn của nhà hàng này không ngấy dầu mỡ. Như Ngọc cảm thấy, vì sức khỏe, mùi vị thức ăn đừng quá mặn, cũng đừng thường xuyên ăn đồ chiên, đồ nướng. Cuối cùng, Như Ngọc nhắc mọi người ăn nhanh lên, vì buổi chiều còn phải chuẩn bị thi." 
+      },
+      questions: [
+        {
+          question: { zh: "這家新開的餐廳賣什麼？", vn: "Nhà hàng mới mở này bán gì?" },
+          options: [ { zh: "賣漢堡和薯條", vn: "Bán hamburger và khoai tây chiên" }, { zh: "賣不吃肉的素食", vn: "Bán đồ chay không ăn thịt" }, { zh: "賣越南菜", vn: "Bán thức ăn Việt Nam" } ], correct: 1
+        },
+        {
+          question: { zh: "吃太多漢堡有什麼壞處？", vn: "Ăn quá nhiều hamburger có tác hại gì?" },
+          options: [ { zh: "容易變胖，對健康不好", vn: "Dễ béo lên, không tốt cho sức khỏe" }, { zh: "會變得很瘦", vn: "Sẽ trở nên rất gầy" }, { zh: "會常常生病", vn: "Sẽ thường xuyên bị ốm" } ], correct: 0
+        },
+        {
+          question: { zh: "如玉覺得怎樣的飲食習慣比較健康？", vn: "Như Ngọc cảm thấy thói quen ăn uống như thế nào thì khỏe mạnh hơn?" },
+          options: [ { zh: "常吃很鹹、很油膩的東西", vn: "Thường xuyên ăn đồ rất mặn, rất ngấy dầu mỡ" }, { zh: "味道不要太鹹，少吃炸的、烤的", vn: "Mùi vị đừng quá mặn, ít ăn đồ chiên, nướng" }, { zh: "每天只吃青菜沙拉", vn: "Mỗi ngày chỉ ăn salad rau xanh" } ], correct: 1
+        }
+      ]
+    }
+});
