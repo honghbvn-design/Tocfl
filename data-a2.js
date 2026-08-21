@@ -11037,3 +11037,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 4", // Giữ nguyên "Bài 4" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 高美玲找工作 Cao Mỹ Linh tìm việc làm",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "高美玲來了一年了，按照台灣的法律，她已經可以打工了，所以她的台灣朋友給她介紹了一個在大學語言中心教法文的工作。雖然高美玲覺得自己的經驗還不夠，可是決定去試一試。所以她帶著履歷表到語言中心去跟主任面談。", 
+        py: "Gāo Měilíng lái le yì nián le, ànzhào Táiwān de fǎlǜ, tā yǐjīng kěyǐ dǎgōng le, suǒyǐ tā de Táiwān péngyǒu gěi tā jièshào le yí ge zài dàxué yǔyán zhōngxīn jiāo Fǎwén de gōngzuò. Suīrán Gāo Měilíng juéde zìjǐ de jīngyàn hái búgòu, kěshì juédìng qù shì yí shì. Suǒyǐ tā dàizhe lǚlìbiǎo dào yǔyán zhōngxīn qù gēn zhǔrèn miàntán.", 
+        vn: "Cao Mỹ Linh đã đến được một năm rồi, dựa theo luật pháp của Đài Loan, cô ấy đã có thể đi làm thêm, vì vậy người bạn Đài Loan của cô ấy đã giới thiệu cho cô ấy một công việc dạy tiếng Pháp ở trung tâm ngôn ngữ của trường đại học. Mặc dù Cao Mỹ Linh cảm thấy kinh nghiệm của mình vẫn chưa đủ, nhưng quyết định đi thử một chút. Vì thế cô ấy mang theo sơ yếu lý lịch đến trung tâm ngôn ngữ để phỏng vấn với chủ nhiệm." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "這位主任姓黃，是法國華僑，在台灣住了十幾年，他也在大學工作了十年了。高美玲在辦公室跟他談話的時候，他先問高美玲在法國的工作經驗，再問她在台灣學中文跟生活的情形。黃主任覺得高美玲的經驗很適合這份工作。", 
+        py: "Zhè wèi zhǔrèn xìng Huáng, shì Fàguó huáqiáo, zài Táiwān zhù le shí jǐ nián, tā yě zài dàxué gōngzuò le shí nián le. Gāo Měilíng zài bàngōngshì gēn tā tánhuà de shíhòu, tā xiān wèn Gāo Měilíng zài Fàguó de gōngzuò jīngyàn, zài wèn tā zài Táiwān xué Zhōngwén gēn shēnghuó de qíngxíng. Huáng zhǔrèn juéde Gāo Měilíng de jīngyàn hěn shìhé zhè fèn gōngzuò.", 
+        vn: "Vị chủ nhiệm này họ Hoàng, là Hoa kiều ở Pháp, đã sống ở Đài Loan hơn mười năm, ông ấy cũng đã làm việc ở trường đại học được mười năm rồi. Lúc Cao Mỹ Linh nói chuyện với ông ấy trong văn phòng, ông ấy hỏi trước về kinh nghiệm làm việc của Cao Mỹ Linh ở Pháp, sau đó hỏi thăm tình hình học tiếng Trung và cuộc sống của cô ấy ở Đài Loan. Chủ nhiệm Hoàng cảm thấy kinh nghiệm của Cao Mỹ Linh rất phù hợp với công việc này." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "黃主任也給高美玲介紹了上課的書，還跟她說明了工作環境。然後，黃主任告訴高美玲，薪水按照工作的時間算，每個月的月底發薪水。高美玲覺得這份工作聽起來很不錯，所以馬上就答應了。黃主任對她說，下個月一號就開始上班。高美玲沒想到這次的面談這麼順利。", 
+        py: "Huáng zhǔrèn yě gěi Gāo Měilíng jièshào le shàngkè de shū, hái gēn tā shuōmíng le gōngzuò huánjìng. Ránhòu, Huáng zhǔrèn gàosù Gāo Měilíng, xīnshuǐ ànzhào gōngzuò de shíjiān suàn, měi ge yuè de yuèdǐ fā xīnshuǐ. Gāo Měilíng juéde zhè fèn gōngzuò tīng qǐlái hěn búcuò, suǒyǐ mǎshàng jiù dāyìng le. Huáng zhǔrèn duì tā shuō, xià ge yuè yī hào jiù kāishǐ shàngbān. Gāo Měilíng méi xiǎngdào zhè cì de miàntán zhème shùnlì.", 
+        vn: "Chủ nhiệm Hoàng cũng giới thiệu cho Cao Mỹ Linh sách lên lớp, còn giải thích cho cô ấy về môi trường làm việc. Sau đó, chủ nhiệm Hoàng nói với Cao Mỹ Linh, tiền lương tính theo thời gian làm việc, cuối mỗi tháng sẽ phát lương. Cao Mỹ Linh cảm thấy công việc này nghe có vẻ rất tốt, cho nên đã đồng ý ngay lập tức. Chủ nhiệm Hoàng nói với cô ấy, mùng một tháng sau là bắt đầu đi làm. Cao Mỹ Linh không ngờ buổi phỏng vấn lần này lại thuận lợi như vậy." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "高美玲來了一年了，按照台灣的法律，她已經可以打工了，所以她的台灣朋友給她介紹了一個在大學語言中心教法文的工作。雖然高美玲覺得自己的經驗還不夠，可是決定去試一試。所以她帶著履歷表到語言中心去跟主任面談。\n\n這位主任姓黃，是法國華僑，在台灣住了十幾年，他也在大學工作了十年了。高美玲在辦公室跟他談話的時候，他先問高美玲在法國的工作經驗，再問她在台灣學中文跟生活的情形。黃主任覺得高美玲的經驗很適合這份工作。\n\n黃主任也給高美玲介紹了上課的書，還跟她說明了工作環境。然後，黃主任告訴高美玲，薪水按照工作的時間算，每個月的月底發薪水。高美玲覺得這份工作聽起來很不錯，所以馬上就答應了。黃主任對她說，下個月一號就開始上班。高美玲沒想到這次的面談這麼順利。", 
+        py: "Gāo Měilíng lái le yì nián le, ànzhào Táiwān de fǎlǜ, tā yǐjīng kěyǐ dǎgōng le, suǒyǐ tā de Táiwān péngyǒu gěi tā jièshào le yí ge zài dàxué yǔyán zhōngxīn jiāo Fǎwén de gōngzuò. Suīrán Gāo Měilíng juéde zìjǐ de jīngyàn hái búgòu, kěshì juédìng qù shì yí shì. Suǒyǐ tā dàizhe lǚlìbiǎo dào yǔyán zhōngxīn qù gēn zhǔrèn miàntán.\n\nZhè wèi zhǔrèn xìng Huáng, shì Fàguó huáqiáo, zài Táiwān zhù le shí jǐ nián, tā yě zài dàxué gōngzuò le shí nián le. Gāo Měilíng zài bàngōngshì gēn tā tánhuà de shíhòu, tā xiān wèn Gāo Měilíng zài Fàguó de gōngzuò jīngyàn, zài wèn tā zài Táiwān xué Zhōngwén gēn shēnghuó de qíngxíng. Huáng zhǔrèn juéde Gāo Měilíng de jīngyàn hěn shìhé zhè fèn gōngzuò.\n\nHuáng zhǔrèn yě gěi Gāo Měilíng jièshào le shàngkè de shū, hái gēn tā shuōmíng le gōngzuò huánjìng. Ránhòu, Huáng zhǔrèn gàosù Gāo Měilíng, xīnshuǐ ànzhào gōngzuò de shíjiān suàn, měi ge yuè de yuèdǐ fā xīnshuǐ. Gāo Měilíng juéde zhè fèn gōngzuò tīng qǐlái hěn búcuò, suǒyǐ mǎshàng jiù dāyìng le. Huáng zhǔrèn duì tā shuō, xià ge yuè yī hào jiù kāishǐ shàngbān. Gāo Měilíng méi xiǎngdào zhè cì de miàntán zhème shùnlì.", 
+        vn: "Cao Mỹ Linh đã đến được một năm rồi, dựa theo luật pháp của Đài Loan, cô ấy đã có thể đi làm thêm, vì vậy người bạn Đài Loan của cô ấy đã giới thiệu cho cô ấy một công việc dạy tiếng Pháp ở trung tâm ngôn ngữ của trường đại học. Mặc dù Cao Mỹ Linh cảm thấy kinh nghiệm của mình vẫn chưa đủ, nhưng quyết định đi thử một chút. Vì thế cô ấy mang theo sơ yếu lý lịch đến trung tâm ngôn ngữ để phỏng vấn với chủ nhiệm.\n\nVị chủ nhiệm này họ Hoàng, là Hoa kiều ở Pháp, đã sống ở Đài Loan hơn mười năm, ông ấy cũng đã làm việc ở trường đại học được mười năm rồi. Lúc Cao Mỹ Linh nói chuyện với ông ấy trong văn phòng, ông ấy hỏi trước về kinh nghiệm làm việc của Cao Mỹ Linh ở Pháp, sau đó hỏi thăm tình hình học tiếng Trung và cuộc sống của cô ấy ở Đài Loan. Chủ nhiệm Hoàng cảm thấy kinh nghiệm của Cao Mỹ Linh rất phù hợp với công việc này.\n\nChủ nhiệm Hoàng cũng giới thiệu cho Cao Mỹ Linh sách lên lớp, còn giải thích cho cô ấy về môi trường làm việc. Sau đó, chủ nhiệm Hoàng nói với Cao Mỹ Linh, tiền lương tính theo thời gian làm việc, cuối mỗi tháng sẽ phát lương. Cao Mỹ Linh cảm thấy công việc này nghe có vẻ rất tốt, cho nên đã đồng ý ngay lập tức. Chủ nhiệm Hoàng nói với cô ấy, mùng một tháng sau là bắt đầu đi làm. Cao Mỹ Linh không ngờ buổi phỏng vấn lần này lại thuận lợi như vậy." 
+      },
+      questions: [
+        {
+          question: { zh: "為什麼高美玲現在可以打工了？", vn: "Tại sao Cao Mỹ Linh bây giờ có thể đi làm thêm rồi?" },
+          options: [ { zh: "因為她來台灣一年了，按照法律可以打工", vn: "Vì cô ấy đã đến Đài Loan một năm, theo luật là có thể đi làm" }, { zh: "因為她沒錢了", vn: "Vì cô ấy hết tiền rồi" }, { zh: "因為她認識了主任", vn: "Vì cô ấy quen biết chủ nhiệm" } ], correct: 0
+        },
+        {
+          question: { zh: "高美玲帶了什麼去語言中心面談？", vn: "Cao Mỹ Linh đã mang theo cái gì đến trung tâm ngôn ngữ phỏng vấn?" },
+          options: [ { zh: "護照", vn: "Hộ chiếu" }, { zh: "履歷表", vn: "Sơ yếu lý lịch" }, { zh: "法文書", vn: "Sách tiếng Pháp" } ], correct: 1
+        },
+        {
+          question: { zh: "關於黃主任，下面哪一個是對的？", vn: "Về chủ nhiệm Hoàng, điều nào dưới đây là đúng?" },
+          options: [ { zh: "他是法國人", vn: "Ông ấy là người Pháp" }, { zh: "他在台灣住了十年", vn: "Ông ấy đã sống ở Đài Loan 10 năm" }, { zh: "他是法國華僑，在大學工作了十年了", vn: "Ông ấy là Hoa kiều ở Pháp, đã làm việc ở đại học 10 năm rồi" } ], correct: 2
+        },
+        {
+          question: { zh: "語言中心的薪水什麼時候發？", vn: "Tiền lương của trung tâm ngôn ngữ khi nào phát?" },
+          options: [ { zh: "每個月的月底", vn: "Cuối mỗi tháng" }, { zh: "每個月的一號", vn: "Mùng một mỗi tháng" }, { zh: "每個月的十五號", vn: "Ngày 15 mỗi tháng" } ], correct: 0
+        },
+        {
+          question: { zh: "高美玲覺得這次的面談怎麼樣？", vn: "Cao Mỹ Linh cảm thấy buổi phỏng vấn lần này như thế nào?" },
+          options: [ { zh: "很麻煩", vn: "Rất phiền phức" }, { zh: "很順利", vn: "Rất thuận lợi" }, { zh: "很難", vn: "Rất khó" } ], correct: 1
+        }
+      ]
+    }
+});
