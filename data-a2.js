@@ -10921,3 +10921,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 3", // Giữ nguyên tên "Bài 3" để nối tiếp với phần Hội thoại ở trên
+    title: "Bài讀: 馬安同到師大來學中文 Mã An Đồng đến trường Sư Phạm học tiếng Trung",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬安同到師大來學中文，他選了每天上三個小時的課，下了課要寫作業，還要準備第二天的課。馬安同剛開始學寫中國字，覺得真難，所以每天都練習寫字，常常半夜十二點多才睡覺。雖然有點累，但是他很高興現在會寫很多字了。", 
+        py: "Mǎ Āntóng dào Shīdà lái xué Zhōngwén, tā xuǎn le měitiān shàng sān ge xiǎoshí de kè, xià le kè yào xiě zuòyè, hái yào zhǔnbèi dì èr tiān de kè. Mǎ Āntóng gāng kāishǐ xué xiě Zhōngguózì, juéde zhēn nán, suǒyǐ měitiān dōu liànxí xiězì, chángcháng bànyè shí'èr diǎn duō cái shuìjiào. Suīrán yǒudiǎn lèi, dànshì tā hěn gāoxìng xiànzài huì xiě hěn duō zì le.", 
+        vn: "Mã An Đồng đến trường Sư Phạm học tiếng Trung, anh ấy đã chọn mỗi ngày lên lớp ba tiếng đồng hồ, tan học phải viết bài tập, còn phải chuẩn bị bài của ngày hôm sau. Mã An Đồng mới bắt đầu học viết chữ Trung Quốc, cảm thấy thật sự khó, cho nên mỗi ngày đều luyện tập viết chữ, thường thường nửa đêm mười hai giờ hơn mới đi ngủ. Tuy có chút mệt, nhưng anh ấy rất vui vì bây giờ đã biết viết rất nhiều chữ rồi." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "週末，馬安同比平常輕鬆多了。他有時候搭捷運去貓空喝茶，有時候坐公車去陽明山爬山。爬山的時候，他認識了很多台灣人。台灣人對外國人很好，常常跟馬安同聊天，告訴他一些台灣的文化。", 
+        py: "Zhōumò, Mǎ Āntóng bǐ píngcháng qīngsōng duō le. Tā yǒu shíhòu dā jiéyùn qù Māokōng hē chá, yǒu shíhòu zuò gōngchē qù Yángmíngshān páshān. Páshān de shíhòu, tā rènshí le hěn duō Táiwānrén. Táiwānrén duì wàiguórén hěn hǎo, chángcháng gēn Mǎ Āntóng liáotiān, gàosù tā yìxiē Táiwān de wénhuà.", 
+        vn: "Cuối tuần, Mã An Đồng thoải mái hơn ngày thường rất nhiều. Anh ấy có lúc đi tàu điện ngầm đến Maokong (Miêu Không) uống trà, có lúc ngồi xe buýt đến Dương Minh Sơn leo núi. Lúc leo núi, anh ấy đã quen biết rất nhiều người Đài Loan. Người Đài Loan đối xử với người nước ngoài rất tốt, thường xuyên cùng Mã An Đồng nói chuyện, kể cho anh ấy một số văn hóa của Đài Loan." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬安同有一個語言交換的朋友，他們一有空，就拿著地圖搭捷運去逛逛。安同喜歡看捷運上的廣告，要是有沒學過的字，他就會問那位朋友怎麼說。他覺得到處走走，可以了解台灣人的生活，也可以練習練習中文，哪裡都能學中文，真是不錯。", 
+        py: "Mǎ Āntóng yǒu yí ge yǔyán jiāohuàn de péngyǒu, tāmen yì yǒu kòng, jiù názhe dìtú dā jiéyùn qù guàngguang. Āntóng xǐhuān kàn jiéyùn shàng de guǎnggào, yàoshì yǒu méi xuéguò de zì, tā jiù huì wèn nà wèi péngyǒu zěnme shuō. Tā juéde dàochù zǒuzou, kěyǐ liǎojiě Táiwānrén de shēnghuó, yě kěyǐ liànxí liànxí Zhōngwén, nǎlǐ dōu néng xué Zhōngwén, zhēn shì búcuò.", 
+        vn: "Mã An Đồng có một người bạn trao đổi ngôn ngữ, họ cứ có thời gian rảnh, là lại cầm bản đồ đi tàu điện ngầm đi dạo phố. An Đồng thích xem quảng cáo trên tàu điện ngầm, nếu như có chữ chưa học qua, anh ấy sẽ hỏi người bạn đó nói như thế nào. Anh ấy cảm thấy đi dạo khắp nơi, có thể tìm hiểu cuộc sống của người Đài Loan, cũng có thể luyện tập tiếng Trung, ở đâu cũng đều có thể học tiếng Trung, thật sự rất tuyệt." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "馬安同到師大來學中文，他選了每天上三個小時的課，下了課要寫作業，還要準備第二天的課。馬安同剛開始學寫中國字，覺得真難，所以每天都練習寫字，常常半夜十二點多才睡覺。雖然有點累，但是他很高興現在會寫很多字了。\n\n週末，馬安同比平常輕鬆多了。他有時候搭捷運去貓空喝茶，有時候坐公車去陽明山爬山。爬山的時候，他認識了很多台灣人。台灣人對外國人很好，常常跟馬安同聊天，告訴他一些台灣的文化。\n\n馬安同有一個語言交換的朋友，他們一有空，就拿著地圖搭捷運去逛逛。安同喜歡看捷運上的廣告，要是有沒學過的字，他就會問那位朋友怎麼說。他覺得到處走走，可以了解台灣人的生活，也可以練習練習中文，哪裡都能學中文，真是不錯。", 
+        py: "Mǎ Āntóng dào Shīdà lái xué Zhōngwén, tā xuǎn le měitiān shàng sān ge xiǎoshí de kè, xià le kè yào xiě zuòyè, hái yào zhǔnbèi dì èr tiān de kè. Mǎ Āntóng gāng kāishǐ xué xiě Zhōngguózì, juéde zhēn nán, suǒyǐ měitiān dōu liànxí xiězì, chángcháng bànyè shí'èr diǎn duō cái shuìjiào. Suīrán yǒudiǎn lèi, dànshì tā hěn gāoxìng xiànzài huì xiě hěn duō zì le.\n\nZhōumò, Mǎ Āntóng bǐ píngcháng qīngsōng duō le. Tā yǒu shíhòu dā jiéyùn qù Māokōng hē chá, yǒu shíhòu zuò gōngchē qù Yángmíngshān páshān. Páshān de shíhòu, tā rènshí le hěn duō Táiwānrén. Táiwānrén duì wàiguórén hěn hǎo, chángcháng gēn Mǎ Āntóng liáotiān, gàosù tā yìxiē Táiwān de wénhuà.\n\nMǎ Āntóng yǒu yí ge yǔyán jiāohuàn de péngyǒu, tāmen yì yǒu kòng, jiù názhe dìtú dā jiéyùn qù guàngguang. Āntóng xǐhuān kàn jiéyùn shàng de guǎnggào, yàoshì yǒu méi xuéguò de zì, tā jiù huì wèn nà wèi péngyǒu zěnme shuō. Tā juéde dàochù zǒuzou, kěyǐ liǎojiě Táiwānrén de shēnghuó, yě kěyǐ liànxí liànxí Zhōngwén, nǎlǐ dōu néng xué Zhōngwén, zhēn shì búcuò.", 
+        vn: "Mã An Đồng đến trường Sư Phạm học tiếng Trung, anh ấy đã chọn mỗi ngày lên lớp ba tiếng đồng hồ, tan học phải viết bài tập, còn phải chuẩn bị bài của ngày hôm sau. Mã An Đồng mới bắt đầu học viết chữ Trung Quốc, cảm thấy thật sự khó, cho nên mỗi ngày đều luyện tập viết chữ, thường thường nửa đêm mười hai giờ hơn mới đi ngủ. Tuy có chút mệt, nhưng anh ấy rất vui vì bây giờ đã biết viết rất nhiều chữ rồi.\n\nCuối tuần, Mã An Đồng thoải mái hơn ngày thường rất nhiều. Anh ấy có lúc đi tàu điện ngầm đến Maokong (Miêu Không) uống trà, có lúc ngồi xe buýt đến Dương Minh Sơn leo núi. Lúc leo núi, anh ấy đã quen biết rất nhiều người Đài Loan. Người Đài Loan đối xử với người nước ngoài rất tốt, thường xuyên cùng Mã An Đồng nói chuyện, kể cho anh ấy một số văn hóa của Đài Loan.\n\nMã An Đồng có một người bạn trao đổi ngôn ngữ, họ cứ có thời gian rảnh, là lại cầm bản đồ đi tàu điện ngầm đi dạo phố. An Đồng thích xem quảng cáo trên tàu điện ngầm, nếu như có chữ chưa học qua, anh ấy sẽ hỏi người bạn đó nói như thế nào. Anh ấy cảm thấy đi dạo khắp nơi, có thể tìm hiểu cuộc sống của người Đài Loan, cũng có thể luyện tập tiếng Trung, ở đâu cũng đều có thể học tiếng Trung, thật sự rất tuyệt." 
+      },
+      questions: [
+        {
+          question: { zh: "馬安同每天上幾個小時的課？", vn: "Mã An Đồng mỗi ngày học mấy tiếng đồng hồ?" },
+          options: [ { zh: "兩個小時", vn: "Hai tiếng đồng hồ" }, { zh: "三個小時", vn: "Ba tiếng đồng hồ" }, { zh: "四個小時", vn: "Bốn tiếng đồng hồ" } ], correct: 1
+        },
+        {
+          question: { zh: "馬安同覺得剛開始學寫中國字怎麼樣？", vn: "Mã An Đồng cảm thấy lúc mới bắt đầu học viết chữ Trung Quốc như thế nào?" },
+          options: [ { zh: "很容易", vn: "Rất dễ" }, { zh: "很有意思", vn: "Rất thú vị" }, { zh: "真難", vn: "Thật sự khó" } ], correct: 2
+        },
+        {
+          question: { zh: "週末的時候，馬安同常常去做什麼？", vn: "Vào cuối tuần, Mã An Đồng thường đi làm gì?" },
+          options: [ { zh: "去貓空喝茶或去陽明山爬山", vn: "Đến Maokong uống trà hoặc Dương Minh Sơn leo núi" }, { zh: "在家寫作業", vn: "Ở nhà viết bài tập" }, { zh: "去學校看書", vn: "Đến trường đọc sách" } ], correct: 0
+        },
+        {
+          question: { zh: "馬安同喜歡看哪裡的廣告？", vn: "Mã An Đồng thích xem quảng cáo ở đâu?" },
+          options: [ { zh: "電視上的廣告", vn: "Trên tivi" }, { zh: "公車上的廣告", vn: "Trên xe buýt" }, { zh: "捷運上的廣告", vn: "Trên tàu điện ngầm" } ], correct: 2
+        },
+        {
+          question: { zh: "根據短文，馬安同覺得哪裡可以學中文？", vn: "Theo đoạn văn, Mã An Đồng cảm thấy có thể học tiếng Trung ở đâu?" },
+          options: [ { zh: "只有在語言中心", vn: "Chỉ có ở trung tâm ngôn ngữ" }, { zh: "哪裡都能學中文", vn: "Ở đâu cũng có thể học tiếng Trung" }, { zh: "只有在捷運上", vn: "Chỉ có trên tàu điện ngầm" } ], correct: 1
+        }
+      ]
+    }
+});
