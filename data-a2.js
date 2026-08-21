@@ -11499,3 +11499,65 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 8", // Giữ nguyên "Bài 8" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 學太極拳的好處 Lợi ích của việc học Thái Cực Quyền",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "今天李東健跟馬安同在體育館運動的時候，安同一直跟他說學太極拳的好處，還問他有沒有興趣，下次練習的時候可以帶他一起去。", 
+        py: "Jīntiān Lǐ Dōngjiàn gēn Mǎ Āntóng zài tǐyùguǎn yùndòng de shíhòu, Āntóng yìzhí gēn tā shuō xué Tàijíquán de hǎochù, hái wèn tā yǒu méiyǒu xìngqù, xià cì liànxí de shíhòu kěyǐ dài tā yìqǐ qù.", 
+        vn: "Hôm nay lúc Lý Đông Kiện và Mã An Đồng tập thể dục ở nhà thi đấu, An Đồng cứ nói mãi với anh ấy về những lợi ích của việc học Thái Cực Quyền, còn hỏi anh ấy có hứng thú không, lần tập tới có thể dẫn anh ấy cùng đi." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "東健想起安同剛開始學功夫的時候，常跟他抱怨，師父每次練習以前，都要大家先跑一千公尺，安同總是最後一個跑完，有時候還跑不完。現在，東健發現安同的體力比三個月以前好多了，上了整天的課，安同還是很有精神。", 
+        py: "Dōngjiàn xiǎngqǐ Āntóng gāng kāishǐ xué gōngfū de shíhòu, cháng gēn tā bàoyuàn, shīfù měi cì liànxí yǐqián, dōu yào dàjiā xiān pǎo yìqiān gōngchǐ, Āntóng zǒngshì zuìhòu yí ge pǎo wán, yǒu shíhòu hái pǎo bù wán. Xiànzài, Dōngjiàn fāxiàn Āntóng de tǐlì bǐ sān ge yuè yǐqián hǎo duō le, shàng le zhěng tiān de kè, Āntóng háishì hěn yǒu jīngshén.", 
+        vn: "Đông Kiện nhớ lại lúc An Đồng mới bắt đầu học võ thuật, thường phàn nàn với anh ấy rằng, sư phụ trước mỗi lần tập đều bắt mọi người chạy trước một nghìn mét, An Đồng luôn là người chạy xong cuối cùng, có lúc còn chạy không xong. Bây giờ, Đông Kiện phát hiện thể lực của An Đồng đã tốt hơn rất nhiều so với ba tháng trước, học cả một ngày trời, An Đồng vẫn rất có tinh thần." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "李東健本來以為學功夫要花很多時間，安同可能沒有時間念書了，但是安同為了多練習，每天一下課，就回宿舍念書、做功課。做完了功課，再去練習。雖然練習的時間不少，但是一點都沒影響安同的成績。", 
+        py: "Lǐ Dōngjiàn běnlái yǐwéi xué gōngfū yào huā hěn duō shíjiān, Āntóng kěnéng méiyǒu shíjiān niànshū le, dànshì Āntóng wèile duō liànxí, měitiān yí xiàkè, jiù huí sùshè niànshū, zuò gōngkè. Zuò wán le gōngkè, zài qù liànxí. Suīrán liànxí de shíjiān bù shǎo, dànshì yìdiǎn dōu méi yǐngxiǎng Āntóng de chéngjī.", 
+        vn: "Lý Đông Kiện vốn dĩ tưởng rằng học võ thuật sẽ phải tốn rất nhiều thời gian, An Đồng có thể không có thời gian học bài nữa, nhưng An Đồng vì muốn tập luyện nhiều hơn, mỗi ngày vừa tan học, liền về ký túc xá học bài, làm bài tập. Làm xong bài tập, mới đi luyện tập. Tuy thời gian luyện tập không ít, nhưng không hề ảnh hưởng chút nào đến thành tích của An Đồng." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "李東健看馬安同學了太極拳以後，身體健康了，功課也進步了，覺得練太極拳的好處真不少，決定明天就跟安同說他也要學太極拳。", 
+        py: "Lǐ Dōngjiàn kàn Mǎ Āntóng xué le Tàijíquán yǐhòu, shēntǐ jiànkāng le, gōngkè yě jìnbù le, juéde liàn Tàijíquán de hǎochù zhēn bù shǎo, juédìng míngtiān jiù gēn Āntóng shuō tā yě yào xué Tàijíquán.", 
+        vn: "Lý Đông Kiện thấy Mã An Đồng sau khi học Thái Cực Quyền, cơ thể đã khỏe mạnh, bài vở cũng tiến bộ rồi, cảm thấy lợi ích của việc luyện Thái Cực Quyền thật không ít, quyết định ngày mai sẽ nói với An Đồng rằng anh ấy cũng muốn học Thái Cực Quyền." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "今天李東健跟馬安同在體育館運動的時候，安同一直跟他說學太極拳的好處，還問他有沒有興趣，下次練習的時候可以帶他一起去。\n\n東健想起安同剛開始學功夫的時候，常跟他抱怨，師父每次練習以前，都要大家先跑一千公尺，安同總是最後一個跑完，有時候還跑不完。現在，東健發現安同的體力比三個月以前好多了，上了整天的課，安同還是很有精神。\n\n李東健本來以為學功夫要花很多時間，安同可能沒有時間念書了，但是安同為了多練習，每天一下課，就回宿舍念書、做功課。做完了功課，再去練習。雖然練習的時間不少，但是一點都沒影響安同的成績。\n\n李東健看馬安同學了太極拳以後，身體健康了，功課也進步了，覺得練太極拳的好處真不少，決定明天就跟安同說他也要學太極拳。", 
+        py: "Jīntiān Lǐ Dōngjiàn gēn Mǎ Āntóng zài tǐyùguǎn yùndòng de shíhòu, Āntóng yìzhí gēn tā shuō xué Tàijíquán de hǎochù, hái wèn tā yǒu méiyǒu xìngqù, xià cì liànxí de shíhòu kěyǐ dài tā yìqǐ qù.\n\nDōngjiàn xiǎngqǐ Āntóng gāng kāishǐ xué gōngfū de shíhòu, cháng gēn tā bàoyuàn, shīfù měi cì liànxí yǐqián, dōu yào dàjiā xiān pǎo yìqiān gōngchǐ, Āntóng zǒngshì zuìhòu yí ge pǎo wán, yǒu shíhòu hái pǎo bù wán. Xiànzài, Dōngjiàn fāxiàn Āntóng de tǐlì bǐ sān ge yuè yǐqián hǎo duō le, shàng le zhěng tiān de kè, Āntóng háishì hěn yǒu jīngshén.\n\nLǐ Dōngjiàn běnlái yǐwéi xué gōngfū yào huā hěn duō shíjiān, Āntóng kěnéng méiyǒu shíjiān niànshū le, dànshì Āntóng wèile duō liànxí, měitiān yí xiàkè, jiù huí sùshè niànshū, zuò gōngkè. Zuò wán le gōngkè, zài qù liànxí. Suīrán liànxí de shíjiān bù shǎo, dànshì yìdiǎn dōu méi yǐngxiǎng Āntóng de chéngjī.\n\nLǐ Dōngjiàn kàn Mǎ Āntóng xué le Tàijíquán yǐhòu, shēntǐ jiànkāng le, gōngkè yě jìnbù le, juéde liàn Tàijíquán de hǎochù zhēn bù shǎo, juédìng míngtiān jiù gēn Āntóng shuō tā yě yào xué Tàijíquán.", 
+        vn: "Hôm nay lúc Lý Đông Kiện và Mã An Đồng tập thể dục ở nhà thi đấu, An Đồng cứ nói mãi với anh ấy về những lợi ích của việc học Thái Cực Quyền, còn hỏi anh ấy có hứng thú không, lần tập tới có thể dẫn anh ấy cùng đi.\n\nĐông Kiện nhớ lại lúc An Đồng mới bắt đầu học võ thuật, thường phàn nàn với anh ấy rằng, sư phụ trước mỗi lần tập đều bắt mọi người chạy trước một nghìn mét, An Đồng luôn là người chạy xong cuối cùng, có lúc còn chạy không xong. Bây giờ, Đông Kiện phát hiện thể lực của An Đồng đã tốt hơn rất nhiều so với ba tháng trước, học cả một ngày trời, An Đồng vẫn rất có tinh thần.\n\nLý Đông Kiện vốn dĩ tưởng rằng học võ thuật sẽ phải tốn rất nhiều thời gian, An Đồng có thể không có thời gian học bài nữa, nhưng An Đồng vì muốn tập luyện nhiều hơn, mỗi ngày vừa tan học, liền về ký túc xá học bài, làm bài tập. Làm xong bài tập, mới đi luyện tập. Tuy thời gian luyện tập không ít, nhưng không hề ảnh hưởng chút nào đến thành tích của An Đồng.\n\nLý Đông Kiện thấy Mã An Đồng sau khi học Thái Cực Quyền, cơ thể đã khỏe mạnh, bài vở cũng tiến bộ rồi, cảm thấy lợi ích của việc luyện Thái Cực Quyền thật không ít, quyết định ngày mai sẽ nói với An Đồng rằng anh ấy cũng muốn học Thái Cực Quyền." 
+      },
+      questions: [
+        {
+          question: { zh: "安同剛開始學功夫的時候，常跟東健抱怨什麼？", vn: "Lúc An Đồng mới bắt đầu học võ thuật, thường phàn nàn điều gì với Đông Kiện?" },
+          options: [ { zh: "師父太兇了", vn: "Sư phụ quá dữ" }, { zh: "每次練習以前都要先跑一千公尺", vn: "Trước mỗi lần tập đều phải chạy một nghìn mét" }, { zh: "學費太貴了", vn: "Học phí quá đắt" } ], correct: 1
+        },
+        {
+          question: { zh: "安同現在的體力怎麼樣？", vn: "Thể lực hiện tại của An Đồng như thế nào?" },
+          options: [ { zh: "比三個月以前好多了，上了整天的課還是很有精神", vn: "Tốt hơn nhiều so với ba tháng trước, học cả một ngày vẫn rất có tinh thần" }, { zh: "很差，跑不完一千公尺", vn: "Rất kém, chạy không xong một nghìn mét" }, { zh: "常常生病", vn: "Thường xuyên bị ốm" } ], correct: 0
+        },
+        {
+          question: { zh: "安同為了多練習太極拳，每天下課以後做什麼？", vn: "Để luyện tập Thái Cực Quyền nhiều hơn, mỗi ngày sau khi tan học An Đồng làm gì?" },
+          options: [ { zh: "馬上回宿舍睡覺", vn: "Lập tức về ký túc xá ngủ" }, { zh: "先回宿舍念書、做功課，做完了再去練習", vn: "Về ký túc xá học bài, làm bài tập trước, làm xong mới đi luyện tập" }, { zh: "先去運動，然後再寫功課", vn: "Đi tập thể dục trước, sau đó mới viết bài tập" } ], correct: 1
+        },
+        {
+          question: { zh: "安同學了功夫以後，他的成績怎麼樣？", vn: "Sau khi An Đồng học võ thuật, thành tích của cậu ấy ra sao?" },
+          options: [ { zh: "退步了很多", vn: "Thụt lùi rất nhiều" }, { zh: "沒有時間念書，所以成績不好", vn: "Không có thời gian học bài nên thành tích không tốt" }, { zh: "一點都沒影響他的成績", vn: "Không hề ảnh hưởng chút nào đến thành tích của cậu ấy" } ], correct: 2
+        },
+        {
+          question: { zh: "李東健最後決定做什麼？", vn: "Cuối cùng Lý Đông Kiện quyết định làm gì?" },
+          options: [ { zh: "明天跟安同說他也要學太極拳", vn: "Ngày mai nói với An Đồng rằng anh ấy cũng muốn học Thái Cực Quyền" }, { zh: "明天不要去體育館運動了", vn: "Ngày mai không đến nhà thi đấu tập thể dục nữa" }, { zh: "叫安同不要再學太極拳了", vn: "Bảo An Đồng đừng học Thái Cực Quyền nữa" } ], correct: 0
+        }
+      ]
+    }
+});
