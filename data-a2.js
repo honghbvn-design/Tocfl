@@ -10977,3 +10977,63 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 4",
+    title: "Bài 4: 我打工，我教法文 Tôi đi làm thêm, tôi dạy tiếng Pháp",
+    content: [
+      { sp: "主任", gender: "male", zh: "請坐，妳是高美玲嗎？", py: "Qǐng zuò, nǐ shì Gāo Měilíng ma?", vn: "Mời ngồi, bạn là Cao Mỹ Linh phải không?" },
+      { sp: "美玲", gender: "female", zh: "是。您好。", py: "Shì. Nín hǎo.", vn: "Vâng. Chào thầy/cô." },
+      { sp: "主任", gender: "male", zh: "請妳先介紹一下自己。", py: "Qǐng nǐ xiān jièshào yíxià zìjǐ.", vn: "Xin mời bạn tự giới thiệu một chút về bản thân." },
+      { sp: "美玲", gender: "female", zh: "我叫高美玲，是法國人，今年二十八歲，現在在師大學中文。我念大學的時候上過亞洲文化和語言學。", py: "Wǒ jiào Gāo Měilíng, shì Fàguórén, jīnnián èrshíbā suì, xiànzài zài Shīdà xué Zhōngwén. Wǒ niàn dàxué de shíhòu shàngguò Yàzhōu wénhuà hé yǔyánxué.", vn: "Tôi tên là Cao Mỹ Linh, là người Pháp, năm nay 28 tuổi, hiện tại đang học tiếng Trung ở trường Sư Phạm. Lúc tôi học đại học đã từng học qua văn hóa châu Á và ngôn ngữ học." },
+      { sp: "主任", gender: "male", zh: "妳有沒有教法文的經驗？請妳談一談。", py: "Nǐ yǒu méiyǒu jiāo Fǎwén de jīngyàn? Qǐng nǐ tán yì tán.", vn: "Bạn có kinh nghiệm dạy tiếng Pháp không? Xin hãy kể một chút." },
+      { sp: "美玲", gender: "female", zh: "有。我當過語言助教，那時候的學生都是外國人。", py: "Yǒu. Wǒ dāngguò yǔyán zhùjiào, nà shíhòu de xuéshēng dōu shì wàiguórén.", vn: "Có ạ. Tôi đã từng làm trợ giảng ngôn ngữ, học sinh lúc đó đều là người nước ngoài." },
+      { sp: "主任", gender: "male", zh: "妳一個星期能來幾天？", py: "Nǐ yí ge xīngqí néng lái jǐ tiān?", vn: "Một tuần bạn có thể đến mấy ngày?" },
+      { sp: "美玲", gender: "female", zh: "我現在上午學中文，下午兩點以後都可以，但是我希望一個禮拜教三天就好了。", py: "Wǒ xiànzài shàngwǔ xué Zhōngwén, xiàwǔ liǎng diǎn yǐhòu dōu kěyǐ, dànshì wǒ xīwàng yí ge lǐbài jiāo sān tiān jiù hǎo le.", vn: "Bây giờ buổi sáng tôi học tiếng Trung, sau hai giờ chiều đều có thể đến, nhưng tôi hy vọng một tuần dạy ba ngày là được rồi." },
+      { sp: "主任", gender: "male", zh: "妳除了法文、中文，還會什麼語言？", py: "Nǐ chúle Fǎwén, Zhōngwén, hái huì shénme yǔyán?", vn: "Ngoài tiếng Pháp, tiếng Trung ra, bạn còn biết ngôn ngữ nào nữa?" },
+      { sp: "美玲", gender: "female", zh: "我還會說西班牙語和英文。", py: "Wǒ hái huì shuō Xībānyáyǔ hé Yīngwén.", vn: "Tôi còn biết nói tiếng Tây Ban Nha và tiếng Anh." },
+      { sp: "主任", gender: "male", zh: "妳教過西班牙語嗎？", py: "Nǐ jiāoguò Xībānyáyǔ ma?", vn: "Bạn đã từng dạy tiếng Tây Ban Nha chưa?" },
+      { sp: "美玲", gender: "female", zh: "我大學三年級的暑假，當過西班牙語老師。", py: "Wǒ dàxué sān niánjí de shǔjià, dāngguò Xībānyáyǔ lǎoshī.", vn: "Nghỉ hè năm thứ ba đại học, tôi đã từng làm giáo viên tiếng Tây Ban Nha." },
+      { sp: "主任", gender: "male", zh: "妳的工作經驗聽起來很不錯。", py: "Nǐ de gōngzuò jīngyàn tīng qǐlái hěn búcuò.", vn: "Kinh nghiệm làm việc của bạn nghe có vẻ rất tốt." },
+      { sp: "美玲", gender: "female", zh: "謝謝您。對了，我想請教一下，貴中心老師的薪水怎麼算？", py: "Xièxie nín. Duì le, wǒ xiǎng qǐngjiào yíxià, guì zhōngxīn lǎoshī de xīnshuǐ zěnme suàn?", vn: "Cảm ơn thầy. À đúng rồi, tôi muốn thỉnh giáo một chút, tiền lương của giáo viên ở trung tâm mình tính như thế nào ạ?" },
+      { sp: "主任", gender: "male", zh: "我們是按照大學教授的鐘點費算的。薪水跟大學老師的一樣。", py: "Wǒmen shì ànzhào dàxué jiàoshòu de zhōngdiǎn fèi suàn de. Xīnshuǐ gēn dàxué lǎoshī de yíyàng.", vn: "Chúng tôi tính dựa theo mức lương theo giờ của giáo sư đại học. Tiền lương giống với giáo viên đại học." },
+      { sp: "美玲", gender: "female", zh: "我很想試試這份工作。", py: "Wǒ hěn xiǎng shìshi zhè fèn gōngzuò.", vn: "Tôi rất muốn thử sức với công việc này." },
+      { sp: "主任", gender: "male", zh: "歡迎妳，妳下個月一號就可以來嗎？", py: "Huānyíng nǐ, nǐ xià ge yuè yī hào jiù kěyǐ lái ma?", vn: "Hoan nghênh bạn, mùng một tháng sau bạn có thể đến được không?" },
+      { sp: "美玲", gender: "female", zh: "可以的。謝謝。", py: "Kěyǐ de. Xièxie.", vn: "Được ạ. Cảm ơn thầy." }
+    ],
+    clozes: [
+      { sentence: { zh: "我念大學的時候 ______ 過亞洲文化和語言學。", py: "Wǒ niàn dàxué de shíhòu ______ guò Yàzhōu wénhuà hé yǔyánxué.", vn: "Lúc tôi học đại học đã từng ... qua văn hóa châu Á và ngôn ngữ học." }, options: [ { zh: "上", vn: "học/lên" }, { zh: "教", vn: "dạy" }, { zh: "考", vn: "thi" } ], correct: 0 },
+      { sentence: { zh: "我當過語言 ______ ，那時候的學生都是外國人。", py: "Wǒ dāngguò yǔyán ______ , nà shíhòu de xuéshēng dōu shì wàiguórén.", vn: "Tôi đã từng làm ... ngôn ngữ, học sinh lúc đó đều là người nước ngoài." }, options: [ { zh: "主任", vn: "chủ nhiệm" }, { zh: "助教", vn: "trợ giảng" }, { zh: "老師", vn: "giáo viên" } ], correct: 1 },
+      { sentence: { zh: "我還會說 ______ 語和英文。", py: "Wǒ hái huì shuō ______ yǔ hé Yīngwén.", vn: "Tôi còn biết nói tiếng ... và tiếng Anh." }, options: [ { zh: "西班牙", vn: "Tây Ban Nha" }, { zh: "法國", vn: "Pháp" }, { zh: "中國", vn: "Trung Quốc" } ], correct: 0 },
+      { sentence: { zh: "我想請教一下，貴中心老師的 ______ 怎麼算？", py: "Wǒ xiǎng qǐngjiào yíxià, guì zhōngxīn lǎoshī de ______ zěnme suàn?", vn: "Tôi muốn thỉnh giáo một chút, ... của giáo viên ở trung tâm mình tính như thế nào ạ?" }, options: [ { zh: "經驗", vn: "kinh nghiệm" }, { zh: "薪水", vn: "tiền lương" }, { zh: "學費", vn: "học phí" } ], correct: 1 },
+      { sentence: { zh: "我們是按照大學教授的 ______ 費算的。", py: "Wǒmen shì ànzhào dàxué jiàoshòu de ______ fèi suàn de.", vn: "Chúng tôi tính dựa theo phí ... của giáo sư đại học." }, options: [ { zh: "車", vn: "xe" }, { zh: "學", vn: "học" }, { zh: "鐘點", vn: "theo giờ" } ], correct: 2 }
+    ],
+    quizzes: [
+      { question: { zh: "高美玲是哪國人？", vn: "Cao Mỹ Linh là người nước nào?" }, options: [ { zh: "法國人", vn: "Người Pháp" }, { zh: "美國人", vn: "Người Mỹ" }, { zh: "西班牙人", vn: "Người Tây Ban Nha" } ], correct: 0 },
+      { question: { zh: "高美玲希望一個星期教幾天？", vn: "Mỹ Linh hy vọng một tuần dạy mấy ngày?" }, options: [ { zh: "兩天", vn: "Hai ngày" }, { zh: "三天", vn: "Ba ngày" }, { zh: "五天", vn: "Năm ngày" } ], correct: 1 },
+      { question: { zh: "高美玲除了法文和中文，還會說什麼語言？", vn: "Cao Mỹ Linh ngoài tiếng Pháp và tiếng Trung ra, còn biết nói ngôn ngữ nào?" }, options: [ { zh: "日文和英文", vn: "Tiếng Nhật và tiếng Anh" }, { zh: "西班牙語和英文", vn: "Tiếng Tây Ban Nha và tiếng Anh" }, { zh: "德文和英文", vn: "Tiếng Đức và tiếng Anh" } ], correct: 1 },
+      { question: { zh: "語言中心的薪水是怎麼算的？", vn: "Tiền lương của trung tâm ngôn ngữ được tính như thế nào?" }, options: [ { zh: "跟便利商店一樣", vn: "Giống với cửa hàng tiện lợi" }, { zh: "按照大學教授的鐘點費算", vn: "Tính theo mức lương theo giờ của giáo sư đại học" }, { zh: "按照學生的成績算", vn: "Tính theo thành tích của học sinh" } ], correct: 1 },
+      { question: { zh: "高美玲什麼時候開始工作？", vn: "Cao Mỹ Linh khi nào bắt đầu làm việc?" }, options: [ { zh: "明天", vn: "Ngày mai" }, { zh: "下個星期", vn: "Tuần sau" }, { zh: "下個月一號", vn: "Mùng một tháng sau" } ], correct: 2 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "高美玲是法國人，今年二十八歲。她去語言中心找教法文的工作。美玲念大學的時候上過亞洲文化和語言學，也當過語言助教和西班牙語老師，工作經驗很豐富。她希望一個星期教三天法文。主任覺得她的經驗很不錯，而且薪水是按照大學教授的鐘點費算的，所以美玲很想試試這份工作。她下個月一號就會開始去語言中心上班。", 
+        py: "Gāo Měilíng shì Fàguórén, jīnnián èrshíbā suì. Tā qù yǔyán zhōngxīn zhǎo jiāo Fǎwén de gōngzuò. Měilíng niàn dàxué de shíhòu shàngguò Yàzhōu wénhuà hé yǔyánxué, yě dāngguò yǔyán zhùjiào hé Xībānyáyǔ lǎoshī, gōngzuò jīngyàn hěn fēngfù. Tā xīwàng yí ge xīngqī jiāo sān tiān Fǎwén. Zhǔrèn juéde tā de jīngyàn hěn búcuò, érqiě xīnshuǐ shì ànzhào dàxué jiàoshòu de zhōngdiǎn fèi suàn de, suǒyǐ Měilíng hěn xiǎng shìshi zhè fèn gōngzuò. Tā xià ge yuè yī hào jiù huì kāishǐ qù yǔyán zhōngxīn shàngbān.", 
+        vn: "Cao Mỹ Linh là người Pháp, năm nay 28 tuổi. Cô ấy đến trung tâm ngôn ngữ để tìm công việc dạy tiếng Pháp. Lúc Mỹ Linh học đại học đã từng học qua văn hóa châu Á và ngôn ngữ học, cũng từng làm trợ giảng ngôn ngữ và giáo viên tiếng Tây Ban Nha, kinh nghiệm làm việc rất phong phú. Cô ấy hy vọng một tuần dạy tiếng Pháp ba ngày. Chủ nhiệm cảm thấy kinh nghiệm của cô ấy rất tốt, hơn nữa tiền lương được tính dựa theo mức lương theo giờ của giáo sư đại học, cho nên Mỹ Linh rất muốn thử công việc này. Mùng một tháng sau cô ấy sẽ bắt đầu đi làm ở trung tâm ngôn ngữ." 
+      },
+      questions: [
+        {
+          question: { zh: "高美玲去語言中心做什麼？", vn: "Cao Mỹ Linh đến trung tâm ngôn ngữ để làm gì?" },
+          options: [ { zh: "找教法文的工作", vn: "Tìm công việc dạy tiếng Pháp" }, { zh: "學西班牙語", vn: "Học tiếng Tây Ban Nha" }, { zh: "找大學教授", vn: "Tìm giáo sư đại học" } ], correct: 0
+        },
+        {
+          question: { zh: "關於高美玲，下面哪一個是對的？", vn: "Về Cao Mỹ Linh, điều nào dưới đây là đúng?" },
+          options: [ { zh: "她今年三十八歲", vn: "Năm nay cô ấy 38 tuổi" }, { zh: "她以前當過語言助教", vn: "Cô ấy trước đây từng làm trợ giảng ngôn ngữ" }, { zh: "她想每天都去工作", vn: "Cô ấy muốn mỗi ngày đều đi làm" } ], correct: 1
+        },
+        {
+          question: { zh: "語言中心的主任覺得高美玲怎麼樣？", vn: "Chủ nhiệm của trung tâm ngôn ngữ thấy Cao Mỹ Linh như thế nào?" },
+          options: [ { zh: "覺得她不會教書", vn: "Cảm thấy cô ấy không biết dạy học" }, { zh: "覺得她的工作經驗不錯", vn: "Cảm thấy kinh nghiệm làm việc của cô ấy rất tốt" }, { zh: "覺得她應該多學幾種語言", vn: "Cảm thấy cô ấy nên học thêm vài ngôn ngữ nữa" } ], correct: 1
+        }
+      ]
+    }
+});
