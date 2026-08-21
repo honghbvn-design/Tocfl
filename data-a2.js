@@ -11859,3 +11859,65 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 11", // Giữ nguyên "Bài 11" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 馬丁的台灣旅行 Chuyến du lịch Đài Loan của Martin",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬丁利用學期假到台灣中南部去玩了一趟。他先到南部的墾丁去住了三天，然後又到台中玩了兩天，玩得開心極了。", 
+        py: "Mǎdīng lìyòng xuéqíjià dào Táiwān zhōngnánbù qù wán le yí tàng. Tā xiān dào nánbù de Kěndīng qù zhù le sān tiān, ránhòu yòu dào Táizhōng wán le liǎng tiān, wán de kāixīn jí le.", 
+        vn: "Martin tranh thủ kỳ nghỉ học kỳ đi chơi một chuyến ở khu vực miền Trung và miền Nam Đài Loan. Anh ấy đến Khẩn Đinh ở miền Nam ở lại ba ngày trước, sau đó lại đến Đài Trung chơi hai ngày, chơi vô cùng vui vẻ." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "去旅行以前，馬丁把網路上的各種資料都看了一遍。因為夏天觀光客多，很難訂到房間，他就先訂了一家在網路上很多人都說不錯的民宿。沒想到民宿就在海邊，風景比網站上的照片更漂亮，他覺得自己的運氣太好了。", 
+        py: "Qù lǚxíng yǐqián, Mǎdīng bǎ wǎnglù shàng de gèzhǒng zīliào dōu kàn le yí biàn. Yīnwèi xiàtiān guānguāngkè duō, hěn nán dìngdào fángjiān, tā jiù xiān dìng le yì jiā zài wǎnglù shàng hěn duō rén dōu shuō búcuò de mínsù. Méi xiǎngdào mínsù jiù zài hǎibiān, fēngjǐng bǐ wǎngzhàn shàng de zhàopiàn gèng piàoliàng, tā juéde zìjǐ de yùnqì tài hǎo le.", 
+        vn: "Trước khi đi du lịch, Martin đã xem qua một lượt các loại thông tin trên mạng. Bởi vì mùa hè khách du lịch đông, rất khó đặt được phòng, anh ấy liền đặt trước một homestay mà trên mạng rất nhiều người đều nói là không tồi. Không ngờ homestay lại nằm ngay cạnh bờ biển, phong cảnh còn đẹp hơn cả ảnh trên trang web, anh ấy cảm thấy vận may của mình quá tốt rồi." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬丁一到墾丁，就租了摩托車到處逛逛。墾丁除了漂亮的海邊，還有很多熱帶植物。他第一天就把所有的地方都逛了一遍。第二天白天，馬丁去海邊游泳，游累了，就躺在沙灘上曬太陽。因為看見很多人在騎水上摩托車，他也試了試。", 
+        py: "Mǎdīng yì dào Kěndīng, jiù zū le mótuōchē dàochù guàngguang. Kěndīng chúle piàoliàng de hǎibiān, hái yǒu hěn duō rèdài zhíwù. Tā dì yī tiān jiù bǎ suǒyǒu de dìfāng dōu guàng le yí biàn. Dì èr tiān báitiān, Mǎdīng qù hǎibiān yóuyǒng, yóu lèi le, jiù tǎng zài shātān shàng shài tàiyáng. Yīnwèi kànjiàn hěn duō rén zài qí shuǐshàng mótuōchē, tā yě shì le shì.", 
+        vn: "Martin vừa đến Khẩn Đinh, liền thuê xe máy đi dạo khắp nơi. Khẩn Đinh ngoài bờ biển xinh đẹp, còn có rất nhiều thực vật nhiệt đới. Ngày đầu tiên anh ấy đã đi dạo qua một lượt tất cả các nơi. Ban ngày của ngày thứ hai, Martin đi bơi ở bờ biển, bơi mệt rồi, liền nằm trên bãi cát tắm nắng. Bởi vì nhìn thấy rất nhiều người đang lái mô tô nước, anh ấy cũng đã thử một chút." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "黃昏，馬丁逛到墾丁最熱鬧的那條街，看見賣各國食物的餐廳，他選了一家走進去。在餐廳裡，馬丁聽著音樂、喝著啤酒，跟別的觀光客聊聊天，他愛上了這種輕鬆又浪漫的氣氛，好像回到了自己的家鄉。馬丁覺得這一趟旅行真是太值得了。", 
+        py: "Huánghūn, Mǎdīng guàng dào Kěndīng zuì rènào de nà tiáo jiē, kànjiàn mài gè guó shíwù de cāntīng, tā xuǎn le yì jiā zǒu jìnqù. Zài cāntīng lǐ, Mǎdīng tīngzhe yīnyuè, hēzhe píjiǔ, gēn bié de guānguāngkè liáoliáotiān, tā aishàng le zhè zhǒng qīngsōng yòu làngmàn de qìfēn, hǎoxiàng huídào le zìjǐ de jiāxiāng. Mǎdīng juéde zhè yí tàng lǚxíng zhēn shì tài zhídé le.", 
+        vn: "Hoàng hôn, Martin dạo đến con phố náo nhiệt nhất của Khẩn Đinh, nhìn thấy các nhà hàng bán đồ ăn của các nước, anh ấy chọn một quán rồi bước vào. Trong nhà hàng, Martin vừa nghe nhạc, vừa uống bia, cùng những khách du lịch khác nói chuyện phiếm, anh ấy đã phải lòng bầu không khí vừa thư giãn vừa lãng mạn này, giống như được trở về quê hương của mình vậy. Martin cảm thấy chuyến du lịch này thực sự quá xứng đáng rồi." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "馬丁利用學期假到台灣中南部去玩了一趟。他先到南部的墾丁去住了三天，然後又到台中玩了兩天，玩得開心極了。\n\n去旅行以前，馬丁把網路上的各種資料都看了一遍。因為夏天觀光客多，很難訂到房間，他就先訂了一家在網路上很多人都說不錯的民宿。沒想到民宿就在海邊，風景比網站上的照片更漂亮，他覺得自己的運氣太好了。\n\n馬丁一到墾丁，就租了摩托車到處逛逛。墾丁除了漂亮的海邊，還有很多熱帶植物。他第一天就把所有的地方都逛了一遍。第二天白天，馬丁去海邊游泳，游累了，就躺在沙灘上曬太陽。因為看見很多人在騎水上摩托車，他也試了試。\n\n黃昏，馬丁逛到墾丁最熱鬧的那條街，看見賣各國食物的餐廳，他選了一家走進去。在餐廳裡，馬丁聽著音樂、喝著啤酒，跟別的觀光客聊聊天，他愛上了這種輕鬆又浪漫的氣氛，好像回到了自己的家鄉。馬丁覺得這一趟旅行真是太值得了。", 
+        py: "Mǎdīng lìyòng xuéqíjià dào Táiwān zhōngnánbù qù wán le yí tàng. Tā xiān dào nánbù de Kěndīng qù zhù le sān tiān, ránhòu yòu dào Táizhōng wán le liǎng tiān, wán de kāixīn jí le.\n\nQù lǚxíng yǐqián, Mǎdīng bǎ wǎnglù shàng de gèzhǒng zīliào dōu kàn le yí biàn. Yīnwèi xiàtiān guānguāngkè duō, hěn nán dìngdào fángjiān, tā jiù xiān dìng le yì jiā zài wǎnglù shàng hěn duō rén dōu shuō búcuò de mínsù. Méi xiǎngdào mínsù jiù zài hǎibiān, fēngjǐng bǐ wǎngzhàn shàng de zhàopiàn gèng piàoliàng, tā juéde zìjǐ de yùnqì tài hǎo le.\n\nMǎdīng yì dào Kěndīng, jiù zū le mótuōchē dàochù guàngguang. Kěndīng chúle piàoliàng de hǎibiān, hái yǒu hěn duō rèdài zhíwù. Tā dì yī tiān jiù bǎ suǒyǒu de dìfāng dōu guàng le yí biàn. Dì èr tiān báitiān, Mǎdīng qù hǎibiān yóuyǒng, yóu lèi le, jiù tǎng zài shātān shàng shài tàiyáng. Yīnwèi kànjiàn hěn duō rén zài qí shuǐshàng mótuōchē, tā yě shì le shì.\n\nHuánghūn, Mǎdīng guàng dào Kěndīng zuì rènào de nà tiáo jiē, kànjiàn mài gè guó shíwù de cāntīng, tā xuǎn le yì jiā zǒu jìnqù. Zài cāntīng lǐ, Mǎdīng tīngzhe yīnyuè, hēzhe píjiǔ, gēn bié de guānguāngkè liáoliáotiān, tā aishàng le zhè zhǒng qīngsōng yòu làngmàn de qìfēn, hǎoxiàng huídào le zìjǐ de jiāxiāng. Mǎdīng juéde zhè yí tàng lǚxíng zhēn shì tài zhídé le.", 
+        vn: "Martin tranh thủ kỳ nghỉ học kỳ đi chơi một chuyến ở khu vực miền Trung và miền Nam Đài Loan. Anh ấy đến Khẩn Đinh ở miền Nam ở lại ba ngày trước, sau đó lại đến Đài Trung chơi hai ngày, chơi vô cùng vui vẻ.\n\nTrước khi đi du lịch, Martin đã xem qua một lượt các loại thông tin trên mạng. Bởi vì mùa hè khách du lịch đông, rất khó đặt được phòng, anh ấy liền đặt trước một homestay mà trên mạng rất nhiều người đều nói là không tồi. Không ngờ homestay lại nằm ngay cạnh bờ biển, phong cảnh còn đẹp hơn cả ảnh trên trang web, anh ấy cảm thấy vận may của mình quá tốt rồi.\n\nMartin vừa đến Khẩn Đinh, liền thuê xe máy đi dạo khắp nơi. Khẩn Đinh ngoài bờ biển xinh đẹp, còn có rất nhiều thực vật nhiệt đới. Ngày đầu tiên anh ấy đã đi dạo qua một lượt tất cả các nơi. Ban ngày của ngày thứ hai, Martin đi bơi ở bờ biển, bơi mệt rồi, liền nằm trên bãi cát tắm nắng. Bởi vì nhìn thấy rất nhiều người đang lái mô tô nước, anh ấy cũng đã thử một chút.\n\nHoàng hôn, Martin dạo đến con phố náo nhiệt nhất của Khẩn Đinh, nhìn thấy các nhà hàng bán đồ ăn của các nước, anh ấy chọn một quán rồi bước vào. Trong nhà hàng, Martin vừa nghe nhạc, vừa uống bia, cùng những khách du lịch khác nói chuyện phiếm, anh ấy đã phải lòng bầu không khí vừa thư giãn vừa lãng mạn này, giống như được trở về quê hương của mình vậy. Martin cảm thấy chuyến du lịch này thực sự quá xứng đáng rồi." 
+      },
+      questions: [
+        {
+          question: { zh: "為什麼馬丁去旅行以前要先訂房間？", vn: "Tại sao Martin trước khi đi du lịch phải đặt phòng trước?" },
+          options: [ { zh: "因為夏天觀光客多，很難訂到房間", vn: "Vì mùa hè khách du lịch đông, rất khó đặt được phòng" }, { zh: "因為他喜歡住大飯店", vn: "Vì anh ấy thích ở khách sạn lớn" }, { zh: "因為他很有錢", vn: "Vì anh ấy rất có tiền" } ], correct: 0
+        },
+        {
+          question: { zh: "馬丁覺得他訂的民宿怎麼樣？", vn: "Martin cảm thấy homestay anh ấy đặt như thế nào?" },
+          options: [ { zh: "太貴了", vn: "Quá đắt" }, { zh: "風景比網站上的照片更漂亮", vn: "Phong cảnh đẹp hơn cả ảnh trên trang web" }, { zh: "離海邊太遠了", vn: "Cách bờ biển quá xa" } ], correct: 1
+        },
+        {
+          question: { zh: "馬丁一到墾丁，先做了什麼事？", vn: "Martin vừa đến Khẩn Đinh, đã làm việc gì trước tiên?" },
+          options: [ { zh: "去海邊游泳", vn: "Đi bờ biển bơi" }, { zh: "去餐廳喝啤酒", vn: "Đi nhà hàng uống bia" }, { zh: "租了摩托車到處逛逛", vn: "Thuê xe máy đi dạo khắp nơi" } ], correct: 2
+        },
+        {
+          question: { zh: "第二天的白天，馬丁在哪裡曬太陽？", vn: "Ban ngày của ngày thứ hai, Martin tắm nắng ở đâu?" },
+          options: [ { zh: "在沙灘上", vn: "Trên bãi cát" }, { zh: "在民宿的房間裡", vn: "Trong phòng của homestay" }, { zh: "在餐廳裡", vn: "Trong nhà hàng" } ], correct: 0
+        },
+        {
+          question: { zh: "黃昏的時候，馬丁在墾丁覺得怎麼樣？", vn: "Vào lúc hoàng hôn, Martin ở Khẩn Đinh cảm thấy thế nào?" },
+          options: [ { zh: "覺得很熱，想回台北", vn: "Cảm thấy rất nóng, muốn về Đài Bắc" }, { zh: "愛上了那裡輕鬆又浪漫的氣氛，好像回到了家鄉", vn: "Phải lòng bầu không khí thư giãn và lãng mạn ở đó, giống như trở về quê hương" }, { zh: "覺得那裡的食物不好吃", vn: "Cảm thấy thức ăn ở đó không ngon" } ], correct: 1
+        }
+      ]
+    }
+});
