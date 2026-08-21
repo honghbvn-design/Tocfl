@@ -11383,3 +11383,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 7", // Giữ nguyên "Bài 7" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 台灣的垃圾車 Xe rác ở Đài Loan",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "馬安同到台灣的第二天，晚上在房間上網，跟父母聊台灣的情形，他忽然聽見外面有音樂的聲音，可是不知道音樂是從哪裡來的，覺得有一點奇怪，所以從窗戶往外看。他看見很多人拿著袋子往路口走，路口已經站了很多人，才知道是垃圾車的音樂。那輛垃圾車一開過來，大家就走過去把手裡的垃圾丟進去。", 
+        py: "Mǎ Āntóng dào Táiwān de dì èr tiān, wǎnshàng zài fángjiān shàngwǎng, gēn fùmǔ liáo Táiwān de qíngxíng, tā hūrán tīngjiàn wàimiàn yǒu yīnyuè de shēngyīn, kěshì bù zhīdào yīnyuè shì cóng nǎlǐ lái de, juéde yǒu yìdiǎn qíguài, suǒyǐ cóng chuānghù wǎng wài kàn. Tā kànjiàn hěn duō rén názhe dàizi wǎng lùkǒu zǒu, lùkǒu yǐjīng zhàn le hěn duō rén, cái zhīdào shì lèsèchē de yīnyuè. Nà liàng lèsèchē yì kāi guòlái, dàjiā jiù zǒu guòqù bǎ shǒulǐ de lèsè diū jìnqù.", 
+        vn: "Ngày thứ hai Mã An Đồng đến Đài Loan, buổi tối đang lên mạng trong phòng, nói chuyện với bố mẹ về tình hình ở Đài Loan, anh ấy đột nhiên nghe thấy bên ngoài có tiếng âm nhạc, nhưng không biết âm nhạc từ đâu phát ra, cảm thấy có chút kỳ lạ, cho nên nhìn từ cửa sổ ra ngoài. Anh ấy nhìn thấy rất nhiều người cầm túi đi về phía ngã tư, ngã tư đã có rất đông người đứng, mới biết đó là âm nhạc của xe rác. Chiếc xe rác đó vừa lái tới, mọi người liền đi tới vứt rác trong tay vào." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "外國人剛到台北，不知道哪裡可以丟垃圾，也不知道什麼時候可以丟垃圾，馬安同問了台灣人才知道，台北的垃圾車只在一定的時間、一定的地點收垃圾。雖然有點麻煩，但是路上沒有垃圾，對台北的環境比較好。", 
+        py: "Wàiguórén gāng dào Táiběi, bù zhīdào nǎlǐ kěyǐ diū lèsè, yě bù zhīdào shénme shíhòu kěyǐ diū lèsè, Mǎ Āntóng wèn le Táiwānrén cái zhīdào, Táiběi de lèsèchē zhǐ zài yídìng de shíjiān, yídìng de dìdiǎn shōu lèsè. Suīrán yǒudiǎn máfán, dànshì lùshàng méiyǒu lèsè, duì Táiběi de huánjìng bǐjiào hǎo.", 
+        vn: "Người nước ngoài mới đến Đài Bắc, không biết có thể vứt rác ở đâu, cũng không biết khi nào có thể vứt rác, Mã An Đồng hỏi người Đài Loan mới biết, xe rác ở Đài Bắc chỉ thu rác ở thời gian nhất định, địa điểm nhất định. Mặc dù có hơi phiền phức, nhưng trên đường không có rác, đối với môi trường Đài Bắc sẽ tốt hơn." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "為了保護環境，大家都應該做垃圾分類，那些可以再利用的紙、瓶子、塑膠杯都要回收，丟進資源回收桶裡。現在大家都知道，一個乾乾淨淨的城市也是一個進步的城市。", 
+        py: "Wèile bǎohù huánjìng, dàjiā dōu yīnggāi zuò lèsè fēnlèi, nàxiē kěyǐ zài lìyòng de zhǐ, píngzi, sùjiāobēi dōu yào huíshōu, diū jìn zīyuán huíshōu tǒng lǐ. Xiànzài dàjiā dōu zhīdào, yí ge gāngānjìngjìng de chéngshì yě shì yí ge jìnbù de chéngshì.", 
+        vn: "Để bảo vệ môi trường, mọi người đều nên phân loại rác, những loại giấy, chai lọ, cốc nhựa có thể tái sử dụng đó đều phải thu hồi, vứt vào trong thùng tái chế tài nguyên. Bây giờ mọi người đều biết, một thành phố sạch sẽ gọn gàng cũng là một thành phố tiến bộ." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "馬安同到台灣的第二天，晚上在房間上網，跟父母聊台灣的情形，他忽然聽見外面有音樂的聲音，可是不知道音樂是從哪裡來的，覺得有一點奇怪，所以從窗戶往外看。他看見很多人拿著袋子往路口走，路口已經站了很多人，才知道是垃圾車的音樂。那輛垃圾車一開過來，大家就走過去把手裡的垃圾丟進去。\n\n外國人剛到台北，不知道哪裡可以丟垃圾，也不知道什麼時候可以丟垃圾，馬安同問了台灣人才知道，台北的垃圾車只在一定的時間、一定的地點收垃圾。雖然有點麻煩，但是路上沒有垃圾，對台北的環境比較好。\n\n為了保護環境，大家都應該做垃圾分類，那些可以再利用的紙、瓶子、塑膠杯都要回收，丟進資源回收桶裡。現在大家都知道，一個乾乾淨淨的城市也是一個進步的城市。", 
+        py: "Mǎ Āntóng dào Táiwān de dì èr tiān, wǎnshàng zài fángjiān shàngwǎng, gēn fùmǔ liáo Táiwān de qíngxíng, tā hūrán tīngjiàn wàimiàn yǒu yīnyuè de shēngyīn, kěshì bù zhīdào yīnyuè shì cóng nǎlǐ lái de, juéde yǒu yìdiǎn qíguài, suǒyǐ cóng chuānghù wǎng wài kàn. Tā kànjiàn hěn duō rén názhe dàizi wǎng lùkǒu zǒu, lùkǒu yǐjīng zhàn le hěn duō rén, cái zhīdào shì lèsèchē de yīnyuè. Nà liàng lèsèchē yì kāi guòlái, dàjiā jiù zǒu guòqù bǎ shǒulǐ de lèsè diū jìnqù.\n\nWàiguórén gāng dào Táiběi, bù zhīdào nǎlǐ kěyǐ diū lèsè, yě bù zhīdào shénme shíhòu kěyǐ diū lèsè, Mǎ Āntóng wèn le Táiwānrén cái zhīdào, Táiběi de lèsèchē zhǐ zài yídìng de shíjiān, yídìng de dìdiǎn shōu lèsè. Suīrán yǒudiǎn máfán, dànshì lùshàng méiyǒu lèsè, duì Táiběi de huánjìng bǐjiào hǎo.\n\nWèile bǎohù huánjìng, dàjiā dōu yīnggāi zuò lèsè fēnlèi, nàxiē kěyǐ zài lìyòng de zhǐ, píngzi, sùjiāobēi dōu yào huíshōu, diū jìn zīyuán huíshōu tǒng lǐ. Xiànzài dàjiā dōu zhīdào, yí ge gāngānjìngjìng de chéngshì yě shì yí ge jìnbù de chéngshì.", 
+        vn: "Ngày thứ hai Mã An Đồng đến Đài Loan, buổi tối đang lên mạng trong phòng, nói chuyện với bố mẹ về tình hình ở Đài Loan, anh ấy đột nhiên nghe thấy bên ngoài có tiếng âm nhạc, nhưng không biết âm nhạc từ đâu phát ra, cảm thấy có chút kỳ lạ, cho nên nhìn từ cửa sổ ra ngoài. Anh ấy nhìn thấy rất nhiều người cầm túi đi về phía ngã tư, ngã tư đã có rất đông người đứng, mới biết đó là âm nhạc của xe rác. Chiếc xe rác đó vừa lái tới, mọi người liền đi tới vứt rác trong tay vào.\n\nNgười nước ngoài mới đến Đài Bắc, không biết có thể vứt rác ở đâu, cũng không biết khi nào có thể vứt rác, Mã An Đồng hỏi người Đài Loan mới biết, xe rác ở Đài Bắc chỉ thu rác ở thời gian nhất định, địa điểm nhất định. Mặc dù có hơi phiền phức, nhưng trên đường không có rác, đối với môi trường Đài Bắc sẽ tốt hơn.\n\nĐể bảo vệ môi trường, mọi người đều nên phân loại rác, những loại giấy, chai lọ, cốc nhựa có thể tái sử dụng đó đều phải thu hồi, vứt vào trong thùng tái chế tài nguyên. Bây giờ mọi người đều biết, một thành phố sạch sẽ gọn gàng cũng là một thành phố tiến bộ." 
+      },
+      questions: [
+        {
+          question: { zh: "馬安同忽然聽見外面的音樂，覺得怎麼樣？", vn: "Mã An Đồng đột nhiên nghe thấy âm nhạc bên ngoài, cảm thấy thế nào?" },
+          options: [ { zh: "覺得很好聽", vn: "Cảm thấy rất hay" }, { zh: "覺得有一點奇怪", vn: "Cảm thấy có chút kỳ lạ" }, { zh: "覺得很吵", vn: "Cảm thấy rất ồn" } ], correct: 1
+        },
+        {
+          question: { zh: "那些音樂是從哪裡來的？", vn: "Những âm nhạc đó từ đâu phát ra?" },
+          options: [ { zh: "從鄰居家來的", vn: "Từ nhà hàng xóm" }, { zh: "從公園來的", vn: "Từ công viên" }, { zh: "從垃圾車來的", vn: "Từ xe rác" } ], correct: 2
+        },
+        {
+          question: { zh: "台北的垃圾車什麼時候收垃圾？", vn: "Xe rác ở Đài Bắc thu rác khi nào?" },
+          options: [ { zh: "隨時都可以收", vn: "Bất cứ lúc nào cũng có thể thu" }, { zh: "只在一定的時間、一定的地點收", vn: "Chỉ thu ở thời gian nhất định, địa điểm nhất định" }, { zh: "只有早上收", vn: "Chỉ thu vào buổi sáng" } ], correct: 1
+        },
+        {
+          question: { zh: "為了保護環境，大家應該做什麼？", vn: "Để bảo vệ môi trường, mọi người nên làm gì?" },
+          options: [ { zh: "垃圾分類", vn: "Phân loại rác" }, { zh: "買很多垃圾袋", vn: "Mua nhiều túi rác" }, { zh: "不要丟垃圾", vn: "Không vứt rác" } ], correct: 0
+        },
+        {
+          question: { zh: "根據短文，一個進步的城市應該是怎樣的？", vn: "Theo đoạn văn, một thành phố tiến bộ nên như thế nào?" },
+          options: [ { zh: "很大的城市", vn: "Thành phố rất lớn" }, { zh: "乾乾淨淨的城市", vn: "Thành phố sạch sẽ gọn gàng" }, { zh: "有很多外國人的城市", vn: "Thành phố có nhiều người nước ngoài" } ], correct: 1
+        }
+      ]
+    }
+});
