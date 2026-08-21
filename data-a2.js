@@ -11209,3 +11209,62 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 6",
+    title: "Bài 6: 我打算搬到學校附近 Tôi dự định chuyển đến gần trường học",
+    content: [
+      { sp: "美玲", gender: "female", zh: "你在做什麼？要不要到河邊的公園去騎腳踏車？", py: "Nǐ zài zuò shénme? Yào bú yào dào hébiān de gōngyuán qù qí jiǎotàchē?", vn: "Bạn đang làm gì vậy? Có muốn đến công viên bên bờ sông đạp xe không?" },
+      { sp: "東健", gender: "male", zh: "我正在網站上找租房子的資料。", py: "Wǒ zhèngzài wǎngzhàn shàng zhǎo zū fángzi de zīliào.", vn: "Tôi đang tìm thông tin thuê nhà trên trang web." },
+      { sp: "美玲", gender: "female", zh: "我聽說你打算搬家？", py: "Wǒ tīngshuō nǐ dǎsuàn bānjiā?", vn: "Tôi nghe nói bạn dự định chuyển nhà?" },
+      { sp: "東健", gender: "male", zh: "是啊，我想搬到離學校近一點的地方。", py: "Shì a, wǒ xiǎng bāndào lí xuéxiào jìn yìdiǎn de dìfāng.", vn: "Đúng vậy, tôi muốn chuyển đến nơi gần trường học một chút." },
+      { sp: "美玲", gender: "female", zh: "可是我記得你三個月以前才搬到這裡的。", py: "Kěshì wǒ jìde nǐ sān ge yuè yǐqián cái bāndào zhèlǐ de.", vn: "Nhưng tôi nhớ bạn mới chuyển đến đây 3 tháng trước mà." },
+      { sp: "東健", gender: "male", zh: "對，我的合約還沒到期。還好我有一個同學喜歡這個環境，他可以搬到這裡來住。", py: "Duì, wǒ de héyuē hái méi dàoqí. Háihǎo wǒ yǒu yí ge tóngxué xǐhuān zhège huánjìng, tā kěyǐ bāndào zhèlǐ lái zhù.", vn: "Đúng vậy, hợp đồng của tôi vẫn chưa hết hạn. May mà tôi có một người bạn học thích môi trường này, cậu ấy có thể chuyển đến đây ở." },
+      { sp: "美玲", gender: "female", zh: "你想找什麼樣的房子？", py: "Nǐ xiǎng zhǎo shénmeyàng de fángzi?", vn: "Bạn muốn tìm căn nhà như thế nào?" },
+      { sp: "東健", gender: "male", zh: "我先找捷運站附近的房子。還有，環境好、光線好也很重要。", py: "Wǒ xiān zhǎo jiéyùnzhàn fùjìn de fángzi. Háiyǒu, huánjìng hǎo, guāngxiàn hǎo yě hěn zhòngyào.", vn: "Tôi tìm nhà ở gần trạm tàu điện ngầm trước. Ngoài ra, môi trường tốt, ánh sáng tốt cũng rất quan trọng." },
+      { sp: "美玲", gender: "female", zh: "捷運站附近的房子比較貴吧？", py: "Jiéyùnzhàn fùjìn de fángzi bǐjiào guì ba?", vn: "Nhà ở gần trạm tàu điện ngầm khá đắt phải không?" },
+      { sp: "東健", gender: "male", zh: "如果太貴，我再找別的地方。捷運站那麼多，我想應該有合適的。", py: "Rúguǒ tài guì, wǒ zài zhǎo bié de dìfāng. Jiéyùnzhàn nàme duō, wǒ xiǎng yīnggāi yǒu héshì de.", vn: "Nếu như quá đắt, tôi sẽ tìm chỗ khác. Trạm tàu điện ngầm nhiều như vậy, tôi nghĩ chắc là sẽ có chỗ thích hợp." },
+      { sp: "美玲", gender: "female", zh: "如果你搬家了，我就少了一個朋友跟我練習中文。好可惜！", py: "Rúguǒ nǐ bānjiā le, wǒ jiù shǎo le yí ge péngyǒu gēn wǒ liànxí Zhōngwén. Hǎo kěxí!", vn: "Nếu như bạn chuyển nhà rồi, tôi sẽ thiếu mất một người bạn luyện tập tiếng Trung cùng tôi. Thật đáng tiếc!" },
+      { sp: "東健", gender: "male", zh: "我會常來啊。我不會把東西都搬到新家，有一些東西，我會送給朋友或是先放在這裡。", py: "Wǒ huì cháng lái a. Wǒ bú huì bǎ dōngxī dōu bāndào xīn jiā, yǒu yìxiē dōngxī, wǒ huì sònggěi péngyǒu huòshì xiān fàng zài zhèlǐ.", vn: "Tôi sẽ thường xuyên đến mà. Tôi sẽ không chuyển tất cả đồ đạc đến nhà mới, có một số đồ, tôi sẽ tặng cho bạn bè hoặc là để tạm ở đây trước." },
+      { sp: "美玲", gender: "female", zh: "那麼，你要付兩邊的房租啊？", py: "Nàme, nǐ yào fù liǎngbiān de fángzū a?", vn: "Vậy thì, bạn phải trả tiền thuê nhà của cả hai bên sao?" },
+      { sp: "東健", gender: "male", zh: "這裡的房租當然是我同學付，他還願意開車幫我搬家。", py: "Zhèlǐ de fángzū dāngrán shì wǒ tóngxué fù, tā hái yuànyì kāichē bāng wǒ bānjiā.", vn: "Tiền thuê nhà ở đây đương nhiên là bạn học của tôi trả, cậu ấy còn sẵn lòng lái xe giúp tôi chuyển nhà." },
+      { sp: "美玲", gender: "female", zh: "你同學真好！", py: "Nǐ tóngxué zhēn hǎo!", vn: "Bạn học của bạn thật tốt!" },
+      { sp: "東健", gender: "male", zh: "是啊！他是我在台灣最好的朋友。妳再等我一下，我把資料存在隨身碟裡。", py: "Shì a! Tā shì wǒ zài Táiwān zuì hǎo de péngyǒu. Nǐ zài děng wǒ yíxià, wǒ bǎ zīliào cún zài suíshēndié lǐ.", vn: "Đúng vậy! Cậu ấy là người bạn tốt nhất của tôi ở Đài Loan. Bạn đợi tôi một lát nữa nhé, tôi lưu tài liệu vào USB đã." },
+      { sp: "美玲", gender: "female", zh: "慢慢來，不急！等一會兒我們再去騎腳踏車。", py: "Mànman lái, bù jí! Děng yìhuǐ'r wǒmen zài qù qí jiǎotàchē.", vn: "Cứ từ từ, không vội! Đợi một lát nữa chúng ta lại đi đạp xe." }
+    ],
+    clozes: [
+      { sentence: { zh: "我正在網站上找租 ______ 的資料。", py: "Wǒ zhèngzài wǎngzhàn shàng zhǎo zū ______ de zīliào.", vn: "Tôi đang tìm thông tin thuê ... trên trang web." }, options: [ { zh: "車子", vn: "xe cộ" }, { zh: "房子", vn: "nhà" }, { zh: "工作", vn: "công việc" } ], correct: 1 },
+      { sentence: { zh: "對，我的 ______ 還沒到期。", py: "Duì, wǒ de ______ hái méi dàoqí.", vn: "Đúng vậy, ... của tôi vẫn chưa hết hạn." }, options: [ { zh: "合約", vn: "hợp đồng" }, { zh: "薪水", vn: "tiền lương" }, { zh: "時間", vn: "thời gian" } ], correct: 0 },
+      { sentence: { zh: "我先找捷運站 ______ 的房子。", py: "Wǒ xiān zhǎo jiéyùnzhàn ______ de fángzi.", vn: "Tôi tìm nhà ở ... trạm tàu điện ngầm trước." }, options: [ { zh: "裡面", vn: "bên trong" }, { zh: "旁邊", vn: "bên cạnh" }, { zh: "附近", vn: "gần / lân cận" } ], correct: 2 },
+      { sentence: { zh: "這裡的 ______ 當然是我同學付。", py: "Zhèlǐ de ______ dāngrán shì wǒ tóngxué fù.", vn: "... ở đây đương nhiên là bạn học của tôi trả." }, options: [ { zh: "學費", vn: "học phí" }, { zh: "房租", vn: "tiền thuê nhà" }, { zh: "水電", vn: "điện nước" } ], correct: 1 },
+      { sentence: { zh: "我把資料存在 ______ 裡。", py: "Wǒ bǎ zīliào cún zài ______ lǐ.", vn: "Tôi lưu tài liệu vào trong ..." }, options: [ { zh: "隨身碟", vn: "USB" }, { zh: "照相機", vn: "máy ảnh" }, { zh: "手機", vn: "điện thoại" } ], correct: 0 }
+    ],
+    quizzes: [
+      { question: { zh: "東健現在正在做什麼？", vn: "Đông Kiện hiện tại đang làm gì?" }, options: [ { zh: "在騎腳踏車", vn: "Đang đạp xe" }, { zh: "在準備考試", vn: "Đang chuẩn bị thi" }, { zh: "在網路上找租房子的資料", vn: "Đang tìm thông tin thuê nhà trên mạng" } ], correct: 2 },
+      { question: { zh: "東健為什麼想搬家？", vn: "Tại sao Đông Kiện muốn chuyển nhà?" }, options: [ { zh: "因為他想搬到離學校近一點的地方", vn: "Vì anh ấy muốn chuyển đến nơi gần trường học hơn một chút" }, { zh: "因為他現在的房子太貴了", vn: "Vì căn nhà hiện tại của anh ấy quá đắt" }, { zh: "因為他不喜歡現在的環境", vn: "Vì anh ấy không thích môi trường hiện tại" } ], correct: 0 },
+      { question: { zh: "東健想找什麼樣的房子？", vn: "Đông Kiện muốn tìm căn nhà như thế nào?" }, options: [ { zh: "便宜的房子", vn: "Căn nhà rẻ" }, { zh: "捷運站附近、環境好、光線好的房子", vn: "Căn nhà gần trạm tàu điện ngầm, môi trường tốt, ánh sáng tốt" }, { zh: "很大的房子", vn: "Căn nhà rất lớn" } ], correct: 1 },
+      { question: { zh: "東健舊家的房租以後誰來付？", vn: "Tiền thuê nhà cũ của Đông Kiện sau này ai trả?" }, options: [ { zh: "東健自己付", vn: "Đông Kiện tự trả" }, { zh: "美玲付", vn: "Mỹ Linh trả" }, { zh: "東健的同學付", vn: "Bạn học của Đông Kiện trả" } ], correct: 2 },
+      { question: { zh: "等一下東健和美玲要去哪裡？", vn: "Một lát nữa Đông Kiện và Mỹ Linh muốn đi đâu?" }, options: [ { zh: "去看房子", vn: "Đi xem nhà" }, { zh: "去公園騎腳踏車", vn: "Đến công viên đạp xe" }, { zh: "去捷運站", vn: "Đi đến trạm tàu điện ngầm" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "東健正在網路上找租房子的資料，他想搬到離學校近一點的地方。雖然他三個月前才搬到現在的地方，合約還沒到期，但幸好有一個同學喜歡這個環境，願意搬過來住並付房租，還會開車幫他搬家。東健想找捷運站附近、環境和光線都好的房子。他把找好的資料存在隨身碟裡，等一下要跟美玲去河邊的公園騎腳踏車。", 
+        py: "Dōngjiàn zhèngzài wǎnglù shàng zhǎo zū fángzi de zīliào, tā xiān bāndào lí xuéxiào jìn yìdiǎn de dìfāng. Suīrán tā sān ge yuè qián cái bāndào xiànzài de dìfāng, héyuē hái méi dàoqí, dàn xìnghǎo yǒu yí ge tóngxué xǐhuān zhège huánjìng, yuànyì bān guòlái zhù bìng fù fángzū, hái huì kāichē bāng tā bānjiā. Dōngjiàn xiǎng zhǎo jiéyùnzhàn fùjìn, huánjìng hé guāngxiàn dōu hǎo de fángzi. Tā bǎ zhǎohǎo de zīliào cún zài suíshēndié lǐ, děng yíxià yào gēn Měilíng qù hébiān de gōngyuán qí jiǎotàchē.", 
+        vn: "Đông Kiện đang tìm thông tin thuê nhà trên mạng, anh ấy muốn chuyển đến nơi gần trường học hơn một chút. Mặc dù anh ấy mới chuyển đến chỗ hiện tại 3 tháng trước, hợp đồng vẫn chưa hết hạn, nhưng may thay có một người bạn học thích môi trường này, sẵn sàng chuyển qua ở và trả tiền thuê nhà, còn lái xe giúp anh ấy chuyển nhà. Đông Kiện muốn tìm căn nhà gần trạm tàu điện ngầm, môi trường và ánh sáng đều tốt. Anh ấy lưu thông tin đã tìm được vào USB, một lát nữa sẽ cùng Mỹ Linh đến công viên bên bờ sông đạp xe." 
+      },
+      questions: [
+        {
+          question: { zh: "東健想搬到哪裡？", vn: "Đông Kiện muốn chuyển đến đâu?" },
+          options: [ { zh: "離學校近一點的地方", vn: "Nơi gần trường học hơn một chút" }, { zh: "離美玲家近一點的地方", vn: "Nơi gần nhà Mỹ Linh hơn một chút" }, { zh: "離公園近一點的地方", vn: "Nơi gần công viên hơn một chút" } ], correct: 0
+        },
+        {
+          question: { zh: "誰會幫東健付舊家的房租？", vn: "Ai sẽ giúp Đông Kiện trả tiền thuê căn nhà cũ?" },
+          options: [ { zh: "美玲", vn: "Mỹ Linh" }, { zh: "東健的同學", vn: "Bạn học của Đông Kiện" }, { zh: "東健的父母", vn: "Bố mẹ của Đông Kiện" } ], correct: 1
+        },
+        {
+          question: { zh: "他們等一下要去哪裡？", vn: "Họ một lát nữa muốn đi đâu?" },
+          options: [ { zh: "去新家", vn: "Đến nhà mới" }, { zh: "去公園騎腳踏車", vn: "Đến công viên đạp xe" }, { zh: "去買隨身碟", vn: "Đi mua USB" } ], correct: 1
+        }
+      ]
+    }
+});
