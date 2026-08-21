@@ -11153,3 +11153,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 5", // Giữ nguyên "Bài 5" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 參加婚禮 Tham gia hôn lễ",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "李明華請安同和美玲去參加他妹妹的婚禮，這是安同他們第一次去吃喜酒。李明華告訴他們，在台灣，要結婚的人大部分都會找一個好日子，請親戚、朋友一起吃飯，熱熱鬧鬧地慶祝這件喜事。", 
+        py: "Lǐ Mínghuá qǐng Āntóng hé Měilíng qù cānjiā tā mèimei de hūnlǐ, zhè shì Āntóng tāmen dì yí cì qù chī xǐjiǔ. Lǐ Mínghuá gàosù tāmen, zài Táiwān, yào jiéhūn de rén dà bùfèn dōu huì zhǎo yí ge hǎo rìzi, qǐng qīnqī, péngyǒu yìqǐ chīfàn, rèrenàonào de qìngzhù zhè jiàn xǐshì.", 
+        vn: "Lý Minh Hoa mời Antoine và Mỹ Linh đến tham dự hôn lễ của em gái anh ấy, đây là lần đầu tiên nhóm Antoine đi ăn cưới. Lý Minh Hoa nói với họ, ở Đài Loan, phần lớn những người sắp kết hôn đều sẽ tìm một ngày tốt lành, mời họ hàng, bạn bè cùng nhau ăn bữa cơm, náo nhiệt ăn mừng chuyện vui này." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "請客的那天，新郎、新娘，還有來吃喜酒的客人都穿得漂漂亮亮的。來參加的客人都會準備一個紅包送新人。等客人都到了，喜宴就開始了。大家吃了一會兒，有的人忙著到處敬酒，有的人忙著跟朋友聊天，大人有說有笑，小孩有吃有喝，熱鬧得不得了。大家吃著吃著，新郎、新娘和他們的父母就來敬酒了。客人也會祝新人百年好合、早生貴子。", 
+        py: "Qǐngkè de nà tiān, xīnláng, xīnniáng, hái yǒu lái chī xǐjiǔ de kèrén dōu chuān de piàopiàoliàngliàng de. Lái cānjiā de kèrén dōu huì zhǔnbèi yí ge hóngbāo sòng xīnrén. Děng kèrén dōu dào le, xǐyàn jiù kāishǐ le. Dàjiā chī le yìhuǐ'r, yǒu de rén mángzhe dàochù jìngjiǔ, yǒu de rén mángzhe gēn péngyǒu liáotiān, dàrén yǒu shuō yǒu xiào, xiǎohái yǒu chī yǒu hē, rènào de bùdéliǎo. Dàjiā chīzhe chīzhe, xīnláng, xīnniáng hé tāmen de fùmǔ jiù lái jìngjiǔ le. Kèrén yě huì zhù xīnrén bǎinián hǎohé, zǎoshēng guìzǐ.", 
+        vn: "Vào ngày đãi khách, chú rể, cô dâu, và cả những vị khách đến ăn cưới đều ăn mặc thật lộng lẫy. Khách đến tham dự đều sẽ chuẩn bị một phong bao lì xì đỏ tặng cho cô dâu chú rể. Đợi khách khứa đến đông đủ, tiệc cưới liền bắt đầu. Mọi người ăn một lát, có người thì bận rộn đi khắp nơi kính rượu, có người bận rộn nói chuyện với bạn bè, người lớn nói nói cười cười, trẻ con có ăn có uống, vô cùng náo nhiệt. Mọi người đang ăn, chú rể, cô dâu và bố mẹ của họ liền đến kính rượu. Khách cũng sẽ chúc cô dâu chú rể trăm năm hạnh phúc, sớm sinh quý tử." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "等喜酒吃得差不多了，新娘會換另外一件漂亮的禮服，跟新郎拿著糖在門口送客人離開。這個時候很多人會跟新人一起照相，再多說幾句祝福的話。等客人都回去了，喜宴就結束了。", 
+        py: "Děng xǐjiǔ chī de chàbùduō le, xīnniáng huì huàn lìngwài yí jiàn piàoliàng de lǐfú, gēn xīnláng názhe táng zài ménkǒu sòng kèrén líkāi. Zhège shíhòu hěn duō rén huì gēn xīnrén yìqǐ zhàoxiàng, zài duō shuō jǐ jù zhùfú de huà. Děng kèrén dōu huíqù le, xǐyàn jiù jiéshù le.", 
+        vn: "Đợi khi tiệc cưới ăn gần xong, cô dâu sẽ thay một bộ lễ phục xinh đẹp khác, cùng chú rể cầm kẹo đứng ở cửa tiễn khách ra về. Lúc này rất nhiều người sẽ cùng cô dâu chú rể chụp ảnh, nói thêm vài lời chúc phúc. Đợi khách khứa đều về hết, tiệc cưới liền kết thúc." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "李明華請安同和美玲去參加他妹妹的婚禮，這是安同他們第一次去吃喜酒。李明華告訴他們，在台灣，要結婚的人大部分都會找一個好日子，請親戚、朋友一起吃飯，熱熱鬧鬧地慶祝這件喜事。\n\n請客的那天，新郎、新娘，還有來吃喜酒的客人都穿得漂漂亮亮的。來參加的客人都會準備一個紅包送新人。等客人都到了，喜宴就開始了。大家吃了一會兒，有的人忙著到處敬酒，有的人忙著跟朋友聊天，大人有說有笑，小孩有吃有喝，熱鬧得不得了。大家吃著吃著，新郎、新娘和他們的父母就來敬酒了。客人也會祝新人百年好合、早生貴子。\n\n等喜酒吃得差不多了，新娘會換另外一件漂亮的禮服，跟新郎拿著糖在門口送客人離開。這個時候很多人會跟新人一起照相，再多說幾句祝福的話。等客人都回去了，喜宴就結束了。", 
+        py: "Lǐ Mínghuá qǐng Āntóng hé Měilíng qù cānjiā tā mèimei de hūnlǐ, zhè shì Āntóng tāmen dì yí cì qù chī xǐjiǔ. Lǐ Mínghuá gàosù tāmen, zài Táiwān, yào jiéhūn de rén dà bùfèn dōu huì zhǎo yí ge hǎo rìzi, qǐng qīnqī, péngyǒu yìqǐ chīfàn, rèrenàonào de qìngzhù zhè jiàn xǐshì.\n\nQǐngkè de nà tiān, xīnláng, xīnniáng, hái yǒu lái chī xǐjiǔ de kèrén dōu chuān de piàopiàoliàngliàng de. Lái cānjiā de kèrén dōu huì zhǔnbèi yí ge hóngbāo sòng xīnrén. Děng kèrén dōu dào le, xǐyàn jiù kāishǐ le. Dàjiā chī le yìhuǐ'r, yǒu de rén mángzhe dàochù jìngjiǔ, yǒu de rén mángzhe gēn péngyǒu liáotiān, dàrén yǒu shuō yǒu xiào, xiǎohái yǒu chī yǒu hē, rènào de bùdéliǎo. Dàjiā chīzhe chīzhe, xīnláng, xīnniáng hé tāmen de fùmǔ jiù lái jìngjiǔ le. Kèrén yě huì zhù xīnrén bǎinián hǎohé, zǎoshēng guìzǐ.\n\nDěng xǐjiǔ chī de chàbùduō le, xīnniáng huì huàn lìngwài yí jiàn piàoliàng de lǐfú, gēn xīnláng názhe táng zài ménkǒu sòng kèrén líkāi. Zhège shíhòu hěn duō rén huì gēn xīnrén yìqǐ zhàoxiàng, zài duō shuō jǐ jù zhùfú de huà. Děng kèrén dōu huíqù le, xǐyàn jiù jiéshù le.", 
+        vn: "Lý Minh Hoa mời Antoine và Mỹ Linh đến tham dự hôn lễ của em gái anh ấy, đây là lần đầu tiên nhóm Antoine đi ăn cưới. Lý Minh Hoa nói với họ, ở Đài Loan, phần lớn những người sắp kết hôn đều sẽ tìm một ngày tốt lành, mời họ hàng, bạn bè cùng nhau ăn bữa cơm, náo nhiệt ăn mừng chuyện vui này.\n\nVào ngày đãi khách, chú rể, cô dâu, và cả những vị khách đến ăn cưới đều ăn mặc thật lộng lẫy. Khách đến tham dự đều sẽ chuẩn bị một phong bao lì xì đỏ tặng cho cô dâu chú rể. Đợi khách khứa đến đông đủ, tiệc cưới liền bắt đầu. Mọi người ăn một lát, có người thì bận rộn đi khắp nơi kính rượu, có người bận rộn nói chuyện với bạn bè, người lớn nói nói cười cười, trẻ con có ăn có uống, vô cùng náo nhiệt. Mọi người đang ăn, chú rể, cô dâu và bố mẹ của họ liền đến kính rượu. Khách cũng sẽ chúc cô dâu chú rể trăm năm hạnh phúc, sớm sinh quý tử.\n\nĐợi khi tiệc cưới ăn gần xong, cô dâu sẽ thay một bộ lễ phục xinh đẹp khác, cùng chú rể cầm kẹo đứng ở cửa tiễn khách ra về. Lúc này rất nhiều người sẽ cùng cô dâu chú rể chụp ảnh, nói thêm vài lời chúc phúc. Đợi khách khứa đều về hết, tiệc cưới liền kết thúc." 
+      },
+      questions: [
+        {
+          question: { zh: "根據短文，在台灣要結婚的人會做什麼？", vn: "Theo đoạn văn, người sắp kết hôn ở Đài Loan sẽ làm gì?" },
+          options: [ { zh: "找一個好日子請客", vn: "Tìm một ngày tốt để đãi khách" }, { zh: "馬上生小孩", vn: "Sinh con ngay lập tức" }, { zh: "只請朋友吃飯", vn: "Chỉ mời bạn bè ăn cơm" } ], correct: 0
+        },
+        {
+          question: { zh: "來參加喜宴的客人通常會準備什麼？", vn: "Khách đến tham dự tiệc cưới thường sẽ chuẩn bị gì?" },
+          options: [ { zh: "糖果", vn: "Kẹo" }, { zh: "紅包", vn: "Phong bao lì xì đỏ" }, { zh: "照相機", vn: "Máy ảnh" } ], correct: 1
+        },
+        {
+          question: { zh: "喜宴上的氣氛怎麼樣？", vn: "Không khí trong tiệc cưới như thế nào?" },
+          options: [ { zh: "熱鬧得不得了", vn: "Vô cùng náo nhiệt" }, { zh: "很安靜", vn: "Rất yên tĩnh" }, { zh: "很無聊", vn: "Rất nhàm chán" } ], correct: 0
+        },
+        {
+          question: { zh: "客人會跟新人說什麼祝福的話？", vn: "Khách sẽ nói những lời chúc phúc gì với cô dâu chú rể?" },
+          options: [ { zh: "生日快樂", vn: "Sinh nhật vui vẻ" }, { zh: "新年快樂", vn: "Năm mới vui vẻ" }, { zh: "百年好合、早生貴子", vn: "Trăm năm hạnh phúc, sớm sinh quý tử" } ], correct: 2
+        },
+        {
+          question: { zh: "喜酒吃得差不多的時候，新郎新娘會做什麼？", vn: "Khi tiệc cưới ăn gần xong, chú rể cô dâu sẽ làm gì?" },
+          options: [ { zh: "去別的地方喝酒", vn: "Đi chỗ khác uống rượu" }, { zh: "拿著糖在門口送客人離開", vn: "Cầm kẹo đứng ở cửa tiễn khách ra về" }, { zh: "在門口唱歌", vn: "Hát ở cửa" } ], correct: 1
+        }
+      ]
+    }
+});
