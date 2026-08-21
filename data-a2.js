@@ -12291,3 +12291,65 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 15",
+    title: "Hội thoại 15: 過春節 Đón Tết",
+    content: [
+      { sp: "馬丁", gender: "male", zh: "陳伯伯、陳伯母，謝謝你們請我來吃年夜飯，她是林愛麗。", py: "Chén bóbo, Chén bómǔ, xièxie nǐmen qǐng wǒ lái chī niányèfàn, tā shì Lín Àilì.", vn: "Bác trai Trần, bác gái Trần, cảm ơn hai bác đã mời cháu đến ăn bữa cơm tất niên, cô ấy là Lâm Alice." },
+      { sp: "愛麗", gender: "female", zh: "陳伯伯、陳伯母好！不好意思，打擾你們了。", py: "Chén bóbo, Chén bómǔ hǎo! Bù hǎoyìsi, dǎrǎo nǐmen le.", vn: "Cháu chào bác trai, bác gái ạ! Ngại quá, làm phiền hai bác rồi." },
+      { sp: "陳先生", gender: "male", zh: "過年就是要熱熱鬧鬧的，人越多越有過年的氣氛。", py: "Guònián jiùshì yào rèrenàonào de, rén yuè duō yuè yǒu guònián de qìfēn.", vn: "Đón năm mới là phải náo nhiệt, người càng đông càng có không khí Tết." },
+      { sp: "陳太太", gender: "female", zh: "我們女兒在國外念書，不能回來跟我們一起吃年夜飯，還好你們來陪我們圍爐。", py: "Wǒmen nǚ'ér zài guówài niànshū, bù néng huílái gēn wǒmen yìqǐ chī niányèfàn, háihǎo nǐmen lái péi wǒmen wéilú.", vn: "Con gái chúng tôi đang học ở nước ngoài, không thể về ăn bữa cơm tất niên cùng chúng tôi, may mà có các cháu đến cùng chúng tôi quây quần." },
+      { sp: "馬丁", gender: "male", zh: "「圍爐」是什麼意思？", py: "'Wéilú' shì shénme yìsi?", vn: "«Vi lô» (Quây quần bên bếp lò) có nghĩa là gì ạ?" },
+      { sp: "陳先生", gender: "male", zh: "「圍爐」就是除夕夜全家一起吃年夜飯。", py: "'Wéilú' jiùshì chúxìyè quánjiā yìqǐ chī niányèfàn.", vn: "«Vi lô» chính là đêm giao thừa cả nhà cùng nhau ăn bữa cơm tất niên." },
+      { sp: "愛麗", gender: "female", zh: "我在加拿大的時候，每年過年都跟父母、親戚一起吃年夜飯。吃了飯，一家人就開開心心地聊天，一直聊到半夜。", py: "Wǒ zài Jiānádà de shíhòu, měi nián guònián dōu gēn fùmǔ, qīnqī yìqǐ chī niányèfàn. Chī le fàn, yì jiā rén jiù kāikāixīnxīn de liáotiān, yìzhí liáo dào bànyè.", vn: "Lúc cháu ở Canada, mỗi năm đón Tết đều cùng bố mẹ, họ hàng ăn bữa cơm tất niên. Ăn cơm xong, cả nhà sẽ vui vẻ nói chuyện, nói mãi đến nửa đêm." },
+      { sp: "馬丁", gender: "male", zh: "有那麼多事能聊啊！", py: "Yǒu nàme duō shì néng liáo a!", vn: "Có nhiều chuyện để nói thế cơ à!" },
+      { sp: "陳太太", gender: "female", zh: "很多人在離家很遠的地方工作、念書，不能常跟家人見面。過年大家都回來了，當然有說不完的話。", py: "Hěn duō rén zài lí jiā hěn yuǎn de dìfāng gōngzuò, niànshū, bù néng cháng gēn jiārén jiànmiàn. Guònián dàjiā dōu huílái le, dāngrán yǒu shuō bù wán de huà.", vn: "Rất nhiều người làm việc, học tập ở nơi cách nhà rất xa, không thể thường xuyên gặp mặt người nhà. Năm mới mọi người đều về rồi, đương nhiên là có nói không hết chuyện." },
+      { sp: "愛麗", gender: "female", zh: "對，現在我在台灣念書，每次我給爸爸、媽媽打電話，都要說好久。", py: "Duì, xiànzài wǒ zài Táiwān niànshū, měi cì wǒ gěi bàba, māma dǎ diànhuà, dōu yào shuō hǎo jiǔ.", vn: "Đúng vậy ạ, bây giờ cháu học ở Đài Loan, mỗi lần cháu gọi điện cho bố, mẹ, đều phải nói chuyện rất lâu." },
+      { sp: "馬丁", gender: "male", zh: "那小孩子呢？一定會累得睡著了吧！", py: "Nà xiǎoháizi ne? Yídìng huì lèi de shuìzháo le ba!", vn: "Vậy còn trẻ con thì sao? Nhất định sẽ mệt đến mức ngủ thiếp đi mất thôi!" },
+      { sp: "陳太太", gender: "female", zh: "有那麼多好吃的東西，還等著拿壓歲錢，怎麼睡得著？", py: "Yǒu nàme duō hǎochī de dōngxī, hái děngzhe ná yāsuìqián, zěnme shuì de zháo?", vn: "Có nhiều đồ ăn ngon như vậy, lại còn đợi nhận tiền mừng tuổi, sao mà ngủ được?" },
+      { sp: "愛麗", gender: "female", zh: "我覺得過年最開心的就是拿紅包了。", py: "Wǒ juéde guònián zuì kāixīn de jiùshì ná hóngbāo le.", vn: "Cháu thấy đón Tết vui nhất chính là nhận hồng bao." },
+      { sp: "馬丁", gender: "male", zh: "我知道，拿紅包以前，得先說「恭喜發財」。", py: "Wǒ zhīdào, ná hóngbāo yǐqián, děi xiān shuō 'gōngxǐ fācái'.", vn: "Cháu biết, trước khi nhận hồng bao, phải nói «Cung hỷ phát tài» trước." },
+      { sp: "陳先生", gender: "male", zh: "真不錯，這你也學會了。", py: "Zhēn búcuò, zhè nǐ yě xuéhuì le.", vn: "Thật không tồi, cái này cháu cũng học được rồi." },
+      { sp: "陳太太", gender: "female", zh: "想起以前，我們孩子得一個一個跟爸爸、媽媽說吉祥話，才拿得到壓歲錢。", py: "Xiǎngqǐ yǐqián, wǒmen háizi děi yí ge yí ge gēn bàba, māma shuō jíxiáng huà, cái ná de dào yāsuìqián.", vn: "Nhớ lại trước đây, bọn trẻ nhà cô phải từng đứa một nói lời chúc tốt lành với bố, mẹ, mới nhận được tiền mừng tuổi." },
+      { sp: "陳先生", gender: "male", zh: "吃了年夜飯，我們也給你們壓歲錢。", py: "Chī le niányèfàn, wǒmen yě gěi nǐmen yāsuìqián.", vn: "Ăn xong bữa cơm tất niên, hai bác cũng sẽ cho các cháu tiền mừng tuổi." },
+      { sp: "馬丁", gender: "male", zh: "我們不是小孩了，也可以拿紅包嗎？", py: "Wǒmen bú shì xiǎohái le, yě kěyǐ ná hóngbāo ma?", vn: "Chúng cháu không phải là trẻ con nữa, cũng có thể nhận hồng bao sao ạ?" },
+      { sp: "陳先生", gender: "male", zh: "當然可以！你們的年紀跟我女兒差不多大，就像我們的孩子一樣。", py: "Dāngrán kěyǐ! Nǐmen de niánjì gēn wǒ nǚ'ér chàbùduō dà, jiù xiàng wǒmen de háizi yíyàng.", vn: "Đương nhiên là được! Tuổi của các cháu cũng xấp xỉ con gái hai bác, cũng giống như con của hai bác vậy." },
+      { sp: "陳太太", gender: "female", zh: "好了，菜都準備好了，我們一邊吃，一邊聊吧！", py: "Hǎo le, cài dōu zhǔnbèi hǎo le, wǒmen yìbiān chī, yìbiān liáo ba!", vn: "Được rồi, thức ăn đều chuẩn bị xong hết rồi, chúng ta vừa ăn, vừa nói chuyện nhé!" }
+    ],
+    clozes: [
+      { sentence: { zh: "過年就是要 ______ 的，人越多越有過年的氣氛。", py: "Guònián jiùshì yào ______ de, rén yuè duō yuè yǒu guònián de qìfēn.", vn: "Đón năm mới là phải ... , người càng đông càng có không khí Tết." }, options: [ { zh: "輕輕鬆鬆", vn: "thoải mái nhẹ nhàng" }, { zh: "熱熱鬧鬧", vn: "náo nhiệt ồn ào" }, { zh: "安安靜靜", vn: "yên yên tĩnh tĩnh" } ], correct: 1 },
+      { sentence: { zh: "「圍爐」就是 ______ 全家一起吃年夜飯。", py: "'Wéilú' jiùshì ______ quánjiā yìqǐ chī niányèfàn.", vn: "«Vi lô» chính là ... cả nhà cùng nhau ăn bữa cơm tất niên." }, options: [ { zh: "中秋節", vn: "Tết Trung thu" }, { zh: "除夕夜", vn: "Đêm giao thừa" }, { zh: "端午節", vn: "Tết Đoan ngọ" } ], correct: 1 },
+      { sentence: { zh: "有那麼多好吃的東西，還等著拿 ______ ，怎麼睡得著？", py: "Yǒu nàme duō hǎochī de dōngxī, hái děngzhe ná ______ , zěnme shuì de zháo?", vn: "Có nhiều đồ ăn ngon như vậy, lại còn đợi nhận ... , sao mà ngủ được?" }, options: [ { zh: "壓歲錢", vn: "tiền mừng tuổi" }, { zh: "成績單", vn: "bảng điểm" }, { zh: "明信片", vn: "bưu thiếp" } ], correct: 0 },
+      { sentence: { zh: "我知道，拿紅包以前，得先說「 ______ 」。", py: "Wǒ zhīdào, ná hóngbāo yǐqián, děi xiān shuō ' ______ '.", vn: "Cháu biết, trước khi nhận hồng bao, phải nói « ... » trước." }, options: [ { zh: "生日快樂", vn: "sinh nhật vui vẻ" }, { zh: "新年快樂", vn: "năm mới vui vẻ" }, { zh: "恭喜發財", vn: "cung hỷ phát tài" } ], correct: 2 },
+      { sentence: { zh: "我們孩子得一個一個跟爸爸、媽媽說 ______ ，才拿得到壓歲錢。", py: "Wǒmen háizi děi yí ge yí ge gēn bàba, māma shuō ______ , cái ná de dào yāsuìqián.", vn: "Bọn trẻ nhà cô phải từng đứa một nói ... với bố, mẹ, mới nhận được tiền mừng tuổi." }, options: [ { zh: "吉祥話", vn: "lời chúc tốt lành" }, { zh: "笑話", vn: "truyện cười" }, { zh: "對不起", vn: "xin lỗi" } ], correct: 0 }
+    ],
+    quizzes: [
+      { question: { zh: "陳太太的女兒為什麼沒回來吃年夜飯？", vn: "Tại sao con gái của bác gái Trần không về ăn bữa cơm tất niên?" }, options: [ { zh: "因為她在國外念書", vn: "Vì chị ấy đang học ở nước ngoài" }, { zh: "因為她在國外工作", vn: "Vì chị ấy làm việc ở nước ngoài" }, { zh: "因為她不喜歡過年", vn: "Vì chị ấy không thích đón Tết" } ], correct: 0 },
+      { question: { zh: "「圍爐」在台灣是什麼意思？", vn: "«Vi lô» ở Đài Loan có nghĩa là gì?" }, options: [ { zh: "大家一起坐在爐子旁邊睡覺", vn: "Mọi người cùng ngồi ngủ cạnh bếp lò" }, { zh: "除夕夜全家一起吃年夜飯", vn: "Đêm giao thừa cả gia đình cùng ăn bữa cơm tất niên" }, { zh: "過年的時候吃火鍋", vn: "Ăn lẩu vào dịp Tết" } ], correct: 1 },
+      { question: { zh: "為什麼過年的時候大家聊天能聊到半夜？", vn: "Tại sao vào dịp Tết mọi người có thể nói chuyện đến nửa đêm?" }, options: [ { zh: "因為晚上睡不著", vn: "Vì buổi tối không ngủ được" }, { zh: "因為不想去睡覺", vn: "Vì không muốn đi ngủ" }, { zh: "因為平常不能常跟家人見面，所以有說不完的話", vn: "Vì bình thường không thể thường xuyên gặp người nhà, nên có nói không hết chuyện" } ], correct: 2 },
+      { question: { zh: "小孩子過年為什麼不會累得睡著？", vn: "Tại sao trẻ em đón Tết lại không mệt đến mức ngủ thiếp đi?" }, options: [ { zh: "因為下午睡了很久", vn: "Vì buổi chiều đã ngủ rất lâu" }, { zh: "因為要吃好吃的東西，還要等著拿壓歲錢", vn: "Vì phải ăn đồ ăn ngon, lại còn phải đợi nhận tiền mừng tuổi" }, { zh: "因為有很多好玩的玩具", vn: "Vì có rất nhiều đồ chơi vui" } ], correct: 1 },
+      { question: { zh: "陳先生為什麼也給馬丁和愛麗壓歲錢？", vn: "Tại sao bác trai Trần cũng cho Martin và Alice tiền mừng tuổi?" }, options: [ { zh: "因為他們很聰明", vn: "Vì họ rất thông minh" }, { zh: "因為他們是外國人", vn: "Vì họ là người nước ngoài" }, { zh: "因為覺得他們的年紀跟女兒差不多，就像自己的孩子一樣", vn: "Vì cảm thấy tuổi của họ xấp xỉ con gái, cũng giống như con của mình vậy" } ], correct: 2 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "除夕夜，馬丁和愛麗去陳伯伯、陳伯母家吃年夜飯。陳先生覺得過年人越多越熱鬧，陳太太很高興他們能來陪兩位老人家「圍爐」。愛麗說以前在加拿大過年時，吃完飯大家會一直聊天聊到半夜。陳太太說因為很多人在外地工作念書，過年難得回來，當然有說不完的話。馬丁以為小孩子會累得睡著，但陳太太說小孩子要吃好吃的，還要等著拿壓歲錢，不會想睡覺。馬丁也知道拿紅包前要說「恭喜發財」。最後，陳先生說吃完飯也會給他們壓歲錢，因為覺得他們就像自己的孩子一樣。", 
+        py: "Chúxìyè, Mǎdīng hé Àilì qù Chén bóbo, Chén bómǔ jiā chī niányèfàn. Chén xiānshēng juéde guònián rén yuè duō yuè rènào, Chén tàitài hěn gāoxìng tāmen néng lái péi liǎng wèi lǎorénjiā 'wéilú'. Àilì shuō yǐqián zài Jiānádà guònián shí, chī wán fàn dàjiā huì yìzhí liáotiān liáo dào bànyè. Chén tàitài shuō yīnwèi hěn duō rén zài wàidì gōngzuò niànshū, guònián nándé huílái, dāngrán yǒu shuō bù wán de huà. Mǎdīng yǐwéi xiǎoháizi huì lèi de shuìzháo, dàn Chén tàitài shuō xiǎoháizi yào chī hǎochī de, hái yào děngzhe ná yāsuìqián, bú huì xiǎng shuìjiào. Mǎdīng yě zhīdào ná hóngbāo qián yào shuō 'gōngxǐ fācái'. Zuìhòu, Chén xiānshēng shuō chī wán fàn yě huì gěi tāmen yāsuìqián, yīnwèi juéde tāmen jiù xiàng zìjǐ de háizi yíyàng.", 
+        vn: "Đêm giao thừa, Martin và Alice đến nhà bác trai, bác gái Trần ăn bữa cơm tất niên. Bác trai Trần cảm thấy đón Tết người càng đông càng náo nhiệt, bác gái Trần rất vui vì họ có thể đến cùng hai ông bà «quây quần». Alice nói trước đây lúc đón Tết ở Canada, ăn cơm xong mọi người sẽ nói chuyện suốt đến nửa đêm. Bác gái Trần nói vì rất nhiều người làm việc và học tập ở xa, năm mới hiếm khi về, đương nhiên là có nói không hết chuyện. Martin tưởng rằng trẻ con sẽ mệt đến ngủ thiếp đi, nhưng bác gái Trần nói trẻ con phải ăn đồ ngon, còn đợi nhận tiền mừng tuổi, sẽ không muốn ngủ đâu. Martin cũng biết trước khi nhận hồng bao phải nói «Cung hỷ phát tài». Cuối cùng, bác trai Trần nói ăn cơm xong cũng sẽ cho họ tiền mừng tuổi, vì cảm thấy họ cũng giống như con cái của mình vậy." 
+      },
+      questions: [
+        {
+          question: { zh: "除夕夜，馬丁和愛麗去了誰家？", vn: "Đêm giao thừa, Martin và Alice đã đến nhà ai?" },
+          options: [ { zh: "張老師家", vn: "Nhà cô giáo Trương" }, { zh: "陳伯伯、陳伯母家", vn: "Nhà bác trai, bác gái Trần" }, { zh: "美玲家", vn: "Nhà Mỹ Linh" } ], correct: 1
+        },
+        {
+          question: { zh: "拿紅包以前，一定要說什麼？", vn: "Trước khi nhận hồng bao, nhất định phải nói gì?" },
+          options: [ { zh: "恭喜發財", vn: "Cung hỷ phát tài" }, { zh: "謝謝您", vn: "Cảm ơn bác" }, { zh: "新年好", vn: "Năm mới tốt lành" } ], correct: 0
+        },
+        {
+          question: { zh: "陳先生為什麼要給馬丁和愛麗壓歲錢？", vn: "Tại sao bác trai Trần lại muốn cho Martin và Alice tiền mừng tuổi?" },
+          options: [ { zh: "因為他們很窮", vn: "Vì họ rất nghèo" }, { zh: "因為覺得他們就像自己的孩子一樣", vn: "Vì cảm thấy họ cũng giống như con của mình vậy" }, { zh: "因為他們幫忙做年夜飯", vn: "Vì họ đã giúp nấu bữa cơm tất niên" } ], correct: 1
+        }
+      ]
+    }
+});
