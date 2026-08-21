@@ -11741,3 +11741,60 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 10", // Giữ nguyên "Bài 10" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 到張老師家包餃子 Đến nhà cô Trương gói sủi cảo",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "這個學期，馬丁、陳月美、高美玲和李東健都是張老師的學生，他們趁學期結束以前的一個週末，到張老師家包餃子。張老師已經把餃子餡兒跟餃子皮都準備好了。到了老師家以後，張老師就教他們怎麼包餃子，怎麼把餃子包得好看，怎麼包不容易煮破。", 
+        py: "Zhège xuéqí, Mǎdīng, Chén Yuèměi, Gāo Měilíng hé Lǐ Dōngjiàn dōu shì Zhāng lǎoshī de xuéshēng, tāmen chèn xuéqí jiéshù yǐqián de yí ge zhōumò, dào Zhāng lǎoshī jiā bāo jiǎozi. Zhāng lǎoshī yǐjīng bǎ jiǎozi xiàn'r gēn jiǎozi pí dōu zhǔnbèi hǎo le. Dào le lǎoshī jiā yǐhòu, Zhāng lǎoshī jiù jiāo tāmen zěnme bāo jiǎozi, zěnme bǎ jiǎozi bāo de hǎokàn, zěnme bāo bù róngyì zhǔ pò.", 
+        vn: "Học kỳ này, Martin, Trần Nguyệt Mỹ, Cao Mỹ Linh và Lý Đông Kiện đều là học sinh của cô Trương, họ tranh thủ một dịp cuối tuần trước khi học kỳ kết thúc, đến nhà cô Trương gói sủi cảo. Cô Trương đã chuẩn bị sẵn nhân sủi cảo và vỏ sủi cảo rồi. Sau khi đến nhà cô giáo, cô Trương liền dạy họ cách gói sủi cảo, làm sao gói sủi cảo cho đẹp, làm sao gói để lúc luộc không dễ bị rách." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "除了包餃子，李東健跟陳月美還帶了自己做的韓國泡菜和越南春捲請大家吃。大家嚐了泡菜都說看不出來李東健會做泡菜。李東健說他是跟媽媽學的，做起來不太難。先把大白菜洗乾淨，加鹽拌一拌，再放辣椒和調味料，最後裝進玻璃或是塑膠罐裡，放一下就可以吃了。", 
+        py: "Chúle bāo jiǎozi, Lǐ Dōngjiàn gēn Chén Yuèměi hái dài le zìjǐ zuò de Hánguó pàocài hé Yuènán chūnjuǎn qǐng dàjiā chī. Dàjiā cháng le pàocài dōu shuō kàn bù chūlái Lǐ Dōngjiàn huì zuò pàocài. Lǐ Dōngjiàn shuō tā shì gēn māma xué de, zuò qǐlái bú tài nán. Xiān bǎ dàbáicài xǐ gānjìng, jiā yán bàn yí bàn, zài fàng làjiāo hé tiáowèiliào, zuìhòu zhuāng jìn bōlí huòshì sùjiāo guàn lǐ, fàng yíxià jiù kěyǐ chī le.", 
+        vn: "Ngoài gói sủi cảo, Lý Đông Kiện và Trần Nguyệt Mỹ còn mang theo kim chi Hàn Quốc và chả giò Việt Nam tự làm mời mọi người ăn. Mọi người nếm thử kim chi đều nói nhìn không ra Lý Đông Kiện biết làm kim chi. Lý Đông Kiện nói cậu ấy học từ mẹ, làm không khó lắm. Trước tiên rửa sạch cải thảo, thêm muối trộn đều, sau đó cho ớt và gia vị, cuối cùng cho vào bình thủy tinh hoặc bình nhựa, để một lát là có thể ăn được rồi." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "張老師也說，像中國的餃子、韓國的泡菜，或是越南的春捲、日本的壽司，材料很容易買得到，做起來也不難，都是大家常吃的食物。", 
+        py: "Zhāng lǎoshī yě shuō, xiàng Zhōngguó de jiǎozi, Hánguó de pàocài, huòshì Yuènán de chūnjuǎn, Rìběn de shòusī, cáiliào hěn róngyì mǎi de dào, zuò qǐlái yě bù nán, dōu shì dàjiā cháng chī de shíwù.", 
+        vn: "Cô Trương cũng nói, giống như sủi cảo của Trung Quốc, kim chi của Hàn Quốc, hay là chả giò của Việt Nam, sushi của Nhật Bản, nguyên liệu rất dễ mua được, làm cũng không khó, đều là những món ăn mọi người thường ăn." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "這個學期，馬丁、陳月美、高美玲和李東健都是張老師的學生，他們趁學期結束以前的一個週末，到張老師家包餃子。張老師已經把餃子餡兒跟餃子皮都準備好了。到了老師家以後，張老師就教他們怎麼包餃子，怎麼把餃子包得好看，怎麼包不容易煮破。\n\n除了包餃子，李東健跟陳月美還帶了自己做的韓國泡菜和越南春捲請大家吃。大家嚐了泡菜都說看不出來李東健會做泡菜。李東健說他是跟媽媽學的，做起來不太難。先把大白菜洗乾淨，加鹽拌一拌，再放辣椒和調味料，最後裝進玻璃或是塑膠罐裡，放一下就可以吃了。\n\n張老師也說，像中國的餃子、韓國的泡菜，或是越南的春捲、日本的壽司，材料很容易買得到，做起來也不難，都是大家常吃的食物。", 
+        py: "Zhège xuéqí, Mǎdīng, Chén Yuèměi, Gāo Měilíng hé Lǐ Dōngjiàn dōu shì Zhāng lǎoshī de xuéshēng, tāmen chèn xuéqí jiéshù yǐqián de yí ge zhōumò, dào Zhāng lǎoshī jiā bāo jiǎozi. Zhāng lǎoshī yǐjīng bǎ jiǎozi xiàn'r gēn jiǎozi pí dōu zhǔnbèi hǎo le. Dào le lǎoshī jiā yǐhòu, Zhāng lǎoshī jiù jiāo tāmen zěnme bāo jiǎozi, zěnme bǎ jiǎozi bāo de hǎokàn, zěnme bāo bù róngyì zhǔ pò.\n\nChúle bāo jiǎozi, Lǐ Dōngjiàn gēn Chén Yuèměi hái dài le zìjǐ zuò de Hánguó pàocài hé Yuènán chūnjuǎn qǐng dàjiā chī. Dàjiā cháng le pàocài dōu shuō kàn bù chūlái Lǐ Dōngjiàn huì zuò pàocài. Lǐ Dōngjiàn shuō tā shì gēn māma xué de, zuò qǐlái bú tài nán. Xiān bǎ dàbáicài xǐ gānjìng, jiā yán bàn yí bàn, zài fàng làjiāo hé tiáowèiliào, zuìhòu zhuāng jìn bōlí huòshì sùjiāo guàn lǐ, fàng yíxià jiù kěyǐ chī le.\n\nZhāng lǎoshī yě shuō, xiàng Zhōngguó de jiǎozi, Hánguó de pàocài, huòshì Yuènán de chūnjuǎn, Rìběn de shòusī, cáiliào hěn róngyì mǎi de dào, zuò qǐlái yě bù nán, dōu shì dàjiā cháng chī de shíwù.", 
+        vn: "Học kỳ này, Martin, Trần Nguyệt Mỹ, Cao Mỹ Linh và Lý Đông Kiện đều là học sinh của cô Trương, họ tranh thủ một dịp cuối tuần trước khi học kỳ kết thúc, đến nhà cô Trương gói sủi cảo. Cô Trương đã chuẩn bị sẵn nhân sủi cảo và vỏ sủi cảo rồi. Sau khi đến nhà cô giáo, cô Trương liền dạy họ cách gói sủi cảo, làm sao gói sủi cảo cho đẹp, làm sao gói để lúc luộc không dễ bị rách.\n\nNgoài gói sủi cảo, Lý Đông Kiện và Trần Nguyệt Mỹ còn mang theo kim chi Hàn Quốc và chả giò Việt Nam tự làm mời mọi người ăn. Mọi người nếm thử kim chi đều nói nhìn không ra Lý Đông Kiện biết làm kim chi. Lý Đông Kiện nói cậu ấy học từ mẹ, làm không khó lắm. Trước tiên rửa sạch cải thảo, thêm muối trộn đều, sau đó cho ớt và gia vị, cuối cùng cho vào bình thủy tinh hoặc bình nhựa, để một lát là có thể ăn được rồi.\n\nCô Trương cũng nói, giống như sủi cảo của Trung Quốc, kim chi của Hàn Quốc, hay là chả giò của Việt Nam, sushi của Nhật Bản, nguyên liệu rất dễ mua được, làm cũng không khó, đều là những món ăn mọi người thường ăn." 
+      },
+      questions: [
+        {
+          question: { zh: "學生們去張老師家做什麼？", vn: "Các học sinh đến nhà cô Trương làm gì?" },
+          options: [ { zh: "做韓國泡菜", vn: "Làm kim chi Hàn Quốc" }, { zh: "包餃子", vn: "Gói sủi cảo" }, { zh: "慶祝學期開始", vn: "Ăn mừng bắt đầu học kỳ" } ], correct: 1
+        },
+        {
+          question: { zh: "李東健帶了什麼東西請大家吃？", vn: "Lý Đông Kiện đã mang đồ gì đến mời mọi người ăn?" },
+          options: [ { zh: "韓國泡菜", vn: "Kim chi Hàn Quốc" }, { zh: "越南春捲", vn: "Chả giò Việt Nam" }, { zh: "日本壽司", vn: "Sushi Nhật Bản" } ], correct: 0
+        },
+        {
+          question: { zh: "李東健是跟誰學做泡菜的？", vn: "Lý Đông Kiện học làm kim chi từ ai?" },
+          options: [ { zh: "張老師", vn: "Cô Trương" }, { zh: "他媽媽", vn: "Mẹ cậu ấy" }, { zh: "陳月美", vn: "Trần Nguyệt Mỹ" } ], correct: 1
+        },
+        {
+          question: { zh: "做韓國泡菜的第一步是什麼？", vn: "Bước đầu tiên làm kim chi Hàn Quốc là gì?" },
+          options: [ { zh: "放辣椒和調味料", vn: "Cho ớt và gia vị" }, { zh: "加鹽拌一拌", vn: "Thêm muối trộn đều" }, { zh: "先把大白菜洗乾淨", vn: "Trước tiên rửa sạch cải thảo" } ], correct: 2
+        },
+        {
+          question: { zh: "關於這段短文，下面哪一個是對的？", vn: "Về đoạn văn ngắn này, câu nào dưới đây là đúng?" },
+          options: [ { zh: "張老師覺得包餃子很難", vn: "Cô Trương cảm thấy gói sủi cảo rất khó" }, { zh: "餃子、泡菜、春捲的材料都很容易買得到", vn: "Nguyên liệu của sủi cảo, kim chi, chả giò đều rất dễ mua được" }, { zh: "李東健不會做菜", vn: "Lý Đông Kiện không biết nấu ăn" } ], correct: 1
+        }
+      ]
+    }
+});
+
