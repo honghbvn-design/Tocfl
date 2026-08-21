@@ -12235,3 +12235,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 14", // Giữ nguyên "Bài 14" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 將來的計畫 Kế hoạch tương lai",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "白如玉從高中就開始學中文，當時她覺得中文的聲調和漢字都好難，練習了很久，發音才越來越準，字也寫得越來越好。上了大學以後，如玉念了企業管理系。她認為中國經濟發展得很快，懂中文對找工作會有幫助。她打算畢業以後找一個跟中文有關的工作，才不會把中文忘了。", 
+        py: "Bái Rúyù cóng gāozhōng jiù kāishǐ xué Zhōngwén, dāngshí tā juéde Zhōngwén de shēngdiào hé Hànzì dōu hǎo nán, liànxí le hěn jiǔ, fāyīn cái yuè lái yuè zhǔn, zì yě xiě de yuè lái yuè hǎo. Shàng le dàxué yǐhòu, Rúyù niàn le qìyè guǎnlǐ xì. Tā rènwéi Zhōngguó jīngjì fāzhǎn de hěn kuài, dǒng Zhōngwén duì zhǎo gōngzuò huì yǒu bāngzhù. Tā dǎsuàn bìyè yǐhòu zhǎo yí ge gēn Zhōngwén yǒuguān de gōngzuò, cái bú huì bǎ Zhōngwén wàng le.", 
+        vn: "Bạch Như Ngọc bắt đầu học tiếng Trung từ trường cấp ba, lúc đó cô ấy cảm thấy thanh điệu và chữ Hán của tiếng Trung đều rất khó, luyện tập rất lâu, phát âm mới ngày càng chuẩn, chữ cũng viết ngày càng đẹp. Sau khi lên đại học, Như Ngọc học khoa quản trị doanh nghiệp. Cô ấy cho rằng kinh tế Trung Quốc phát triển rất nhanh, biết tiếng Trung sẽ có ích cho việc tìm việc làm. Cô ấy dự định sau khi tốt nghiệp sẽ tìm một công việc liên quan đến tiếng Trung, như vậy mới không quên mất tiếng Trung." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "高美玲本來是學語言學的，她對語法特別有興趣，常研究中文跟法文不同的地方。美玲打算學好中文以後，回國教書，把自己學中文的方法和經驗教給學生，這樣學生應該能學得更順利。她在台灣也發現了很多有意思的文化，所以除了教語言，她也希望順便把台灣的文化介紹給學生。", 
+        py: "Gāo Měilíng běnlái shì xué yǔyánxué de, tā duì yǔfǎ tèbié yǒu xìngqù, cháng yánjiū Zhōngwén gēn Fàwén bùtóng de dìfāng. Měilíng dǎsuàn xuéhǎo Zhōngwén yǐhòu, huí guó jiāoshū, bǎ zìjǐ xué Zhōngwén de fāngfǎ hé jīngyàn jiāo gěi xuéshēng, zhèyàng xuéshēng yīnggāi néng xué de gèng shùnlì. Tā zài Táiwān yě fāxiàn le hěn duō yǒuyìsi de wénhuà, suǒyǐ chúle jiāo yǔyán, tā yě xīwàng shùnbiàn bǎ Táiwān de wénhuà jièshào gěi xuéshēng.", 
+        vn: "Cao Mỹ Linh vốn dĩ học ngành ngôn ngữ học, cô ấy đặc biệt có hứng thú với ngữ法 (ngữ pháp), thường nghiên cứu những điểm khác nhau giữa tiếng Trung và tiếng Pháp. Mỹ Linh dự định sau khi học tốt tiếng Trung sẽ về nước dạy học, đem phương pháp và kinh nghiệm học tiếng Trung của bản thân dạy cho học sinh, như vậy học sinh chắc hẳn có thể học thuận lợi hơn. Cô ấy ở Đài Loan cũng đã phát hiện ra rất nhiều nét văn hóa thú vị, cho nên ngoài dạy ngôn ngữ, cô ấy cũng hy vọng nhân tiện giới thiệu văn hóa Đài Loan cho học sinh." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "林愛麗是加拿大華僑，雖然在家跟父母說中文，可是不太會寫漢字。她到台灣來的目的就是把中文學好。林愛麗大學念的是國際關係，她還沒決定將來要當翻譯，還是外交人員。為了充實自己的專業能力，她決定留在台灣念研究所。", 
+        py: "Lín Àilì shì Jiānádà huáqiáo, suīrán zài jiā gēn fùmǔ shuō Zhōngwén, kěshì bú tài huì xiě Hànzì. Tā dào Táiwān lái de mùdì jiùshì bǎ Zhōngwén xuéhǎo. Lín Àilì dàxué niàn de shì guójì guānxi, tā hái méi juédìng jiānglái yào dāng fānyì, háishì wàijiāo rényuán. Wèile chōngshí zìjǐ de zhuānyè nénglì, tā juédìng liúzài Táiwān niàn yánjiūsuǒ.", 
+        vn: "Lâm Alice là Hoa kiều Canada, mặc dù ở nhà nói tiếng Trung với bố mẹ, nhưng không biết viết chữ Hán lắm. Mục đích cô ấy đến Đài Loan chính là để học tốt tiếng Trung. Đại học Lâm Alice học ngành quan hệ quốc tế, cô ấy vẫn chưa quyết định tương lai sẽ làm phiên dịch hay là nhân viên ngoại giao. Để làm phong phú thêm năng lực chuyên môn của mình, cô ấy quyết định ở lại Đài Loan học nghiên cứu sinh (cao học)." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "白如玉從高中就開始學中文，當時她覺得中文的聲調和漢字都好難，練習了很久，發音才越來越準，字也寫得越來越好。上了大學以後，如玉念了企業管理系。她認為中國經濟發展得很快，懂中文對找工作會有幫助。她打算畢業以後找一個跟中文有關的工作，才不會把中文忘了。\n\n高美玲本來是學語言學的，她對語法特別有興趣，常研究中文跟法文不同的地方。美玲打算學好中文以後，回國教書，把自己學中文的方法和經驗教給學生，這樣學生應該能學得更順利。她在台灣也發現了很多有意思的文化，所以除了教語言，她也希望順便把台灣的文化介紹給學生。\n\n林愛麗是加拿大華僑，雖然在家跟父母說中文，可是不太會寫漢字。她到台灣來的目的就是把中文學好。林愛麗大學念的是國際關係，她還沒決定將來要當翻譯，還是外交人員。為了充實自己的專業能力，她決定留在台灣念研究所。", 
+        py: "Bái Rúyù cóng gāozhōng jiù kāishǐ xué Zhōngwén, dāngshí tā juéde Zhōngwén de shēngdiào hé Hànzì dōu hǎo nán, liànxí le hěn jiǔ, fāyīn cái yuè lái yuè zhǔn, zì yě xiě de yuè lái yuè hǎo. Shàng le dàxué yǐhòu, Rúyù niàn le qìyè guǎnlǐ xì. Tā rènwéi Zhōngguó jīngjì fāzhǎn de hěn kuài, dǒng Zhōngwén duì zhǎo gōngzuò huì yǒu bāngzhù. Tā dǎsuàn bìyè yǐhòu zhǎo yí ge gēn Zhōngwén yǒuguān de gōngzuò, cái bú huì bǎ Zhōngwén wàng le.\n\nGāo Měilíng běnlái shì xué yǔyánxué de, tā duì yǔfǎ tèbié yǒu xìngqù, cháng yánjiū Zhōngwén gēn Fàwén bùtóng de dìfāng. Měilíng dǎsuàn xuéhǎo Zhōngwén yǐhòu, huí guó jiāoshū, bǎ zìjǐ xué Zhōngwén de fāngfǎ hé jīngyàn jiāo gěi xuéshēng, zhèyàng xuéshēng yīnggāi néng xué de gèng shùnlì. Tā zài Táiwān yě fāxiàn le hěn duō yǒuyìsi de wénhuà, suǒyǐ chúle jiāo yǔyán, tā yě xīwàng shùnbiàn bǎ Táiwān de wénhuà jièshào gěi xuéshēng.\n\nLín Àilì shì Jiānádà huáqiáo, suīrán zài jiā gēn fùmǔ shuō Zhōngwén, kěshì bú tài huì xiě Hànzì. Tā dào Táiwān lái de mùdì jiùshì bǎ Zhōngwén xuéhǎo. Lín Àilì dàxué niàn de shì guójì guānxi, tā hái méi juédìng jiānglái yào dāng fānyì, háishì wàijiāo rényuán. Wèile chōngshí zìjǐ de zhuānyè nénglì, tā juédìng liúzài Táiwān niàn yánjiūsuǒ.", 
+        vn: "Bạch Như Ngọc bắt đầu học tiếng Trung từ trường cấp ba, lúc đó cô ấy cảm thấy thanh điệu và chữ Hán của tiếng Trung đều rất khó, luyện tập rất lâu, phát âm mới ngày càng chuẩn, chữ cũng viết ngày càng đẹp. Sau khi lên đại học, Như Ngọc học khoa quản trị doanh nghiệp. Cô ấy cho rằng kinh tế Trung Quốc phát triển rất nhanh, biết tiếng Trung sẽ có ích cho việc tìm việc làm. Cô ấy dự định sau khi tốt nghiệp sẽ tìm một công việc liên quan đến tiếng Trung, như vậy mới không quên mất tiếng Trung.\n\nCao Mỹ Linh vốn dĩ học ngành ngôn ngữ học, cô ấy đặc biệt có hứng thú với ngữ pháp, thường nghiên cứu những điểm khác nhau giữa tiếng Trung và tiếng Pháp. Mỹ Linh dự định sau khi học tốt tiếng Trung sẽ về nước dạy học, đem phương pháp và kinh nghiệm học tiếng Trung của bản thân dạy cho học sinh, như vậy học sinh chắc hẳn có thể học thuận lợi hơn. Cô ấy ở Đài Loan cũng đã phát hiện ra rất nhiều nét văn hóa thú vị, cho nên ngoài dạy ngôn ngữ, cô ấy cũng hy vọng nhân tiện giới thiệu văn hóa Đài Loan cho học sinh.\n\nLâm Alice là Hoa kiều Canada, mặc dù ở nhà nói tiếng Trung với bố mẹ, nhưng không biết viết chữ Hán lắm. Mục đích cô ấy đến Đài Loan chính là để học tốt tiếng Trung. Đại học Lâm Alice học ngành quan hệ quốc tế, cô ấy vẫn chưa quyết định tương lai sẽ làm phiên dịch hay là nhân viên ngoại giao. Để làm phong phú thêm năng lực chuyên môn của mình, cô ấy quyết định ở lại Đài Loan học nghiên cứu sinh (cao học)." 
+      },
+      questions: [
+        {
+          question: { zh: "白如玉上大學以後，念了什麼系？", vn: "Sau khi lên đại học, Bạch Như Ngọc đã học khoa gì?" },
+          options: [ { zh: "語言學系", vn: "Khoa ngôn ngữ học" }, { zh: "國際關係系", vn: "Khoa quan hệ quốc tế" }, { zh: "企業管理系", vn: "Khoa quản trị doanh nghiệp" } ], correct: 2
+        },
+        {
+          question: { zh: "白如玉為什麼打算找跟中文有關的工作？", vn: "Tại sao Bạch Như Ngọc dự định tìm công việc liên quan đến tiếng Trung?" },
+          options: [ { zh: "因為她想回國教書", vn: "Vì cô ấy muốn về nước dạy học" }, { zh: "因為她不想把中文忘了", vn: "Vì cô ấy không muốn quên tiếng Trung" }, { zh: "因為中文很容易", vn: "Vì tiếng Trung rất dễ" } ], correct: 1
+        },
+        {
+          question: { zh: "關於高美玲，下面哪一個是對的？", vn: "Về Cao Mỹ Linh, câu nào dưới đây là đúng?" },
+          options: [ { zh: "她對語法特別有興趣", vn: "Cô ấy đặc biệt có hứng thú với ngữ pháp" }, { zh: "她是加拿大華僑", vn: "Cô ấy là Hoa kiều Canada" }, { zh: "她大學念的是企業管理", vn: "Đại học cô ấy học quản trị doanh nghiệp" } ], correct: 0
+        },
+        {
+          question: { zh: "林愛麗到台灣來的目的是什麼？", vn: "Mục đích Lâm Alice đến Đài Loan là gì?" },
+          options: [ { zh: "為了找工作", vn: "Để tìm việc làm" }, { zh: "為了把中文學好", vn: "Để học tốt tiếng Trung" }, { zh: "為了認識新朋友", vn: "Để làm quen bạn mới" } ], correct: 1
+        },
+        {
+          question: { zh: "林愛麗為什麼決定留在台灣念研究所？", vn: "Tại sao Lâm Alice quyết định ở lại Đài Loan học cao học?" },
+          options: [ { zh: "為了充實自己的專業能力", vn: "Để làm phong phú thêm năng lực chuyên môn của mình" }, { zh: "因為她不想當翻譯", vn: "Vì cô ấy không muốn làm phiên dịch" }, { zh: "因為台灣的風景很美", vn: "Vì phong cảnh Đài Loan rất đẹp" } ], correct: 0
+        }
+      ]
+    }
+});
