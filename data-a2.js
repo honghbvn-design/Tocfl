@@ -11268,3 +11268,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 6", // Giữ nguyên "Bài 6" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 李東健找房子 Lý Đông Kiện tìm nhà",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "李東健租的房子離師大相當遠，每天騎自行車到學校都得花一個小時左右，他覺得很不方便，所以他最近計畫找房子搬家。這一天，他在網站上看了很多租房子的資料。", 
+        py: "Lǐ Dōngjiàn zū de fángzi lí Shīdà xiāngdāng yuǎn, měitiān qí zìxíngchē dào xuéxiào dōu děi huā yí ge xiǎoshí zuǒyòu, tā juéde hěn bù fāngbiàn, suǒyǐ tā zuìjìn jìhuà zhǎo fángzi bānjiā. Zhè yì tiān, tā zài wǎngzhàn shàng kàn le hěn duō zū fángzi de zīliào.", 
+        vn: "Ngôi nhà Lý Đông Kiện thuê cách trường Sư Phạm khá xa, mỗi ngày đạp xe đến trường đều phải mất khoảng một tiếng đồng hồ, anh ấy cảm thấy rất bất tiện, cho nên dạo này anh ấy lên kế hoạch tìm nhà chuyển đi. Ngày hôm nay, anh ấy đã xem rất nhiều thông tin thuê nhà trên mạng." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "李東健最想在捷運站附近租一間套房，有床、桌子和椅子這些家具，而且房間的光線要好，環境也不要太吵。可是台灣朋友都說，這種套房房租會比較貴，李東健覺得台北的生活費比首爾低，如果多花一點時間找，一定能找到便宜而且合適的。", 
+        py: "Lǐ Dōngjiàn zuì xiǎng zài jiéyùnzhàn fùjìn zū yì jiān tàofáng, yǒu chuáng, zhuōzi hé yǐzi zhèxiē jiājù, érqiě fángjiān de guāngxiàn yào hǎo, huánjìng yě bú yào tài chǎo. Kěshì Táiwān péngyǒu dōu shuō, zhè zhǒng tàofáng fángzū huì bǐjiào guì, Lǐ Dōngjiàn juéde Táiběi de shēnghuófèi bǐ Shǒu'ěr dī, rúguǒ duō huā yìdiǎn shíjiān zhǎo, yídìng néng zhǎodào piányí érqiě héshì de.", 
+        vn: "Lý Đông Kiện muốn nhất là thuê một căn hộ khép kín ở gần trạm tàu điện ngầm, có giường, bàn và ghế những đồ nội thất này, hơn nữa ánh sáng của căn phòng phải tốt, môi trường cũng không được quá ồn. Nhưng bạn bè Đài Loan đều nói, tiền thuê loại căn hộ này sẽ khá đắt, Lý Đông Kiện cảm thấy chi phí sinh hoạt ở Đài Bắc thấp hơn so với Seoul, nếu như dành thêm chút thời gian tìm kiếm, nhất định có thể tìm được căn rẻ mà lại thích hợp." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "李東健想，如果他搬到學校附近住，除了留在圖書館的時間能長一點，可以念書、寫作業、跟同學討論功課，還可以參加一些學校的社團活動。不過他的好朋友高美玲有一點失望，她覺得少了一個可以練習中文的朋友。李東健要高美玲放心，因為他打算把一些不常用的東西先留在這裡，所以還會常來找他們聊天。", 
+        py: "Lǐ Dōngjiàn xiǎng, rúguǒ tā bāndào xuéxiào fùjìn zhù, chúle liúzài túshūguǎn de shíjiān néng cháng yìdiǎn, kěyǐ niànshū, xiě zuòyè, gēn tóngxué tǎolùn gōngkè, hái kěyǐ cānjiā yìxiē xuéxiào de shétuán huódòng. Búguò tā de hǎo péngyǒu Gāo Měilíng yǒu yìdiǎn shīwàng, tā juéde shǎo le yí ge kěyǐ liànxí Zhōngwén de péngyǒu. Lǐ Dōngjiàn yào Gāo Měilíng fàngxīn, yīnwèi tā dǎsuàn bǎ yìxiē bù chángyòng de dōngxī xiān liúzài zhèlǐ, suǒyǐ hái huì cháng lái zhǎo tāmen liáotiān.", 
+        vn: "Lý Đông Kiện nghĩ, nếu như anh ấy chuyển đến sống ở gần trường, ngoài việc thời gian ở lại thư viện có thể dài hơn một chút, có thể học bài, làm bài tập, thảo luận bài vở cùng bạn học, còn có thể tham gia một số hoạt động câu lạc bộ của trường. Tuy nhiên người bạn tốt của anh ấy là Cao Mỹ Linh có chút thất vọng, cô ấy cảm thấy thiếu mất một người bạn có thể luyện tập tiếng Trung. Lý Đông Kiện bảo Cao Mỹ Linh yên tâm, bởi vì anh ấy dự định để tạm một số đồ không thường dùng ở lại đây, cho nên vẫn sẽ thường xuyên đến tìm họ nói chuyện." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "李東健租的房子離師大相當遠，每天騎自行車到學校都得花一個小時左右，他覺得很不方便，所以他最近計畫找房子搬家。這一天，他在網站上看了很多租房子的資料。\n\n李東健最想在捷運站附近租一間套房，有床、桌子和椅子這些家具，而且房間的光線要好，環境也不要太吵。可是台灣朋友都說，這種套房房租會比較貴，李東健覺得台北的生活費比首爾低，如果多花一點時間找，一定能找到便宜而且合適的。\n\n李東健想，如果他搬到學校附近住，除了留在圖書館的時間能長一點，可以念書、寫作業、跟同學討論功課，還可以參加一些學校的社團活動。不過他的好朋友高美玲有一點失望，她覺得少了一個可以練習中文的朋友。李東健要高美玲放心，因為他打算把一些不常用的東西先留在這裡，所以還會常來找他們聊天。", 
+        py: "Lǐ Dōngjiàn zū de fángzi lí Shīdà xiāngdāng yuǎn, měitiān qí zìxíngchē dào xuéxiào dōu děi huā yí ge xiǎoshí zuǒyòu, tā juéde hěn bù fāngbiàn, suǒyǐ tā zuìjìn jìhuà zhǎo fángzi bānjiā. Zhè yì tiān, tā zài wǎngzhàn shàng kàn le hěn duō zū fángzi de zīliào.\n\nLǐ Dōngjiàn zuì xiǎng zài jiéyùnzhàn fùjìn zū yì jiān tàofáng, yǒu chuáng, zhuōzi hé yǐzi zhèxiē jiājù, érqiě fángjiān de guāngxiàn yào hǎo, huánjìng yě bú yào tài chǎo. Kěshì Táiwān péngyǒu dōu shuō, zhè zhǒng tàofáng fángzū huì bǐjiào guì, Lǐ Dōngjiàn juéde Táiběi de shēnghuófèi bǐ Shǒu'ěr dī, rúguǒ duō huā yìdiǎn shíjiān zhǎo, yídìng néng zhǎodào piányí érqiě héshì de.\n\nLǐ Dōngjiàn xiǎng, rúguǒ tā bāndào xuéxiào fùjìn zhù, chúle liúzài túshūguǎn de shíjiān néng cháng yìdiǎn, kěyǐ niànshū, xiě zuòyè, gēn tóngxué tǎolùn gōngkè, hái kěyǐ cānjiā yìxiē xuéxiào de shétuán huódòng. Búguò tā de hǎo péngyǒu Gāo Měilíng yǒu yìdiǎn shīwàng, tā juéde shǎo le yí ge kěyǐ liànxí Zhōngwén de péngyǒu. Lǐ Dōngjiàn yào Gāo Měilíng fàngxīn, yīnwèi tā dǎsuàn bǎ yìxiē bù chángyòng de dōngxī xiān liúzài zhèlǐ, suǒyǐ hái huì cháng lái zhǎo tāmen liáotiān.", 
+        vn: "Ngôi nhà Lý Đông Kiện thuê cách trường Sư Phạm khá xa, mỗi ngày đạp xe đến trường đều phải mất khoảng một tiếng đồng hồ, anh ấy cảm thấy rất bất tiện, cho nên dạo này anh ấy lên kế hoạch tìm nhà chuyển đi. Ngày hôm nay, anh ấy đã xem rất nhiều thông tin thuê nhà trên mạng.\n\nLý Đông Kiện muốn nhất là thuê một căn hộ khép kín ở gần trạm tàu điện ngầm, có giường, bàn và ghế những đồ nội thất này, hơn nữa ánh sáng của căn phòng phải tốt, môi trường cũng không được quá ồn. Nhưng bạn bè Đài Loan đều nói, tiền thuê loại căn hộ này sẽ khá đắt, Lý Đông Kiện cảm thấy chi phí sinh hoạt ở Đài Bắc thấp hơn so với Seoul, nếu như dành thêm chút thời gian tìm kiếm, nhất định có thể tìm được căn rẻ mà lại thích hợp.\n\nLý Đông Kiện nghĩ, nếu như anh ấy chuyển đến sống ở gần trường, ngoài việc thời gian ở lại thư viện có thể dài hơn một chút, có thể học bài, làm bài tập, thảo luận bài vở cùng bạn học, còn có thể tham gia một số hoạt động câu lạc bộ của trường. Tuy nhiên người bạn tốt của anh ấy là Cao Mỹ Linh có chút thất vọng, cô ấy cảm thấy thiếu mất một người bạn có thể luyện tập tiếng Trung. Lý Đông Kiện bảo Cao Mỹ Linh yên tâm, bởi vì anh ấy dự định để tạm một số đồ không thường dùng ở lại đây, cho nên vẫn sẽ thường xuyên đến tìm họ nói chuyện." 
+      },
+      questions: [
+        {
+          question: { zh: "李東健為什麼最近計畫找房子搬家？", vn: "Tại sao dạo này Lý Đông Kiện lên kế hoạch tìm nhà chuyển đi?" },
+          options: [ { zh: "他不喜歡現在的室友", vn: "Anh ấy không thích bạn cùng phòng hiện tại" }, { zh: "每天騎自行車到學校要花一個小時左右，很不方便", vn: "Mỗi ngày đạp xe đến trường mất khoảng một tiếng đồng hồ, rất bất tiện" }, { zh: "他想搬回首爾", vn: "Anh ấy muốn chuyển về Seoul" } ], correct: 1
+        },
+        {
+          question: { zh: "李東健想找什麼樣的套房？", vn: "Lý Đông Kiện muốn tìm căn hộ khép kín như thế nào?" },
+          options: [ { zh: "便宜但是沒有家具的", vn: "Rẻ nhưng không có đồ nội thất" }, { zh: "離學校很遠的", vn: "Rất xa trường học" }, { zh: "在捷運站附近，有家具，光線好，環境不要太吵", vn: "Gần trạm tàu điện ngầm, có nội thất, ánh sáng tốt, môi trường không quá ồn" } ], correct: 2
+        },
+        {
+          question: { zh: "關於房租，李東健的想法是什麼？", vn: "Về tiền thuê nhà, suy nghĩ của Lý Đông Kiện là gì?" },
+          options: [ { zh: "覺得台北的生活費比首爾低，多花時間一定能找到便宜又合適的", vn: "Cảm thấy chi phí sinh hoạt ở Đài Bắc thấp hơn Seoul, dành thêm thời gian chắc chắn tìm được căn rẻ mà thích hợp" }, { zh: "覺得台北的房租太貴了，不想租了", vn: "Cảm thấy tiền thuê nhà ở Đài Bắc quá đắt, không muốn thuê nữa" }, { zh: "覺得朋友說得很對，便宜的套房找不到", vn: "Cảm thấy bạn bè nói rất đúng, căn hộ rẻ thì không tìm được" } ], correct: 0
+        },
+        {
+          question: { zh: "搬到學校附近住，對李東健有什麼好處？", vn: "Chuyển đến sống gần trường có lợi ích gì cho Lý Đông Kiện?" },
+          options: [ { zh: "可以省下很多生活費", vn: "Có thể tiết kiệm được rất nhiều chi phí sinh hoạt" }, { zh: "留在圖書館的時間能長一點，還可以參加社團活動", vn: "Thời gian ở lại thư viện dài hơn một chút, còn có thể tham gia hoạt động câu lạc bộ" }, { zh: "可以每天跟高美玲一起去上課", vn: "Có thể mỗi ngày cùng đi học với Cao Mỹ Linh" } ], correct: 1
+        },
+        {
+          question: { zh: "高美玲為什麼有一點失望？", vn: "Tại sao Cao Mỹ Linh có chút thất vọng?" },
+          options: [ { zh: "因為李東健不把東西送給她", vn: "Vì Lý Đông Kiện không tặng đồ cho cô ấy" }, { zh: "因為李東健不想跟她聊天了", vn: "Vì Lý Đông Kiện không muốn nói chuyện với cô ấy nữa" }, { zh: "因為她覺得少了一個可以練習中文的朋友", vn: "Vì cô ấy cảm thấy thiếu mất một người bạn có thể luyện tập tiếng Trung" } ], correct: 2
+        }
+      ]
+    }
+});
