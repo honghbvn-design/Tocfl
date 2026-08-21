@@ -12115,3 +12115,59 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 13", // Giữ nguyên "Bài 13" để nối tiếp với khối hội thoại bên trên
+    title: "Bài đọc: 現代人與網路 Người hiện đại và mạng Internet",
+    content: [
+      { 
+        sp: "📖", gender: "female", 
+        zh: "現代人的生活已經離不開網路了，生活裡有很多事，比方說買東西、查資料、下載音樂，只要上網，就能做到。住在不同國家的人，也能天天用網路聊天。要是哪裡發生了事情，這些消息，都能透過網路，馬上傳到世界每一個地方，讓大家知道第一手資料。網路替我們節省了時間，還把世界變小了。", 
+        py: "Xiàndàirén de shēnghuó yǐjīng lí bù kāi wǎnglù le, shēnghuó lǐ yǒu hěn duō shì, bǐfāng shuō mǎi dōngxī, chá zīliào, xiàzài yīnyuè, zhǐyào shàngwǎng, jiù néng zuò dào. Zhù zài bùtóng guójiā de rén, yě néng tiāntiān yòng wǎnglù liáotiān. Yàoshì nǎlǐ fāshēng le shìqíng, zhèxiē xiāoxí, dōu néng tòuguò wǎnglù, mǎshàng chuán dào shìjiè měi yí ge dìfāng, ràng dàjiā zhīdào dì yī shǒu zīliào. Wǎnglù tì wǒmen jiéshěng le shíjiān, hái bǎ shìjiè biàn xiǎo le.", 
+        vn: "Cuộc sống của con người hiện đại đã không thể tách rời khỏi mạng internet rồi, trong cuộc sống có rất nhiều việc, ví dụ như mua đồ, tra tài liệu, tải nhạc, chỉ cần lên mạng là có thể làm được. Người sống ở các quốc gia khác nhau cũng có thể ngày ngày dùng mạng nói chuyện với nhau. Nếu như ở đâu xảy ra chuyện gì, những tin tức này đều có thể thông qua mạng internet, lập tức truyền đến mọi nơi trên thế giới, để mọi người biết được thông tin trực tiếp (tận tay). Mạng internet giúp chúng ta tiết kiệm thời gian, còn biến thế giới trở nên nhỏ bé lại." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "雖然網路讓我們的生活變得更便利，但是也有一些問題。很多人每天早上才起床，就急著上網。每五分鐘就要檢查一次郵件，一有新消息、新照片就立刻上傳。他們什麼時候都在上網，好像只有睡覺的時候，才離開網路。在網路上花太多時間，讓很多人的生活變得不正常了。", 
+        py: "Suīrán wǎnglù ràng wǒmen de shēnghuó biàn de gèng biànlì, dànshì yě yǒu yìxiē wèntí. Hěn duō rén měitiān zǎoshang cái qǐchuáng, jiù jízhe shàngwǎng. Měi wǔ fēnzhōng jiù yào jiǎnchá yí cì yóujiàn, yì yǒu xīn xiāoxí, xīn zhàopiàn jiù lìkè shàngchuán. Tāmen shénme shíhòu dōu zài shàngwǎng, hǎoxiàng zhǐyǒu shuìjiào de shíhòu, cái líkāi wǎnglù. Zài wǎnglù shàng huā tài duō shíjiān, ràng hěn duō rén de shēnghuó biàn de bù zhèngcháng le.", 
+        vn: "Mặc dù mạng internet làm cho cuộc sống của chúng ta trở nên tiện lợi hơn, nhưng cũng có một số vấn đề. Rất nhiều người mỗi ngày sáng sớm vừa ngủ dậy, đã vội vàng lên mạng. Cứ năm phút lại phải kiểm tra email một lần, hễ có tin tức mới, hình ảnh mới liền lập tức tải lên. Bọn họ lúc nào cũng đang lên mạng, dường như chỉ có lúc ngủ, mới rời khỏi mạng internet. Dành quá nhiều thời gian trên mạng, khiến cuộc sống của rất nhiều người trở nên không bình thường nữa." 
+      },
+      { 
+        sp: "📖", gender: "female", 
+        zh: "網路太方便了，讓大家已經習慣透過網路跟朋友打招呼、聊天、談事情，但是不想跟人面對面地說話，人跟人的關係好像越來越遠了。我們應該想一想，怎麼好好地利用網路，才不會影響人跟人的關係。", 
+        py: "Wǎnglù tài fāngbiàn le, ràng dàjiā yǐjīng xíguàn tòuguò wǎnglù gēn péngyǒu dǎzhāohū, liáotiān, tán shìqíng, dànshì bù xiǎng gēn rén miànduìmiàn de shuōhuà, rén gēn rén de guānxi hǎoxiàng yuè lái yuè yuǎn le. Wǒmen yīnggāi xiǎng yì xiǎng, zěnme hǎohāo de lìyòng wǎnglù, cái bú huì yǐngxiǎng rén gēn rén de guānxi.", 
+        vn: "Mạng internet quá tiện lợi, khiến mọi người đã quen với việc thông qua mạng để chào hỏi, nói chuyện, bàn bạc công việc với bạn bè, nhưng lại không muốn nói chuyện trực tiếp mặt đối mặt với người khác, mối quan hệ giữa người với người dường như ngày càng xa cách. Chúng ta nên suy nghĩ một chút, làm thế nào để tận dụng tốt mạng internet, mới không ảnh hưởng đến mối quan hệ giữa người với người." 
+      }
+    ],
+    clozes: [], // Để trống vì là phần Bài đọc
+    quizzes: [], // Để trống vì là phần Bài đọc
+    reading: {
+      paragraph: { 
+        zh: "現代人的生活已經離不開網路了，生活裡有很多事，比方說買東西、查資料、下載音樂，只要上網，就能做到。住在不同國家的人，也能天天用網路聊天。要是哪裡發生了事情，這些消息，都能透過網路，馬上傳到世界每一個地方，讓大家知道第一手資料。網路替我們節省了時間，還把世界變小了。\n\n雖然網路讓我們的生活變得更便利，但是也有一些問題。很多人每天早上才起床，就急著上網。每五分鐘就要檢查一次郵件，一有新消息、新照片就立刻上傳。他們什麼時候都在上網，好像只有睡覺的時候，才離開網路。在網路上花太多時間，讓很多人的生活變得不正常了。\n\n網路太方便了，讓大家已經習慣透過網路跟朋友打招呼、聊天、談事情，但是不想跟人面對面地說話，人跟人的關係好像越來越遠了。我們應該想一想，怎麼好好地利用網路，才不會影響人跟人的關係。", 
+        py: "Xiàndàirén de shēnghuó yǐjīng lí bù kāi wǎnglù le, shēnghuó lǐ yǒu hěn duō shì, bǐfāng shuō mǎi dōngxī, chá zīliào, xiàzài yīnyuè, zhǐyào shàngwǎng, jiù néng zuò dào. Zhù zài bùtóng guójiā de rén, yě néng tiāntiān yòng wǎnglù liáotiān. Yàoshì nǎlǐ fāshēng le shìqíng, zhèxiē xiāoxí, dōu néng tòuguò wǎnglù, mǎshàng chuán dào shìjiè měi yí ge dìfāng, ràng dàjiā zhīdào dì yī shǒu zīliào. Wǎnglù tì wǒmen jiéshěng le shíjiān, hái bǎ shìjiè biàn xiǎo le.\n\nSuīrán wǎnglù ràng wǒmen de shēnghuó biàn de gèng biànlì, dànshì yě yǒu yìxiē wèntí. Hěn duō rén měitiān zǎoshang cái qǐchuáng, jiù jízhe shàngwǎng. Měi wǔ fēnzhōng jiù yào jiǎnchá yí cì yóujiàn, yì yǒu xīn xiāoxí, xīn zhàopiàn jiù lìkè shàngchuán. Tāmen shénme shíhòu dōu zài shàngwǎng, hǎoxiàng zhǐyǒu shuìjiào de shíhòu, cái líkāi wǎnglù. Zài wǎnglù shàng huā tài duō shíjiān, ràng hěn duō rén de shēnghuó biàn de bù zhèngcháng le.\n\nWǎnglù tài fāngbiàn le, ràng dàjiā yǐjīng xíguàn tòuguò wǎnglù gēn péngyǒu dǎzhāohū, liáotiān, tán shìqíng, dànshì bù xiǎng gēn rén miànduìmiàn de shuōhuà, rén gēn rén de guānxi hǎoxiàng yuè lái yuè yuǎn le. Wǒmen yīnggāi xiǎng yì xiǎng, zěnme hǎohāo de lìyòng wǎnglù, cái bú huì yǐngxiǎng rén gēn rén de guānxi.", 
+        vn: "Cuộc sống của con người hiện đại đã không thể tách rời khỏi mạng internet rồi, trong cuộc sống có rất nhiều việc, ví dụ như mua đồ, tra tài liệu, tải nhạc, chỉ cần lên mạng là có thể làm được. Người sống ở các quốc gia khác nhau cũng có thể ngày ngày dùng mạng nói chuyện với nhau. Nếu như ở đâu xảy ra chuyện gì, những tin tức này đều có thể thông qua mạng internet, lập tức truyền đến mọi nơi trên thế giới, để mọi người biết được thông tin trực tiếp (tận tay). Mạng internet giúp chúng ta tiết kiệm thời gian, còn biến thế giới trở nên nhỏ bé lại.\n\nMặc dù mạng internet làm cho cuộc sống của chúng ta trở nên tiện lợi hơn, nhưng cũng có một số vấn đề. Rất nhiều người mỗi ngày sáng sớm vừa ngủ dậy, đã vội vàng lên mạng. Cứ năm phút lại phải kiểm tra email một lần, hễ có tin tức mới, hình ảnh mới liền lập tức tải lên. Bọn họ lúc nào cũng đang lên mạng, dường như chỉ có lúc ngủ, mới rời khỏi mạng internet. Dành quá nhiều thời gian trên mạng, khiến cuộc sống của rất nhiều người trở nên không bình thường nữa.\n\nMạng internet quá tiện lợi, khiến mọi người đã quen với việc thông qua mạng để chào hỏi, nói chuyện, bàn bạc công việc với bạn bè, nhưng lại không muốn nói chuyện trực tiếp mặt đối mặt với người khác, mối quan hệ giữa người với người dường như ngày càng xa cách. Chúng ta nên suy nghĩ một chút, làm thế nào để tận dụng tốt mạng internet, mới không ảnh hưởng đến mối quan hệ giữa người với người." 
+      },
+      questions: [
+        {
+          question: { zh: "根據短文，網路替我們帶來了什麼好處？", vn: "Theo đoạn văn, mạng internet mang lại cho chúng ta lợi ích gì?" },
+          options: [ { zh: "讓人們睡得更好", vn: "Giúp mọi người ngủ ngon hơn" }, { zh: "節省了時間，還把世界變小了", vn: "Tiết kiệm thời gian, còn biến thế giới nhỏ bé lại" }, { zh: "讓人跟人的關係越來越好", vn: "Giúp mối quan hệ giữa người với người ngày càng tốt hơn" } ], correct: 1
+        },
+        {
+          question: { zh: "很多人每天早上才起床，就急著做什麼？", vn: "Rất nhiều người mỗi ngày sáng sớm vừa ngủ dậy, đã vội vàng làm gì?" },
+          options: [ { zh: "去運動", vn: "Đi tập thể dục" }, { zh: "吃早餐", vn: "Ăn sáng" }, { zh: "上網", vn: "Lên mạng" } ], correct: 2
+        },
+        {
+          question: { zh: "在網路上花太多時間，會讓生活變得怎麼樣？", vn: "Dành quá nhiều thời gian trên mạng, sẽ khiến cuộc sống trở nên như thế nào?" },
+          options: [ { zh: "變得更健康", vn: "Trở nên khỏe mạnh hơn" }, { zh: "變得不正常", vn: "Trở nên không bình thường" }, { zh: "變得很有錢", vn: "Trở nên rất có tiền" } ], correct: 1
+        },
+        {
+          question: { zh: "因為網路太方便，現在的人有什麼改變？", vn: "Vì mạng internet quá tiện lợi, con người hiện nay có sự thay đổi gì?" },
+          options: [ { zh: "不想跟人面對面地說話", vn: "Không muốn nói chuyện trực tiếp mặt đối mặt với người khác" }, { zh: "不喜歡出國旅行", vn: "Không thích đi du lịch nước ngoài" }, { zh: "不喜歡聽音樂", vn: "Không thích nghe nhạc" } ], correct: 0
+        },
+        {
+          question: { zh: "這段短文最後告訴我們什麼？", vn: "Đoạn văn này cuối cùng nói với chúng ta điều gì?" },
+          options: [ { zh: "大家不應該再使用網路了", vn: "Mọi người không nên sử dụng mạng internet nữa" }, { zh: "應該想一想怎麼好好利用網路，才不會影響人際關係", vn: "Nên suy nghĩ cách tận dụng tốt mạng, mới không ảnh hưởng đến quan hệ xã hội" }, { zh: "網路上的資料都是不對的", vn: "Tài liệu trên mạng đều là không đúng" } ], correct: 1
+        }
+      ]
+    }
+});
