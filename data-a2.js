@@ -10862,3 +10862,62 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 3",
+    title: "Bài 3: 你的中文進步了！ Tiếng Trung của bạn tiến bộ rồi!",
+    content: [
+      { sp: "田中", gender: "male", zh: "早，妳今天來得真早。", py: "Zǎo, nǐ jīntiān lái de zhēn zǎo.", vn: "Chào buổi sáng, hôm nay bạn đến thật sớm." },
+      { sp: "如玉", gender: "female", zh: "是啊！我今天是搭捷運來的。", py: "Shì a! Wǒ jīntiān shì dā jiéyùn lái de.", vn: "Đúng vậy! Hôm nay tôi đi tàu điện ngầm đến." },
+      { sp: "田中", gender: "male", zh: "今天的考試，妳準備了嗎？", py: "Jīntiān de kǎoshì, nǐ zhǔnbèi le ma?", vn: "Bài thi hôm nay, bạn đã chuẩn bị chưa?" },
+      { sp: "如玉", gender: "female", zh: "準備得差不多了，應該可以考得不錯。你覺得聽寫很容易吧？", py: "Zhǔnbèi de chàbùduō le, yīnggāi kěyǐ kǎo de búcuò. Nǐ juéde tīngxiě hěn róngyì ba?", vn: "Chuẩn bị gần xong rồi, chắc là có thể thi không tệ. Bạn cảm thấy nghe viết rất dễ phải không?" },
+      { sp: "田中", gender: "male", zh: "是啊，日本人從小學就開始學寫漢字。", py: "Shì a, Rìběnrén cóng xiǎoxué jiù kāishǐ xué xiě Hànzì.", vn: "Đúng vậy, người Nhật từ tiểu học đã bắt đầu học viết chữ Hán rồi." },
+      { sp: "如玉", gender: "female", zh: "我現在也覺得寫字不難，因為我在美國念高中的時候就學過了。", py: "Wǒ xiànzài yě juéde xiězì bù nán, yīnwèi wǒ zài Měiguó niàn gāozhōng de shíhòu jiù xuéguò le.", vn: "Tôi bây giờ cũng cảm thấy viết chữ không khó, bởi vì lúc tôi học cấp 3 ở Mỹ đã từng học qua rồi." },
+      { sp: "田中", gender: "male", zh: "妳在這個語言中心學了多久了？", py: "Nǐ zài zhège yǔyán zhōngxīn xué le duōjiǔ le?", vn: "Bạn đã học ở trung tâm ngôn ngữ này bao lâu rồi?" },
+      { sp: "如玉", gender: "female", zh: "我才學了半年，你呢？", py: "Wǒ cái xué le bàn nián, nǐ ne?", vn: "Tôi mới học được nửa năm, còn bạn thì sao?" },
+      { sp: "田中", gender: "male", zh: "我來了快一年了，可是我說話，還說得不夠流利。", py: "Wǒ lái le kuài yì nián le, kěshì wǒ shuōhuà, hái shuō de búgòu liúlì.", vn: "Tôi đến được gần một năm rồi, nhưng mà tôi nói chuyện vẫn nói chưa được lưu loát lắm." },
+      { sp: "如玉", gender: "female", zh: "雖然我只來了半年，但是我知道我的中文進步了。", py: "Suīrán wǒ zhǐ lái le bàn nián, dànshì wǒ zhīdào wǒ de Zhōngwén jìnbù le.", vn: "Mặc dù tôi chỉ mới đến nửa năm, nhưng tôi biết tiếng Trung của mình đã tiến bộ rồi." },
+      { sp: "田中", gender: "male", zh: "我覺得在說中文的環境裡學中文，進步得比較快。", py: "Wǒ juéde zài shuō Zhōngwén de huánjìng lǐ xué Zhōngwén, jìnbù de bǐjiào kuài.", vn: "Tôi cảm thấy học tiếng Trung trong môi trường nói tiếng Trung, tiến bộ sẽ nhanh hơn." },
+      { sp: "如玉", gender: "female", zh: "我同意。我希望回國的時候能看中文報紙。", py: "Wǒ tóngyì. Wǒ xīwàng huí guó de shíhòu néng kàn Zhōngwén bàozhǐ.", vn: "Tôi đồng ý. Tôi hy vọng lúc về nước có thể đọc được báo tiếng Trung." },
+      { sp: "田中", gender: "male", zh: "我想妳一定可以。今天下了課，妳要去哪裡？", py: "Wǒ xiǎng nǐ yídìng kěyǐ. Jīntiān xià le kè, nǐ yào qù nǎlǐ?", vn: "Tôi nghĩ bạn nhất định làm được. Hôm nay tan học, bạn muốn đi đâu?" },
+      { sp: "如玉", gender: "female", zh: "我要去活動中心跟語言交換的朋友見面。", py: "Wǒ yào qù huódòng zhōngxīn gēn yǔyán jiāohuàn de péngyǒu jiànmiàn.", vn: "Tôi muốn đến trung tâm hoạt động để gặp mặt người bạn trao đổi ngôn ngữ." },
+      { sp: "田中", gender: "male", zh: "妳說的活動中心在哪裡？", py: "Nǐ shuō de huódòng zhōngxīn zài nǎlǐ?", vn: "Trung tâm hoạt động mà bạn nói ở đâu?" },
+      { sp: "如玉", gender: "female", zh: "在一樓有麵包店的那棟樓裡面，我們一起去聽過一次演講，記得嗎？", py: "Zài yì lóu yǒu miànbāodiàn de nà dòng lóu lǐmiàn, wǒmen yìqǐ qù tīngguò yí cì yǎnjiǎng, jìde ma?", vn: "Ở bên trong tòa nhà mà tầng 1 có tiệm bánh mì đó, chúng ta từng cùng nhau đi nghe diễn thuyết một lần rồi, nhớ không?" },
+      { sp: "田中", gender: "male", zh: "噢，我想起來了。", py: "Ō, wǒ xiǎng qǐlái le.", vn: "Ồ, tôi nhớ ra rồi." }
+    ],
+    clozes: [
+      { sentence: { zh: "我今天是搭 ______ 來的。", py: "Wǒ jīntiān shì dā ______ lái de.", vn: "Hôm nay tôi đi ... đến." }, options: [ { zh: "高鐵", vn: "đường sắt cao tốc" }, { zh: "捷運", vn: "tàu điện ngầm" }, { zh: "公車", vn: "xe buýt" } ], correct: 1 },
+      { sentence: { zh: "準備得差不多了，應該可以考得 ______ 。", py: "Zhǔnbèi de chàbùduō le, yīnggāi kěyǐ kǎo de ______ .", vn: "Chuẩn bị gần xong rồi, chắc là có thể thi..." }, options: [ { zh: "不好", vn: "không tốt" }, { zh: "很難", vn: "rất khó" }, { zh: "不錯", vn: "không tệ (tốt)" } ], correct: 2 },
+      { sentence: { zh: "我現在也覺得寫字不難，因為我在美國念 ______ 的時候就學過了。", py: "Wǒ xiànzài yě juéde xiězì bù nán, yīnwèi wǒ zài Měiguó niàn ______ de shíhòu jiù xuéguò le.", vn: "Tôi bây giờ cũng cảm thấy viết chữ không khó, bởi vì lúc tôi học ... ở Mỹ đã từng học qua rồi." }, options: [ { zh: "高中", vn: "cấp 3 (trung học phổ thông)" }, { zh: "大學", vn: "đại học" }, { zh: "小學", vn: "tiểu học" } ], correct: 0 },
+      { sentence: { zh: "雖然我只來了半年，但是我知道我的中文 ______ 了。", py: "Suīrán wǒ zhǐ lái le bàn nián, dànshì wǒ zhīdào wǒ de Zhōngwén ______ le.", vn: "Mặc dù tôi chỉ mới đến nửa năm, nhưng tôi biết tiếng Trung của mình đã ... rồi." }, options: [ { zh: "退步", vn: "thụt lùi" }, { zh: "進步", vn: "tiến bộ" }, { zh: "流利", vn: "lưu loát" } ], correct: 1 },
+      { sentence: { zh: "我希望回國的時候能看中文 ______ 。", py: "Wǒ xīwàng huí guó de shíhòu néng kàn Zhōngwén ______ .", vn: "Tôi hy vọng lúc về nước có thể đọc được ... tiếng Trung." }, options: [ { zh: "電視", vn: "ti vi" }, { zh: "電影", vn: "phim ảnh" }, { zh: "報紙", vn: "báo chí" } ], correct: 2 }
+    ],
+    quizzes: [
+      { question: { zh: "根據對話，誰覺得中文的聽寫很容易？", vn: "Theo đoạn hội thoại, ai cảm thấy bài nghe viết tiếng Trung rất dễ?" }, options: [ { zh: "如玉", vn: "Như Ngọc" }, { zh: "田中", vn: "Điền Trung" }, { zh: "他們都覺得很難", vn: "Họ đều cảm thấy rất khó" } ], correct: 1 },
+      { question: { zh: "如玉在這個語言中心學了多久的中文？", vn: "Như Ngọc đã học tiếng Trung ở trung tâm ngôn ngữ này bao lâu rồi?" }, options: [ { zh: "快一年了", vn: "Gần một năm rồi" }, { zh: "半年", vn: "Nửa năm" }, { zh: "一個月", vn: "Một tháng" } ], correct: 1 },
+      { question: { zh: "田中覺得在哪裡學中文，進步得比較快？", vn: "Điền Trung cảm thấy học tiếng Trung ở đâu thì tiến bộ nhanh hơn?" }, options: [ { zh: "在說中文的環境裡", vn: "Ở trong môi trường nói tiếng Trung" }, { zh: "在自己的國家", vn: "Ở quốc gia của mình" }, { zh: "在網路上", vn: "Ở trên mạng" } ], correct: 0 },
+      { question: { zh: "下了課以後，如玉要去哪裡？", vn: "Sau khi tan học, Như Ngọc muốn đi đâu?" }, options: [ { zh: "回家看報紙", vn: "Về nhà đọc báo" }, { zh: "去麵包店買麵包", vn: "Đến tiệm bánh mì mua bánh mì" }, { zh: "去活動中心見朋友", vn: "Đến trung tâm hoạt động gặp bạn" } ], correct: 2 },
+      { question: { zh: "如玉說的「活動中心」在哪裡？", vn: "«Trung tâm hoạt động» mà Như Ngọc nói nằm ở đâu?" }, options: [ { zh: "在捷運站對面", vn: "Ở đối diện trạm tàu điện ngầm" }, { zh: "在一樓有麵包店的那棟樓裡面", vn: "Ở bên trong tòa nhà mà tầng 1 có tiệm bánh mì" }, { zh: "在語言中心裡面", vn: "Ở bên trong trung tâm ngôn ngữ" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "如玉和田中早上見面了。他們談到了今天的聽寫考試。如玉覺得寫漢字不難，因為她以前在美國念高中的時候學過。田中來了快一年了，可是覺得自己說話還不夠流利。如玉才學了半年，但是她知道自己的中文進步了。下課後，如玉要去活動中心跟語言交換的朋友見面。", 
+        py: "Rúyù hé Tiánzhōng zǎoshang jiànmiàn le. Tāmen tán dào le jīntiān de tīngxiě kǎoshì. Rúyù juéde xiě Hànzì bù nán, yīnwèi tā yǐqián zài Měiguó niàn gāozhōng de shíhòu xuéguò. Tiánzhōng lái le kuài yì nián le, kěshì juéde zìjǐ shuōhuà hái búgòu liúlì. Rúyù cái xué le bàn nián, dànshì tā zhīdào zìjǐ de Zhōngwén jìnbù le. Xiàkè hòu, Rúyù yào qù huódòng zhōngxīn gēn yǔyán jiāohuàn de péngyǒu jiànmiàn.", 
+        vn: "Như Ngọc và Điền Trung đã gặp nhau vào buổi sáng. Họ đã nói về bài kiểm tra nghe viết hôm nay. Như Ngọc cảm thấy viết chữ Hán không khó, bởi vì trước đây lúc học cấp 3 ở Mỹ cô ấy đã từng học qua. Điền Trung đến đã gần một năm rồi, nhưng cảm thấy bản thân nói chuyện vẫn chưa đủ lưu loát. Như Ngọc mới học được nửa năm, nhưng cô ấy biết tiếng Trung của mình đã tiến bộ rồi. Sau khi tan học, Như Ngọc muốn đến trung tâm hoạt động gặp người bạn trao đổi ngôn ngữ." 
+      },
+      questions: [
+        {
+          question: { zh: "如玉覺得寫漢字難不難？", vn: "Như Ngọc cảm thấy viết chữ Hán có khó không?" },
+          options: [ { zh: "很難", vn: "Rất khó" }, { zh: "不難", vn: "Không khó" }, { zh: "她不知道", vn: "Cô ấy không biết" } ], correct: 1
+        },
+        {
+          question: { zh: "田中學中文學了多久了？", vn: "Điền Trung học tiếng Trung được bao lâu rồi?" },
+          options: [ { zh: "快一年了", vn: "Gần một năm rồi" }, { zh: "半年", vn: "Nửa năm" }, { zh: "一個月", vn: "Một tháng" } ], correct: 0
+        },
+        {
+          question: { zh: "下課後，如玉要去哪裡？", vn: "Sau khi tan học, Như Ngọc muốn đi đâu?" },
+          options: [ { zh: "去麵包店", vn: "Đi tiệm bánh mì" }, { zh: "回美國", vn: "Về Mỹ" }, { zh: "去活動中心", vn: "Đến trung tâm hoạt động" } ], correct: 2
+        }
+      ]
+    }
+});
