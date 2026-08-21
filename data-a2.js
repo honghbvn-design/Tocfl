@@ -11324,3 +11324,62 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 7",
+    title: "Bài 7: 垃圾車來了！ Xe rác đến rồi!",
+    content: [
+      { sp: "陳太太", gender: "female", zh: "東健，要出去啊？", py: "Chén tàitài: Dōngjiàn, yào chūqù a?", vn: "Đông Kiện, định ra ngoài à?" },
+      { sp: "東健", gender: "male", zh: "是啊！垃圾車快來了，我得趕快下樓去倒垃圾。", py: "Shì a! Lèsèchē kuài lái le, wǒ děi gǎnkuài xià lóu qù dào lèsè.", vn: "Vâng ạ! Xe rác sắp đến rồi, cháu phải mau chóng xuống lầu đi đổ rác." },
+      { sp: "陳太太", gender: "female", zh: "丟垃圾？今天是星期三，不收垃圾啊！", py: "Diū lèsè? Jīntiān shì xīngqísān, bù shōu lèsè a!", vn: "Vứt rác sao? Hôm nay là thứ Tư, không thu rác đâu!" },
+      { sp: "東健", gender: "male", zh: "真的嗎？我以為天天都收。", py: "Zhēn de ma? Wǒ yǐwéi tiāntiān dōu shōu.", vn: "Thật không ạ? Cháu tưởng ngày nào cũng thu." },
+      { sp: "陳太太", gender: "female", zh: "不是，每個星期三和星期天是不收的。", py: "Bú shì, měi ge xīngqísān hé xīngqítiān shì bù shōu de.", vn: "Không phải, mỗi thứ Tư và Chủ Nhật là không thu." },
+      { sp: "東健", gender: "male", zh: "那麼，我這些汽水罐和紙杯也不能拿出去回收了嗎？", py: "Nàme, wǒ zhèxiē qìshuǐguàn hé zhǐbēi yě bù néng ná chūqù huíshōu le ma?", vn: "Vậy thì, những lon nước ngọt và cốc giấy này của cháu cũng không thể đem ra ngoài tái chế nữa sao?" },
+      { sp: "陳太太", gender: "female", zh: "是啊！", py: "Shì a!", vn: "Đúng vậy!" },
+      { sp: "東健", gender: "male", zh: "為什麼在台北倒垃圾這麼麻煩？", py: "Wèishénme zài Táiběi dào lèsè zhème máfán?", vn: "Tại sao ở Đài Bắc đổ rác lại phiền phức như vậy?" },
+      { sp: "陳太太", gender: "female", zh: "剛開始的時候，台北人也覺得這個規定很麻煩，現在大家都習慣了。", py: "Gāng kāishǐ de shíhòu, Táiběirén yě juéde zhège guīdìng hěn máfán, xiànzài dàjiā dōu xíguàn le.", vn: "Lúc mới bắt đầu, người Đài Bắc cũng cảm thấy quy định này rất phiền phức, bây giờ mọi người đều quen rồi." },
+      { sp: "東健", gender: "male", zh: "更麻煩的是，我一定要在晚上九點把垃圾拿出去，要不然就不能倒了。", py: "Gèng máfán de shì, wǒ yídìng yào zài wǎnshàng jiǔ diǎn bǎ lèsè ná chūqù, yàobùrán jiù bù néng dào le.", vn: "Phiền phức hơn là, cháu nhất định phải đem rác ra ngoài vào lúc 9 giờ tối, nếu không thì không thể đổ được nữa." },
+      { sp: "陳太太", gender: "female", zh: "你說的對，有一次，我一回來，垃圾車就來了。我馬上放下皮包，跑出去倒垃圾。", py: "Nǐ shuō de duì, yǒu yí cì, wǒ yì huílái, lèsèchē jiù lái le. Wǒ mǎshàng fàngxià píbāo, pǎo chūqù dào lèsè.", vn: "Cháu nói đúng, có một lần, cô vừa về đến nhà là xe rác liền tới. Cô lập tức đặt túi xách xuống, chạy ra ngoài đổ rác." },
+      { sp: "東健", gender: "male", zh: "對啊！我常常看到有人追垃圾車。", py: "Duì a! Wǒ chángcháng kàndào yǒu rén zhuī lèsèchē.", vn: "Đúng vậy ạ! Cháu thường xuyên nhìn thấy có người đuổi theo xe rác." },
+      { sp: "陳太太", gender: "female", zh: "晚上，這麼多人從家裡拿著垃圾走出來，一起站著等垃圾車，你不覺得很有趣嗎？", py: "Wǎnshàng, zhème duō rén cóng jiālǐ názhe lèsè zǒu chūlái, yìqǐ zhànzhe děng lèsèchē, nǐ bù juéde hěn yǒuqù ma?", vn: "Buổi tối, nhiều người như vậy từ trong nhà cầm rác bước ra, cùng nhau đứng đợi xe rác, cháu không thấy rất thú vị sao?" },
+      { sp: "東健", gender: "male", zh: "大家常一邊聊天，一邊等，看起來真的很有意思。", py: "Dàjiā cháng yìbiān liáotiān, yìbiān děng, kàn qǐlái zhēn de hěn yǒuyìsi.", vn: "Mọi người thường vừa nói chuyện vừa đợi, thoạt nhìn thực sự rất thú vị." },
+      { sp: "陳太太", gender: "female", zh: "雖然倒垃圾有點麻煩，但是好像也不壞。", py: "Suīrán dào lèsè yǒudiǎn máfán, dànshì hǎoxiàng yě bú huài.", vn: "Mặc dù đổ rác có hơi phiền phức, nhưng mà dường như cũng không tệ." },
+      { sp: "東健", gender: "male", zh: "那麼，我這包垃圾怎麼辦？", py: "Nàme, wǒ zhè bāo lèsè zěnme bàn?", vn: "Vậy thì, túi rác này của cháu phải làm sao đây?" },
+      { sp: "陳太太", gender: "female", zh: "你拿回家去，明天再倒吧！", py: "Nǐ ná huí jiā qù, míngtiān zài dào ba!", vn: "Cháu mang về nhà đi, ngày mai hãy đổ!" }
+    ],
+    clozes: [
+      { sentence: { zh: "垃圾車快來了，我得趕快下樓去 ______。", py: "Lèsèchē kuài lái le, wǒ děi gǎnkuài xià lóu qù ______.", vn: "Xe rác sắp đến rồi, cháu phải mau chóng xuống lầu đi..." }, options: [ { zh: "回收", vn: "tái chế" }, { zh: "倒垃圾", vn: "đổ rác" }, { zh: "買東西", vn: "mua đồ" } ], correct: 1 },
+      { sentence: { zh: "今天是星期三，不 ______ 垃圾啊！", py: "Jīntiān shì xīngqísān, bù ______ lèsè a!", vn: "Hôm nay là thứ Tư, không ... rác đâu!" }, options: [ { zh: "收", vn: "thu" }, { zh: "丟", vn: "vứt" }, { zh: "給", vn: "cho" } ], correct: 0 },
+      { sentence: { zh: "我這些汽水罐和紙杯也不能拿出去 ______ 了嗎？", py: "Wǒ zhèxiē qìshuǐguàn hé zhǐbēi yě bù néng ná chūqù ______ le ma?", vn: "Những lon nước ngọt và cốc giấy này của cháu cũng không thể đem ra ngoài ... nữa sao?" }, options: [ { zh: "回收", vn: "tái chế" }, { zh: "丟掉", vn: "vứt đi" }, { zh: "賣掉", vn: "bán đi" } ], correct: 0 },
+      { sentence: { zh: "剛開始的時候，台北人也覺得這個 ______ 很麻煩。", py: "Gāng kāishǐ de shíhòu, Táiběirén yě juéde zhège ______ hěn máfán.", vn: "Lúc mới bắt đầu, người Đài Bắc cũng cảm thấy ... này rất phiền phức." }, options: [ { zh: "習慣", vn: "thói quen" }, { zh: "時間", vn: "thời gian" }, { zh: "規定", vn: "quy định" } ], correct: 2 },
+      { sentence: { zh: "大家一起站著等垃圾車，你不覺得很 ______ 嗎？", py: "Dàjiā yìqǐ zhànzhe děng lèsèchē, nǐ bù juéde hěn ______ ma?", vn: "Mọi người cùng nhau đứng đợi xe rác, cháu không thấy rất ... sao?" }, options: [ { zh: "麻煩", vn: "phiền phức" }, { zh: "有趣", vn: "thú vị" }, { zh: "奇怪", vn: "kỳ lạ" } ], correct: 1 }
+    ],
+    quizzes: [
+      { question: { zh: "今天星期幾？", vn: "Hôm nay là thứ mấy?" }, options: [ { zh: "星期一", vn: "Thứ Hai" }, { zh: "星期三", vn: "Thứ Tư" }, { zh: "星期天", vn: "Chủ Nhật" } ], correct: 1 },
+      { question: { zh: "台灣每個星期的哪兩天不收垃圾？", vn: "Đài Loan mỗi tuần có hai ngày nào không thu rác?" }, options: [ { zh: "星期一和星期三", vn: "Thứ Hai và thứ Tư" }, { zh: "星期六和星期天", vn: "Thứ Bảy và Chủ Nhật" }, { zh: "星期三和星期天", vn: "Thứ Tư và Chủ Nhật" } ], correct: 2 },
+      { question: { zh: "東健手裡拿著什麼東西準備去回收？", vn: "Đông Kiện cầm đồ gì trên tay chuẩn bị mang đi tái chế?" }, options: [ { zh: "汽水罐和紙杯", vn: "Lon nước ngọt và cốc giấy" }, { zh: "舊衣服和舊書", vn: "Quần áo cũ và sách cũ" }, { zh: "玻璃瓶和塑膠袋", vn: "Chai thủy tinh và túi nilon" } ], correct: 0 },
+      { question: { zh: "為什麼東健覺得在台北倒垃圾很麻煩？", vn: "Tại sao Đông Kiện cảm thấy đổ rác ở Đài Bắc rất phiền phức?" }, options: [ { zh: "因為垃圾車常常不來", vn: "Vì xe rác thường xuyên không đến" }, { zh: "因為他一定要在晚上九點把垃圾拿出去", vn: "Vì anh ấy nhất định phải đem rác ra ngoài lúc 9 giờ tối" }, { zh: "因為回收的東西太多了", vn: "Vì đồ tái chế quá nhiều" } ], correct: 1 },
+      { question: { zh: "東健最後怎麼處理他的垃圾？", vn: "Cuối cùng Đông Kiện xử lý rác của mình như thế nào?" }, options: [ { zh: "拿回家明天再倒", vn: "Mang về nhà ngày mai mới đổ" }, { zh: "放在路邊", vn: "Để ở ven đường" }, { zh: "丟進公園的垃圾桶", vn: "Vứt vào thùng rác công viên" } ], correct: 0 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "今天是星期三，東健想下樓去倒垃圾。可是陳太太告訴他，在台北，星期三和星期天不收垃圾，也不回收汽水罐和紙杯。東健覺得在台北倒垃圾很麻煩，因為一定要在晚上九點把垃圾拿出去。不過，陳太太覺得大家一起站著等垃圾車，一邊等一邊聊天，是一件很有趣的事。最後，東健只好把垃圾拿回家，等明天再倒。", 
+        py: "Jīntiān shì xīngqísān, Dōngjiàn xiǎng xià lóu qù dào lèsè. Kěshì Chén tàitài gàosù tā, zài Táiběi, xīngqísān hé xīngqítiān bù shōu lèsè, yě bù huíshōu qìshuǐguàn hé zhǐbēi. Dōngjiàn juéde zài Táiběi dào lèsè hěn máfán, yīnwèi yídìng yào zài wǎnshàng jiǔ diǎn bǎ lèsè ná chūqù. Búguò, Chén tàitài juéde dàjiā yìqǐ zhànzhe děng lèsèchē, yìbiān děng yìbiān liáotiān, shì yí jiàn hěn yǒuqù de shì. Zuìhòu, Dōngjiàn zhǐhǎo bǎ lèsè ná huí jiā, děng míngtiān zài dào.", 
+        vn: "Hôm nay là thứ Tư, Đông Kiện muốn xuống lầu đi đổ rác. Nhưng bà Trần nói với anh ấy, ở Đài Bắc, thứ Tư và Chủ Nhật không thu rác, cũng không tái chế lon nước ngọt và cốc giấy. Đông Kiện cảm thấy ở Đài Bắc đổ rác rất phiền phức, vì nhất định phải mang rác ra ngoài vào lúc 9 giờ tối. Tuy nhiên, bà Trần cảm thấy mọi người cùng nhau đứng đợi xe rác, vừa đợi vừa nói chuyện, là một việc rất thú vị. Cuối cùng, Đông Kiện đành phải mang rác về nhà, đợi ngày mai mới đổ." 
+      },
+      questions: [
+        {
+          question: { zh: "在台北，哪幾天不能倒垃圾？", vn: "Ở Đài Bắc, những ngày nào không thể đổ rác?" },
+          options: [ { zh: "星期一和星期二", vn: "Thứ Hai và thứ Ba" }, { zh: "星期三和星期天", vn: "Thứ Tư và Chủ Nhật" }, { zh: "週末", vn: "Cuối tuần" } ], correct: 1
+        },
+        {
+          question: { zh: "關於在台北倒垃圾，東健覺得怎麼樣？", vn: "Về việc đổ rác ở Đài Bắc, Đông Kiện cảm thấy thế nào?" },
+          options: [ { zh: "很方便", vn: "Rất tiện lợi" }, { zh: "很有趣", vn: "Rất thú vị" }, { zh: "很麻煩", vn: "Rất phiền phức" } ], correct: 2
+        },
+        {
+          question: { zh: "陳太太覺得大家一起等垃圾車怎麼樣？", vn: "Bà Trần cảm thấy mọi người cùng nhau đợi xe rác như thế nào?" },
+          options: [ { zh: "很有趣", vn: "Rất thú vị" }, { zh: "很累", vn: "Rất mệt" }, { zh: "很吵", vn: "Rất ồn ào" } ], correct: 0
+        }
+      ]
+    }
+});
