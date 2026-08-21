@@ -11561,3 +11561,64 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 9",
+    title: "Hội thoại 9: 那個城市好漂亮 Thành phố đó thật xinh đẹp",
+    content: [
+      { sp: "美玲", gender: "female", zh: "我放春假的時候到泰國去玩了一個星期，你呢？", py: "Wǒ fàng chūnjià de shíhòu dào Tàiguó qù wán le yí ge xīngqí, nǐ ne?", vn: "Lúc nghỉ xuân tôi đã đến Thái Lan chơi một tuần, còn bạn thì sao?" },
+      { sp: "東健", gender: "male", zh: "我哪裡也沒去，忙著搬家。", py: "Wǒ nǎlǐ yě méi qù, mángzhe bānjiā.", vn: "Tôi chẳng đi đâu cả, bận rộn chuyển nhà." },
+      { sp: "美玲", gender: "female", zh: "都搬好了嗎？", py: "Dōu bān hǎo le ma?", vn: "Đã chuyển xong hết chưa?" },
+      { sp: "東健", gender: "male", zh: "都搬好了。泰國怎麼樣？", py: "Dōu bān hǎo le. Tàiguó zěnmeyàng?", vn: "Chuyển xong hết rồi. Thái Lan thế nào?" },
+      { sp: "美玲", gender: "female", zh: "我好喜歡，沒想到泰國這麼有特色，玩一個星期也不夠。", py: "Wǒ hǎo xǐhuān, méi xiǎngdào Tàiguó zhème yǒu tèsè, wán yí ge xīngqí yě búgòu.", vn: "Tôi rất thích, không ngờ Thái Lan lại có đặc sắc như vậy, chơi một tuần cũng không đủ." },
+      { sp: "東健", gender: "male", zh: "真的啊！有些什麼特色呢？", py: "Zhēn de a! Yǒu xiē shénme tèsè ne?", vn: "Thật sao! Có những đặc sắc gì vậy?" },
+      { sp: "美玲", gender: "female", zh: "那裡的房子很漂亮，跟法國的比起來，顏色比較多。", py: "Nàlǐ de fángzi hěn piàoliàng, gēn Fàguó de bǐ qǐlái, yánsè bǐjiào duō.", vn: "Nhà ở đó rất đẹp, so với Pháp thì nhiều màu sắc hơn." },
+      { sp: "東健", gender: "male", zh: "聽說泰國的廟很多。", py: "Tīngshuō Tàiguó de miào hěn duō.", vn: "Nghe nói Thái Lan có rất nhiều chùa." },
+      { sp: "美玲", gender: "female", zh: "是。泰國到處都是廟，就像法國有很多教堂一樣。", py: "Shì. Tàiguó dàochù dōu shì miào, jiù xiàng Fàguó yǒu hěn duō jiàotáng yíyàng.", vn: "Đúng vậy. Thái Lan khắp nơi đều là chùa, giống như Pháp có rất nhiều nhà thờ vậy." },
+      { sp: "東健", gender: "male", zh: "泰國的海邊怎麼樣？", py: "Tàiguó de hǎibiān zěnmeyàng?", vn: "Bờ biển của Thái Lan thế nào?" },
+      { sp: "美玲", gender: "female", zh: "美極了。我到南部的小島去潛水，藍藍的海水非常乾淨，看得見各種顏色的魚。", py: "Měi jí le. Wǒ dào nánbù de xiǎodǎo qù qiánshuǐ, lánlán de hǎishuǐ fēicháng gānjìng, kàn de jiàn gè zhǒng yánsè de yú.", vn: "Đẹp vô cùng. Tôi đến hòn đảo nhỏ ở miền Nam lặn biển, nước biển xanh xanh vô cùng sạch sẽ, có thể nhìn thấy các loại cá đủ màu sắc." },
+      { sp: "東健", gender: "male", zh: "聽起來好美啊！除了到處去玩，妳一定也吃了很多泰國菜吧？", py: "Tīng qǐlái hǎo měi a! Chúle dàochù qù wán, nǐ yídìng yě chī le hěn duō Tàiguó cài ba?", vn: "Nghe có vẻ thật đẹp! Ngoài đi chơi khắp nơi, bạn chắc chắn cũng đã ăn rất nhiều món Thái phải không?" },
+      { sp: "美玲", gender: "female", zh: "當然啊，在那裡吃的泰國菜跟我在法國吃的不一樣。", py: "Dāngrán a, zài nàlǐ chī de Tàiguó cài gēn wǒ zài Fàguó chī de bù yíyàng.", vn: "Đương nhiên rồi, món Thái ăn ở đó khác với món tôi ăn ở Pháp." },
+      { sp: "東健", gender: "male", zh: "有什麼不一樣？", py: "Yǒu shénme bù yíyàng?", vn: "Có gì khác nhau?" },
+      { sp: "美玲", gender: "female", zh: "在法國，沒有那麼多酸酸辣辣的菜，但是在泰國，很多菜都放了檸檬，味道比較酸。", py: "Zài Fàguó, méiyǒu nàme duō suānsuān làlà de cài, dànshì zài Tàiguó, hěn duō cài dōu fàng le níngméng, wèidào bǐjiào suān.", vn: "Ở Pháp, không có nhiều món chua chua cay cay như vậy, nhưng ở Thái Lan, rất nhiều món đều cho chanh, mùi vị khá chua." },
+      { sp: "東健", gender: "male", zh: "泰國這麼好玩，妳不想回來吧？", py: "Tàiguó zhème hǎowán, nǐ bù xiǎng huílái ba?", vn: "Thái Lan vui như vậy, bạn không muốn về đâu nhỉ?" },
+      { sp: "美玲", gender: "female", zh: "對啊！這些都是忘不了的經驗。如果不必上課，我一定要多住一個月。", py: "Duì a! Zhèxiē dōu shì wàng bù liǎo de jīngyàn. Rúguǒ búbì shàngkè, wǒ yídìng yào duō zhù yí ge yuè.", vn: "Đúng vậy! Đây đều là những trải nghiệm không thể nào quên. Nếu như không phải lên lớp, tôi nhất định sẽ ở thêm một tháng." },
+      { sp: "東健", gender: "male", zh: "妳下次去的時候，我可以跟妳一起去嗎？", py: "Nǐ xià cì qù de shíhòu, wǒ kěyǐ gēn nǐ yìqǐ qù ma?", vn: "Lần sau lúc bạn đi, tôi có thể đi cùng bạn được không?" },
+      { sp: "美玲", gender: "female", zh: "好，沒問題。", py: "Hǎo, méi wèntí.", vn: "Được, không thành vấn đề." }
+    ],
+    clozes: [
+      { sentence: { zh: "我放春假的時候到泰國去玩了一個星期，你 ______ ？", py: "Wǒ fàng chūnjià de shíhòu dào Tàiguó qù wán le yí ge xīngqí, nǐ ______ ?", vn: "Lúc nghỉ xuân tôi đã đến Thái Lan chơi một tuần, còn bạn thì ... ?" }, options: [ { zh: "呢", vn: "sao" }, { zh: "嗎", vn: "không" }, { zh: "吧", vn: "nhỉ" } ], correct: 0 },
+      { sentence: { zh: "泰國到處都是 ______ ，就像法國有很多教堂一樣。", py: "Tàiguó dàochù dōu shì ______ , jiù xiàng Fàguó yǒu hěn duō jiàotáng yíyàng.", vn: "Thái Lan khắp nơi đều là ... , giống như Pháp có rất nhiều nhà thờ vậy." }, options: [ { zh: "房子", vn: "nhà" }, { zh: "廟", vn: "chùa" }, { zh: "學校", vn: "trường học" } ], correct: 1 },
+      { sentence: { zh: "我到南部的小島去 ______ ，藍藍的海水非常乾淨。", py: "Wǒ dào nánbù de xiǎodǎo qù ______ , lánlán de hǎishuǐ fēicháng gānjìng.", vn: "Tôi đến hòn đảo nhỏ ở miền Nam ... , nước biển xanh xanh vô cùng sạch sẽ." }, options: [ { zh: "買東西", vn: "mua đồ" }, { zh: "爬山", vn: "leo núi" }, { zh: "潛水", vn: "lặn biển" } ], correct: 2 },
+      { sentence: { zh: "在泰國，很多菜都放了 ______ ，味道比較酸。", py: "Zài Tàiguó, hěn duō cài dōu fàng le ______ , wèidào bǐjiào suān.", vn: "Ở Thái Lan, rất nhiều món đều cho ... , mùi vị khá chua." }, options: [ { zh: "糖", vn: "đường" }, { zh: "鹽", vn: "muối" }, { zh: "檸檬", vn: "chanh" } ], correct: 2 },
+      { sentence: { zh: "這些都是忘不了的 ______ 。如果不必上課，我一定要多住一個月。", py: "Zhèxiē dōu shì wàng bù liǎo de ______ . Rúguǒ búbì shàngkè, wǒ yídìng yào duō zhù yí ge yuè.", vn: "Đây đều là những ... không thể nào quên. Nếu như không phải lên lớp, tôi nhất định sẽ ở thêm một tháng." }, options: [ { zh: "經驗", vn: "kinh nghiệm/trải nghiệm" }, { zh: "工作", vn: "công việc" }, { zh: "環境", vn: "môi trường" } ], correct: 0 }
+    ],
+    quizzes: [
+      { question: { zh: "春假的時候，東健去了哪裡？", vn: "Vào kỳ nghỉ xuân, Đông Kiện đã đi đâu?" }, options: [ { zh: "去泰國玩了", vn: "Đi Thái Lan chơi" }, { zh: "回韓國了", vn: "Về Hàn Quốc" }, { zh: "哪裡也沒去，忙著搬家", vn: "Chẳng đi đâu cả, bận rộn chuyển nhà" } ], correct: 2 },
+      { question: { zh: "美玲覺得泰國的房子跟法國的有什麼不一樣？", vn: "Mỹ Linh cảm thấy nhà ở Thái Lan khác với nhà ở Pháp như thế nào?" }, options: [ { zh: "泰國的房子顏色比較多", vn: "Nhà ở Thái Lan có nhiều màu sắc hơn" }, { zh: "泰國的房子比較貴", vn: "Nhà ở Thái Lan đắt hơn" }, { zh: "泰國的房子比較大", vn: "Nhà ở Thái Lan lớn hơn" } ], correct: 0 },
+      { question: { zh: "美玲在南部的小島做了什麼？", vn: "Mỹ Linh đã làm gì ở hòn đảo nhỏ miền Nam?" }, options: [ { zh: "在海邊吃海鮮", vn: "Ăn hải sản trên bờ biển" }, { zh: "去潛水，看各種顏色的魚", vn: "Đi lặn biển, ngắm cá đủ màu sắc" }, { zh: "去海邊買東西", vn: "Đi mua sắm ở bờ biển" } ], correct: 1 },
+      { question: { zh: "美玲覺得泰國菜的味道怎麼樣？", vn: "Mỹ Linh cảm thấy mùi vị món Thái như thế nào?" }, options: [ { zh: "很甜", vn: "Rất ngọt" }, { zh: "酸酸辣辣的", vn: "Chua chua cay cay" }, { zh: "沒有味道", vn: "Không có vị gì" } ], correct: 1 },
+      { question: { zh: "東健聽完美玲的介紹以後，想做什麼？", vn: "Đông Kiện sau khi nghe Mỹ Linh giới thiệu xong thì muốn làm gì?" }, options: [ { zh: "他下次想跟美玲一起去泰國", vn: "Lần sau anh ấy muốn đi Thái Lan cùng Mỹ Linh" }, { zh: "他想去法國玩", vn: "Anh ấy muốn đi Pháp chơi" }, { zh: "他想馬上吃泰國菜", vn: "Anh ấy muốn ăn món Thái ngay lập tức" } ], correct: 0 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "春假的時候，美玲去泰國玩了一個星期，而東健哪裡都沒去，忙著搬家。美玲覺得泰國很有特色，房子顏色很多，而且到處都是廟。她還去南部的小島潛水，看到很多顏色漂亮的魚。此外，她覺得在泰國吃的菜跟法國的不一樣，泰國菜常常放檸檬，所以味道比較酸酸辣辣的。美玲非常喜歡這次的旅行，東健聽了也很想去，所以美玲答應下次帶他一起去。", 
+        py: "Chūnjià de shíhòu, Měilíng qù Tàiguó wán le yí ge xīngqí, ér Dōngjiàn nǎlǐ dōu méi qù, mángzhe bānjiā. Měilíng juéde Tàiguó hěn yǒu tèsè, fángzi yánsè hěn duō, érqiě dàochù dōu shì miào. Tā hái qù nánbù de xiǎodǎo qiánshuǐ, kàndào hěn duō yánsè piàoliàng de yú. Cǐwài, tā juéde zài Tàiguó chī de cài gēn Fàguó de bù yíyàng, Tàiguó cài chángcháng fàng níngméng, suǒyǐ wèidào bǐjiào suānsuān làlà de. Měilíng fēicháng xǐhuān zhè cì de lǚxíng, Dōngjiàn tīng le yě hěn xiǎng qù, suǒyǐ Měilíng dāyìng xià cì dài tā yìqǐ qù.", 
+        vn: "Vào kỳ nghỉ xuân, Mỹ Linh đã đi Thái Lan chơi một tuần, còn Đông Kiện chẳng đi đâu cả, bận rộn chuyển nhà. Mỹ Linh cảm thấy Thái Lan rất có đặc sắc, nhà cửa có rất nhiều màu sắc, hơn nữa khắp nơi đều là chùa. Cô ấy còn đến hòn đảo nhỏ ở miền Nam lặn biển, nhìn thấy rất nhiều cá có màu sắc đẹp. Ngoài ra, cô ấy cảm thấy món ăn ở Thái Lan không giống ở Pháp, món Thái thường cho thêm chanh, nên mùi vị khá là chua chua cay cay. Mỹ Linh vô cùng thích chuyến du lịch lần này, Đông Kiện nghe xong cũng rất muốn đi, vì vậy Mỹ Linh đồng ý lần sau sẽ dẫn anh ấy đi cùng." 
+      },
+      questions: [
+        {
+          question: { zh: "春假的時候，誰去泰國玩了？", vn: "Vào kỳ nghỉ xuân, ai đã đi Thái Lan chơi?" },
+          options: [ { zh: "東健", vn: "Đông Kiện" }, { zh: "美玲", vn: "Mỹ Linh" }, { zh: "他們一起去的", vn: "Họ cùng nhau đi" } ], correct: 1
+        },
+        {
+          question: { zh: "泰國的哪裡有漂亮乾淨的海水和魚？", vn: "Ở đâu của Thái Lan có nước biển sạch đẹp và cá?" },
+          options: [ { zh: "曼谷", vn: "Bangkok" }, { zh: "北部的山上", vn: "Trên núi ở miền Bắc" }, { zh: "南部的小島", vn: "Hòn đảo nhỏ ở miền Nam" } ], correct: 2
+        },
+        {
+          question: { zh: "為什麼泰國菜吃起來比較酸？", vn: "Tại sao món Thái ăn vào lại khá chua?" },
+          options: [ { zh: "因為放了檸檬", vn: "Vì đã cho thêm chanh" }, { zh: "因為放了很多糖", vn: "Vì đã cho rất nhiều đường" }, { zh: "因為沒有煮熟", vn: "Vì chưa nấu chín" } ], correct: 0
+        }
+      ]
+    }
+});
