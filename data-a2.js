@@ -12171,3 +12171,67 @@ dialogueData.push({
       ]
     }
 });
+dialogueData.push({
+    level: "TOCFL A2",
+    lesson: "Bài 14",
+    title: "Hội thoại 14: 我要開始找工作了 Tôi phải bắt đầu tìm việc rồi",
+    content: [
+      { sp: "美玲", gender: "female", zh: "如玉，好久不見，跟我們一起坐吧。", py: "Rúyù, hǎo jiǔ bú jiàn, gēn wǒmen yìqǐ zuò ba.", vn: "Như Ngọc, lâu rồi không gặp, ngồi cùng bọn mình đi." },
+      { sp: "如玉", gender: "female", zh: "好啊！妳們在聊什麼，聊得這麼高興？", py: "Hǎo a! Nǐmen zài liáo shénme, liáo de zhème gāoxìng?", vn: "Được chứ! Các cậu đang nói chuyện gì mà vui thế?" },
+      { sp: "美玲", gender: "female", zh: "這個學期結束，我就要離開台灣了，正在跟愛麗說我將來的計畫。", py: "Zhège xuéqí jiéshù, wǒ jiù yào líkāi Táiwān le, zhèngzài gēn Àilì shuō wǒ jiānglái de jìhuà.", vn: "Học kỳ này kết thúc là mình phải rời khỏi Đài Loan rồi, đang nói với Alice về kế hoạch tương lai của mình." },
+      { sp: "如玉", gender: "female", zh: "時間過得好快啊！妳已經來了快一年半了。", py: "Shíjiān guò de hǎo kuài a! Nǐ yǐjīng lái le kuài yì nián bàn le.", vn: "Thời gian trôi qua nhanh thật! Cậu đã đến được gần một năm rưỡi rồi." },
+      { sp: "美玲", gender: "female", zh: "對啊！在我回國以前，要開始找工作。", py: "Duì a! Zài wǒ huí guó yǐqián, yào kāishǐ zhǎo gōngzuò.", vn: "Đúng vậy! Trước khi về nước, phải bắt đầu tìm việc làm." },
+      { sp: "愛麗", gender: "female", zh: "妳剛剛說到對一個工作有興趣，是什麼工作呢？", py: "Nǐ gānggāng shuō dào duì yí ge gōngzuò yǒu xìngqù, shì shénme gōngzuò ne?", vn: "Cậu vừa nói có hứng thú với một công việc, là công việc gì vậy?" },
+      { sp: "美玲", gender: "female", zh: "我以前念的高中正在徵求一位教中文的教師，我想試試看。", py: "Wǒ yǐqián niàn de gāozhōng zhèngzài zhēngqiú yí wèi jiāo Zhōngwén de jiàoshī, wǒ xiǎng shìshi kàn.", vn: "Trường cấp ba trước đây mình học đang tuyển một giáo viên dạy tiếng Trung, mình muốn thử xem sao." },
+      { sp: "愛麗", gender: "female", zh: "妳的中文學得不錯，我認為妳回去教中文應該沒問題。", py: "Nǐ de Zhōngwén xué de búcuò, wǒ rènwéi nǐ huíqù jiāo Zhōngwén yīnggāi méi wèntí.", vn: "Tiếng Trung của cậu học rất khá, mình nghĩ cậu về dạy tiếng Trung chắc là không vấn đề gì." },
+      { sp: "美玲", gender: "female", zh: "真的嗎？我也希望這樣。", py: "Zhēn de ma? Wǒ yě xīwàng zhèyàng.", vn: "Thật sao? Mình cũng hy vọng như vậy." },
+      { sp: "愛麗", gender: "female", zh: "如玉，妳也快要離開了，有什麼打算呢？", py: "Rúyù, nǐ yě kuàiyào líkāi le, yǒu shénme dǎsuàn ne?", vn: "Như Ngọc, cậu cũng sắp rời đi rồi, có dự định gì không?" },
+      { sp: "如玉", gender: "female", zh: "我得先回美國把大學念完，等我畢業了，再到香港或是上海找工作。", py: "Wǒ děi xiān huí Měiguó bǎ dàxué niàn wán, děng wǒ bìyè le, zài dào Xiānggǎng huòshì Shànghǎi zhǎo gōngzuò.", vn: "Mình phải về Mỹ học xong đại học trước, đợi mình tốt nghiệp rồi, sẽ lại đến Hồng Kông hoặc Thượng Hải tìm việc." },
+      { sp: "愛麗", gender: "female", zh: "妳怎麼會想到上海找工作呢？", py: "Nǐ zěnme huì xiǎngdào Shànghǎi zhǎo gōngzuò ne?", vn: "Sao cậu lại nghĩ đến việc tới Thượng Hải tìm việc?" },
+      { sp: "如玉", gender: "female", zh: "我聽幾位朋友說，這幾年上海發展得很快，連外國人都很容易找到工作。如果能找到美國分公司的工作，應該不錯。", py: "Wǒ tīng jǐ wèi péngyǒu shuō, zhè jǐ nián Shànghǎi fāzhǎn de hěn kuài, lián wàiguórén dōu hěn róngyì zhǎodào gōngzuò. Rúguǒ néng zhǎodào Měiguó fēngōngsī de gōngzuò, yīnggāi búcuò.", vn: "Mình nghe mấy người bạn nói, mấy năm nay Thượng Hải phát triển rất nhanh, ngay cả người nước ngoài cũng rất dễ tìm được việc làm. Nếu có thể tìm được công việc ở chi nhánh công ty Mỹ, chắc là không tồi." },
+      { sp: "美玲", gender: "female", zh: "這個想法不錯，不但可以繼續使用中文，而且可以了解那裡跟台灣有什麼不同。", py: "Zhège xiǎngfǎ búcuò, búdàn kěyǐ jìxù shǐyòng Zhōngwén, érqiě kěyǐ liǎojiě nàlǐ gēn Táiwān yǒu shénme bùtóng.", vn: "Suy nghĩ này không tồi, không những có thể tiếp tục sử dụng tiếng Trung, mà còn có thể tìm hiểu xem nơi đó có gì khác với Đài Loan." },
+      { sp: "如玉", gender: "female", zh: "真希望我的計畫都能實現。", py: "Zhēn xīwàng wǒ de jìhuà dōu néng shíxiàn.", vn: "Thật hy vọng những kế hoạch của mình đều có thể thực hiện được." },
+      { sp: "愛麗", gender: "female", zh: "我才認識妳們幾個月，妳們就要回國了，真捨不得妳們。", py: "Wǒ cái rènshí nǐmen jǐ ge yuè, nǐmen jiù yào huí guó le, zhēn shěbùdé nǐmen.", vn: "Mình mới quen các cậu vài tháng, các cậu đã sắp về nước rồi, thật sự không nỡ xa các cậu." },
+      { sp: "美玲", gender: "female", zh: "妳可以到法國來找我，我一定會好好招待妳。", py: "Nǐ kěyǐ dào Fàguó lái zhǎo wǒ, wǒ yídìng huì hǎohǎo zhāodài nǐ.", vn: "Cậu có thể đến Pháp tìm mình, mình nhất định sẽ tiếp đãi cậu thật tốt." },
+      { sp: "愛麗", gender: "female", zh: "太好了！有機會我一定去找妳。", py: "Tài hǎo le! Yǒu jīhuì wǒ yídìng qù zhǎo nǐ.", vn: "Tuyệt quá! Có cơ hội mình nhất định sẽ đi tìm cậu." },
+      { sp: "美玲", gender: "female", zh: "愛麗，妳還要在台灣住多久？", py: "Àilì, nǐ hái yào zài Táiwān zhù duōjiǔ?", vn: "Alice, cậu còn muốn ở lại Đài Loan bao lâu?" },
+      { sp: "愛麗", gender: "female", zh: "我覺得還得再學半年中文，然後在這裡念研究所。", py: "Wǒ juéde hái děi zài xué bàn nián Zhōngwén, ránhòu zài zhèlǐ niàn yánjiūsuǒ.", vn: "Mình cảm thấy vẫn phải học thêm nửa năm tiếng Trung nữa, sau đó sẽ học cao học ở đây." },
+      { sp: "如玉", gender: "female", zh: "我們回國以前，大家再聚一聚吧！", py: "Wǒmen huí guó yǐqián, dàjiā zài jù yí jù ba!", vn: "Trước khi bọn mình về nước, mọi người lại tụ tập một bữa nhé!" },
+      { sp: "美玲", gender: "female", zh: "這個建議不錯，我們就這麼決定吧！", py: "Zhège jiànyì búcuò, wǒmen jiù zhème juédìng ba!", vn: "Đề nghị này không tồi, chúng ta cứ quyết định như vậy đi!" }
+    ],
+    clozes: [
+      { sentence: { zh: "我以前念的高中正在 ______ 一位教中文的教師。", py: "Wǒ yǐqián niàn de gāozhōng zhèngzài ______ yí wèi jiāo Zhōngwén de jiàoshī.", vn: "Trường cấp ba trước đây mình học đang ... một giáo viên dạy tiếng Trung." }, options: [ { zh: "徵求", vn: "tuyển dụng/tìm kiếm" }, { zh: "考試", vn: "thi" }, { zh: "畢業", vn: "tốt nghiệp" } ], correct: 0 },
+      { sentence: { zh: "我得先回美國把大學念完，等我 ______ 了，再到香港找工作。", py: "Wǒ děi xiān huí Měiguó bǎ dàxué niàn wán, děng wǒ ______ le, zài dào Xiānggǎng zhǎo gōngzuò.", vn: "Mình phải về Mỹ học xong đại học trước, đợi mình ... rồi, sẽ lại đến Hồng Kông tìm việc." }, options: [ { zh: "結婚", vn: "kết hôn" }, { zh: "畢業", vn: "tốt nghiệp" }, { zh: "放假", vn: "nghỉ lễ" } ], correct: 1 },
+      { sentence: { zh: "這幾年上海 ______ 得很快，連外國人都很容易找到工作。", py: "Zhè jǐ nián Shànghǎi ______ de hěn kuài, lián wàiguórén dōu hěn róngyì zhǎodào gōngzuò.", vn: "Mấy năm nay Thượng Hải ... rất nhanh, ngay cả người nước ngoài cũng rất dễ tìm được việc làm." }, options: [ { zh: "發生", vn: "xảy ra" }, { zh: "發現", vn: "phát hiện" }, { zh: "發展", vn: "phát triển" } ], correct: 2 },
+      { sentence: { zh: "我才認識妳們幾個月，妳們就要回國了，真 ______ 妳們。", py: "Wǒ cái rènshí nǐmen jǐ ge yuè, nǐmen jiù yào huí guó le, zhēn ______ nǐmen.", vn: "Mình mới quen các cậu vài tháng, các cậu đã sắp về nước rồi, thật sự không ... các cậu." }, options: [ { zh: "捨不得", vn: "không nỡ" }, { zh: "對不起", vn: "xin lỗi" }, { zh: "沒關係", vn: "không sao" } ], correct: 0 },
+      { sentence: { zh: "妳可以到法國來找我，我一定會好好 ______ 妳。", py: "Nǐ kěyǐ dào Fàguó lái zhǎo wǒ, wǒ yídìng huì hǎohǎo ______ nǐ.", vn: "Cậu có thể đến Pháp tìm mình, mình nhất định sẽ ... cậu thật tốt." }, options: [ { zh: "照顧", vn: "chăm sóc" }, { zh: "招待", vn: "tiếp đãi" }, { zh: "幫忙", vn: "giúp đỡ" } ], correct: 1 }
+    ],
+    quizzes: [
+      { question: { zh: "美玲回國以後，打算做什麼工作？", vn: "Sau khi Mỹ Linh về nước, dự định làm công việc gì?" }, options: [ { zh: "去美國分公司上班", vn: "Đến chi nhánh công ty Mỹ làm việc" }, { zh: "在法國的高中教中文", vn: "Dạy tiếng Trung ở trường cấp ba tại Pháp" }, { zh: "在台灣教法文", vn: "Dạy tiếng Pháp ở Đài Loan" } ], correct: 1 },
+      { question: { zh: "如玉畢業以後，想到哪裡找工作？", vn: "Như Ngọc sau khi tốt nghiệp, muốn đến đâu tìm việc?" }, options: [ { zh: "美國或法國", vn: "Mỹ hoặc Pháp" }, { zh: "台灣或日本", vn: "Đài Loan hoặc Nhật Bản" }, { zh: "香港或上海", vn: "Hồng Kông hoặc Thượng Hải" } ], correct: 2 },
+      { question: { zh: "為什麼如玉想到上海找工作？", vn: "Tại sao Như Ngọc lại muốn tới Thượng Hải tìm việc?" }, options: [ { zh: "因為那裡發展很快，外國人也容易找到工作", vn: "Vì nơi đó phát triển rất nhanh, người nước ngoài cũng dễ tìm được việc" }, { zh: "因為她的男朋友在上海", vn: "Vì bạn trai cô ấy ở Thượng Hải" }, { zh: "因為上海的風景很美", vn: "Vì phong cảnh Thượng Hải rất đẹp" } ], correct: 0 },
+      { question: { zh: "愛麗將來有什麼計畫？", vn: "Alice trong tương lai có kế hoạch gì?" }, options: [ { zh: "馬上回國找工作", vn: "Về nước tìm việc ngay" }, { zh: "再學半年中文，然後在台灣念研究所", vn: "Học tiếng Trung thêm nửa năm, sau đó học cao học ở Đài Loan" }, { zh: "去上海念大學", vn: "Đi Thượng Hải học đại học" } ], correct: 1 },
+      { question: { zh: "在她們回國以前，如玉提議大家做什麼？", vn: "Trước khi các cô ấy về nước, Như Ngọc đề nghị mọi người làm gì?" }, options: [ { zh: "一起去旅行", vn: "Cùng đi du lịch" }, { zh: "大家再聚一聚", vn: "Mọi người lại tụ tập một bữa" }, { zh: "一起去找工作", vn: "Cùng nhau đi tìm việc" } ], correct: 1 }
+    ],
+    reading: {
+      paragraph: { 
+        zh: "學期快結束了，美玲和如玉都準備要離開台灣。美玲打算回法國，去她以前念的高中教中文。如玉得先回美國把大學念完，畢業後想去香港或上海找工作，因為上海發展很快。愛麗聽到朋友都要回國，覺得很捨不得。美玲歡迎愛麗以後去法國找她玩。愛麗打算在台灣再學半年中文，然後念研究所。最後，她們決定在回國以前，大家再好好地聚一聚。", 
+        py: "Xuéqí kuài jiéshù le, Měilíng hé Rúyù dōu zhǔnbèi yào líkāi Táiwān. Měilíng dǎsuàn huí Fàguó, qù tā yǐqián niàn de gāozhōng jiāo Zhōngwén. Rúyù děi xiān huí Měiguó bǎ dàxué niàn wán, bìyè hòu xiǎng qù Xiānggǎng huòshì Shànghǎi zhǎo gōngzuò, yīnwèi Shànghǎi fāzhǎn hěn kuài. Àilì tīngdào péngyǒu dōu yào huí guó, juéde hěn shěbùdé. Měilíng huānyíng Àilì yǐhòu qù Fàguó zhǎo tā wán. Àilì dǎsuàn zài Táiwān zài xué bàn nián Zhōngwén, ránhòu niàn yánjiūsuǒ. Zuìhòu, tāmen juédìng zài huí guó yǐqián, dàjiā zài hǎohāo de jù yí jù.", 
+        vn: "Học kỳ sắp kết thúc, Mỹ Linh và Như Ngọc đều chuẩn bị rời khỏi Đài Loan. Mỹ Linh dự định về Pháp, đến trường cấp ba cô ấy học trước đây để dạy tiếng Trung. Như Ngọc phải về Mỹ học xong đại học trước, sau khi tốt nghiệp muốn đến Hồng Kông hoặc Thượng Hải tìm việc, vì Thượng Hải phát triển rất nhanh. Alice nghe bạn bè đều sắp về nước, cảm thấy rất không nỡ. Mỹ Linh hoan nghênh Alice sau này đến Pháp tìm cô ấy chơi. Alice dự định ở lại Đài Loan học tiếng Trung thêm nửa năm, sau đó học cao học. Cuối cùng, họ quyết định trước khi về nước, mọi người sẽ tụ tập một bữa thật vui vẻ." 
+      },
+      questions: [
+        {
+          question: { zh: "誰打算畢業以後去上海工作？", vn: "Ai dự định sau khi tốt nghiệp sẽ đi Thượng Hải làm việc?" },
+          options: [ { zh: "愛麗", vn: "Alice" }, { zh: "美玲", vn: "Mỹ Linh" }, { zh: "如玉", vn: "Như Ngọc" } ], correct: 2
+        },
+        {
+          question: { zh: "愛麗為什麼覺得捨不得？", vn: "Tại sao Alice lại cảm thấy không nỡ?" },
+          options: [ { zh: "因為她考得不好", vn: "Vì cô ấy thi không tốt" }, { zh: "因為她的朋友們快要回國了", vn: "Vì bạn bè của cô ấy sắp về nước rồi" }, { zh: "因為她不想念研究所", vn: "Vì cô ấy không muốn học cao học" } ], correct: 1
+        },
+        {
+          question: { zh: "愛麗將來要在哪裡念研究所？", vn: "Trong tương lai Alice sẽ học cao học ở đâu?" },
+          options: [ { zh: "台灣", vn: "Đài Loan" }, { zh: "美國", vn: "Mỹ" }, { zh: "法國", vn: "Pháp" } ], correct: 0
+        }
+      ]
+    }
+});
