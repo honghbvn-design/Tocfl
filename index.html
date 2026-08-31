@@ -47,6 +47,23 @@
         <div id="dictionary-container" class="result-area"></div>
 	<div id="pagination-controls" class="pagination-container"></div>
         <div id="dialogue-container" class="result-area" style="display: none;"></div>
+		<div id="exam-container" class="result-area" style="display: none;">
+        
+        <!-- Bộ lọc cấp độ bài thi -->
+        <div class="modern-filters" style="margin-top: 10px; margin-bottom: 20px;">
+            <button class="filter-btn active">TOCFL Band A</button>
+            <button class="filter-btn">TOCFL Band B</button>
+        </div>
+
+        <!-- Danh sách các bộ đề -->
+        <div id="exam-list" style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <!-- Nút chọn Đề 1, Đề 2... sẽ nằm ở đây -->
+        </div>
+
+        <!-- Nơi hiển thị nội dung chi tiết của đề thi khi bấm vào -->
+        <div id="exam-content-area" style="margin-top: 20px;">
+            
+        </div>
     </div>
 <!-- Tải thư viện Firebase cốt lõi -->
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
@@ -57,6 +74,7 @@
 
 <script src="data-a1.js"></script>
 <script src="data-a2.js"></script>
+<script src="data-exam.js"></script>
 <script src="script.js"></script>
 
 </body>
