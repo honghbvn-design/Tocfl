@@ -940,27 +940,36 @@ function checkQuiz(dIdx, qIdx, selected) {
 
 // --- HÀM ĐIỀU KHIỂN CHUYỂN TAB VÀ ĐẨY ẨN/HIỆN THANH TÌM KIẾM ĐỘC LẬP ---
 function switchTab(tab) {
-if (tab === 'dict') {
+    if (tab === 'dict') {
         trackUserAction("SwitchTab", "Chuyển sang tab Từ Điển");
     } else if (tab === 'speak') {
         trackUserAction("SwitchTab", "Chuyển sang tab Hội Thoại");
+    } else if (tab === 'exam') { // [MỚI THÊM] Theo dõi hành vi cho tab Luyện thi
+        trackUserAction("SwitchTab", "Chuyển sang tab Luyện Thi TOCFL");
     }
+
     const dictArea = document.getElementById('dictionary-container');
     const diagArea = document.getElementById('dialogue-container');
+    const examArea = document.getElementById('exam-container'); // [MỚI THÊM] Khai báo khu vực luyện thi
+    
     const searchDictArea = document.getElementById('search-section-dict');
     const searchSpeakArea = document.getElementById('search-section-speak');
     
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    // Đã bổ sung .filter-btn phòng trường hợp nút mới dùng class này
+    document.querySelectorAll('.tab-btn, .filter-btn').forEach(b => b.classList.remove('active'));
 
     if (tab === 'dict') {
         if(dictArea) dictArea.style.display = 'block';
         if(diagArea) diagArea.style.display = 'none';
+        if(examArea) examArea.style.display = 'none'; // [MỚI THÊM] Ẩn luyện thi
         if(searchDictArea) searchDictArea.style.display = 'flex';   
         if(searchSpeakArea) searchSpeakArea.style.display = 'none'; 
         document.getElementById('tab-dict').classList.add('active');
-    } else {
+        
+    } else if (tab === 'speak') { // [QUAN TRỌNG] Đã sửa 'else' thành 'else if'
         if(dictArea) dictArea.style.display = 'none';
         if(diagArea) diagArea.style.display = 'block';
+        if(examArea) examArea.style.display = 'none'; // [MỚI THÊM] Ẩn luyện thi
         if(searchDictArea) searchDictArea.style.display = 'none';  
         if(searchSpeakArea) searchSpeakArea.style.display = 'flex'; 
         document.getElementById('tab-speak').classList.add('active');
@@ -970,6 +979,14 @@ if (tab === 'dict') {
             document.getElementById('dialogueSearchInput').value = "";
         }
         displayDialogues(); 
+        
+    } else if (tab === 'exam') { // [MỚI THÊM] Xử lý hiển thị khi bấm tab Luyện thi
+        if(dictArea) dictArea.style.display = 'none';
+        if(diagArea) diagArea.style.display = 'none';
+        if(examArea) examArea.style.display = 'block'; // Hiện khu vực luyện thi
+        if(searchDictArea) searchDictArea.style.display = 'none';  
+        if(searchSpeakArea) searchSpeakArea.style.display = 'none'; 
+        document.getElementById('tab-exam').classList.add('active');
     }
 }
 
