@@ -17,9 +17,9 @@ const examData = [
         question_vn: "1. Em gái hôm nay rất bận, không đi đâu cả.",
         type: "image_choice", // Loại câu hỏi chọn ảnh
         options: [
-          { label: "A", image: "quiz_A_correct.png" }, // Ảnh đúng
-          { label: "B", image: "quiz_B_trap.png" },    // Ảnh bẫy đi siêu thị
-          { label: "C", image: "quiz_C_trap.png" }     // Ảnh bẫy đi công viên
+          { label: "A", images: "quiz_A_correct.png" }, // Ảnh đúng
+          { label: "B", images: "quiz_B_trap.png" },    // Ảnh bẫy đi siêu thị
+          { label: "C", images: "quiz_C_trap.png" }     // Ảnh bẫy đi công viên
         ],
         correctAnswer: "A", // Đáp án đúng là A
         explanation: "Giải thích: 「什麼地方都沒去」nghĩa là 'không đi bất cứ nơi đâu' (ở nhà). Hình A vẽ cảnh cô bé đang ở nhà cặm cụi học bài là phù hợp nhất. Hình B (đi siêu thị) và Hình C (đi chơi công viên) đều là đi ra ngoài nên không đúng."
