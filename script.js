@@ -1228,43 +1228,85 @@ function loadExamContent(examIndex) {
     const exam = examData[examIndex];
     const contentArea = document.getElementById('exam-content-area');
     
-    // Tiêu đề của đề thi
     let html = `<h2 style="color: #a8342f; text-align: center; font-family: 'Noto Serif TC', serif;">${exam.title}</h2>`;
-    html += `<p style="text-align: center; color: #666; margin-bottom: 30px;">${exam.description}</p>`;
+    html += `<p style="text-align: center; color: #666; margin-bottom: 20px;">${exam.description}</p>`;
     
-    // --- Render Phần Đọc Hiểu (Part 1) ---
-    if (exam.reading_part_1 && exam.reading_part_1.length > 0) {
-        html += `<div style="background: #f8f1de; padding: 20px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(33,29,24,0.18);">`;
-        html += `<h3 style="margin-top:0; font-family: 'Noto Serif TC', serif;">第一部分 (Phần 1)</h3>`;
-        html += `<p style="font-size: 14px; color: #4a423a; margin-bottom: 20px;">說明：在這個部分，你會看到一個句子和(A)(B)(C)三張圖片。請根據句子的意思，從三張圖片中選出與句子意思相符的圖片。</p>`;
-        
-        exam.reading_part_1.forEach((q, qIndex) => {
-            html += `<div class="quiz-card" style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">`;
-            html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif;">${q.question_zh}</h4>`;
-            html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
-            
-            // Render 3 hình ảnh nằm ngang nhau
-            html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
-            q.options.forEach(opt => {
-                html += `<div style="text-align: center; flex: 1;">`;
-                html += `<div style="font-weight: bold; margin-bottom: 8px; font-size: 16px;">(${opt.label})</div>`;
-                html += `<img src="${opt.image}" alt="Hình ${opt.label}" style="width: 100%; max-width: 200px; border-radius: 8px; border: 2px solid transparent; cursor: pointer; transition: 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">`;
-                html += `</div>`;
-            });
-            html += `</div>`; // Đóng flex ảnh
-            
-            html += `</div>`; // Đóng quiz-card
-        });
-        html += `</div>`; // Đóng vùng phần 1
-    }
+    // --- Tạo 2 nút lựa chọn kỹ năng: NGHE hoặc ĐỌC ---
+    html += `<div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 30px;">`;
+    html += `<button onclick="switchSkillTab(${examIndex}, 'listening')" id="btn-listening" class="tab-btn" style="background-color: #f8f1de; color: #333; border: 1px solid #c8b997; padding: 10px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 16px;">🎧 Kỹ năng Nghe (聽力)</button>`;
+    html += `<button onclick="switchSkillTab(${examIndex}, 'reading')" id="btn-reading" class="tab-btn" style="background-color: #a8342f; color: white; border: none; padding: 10px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 16px;">📖 Kỹ năng Đọc (閱讀)</button>`;
+    html += `</div>`;
+    
+    // Khu vực chứa nội dung đề thi (sẽ thay đổi khi bấm Nghe/Đọc)
+    html += `<div id="skill-content-container"></div>`;
     
     contentArea.innerHTML = html;
+    
+    // Mặc định ban đầu hiển thị luôn phần Đọc (vì hiện tại mình đang làm phần đọc)
+    switchSkillTab(examIndex, 'reading');
 }
 
-// Gọi hàm render danh sách đề thi khi trang web vừa tải xong
-document.addEventListener('DOMContentLoaded', () => {
-    // Chỉ chạy nếu đang ở trang có Luyện thi
-    if(document.getElementById('exam-list')){
-        renderExamList();
-} 
-});
+// Hàm chuyển đổi qua lại giữa Nghe và Đọc
+function switchSkillTab(examIndex, skillType) {
+    const exam = examData[examIndex];
+    const container = document.getElementById('skill-content-container');
+    const btnListening = document.getElementById('btn-listening');
+    const btnReading = document.getElementById('btn-reading');
+    
+    let html = '';
+    
+    if (skillType === 'listening') {
+        // Đổi màu nút active
+        btnListening.style.backgroundColor = '#a8342f';
+        btnListening.style.color = 'white';
+        btnListening.style.border = 'none';
+        
+        btnReading.style.backgroundColor = '#f8f1de';
+        btnReading.style.color = '#333';
+        btnReading.style.border = '1px solid #c8b997';
+        
+        html += `<div style="background: #f8f1de; padding: 25px; border-radius: 10px; border: 1px solid rgba(33,29,24,0.18);">`;
+        html += `<h3 style="color: #a8342f; margin-top:0; font-family: 'Noto Serif TC', serif;">🎧 聽力測驗 (Phần thi Nghe - 50 câu)</h3>`;
+        html += `<p style="color: #666; font-style: italic;">Hệ thống câu hỏi phần Nghe đang được cập nhật. Học sinh sẽ làm bài nghe kết hợp file âm thanh tại đây.</p>`;
+        html += `</div>`;
+        
+    } else {
+        // Đổi màu nút active
+        btnReading.style.backgroundColor = '#a8342f';
+        btnReading.style.color = 'white';
+        btnReading.style.border = 'none';
+        
+        btnListening.style.backgroundColor = '#f8f1de';
+        btnListening.style.color = '#333';
+        btnListening.style.border = '1px solid #c8b997';
+        
+        html += `<div style="background: #f8f1de; padding: 25px; border-radius: 10px; border: 1px solid rgba(33,29,24,0.18);">`;
+        html += `<h3 style="color: #a8342f; margin-top:0; font-family: 'Noto Serif TC', serif;">📖 閱讀測驗 (Phần thi Đọc - 50 câu)</h3>`;
+        
+        if (exam.reading_sections && exam.reading_sections.length > 0) {
+            exam.reading_sections.forEach(section => {
+                html += `<h4 style="font-family: 'Noto Serif TC', serif; border-bottom: 2px solid #c8b997; padding-bottom: 5px; margin-top: 20px;">${section.part_name}</h4>`;
+                html += `<p style="font-size: 14px; color: #4a423a; margin-bottom: 15px;">${section.description_zh}</p>`;
+                
+                section.questions.forEach(q => {
+                    html += `<div class="quiz-card" style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">`;
+                    html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif;">${q.question_zh}</h4>`;
+                    html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
+                    
+                    html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
+                    q.options.forEach(opt => {
+                        html += `<div style="text-align: center; flex: 1;">`;
+                        html += `<div style="font-weight: bold; margin-bottom: 8px; font-size: 16px;">(${opt.label})</div>`;
+                        html += `<img src="${opt.image}" alt="Hình ${opt.label}" style="width: 100%; max-width: 200px; border-radius: 8px; border: 2px solid transparent; cursor: pointer;">`;
+                        html += `</div>`;
+                    });
+                    html += `</div>`;
+                    html += `</div>`;
+                });
+            });
+        }
+        html += `</div>`;
+    }
+    
+    container.innerHTML = html;
+}
