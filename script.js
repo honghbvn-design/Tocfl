@@ -1265,3 +1265,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Chỉ chạy nếu đang ở trang có Luyện thi
     if(document.getElementById('exam-list')){
         renderExamList();
+} 
+});
