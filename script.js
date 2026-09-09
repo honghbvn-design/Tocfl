@@ -1198,4 +1198,71 @@ function trackUserAction(actionType, actionDetails) {
     .catch((error) => {
         console.error("Lỗi khi ghi nhận dữ liệu: ", error);
     });
+},
+====================================================
+// HÀM XỬ LÝ PHẦN LUYỆN THI TOCFL
+// =======================================================
+
+function renderExamList() {
+    const examListArea = document.getElementById('exam-list');
+    // Nếu không tìm thấy khu vực chứa danh sách đề thi thì không làm gì cả
+    if (!examListArea) return;
+
+    examListArea.innerHTML = ''; // Xóa sạch dữ liệu cũ trước khi vẽ
+
+    examData.forEach((exam, index) => {
+        // Tạo nút bấm cho từng đề thi
+        const btn = document.createElement('button');
+        btn.className = 'tab-btn'; // Dùng lại class nút bấm cho đồng bộ giao diện
+        btn.style.margin = '5px';
+        btn.style.padding = '10px 20px';
+        btn.innerHTML = `📝 ${exam.title}`;
+        
+        // Khi bấm vào nút thì gọi hàm load đề thi đó
+        btn.onclick = () => loadExamContent(index);
+        examListArea.appendChild(btn);
+    });
 }
+
+function loadExamContent(examIndex) {
+    const exam = examData[examIndex];
+    const contentArea = document.getElementById('exam-content-area');
+    
+    // Tiêu đề của đề thi
+    let html = `<h2 style="color: #a8342f; text-align: center; font-family: 'Noto Serif TC', serif;">${exam.title}</h2>`;
+    html += `<p style="text-align: center; color: #666; margin-bottom: 30px;">${exam.description}</p>`;
+    
+    // --- Render Phần Đọc Hiểu (Part 1) ---
+    if (exam.reading_part_1 && exam.reading_part_1.length > 0) {
+        html += `<div style="background: #f8f1de; padding: 20px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(33,29,24,0.18);">`;
+        html += `<h3 style="margin-top:0; font-family: 'Noto Serif TC', serif;">第一部分 (Phần 1)</h3>`;
+        html += `<p style="font-size: 14px; color: #4a423a; margin-bottom: 20px;">說明：在這個部分，你會看到一個句子和(A)(B)(C)三張圖片。請根據句子的意思，從三張圖片中選出與句子意思相符的圖片。</p>`;
+        
+        exam.reading_part_1.forEach((q, qIndex) => {
+            html += `<div class="quiz-card" style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">`;
+            html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif;">${q.question_zh}</h4>`;
+            html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
+            
+            // Render 3 hình ảnh nằm ngang nhau
+            html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
+            q.options.forEach(opt => {
+                html += `<div style="text-align: center; flex: 1;">`;
+                html += `<div style="font-weight: bold; margin-bottom: 8px; font-size: 16px;">(${opt.label})</div>`;
+                html += `<img src="${opt.image}" alt="Hình ${opt.label}" style="width: 100%; max-width: 200px; border-radius: 8px; border: 2px solid transparent; cursor: pointer; transition: 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">`;
+                html += `</div>`;
+            });
+            html += `</div>`; // Đóng flex ảnh
+            
+            html += `</div>`; // Đóng quiz-card
+        });
+        html += `</div>`; // Đóng vùng phần 1
+    }
+    
+    contentArea.innerHTML = html;
+}
+
+// Gọi hàm render danh sách đề thi khi trang web vừa tải xong
+document.addEventListener('DOMContentLoaded', () => {
+    // Chỉ chạy nếu đang ở trang có Luyện thi
+    if(document.getElementById('exam-list')){
+        renderExamList();
