@@ -1310,3 +1310,11 @@ function switchSkillTab(examIndex, skillType) {
     
     container.innerHTML = html;
 }
+
+// Gọi hàm render danh sách đề thi khi trang web vừa tải xong
+document.addEventListener('DOMContentLoaded', () => {
+    // Chỉ chạy nếu đang ở trang có Luyện thi
+    if(document.getElementById('exam-list')){
+        renderExamList();
+    }
+});
