@@ -1198,8 +1198,7 @@ function trackUserAction(actionType, actionDetails) {
     .catch((error) => {
         console.error("Lỗi khi ghi nhận dữ liệu: ", error);
     });
-},
-====================================================
+// ====================================================
 // HÀM XỬ LÝ PHẦN LUYỆN THI TOCFL
 // =======================================================
 
