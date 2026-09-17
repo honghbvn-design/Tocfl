@@ -1321,5 +1321,42 @@ document.addEventListener('DOMContentLoaded', () => {
     // Chỉ chạy nếu đang ở trang có Luyện thi
     if(document.getElementById('exam-list')){
         renderExamList();
+    },
+  // =======================================================
+// HÀM KIỂM TRA ĐÁP ÁN VÀ HIỂN THỊ GIẢI THÍCH
+// =======================================================
+function checkTocflAnswer(element, selectedLabel, correctLabel, explanation) {
+    // Tìm khung chứa câu hỏi hiện tại
+    const quizCard = element.closest('.quiz-card');
+    
+    // Tìm tất cả các ảnh trong câu này để reset lại trạng thái
+    const allOptions = quizCard.querySelectorAll('.tocfl-img-option');
+    allOptions.forEach(img => {
+        img.style.border = '2px solid transparent';
+        img.style.opacity = '0.5'; // Làm mờ nhẹ các ảnh không được chọn
+    });
+    
+    // Tìm bức ảnh mà học sinh vừa click vào
+    const selectedImg = element.querySelector('img');
+    selectedImg.style.opacity = '1'; // Làm rõ ảnh được chọn
+    
+    // Tìm khu vực hiển thị giải thích
+    const expArea = quizCard.querySelector('.explanation-area');
+    
+    // Kiểm tra đúng sai và đổi màu
+    if (selectedLabel === correctLabel) {
+        // Trả lời ĐÚNG -> Viền xanh lá
+        selectedImg.style.border = '3px solid #4CAF50';
+        expArea.innerHTML = `<b style="color: #2e7d32; font-size: 16px;">✅ Chính xác! (Đáp án ${correctLabel})</b><br><br>${explanation}`;
+        expArea.style.background = '#e8f5e9';
+    } else {
+        // Trả lời SAI -> Viền đỏ
+        selectedImg.style.border = '3px solid #f44336';
+        expArea.innerHTML = `<b style="color: #c62828; font-size: 16px;">❌ Rất tiếc, bạn chọn ${selectedLabel} là sai rồi! Đáp án đúng là ${correctLabel}.</b><br><br>${explanation}`;
+        expArea.style.background = '#ffebee';
     }
+    
+    // Hiển thị khung giải thích lên
+    expArea.style.display = 'block';
+}
 });
