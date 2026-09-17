@@ -1293,15 +1293,20 @@ function switchSkillTab(examIndex, skillType) {
                     html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif;">${q.question_zh}</h4>`;
                     html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
                     
-                    html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
+                 html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
                     q.options.forEach(opt => {
-                        html += `<div style="text-align: center; flex: 1;">`;
+                        // Bổ sung lại sự kiện onclick và class tocfl-img-option để chọn đáp án
+                        html += `<div style="text-align: center; flex: 1; cursor: pointer;" onclick="checkTocflAnswer(this, '${opt.label}', '${q.correctAnswer}', \`${q.explanation}\`)">`;
                         html += `<div style="font-weight: bold; margin-bottom: 8px; font-size: 16px;">(${opt.label})</div>`;
-                        html += `<img src="${opt.image}" alt="Hình ${opt.label}" style="width: 100%; max-width: 200px; border-radius: 8px; border: 2px solid transparent; cursor: pointer;">`;
+                        html += `<img src="${opt.image}" alt="Hình ${opt.label}" style="width: 100%; max-width: 200px; border-radius: 8px; border: 2px solid transparent;" class="tocfl-img-option">`;
                         html += `</div>`;
                     });
-                    html += `</div>`;
-                    html += `</div>`;
+                    html += `</div>`; // Đóng flex ảnh
+                    
+                    // Bổ sung lại khu vực hiển thị giải thích
+                    html += `<div class="explanation-area" style="display: none; margin-top: 15px; padding: 15px; background: #e8f5e9; border-radius: 8px; color: #2e7d32; font-size: 14px;"></div>`;
+                    
+                    html += `</div>`; // Đóng thẻ quiz-card
                 });
             });
         }
