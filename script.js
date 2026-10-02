@@ -1322,6 +1322,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(document.getElementById('exam-list')){
         renderExamList();
     }
+  });
   // =======================================================
 // HÀM KIỂM TRA ĐÁP ÁN VÀ HIỂN THỊ GIẢI THÍCH
 // =======================================================
@@ -1359,4 +1360,3 @@ function checkTocflAnswer(element, selectedLabel, correctLabel, explanation) {
     // Hiển thị khung giải thích lên
     expArea.style.display = 'block';
 }
-});
