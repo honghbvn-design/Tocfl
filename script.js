@@ -1321,7 +1321,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Chỉ chạy nếu đang ở trang có Luyện thi
     if(document.getElementById('exam-list')){
         renderExamList();
-    },
+    }
   // =======================================================
 // HÀM KIỂM TRA ĐÁP ÁN VÀ HIỂN THỊ GIẢI THÍCH
 // =======================================================
