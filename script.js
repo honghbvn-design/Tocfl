@@ -1315,7 +1315,10 @@ if (q.question_vn) {
         }
         html += `</div>`;
     }
-    
+    // Thêm nút Nộp Bài ở cuối trang
+    html += `<div style="text-align: center; margin: 40px 0;">
+                <button onclick="submitTocflTest()" style="background-color: #d32f2f; color: white; border: none; padding: 12px 35px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Nộp Bài & Xem Kết Quả</button>
+             </div>`;
     container.innerHTML = html;
 }
 
@@ -1348,4 +1351,40 @@ function checkTocflAnswer(element, selectedLabel, correctLabel, explanation) {
     quizCard.dataset.userChoice = selectedLabel;
     quizCard.dataset.correctAnswer = correctLabel;
     quizCard.dataset.explanation = explanation;
+}
+// =======================================================
+// HÀM NỘP BÀI VÀ CHẤM ĐIỂM TỔNG
+// =======================================================
+function submitTocflTest() {
+    const allCards = document.querySelectorAll('.quiz-card');
+    let correctCount = 0;
+
+    allCards.forEach(card => {
+        const userChoice = card.dataset.userChoice;
+        const correctAnswer = card.dataset.correctAnswer;
+        const explanation = card.dataset.explanation;
+        const expArea = card.querySelector('.explanation-area');
+
+        // Nếu học sinh chưa chọn đáp án câu này
+        if (!userChoice) {
+            expArea.innerHTML = `<b style="color: #c62828;">⚠️ Bạn chưa làm câu này! Đáp án đúng: ${correctAnswer}</b><br><br>${explanation}`;
+            expArea.style.background = '#ffebee';
+            expArea.style.display = 'block';
+            return;
+        }
+
+        // Kiểm tra Đúng/Sai
+        if (userChoice === correctAnswer) {
+            correctCount++;
+            expArea.innerHTML = `<b style="color: #2e7d32;">✅ Chính xác!</b><br><br>${explanation}`;
+            expArea.style.background = '#e8f5e9';
+        } else {
+            expArea.innerHTML = `<b style="color: #c62828;">❌ Sai rồi! Đáp án đúng là ${correctAnswer}</b><br><br>${explanation}`;
+            expArea.style.background = '#ffebee';
+        }
+        expArea.style.display = 'block';
+    });
+
+    // Hiện thông báo tổng điểm
+    alert(`Hoàn thành! Bạn đã làm đúng ${correctCount} / ${allCards.length} câu. Kéo xuống để xem chi tiết giải thích nhé!`);
 }
