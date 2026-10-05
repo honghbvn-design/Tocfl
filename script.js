@@ -1290,8 +1290,11 @@ function switchSkillTab(examIndex, skillType) {
                 
                 section.questions.forEach(q => {
                     html += `<div class="quiz-card" style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">`;
-                    html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif;">${q.question_zh}</h4>`;
-                    html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
+                  html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif; margin-bottom: ${q.question_vn ? '5px' : '20px'};">${q.question_zh}</h4>`;
+// Chỉ hiển thị dòng tiếng Việt nếu trong data có viết (như câu 1)
+if (q.question_vn) {
+    html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
+}
                     
                  html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
                     q.options.forEach(opt => {
