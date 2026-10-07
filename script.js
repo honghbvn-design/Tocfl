@@ -105,28 +105,37 @@ document.head.appendChild(upscaleStyle);
 // ==========================================
 window.speechSynthesis.onvoiceschanged = () => { window.speechSynthesis.getVoices(); };
 
-function playAudio(text, lang) {
-  if (!text) return;
-  window.speechSynthesis.cancel();
-  
-  const cleanText = text.replace(/[【】()（）:<br>]/g, " ").trim();
-  const utterance = new SpeechSynthesisUtterance(cleanText);
-  
-  utterance.lang = lang;
-  utterance.rate = 0.75; 
-  utterance.pitch = 1;
+function playAudio(text, lang = 'zh-TW') {
+    if (!text) return;
+    window.speechSynthesis.cancel();
 
-  const voices = window.speechSynthesis.getVoices();
-  const bestVoice = voices.find(v => v.lang === 'zh-TW' && (v.name.includes('Google') || v.name.includes('Yating'))) 
-                 || voices.find(v => v.lang === 'zh-TW') 
-                 || voices.find(v => v.lang.includes('zh'));
-  if (bestVoice) {
-    utterance.voice = bestVoice;
-  }
+    const cleanText = text.replace(/[【】（）()：:<br>]/g, " ").trim();
+    const utterance = new SpeechSynthesisUtterance(cleanText);
 
-  window.speechSynthesis.speak(utterance);
+    utterance.lang = lang;
+    // Đã tăng tốc độ lên 0.85. Đây là "tỉ lệ vàng" để đọc chậm rãi mà không bị méo tiếng robot.
+    utterance.rate = 0.85; 
+    utterance.pitch = 1;
+
+    const voices = window.speechSynthesis.getVoices();
+    
+    // Mở rộng lưới quét: Bắt bằng được giọng cao cấp của Microsoft, Google Premium hoặc Yating
+    let premiumVoice = voices.find(v => 
+        (v.lang.includes('TW') || v.lang === 'zh-TW') && 
+        (v.name.includes('Google') || v.name.includes('Microsoft') || v.name.includes('Yating') || v.name.includes('Premium'))
+    );
+
+    // Nếu không có giọng premium, lùi lại tìm giọng tiếng Trung chuẩn nhất có thể
+    if (!premiumVoice) {
+        premiumVoice = voices.find(v => v.lang.includes('TW') || v.lang.includes('zh'));
+    }
+
+    if (premiumVoice) {
+        utterance.voice = premiumVoice;
+    }
+
+    window.speechSynthesis.speak(utterance);
 }
-
 // ==========================================
 // 3. TÍNH NĂNG TẠO FILE PDF LUYỆN VIẾT TRỰC TIẾP
 // ==========================================
