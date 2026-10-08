@@ -1323,20 +1323,20 @@ function switchSkillTab(examIndex, skillType) {
                         html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
                     }
 
-                    // 4. VẼ KHUNG ĐÁP ÁN (Tự động nhận dạng Chữ hoặc Ảnh)
+               // 4. VẼ KHUNG ĐÁP ÁN (Tự động nhận dạng Chữ hoặc Ảnh)
                     html += `<div class="options-container" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">`;
                     
                     q.options.forEach(opt => {
                         // Nếu là dạng đáp án CHỮ (Phần 2, 3, 4, 5)
                         if (q.type === "text_choice") {
-                            html += `<div class="option-item" onclick="selectAnswer(${q.id}, '${opt.label}', this)" style="flex: 1; min-width: 100%; sm:min-width: 45%; border: 2px solid #ddd; border-radius: 8px; padding: 12px 15px; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 10px; background: #fff;">
+                            html += `<div class="option-item" onclick="checkTocflAnswer(this, '${opt.label}', '${q.correctAnswer}', \`${q.explanation}\`)" style="flex: 1; min-width: 100%; sm:min-width: 45%; border: 2px solid #ddd; border-radius: 8px; padding: 12px 15px; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 10px; background: #fff;">
                                         <strong style="color: #a8342f; font-size: 16px;">${opt.label}.</strong>
                                         <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; color: #333;">${opt.text}</span>
                                      </div>`;
                         } 
                         // Nếu là dạng đáp án ẢNH (Phần 1)
                         else {
-                            html += `<div class="option-item" onclick="selectAnswer(${q.id}, '${opt.label}', this)" style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; cursor: pointer; transition: 0.2s; text-align: center; background: #fff;">
+                            html += `<div class="option-item tocfl-img-option" onclick="checkTocflAnswer(this, '${opt.label}', '${q.correctAnswer}', \`${q.explanation}\`)" style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; cursor: pointer; transition: 0.2s; text-align: center; background: #fff;">
                                         <div style="font-weight: bold; margin-bottom: 5px; color: #a8342f;">${opt.label}</div>
                                         <img src="${opt.image}" style="width: 120px; height: auto; border-radius: 4px;">
                                      </div>`;
@@ -1344,10 +1344,10 @@ function switchSkillTab(examIndex, skillType) {
                     });
                     html += `</div>`; // Đóng options-container
 
-                    // 5. KHU VỰC GIẢI THÍCH (Mặc định ẩn, chỉ hiện ra khi Nộp Bài)
-                    html += `<div id="explanation-${q.id}" style="display: none; margin-top: 15px; padding: 15px; background: #e8f4f8; border-radius: 8px; border-left: 4px solid #2196F3; font-size: 14px;">
-                                <strong style="color: #a8342f; font-size: 16px; display: block; margin-bottom: 5px;">Đáp án đúng: ${q.correctAnswer}</strong>
-                                <span style="line-height: 1.6; color: #444;">${q.explanation}</span>
+                    // 5. KHU VỰC GIẢI THÍCH (Mặc định ẩn)
+                    html += `<div id="explanation-${q.id}" class="explanation-area" style="display: none; margin-top: 15px; padding: 15px; background: #e8f5e9; border-radius: 8px; border-left: 4px solid #4CAF50; font-size: 14px;">
+                                <strong style="color: #2e7d32; font-size: 16px; display: block; margin-bottom: 5px;">Đáp án đúng: ${q.correctAnswer}</strong>
+                                <span style="line-height: 1.6; color: #333;">${q.explanation}</span>
                              </div>`;
                              
                     html += `</div>`; // Đóng thẻ quiz-card
@@ -1355,8 +1355,8 @@ function switchSkillTab(examIndex, skillType) {
             });
             
             // 6. NÚT NỘP BÀI NẰM CUỐI CÙNG
-            html += `<div style="text-align: center; margin-top: 30px; margin-bottom: 20px;">
-                        <button onclick="submitExam()" style="background: #a8342f; color: white; border: none; padding: 12px 30px; font-size: 18px; border-radius: 8px; cursor: pointer; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: 0.3s;">
+            html += `<div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+                        <button onclick="submitTocflTest()" style="background-color: #d32f2f; color: white; border: none; padding: 12px 35px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: 0.3s;">
                             📝 Nộp Bài & Xem Kết Quả
                         </button>
                      </div>`;
