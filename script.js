@@ -1311,7 +1311,7 @@ function switchSkillTab(examIndex, skillType) {
                     // 2. KIỂM TRA & VẼ ẢNH CÂU HỎI (Dành cho Phần 2, 3)
                     if (q.question_image) {
                         html += `<div style="text-align: center; margin-bottom: 15px;">
-                                    <img src="${q.question_image}" style="max-width: 100%; max-height: 250px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                                    <img src="${q.question_image}" style="max-width: 100%; max-height: 400px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                                  </div>`;
                     }
 
@@ -1338,7 +1338,7 @@ function switchSkillTab(examIndex, skillType) {
                         else {
                             html += `<div class="option-item tocfl-img-option" onclick="checkTocflAnswer(this, '${opt.label}', '${q.correctAnswer}', \`${q.explanation}\`)" style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; cursor: pointer; transition: 0.2s; text-align: center; background: #fff;">
                                         <div style="font-weight: bold; margin-bottom: 5px; color: #a8342f;">${opt.label}</div>
-                                        <img src="${opt.image}" style="width: 120px; height: auto; border-radius: 4px;">
+                                        <img src="${opt.image}" style="width: 200px; height: auto; border-radius: 4px;">
                                      </div>`;
                         }
                     });
