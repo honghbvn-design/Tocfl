@@ -1297,40 +1297,79 @@ function switchSkillTab(examIndex, skillType) {
                 html += `<h4 style="font-family: 'Noto Serif TC', serif; border-bottom: 2px solid #c8b997; padding-bottom: 5px; margin-top: 20px;">${section.part_name}</h4>`;
                 html += `<p style="font-size: 14px; color: #4a423a; margin-bottom: 15px;">${section.description_zh}</p>`;
                 
-                section.questions.forEach(q => {
-                    html += `<div class="quiz-card" style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">`;
-                  html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif; margin-bottom: ${q.question_vn ? '5px' : '20px'};">${q.question_zh}</h4>`;
-// Chỉ hiển thị dòng tiếng Việt nếu trong data có viết (như câu 1)
-if (q.question_vn) {
-    html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
-}
+               section.questions.forEach(q => {
+                    html += `<div class="quiz-card" id="question-${q.id}" style="background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">`;
                     
-                 html += `<div style="display: flex; gap: 15px; justify-content: space-around; align-items: flex-end; margin-bottom: 15px;">`;
+                    // 1. KIỂM TRA & VẼ ĐOẠN VĂN (Dành cho Phần 3, 4, 5)
+                    if (q.passage_zh) {
+                        // Lệnh replace giúp giữ nguyên các dấu xuống dòng (\n) của đoạn văn
+                        html += `<div style="background: #fdfaf6; padding: 15px; border-left: 4px solid #c8b997; margin-bottom: 15px; font-family: 'Noto Serif TC', serif; line-height: 1.8; color: #333;">
+                                    ${q.passage_zh.replace(/\n/g, '<br>')}
+                                 </div>`;
+                    }
+
+                    // 2. KIỂM TRA & VẼ ẢNH CÂU HỎI (Dành cho Phần 2, 3)
+                    if (q.question_image) {
+                        html += `<div style="text-align: center; margin-bottom: 15px;">
+                                    <img src="${q.question_image}" style="max-width: 100%; max-height: 250px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                                 </div>`;
+                    }
+
+                    // 3. VẼ NỘI DUNG CÂU HỎI CHÍNH
+                    html += `<h4 style="font-size: 18px; margin-top: 0; font-family: 'Noto Serif TC', serif; margin-bottom: ${q.question_vn ? '5px' : '20px'};">${q.question_zh}</h4>`;
+                    
+                    // Vẽ dòng tiếng Việt (nếu có)
+                    if (q.question_vn) {
+                        html += `<p style="color: #666; font-size: 14px; margin-bottom: 20px;"><i>${q.question_vn}</i></p>`;
+                    }
+
+                    // 4. VẼ KHUNG ĐÁP ÁN (Tự động nhận dạng Chữ hoặc Ảnh)
+                    html += `<div class="options-container" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">`;
+                    
                     q.options.forEach(opt => {
-                        // Bổ sung lại sự kiện onclick và class tocfl-img-option để chọn đáp án
-                        html += `<div style="text-align: center; flex: 1; cursor: pointer;" onclick="checkTocflAnswer(this, '${opt.label}', '${q.correctAnswer}', \`${q.explanation}\`)">`;
-                        html += `<div style="font-weight: bold; margin-bottom: 8px; font-size: 16px;">(${opt.label})</div>`;
-                        html += `<img src="${opt.image}" alt="Hình ${opt.label}" style="width: 100%; max-width: 200px; border-radius: 8px; border: 2px solid transparent;" class="tocfl-img-option">`;
-                        html += `</div>`;
+                        // Nếu là dạng đáp án CHỮ (Phần 2, 3, 4, 5)
+                        if (q.type === "text_choice") {
+                            html += `<div class="option-item" onclick="selectAnswer(${q.id}, '${opt.label}', this)" style="flex: 1; min-width: 100%; sm:min-width: 45%; border: 2px solid #ddd; border-radius: 8px; padding: 12px 15px; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 10px; background: #fff;">
+                                        <strong style="color: #a8342f; font-size: 16px;">${opt.label}.</strong>
+                                        <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; color: #333;">${opt.text}</span>
+                                     </div>`;
+                        } 
+                        // Nếu là dạng đáp án ẢNH (Phần 1)
+                        else {
+                            html += `<div class="option-item" onclick="selectAnswer(${q.id}, '${opt.label}', this)" style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; cursor: pointer; transition: 0.2s; text-align: center; background: #fff;">
+                                        <div style="font-weight: bold; margin-bottom: 5px; color: #a8342f;">${opt.label}</div>
+                                        <img src="${opt.image}" style="width: 120px; height: auto; border-radius: 4px;">
+                                     </div>`;
+                        }
                     });
-                    html += `</div>`; // Đóng flex ảnh
-                    
-                    // Bổ sung lại khu vực hiển thị giải thích
-                    html += `<div class="explanation-area" style="display: none; margin-top: 15px; padding: 15px; background: #e8f5e9; border-radius: 8px; color: #2e7d32; font-size: 14px;"></div>`;
-                    
+                    html += `</div>`; // Đóng options-container
+
+                    // 5. KHU VỰC GIẢI THÍCH (Mặc định ẩn, chỉ hiện ra khi Nộp Bài)
+                    html += `<div id="explanation-${q.id}" style="display: none; margin-top: 15px; padding: 15px; background: #e8f4f8; border-radius: 8px; border-left: 4px solid #2196F3; font-size: 14px;">
+                                <strong style="color: #a8342f; font-size: 16px; display: block; margin-bottom: 5px;">Đáp án đúng: ${q.correctAnswer}</strong>
+                                <span style="line-height: 1.6; color: #444;">${q.explanation}</span>
+                             </div>`;
+                             
                     html += `</div>`; // Đóng thẻ quiz-card
                 });
             });
+            
+            // 6. NÚT NỘP BÀI NẰM CUỐI CÙNG
+            html += `<div style="text-align: center; margin-top: 30px; margin-bottom: 20px;">
+                        <button onclick="submitExam()" style="background: #a8342f; color: white; border: none; padding: 12px 30px; font-size: 18px; border-radius: 8px; cursor: pointer; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: 0.3s;">
+                            📝 Nộp Bài & Xem Kết Quả
+                        </button>
+                     </div>`;
+        } else {
+            html += `<p style="color: #666; font-style: italic;">Phần đọc đang được cập nhật...</p>`;
         }
-        html += `</div>`;
+        
+        html += `</div>`; // Đóng khối wrapper của phần Đọc
     }
-    // Thêm nút Nộp Bài ở cuối trang
-    html += `<div style="text-align: center; margin: 40px 0;">
-                <button onclick="submitTocflTest()" style="background-color: #d32f2f; color: white; border: none; padding: 12px 35px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Nộp Bài & Xem Kết Quả</button>
-             </div>`;
+    
+    // Gắn toàn bộ HTML vừa tạo vào khung hiển thị trên web
     container.innerHTML = html;
 }
-
 // Gọi hàm render danh sách đề thi khi trang web vừa tải xong
 document.addEventListener('DOMContentLoaded', () => {
     // Chỉ chạy nếu đang ở trang có Luyện thi
