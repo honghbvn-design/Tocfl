@@ -1378,24 +1378,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 // =======================================================
-// HÀM CLICK CHỌN ĐÁP ÁN (CHƯA CHẤM ĐIỂM)
+// HÀM CLICK CHỌN ĐÁP ÁN (DÙNG CHUNG CHO CẢ CHỮ VÀ ẢNH)
 // =======================================================
 function checkTocflAnswer(element, selectedLabel, correctLabel, explanation) {
     const quizCard = element.closest('.quiz-card');
     
-    // 1. Xóa viền của các ảnh khác trong cùng câu
-    const allOptions = quizCard.querySelectorAll('.tocfl-img-option');
-    allOptions.forEach(img => {
-        img.style.border = '2px solid transparent';
-        img.style.opacity = '0.5';
+    // 1. Tìm tất cả các hộp đáp án trong câu hỏi này (cả chữ lẫn ảnh đều dùng chung class 'option-item')
+    const allOptions = quizCard.querySelectorAll('.option-item');
+    
+    // 2. Xóa trạng thái "đang chọn" của TẤT CẢ các đáp án trong câu đó
+    allOptions.forEach(opt => {
+        opt.style.border = '2px solid #ddd'; // Trả về viền xám mặc định
+        opt.style.backgroundColor = '#fff';  // Trả về nền trắng
+        opt.style.opacity = '0.6';           // Làm mờ đi một chút để tạo độ sâu
     });
 
-    // 2. Đánh dấu ảnh đang chọn bằng viền XANH DƯƠNG
-    const selectedImg = element.querySelector('img');
-    selectedImg.style.border = '3px solid #2196F3'; 
-    selectedImg.style.opacity = '1';
+    // 3. Đánh dấu ĐÁP ÁN VỪA CLICK
+    element.style.border = '2px solid #2196F3'; // Đổi viền thành màu xanh dương
+    element.style.backgroundColor = '#e3f2fd';  // Đổi nền thành màu xanh nhạt
+    element.style.opacity = '1';                // Hiển thị rõ nét 100%
 
-    // 3. Lưu đáp án học sinh chọn ngầm vào bộ nhớ thẻ để chờ nút Nộp bài
+    // 4. Lưu đáp án ngầm vào bộ nhớ thẻ để chờ nút Nộp bài chấm điểm
     quizCard.dataset.userChoice = selectedLabel;
     quizCard.dataset.correctAnswer = correctLabel;
     quizCard.dataset.explanation = explanation;
