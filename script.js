@@ -1338,7 +1338,7 @@ function switchSkillTab(examIndex, skillType) {
                         else {
                             html += `<div class="option-item tocfl-img-option" onclick="checkTocflAnswer(this, '${opt.label}', '${q.correctAnswer}', \`${q.explanation}\`)" style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; cursor: pointer; transition: 0.2s; text-align: center; background: #fff;">
                                         <div style="font-weight: bold; margin-bottom: 5px; color: #a8342f;">${opt.label}</div>
-                                        <img src="${opt.image}" style="width: 200px; height: auto; border-radius: 4px;">
+          <img src="${opt.image}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 4px; -webkit-user-drag: none;">
                                      </div>`;
                         }
                     });
