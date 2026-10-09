@@ -1311,7 +1311,7 @@ function switchSkillTab(examIndex, skillType) {
                     // 2. KIỂM TRA & VẼ ẢNH CÂU HỎI (Dành cho Phần 2, 3)
                     if (q.question_image) {
                         html += `<div style="text-align: center; margin-bottom: 15px;">
-                                    <img src="${q.question_image}" style="max-width: 100%; max-height: 400px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                                  <img src="${q.question_image}" loading="lazy" style="width: 100%; max-width: 600px; height: 350px; object-fit: cover; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: block; margin: 0 auto; -webkit-user-drag: none;">
                                  </div>`;
                     }
 
