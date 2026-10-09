@@ -1439,3 +1439,22 @@ function submitTocflTest() {
     // Hiện thông báo tổng điểm
     alert(`Hoàn thành! Bạn đã làm đúng ${correctCount} / ${allCards.length} câu. Kéo xuống để xem chi tiết giải thích nhé!`);
 }
+// =======================================================
+// KHÓA SAO CHÉP VÀ BẢO VỆ BẢN QUYỀN TRANG WEB
+// =======================================================
+// 1. Chặn click chuột phải (ngăn tải ảnh, xem mã nguồn)
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
+
+// 2. Chặn bôi đen văn bản (ngăn copy text)
+document.addEventListener('selectstart', function(event) {
+    event.preventDefault();
+});
+
+// 3. Chặn các phím tắt copy (Ctrl+C, Ctrl+S, Ctrl+U)
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && (event.key === 'c' || event.key === 's' || event.key === 'u')) {
+        event.preventDefault();
+    }
+});
