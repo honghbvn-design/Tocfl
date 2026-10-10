@@ -1458,3 +1458,44 @@ document.addEventListener('keydown', function(event) {
         event.preventDefault();
     }
 });
+// --- HÀM TẠO GIAO DIỆN BÀI THI NGHE (CÓ AUDIO PLAYER) ---
+function renderListeningExam() {
+    let html = '<div class="listening-test-container" style="text-align: left;">';
+    
+    listeningExamData.forEach((q, index) => {
+        html += `<div class="question-card" style="background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">`;
+        html += `<h3 style="color: #a33327; margin-top: 0;">Câu ${q.id}:</h3>`;
+        
+        // Chèn thanh Audio Player
+        html += `<audio controls controlsList="nodownload" style="width: 100%; margin-bottom: 15px; height: 40px; border-radius: 20px;">
+                    <source src="${q.audio}" type="audio/mpeg">
+                    Trình duyệt của bạn không hỗ trợ phát âm thanh.
+                 </audio>`;
+
+        // Chèn ảnh bối cảnh (Nếu là Phần 1)
+        if (q.part === 1 && q.question_image) {
+            html += `<div style="text-align: center; margin-bottom: 15px;">
+                        <img src="${q.question_image}" loading="lazy" style="max-width: 350px; height: auto; border-radius: 8px; border: 1px solid #eee; -webkit-user-drag: none;">
+                     </div>`;
+        }
+
+        // Chèn các đáp án A, B, C, D
+        html += `<div class="options-container" style="display: flex; flex-direction: column; gap: 10px;">`;
+        q.options.forEach(opt => {
+            html += `<label style="display: flex; align-items: center; padding: 12px; border: 1px solid #ddd; border-radius: 8px; cursor: pointer; transition: 0.3s; background: #fafafa;">
+                        <input type="radio" name="listen_q${q.id}" value="${opt.label}" style="margin-right: 15px; transform: scale(1.3);"> 
+                        <strong style="font-size: 16px; margin-right: 10px; color: #a33327;">${opt.label}.</strong>`;
+            
+            if (opt.text) html += `<span style="font-size: 16px;">${opt.text}</span>`;
+            if (opt.image) html += `<img src="${opt.image}" loading="lazy" style="max-width: 200px; height: auto; border-radius: 5px; border: 1px solid #ccc; -webkit-user-drag: none;">`;
+            
+            html += `</label>`;
+        });
+        html += `</div></div>`; 
+    });
+    
+    html += `<button class="submit-btn" style="width:100%; padding: 15px; background-color: #a33327; color: white; border: none; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; margin-top: 20px;">Nộp bài thi Nghe</button>`;
+    html += `</div>`;
+    
+    return html;
+}
