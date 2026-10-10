@@ -1274,10 +1274,7 @@ function switchSkillTab(examIndex, skillType) {
         btnReading.style.color = '#333';
         btnReading.style.border = '1px solid #c8b997';
         
-        html += `<div style="background: #f8f1de; padding: 25px; border-radius: 10px; border: 1px solid rgba(33,29,24,0.18);">`;
-        html += `<h3 style="color: #a8342f; margin-top:0; font-family: 'Noto Serif TC', serif;">🎧 聽力測驗 (Phần thi Nghe - 50 câu)</h3>`;
-        html += `<p style="color: #666; font-style: italic;">Hệ thống câu hỏi phần Nghe đang được cập nhật. Học sinh sẽ làm bài nghe kết hợp file âm thanh tại đây.</p>`;
-        html += `</div>`;
+      html += renderListeningExam();
         
     } else {
         // Đổi màu nút active
