@@ -293,4 +293,70 @@ const listeningExamData = [
         ],
         correctAnswer: "D", transcript: "女：奇怪，這件紅色的衣服怎麼穿不下了？\n男：你是不是變胖了？\n女：可能吧，最近吃太多了。\n男：那你晚上的舞會要穿哪一件？\n問：這位小姐怎麼了？"
     }
+    // =====================================================================
+// BỘ CÔNG CỤ TỰ ĐỘNG GẮN GIẢI THÍCH CHO BÀI NGHE (AN TOÀN 100%)
+// =====================================================================
+
+const listeningExplanations = {
+    1: "(B) Từ khóa: <strong>外套</strong> (áo khoác).",
+    2: "(A) Từ khóa: <strong>游泳</strong> (bơi lội).",
+    3: "(C) Từ khóa: <strong>八點</strong> (8 giờ).",
+    4: "(A) Từ khóa: <strong>下雨</strong> (trời mưa).",
+    5: "(B) Từ khóa: <strong>一隻貓</strong> (một con mèo).",
+    6: "(C) Từ khóa: <strong>坐公車</strong> (đi xe buýt).",
+    7: "(B) Từ khóa: <strong>醫生</strong> (bác sĩ).",
+    8: "(C) Từ khóa: <strong>打電話</strong> (gọi điện thoại).",
+    9: "(A) Từ khóa: <strong>咖啡</strong> (cà phê).",
+    10: "(B) Từ khóa: <strong>超級市場</strong> (siêu thị - xe đẩy hàng).",
+    11: "(C) Từ khóa: <strong>香蕉</strong> (quả chuối).",
+    12: "(B) Từ khóa: <strong>騎腳踏車</strong> (đạp xe đạp).",
+    13: "(B) Từ khóa: <strong>難過</strong> (buồn bã/khóc).",
+    14: "(A) Từ khóa: <strong>牛肉麵</strong> (mì bò).",
+    15: "(B) Từ khóa: <strong>洗手</strong> (rửa tay).",
+    16: "(B) Từ khóa: <strong>節目</strong> (chương trình) -> Xem TV.",
+    17: "(C) Từ khóa: <strong>高鐵</strong> (tàu cao tốc).",
+    18: "(B) Từ khóa: <strong>肚子好痛</strong> (đau bụng) -> Ôm bụng.",
+    19: "(B) Từ khóa: <strong>小貓</strong> (con mèo).",
+    20: "(B) Từ khóa: <strong>洗澡</strong> (tắm).",
+    21: "(B) Từ khóa: <strong>五百元</strong> (500 tệ).",
+    22: "(A) Từ khóa: <strong>蛋糕</strong> (bánh kem).",
+    23: "(A) Từ khóa: <strong>踢足球</strong> (đá bóng).",
+    24: "(A) Từ khóa: <strong>珍珠奶茶</strong> (trà sữa trân châu).",
+    25: "(B) Từ khóa: <strong>好冷 / 多穿一點</strong> (lạnh quá / mặc thêm áo) -> Quàng khăn.",
+    26: "(B) Từ khóa: <strong>歌</strong> (bài hát) -> Đeo tai nghe.",
+    27: "(C) Từ khóa: <strong>生氣</strong> (tức giận) -> Mặt cau có.",
+    28: "(B) Từ khóa: <strong>掃地</strong> (quét nhà).",
+    29: "(C) Từ khóa: <strong>銀行</strong> (ngân hàng).",
+    30: "(B) Từ khóa: <strong>裙子</strong> (váy đỏ).",
+    31: "(C) Nữ bị sốt (<strong>發燒</strong>), bác sĩ khuyên nghỉ ngơi -> Bác sĩ khám bệnh.",
+    32: "(C) Hỏi thói quen bình thường (<strong>平常</strong>): nam nói đi tàu điện ngầm (<strong>捷運</strong>).",
+    33: "(C) Sinh nhật là tháng 8 (<strong>八月</strong>).",
+    34: "(C) Nam rủ uống cà phê nhưng nữ muốn đi siêu thị (<strong>超市</strong>) trước.",
+    35: "(C) Điện thoại (<strong>手機</strong>) rơi hỏng.",
+    36: "(B) Giờ họp đổi sang 9 rưỡi (<strong>九點半</strong>).",
+    37: "(B) Nữ thích chụp ảnh (<strong>照相</strong>).",
+    38: "(B) Nữ nói không ăn thịt bò (<strong>我不吃牛</strong>).",
+    39: "(C) Hành động cuối cùng mẹ sai là vứt rác (<strong>丟垃圾</strong>).",
+    40: "(A) Nam cho mượn áo mưa (<strong>雨衣</strong>).",
+    41: "(B) Nam muốn tìm chỗ mượn sách (<strong>借書</strong>) -> <strong>圖書館</strong> (Thư viện).",
+    42: "(C) Nam nói sách muốn mua ở đây đều không có -> <strong>找不到想買的書</strong> (Không tìm thấy sách muốn mua).",
+    43: "(B) Nam xin nghỉ phép (<strong>請假</strong>), nữ đồng ý -> Nữ là sếp (<strong>老闆</strong>).",
+    44: "(B) 2 vé = 400, vé học sinh giảm 100 (<strong>便宜一百元</strong>) -> 400 - 100 = <strong>300元</strong>.",
+    45: "(D) Nam nói hôm qua làm xong nhưng nay quên mang (<strong>忘了帶</strong>) -> <strong>忘了帶作業</strong> (Quên mang bài tập).",
+    46: "(A) Nam chạy bộ (<strong>跑步</strong>) sau khi tan làm -> <strong>運動</strong> (Thể thao).",
+    47: "(B) Nữ đã mua vé máy bay (<strong>機票</strong>) -> <strong>搭飛機</strong> (Đi máy bay).",
+    48: "(A) Nữ than nóng, phát hiện máy lạnh hỏng -> <strong>冷氣壞掉了</strong> (Máy lạnh hỏng).",
+    49: "(B) Nam khen đồ ăn '真好吃' (thật ngon) -> <strong>覺得很好吃</strong> (Cảm thấy rất ngon).",
+    50: "(D) Nữ than áo mặc không vừa (<strong>穿不下了</strong>) vì béo lên -> <strong>衣服穿不下了</strong> (Quần áo mặc không vừa)."
+};
+
+// Vòng lặp này sẽ tự động tìm các câu hỏi trong listeningExamData và gắn giải thích vào
+if (typeof listeningExamData !== 'undefined') {
+    listeningExamData.forEach(q => {
+        if (listeningExplanations[q.id]) {
+            q.explanation = listeningExplanations[q.id];
+        }
+    });
+}
+// =====================================================================
 ];
