@@ -297,6 +297,7 @@ const listeningExamData = [
 // BỘ CÔNG CỤ TỰ ĐỘNG GẮN GIẢI THÍCH CHO BÀI NGHE (AN TOÀN 100%)
 // =====================================================================
 
+];
 const listeningExplanations = {
     1: "(B) Từ khóa: <strong>外套</strong> (áo khoác).",
     2: "(A) Từ khóa: <strong>游泳</strong> (bơi lội).",
@@ -359,4 +360,3 @@ if (typeof listeningExamData !== 'undefined') {
     });
 }
 // =====================================================================
-];
