@@ -1518,54 +1518,51 @@ function renderListeningExam() {
         html += `</div></div>`; 
     });
     
-    html += `<button class="submit-btn" style="width:100%; padding: 15px; background-color: #a33327; color: white; border: none; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; margin-top: 20px;">Nộp bài thi Nghe</button>`;
-    html += `</div>`;
-    
-    return html;
+ // --- NÚT NỘP BÀI GIAO DIỆN CHUYÊN NGHIỆP ---
+    html += `<div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+                <button onclick="submitListeningExam()" style="background-color: #d32f2f; color: white; border: none; padding: 16px 45px; font-size: 22px; font-weight: bold; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.15); display: inline-flex; align-items: center; justify-content: center; gap: 10px; font-family: 'Noto Serif TC', sans-serif;">
+                    📝 Nộp Bài & Xem Kết Quả
+                </button>
+             </div>`;
+  return html;
 }
-// --- HÀM CHẤM ĐIỂM BÀI THI NGHE ---
+// --- HÀM CHẤM ĐIỂM BÀI THI NGHE (ĐÃ SỬA LỖI TÊN BIẾN) ---
 function submitListeningExam() {
     let correctCount = 0;
     
-    // Lấy đúng biến dữ liệu mà bạn đang dùng cho bài nghe
     const data = typeof listeningExamData !== 'undefined' ? listeningExamData : []; 
     const totalQuestions = data.length;
 
     if (totalQuestions === 0) {
-        alert("Dữ liệu bài thi chưa được tải hoặc bị lỗi tên biến. Vui lòng kiểm tra lại F12.");
+        alert("Dữ liệu bài thi chưa được tải.");
         return;
     }
 
     data.forEach((q) => {
-        // Lấy đáp án người dùng đã chọn
-        const selected = document.querySelector(`input[name="listening-q${q.id}"]:checked`);
+        // Đã sửa lại thành listen_q khớp với dòng 1510 của bạn
+        const selected = document.querySelector(`input[name="listen_q${q.id}"]:checked`);
         const userAnswer = selected ? selected.value : null;
 
-        // Quét tất cả các lựa chọn của câu hỏi này để tô màu
-        const options = document.querySelectorAll(`input[name="listening-q${q.id}"]`);
+        const options = document.querySelectorAll(`input[name="listen_q${q.id}"]`);
         options.forEach(opt => {
-            const labelDiv = opt.closest('div'); // Tìm thẻ div bọc bên ngoài input để đổi màu nền
-            labelDiv.style.backgroundColor = ''; // Reset lại màu cũ
-            labelDiv.style.border = ''; // Reset viền
+            const labelDiv = opt.closest('label'); 
+            labelDiv.style.backgroundColor = ''; 
+            labelDiv.style.border = '1px solid #ddd'; // Khôi phục viền gốc
             
             if (opt.value === q.correctAnswer) {
-                // Tô xanh lá cho đáp án đúng
                 labelDiv.style.backgroundColor = '#d4edda'; 
                 labelDiv.style.border = '1px solid #c3e6cb';
             } else if (opt.checked && userAnswer !== q.correctAnswer) {
-                // Tô đỏ nếu học sinh chọn sai
                 labelDiv.style.backgroundColor = '#f8d7da'; 
                 labelDiv.style.border = '1px solid #f5c6cb';
             }
         });
 
-        // Tính điểm
         if (userAnswer === q.correctAnswer) {
             correctCount++;
         }
     });
 
-    // Tạo và hiển thị bảng thông báo điểm ở trên cùng
     let resultBoard = document.getElementById('listening-result-board');
     if (!resultBoard) {
         resultBoard = document.createElement('div');
@@ -1583,6 +1580,5 @@ function submitListeningExam() {
         </div>
     `;
     
-    // Tự động cuộn màn hình lên đầu bảng điểm
     window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
 }
