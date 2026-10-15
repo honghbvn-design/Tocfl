@@ -1460,6 +1460,29 @@ function renderListeningExam() {
     let html = '<div class="listening-test-container" style="text-align: left;">';
     
     listeningExamData.forEach((q, index) => {
+
+      // Chèn các khối hướng dẫn dựa trên số thứ tự câu hỏi (index bắt đầu từ 0)
+if (index === 0) {
+    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-bottom: 25px; border-radius: 4px;">
+                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第一部分：看圖回答 (Phần 1: Xem tranh trả lời)</h3>
+                <p style="margin: 0; color: #555;">Hướng dẫn: Dựa vào hình ảnh, nghe câu hỏi và chọn đáp án chính xác nhất.</p>
+             </div>`;
+} else if (index === 15) {
+    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-top: 30px; margin-bottom: 25px; border-radius: 4px;">
+                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第二部分：問答 (Phần 2: Hỏi đáp)</h3>
+                <p style="margin: 0; color: #555;">Hướng dẫn: Nghe một câu hỏi hoặc một câu nói, chọn câu trả lời phù hợp nhất.</p>
+             </div>`;
+} else if (index === 30) {
+    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-top: 30px; margin-bottom: 25px; border-radius: 4px;">
+                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第三部分：對話 (Phần 3: Hội thoại)</h3>
+                <p style="margin: 0; color: #555;">Hướng dẫn: Nghe một đoạn hội thoại, chọn câu trả lời đúng nhất cho câu hỏi.</p>
+             </div>`;
+} else if (index === 40) {
+    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-top: 30px; margin-bottom: 25px; border-radius: 4px;">
+                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第四部分：段落 (Phần 4: Đoạn văn)</h3>
+                <p style="margin: 0; color: #555;">Hướng dẫn: Nghe một đoạn văn ngắn, chọn câu trả lời đúng nhất.</p>
+             </div>`;
+}
         html += `<div class="question-card" style="background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">`;
         html += `<h3 style="color: #a33327; margin-top: 0;">Câu ${q.id}:</h3>`;
         
@@ -1495,4 +1518,64 @@ function renderListeningExam() {
     html += `</div>`;
     
     return html;
+}
+function submitListeningExam() {
+    let correctCount = 0;
+    // Giả định tên mảng dữ liệu bài nghe của bạn là listeningData01 (hãy đổi tên này nếu trong file data của bạn ghi khác)
+    const data = typeof listeningData01 !== 'undefined' ? listeningData01 : []; 
+    const totalQuestions = data.length;
+
+    if (totalQuestions === 0) {
+        alert("Dữ liệu bài thi chưa được tải hoàn tất.");
+        return;
+    }
+
+    data.forEach((q) => {
+        // Lấy đáp án người dùng đã chọn
+        const selected = document.querySelector(`input[name="listening-q${q.id}"]:checked`);
+        const userAnswer = selected ? selected.value : null;
+
+        // Quét tất cả các lựa chọn của câu hỏi này để tô màu
+        const options = document.querySelectorAll(`input[name="listening-q${q.id}"]`);
+        options.forEach(opt => {
+            const labelDiv = opt.closest('div'); // Tìm thẻ div bọc bên ngoài input để đổi màu nền
+            labelDiv.style.backgroundColor = ''; // Reset lại màu cũ
+            
+            if (opt.value === q.correctAnswer) {
+                // Tô xanh lá cho đáp án đúng
+                labelDiv.style.backgroundColor = '#d4edda'; 
+                labelDiv.style.border = '1px solid #c3e6cb';
+            } else if (opt.checked && userAnswer !== q.correctAnswer) {
+                // Tô đỏ nếu học sinh chọn sai
+                labelDiv.style.backgroundColor = '#f8d7da'; 
+                labelDiv.style.border = '1px solid #f5c6cb';
+            }
+        });
+
+        // Tính điểm
+        if (userAnswer === q.correctAnswer) {
+            correctCount++;
+        }
+    });
+
+    // Tạo và hiển thị bảng thông báo điểm ở trên cùng
+    let resultBoard = document.getElementById('listening-result-board');
+    if (!resultBoard) {
+        resultBoard = document.createElement('div');
+        resultBoard.id = 'listening-result-board';
+        
+        const container = document.getElementById('skill-content-container');
+        container.insertBefore(resultBoard, container.firstChild);
+    }
+
+    resultBoard.innerHTML = `
+        <div style="background-color: #fff3cd; border: 2px solid #ffeeba; padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 30px;">
+            <h2 style="color: #856404; margin-top: 0; font-family: 'Noto Serif TC', serif;">Kết quả phần thi Nghe</h2>
+            <div style="font-size: 36px; font-weight: bold; color: #a8342f; margin: 15px 0;">${correctCount} / ${totalQuestions}</div>
+            <p style="font-size: 16px; color: #666; margin-bottom: 0;">Hãy cuộn xuống để xem lại các câu sai (màu đỏ) và đáp án đúng (màu xanh).</p>
+        </div>
+    `;
+    
+    // Tự động cuộn màn hình lên bảng điểm
+    window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
 }
