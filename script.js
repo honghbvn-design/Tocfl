@@ -1526,10 +1526,9 @@ function renderListeningExam() {
              </div>`;
   return html;
 }
-// --- HÀM CHẤM ĐIỂM BÀI THI NGHE (ĐÃ SỬA LỖI TÊN BIẾN) ---
+// --- HÀM CHẤM ĐIỂM BÀI THI NGHE (ĐÃ ĐỒNG BỘ GIAO DIỆN VỚI BÀI ĐỌC) ---
 function submitListeningExam() {
     let correctCount = 0;
-    
     const data = typeof listeningExamData !== 'undefined' ? listeningExamData : []; 
     const totalQuestions = data.length;
 
@@ -1539,15 +1538,20 @@ function submitListeningExam() {
     }
 
     data.forEach((q) => {
-        // Đã sửa lại thành listen_q khớp với dòng 1510 của bạn
         const selected = document.querySelector(`input[name="listen_q${q.id}"]:checked`);
         const userAnswer = selected ? selected.value : null;
 
+        // Lấy thẻ div chứa toàn bộ câu hỏi (question-card)
+        const firstOption = document.querySelector(`input[name="listen_q${q.id}"]`);
+        if (!firstOption) return; 
+        const questionCard = firstOption.closest('.question-card');
+
+        // Đổi màu nền các đáp án
         const options = document.querySelectorAll(`input[name="listen_q${q.id}"]`);
         options.forEach(opt => {
             const labelDiv = opt.closest('label'); 
             labelDiv.style.backgroundColor = ''; 
-            labelDiv.style.border = '1px solid #ddd'; // Khôi phục viền gốc
+            labelDiv.style.border = '1px solid #ddd';
             
             if (opt.value === q.correctAnswer) {
                 labelDiv.style.backgroundColor = '#d4edda'; 
@@ -1558,27 +1562,60 @@ function submitListeningExam() {
             }
         });
 
+        // TẠO KHUNG GIẢI THÍCH (FEEDBACK BOX) DƯỚI MỖI CÂU
+        let feedbackBox = questionCard.querySelector('.feedback-box');
+        if (!feedbackBox) {
+            feedbackBox = document.createElement('div');
+            feedbackBox.className = 'feedback-box';
+            feedbackBox.style.marginTop = '15px';
+            feedbackBox.style.padding = '15px';
+            feedbackBox.style.borderRadius = '8px';
+            feedbackBox.style.borderLeft = '5px solid';
+            questionCard.appendChild(feedbackBox);
+        }
+
+        // Lấy nội dung giải thích (nếu có trong data)
+        let explanationText = q.explanation ? `<br><span style="margin-top: 5px; display: inline-block;">${q.explanation}</span>` : '';
+
         if (userAnswer === q.correctAnswer) {
             correctCount++;
+            feedbackBox.style.backgroundColor = '#d4edda';
+            feedbackBox.style.borderLeftColor = '#28a745';
+            feedbackBox.style.color = '#155724';
+            feedbackBox.innerHTML = `<strong>✅ Chính xác! Đáp án đúng: ${q.correctAnswer}</strong>${explanationText}`;
+        } else if (userAnswer === null) {
+            feedbackBox.style.backgroundColor = '#f9e4e8';
+            feedbackBox.style.borderLeftColor = '#dc3545';
+            feedbackBox.style.color = '#a8342f';
+            feedbackBox.innerHTML = `<strong>⚠️ Bạn chưa làm câu này! Đáp án đúng: ${q.correctAnswer}</strong>${explanationText}`;
+        } else {
+            feedbackBox.style.backgroundColor = '#f9e4e8';
+            feedbackBox.style.borderLeftColor = '#dc3545';
+            feedbackBox.style.color = '#a8342f';
+            feedbackBox.innerHTML = `<strong>❌ Sai rồi! Đáp án đúng: ${q.correctAnswer}</strong>${explanationText}`;
         }
     });
 
+    // 1. HIỂN THỊ POP-UP THÔNG BÁO ALERT (GIỐNG BÀI ĐỌC)
+    alert(`Hoàn thành! Bạn đã làm đúng ${correctCount} / ${totalQuestions} câu. Kéo xuống để xem chi tiết giải thích nhé!`);
+
+    // 2. HIỂN THỊ BẢNG ĐIỂM TRÊN CÙNG
     let resultBoard = document.getElementById('listening-result-board');
     if (!resultBoard) {
         resultBoard = document.createElement('div');
         resultBoard.id = 'listening-result-board';
-        
-        const container = document.getElementById('skill-content-container');
+        const container = document.getElementById('skill-content-container') || document.body;
         container.insertBefore(resultBoard, container.firstChild);
     }
 
     resultBoard.innerHTML = `
-        <div style="background-color: #fff3cd; border: 2px solid #ffeeba; padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 30px;">
-            <h2 style="color: #856404; margin-top: 0; font-family: 'Noto Serif TC', serif;">Kết quả phần thi Nghe</h2>
-            <div style="font-size: 36px; font-weight: bold; color: #a8342f; margin: 15px 0;">${correctCount} / ${totalQuestions}</div>
+        <div style="background-color: #fdfaf1; border: 2px solid #e6dfcc; padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <h2 style="color: #856404; margin-top: 0; font-family: 'Noto Serif TC', serif; font-size: 28px;">Kết quả phần thi Nghe</h2>
+            <div style="font-size: 42px; font-weight: bold; color: #a8342f; margin: 15px 0;">${correctCount} / ${totalQuestions}</div>
             <p style="font-size: 16px; color: #666; margin-bottom: 0;">Hãy cuộn xuống để xem lại các câu sai (màu đỏ) và đáp án đúng (màu xanh lá).</p>
         </div>
     `;
     
+    // Cuộn lên đầu
     window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
 }
