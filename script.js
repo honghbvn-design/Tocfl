@@ -1523,14 +1523,16 @@ function renderListeningExam() {
     
     return html;
 }
+// --- HÀM CHẤM ĐIỂM BÀI THI NGHE ---
 function submitListeningExam() {
     let correctCount = 0;
-    // Giả định tên mảng dữ liệu bài nghe của bạn là listeningData01 (hãy đổi tên này nếu trong file data của bạn ghi khác)
-    const data = typeof listeningData01 !== 'undefined' ? listeningData01 : []; 
+    
+    // Lấy đúng biến dữ liệu mà bạn đang dùng cho bài nghe
+    const data = typeof listeningExamData !== 'undefined' ? listeningExamData : []; 
     const totalQuestions = data.length;
 
     if (totalQuestions === 0) {
-        alert("Dữ liệu bài thi chưa được tải hoàn tất.");
+        alert("Dữ liệu bài thi chưa được tải hoặc bị lỗi tên biến. Vui lòng kiểm tra lại F12.");
         return;
     }
 
@@ -1544,6 +1546,7 @@ function submitListeningExam() {
         options.forEach(opt => {
             const labelDiv = opt.closest('div'); // Tìm thẻ div bọc bên ngoài input để đổi màu nền
             labelDiv.style.backgroundColor = ''; // Reset lại màu cũ
+            labelDiv.style.border = ''; // Reset viền
             
             if (opt.value === q.correctAnswer) {
                 // Tô xanh lá cho đáp án đúng
@@ -1576,10 +1579,10 @@ function submitListeningExam() {
         <div style="background-color: #fff3cd; border: 2px solid #ffeeba; padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 30px;">
             <h2 style="color: #856404; margin-top: 0; font-family: 'Noto Serif TC', serif;">Kết quả phần thi Nghe</h2>
             <div style="font-size: 36px; font-weight: bold; color: #a8342f; margin: 15px 0;">${correctCount} / ${totalQuestions}</div>
-            <p style="font-size: 16px; color: #666; margin-bottom: 0;">Hãy cuộn xuống để xem lại các câu sai (màu đỏ) và đáp án đúng (màu xanh).</p>
+            <p style="font-size: 16px; color: #666; margin-bottom: 0;">Hãy cuộn xuống để xem lại các câu sai (màu đỏ) và đáp án đúng (màu xanh lá).</p>
         </div>
     `;
     
-    // Tự động cuộn màn hình lên bảng điểm
+    // Tự động cuộn màn hình lên đầu bảng điểm
     window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
 }
