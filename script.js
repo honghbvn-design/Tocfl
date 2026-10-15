@@ -1435,6 +1435,25 @@ function submitTocflTest() {
 
     // Hiện thông báo tổng điểm
     alert(`Hoàn thành! Bạn đã làm đúng ${correctCount} / ${allCards.length} câu. Kéo xuống để xem chi tiết giải thích nhé!`);
+  // --- HIỂN THỊ BẢNG ĐIỂM TRÊN CÙNG (DÀNH CHO BÀI ĐỌC) ---
+    let resultBoard = document.getElementById('reading-result-board');
+    if (!resultBoard) {
+        resultBoard = document.createElement('div');
+        resultBoard.id = 'reading-result-board';
+        const container = document.getElementById('skill-content-container') || document.body; 
+        container.insertBefore(resultBoard, container.firstChild);
+    }
+
+    resultBoard.innerHTML = `
+        <div style="background-color: #fdfaf1; border: 2px solid #e6dfcc; padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <h2 style="color: #856404; margin-top: 0; font-family: 'Noto Serif TC', serif; font-size: 28px;">Kết quả phần thi Đọc</h2>
+            <div style="font-size: 42px; font-weight: bold; color: #a8342f; margin: 15px 0;">${correctCount} / ${allCards.length}</div>
+            <p style="font-size: 16px; color: #666; margin-bottom: 0;">Hãy cuộn xuống để xem lại các câu sai (màu đỏ) và đáp án đúng (màu xanh lá).</p>
+        </div>
+    `;
+    
+    // Tự động cuộn màn hình lên bảng điểm
+    window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
 }
 // =======================================================
 // KHÓA SAO CHÉP VÀ BẢO VỆ BẢN QUYỀN TRANG WEB
