@@ -1461,28 +1461,32 @@ function renderListeningExam() {
     
     listeningExamData.forEach((q, index) => {
 
-      // Chèn các khối hướng dẫn dựa trên số thứ tự câu hỏi (index bắt đầu từ 0)
-if (index === 0) {
-    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-bottom: 25px; border-radius: 4px;">
-                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第一部分：看圖回答 (Phần 1: Xem tranh trả lời)</h3>
-                <p style="margin: 0; color: #555;">Hướng dẫn: Dựa vào hình ảnh, nghe câu hỏi và chọn đáp án chính xác nhất.</p>
-             </div>`;
-} else if (index === 15) {
-    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-top: 30px; margin-bottom: 25px; border-radius: 4px;">
-                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第二部分：問答 (Phần 2: Hỏi đáp)</h3>
-                <p style="margin: 0; color: #555;">Hướng dẫn: Nghe một câu hỏi hoặc một câu nói, chọn câu trả lời phù hợp nhất.</p>
-             </div>`;
-} else if (index === 30) {
-    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-top: 30px; margin-bottom: 25px; border-radius: 4px;">
-                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第三部分：對話 (Phần 3: Hội thoại)</h3>
-                <p style="margin: 0; color: #555;">Hướng dẫn: Nghe một đoạn hội thoại, chọn câu trả lời đúng nhất cho câu hỏi.</p>
-             </div>`;
-} else if (index === 40) {
-    html += `<div style="background-color: #f8f1de; padding: 15px; border-left: 5px solid #a8342f; margin-top: 30px; margin-bottom: 25px; border-radius: 4px;">
-                <h3 style="margin: 0 0 10px 0; color: #a8342f;">第四部分：段落 (Phần 4: Đoạn văn)</h3>
-                <p style="margin: 0; color: #555;">Hướng dẫn: Nghe một đoạn văn ngắn, chọn câu trả lời đúng nhất.</p>
-             </div>`;
-}
+    // Chèn các khối hướng dẫn chuyên nghiệp dựa trên số thứ tự câu hỏi
+    if (index === 0) {
+        html += `<div style="background-color: #fdfaf1; padding: 20px 25px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #e6dfcc; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                    <h3 style="color: #3b4d61; font-size: 19px; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #d9ceb2; font-family: 'Noto Serif TC', serif;">第一部分：看圖回答 (Phần 1 - Câu 1 đến 15)</h3>
+                    <p style="color: #333; line-height: 1.8; margin-top: 15px; margin-bottom: 10px; font-size: 16px;">說明：在這個部分，每題有一張圖片，你會先聽到一個問題，接著再聽到 (A)(B)(C) 三個選項，請根據圖片提示選出正確的答案。</p>
+                    <p style="color: #666; font-style: italic; line-height: 1.6; margin: 0; font-size: 16px;">Hướng dẫn: Học sinh nhìn 1 bức tranh, nghe 1 câu hỏi và 3 lựa chọn A, B, C. Chọn đáp án đúng nhất</p>
+                 </div>`;
+    } else if (index === 15) {
+        html += `<div style="background-color: #fdfaf1; padding: 20px 25px; border-radius: 8px; margin-top: 30px; margin-bottom: 25px; border: 1px solid #e6dfcc; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                    <h3 style="color: #3b4d61; font-size: 19px; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #d9ceb2; font-family: 'Noto Serif TC', serif;">第二部分：問答理解 (Phần 2 - Câu 16 đến 30)</h3>
+                    <p style="color: #333; line-height: 1.8; margin-top: 15px; margin-bottom: 10px; font-size: 16px;">說明：在這個部分，每題有 (A)(B)(C) 三張圖片，你會聽到一問一答的對話，請根據對話的內容，選出合適的圖片。</p>
+                    <p style="color: #666; font-style: italic; line-height: 1.6; margin: 0; font-size: 16px;">Hướng dẫn: Học sinh nhìn 3 bức tranh A, B, C. Nghe 1 đoạn hội thoại ngắn 1 vòng hỏi-đáp. Chọn bức tranh tương ứng</p>
+                 </div>`;
+    } else if (index === 30) {
+        html += `<div style="background-color: #fdfaf1; padding: 20px 25px; border-radius: 8px; margin-top: 30px; margin-bottom: 25px; border: 1px solid #e6dfcc; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                    <h3 style="color: #3b4d61; font-size: 19px; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #d9ceb2; font-family: 'Noto Serif TC', serif;">第三部分：對話理解 (Phần 3 - Câu 31 đến 40)</h3>
+                    <p style="color: #333; line-height: 1.8; margin-top: 15px; margin-bottom: 10px; font-size: 16px;">說明：在這個部分，每題有 (A)(B)(C) 三張圖片，你會聽到一段兩個人的對話，一共有四句話，對話結束後有一個問題，請根據問題選出合適的圖片。</p>
+                    <p style="color: #666; font-style: italic; line-height: 1.6; margin: 0; font-size: 16px;">Hướng dẫn: Học sinh nhìn 3 bức tranh A, B, C. Nghe đoạn hội thoại dài 4 câu qua lại, sau đó nghe 1 câu hỏi. Chọn bức tranh đúng</p>
+                 </div>`;
+    } else if (index === 40) {
+        html += `<div style="background-color: #fdfaf1; padding: 20px 25px; border-radius: 8px; margin-top: 30px; margin-bottom: 25px; border: 1px solid #e6dfcc; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                    <h3 style="color: #3b4d61; font-size: 19px; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #d9ceb2; font-family: 'Noto Serif TC', serif;">第四部分：對話 (Phần 4 - Câu 41 đến 50)</h3>
+                    <p style="color: #333; line-height: 1.8; margin-top: 15px; margin-bottom: 10px; font-size: 16px;">說明：在這個部分，你會聽到兩個人的對話，對話結束後有一個問題，每個問題都有 (A)(B)(C)(D) 四個選項，這四個選項的內容也會出現在題本上。請根據問題選出合適的答案。</p>
+                    <p style="color: #666; font-style: italic; line-height: 1.6; margin: 0; font-size: 16px;">Hướng dẫn: Không có hình ảnh. Trên đề thi in sẵn 4 đáp án dạng chữ (A, B, C, D). Học sinh nghe đoạn hội thoại, nghe câu hỏi và khoanh đáp án đúng</p>
+                 </div>`;
+    }
         html += `<div class="question-card" style="background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">`;
         html += `<h3 style="color: #a33327; margin-top: 0;">Câu ${q.id}:</h3>`;
         
