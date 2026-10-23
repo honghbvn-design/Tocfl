@@ -1625,24 +1625,48 @@ function submitListeningExam() {
     // Cuộn lên đầu
     window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
 }
-// --- HÀM CHUYỂN ĐỔI GIỮA CÁC ĐỀ THI ---
-function loadSelectedTest() {
-    const selected = document.getElementById('test-selector').value;
-    
-    // Xóa bảng điểm cũ nếu có trên màn hình
-    const resultBoard = document.getElementById('reading-result-board');
-    if (resultBoard) resultBoard.remove();
+// =====================================================================
+// HỆ THỐNG ĐIỀU PHỐI DỮ LIỆU ĐỀ THI (SCALABLE FRAMEWORK)
+// =====================================================================
+function getExamDatabase() {
+    return {
+        "A_1": {
+            title: "Đề thi thử TOCFL Band A - Đề số 1",
+            listening: typeof listeningExamData !== 'undefined' ? listeningExamData : [],
+            reading: typeof reading_sections !== 'undefined' ? reading_sections : []
+        },
+        "A_2": {
+            title: "Đề thi thử TOCFL Band A - Đề số 2",
+            listening: typeof listeningExamData_Test2 !== 'undefined' ? listeningExamData_Test2 : [], 
+            reading: typeof readingExamData_Test2 !== 'undefined' ? readingExamData_Test2.reading_sections : []
+        }
+    };
+}
 
-    // Gán dữ liệu tương ứng với đề được chọn
-    if (selected === 'test1') {
-        window.currentReadingData = typeof reading_sections !== 'undefined' ? reading_sections : [];
-    } else if (selected === 'test2') {
-        // Lấy dữ liệu từ file Đề 2 (data-reading-02.js)
-        window.currentReadingData = typeof readingExamData_Test2 !== 'undefined' ? readingExamData_Test2.reading_sections : [];
+function changeExam(examId) {
+    const db = getExamDatabase();
+    const selectedExam = db[examId];
+    
+    if (!selectedExam) return;
+
+    if (typeof examData !== 'undefined' && examData.length > 0) {
+        examData[0].title = selectedExam.title;
+        examData[0].listening_sections = selectedExam.listening;
+        examData[0].reading_sections = selectedExam.reading;
+        
+        window.currentReadingData = selectedExam.reading;
     }
 
-   // Gọi lại hàm vẽ bài thi 
+    const rBoard = document.getElementById('reading-result-board');
+    if (rBoard) rBoard.remove();
+    const lBoard = document.getElementById('listening-result-board');
+    if (lBoard) lBoard.remove();
+
     if (typeof loadExamContent === 'function') {
         loadExamContent(0); 
     }
 }
+
+window.onload = function() {
+    changeExam("A_1");
+};
