@@ -1289,8 +1289,9 @@ function switchSkillTab(examIndex, skillType) {
         html += `<div style="background: #f8f1de; padding: 25px; border-radius: 10px; border: 1px solid rgba(33,29,24,0.18);">`;
         html += `<h3 style="color: #a8342f; margin-top:0; font-family: 'Noto Serif TC', serif;">📖 閱讀測驗 (Phần thi Đọc - 50 câu)</h3>`;
         
-        if (exam.reading_sections && exam.reading_sections.length > 0) {
-            exam.reading_sections.forEach(section => {
+      let dataToRender = window.currentReadingData || exam.reading_sections;
+    if (dataToRender && dataToRender.length > 0) {
+        dataToRender.forEach(section => {
                 html += `<h4 style="font-family: 'Noto Serif TC', serif; border-bottom: 2px solid #c8b997; padding-bottom: 5px; margin-top: 20px;">${section.part_name}</h4>`;
                 html += `<p style="font-size: 14px; color: #4a423a; margin-bottom: 15px;">${section.description_zh}</p>`;
                 
@@ -1637,4 +1638,25 @@ function submitListeningExam() {
     
     // Cuộn lên đầu
     window.scrollTo({ top: resultBoard.offsetTop - 20, behavior: 'smooth' });
+}
+// --- HÀM CHUYỂN ĐỔI GIỮA CÁC ĐỀ THI ---
+function loadSelectedTest() {
+    const selected = document.getElementById('test-selector').value;
+    
+    // Xóa bảng điểm cũ nếu có trên màn hình
+    const resultBoard = document.getElementById('reading-result-board');
+    if (resultBoard) resultBoard.remove();
+
+    // Gán dữ liệu tương ứng với đề được chọn
+    if (selected === 'test1') {
+        window.currentReadingData = typeof reading_sections !== 'undefined' ? reading_sections : [];
+    } else if (selected === 'test2') {
+        // Lấy dữ liệu từ file Đề 2 (data-reading-02.js)
+        window.currentReadingData = typeof readingExamData_Test2 !== 'undefined' ? readingExamData_Test2.reading_sections : [];
+    }
+
+    // Gọi lại hàm vẽ bài thi (Giả sử hàm của bạn tên là renderTocflTest)
+    if (typeof renderTocflTest === 'function') {
+        renderTocflTest(); 
+    }
 }
