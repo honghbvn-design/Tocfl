@@ -1641,8 +1641,8 @@ function loadSelectedTest() {
         window.currentReadingData = typeof readingExamData_Test2 !== 'undefined' ? readingExamData_Test2.reading_sections : [];
     }
 
-    // Gọi lại hàm vẽ bài thi (Giả sử hàm của bạn tên là renderTocflTest)
-    if (typeof renderTocflTest === 'function') {
-        renderTocflTest(); 
+   // Gọi lại hàm vẽ bài thi 
+    if (typeof loadExamContent === 'function') {
+        loadExamContent(0); 
     }
 }
