@@ -1217,20 +1217,6 @@ function renderExamList() {
     // Nếu không tìm thấy khu vực chứa danh sách đề thi thì không làm gì cả
     if (!examListArea) return;
 
-    examListArea.innerHTML = ''; // Xóa sạch dữ liệu cũ trước khi vẽ
-
-    examData.forEach((exam, index) => {
-        // Tạo nút bấm cho từng đề thi
-        const btn = document.createElement('button');
-        btn.className = 'tab-btn'; // Dùng lại class nút bấm cho đồng bộ giao diện
-        btn.style.margin = '5px';
-        btn.style.padding = '10px 20px';
-        btn.innerHTML = `📝 ${exam.title}`;
-        
-        // Khi bấm vào nút thì gọi hàm load đề thi đó
-        btn.onclick = () => loadExamContent(index);
-        examListArea.appendChild(btn);
-    });
 }
 
 function loadExamContent(examIndex) {
