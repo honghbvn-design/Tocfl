@@ -1628,12 +1628,22 @@ function submitListeningExam() {
 // =====================================================================
 // HỆ THỐNG ĐIỀU PHỐI DỮ LIỆU ĐỀ THI (SCALABLE FRAMEWORK)
 // =====================================================================
+
+// LƯỚI AN TOÀN: Tự động sao lưu dữ liệu gốc của Đề 1 khi vừa mở trang
+if (typeof window.originalTest1Reading === 'undefined' && typeof examData !== 'undefined' && examData.length > 0) {
+    window.originalTest1Reading = examData[0].reading_sections;
+}
+if (typeof window.originalTest1Listening === 'undefined' && typeof examData !== 'undefined' && examData.length > 0) {
+    window.originalTest1Listening = examData[0].listening_sections;
+}
+
 function getExamDatabase() {
     return {
         "A_1": {
             title: "Đề thi thử TOCFL Band A - Đề số 1",
-            listening: typeof listeningExamData !== 'undefined' ? listeningExamData : [],
-            reading: typeof reading_sections !== 'undefined' ? reading_sections : []
+            // Lấy lại dữ liệu Đề 1 từ lưới an toàn
+            listening: window.originalTest1Listening || [],
+            reading: window.originalTest1Reading || []
         },
         "A_2": {
             title: "Đề thi thử TOCFL Band A - Đề số 2",
