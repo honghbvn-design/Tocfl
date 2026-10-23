@@ -58,10 +58,18 @@
        <!-- Danh sách các bộ đề (Menu thả xuống) -->
         <div id="exam-list" style="margin-bottom: 25px;">
             <label for="test-selector" style="font-weight: bold; margin-right: 10px; font-size: 18px; color: #a8342f;">📚 Chọn đề thi:</label>
-            <select id="test-selector" onchange="loadSelectedTest()" style="padding: 10px 15px; font-size: 18px; border-radius: 8px; border: 2px solid #d9ceb2; background-color: #fdfaf1; color: #3b4d61; font-weight: bold; cursor: pointer;">
-                <option value="test1">Đề thi thử TOCFL Band A - Đề số 1</option>
-                <option value="test2">Đề thi thử TOCFL Band A - Đề số 2</option>
-            </select>
+         <select id="test-selector" onchange="changeExam(this.value)" style="padding: 10px 15px; font-size: 18px; border-radius: 8px; border: 2px solid #d9ceb2; background-color: #fdfaf1; color: #3b4d61; font-weight: bold; cursor: pointer;">
+        <optgroup label="TOCFL Band A">
+            <option value="A_1">Đề thi thử - Band A - Đề 1</option>
+            <option value="A_2">Đề thi thử - Band A - Đề 2</option>
+        </optgroup>
+        <optgroup label="TOCFL Band B">
+            <option value="B_1" disabled>Đề thi thử - Band B - Đề 1 (Sắp ra mắt)</option>
+        </optgroup>
+        <optgroup label="TOCFL Band C">
+            <option value="C_1" disabled>Đề thi thử - Band C - Đề 1 (Sắp ra mắt)</option>
+        </optgroup>
+    </select>
         </div>
 
         <!-- Nơi hiển thị nội dung chi tiết của đề thi khi bấm vào -->
