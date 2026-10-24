@@ -1680,12 +1680,3 @@ function changeExam(examId) {
 window.onload = function() {
     changeExam("A_1");
 };
-/* Tạo khung cố định và ép toàn bộ ảnh lọt thỏm vào trong */
-#exam-content-area img {
-    width: 100% !important;          /* Chiều rộng bằng đúng kích thước của ô chứa */
-    height: 160px !important;        /* Cố định chiều cao khung (Bạn có thể sửa số 160 này cho vừa mắt) */
-    object-fit: contain !important;  /* Lệnh quan trọng nhất: Ép ảnh thu lại nằm trọn trong khung, tuyệt đối không xén mất đầu */
-    padding: 5px !important;         /* Tạo khoảng thở an toàn xung quanh ảnh */
-    display: block !important;
-    margin: 0 auto !important;       /* Căn giữa bức ảnh trong khung */
-}
