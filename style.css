@@ -51,3 +51,12 @@ body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; margin: 0; padd
 .pagination-btn:hover { background: #ffe6eb; }
 .pagination-btn.active { background: #d84b6b; color: white; }
 .pagination-btn:disabled { border-color: #ccc; color: #ccc; cursor: not-allowed; background: #f9f9f9; }
+/* Tạo khung cố định và ép toàn bộ ảnh lọt thỏm vào trong */
+#exam-content-area img {
+    width: 100% !important;
+    height: 160px !important;
+    object-fit: contain !important;
+    padding: 5px !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
