@@ -32,7 +32,7 @@ const readingExamData_Test2 = {
             part_name: "第二部分：看圖釋義 (Phần 2: Nhìn hình chọn câu)",
             description_zh: "說明：在這個部分，你會看到一張圖片。請根據圖片，從 (A)(B)(C) 三個選項中選出與圖片內容相符的句子。<br><i style='color: #666;'>Hướng dẫn: Ở phần này, bạn sẽ thấy một bức tranh. Dựa vào bức tranh, hãy chọn câu phù hợp nhất trong 3 đáp án (A)(B)(C).</i>",
             questions: [
-{ id: 16, question_zh: "16. 請選出與圖片相符的句子。", question_image: "images/Test_02/q16.png", type: "text_choice", options: [{ label: "A", text: "他在洗衣服。" }, { label: "B", text: "他在洗碗。" }, { label: "C", text: "他在洗菜。" }], correctAnswer: "B", explanation: "Giải thích: Hình ảnh người đàn ông rửa bát tương ứng với 「洗碗」(rửa bát)." },
+                { id: 16, question_zh: "16. 請選出與圖片相符的句子。", question_image: "images/Test_02/q16.png", type: "text_choice", options: [{ label: "A", text: "他在洗衣服。" }, { label: "B", text: "他在洗碗。" }, { label: "C", text: "他在洗菜。" }], correctAnswer: "B", explanation: "Giải thích: Hình ảnh người đàn ông rửa bát tương ứng với 「洗碗」(rửa bát)." },
                 { id: 17, question_zh: "17. 請選出與圖片相符的句子。", question_image: "images/Test_02/q17.png", type: "text_choice", options: [{ label: "A", text: "她在唱歌。" }, { label: "B", text: "她在打電話。" }, { label: "C", text: "她在聽音樂。" }], correctAnswer: "C", explanation: "Giải thích: Hình ảnh cô gái đeo tai nghe tương ứng với 「聽音樂」(nghe nhạc)." },
                 { id: 18, question_zh: "18. 請選出與圖片相符的句子。", question_image: "images/Test_02/q18.png", type: "text_choice", options: [{ label: "A", text: "這裡是醫院。" }, { label: "B", text: "這裡是郵局。" }, { label: "C", text: "這裡是銀行。" }], correctAnswer: "B", explanation: "Giải thích: Biển hiệu bưu điện tương ứng với 「郵局」(Bưu điện)." },
                 { id: 19, question_zh: "19. 請選出與圖片相符的句子。", question_image: "images/Test_02/q19.png", type: "text_choice", options: [{ label: "A", text: "眼鏡在盒子裡。" }, { label: "B", text: "眼鏡在書下面。" }, { label: "C", text: "眼鏡在書上面。" }], correctAnswer: "C", explanation: "Giải thích: Kính nằm trên quyển sách tương ứng với 「書上面」(trên quyển sách)." },
@@ -47,6 +47,7 @@ const readingExamData_Test2 = {
                 { id: 28, question_zh: "28. 請選出與圖片相符的句子。", question_image: "images/Test_02/q28.png", type: "text_choice", options: [{ label: "A", text: "學生正在睡覺。" }, { label: "B", text: "學生正在唱歌。" }, { label: "C", text: "學生有問題想問。" }], correctAnswer: "C", explanation: "Giải thích: Học sinh giơ tay tương ứng với 「問問題」(hỏi câu hỏi)." },
                 { id: 29, question_zh: "29. 請選出與圖片相符的句子。", question_image: "images/Test_02/q29.png", type: "text_choice", options: [{ label: "A", text: "公車上沒有人。" }, { label: "B", text: "公車上很多人。" }, { label: "C", text: "公車上只有兩個人。" }], correctAnswer: "B", explanation: "Giải thích: Xe buýt chật kín người tương ứng với 「很多人」(rất nhiều người)." },
                 { id: 30, question_zh: "30. 請選出與圖片相符的句子。", question_image: "images/Test_02/q30.png", type: "text_choice", options: [{ label: "A", text: "她坐公車去上班。" }, { label: "B", text: "她騎機車去上班。" }, { label: "C", text: "她開車去上班。" }], correctAnswer: "B", explanation: "Giải thích: Cô gái đi xe máy tương ứng với 「騎機車」(đi xe máy)." }
+                ]
         },
 
         // ==========================================
