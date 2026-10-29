@@ -1,4 +1,4 @@
-const listeningExamData = [
+var listeningExamData = [
     // ==========================================
     // PHẦN 1: NGHE VÀ CHỌN ĐÁP ÁN ĐÚNG THEO TRANH (Câu 1 - 15)
     // ==========================================
