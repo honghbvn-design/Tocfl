@@ -1629,25 +1629,25 @@ function submitListeningExam() {
 // HỆ THỐNG ĐIỀU PHỐI DỮ LIỆU ĐỀ THI (SCALABLE FRAMEWORK)
 // =====================================================================
 
-// LƯỚI AN TOÀN: Tự động sao lưu dữ liệu gốc của Đề 1 khi vừa mở trang
+// LƯỚI AN TOÀN: Sao lưu dữ liệu gốc của Đề 1 (Tách riêng Đọc và Nghe)
 if (typeof window.originalTest1Reading === 'undefined' && typeof examData !== 'undefined' && examData.length > 0) {
     window.originalTest1Reading = examData[0].reading_sections;
 }
-if (typeof window.originalTest1Listening === 'undefined' && typeof examData !== 'undefined' && examData.length > 0) {
-    window.originalTest1Listening = examData[0].listening_sections;
+if (typeof window.originalTest1Listening === 'undefined' && typeof listeningExamData !== 'undefined') {
+    window.originalTest1Listening = listeningExamData;
 }
 
 function getExamDatabase() {
     return {
         "A_1": {
             title: "Đề thi thử TOCFL Band A - Đề số 1",
-            // Lấy lại dữ liệu Đề 1 từ lưới an toàn
             listening: window.originalTest1Listening || [],
             reading: window.originalTest1Reading || []
         },
         "A_2": {
             title: "Đề thi thử TOCFL Band A - Đề số 2",
-            listening: typeof listeningExamData_Test2 !== 'undefined' ? listeningExamData_Test2 : [], 
+            // Lấy dữ liệu Nghe từ biến Test 2 mà bạn vừa tạo
+            listening: typeof listeningExamData_Test2 !== 'undefined' ? listeningExamData_Test2 : [],
             reading: typeof readingExamData_Test2 !== 'undefined' ? readingExamData_Test2.reading_sections : []
         }
     };
@@ -1659,19 +1659,25 @@ function changeExam(examId) {
     
     if (!selectedExam) return;
 
+    // 1. Ép hệ thống nhận diện dữ liệu Đọc mới
     if (typeof examData !== 'undefined' && examData.length > 0) {
         examData[0].title = selectedExam.title;
-        examData[0].listening_sections = selectedExam.listening;
         examData[0].reading_sections = selectedExam.reading;
-        
         window.currentReadingData = selectedExam.reading;
     }
 
+    // 2. Ép hệ thống nhận diện dữ liệu Nghe mới (MỞ KHÓA BÀI NGHE)
+    if (typeof listeningExamData !== 'undefined') {
+        listeningExamData = selectedExam.listening;
+    }
+
+    // Xóa bảng kết quả cũ nếu có
     const rBoard = document.getElementById('reading-result-board');
     if (rBoard) rBoard.remove();
     const lBoard = document.getElementById('listening-result-board');
     if (lBoard) lBoard.remove();
 
+    // Kích hoạt vẽ lại giao diện
     if (typeof loadExamContent === 'function') {
         loadExamContent(0); 
     }
