@@ -50,24 +50,38 @@ const readingExamData_Test2 = {
                 ]
         },
 
-        // ==========================================
+// ==========================================
         // PHẦN 3: ĐIỀN VÀO CHỖ TRỐNG (Câu 31 - 40)
         // ==========================================
         {
             part_name: "第三部分：填空 (Phần 3: Điền vào chỗ trống)",
             description_zh: "說明：在這個部分，每個題組會有一張情境圖片，圖片下面有幾個句子。請根據圖片情境，選出最合適的答案。<br><i style='color: #666;'>Hướng dẫn: Ở phần này, mỗi nhóm câu hỏi sẽ có một bức tranh tình huống và vài câu bên dưới. Dựa vào tình huống, hãy chọn đáp án phù hợp nhất.</i>",
             questions: [
-                { id: 31, context_image: "images/Test_02/q31_35.png", question_zh: "31. 這家餐廳的 ( ) 很特別，因為裡面有很多外國菜。", type: "text_choice", options: [{ label: "A", text: "菜單" }, { label: "B", text: "照片" }, { label: "C", text: "地圖" }], correctAnswer: "A", explanation: "Giải thích: 「菜單」(Thực đơn của nhà hàng có nhiều món ngoại)." },
-                { id: 32, question_zh: "32. 大衛 ( ) 了一份義大利麵...", type: "text_choice", options: [{ label: "A", text: "做" }, { label: "B", text: "點" }, { label: "C", text: "喝" }], correctAnswer: "B", explanation: "Giải thích: 「點」(Điểm/gọi món - 點了一份義大利麵 = gọi 1 phần mì Ý)." },
-                { id: 33, question_zh: "33. 大衛說他要一杯熱紅茶，( ) 要加一點糖。", type: "text_choice", options: [{ label: "A", text: "就" }, { label: "B", text: "還" }, { label: "C", text: "才" }], correctAnswer: "B", explanation: "Giải thích: 「還」(Còn/thêm - 還要加一點糖 = còn muốn thêm chút đường)." },
-                { id: 34, question_zh: "34. 吃飽以後，他們覺得這家餐廳的菜不但好吃，而且服務也很 ( ) 。", type: "text_choice", options: [{ label: "A", text: "奇怪" }, { label: "B", text: "麻煩" }, { label: "C", text: "不錯" }], correctAnswer: "C", explanation: "Giải thích: 「不錯」(Phục vụ cũng rất 'không tồi' / tốt)." },
-                { id: 35, question_zh: "35. 最後，大衛拿出錢包準備 ( ) 。", type: "text_choice", options: [{ label: "A", text: "找錢" }, { label: "B", text: "買單" }, { label: "C", text: "點菜" }], correctAnswer: "B", explanation: "Giải thích: 「買單」(Lấy ví ra chuẩn bị 'thanh toán')." },
+                // --- ĐOẠN VĂN 1 (Câu 31 - 35) ---
+                { 
+                    id: 31, 
+                    context_text: "這家餐廳的 (31) 很特別，因為裡面有很多外國菜。大衛 (32) 了一份義大利麵，他說他要一杯熱紅茶，(33) 要加一點糖。吃飽以後，他們覺得這家餐廳的菜不但好吃，而且服務也很 (34) 。最後，大衛拿出錢包準備 (35) 。",
+                    context_image: "images/Test_02/q31_35.png", 
+                    question_zh: "31. 請選擇正確的詞語：", 
+                    type: "text_choice", options: [{ label: "A", text: "菜單" }, { label: "B", text: "照片" }, { label: "C", text: "地圖" }], correctAnswer: "A", explanation: "Giải thích: 「菜單」(Thực đơn của nhà hàng có nhiều món ngoại)." 
+                },
+                { id: 32, question_zh: "32. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "做" }, { label: "B", text: "點" }, { label: "C", text: "喝" }], correctAnswer: "B", explanation: "Giải thích: 「點」(Điểm/gọi món - 點了一份義大利麵 = gọi 1 phần mì Ý)." },
+                { id: 33, question_zh: "33. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "就" }, { label: "B", text: "還" }, { label: "C", text: "才" }], correctAnswer: "B", explanation: "Giải thích: 「還」(Còn/thêm - 還要加一點糖 = còn muốn thêm chút đường)." },
+                { id: 34, question_zh: "34. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "奇怪" }, { label: "B", text: "麻煩" }, { label: "C", text: "不錯" }], correctAnswer: "C", explanation: "Giải thích: 「不錯」(Phục vụ cũng rất 'không tồi' / tốt)." },
+                { id: 35, question_zh: "35. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "找錢" }, { label: "B", text: "買單" }, { label: "C", text: "點菜" }], correctAnswer: "B", explanation: "Giải thích: 「買單」(Lấy ví ra chuẩn bị 'thanh toán')." },
                 
-                { id: 36, context_image: "images/Test_02/q36_40.png", question_zh: "36. 他租了一 ( ) 新房子，離捷運站很近。", type: "text_choice", options: [{ label: "A", text: "間" }, { label: "B", text: "輛" }, { label: "C", text: "張" }], correctAnswer: "A", explanation: "Giải thích: 「間」(Lượng từ của nhà/phòng là 間)." },
-                { id: 37, question_zh: "37. 雖然新房子不大，可是很乾淨，而且外面有一個小公園，( ) 很好。", type: "text_choice", options: [{ label: "A", text: "時間" }, { label: "B", text: "環境" }, { label: "C", text: "交通" }], correctAnswer: "B", explanation: "Giải thích: 「環境」(Có công viên nên 'môi trường' rất tốt)." },
-                { id: 38, question_zh: "38. 這個週末，他的好朋友小王來幫他 ( ) 東西。", type: "text_choice", options: [{ label: "A", text: "搬" }, { label: "B", text: "買" }, { label: "C", text: "洗" }], correctAnswer: "A", explanation: "Giải thích: 「搬」(Bạn đến giúp 'chuyển' đồ đạc)." },
-                { id: 39, question_zh: "39. 因為東西很多，他們從早上忙 ( ) 下午才做完。", type: "text_choice", options: [{ label: "A", text: "在" }, { label: "B", text: "到" }, { label: "C", text: "從" }], correctAnswer: "B", explanation: "Giải thích: 「到」(Từ sáng 'đến' chiều)." },
-                { id: 40, question_zh: "40. 為了謝謝小王，小李晚上 ( ) 他去吃大餐。", type: "text_choice", options: [{ label: "A", text: "給" }, { label: "B", text: "讓" }, { label: "C", text: "請" }], correctAnswer: "C", explanation: "Giải thích: 「請」(Để cảm ơn nên 'mời' đi ăn)." }
+                // --- ĐOẠN VĂN 2 (Câu 36 - 40) ---
+                { 
+                    id: 36, 
+                    context_text: "他租了一 (36) 新房子，離捷運站很近。雖然新房子不大，可是很乾淨，而且外面有一個小公園，(37) 很好。這個週末，他的好朋友小王來幫他 (38) 東西。因為東西很多，他們從早上忙 (39) 下午才做完。為了謝謝小王，小李晚上 (40) 他去吃大餐。",
+                    context_image: "images/Test_02/q36_40.png", 
+                    question_zh: "36. 請選擇正確的詞語：", 
+                    type: "text_choice", options: [{ label: "A", text: "間" }, { label: "B", text: "輛" }, { label: "C", text: "張" }], correctAnswer: "A", explanation: "Giải thích: 「間」(Lượng từ của nhà/phòng là 間)." 
+                },
+                { id: 37, question_zh: "37. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "時間" }, { label: "B", text: "環境" }, { label: "C", text: "交通" }], correctAnswer: "B", explanation: "Giải thích: 「環境」(Có công viên nên 'môi trường' rất tốt)." },
+                { id: 38, question_zh: "38. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "搬" }, { label: "B", text: "買" }, { label: "C", text: "洗" }], correctAnswer: "A", explanation: "Giải thích: 「搬」(Bạn đến giúp 'chuyển' đồ đạc)." },
+                { id: 39, question_zh: "39. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "在" }, { label: "B", text: "到" }, { label: "C", text: "從" }], correctAnswer: "B", explanation: "Giải thích: 「到」(Từ sáng 'đến' chiều)." },
+                { id: 40, question_zh: "40. 請選擇正確的詞語：", type: "text_choice", options: [{ label: "A", text: "給" }, { label: "B", text: "讓" }, { label: "C", text: "請" }], correctAnswer: "C", explanation: "Giải thích: 「請」(Để cảm ơn nên 'mời' đi ăn)." }
             ]
         },
 
