@@ -91,18 +91,26 @@ const readingExamData_Test2 = {
             ]
         },
 
-        // ==========================================
+       // ==========================================
         // PHẦN 4: ĐOẠN VĂN (Câu 41 - 45)
         // ==========================================
         {
             part_name: "第四部分：段落填空 (Phần 4: Hoàn thành đoạn văn)",
-            description_zh: "說明：在這個部分，你會看到一段短文，短文中有五個空格，短文下方有六個選項。請根據短文的上下文，選出最適合該空格的答案。注意，一個選項只能用一次。<br><i style='color: #666;'>Hướng dẫn: Ở phần này, bạn sẽ đọc một đoạn văn có 5 chỗ trống và 6 lựa chọn bên dưới. Hãy chọn đáp án phù hợp nhất cho mỗi chỗ trống. Mỗi đáp án chỉ được dùng 1 lần.</i>",
+            description_zh: "說明：在這個部分，你會看到一段短文，短文中五個空格，短文下方有六個選項。請根據短文的上下文，選出最適合該空格的答案。注意，一個選項只能用一次。<br><i style='color: #666;'>Hướng dẫn: Ở phần này, bạn sẽ đọc một đoạn văn có 5 chỗ trống và 6 lựa chọn bên dưới. Hãy chọn đáp án phù hợp nhất cho mỗi chỗ trống. Mỗi đáp án chỉ được dùng 1 lần.</i>",
             questions: [
-                { id: 41, question_zh: "41. 我們是坐火車去的，( )。", type: "text_choice", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "C", explanation: "Giải thích: Đi bằng xe lửa, bởi vì xe lửa nhanh hơn tự lái xe." },
-                { id: 42, question_zh: "42. 花蓮的海邊非常漂亮，( )。", type: "text_choice", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "E", explanation: "Giải thích: Biển Hóa Liên rất đẹp, chúng tôi đã chụp rất nhiều ảnh ở biển." },
-                { id: 43, question_zh: "43. 晚上，我們去逛了當地的夜市，( )。", type: "text_choice", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "B", explanation: "Giải thích: Đi dạo chợ đêm địa phương, đã ăn rất nhiều món ăn vặt nổi tiếng." },
-                { id: 44, question_zh: "44. 雖然這次旅行只有兩天，( )。", type: "text_choice", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "A", explanation: "Giải thích: Dù du lịch chỉ 2 ngày, nhưng chúng tôi chơi rất vui vẻ." },
-                { id: 45, question_zh: "45. 我們已經決定了，( )！", type: "text_choice", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "D", explanation: "Giải thích: Chúng tôi quyết định rồi, kỳ nghỉ sau nhất định sẽ lại đến chơi." }
+                { 
+                    id: 41, 
+                    type: "text_choice", 
+                    passage_zh: "我們是坐火車去的，(41)。花蓮的海邊非常漂亮，(42)。晚上，我們去逛了當地的夜市，(43)。雖然這次旅行只有兩天，(44)。我們已經決定了，(45)！",
+                    question_zh: "41. 請選擇最適合的句子：", 
+                    options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], 
+                    correctAnswer: "C", 
+                    explanation: "Giải thích: Đi bằng xe lửa, bởi vì xe lửa nhanh hơn tự lái xe." 
+                },
+                { id: 42, type: "text_choice", question_zh: "42. 請選擇最適合的句子：", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "E", explanation: "Giải thích: Biển Hóa Liên rất đẹp, chúng tôi đã chụp rất nhiều ảnh ở biển." },
+                { id: 43, type: "text_choice", question_zh: "43. 請選擇最適合的句子：", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "B", explanation: "Giải thích: Đi dạo chợ đêm địa phương, đã ăn rất nhiều món ăn vặt nổi tiếng." },
+                { id: 44, type: "text_choice", question_zh: "44. 請選擇最適合的句子：", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "A", explanation: "Giải thích: Dù du lịch chỉ 2 ngày, nhưng chúng tôi chơi rất vui vẻ." },
+                { id: 45, type: "text_choice", question_zh: "45. 請選擇最適合的句子：", options: [{ label: "A", text: "可是我們玩得非常開心" }, { label: "B", text: "吃了有很多名的小吃" }, { label: "C", text: "因為火車比自己開車快多了" }, { label: "D", text: "下次放假還要再來玩" }, { label: "E", text: "我們在海邊拍了很多照片" }, { label: "F", text: "所以我忘了帶照相機" }], correctAnswer: "D", explanation: "Giải thích: Chúng tôi quyết định rồi, kỳ nghỉ sau nhất định sẽ lại đến chơi." }
             ]
         },
 
